@@ -1,0 +1,1021 @@
+{
+  "id" : "hxm3-23vy",
+  "name" : "E-Designations",
+  "assetType" : "dataset",
+  "attribution" : "Department of City Planning (DCP)",
+  "attributionLink" : "https://www.nyc.gov/site/planning/data-maps/open-data.page",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1515189994,
+  "description" : "This data set contains information and locations of (E) Designations, including CEQR\nEnvironment Requirements (Table 1) and CEQR Restrictive Declarations (Table 2), in\nAppendix C of the Zoning Resolution. An (E) Designation provides notice of the\npresence of an environmental requirement pertaining to potential hazardous materials\ncontamination, high ambient noise levels or air emission concerns on a particular\ntax lot.\n\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/e-designations\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 20260707",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3797,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41016880,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1734641470,
+  "publicationGroup" : 14768409,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1786545441,
+  "rowsUpdatedBy" : "iqqb-gm94",
+  "tableId" : 19719255,
+  "totalTimesRated" : 0,
+  "viewCount" : 4967,
+  "viewLastModified" : 1786545438,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1549917078,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6658066,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1549917078,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 603016532,
+    "name" : "ENUMBER",
+    "dataTypeName" : "text",
+    "description" : "Identification number assigned to E-Designations",
+    "fieldName" : "enumber",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 59385113,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "R-99",
+      "null" : "0",
+      "top" : [ {
+        "item" : "E-175",
+        "count" : "753"
+      }, {
+        "item" : "E-138",
+        "count" : "665"
+      }, {
+        "item" : "E-216",
+        "count" : "495"
+      }, {
+        "item" : "E-842",
+        "count" : "490"
+      }, {
+        "item" : "E-366",
+        "count" : "403"
+      }, {
+        "item" : "E-218",
+        "count" : "372"
+      }, {
+        "item" : "E-137",
+        "count" : "315"
+      }, {
+        "item" : "E-442",
+        "count" : "301"
+      }, {
+        "item" : "E-601",
+        "count" : "263"
+      }, {
+        "item" : "E-232",
+        "count" : "251"
+      }, {
+        "item" : "E-53",
+        "count" : "229"
+      }, {
+        "item" : "E-279",
+        "count" : "222"
+      }, {
+        "item" : "E-185",
+        "count" : "217"
+      }, {
+        "item" : "E-422",
+        "count" : "200"
+      }, {
+        "item" : "E-750",
+        "count" : "172"
+      }, {
+        "item" : "E-41",
+        "count" : "168"
+      }, {
+        "item" : "E-201",
+        "count" : "152"
+      }, {
+        "item" : "E-810",
+        "count" : "146"
+      }, {
+        "item" : "E-285",
+        "count" : "143"
+      }, {
+        "item" : "E-848",
+        "count" : "138"
+      } ],
+      "smallest" : "E-1",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016533,
+    "name" : "E_EFFECTIVE_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the E-Designation went in to effect or was established.",
+    "fieldName" : "effective_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 59385114,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "2026-06-01T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2007-09-10T00:00:00.000",
+        "count" : "757"
+      }, {
+        "item" : "2005-05-11T00:00:00.000",
+        "count" : "665"
+      }, {
+        "item" : "2009-07-29T00:00:00.000",
+        "count" : "506"
+      }, {
+        "item" : "2025-10-29T00:00:00.000",
+        "count" : "497"
+      }, {
+        "item" : "2008-11-19T00:00:00.000",
+        "count" : "495"
+      }, {
+        "item" : "2016-04-20T00:00:00.000",
+        "count" : "403"
+      }, {
+        "item" : "2008-10-07T00:00:00.000",
+        "count" : "372"
+      }, {
+        "item" : "2018-03-21T00:00:00.000",
+        "count" : "319"
+      }, {
+        "item" : "2005-01-19T00:00:00.000",
+        "count" : "315"
+      }, {
+        "item" : "1994-06-09T00:00:00.000",
+        "count" : "313"
+      }, {
+        "item" : "2007-10-29T00:00:00.000",
+        "count" : "285"
+      }, {
+        "item" : "2021-11-23T00:00:00.000",
+        "count" : "281"
+      }, {
+        "item" : "2011-10-05T00:00:00.000",
+        "count" : "266"
+      }, {
+        "item" : "2017-11-30T00:00:00.000",
+        "count" : "217"
+      }, {
+        "item" : "2007-07-25T00:00:00.000",
+        "count" : "189"
+      }, {
+        "item" : "2010-10-13T00:00:00.000",
+        "count" : "182"
+      }, {
+        "item" : "2024-08-15T00:00:00.000",
+        "count" : "178"
+      }, {
+        "item" : "2009-06-30T00:00:00.000",
+        "count" : "170"
+      }, {
+        "item" : "1992-12-17T00:00:00.000",
+        "count" : "168"
+      }, {
+        "item" : "2013-12-10T00:00:00.000",
+        "count" : "159"
+      } ],
+      "smallest" : "1983-04-28T00:00:00.000",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016534,
+    "name" : "BOROCODE",
+    "dataTypeName" : "number",
+    "description" : "A one digit numeric code that represents the Borough of New York City  where the E-desigination is located",
+    "fieldName" : "borocode",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 59385115,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "4746"
+      }, {
+        "item" : "4",
+        "count" : "3884"
+      }, {
+        "item" : "1",
+        "count" : "2923"
+      }, {
+        "item" : "2",
+        "count" : "1990"
+      }, {
+        "item" : "5",
+        "count" : "413"
+      } ],
+      "smallest" : "1",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016535,
+    "name" : "TAXBLOCK",
+    "dataTypeName" : "number",
+    "description" : "A five digit numeric code that represents the tax block where the E-desigination is located",
+    "fieldName" : "taxblock",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 59385116,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "16229",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1116",
+        "count" : "88"
+      }, {
+        "item" : "2380",
+        "count" : "70"
+      }, {
+        "item" : "1468",
+        "count" : "54"
+      }, {
+        "item" : "8470",
+        "count" : "52"
+      }, {
+        "item" : "1471",
+        "count" : "50"
+      }, {
+        "item" : "1997",
+        "count" : "50"
+      }, {
+        "item" : "2240",
+        "count" : "49"
+      }, {
+        "item" : "319",
+        "count" : "44"
+      }, {
+        "item" : "1133",
+        "count" : "41"
+      }, {
+        "item" : "16171",
+        "count" : "38"
+      }, {
+        "item" : "1226",
+        "count" : "38"
+      }, {
+        "item" : "1474",
+        "count" : "38"
+      }, {
+        "item" : "2472",
+        "count" : "37"
+      }, {
+        "item" : "1823",
+        "count" : "36"
+      }, {
+        "item" : "1996",
+        "count" : "36"
+      }, {
+        "item" : "16170",
+        "count" : "36"
+      }, {
+        "item" : "2378",
+        "count" : "35"
+      }, {
+        "item" : "1833",
+        "count" : "34"
+      }, {
+        "item" : "406",
+        "count" : "33"
+      }, {
+        "item" : "5516",
+        "count" : "33"
+      } ],
+      "smallest" : "1",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016536,
+    "name" : "TAXLOT",
+    "dataTypeName" : "number",
+    "description" : "A four digit numeric code that represents the tax block where the E-desigination is located",
+    "fieldName" : "taxlot",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 59385117,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "9100",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "912"
+      }, {
+        "item" : "5",
+        "count" : "272"
+      }, {
+        "item" : "7",
+        "count" : "251"
+      }, {
+        "item" : "6",
+        "count" : "247"
+      }, {
+        "item" : "12",
+        "count" : "237"
+      }, {
+        "item" : "10",
+        "count" : "233"
+      }, {
+        "item" : "20",
+        "count" : "229"
+      }, {
+        "item" : "16",
+        "count" : "228"
+      }, {
+        "item" : "21",
+        "count" : "224"
+      }, {
+        "item" : "25",
+        "count" : "223"
+      }, {
+        "item" : "14",
+        "count" : "222"
+      }, {
+        "item" : "7501",
+        "count" : "217"
+      }, {
+        "item" : "9",
+        "count" : "216"
+      }, {
+        "item" : "3",
+        "count" : "213"
+      }, {
+        "item" : "15",
+        "count" : "213"
+      }, {
+        "item" : "17",
+        "count" : "211"
+      }, {
+        "item" : "28",
+        "count" : "211"
+      }, {
+        "item" : "33",
+        "count" : "207"
+      }, {
+        "item" : "11",
+        "count" : "202"
+      }, {
+        "item" : "8",
+        "count" : "200"
+      } ],
+      "smallest" : "1",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016548,
+    "name" : "HAZMAT_CODE",
+    "dataTypeName" : "checkbox",
+    "description" : "A code indicating whether the E-Designation is related to hazardous materials",
+    "fieldName" : "hazmat_code",
+    "position" : 6,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 155959596,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "null" : "0",
+      "top" : [ {
+        "item" : true,
+        "count" : "10694"
+      }, {
+        "item" : false,
+        "count" : "3262"
+      } ],
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016549,
+    "name" : "AIR_CODE",
+    "dataTypeName" : "checkbox",
+    "description" : "A code indicating whether the E-Designation is related to air quality",
+    "fieldName" : "air_code",
+    "position" : 7,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 155959597,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "null" : "0",
+      "top" : [ {
+        "item" : false,
+        "count" : "7989"
+      }, {
+        "item" : true,
+        "count" : "5967"
+      } ],
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016550,
+    "name" : "NOISE_CODE",
+    "dataTypeName" : "checkbox",
+    "description" : "A code indicating whether the E-Designation is related to noise quality to air quality",
+    "fieldName" : "noise_code",
+    "position" : 8,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 155959598,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "null" : "0",
+      "top" : [ {
+        "item" : true,
+        "count" : "9096"
+      }, {
+        "item" : false,
+        "count" : "4860"
+      } ],
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 603016540,
+    "name" : "HAZMAT_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the hazardous material component of the E-designation was satisfied (remediated)",
+    "fieldName" : "hazmat_date",
+    "position" : 9,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 59385121,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "0",
+      "null" : "13956",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016541,
+    "name" : "AIR_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the air quality component of the E-designation was satisfied (remediated)",
+    "fieldName" : "air_date",
+    "position" : 10,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 59385122,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "0",
+      "null" : "13956",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016542,
+    "name" : "NOISE_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the noise quality component of the E-designation was satisfied (remediated)",
+    "fieldName" : "noise_date",
+    "position" : 11,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 59385123,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "307",
+      "largest" : "2026-05-14T00:00:00.000",
+      "null" : "13649",
+      "top" : [ {
+        "item" : "2025-12-19T00:00:00.000",
+        "count" : "16"
+      }, {
+        "item" : "2023-05-30T00:00:00.000",
+        "count" : "14"
+      }, {
+        "item" : "2018-08-02T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2018-05-01T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2022-04-06T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-05-26T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2026-04-26T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2012-08-06T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2019-09-19T00:00:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2023-12-26T00:00:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2008-06-17T00:00:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2022-11-22T00:00:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2022-10-26T00:00:00.000",
+        "count" : "3"
+      }, {
+        "item" : "2021-02-24T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2017-05-12T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2021-03-29T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2020-03-18T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2021-01-08T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2021-09-15T00:00:00.000",
+        "count" : "2"
+      }, {
+        "item" : "2018-08-20T00:00:00.000",
+        "count" : "2"
+      } ],
+      "smallest" : "2002-07-08T00:00:00.000",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016543,
+    "name" : "CEQR_NUM",
+    "dataTypeName" : "text",
+    "description" : "CEQR Number assigned to CEQR applications associated to the E-designation",
+    "fieldName" : "ceqr_num",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 59385124,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "99DCP044M",
+      "null" : "0",
+      "top" : [ {
+        "item" : "05DCP081Q",
+        "count" : "753"
+      }, {
+        "item" : "04DCP003K",
+        "count" : "665"
+      }, {
+        "item" : "07DCP078M",
+        "count" : "495"
+      }, {
+        "item" : "24DCP132Q",
+        "count" : "490"
+      }, {
+        "item" : "15DCP102K",
+        "count" : "403"
+      }, {
+        "item" : "08DCP021Q",
+        "count" : "372"
+      }, {
+        "item" : "03DCP031M",
+        "count" : "316"
+      }, {
+        "item" : "88-087X",
+        "count" : "313"
+      }, {
+        "item" : "17DCP019X",
+        "count" : "301"
+      }, {
+        "item" : "19DCP157K",
+        "count" : "263"
+      }, {
+        "item" : "09DCP056K",
+        "count" : "251"
+      }, {
+        "item" : "11DCP148X",
+        "count" : "222"
+      }, {
+        "item" : "07DCP070K",
+        "count" : "217"
+      }, {
+        "item" : "17DCP048M",
+        "count" : "200"
+      }, {
+        "item" : "23DCP065X",
+        "count" : "172"
+      }, {
+        "item" : "89-112K",
+        "count" : "168"
+      }, {
+        "item" : "07DCP030M",
+        "count" : "152"
+      }, {
+        "item" : "24DCP019K",
+        "count" : "146"
+      }, {
+        "item" : "12DCP156Y",
+        "count" : "143"
+      }, {
+        "item" : "25DCP001Q",
+        "count" : "138"
+      } ],
+      "smallest" : "00DCP004X",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016544,
+    "name" : "ULURP_NUM",
+    "dataTypeName" : "text",
+    "description" : "ULURP Numbers assigned to all ULURP applications associated to the E-designation",
+    "fieldName" : "ulurp_num",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 59385125,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "N260182ZAM; N260183ZAM",
+      "null" : "0",
+      "top" : [ {
+        "item" : "C070314AZMQ; N070315AZRQ",
+        "count" : "753"
+      }, {
+        "item" : "C050111ZMK; C050111AZMK; N050110ZRK; N050110AZRK",
+        "count" : "665"
+      }, {
+        "item" : "C080397AZMM; N080398AZRM",
+        "count" : "495"
+      }, {
+        "item" : "C250172ZMQ; N250173ZRQ",
+        "count" : "490"
+      }, {
+        "item" : "N160050ZRK; C160035ZMK",
+        "count" : "403"
+      }, {
+        "item" : "C080429ZMQ",
+        "count" : "372"
+      }, {
+        "item" : "C040499ZMM; C040499AZMM",
+        "count" : "315"
+      }, {
+        "item" : "C940227ZMX",
+        "count" : "313"
+      }, {
+        "item" : "C180051AZMX; N180050AZRX",
+        "count" : "301"
+      }, {
+        "item" : "N210178ZRK; C210177ZMK",
+        "count" : "263"
+      }, {
+        "item" : "C090334ZMK",
+        "count" : "251"
+      }, {
+        "item" : "C110384ZMX",
+        "count" : "222"
+      }, {
+        "item" : "C070447ZMK",
+        "count" : "217"
+      }, {
+        "item" : "N170362ZRM; C170361ZMM; N170359ZRM; C170358ZMM",
+        "count" : "200"
+      }, {
+        "item" : "N240016ZRX; C240015ZMX",
+        "count" : "172"
+      }, {
+        "item" : "C920693ZMK",
+        "count" : "168"
+      }, {
+        "item" : "C080099AZMM; N080100AZRM",
+        "count" : "152"
+      }, {
+        "item" : "C250014ZMK; N250015ZRK",
+        "count" : "146"
+      }, {
+        "item" : "C120294ZMK",
+        "count" : "143"
+      }, {
+        "item" : "C250176ZMQ; N250177ZRQ",
+        "count" : "138"
+      } ],
+      "smallest" : "000087ZMK",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 603016545,
+    "name" : "ZONING_MAP",
+    "dataTypeName" : "text",
+    "description" : "Zoning Map index number associated to the E-designation",
+    "fieldName" : "zoning_map",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138612573,
+    "cachedContents" : {
+      "non_null" : "0",
+      "null" : "13956",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : { }
+  }, {
+    "id" : 603016546,
+    "name" : "DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "A description of the E-Designation",
+    "fieldName" : "description",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138612571,
+    "cachedContents" : {
+      "non_null" : "13215",
+      "largest" : "Window Wall Attenuation & Alternate Ventilation",
+      "null" : "741",
+      "top" : [ {
+        "item" : "Window Wall Attenuation & Alternate Ventilation",
+        "count" : "1931"
+      }, {
+        "item" : "Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "1596"
+      }, {
+        "item" : "Underground Gasoline Storage Tanks* Testing Protocol.",
+        "count" : "1346"
+      }, {
+        "item" : "Underground Gasoline Storage Tanks* Testing Protocol.;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "1292"
+      }, {
+        "item" : "Hazardous Materials* Phase I and Phase II Testing Protocol",
+        "count" : "1070"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "869"
+      }, {
+        "item" : "Air Quality - HVAC natural gas with low Nox only;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "514"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "487"
+      }, {
+        "item" : "Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "393"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Underground Gasoline Storage Tanks* Testing Protocol.;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "214"
+      }, {
+        "item" : "Air Quality - #2 Fuel Oil or Natural Gas Heat and Hot Water;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol",
+        "count" : "183"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol",
+        "count" : "180"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas",
+        "count" : "172"
+      }, {
+        "item" : "Air Quality - #2 Fuel Oil or Natural Gas Heat and Hot Water;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "169"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Hazardous Materials* Phase I and Phase II Testing Protocol",
+        "count" : "166"
+      }, {
+        "item" : "Air Quality - #2 Fuel Oil or Natural Gas Heat and Hot Water;Exhaust stack location limitations",
+        "count" : "148"
+      }, {
+        "item" : "Air Quality - #2 Fuel Oil or #4 Fuel Oil or Natural Gas for HVAC systems;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "139"
+      }, {
+        "item" : "Air Quality - #2 Fuel Oil or Natural Gas Heat and Hot Water;Exhaust stack location limitations;Underground Gasoline Storage Tanks* Testing Protocol.;Window Wall Attenuation & Alternate Ventilation",
+        "count" : "137"
+      }, {
+        "item" : "Air Quality - HVAC fuel limited to natural gas;Exhaust stack location limitations",
+        "count" : "106"
+      }, {
+        "item" : "Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol",
+        "count" : "101"
+      } ],
+      "smallest" : "Air Quality - #2 Fuel Oil or #4 Fuel Oil or Natural Gas for HVAC systems;Exhaust stack location limitations",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : { }
+  }, {
+    "id" : 603016547,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "A ten digit numeric code that represents the tax lot where the E-desigination is located",
+    "fieldName" : "bbl",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138612572,
+    "cachedContents" : {
+      "non_null" : "13956",
+      "largest" : "5076320023",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1007780016",
+        "count" : "3"
+      }, {
+        "item" : "1019870001",
+        "count" : "3"
+      }, {
+        "item" : "3011427503",
+        "count" : "3"
+      }, {
+        "item" : "1008237507",
+        "count" : "3"
+      }, {
+        "item" : "1010900036",
+        "count" : "3"
+      }, {
+        "item" : "1017490043",
+        "count" : "3"
+      }, {
+        "item" : "1017490040",
+        "count" : "3"
+      }, {
+        "item" : "1017490033",
+        "count" : "3"
+      }, {
+        "item" : "1010900042",
+        "count" : "3"
+      }, {
+        "item" : "1007780013",
+        "count" : "3"
+      }, {
+        "item" : "1017490031",
+        "count" : "3"
+      }, {
+        "item" : "1008190015",
+        "count" : "3"
+      }, {
+        "item" : "3070650012",
+        "count" : "3"
+      }, {
+        "item" : "1007780018",
+        "count" : "3"
+      }, {
+        "item" : "3070650006",
+        "count" : "3"
+      }, {
+        "item" : "1007780066",
+        "count" : "3"
+      }, {
+        "item" : "1008190014",
+        "count" : "3"
+      }, {
+        "item" : "1017490035",
+        "count" : "3"
+      }, {
+        "item" : "1008190066",
+        "count" : "3"
+      }, {
+        "item" : "3011427501",
+        "count" : "3"
+      } ],
+      "smallest" : "1000980001",
+      "count" : "13956",
+      "cardinality" : "13956"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "nyedes_metadata.pdf",
+      "assetId" : "c4f07675-a989-4ebb-baa3-15bd49fc7d91",
+      "name" : "nyedes_metadata.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "06/13/2018",
+        "Update Frequency" : "Monthly",
+        "Data Change Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of City Planning (DCP)"
+      }
+    },
+    "rowLabel" : "E-Designation",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "e-designation", "(e) designation", "hazmat", "hazardous material", "contamination", "special designation", "window wall noise attenuation", "ambient noise level", "air quality", "impact", "zoning map designation", "zoning resolution", "environmental requirements", "new york city", "city planning", "dcp", "nyc" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

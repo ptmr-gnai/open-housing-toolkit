@@ -1,0 +1,17 @@
+{
+  "id": "mta_current_metadata",
+  "url": "https://data.ny.gov/api/views/39hk-dx4f.json",
+  "publisher": "Metropolitan Transportation Authority",
+  "retrieved_at": "2026-10-03T14:33:37.417139+00:00",
+  "coverage_limits": "Dataset metadata; source update date is not field-level validity date.",
+  "terms_url": "https://www.mta.info/developers",
+  "source_updated_at": 1791001340,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/mta_current_metadata.body",
+  "bytes": 35173,
+  "sha256": "e9dc539a12fe2de60dab0471bce47f2cdc5643e4b582100478677d091a775641",
+  "dataset_name": "MTA Subway Stations"
+}

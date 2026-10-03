@@ -1,0 +1,11 @@
+{
+  "id": "mta_stations",
+  "url": "https://raw.githubusercontent.com/MTA-New-York-City-Transit/Station-Data/master/Stations.csv",
+  "publisher": "MTA New York City Transit",
+  "retrieved_at": "2026-10-03T14:30:46.870411+00:00",
+  "coverage_limits": "Station reference coordinates; not entrance coordinates, service performance, or proof of current accessibility.",
+  "terms_url": "https://www.mta.info/developers",
+  "source_updated_at": null,
+  "status": "failed",
+  "error": "HTTPError: HTTP Error 404: Not Found"
+}

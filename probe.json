@@ -120,6 +120,11 @@
       "value": 60,
       "unit": "percent AMI",
       "rationale": "Research objective only. Official household-size schedule, utility allowance and income bands remain unknown; not used to infer legal rent."
+    },
+    "gross_per_zoning_sf": {
+      "value": 1.0,
+      "unit": "gross sf per zoning area proxy sf",
+      "rationale": "Simplification for probe arithmetic. Zoning floor area exemptions and actual gross building area conversion are unverified."
     }
   },
   "required_gates": [
@@ -136,5 +141,59 @@
     "public_site_claims": "blocked_until_required_gates_reviewed",
     "expert_pack": "allowed_with_unknowns",
     "media_draft": "research_process_only"
+  },
+  "candidate_reviews": {
+    "2028710002": {
+      "disposition": "Investigate current uses and leases before design",
+      "rationale": "Private ownership label and large area proxy justify a lead, but historical DOB filings describe a laundromat, medical signs and church/school/hall activity. PLUTO records retail use and E-442. Zero recorded homes does not imply an empty site. No new building rows observed in the exact-BBL queries; broader pipeline check remains unresolved. The E-designation source records hazardous-materials, air and noise requirements, including Phase I/II testing, HVAC fuel/stack limits and window attenuation or alternate ventilation; satisfaction status is not established.",
+      "inputs": [
+        "lot.2028710002.ownername",
+        "lot.2028710002.bldgclass",
+        "lot.2028710002.retailarea",
+        "lot.2028710002.edesignum",
+        "check.2028710002.dob_bis.row.3.job_description",
+        "check.2028710002.dob_bis.row.1.job_description",
+        "check.2028710002.dob_bis.row.11.job_description",
+        "check.2028710002.dob_now.records",
+        "check.2028710002.e_designation.row.0.hazmat_code",
+        "check.2028710002.e_designation.row.0.air_code",
+        "check.2028710002.e_designation.row.0.noise_code",
+        "check.2028710002.e_designation.row.0.description"
+      ]
+    },
+    "2028430040": {
+      "disposition": "Exclude from ordinary private redevelopment shortlist",
+      "rationale": "PLUTO records Education Department ownership and a school building class. DOB filings describe PS64 school improvements, including filings in 2026. A public-facility co-location proposal would be a different mission and would require an agency-led service plan; unused FAR alone does not justify housing redevelopment.",
+      "inputs": [
+        "lot.2028430040.ownername",
+        "lot.2028430040.bldgclass",
+        "check.2028430040.dob_now.row.1.job_description",
+        "check.2028430040.dob_now.row.1.filing_date",
+        "check.2028430040.dob_bis.row.0.job_description"
+      ]
+    },
+    "2024890077": {
+      "disposition": "Exclude from ordinary private redevelopment shortlist",
+      "rationale": "PLUTO records Police Department ownership; DOB NOW filings describe underground gasoline storage tank replacement and associated excavation work. Housing use requires a public-service replacement or co-location decision and environmental diligence. PLUTO and DOB use different street addresses on the same BBL; preserve the alias rather than treating it as another lot.",
+      "inputs": [
+        "lot.2024890077.ownername",
+        "lot.2024890077.address",
+        "check.2024890077.dob_now.row.1.job_description",
+        "check.2024890077.dob_now.row.0.job_description",
+        "check.2024890077.dob_now.row.1.house_no",
+        "check.2024890077.dob_now.row.1.street_name"
+      ]
+    }
+  },
+  "lead_decision": {
+    "bbl": "2028710002",
+    "rationale": "Use the top private commercial parcel as an occupancy-first investigation lead. The other two tested parcels are recorded public facilities. This is not a recommendation to acquire or redevelop.",
+    "inputs": [
+      "review.2028710002",
+      "review.2028430040",
+      "review.2024890077",
+      "lot.2028710002.capacity_gap_sf",
+      "lot.2028710002.distance_m"
+    ]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "e_designation_2028710002",
+  "url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028710002&%24limit=1000",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+  "coverage_limits": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Wed, 12 Aug 2026 14:37:19 GMT",
+  "cache_path": "cache/e_designation_2028710002.body",
+  "bytes": 450,
+  "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5"
+}

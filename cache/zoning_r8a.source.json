@@ -1,0 +1,16 @@
+{
+  "id": "zoning_r8a",
+  "url": "https://zr.planning.nyc.gov/article-ii/chapter-3/23-21",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:31:32.114409+00:00",
+  "coverage_limits": "One zoning section only. Does not resolve complete parcel entitlements or special district rules.",
+  "terms_url": "https://www.nyc.gov/home/terms-of-use.page",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 12:51:56 GMT",
+  "cache_path": "cache/zoning_r8a.body",
+  "bytes": 120188,
+  "sha256": "26955b46e3f1afeee545f94eca0ccc92f96c1c68cf94053272df82a52eeb9add"
+}

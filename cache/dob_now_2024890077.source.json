@@ -1,0 +1,16 @@
+{
+  "id": "dob_now_2024890077",
+  "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bbl%3D%272024890077%27&%24limit=10000&%24select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Ccurrent_status_date%2Capproved_date%2Cfirst_permit_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin%2Cbbl%2Chouse_no%2Cstreet_name%2Cowner_s_business_name",
+  "publisher": "NYC Department of Buildings",
+  "retrieved_at": "2026-10-03T14:45:20.098490+00:00",
+  "coverage_limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Fri, 02 Oct 2026 20:28:14 GMT",
+  "cache_path": "cache/dob_now_2024890077.body",
+  "bytes": 2063,
+  "sha256": "aad31153005c785794cd8294506636e5c0797d2953da8a111bad5dd8fe710564"
+}

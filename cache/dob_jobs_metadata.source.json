@@ -1,0 +1,17 @@
+{
+  "id": "dob_jobs_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/ic3t-wcy2.json",
+  "publisher": "NYC Department of Buildings",
+  "retrieved_at": "2026-10-03T14:30:46.870943+00:00",
+  "coverage_limits": "Legacy DOB BIS job filings; not complete coverage of DOB NOW or proof of completion.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1790977449,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/dob_jobs_metadata.body",
+  "bytes": 141763,
+  "sha256": "418902414e113ed71d5e52471b39402b21bd7281e7269b9147f2ca30a6244195",
+  "dataset_name": "DOB Job Application Filings"
+}

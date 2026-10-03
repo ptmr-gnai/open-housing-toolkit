@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """An inspectable housing screening and scenario pipeline. MIT; Python stdlib."""
-import argparse, csv, hashlib, io, json, math, pathlib
+import argparse, csv, hashlib, io, json, math, pathlib, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent
 
@@ -42,6 +42,10 @@ def validate_config(c):
         raise ValueError('Unsupported capacity formula')
     if s['missing_policy'] != 'exclude_from_numeric_rank_and_record_unknown':
         raise ValueError('Unsupported missing policy')
+    if [x['id'] for x in c['scenarios']]!=['A','B']:
+        raise ValueError('DSL v0.1 requires ordered scenarios A and B')
+    if c['exports']!={'public_site_claims':'blocked_until_required_gates_reviewed','expert_pack':'allowed_with_unknowns','media_draft':'research_process_only'}:
+        raise ValueError('Unsupported export gates')
     for name, item in c['assumptions'].items():
         if 'value' not in item or not item.get('unit') or not item.get('rationale'):
             raise ValueError('Undocumented assumption: ' + name)
@@ -68,6 +72,16 @@ class Graph:
                 if digest(ROOT/source['cache_path']) != source['sha256']:
                     raise ValueError('Source cache hash mismatch: ' + source['id'])
             self.sources[source['id']] = source
+        for source_id,source in self.sources.items():
+            parent = ('pluto_metadata' if source_id=='pluto_universe' else
+                      'dob_jobs_metadata' if source_id.startswith('dob_bis_') else
+                      'dob_now_metadata' if source_id.startswith('dob_now_') else
+                      'hpd_violations_metadata' if source_id.startswith('hpd_violations_') else
+                      'e_designation_metadata' if source_id.startswith('e_designation_20') else None)
+            if parent and parent in self.sources:
+                source['metadata_source_id']=parent
+                source['dataset_update_timestamp']=self.sources[parent].get('source_updated_at')
+                source['update_timestamp_limitation']='Dataset update timestamp; not validity date of this parcel field.'
 
     def add(self, claim_id, value, kind, unit=None, **kwargs):
         if claim_id in self.claims:
@@ -127,6 +141,8 @@ def screen(c, graph):
     if len(matches) != 1:
         raise ValueError('Station identity not unique')
     i, station = matches[0]
+    if station['Stop Name']!=c['scope']['station_name'] or c['scope']['route'] not in station['Daytime Routes'].split():
+        raise ValueError('Declared station name or route does not match source')
     for field in ['GTFS Latitude','GTFS Longitude','Stop Name','Daytime Routes','Station ID','ADA']:
         v = number(station[field]) if field in ['GTFS Latitude','GTFS Longitude'] else station[field]
         graph.observed('station.'+field,v,'mta_stations_official',{'row':i,'column':field})
@@ -138,6 +154,14 @@ def screen(c, graph):
     if not isinstance(raw,list) or len(raw) >= 10000:
         raise ValueError('Invalid or potentially truncated PLUTO universe')
     lat0,lon0 = number(station['GTFS Latitude']),number(station['GTFS Longitude'])
+    query=urllib.parse.parse_qs(urllib.parse.urlparse(graph.sources['pluto_universe']['url']).query).get('$where',[''])[0]
+    padlat,padlon=c['scope']['bbox_padding_lat'],c['scope']['bbox_padding_lon']
+    expected_lat=f'latitude between {lat0-padlat:.6f} and {lat0+padlat:.6f}'
+    expected_lon=f'longitude between {lon0-padlon:.6f} and {lon0+padlon:.6f}'
+    if expected_lat not in query or expected_lon not in query:
+        raise ValueError('Cached universe does not match declared station and bounding window; recollect sources')
+    if r['value']>min(haversine(lat0,lon0,lat0+padlat,lon0),haversine(lat0,lon0,lat0,lon0+padlon)):
+        raise ValueError('Radius exceeds cached bounding window; recollect a larger universe')
     inside, eligible, excluded = [],[],[]
     for i,row in enumerate(raw):
         identity = bbl(row.get('bbl'))
@@ -191,7 +215,8 @@ def scenario(c, g, identity, spec):
         return value
     av=lambda key:g.val('assumption.'+key)
     lotarea,far = g.val(p+'.lotarea'),g.val(p+'.residfar')
-    gross=derive('gross_sf',lotarea*far*spec['far_share'],[p+'.lotarea',p+'.residfar',k+'.far_share'],'lotarea * recorded residfar * far_share','sf')
+    zoned=derive('zoning_area_proxy_sf',lotarea*far*spec['far_share'],[p+'.lotarea',p+'.residfar',k+'.far_share'],'lotarea * recorded residfar * far_share; reference area only','sf')
+    gross=derive('gross_sf',zoned*av('gross_per_zoning_sf'),[k+'.zoning_area_proxy_sf','assumption.gross_per_zoning_sf'],'zoning_area_proxy_sf * gross_per_zoning_sf; simplified conversion, no verified zoning exclusions','sf')
     net=derive('net_sf',gross*av('net_efficiency'),[k+'.gross_sf','assumption.net_efficiency'],'gross_sf * net_efficiency','sf')
     units=derive('units',math.floor(net/av('avg_net_unit_sf')),[k+'.net_sf','assumption.avg_net_unit_sf'],'floor(net_sf / average_net_unit_sf)','units')
     footprint=derive('footprint_sf',lotarea*spec['coverage'],[p+'.lotarea',k+'.coverage'],'lotarea * coverage','sf')
@@ -215,7 +240,7 @@ def enrich(c,g,screen_result):
     dossiers=[]
     for identity in screen_result['investigated_bbls']:
         checks={}
-        for source_key in ['dob_bis','dob_now','hpd_violations']:
+        for source_key in ['dob_bis','dob_now','hpd_violations','e_designation']:
             source_id=source_key+'_'+identity
             record=g.sources.get(source_id)
             key='check.'+identity+'.'+source_key
@@ -224,12 +249,21 @@ def enrich(c,g,screen_result):
                 if not isinstance(data,list) or len(data)>=10000:
                     raise ValueError('Invalid or truncated challenge query: '+source_id)
                 g.observed(key+'.records',len(data),source_id,{'operation':'length of returned array'},'filing rows' if source_key.startswith('dob') else 'violation rows')
+                for index,row in enumerate(data):
+                    for field,value in row.items():
+                        g.observed(key+'.row.'+str(index)+'.'+field,value,source_id,{'row':index,'field':field})
                 checks[source_key]={'status':'observed','source_id':source_id,'record_count':len(data),'rows':data}
             else:
                 g.unknown(key+'.records','Challenge source unavailable or not collected; no inference of zero')
                 checks[source_key]={'status':'unknown','source_id':source_id}
         gates={gate:{'status':'unknown','claim_id':g.unknown('gate.'+identity+'.'+gate,'Requires additional evidence or professional verification.')} for gate in c['required_gates']}
-        dossiers.append({'bbl':identity,'checks':checks,'gates':gates,'scenarios':[scenario(c,g,identity,spec) for spec in c['scenarios']]})
+        review=c.get('candidate_reviews',{}).get(identity)
+        if review:
+            g.add('review.'+identity,review['disposition'],'judgment',rationale=review['rationale'],inputs=review['inputs'],actor='researcher review of cached public records')
+            for parent in review['inputs']:
+                if parent not in g.claims:
+                    raise ValueError('Unknown review input '+parent)
+        dossiers.append({'bbl':identity,'checks':checks,'gates':gates,'review':review,'scenarios':[scenario(c,g,identity,spec) for spec in c['scenarios']]})
     return dossiers
 
 def build(config_path):
@@ -240,8 +274,9 @@ def build(config_path):
         g.assumption('assumption.'+name,record['value'],'/assumptions/'+name+'/value',record['unit'],record['rationale'])
     result=screen(c,g)
     dossiers=enrich(c,g,result)
-    for name in ['bounding_window_count','within_radius_count','eligible_count']:
-        g.derived('screen.'+name,result[name],['scope.radius_m','screen.min_lotarea_sf','screen.max_lotarea_sf','screen.min_capacity_gap_sf']+[k for k in g.claims if k.startswith('lot.') and k.endswith('.distance_m')],'count records under pipeline.screen conditions; inspect full universe and exclusions','lots')
+    g.observed('screen.bounding_window_count',result['bounding_window_count'],'pluto_universe',{'operation':'length of returned array'},'lots')
+    g.derived('screen.within_radius_count',result['within_radius_count'],['scope.radius_m']+[k for k in g.claims if k.startswith('lot.') and k.endswith('.distance_m')],'count nonmissing distances <= scope radius','lots')
+    g.derived('screen.eligible_count',result['eligible_count'],['scope.radius_m','screen.min_lotarea_sf','screen.max_lotarea_sf','screen.min_capacity_gap_sf']+[k for k in g.claims if k.startswith('lot.') and any(k.endswith('.'+field) for field in ['distance_m','capacity_gap_sf','lotarea','unitsres','bldgarea','residfar'])],'count records satisfying all pipeline.screen conditions; inspect universe and exclusions','lots')
     g.add('decision.screening',c['screen']['selection_rationale'],'judgment',rule=c['screen']['ranking'],inputs=['screen.eligible_count'],actor='declared researcher preference')
     lead=c.get('lead_decision',{})
     if lead:
@@ -264,7 +299,8 @@ def export(ir,outdir,config_path):
     write_json(outdir/'dossiers.json',ir['dossiers'])
     from render import render
     render(ir,outdir)
-    inputs={str(p.relative_to(ROOT)):digest(p) for p in sorted(ROOT.glob('*.py'))}
+    input_files=list(ROOT.glob('*.py'))+list((ROOT/'schemas').glob('*.json'))+[p for p in (ROOT/'tests').glob('*') if p.is_file()]
+    inputs={str(p.relative_to(ROOT)):digest(p) for p in sorted(input_files)}
     inputs[str(pathlib.Path(config_path).resolve().relative_to(ROOT)) if pathlib.Path(config_path).resolve().is_relative_to(ROOT) else str(config_path)]=digest(config_path)
     outputs={str(p.relative_to(outdir)):digest(p) for p in sorted(outdir.rglob('*')) if p.is_file() and p.name not in ['manifest.json','validation.json']}
     write_json(outdir/'manifest.json',{'schema_version':'0.1','code_and_config_sha256':inputs,'source_sha256':{k:v.get('sha256') for k,v in ir['sources'].items()},'output_sha256':outputs,'replay_mode':'offline cached snapshots','verification':'See tests and validation.json; no professional clearance'})

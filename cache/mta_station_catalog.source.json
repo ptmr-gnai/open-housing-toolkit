@@ -1,0 +1,17 @@
+{
+  "id": "mta_station_catalog",
+  "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.ny.gov&q=MTA%20Subway%20Stations&limit=5",
+  "publisher": "New York State Open Data catalog",
+  "retrieved_at": "2026-10-03T14:31:31.602736+00:00",
+  "coverage_limits": "Discovery metadata only; not station facts.",
+  "terms_url": null,
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/mta_station_catalog.body",
+  "bytes": 38984,
+  "sha256": "3c1b138952094bc2fc45ff167199b368f9cf220b87e3854d373a4b5bffac8c7a",
+  "dataset_name": null
+}

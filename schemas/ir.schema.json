@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Housing evidence IR v0.1",
+  "type": "object",
+  "required": [
+    "ir_version",
+    "config",
+    "sources",
+    "claims",
+    "screen",
+    "dossiers",
+    "limitations"
+  ],
+  "properties": {
+    "ir_version": {
+      "const": "0.1"
+    },
+    "config": {
+      "$ref": "playbook.schema.json"
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "id",
+          "url",
+          "publisher",
+          "retrieved_at",
+          "status",
+          "coverage_limits"
+        ]
+      }
+    },
+    "claims": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "value",
+          "unit"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "observed",
+              "derived",
+              "assumption",
+              "judgment",
+              "unknown"
+            ]
+          },
+          "value": {},
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "observed"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "source_id",
+                "locator"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "derived"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "inputs",
+                "formula",
+                "code"
+              ],
+              "properties": {
+                "inputs": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "assumption"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "config_locator",
+                "rationale",
+                "config_path"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "unknown"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "null"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "screen": {
+      "type": "object"
+    },
+    "dossiers": {
+      "type": "array"
+    },
+    "lead_decision": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

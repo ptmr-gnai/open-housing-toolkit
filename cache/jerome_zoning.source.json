@@ -1,0 +1,16 @@
+{
+  "id": "jerome_zoning",
+  "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:47:12.257765+00:00",
+  "coverage_limits": "Special district chapter; complete zoning and MIH review still required.",
+  "terms_url": null,
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 14:47:12 GMT",
+  "cache_path": "cache/jerome_zoning.body",
+  "bytes": 162737,
+  "sha256": "dcccd06dc9020a865e40c30701892ca3a83dc9b1e5e4f828b33622b2cfce5396"
+}

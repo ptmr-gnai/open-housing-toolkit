@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "pluto_current_page",
+    "url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto",
+    "publisher": "NYC Department of City Planning",
+    "limits": "Dataset documentation page; inspect download links for current dictionary."
+  },
+  {
+    "source_id": "jerome_zoning",
+    "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+    "publisher": "NYC Department of City Planning",
+    "limits": "Special district chapter; complete zoning and MIH review still required."
+  },
+  {
+    "source_id": "e_designation_catalog",
+    "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=E%20Designations&limit=5",
+    "publisher": "NYC Open Data catalog",
+    "limits": "Discovery metadata only."
+  }
+]

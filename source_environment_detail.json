@@ -1,0 +1,9 @@
+[
+  {
+    "source_id": "e_designation_2028710002",
+    "url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028710002&%24limit=1000",
+    "publisher": "NYC Department of City Planning",
+    "limits": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  }
+]

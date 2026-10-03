@@ -1,0 +1,17 @@
+{
+  "id": "e_designation_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/hxm3-23vy.json",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:48:58.699397+00:00",
+  "coverage_limits": "E designation dataset metadata; field definitions do not clear environmental obligations.",
+  "terms_url": null,
+  "source_updated_at": 1786545441,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/e_designation_metadata.body",
+  "bytes": 28675,
+  "sha256": "a7b9b8499ebd3daadba3864bbe340ec46ffcf0a8b15ab57ab351257f54127ac9",
+  "dataset_name": "E-Designations"
+}

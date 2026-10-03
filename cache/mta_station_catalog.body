@@ -1,0 +1,923 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "MTA Subway Stations",
+            "id" : "39hk-dx4f",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A dataset listing all subway and Staten Island Railway stations, with information on their locations, Station Master Reference Number (MRN), Complex MRN, GTFS Stop ID, the services that stop there, the type of structure the station is on or in, whether the station is in Manhattan’s Central Business District (CBD), and their ADA-accessibility status.",
+            "attribution" : "Metropolitan Transportation Authority",
+            "attribution_link" : "https://www.mta.info/open-data",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-03T04:22:20.000Z",
+            "createdAt" : "2023-09-28T14:27:46.000Z",
+            "metadata_updated_at" : "2026-10-03T04:22:20.000Z",
+            "data_updated_at" : "2026-10-03T04:22:20.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 798,
+                "page_views_last_month" : 3565,
+                "page_views_total" : 67043,
+                "page_views_last_week_log" : 9.642051692927977,
+                "page_views_last_month_log" : 11.800090987624996,
+                "page_views_total_log" : 16.032820605675184
+              },
+            "columns_name" :
+              [
+                "ADA Notes",
+                "Division",
+                "Counties",
+                "New York Zip Codes",
+                "NYS Municipal Boundaries",
+                "CBD",
+                "Structure",
+                "GTFS Longitude",
+                "GTFS Latitude",
+                "Station ID",
+                "South Direction Label",
+                "ADA Southbound",
+                "Line",
+                "North Direction Label",
+                "Borough",
+                "ADA Northbound",
+                "Daytime Routes",
+                "GTFS Stop ID",
+                "Stop Name",
+                "Complex ID",
+                "Georeference",
+                "ADA"
+              ],
+            "columns_field_name" :
+              [
+                "ada_notes",
+                "division",
+                ":@computed_region_kjdx_g34t",
+                ":@computed_region_wbg7_3whc",
+                ":@computed_region_yamh_8v7k",
+                "cbd",
+                "structure",
+                "gtfs_longitude",
+                "gtfs_latitude",
+                "station_id",
+                "south_direction_label",
+                "ada_southbound",
+                "line",
+                "north_direction_label",
+                "borough",
+                "ada_northbound",
+                "daytime_routes",
+                "gtfs_stop_id",
+                "stop_name",
+                "complex_id",
+                "georeference",
+                "ada"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Point",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Notes on the direction a station is accessible in if it is only accessible in one direction, such as Manhattan-bound only, Downtown only, and Uptown & The Bronx local only.",
+                "The division of the subway system (IRT, BMT, or IND) that the station is a part of.",
+                "This column was automatically created in order to record in what polygon from the dataset 'Counties' (kjdx-g34t) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This column was automatically created in order to record in what polygon from the dataset 'New York Zip Codes' (wbg7-3whc) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This indicates whether or not a station is in Manhattan’s Central Business District (CBD). This value is either TRUE or FALSE.",
+                " The type of structure the subway station is located on or in (At Grade, Elevated, Embankment, Open Cut, Subway, Viaduct, etc.). For stations part of a complex, this indicates the construction type for that part of the complex only. Some complexes have more than one construction type across their constituent stations.",
+                "The longitude for the centroid of the station",
+                "The latitude for the centroid of the station",
+                "The Station Master Reference Number.",
+                "The southbound direction for lines stopping at the station, such as Downtown & Brooklyn, Canarsie - Rockaway Parkway, and Brighton Beach & Coney Island. This is blank if the station is the southern terminal of a line.",
+                "0 if the station is not ADA-accessible in the southbound direction, 1 if the station is fully accessible in the southbound direction",
+                "The operational line of the subway system the station is located on, such as Queens Blvd, Lexington Av, or Sea Beach.",
+                "The northbound direction for lines stopping at the station, such as Astoria - Ditmars Blvd, Uptown & The Bronx, and Manhattan. This is blank if the station is the northern terminal of a line.",
+                "The borough the station is in. Bx for Bronx, B for Brooklyn, M for Manhattan, Q for Queens, SI for Staten Island. ",
+                "0 if the station is not ADA-accessible in the northbound direction, 1 if the station is fully accessible in the northbound direction",
+                "The subway routes that serve the station during weekdays.",
+                "The ID used for the station in the General Transit Feed Specification (GTFS), an open standard used to display public transit schedule data.",
+                "The name of the subway station.",
+                "The Complex Master Reference Number.",
+                "Open Data platform-generated geocoding information from supplied address components. Point-type location is the centroid of the address components provided and does not reflect a specific address if the street address component is not provided. Point-type location is supplied in \"POINT (<geocoded longitude> <geocoded latitude>)\" format.",
+                "0 if the station is not ADA-accessible, 1 if the station is fully accessible, 2 if the station is partially accessible."
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {},
+                {},
+                {},
+                {},
+                { "align" : "center" },
+                {},
+                {},
+                { "align" : "center" },
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                }
+              ],
+            "download_count" : 891501,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T20:35:31.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "stations",
+                "coordinates",
+                "new york city transit",
+                "nyct",
+                "sir",
+                "subway stations",
+                "subway",
+                "staten island railway"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Dataset-Summary_Dataset-Owner",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Dataset-Summary_Contact-Information",
+                  "value" : "OpenData@mtahq.org"
+                },
+                {
+                  "key" : "Dataset-Summary_Granularity",
+                  "value" : "Subway station"
+                },
+                {
+                  "key" : "Dataset-Summary_Coverage",
+                  "value" : "New York City"
+                },
+                {
+                  "key" : "Dataset-Summary_Posting-Frequency",
+                  "value" : "As needed"
+                },
+                {
+                  "key" : "Dataset-Summary_Organization",
+                  "value" : "New York City Transit"
+                },
+                { "key" : "Dataset-Summary_Time-Period", "value" : "Current" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Additional-Resources_See-Also",
+                  "value" : "https://metrics.mta.info/"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.ny.gov" },
+        "permalink" : "https://data.ny.gov/d/39hk-dx4f",
+        "link" : "https://data.ny.gov/Transportation/MTA-Subway-Stations/39hk-dx4f",
+        "owner" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          },
+        "creator" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "MTA Subway Stations Map",
+            "id" : "p6ps-59h2",
+            "resource_name" : null,
+            "parent_fxf" : [ "39hk-dx4f" ],
+            "description" : "A dataset listing all subway and Staten Island Railway stations, with information on their locations, Station Master Reference Number (MRN), Complex MRN, GTFS Stop ID, the services that stop there, the type of structure the station is on or in, whether the station is in Manhattan’s Central Business District (CBD), and their ADA-accessibility status.",
+            "attribution" : "Metropolitan Transportation Authority",
+            "attribution_link" : "https://www.mta.info/open-data",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-10-03T04:22:20.000Z",
+            "createdAt" : "2023-09-28T15:02:24.000Z",
+            "metadata_updated_at" : "2026-04-21T21:29:41.000Z",
+            "data_updated_at" : "2026-10-03T04:22:20.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 87,
+                "page_views_last_month" : 383,
+                "page_views_total" : 10735,
+                "page_views_last_week_log" : 6.459431618637298,
+                "page_views_last_month_log" : 8.584962500721156,
+                "page_views_total_log" : 13.390168956200183
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 25,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T20:56:53.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "stations",
+                "sir",
+                "nyct",
+                "new york city transit",
+                "coordinates",
+                "subway stations",
+                "subway",
+                "staten island railway"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Resources_See-Also",
+                  "value" : "https://metrics.mta.info/"
+                },
+                {
+                  "key" : "Dataset-Summary_Dataset-Owner",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Dataset-Summary_Contact-Information",
+                  "value" : "OpenData@mtahq.org"
+                },
+                {
+                  "key" : "Dataset-Summary_Granularity",
+                  "value" : "Subway station complex"
+                },
+                {
+                  "key" : "Dataset-Summary_Coverage",
+                  "value" : "New York City"
+                },
+                {
+                  "key" : "Dataset-Summary_Posting-Frequency",
+                  "value" : "As needed"
+                },
+                {
+                  "key" : "Dataset-Summary_Organization",
+                  "value" : "New York City Transit"
+                },
+                { "key" : "Dataset-Summary_Time-Period", "value" : "Current" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Metropolitan Transportation Authority"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.ny.gov" },
+        "permalink" : "https://data.ny.gov/d/p6ps-59h2",
+        "link" : "https://data.ny.gov/Transportation/MTA-Subway-Stations-Map/p6ps-59h2",
+        "owner" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          },
+        "creator" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "MTA Subway Stations and Complexes",
+            "id" : "5f5g-n3cz",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A dataset listing all subway and Staten Island Railway stations, with data aggregated by station complex. This dataset includes information on station names, their locations, Station IDs, Complex IDs, GTFS Stop IDs, the services that stop there, the type of structure the station is on or in, whether they are in Manhattan’s Central Business District (CBD), and their ADA-accessibility status.",
+            "attribution" : "Metropolitan Transportation Authority",
+            "attribution_link" : "https://www.mta.info/open-data",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-03T04:27:34.000Z",
+            "createdAt" : "2023-10-11T21:05:04.000Z",
+            "metadata_updated_at" : "2026-10-03T04:27:33.000Z",
+            "data_updated_at" : "2026-10-03T04:27:34.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 421,
+                "page_views_last_month" : 1694,
+                "page_views_total" : 21875,
+                "page_views_last_week_log" : 8.721099188707186,
+                "page_views_last_month_log" : 10.727069558023706,
+                "page_views_total_log" : 14.41706134676029
+              },
+            "columns_name" :
+              [
+                "Constituent Station Names",
+                "Is Complex",
+                "Display Name",
+                "Daytime Routes",
+                "ADA Notes",
+                "Borough",
+                "CBD",
+                "Complex ID",
+                "ADA",
+                "Structure Type",
+                "Number Of Stations In Complex",
+                "Station IDs",
+                "Latitude",
+                "Longitude",
+                "GTFS Stop IDs",
+                "Stop Name"
+              ],
+            "columns_field_name" :
+              [
+                "constituent_station_names",
+                "is_complex",
+                "display_name",
+                "daytime_routes",
+                "ada_notes",
+                "borough",
+                "cbd",
+                "complex_id",
+                "ada",
+                "structure_type",
+                "number_of_stations_in_complex",
+                "station_ids",
+                "latitude",
+                "longitude",
+                "gtfs_stop_ids",
+                "stop_name"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "The name of the subway station or of multiple subway stations within one station complex, separated by a semi-colon. For stations that are not in complexes, this is identical to the stop name.",
+                "TRUE if this is a station complex, and FALSE if not.",
+                "The name of the subway station, with the services that serve the station during weekday daytime hours in parenthesis.",
+                "The subway routes that serve the station during weekdays.",
+                "Notes on the direction a station is accessible in if it is only accessible in one direction or for a particular platform.",
+                "The borough the station is in. Bx for Bronx, B for Brooklyn, M for Manhattan, Q for Queens, SI for Staten Island. ",
+                "This indicates whether or not a station is in Manhattan’s Central Business District (CBD). This value is either TRUE or FALSE.",
+                "The Complex ID, or its Complex Master Reference Number.",
+                "0 if the station is not ADA-accessible, 1 if the station is fully accessible, 2 if the station is partially accessible.",
+                "The type of structure the subway station is located on or in (At Grade, Elevated, Embankment, Open Cut, Subway, Viaduct, etc.). If it is a station complex, and the component stations have different structure types, both are noted, separated by a semi-colon.",
+                "The number of stations within a station complex or 1 if the station is not a station complex.",
+                "The ID, or Master Reference Number, for the station. If it is a station complex, multiple IDs are shown, separated by a semi-colon.",
+                "The latitude for the centroid of the station complex.",
+                "The longitude for the centroid of the station complex.",
+                "The GTFS Stop ID or IDs for the station. If it is a station complex, multiple IDs are shown, separated by a semi-colon. ",
+                "The name of the subway station."
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "align" : "center" },
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "right"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "right"
+                },
+                { "align" : "center" },
+                {}
+              ],
+            "download_count" : 11301,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T20:53:57.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "subway stations",
+                "coordinates",
+                "new york city transit",
+                "nyct",
+                "stations",
+                "staten island railway",
+                "subway",
+                "sir",
+                "station complexes"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Dataset-Summary_Dataset-Owner",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Dataset-Summary_Contact-Information",
+                  "value" : "OpenData@mtahq.org"
+                },
+                {
+                  "key" : "Dataset-Summary_Granularity",
+                  "value" : "Subway station complex"
+                },
+                {
+                  "key" : "Dataset-Summary_Coverage",
+                  "value" : "New York City"
+                },
+                {
+                  "key" : "Dataset-Summary_Posting-Frequency",
+                  "value" : "As needed"
+                },
+                {
+                  "key" : "Dataset-Summary_Organization",
+                  "value" : "New York City Transit"
+                },
+                { "key" : "Dataset-Summary_Time-Period", "value" : "Current" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Additional-Resources_See-Also",
+                  "value" : "https://metrics.mta.info/"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.ny.gov" },
+        "permalink" : "https://data.ny.gov/d/5f5g-n3cz",
+        "link" : "https://data.ny.gov/Transportation/MTA-Subway-Stations-and-Complexes/5f5g-n3cz",
+        "owner" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          },
+        "creator" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "MTA Subway Station Complexes",
+            "id" : "4ta5-wz5s",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A dataset listing all station complexes in the subway system. Station complexes are collections of stations which are interconnected by passageways within fare control or are stations on different levels that are not parallel to each other and that are connected by stairways, escalators, or elevators.",
+            "attribution" : "Metropolitan Transportation Authority",
+            "attribution_link" : "https://www.mta.info/open-data",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-03T04:24:47.000Z",
+            "createdAt" : "2023-09-28T14:45:27.000Z",
+            "metadata_updated_at" : "2026-10-03T04:24:46.000Z",
+            "data_updated_at" : "2026-10-03T04:24:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 79,
+                "page_views_last_month" : 351,
+                "page_views_total" : 5663,
+                "page_views_last_week_log" : 6.321928094887362,
+                "page_views_last_month_log" : 8.459431618637296,
+                "page_views_total_log" : 12.467605550082997
+              },
+            "columns_name" :
+              [ "ADA Notes", "Complex Name", "Complex ID", "ADA" ],
+            "columns_field_name" :
+              [ "ada_notes", "complex_name", "complex_id", "ada" ],
+            "columns_datatype" : [ "Text", "Text", "Number", "Number" ],
+            "columns_description" :
+              [
+                "Notes on the lines or directions a station is accessible in.",
+                "The name of the station complex.",
+                "A unique complex ID. This field is equivalent to the Complex Master Reference Number.",
+                "0 if the station is not ADA-accessible, 1 if the station is fully accessible, 2 if the station is partially accessible."
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                }
+              ],
+            "download_count" : 1558,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-09-28T14:52:04.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "new york city transit",
+                "nyct",
+                "sir",
+                "staten island railway",
+                "station complexes",
+                "stations",
+                "subway",
+                "subway stations",
+                "coordinates"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Dataset-Summary_Dataset-Owner",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Dataset-Summary_Contact-Information",
+                  "value" : "OpenData@mtahq.org"
+                },
+                {
+                  "key" : "Dataset-Summary_Granularity",
+                  "value" : "Subway station complex"
+                },
+                {
+                  "key" : "Dataset-Summary_Coverage",
+                  "value" : "New York City"
+                },
+                {
+                  "key" : "Dataset-Summary_Posting-Frequency",
+                  "value" : "As needed"
+                },
+                {
+                  "key" : "Dataset-Summary_Organization",
+                  "value" : "New York City Transit"
+                },
+                { "key" : "Dataset-Summary_Time-Period", "value" : "Current" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Additional-Resources_See-Also",
+                  "value" : "https://metrics.mta.info/"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.ny.gov" },
+        "permalink" : "https://data.ny.gov/d/4ta5-wz5s",
+        "link" : "https://data.ny.gov/Transportation/MTA-Subway-Station-Complexes/4ta5-wz5s",
+        "owner" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          },
+        "creator" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "MTA Subway Station Monthly Ridership: Beginning February 2017",
+            "id" : "ak4z-sape",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "This dataset provides subway ridership estimates on a monthly basis by subway station complex.",
+            "attribution" : "Metropolitan Transportation Authority",
+            "attribution_link" : "https://www.mta.info/open-data",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-25T15:04:36.000Z",
+            "createdAt" : "2025-06-17T18:10:35.000Z",
+            "metadata_updated_at" : "2026-09-25T15:03:53.000Z",
+            "data_updated_at" : "2026-09-25T15:04:36.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 75,
+                "page_views_last_month" : 302,
+                "page_views_total" : 2986,
+                "page_views_last_week_log" : 6.247927513443586,
+                "page_views_last_month_log" : 8.24317398347295,
+                "page_views_total_log" : 11.544481522310791
+              },
+            "columns_name" :
+              [
+                "NYS Municipal Boundaries",
+                "New York Zip Codes",
+                "Counties",
+                "borough",
+                "longitude",
+                "transfers",
+                "station_complex",
+                "latitude",
+                "month",
+                "station_complex_id",
+                "ridership",
+                "Georeference"
+              ],
+            "columns_field_name" :
+              [
+                ":@computed_region_yamh_8v7k",
+                ":@computed_region_wbg7_3whc",
+                ":@computed_region_kjdx_g34t",
+                "borough",
+                "longitude",
+                "transfers",
+                "station_complex",
+                "latitude",
+                "month",
+                "station_complex_id",
+                "ridership",
+                "georeference"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Point"
+              ],
+            "columns_description" :
+              [
+                "This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This column was automatically created in order to record in what polygon from the dataset 'New York Zip Codes' (wbg7-3whc) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This column was automatically created in order to record in what polygon from the dataset 'Counties' (kjdx-g34t) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "Represents one of the boroughs of New York City serviced by the subway system (Bronx, Brooklyn, Manhattan, Queens, Staten Island).",
+                "Longitude for the specified subway complex",
+                "Number of individuals who entered a subway complex via a free bus-to-subway, or free out-of-network transfer. This represents a subset of total ridership, meaning that these transfers are already included in the preceding ridership column. Transfers that take place within a subway complex (e.g., individuals transferring from the 2 to the 4 train within Atlantic Avenue) are not captured here.",
+                "The subway complex where an entry swipe or tap took place. Large subway complexes, such as Times Square and Fulton Center, may contain multiple subway lines. The subway complex name includes the routes that stop at the complex in parenthesis, such as Zerega Av (6).",
+                "Latitude for the specified subway complex",
+                "Represents the time period in which the metrics are being calculated (month and year) rounded up to the first day of the month.",
+                "A unique identifier for station complexes",
+                "Total number of riders that entered a subway complex via OMNY or MetroCard for each month.",
+                "\t Open Data platform-generated geocoding information from supplied address components. Point-type location is the centroid of the address components provided and does not reflect a specific address if the street address component is not provided. Point-type location is supplied in \"POINT ( )\" format."
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "precision" : "0",
+                  "groupSeparator" : ",",
+                  "align" : "right"
+                },
+                {},
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                { "view" : "date", "align" : "center" },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "precision" : "0",
+                  "groupSeparator" : ",",
+                  "align" : "right"
+                },
+                {}
+              ],
+            "download_count" : 3306,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-06-17T18:21:30.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "stations",
+                "customers",
+                "fares",
+                "metrocard",
+                "monthly",
+                "new york city transit",
+                "nyct",
+                "omny",
+                "passengers",
+                "ridership",
+                "subway",
+                "subway stations",
+                "transfers"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Dataset-Summary_Dataset-Owner",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Dataset-Summary_Contact-Information",
+                  "value" : "opendata@mtahq.org"
+                },
+                {
+                  "key" : "Dataset-Summary_Granularity",
+                  "value" : "Month, subway station complex, fare medium"
+                },
+                {
+                  "key" : "Dataset-Summary_Coverage",
+                  "value" : "New York City"
+                },
+                {
+                  "key" : "Dataset-Summary_Posting-Frequency",
+                  "value" : "Monthly"
+                },
+                {
+                  "key" : "Dataset-Summary_Organization",
+                  "value" : "New York City Transit"
+                },
+                {
+                  "key" : "Dataset-Summary_Time-Period",
+                  "value" : "Beginning February 2017"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Metropolitan Transportation Authority"
+                },
+                {
+                  "key" : "Additional-Resources_See-Also",
+                  "value" : "https://metrics.mta.info/"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.ny.gov" },
+        "permalink" : "https://data.ny.gov/d/ak4z-sape",
+        "link" : "https://data.ny.gov/Transportation/MTA-Subway-Station-Monthly-Ridership-Beginning-Feb/ak4z-sape",
+        "owner" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          },
+        "creator" :
+          {
+            "id" : "xzik-pf59",
+            "user_type" : "interactive",
+            "display_name" : "NY Open Data"
+          }
+      }
+    ],
+  "resultSetSize" : 73,
+  "timings" : { "serviceMillis" : 32, "searchMillis" : [ 19, 6 ] },
+  "warnings" : []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hpd_violations_2028430040",
+  "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json?%24where=bbl%3D%272028430040%27&%24limit=10000&%24select=violationid%2Cinspectiondate%2Cclass%2Cviolationstatus%2Ccurrentstatus%2Cnovdescription%2Cbbl%2Cbin%2Cblock%2Clot%2Chousenumber%2Cstreetname",
+  "publisher": "NYC Housing Preservation and Development",
+  "retrieved_at": "2026-10-03T14:45:19.971233+00:00",
+  "coverage_limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Fri, 02 Oct 2026 14:51:40 GMT",
+  "cache_path": "cache/hpd_violations_2028430040.body",
+  "bytes": 3,
+  "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+}

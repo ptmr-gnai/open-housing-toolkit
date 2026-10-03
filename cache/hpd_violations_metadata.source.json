@@ -1,0 +1,17 @@
+{
+  "id": "hpd_violations_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/wvxf-dwi5.json",
+  "publisher": "NYC Housing Preservation and Development",
+  "retrieved_at": "2026-10-03T14:30:46.871299+00:00",
+  "coverage_limits": "Recorded housing violations; not complete occupancy or displacement data.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1790952772,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/hpd_violations_metadata.body",
+  "bytes": 84704,
+  "sha256": "457b438167bfab3a2ede58662f9b8f664a851b065d5e3c84dee2cb6e5625a277",
+  "dataset_name": "Housing Maintenance Code Violations"
+}

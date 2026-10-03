@@ -1,0 +1,17 @@
+{
+  "id": "pluto_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/64uk-42ks.json",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:30:46.869644+00:00",
+  "coverage_limits": "Live dataset metadata. Source update timestamps are not field-level validity dates.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1787604531,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/pluto_metadata.body",
+  "bytes": 202683,
+  "sha256": "b546d567fc79d14c6b55a37ab09212f715291f37020642c409e93df8b69b42be",
+  "dataset_name": "Primary Land Use Tax Lot Output (PLUTO)"
+}

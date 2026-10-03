@@ -1,0 +1,16 @@
+{
+  "id": "mta_stations_official",
+  "url": "https://web.mta.info/developers/data/nyct/subway/Stations.csv",
+  "publisher": "MTA New York City Transit",
+  "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+  "coverage_limits": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+  "terms_url": "https://www.mta.info/developers",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "text/plain",
+  "last_modified": "Tue, 15 Sep 2026 17:33:02 GMT",
+  "cache_path": "cache/mta_stations_official.body",
+  "bytes": 55242,
+  "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d"
+}

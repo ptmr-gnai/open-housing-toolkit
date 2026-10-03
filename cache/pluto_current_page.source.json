@@ -1,0 +1,16 @@
+{
+  "id": "pluto_current_page",
+  "url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:47:12.257056+00:00",
+  "coverage_limits": "Dataset documentation page; inspect download links for current dictionary.",
+  "terms_url": null,
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Wed, 01 Jul 2026 16:57:07 GMT",
+  "cache_path": "cache/pluto_current_page.body",
+  "bytes": 15852,
+  "sha256": "f7763b65faa0e64c116c4a1a8675012378845b0a995a53c529dd02b6ee1d6cce"
+}

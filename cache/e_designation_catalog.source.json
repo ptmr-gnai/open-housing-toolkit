@@ -1,0 +1,17 @@
+{
+  "id": "e_designation_catalog",
+  "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=E%20Designations&limit=5",
+  "publisher": "NYC Open Data catalog",
+  "retrieved_at": "2026-10-03T14:47:12.258130+00:00",
+  "coverage_limits": "Discovery metadata only.",
+  "terms_url": null,
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/e_designation_catalog.body",
+  "bytes": 44306,
+  "sha256": "8596fe0e2b0cabb78a95504a1013a3a347006e53c3a660ee2b6f1c7b624bd0bc",
+  "dataset_name": null
+}

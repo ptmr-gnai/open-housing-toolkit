@@ -1,0 +1,2 @@
+# Only needed for schema validation, not offline pipeline replay.
+jsonschema>=4.23,<5

@@ -1,0 +1,16 @@
+{
+  "id": "pluto_universe",
+  "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=borough%3D'BX'%20AND%20latitude%20between%2040.832075%20and%2040.848075%20AND%20longitude%20between%20-73.927791%20and%20-73.907791&%24limit=10000&%24order=bbl",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+  "coverage_limits": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+  "cache_path": "cache/pluto_universe.body",
+  "bytes": 3413541,
+  "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dob_now_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/w9ak-ipjd.json",
+  "publisher": "NYC Department of Buildings",
+  "retrieved_at": "2026-10-03T14:33:37.416803+00:00",
+  "coverage_limits": "DOB NOW job metadata. Filings do not establish construction status or completion.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1790972897,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/dob_now_metadata.body",
+  "bytes": 134152,
+  "sha256": "fd43f81a320ebb1dfbf71919e6f579e430ae7e3892486b0c0d54c9af38227b08",
+  "dataset_name": "DOB NOW: Build \u2013 Job Application Filings"
+}

@@ -1,0 +1,660 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Housing Playbook DSL v0.1",
+  "type": "object",
+  "required": [
+    "dsl_version",
+    "project",
+    "scope",
+    "screen",
+    "scenarios",
+    "assumptions",
+    "required_gates",
+    "exports"
+  ],
+  "properties": {
+    "dsl_version": {
+      "const": "0.1"
+    },
+    "project": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "station_source",
+        "station_id",
+        "station_name",
+        "route",
+        "radius_m",
+        "bbox_padding_lat",
+        "bbox_padding_lon"
+      ],
+      "properties": {
+        "station_source": {
+          "const": "mta_stations_official"
+        },
+        "station_id": {
+          "type": "string"
+        },
+        "station_name": {
+          "type": "string"
+        },
+        "route": {
+          "type": "string"
+        },
+        "radius_m": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale",
+            "status"
+          ],
+          "properties": {
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "unit": {
+              "type": "string"
+            },
+            "rationale": {
+              "type": "string"
+            },
+            "status": {
+              "const": "assumption"
+            }
+          },
+          "additionalProperties": false
+        },
+        "bbox_padding_lat": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "bbox_padding_lon": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "screen": {
+      "type": "object",
+      "required": [
+        "min_lotarea_sf",
+        "max_lotarea_sf",
+        "min_capacity_gap_sf",
+        "ranking",
+        "shortlist_count",
+        "investigate_count",
+        "capacity_formula",
+        "missing_policy",
+        "selection_rationale"
+      ],
+      "properties": {
+        "min_lotarea_sf": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_lotarea_sf": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_capacity_gap_sf": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ranking": {
+          "const": "no_recorded_residential_first_then_capacity_gap_desc_bbl_asc"
+        },
+        "shortlist_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "investigate_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "capacity_formula": {
+          "const": "max(0, lotarea * residfar - bldgarea)"
+        },
+        "missing_policy": {
+          "const": "exclude_from_numeric_rank_and_record_unknown"
+        },
+        "selection_rationale": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "scenarios": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "far_share",
+          "coverage"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "A",
+              "B"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "far_share": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 1
+          },
+          "coverage": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "assumptions": {
+      "type": "object",
+      "required": [
+        "net_efficiency",
+        "avg_net_unit_sf",
+        "hard_cost_per_gsf",
+        "soft_contingency_share",
+        "floor_height_ft",
+        "vacancy_share",
+        "opex_share_egi",
+        "debt_ltc",
+        "annual_interest",
+        "amortization_years",
+        "dscr",
+        "monthly_rent_test",
+        "affordable_income_lens",
+        "gross_per_zoning_sf"
+      ],
+      "properties": {
+        "net_efficiency": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "avg_net_unit_sf": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "hard_cost_per_gsf": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "soft_contingency_share": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "floor_height_ft": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "vacancy_share": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "opex_share_egi": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "debt_ltc": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "annual_interest": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "amortization_years": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "dscr": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "monthly_rent_test": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "affordable_income_lens": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "gross_per_zoning_sf": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit",
+            "rationale"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "type": "string",
+              "minLength": 1
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "required_gates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "exports": {
+      "type": "object",
+      "required": [
+        "public_site_claims",
+        "expert_pack",
+        "media_draft"
+      ],
+      "properties": {
+        "public_site_claims": {
+          "const": "blocked_until_required_gates_reviewed"
+        },
+        "expert_pack": {
+          "const": "allowed_with_unknowns"
+        },
+        "media_draft": {
+          "const": "research_process_only"
+        }
+      },
+      "additionalProperties": false
+    },
+    "candidate_reviews": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "disposition",
+          "rationale",
+          "inputs"
+        ],
+        "properties": {
+          "disposition": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "lead_decision": {
+      "type": "object",
+      "required": [
+        "bbl",
+        "rationale",
+        "inputs"
+      ],
+      "properties": {
+        "bbl": {
+          "type": "string",
+          "pattern": "^2[0-9]{9}$"
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

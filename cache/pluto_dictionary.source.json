@@ -1,0 +1,16 @@
+{
+  "id": "pluto_dictionary",
+  "url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/open-data/pluto_datadictionary.pdf",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-03T14:31:31.603527+00:00",
+  "coverage_limits": "Field definitions; check against downloaded PLUTO version.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 31 Oct 2023 17:22:27 GMT",
+  "cache_path": "cache/pluto_dictionary.body",
+  "bytes": 585253,
+  "sha256": "b455ebe1fe74f2b969d5687b296440f7788b2a9ffb7aa989b76352b4139b2fd4"
+}
