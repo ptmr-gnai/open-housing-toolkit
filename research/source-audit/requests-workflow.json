@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hpd_jerome_rfp",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-rfp.page",
+    "publisher": "NYC HPD",
+    "purpose": "Existing Bronx project"
+  },
+  {
+    "id": "geosearch_jerome",
+    "url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+    "publisher": "NYC Planning Labs",
+    "purpose": "Worked-case identity"
+  },
+  {
+    "id": "hpd_library_response",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-submit-response.page",
+    "publisher": "NYC HPD",
+    "purpose": "RFP submission requirements"
+  },
+  {
+    "id": "hpd_library_faq",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-process-faqs.page",
+    "publisher": "NYC HPD",
+    "purpose": "RFP evaluation process"
+  },
+  {
+    "id": "hpd_newconstruction_design",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/new-construction-design.page",
+    "publisher": "NYC HPD",
+    "purpose": "Design requirements"
+  },
+  {
+    "id": "hdc_terms",
+    "url": "https://www.nychdc.com/term-sheets",
+    "publisher": "NYC HDC",
+    "purpose": "Financing terms"
+  },
+  {
+    "id": "geosearch_current_readme",
+    "url": "https://raw.githubusercontent.com/NYCPlanning/nyc-geosearch/master/README.md",
+    "publisher": "NYC Planning Labs",
+    "purpose": "API implementation documentation"
+  },
+  {
+    "id": "dcp_ulurp_pdf",
+    "url": "https://www.nyc.gov/assets/planning/download/pdf/applicants/applicant-portal/lur.pdf",
+    "publisher": "NYC DCP",
+    "purpose": "Land use process"
+  },
+  {
+    "id": "dec_erm_layer",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm/Environmental_Remediation_Sites/MapServer?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "Environmental service"
+  }
+]

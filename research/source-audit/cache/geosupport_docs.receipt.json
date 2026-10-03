@@ -1,0 +1,10 @@
+{
+  "id": "geosupport_docs",
+  "url": "https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gde.page",
+  "publisher": "NYC DCP",
+  "purpose": "Address documentation",
+  "retrieved_at": "2026-10-03T15:46:42.152280+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

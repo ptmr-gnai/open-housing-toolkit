@@ -1,0 +1,18 @@
+{
+  "id": "hpd_ami",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+  "publisher": "NYC HPD",
+  "purpose": "Affordability",
+  "retrieved_at": "2026-10-03T15:46:42.439124+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 35987,
+  "sha256": "9305df31728f0f03d2b643c39278ce66c5d131244c013b0b23b26cad70303b38",
+  "cache_path": "cache/hpd_ami.body",
+  "parsed": "html",
+  "text_chars": 4934,
+  "link_count": 38
+}

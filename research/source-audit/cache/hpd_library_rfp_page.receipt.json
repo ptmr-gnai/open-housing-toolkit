@@ -1,0 +1,18 @@
+{
+  "id": "hpd_library_rfp_page",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page",
+  "publisher": "NYC HPD",
+  "purpose": "Worked public-facility procurement",
+  "retrieved_at": "2026-10-03T15:48:13.371093+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 36524,
+  "sha256": "3e7d9b598c545bef18e405cc213e52d47138f6d28cd8d3e09f149f494b7e0ef7",
+  "cache_path": "cache/hpd_library_rfp_page.body",
+  "parsed": "html",
+  "text_chars": 3747,
+  "link_count": 41
+}

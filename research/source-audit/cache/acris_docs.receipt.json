@@ -1,0 +1,18 @@
+{
+  "id": "acris_docs",
+  "url": "https://www.nyc.gov/site/finance/property/acris.page",
+  "publisher": "NYC DOF",
+  "purpose": "Property process",
+  "retrieved_at": "2026-10-03T15:46:42.157152+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/finance/property/acris.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 32137,
+  "sha256": "737cdfdae5f5501cc8bd9085a1377cb37b54ade62b1c11add43c0516db2414c6",
+  "cache_path": "cache/acris_docs.body",
+  "parsed": "html",
+  "text_chars": 7595,
+  "link_count": 68
+}

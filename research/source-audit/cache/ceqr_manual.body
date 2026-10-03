@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Technical Manual - OEC</title>
+<!--fixed-layout-->
+<!--ls:begin[stylesheet]-->
+<link href="/iwov-resources/fixed-layout/3-Row Simple.css" type="text/css" rel="stylesheet">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[meta-keywords]-->
+<meta name="keywords" content="">
+<!--ls:end[meta-keywords]-->
+<!--ls:begin[meta-description]-->
+<meta name="description" content="">
+<!--ls:end[meta-description]-->
+<!--ls:begin[custom-meta-data]-->
+<!--ls:end[custom-meta-data]-->
+<!--ls:begin[meta-vpath]-->
+<meta name="vpath" content="">
+<!--ls:end[meta-vpath]-->
+<!--ls:begin[meta-page-locale-name]-->
+<meta name="page-locale-name" content="">
+<!--ls:end[meta-page-locale-name]-->
+<!--
+					ls:begin[pre-head-injection]
+				--><!--
+					ls:end[pre-head-injection]
+				--><!--
+					ls:begin[social_media_injection]
+				--><!--
+					ls:end[social_media_injection]
+				--><!--ls:begin[head-injection]--><meta charset="utf-8" /><!--[if IE]>        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">        <![endif]--><meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- Google Translate Plugin --><meta name="google-translate-customization" content="4707bd7f535893a0-45bca7b6a97e5a2d-g609df9381571b349-c"/><!--[if lt IE 9]>            <script src="/assets/home/js/libs/html5shiv.js" type="text/javascript"></script>        <![endif]--><!-- GLOBAL STYLES --><script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10347260902154543.js" data-dtconfig="app=f936b00c6760395e|cuc=x8kxxto7|owasp=1|mel=100000|expw=1|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1790841134986|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10347260902154543.js|reportUrl=/rb_bf46289yka|rid=RID_1163009977|rpid=-1222345144|domain=nyc.gov"></script><link href="/assets/home/css/css-min/global.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/css-min/module.css" media="screen" rel="stylesheet" type="text/css" /><!-- PRINT STYLE --><link rel="stylesheet" href="/assets/home/css/print.css" type="text/css" media="print" /><!-- PAGE SPECIFIC STYLES --><link href="/assets/home/css/includes/header-agencies.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/news-panel.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/share-icons.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/agencies-about-links.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/programs-and-initiatives.css" media="screen" rel="stylesheet" type="text/css" /><!--<link href="/assets/oec/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" />--><!-- centralized css --><link href="/assets/home/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/oec/css/agency-styles.css" media="screen" rel="stylesheet" type="text/css" /><!--[if (gte IE 6)&(lte IE 8)]>        <script type="text/javascript" src="/assets/home/js/libs/selectivizr.js"></script>        <![endif]--><!--[if IE 8]>        <script type="text/javascript" src="/assets/home/js/libs/respond.min.js"></script>        <![endif]--><script src="/assets/home/js/libs/modernizr-2.6.2.min.js" type="text/javascript"></script><!--ls:end[head-injection]--><!--ls:begin[tracker-injection]--><!--ls:end[tracker-injection]--><!--ls:begin[script]--><!--ls:end[script]-->
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="QMXLB-WG9C2-LTK58-FW2PB-6ST8X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"QMXLB-WG9C2-LTK58-FW2PB-6ST8X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ljqlbeaxaqzgu2wbenqq-f-c40e02140-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"1071053","ak.ai":parseInt("181928",10),"ak.ol":"0","ak.cr":43,"ak.ipv":4,"ak.proto":"h2","ak.rid":"361ab37a","ak.r":49882,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":64444,"ak.gh":"23.210.6.201","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1791042401","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==p+L1XyYBKXFBMaVhceaq+QsAojB1SvdLpnbhv/MQ/Rw2rwCf338A821JecoKtd5ldaR+JOUqiWMPdIi3CnTuDk2323pz0sD2RCSQhsnSvE7FXX3U/Ha8p6TfSyDN2dN8lwqU6uU64oFx27S69S3IN99GTDjypFAKtRvlKpE+CeQCZroWTpk8E3Zb17LUOSlBSEjh0wWBu1dqyyfAvYbF8RJpMIUu3lE6/Xj1mmMSAq2QaaMelIs5enImCVoI1ljt5Ni7cRkQJAL5OURQl5h+Gk1VOVGEPPOLq8yjE3Ay+FM0OiGgU4Slkoy0o2nJhorBBNR0YydFsmUFackWDb6e3BtHhwYtwy+xu4C2Ffh8fqqL7ASDBrJuCVVXjwegIs3ACHnFh2vpEN50avjaQrRlTbBIYgv6K2U9SA/8cesQY+0=","ak.pv":"122","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body id="page">
+<!--ls:begin[body]--><div class="ls-canvas page" id="outer-wrap">
+<div class="ls-row" id="inner-wrap">
+<div class="ls-fxr" id="ls-gen46212992-ls-fxr">
+<div class="ls-col" id="ls-row-1-col-1">
+<div class="ls-col-body" id="ls-gen46212993-ls-col-body">
+<div class="ls-row main-header" id="top">
+<div class="ls-fxr" id="ls-gen46212994-ls-fxr">
+<div class="ls-col block" id="ls-row-1-col-1-row-1-col-1">
+<div class="ls-col-body" id="ls-gen46212995-ls-col-body">
+<div class="ls-row" id="ls-row-1-col-1-row-1-col-1-row-1">
+<div class="ls-fxr" id="ls-gen46212996-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-1-col-1-row-1-area-1">
+<div class="ls-area-body" id="ls-gen46212997-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1457413984527">
+<!--ls:begin[component-1457413984527]-->
+<div class="iw_component" id="1457413984527">
+</div>
+<!--ls:end[component-1457413984527]-->
+</div>
+<div class="ls-cmp-wrap" id="w1456871101032">
+<!--ls:begin[component-1456871101032]-->
+<div class="iw_component" id="1456871101032"><div class="agency-header">
+<div class="upper-header-black">
+<div class="container">
+<span class="upper-header-left"><a href="http://www1.nyc.gov"><img src="/assets/home/images/global/nyc_white.png" alt="NYC" class="small-nyc-logo"></a><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-black-title">Office of Environmental Coordination</span></span><span class="upper-header-padding"></span><span class="upper-header-right"><span class="upper-header-three-one-one"><a href="/311/index.page">311</a></span><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-search"><a href="/home/search/index.page">Search all NYC.gov websites</a></span></span>
+</div>
+</div>
+</div><div role="banner" class="main-header">
+<div class="block">
+<div class="header-top">
+<div class="container">
+<a href="#" class="toggle-mobile-side-nav visible-phone" id="nav-open-btn">Menu</a><span class="welcome-text hidden-phone agency-header"></span>
+<div class="agency-logo-wrapper">
+<a href="/site/oec/index.page"><img class="agency-logo" src="/assets/oec/images/content/header/logo.png" alt="Office of Environmental Coordination"></a>
+</div>
+<div class="hidden-phone" id="header-links">
+<div class="language-gif">
+<img src="/assets/home/images/global/language.gif" alt="Language"></div>
+<div class="language-selector">
+<div id="google_translate_element"></div>
+</div>
+<a class="text-size hidden-phone" href="http://www1.nyc.gov/home/text-size.page">Text-Size</a>
+</div>
+<a href="#" class="visible-phone nav-sprite-mobile" id="toggle-mobile-search"><span class="hidden">Search</span></a>
+</div>
+</div>
+<div class="container nav-outer">
+<nav role="navigation" class="hidden-phone" id="nav">
+<div class="block">
+<ul>
+<li class="nav-home hidden-phone">
+<a href="/site/oec/index.page">
+                      Home</a>
+</li>
+<li>
+<a href="/site/oec/about/about.page">About</a>
+</li>
+<li class="active">
+<a href="/site/oec/environmental-quality-review/environmental-quality-review.page">Environmental Review</a>
+</li>
+<li>
+<a href="/site/oec/green-building/green-building.page">NYC Capital Green Building</a>
+</li>
+<li class="hidden-phone toggle-search-wide-background-ico-search" id="toggle-search-wide"></li>
+</ul>
+</div>
+</nav>
+<div class="global-input-search">
+<form method="GET" action="/home/search/index.page" name="filter-search-form" class="hidden hidden-phone" id="global-search-form1">
+<div class="field-search">
+<input style="color: transparent" type="submit" class="ico-search btn-filter-search" value="submit" aria-hidden="true">
+<div class="input-padding">
+<label for="search-header" class="sr-only">Search</label><input id="search-header" type="text" name="search-terms" placeholder="Search" class="input-search input-black filter-item placeholder"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/oec"><span class="reader-only"><input value="submit" aria-label="Submit" type="submit"></span>
+</div>
+</div>
+</form>
+</div>
+<div class="global-input-search visible-phone hidden-phone" id="nav-top-searches">
+<div class="block">
+<form class="hidden" method="GET" action="/home/search/index.page" name="filter-search-form" id="global-search-form2">
+<div class="field-search">
+<input style="color: transparent" aria-label="Submit" value="Submit" class="ico-search btn-filter-search" type="submit">
+<div class="input-padding">
+<label for="search-header-2" class="sr-only">Search</label><input id="search-header-2" class="input-search input-black filter-item" placeholder="Search" name="search-terms" type="text"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/oec">
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1456871101032]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row main" id="main">
+<div class="ls-fxr" id="ls-gen46212998-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-2-area-1">
+<div class="ls-area-body" id="ls-gen46212999-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1456871101033">
+<!--ls:begin[component-1456871101033]-->
+<div class="iw_component" id="1456871101033"><div class="row">
+<div class="subheader">
+<div class="container">
+<div class="subheader-button-row quatro">
+<a class="main-filter-category" href="/site/oec/environmental-quality-review/recent-reviews.page">Recent Reviews</a><a class="main-filter-category" href="/site/oec/events/index.page">Event Calendar</a><a class="main-filter-category" href="/site/oec/environmental-quality-review/ceqr-access.page">CEQR Access</a><a class="main-filter-category active" href="/site/oec/environmental-quality-review/ceqr-basics.page">CEQR Resources</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1456871101033]-->
+</div>
+<div class="ls-cmp-wrap" id="w1456871101034">
+<!--ls:begin[component-1456871101034]-->
+<div class="iw_component" id="1456871101034"><!-- Left nav component --><div class="row">
+<div class="container content-container">
+<div class="span3 agencies-about-links">
+<div class="agencies-about-links">
+<select onChange="document.location.href=this.options[this.selectedIndex].value" class="visible-phone"><option value="">Select</option><option value="/site/oec/environmental-quality-review/ceqr-basics.page">CEQR Basics</option><option value="/site/oec/environmental-quality-review/ceqr-glossary.page">CEQR Glossary</option><option value="/site/oec/environmental-quality-review/ceqr-faqs.page">CEQR FAQs</option><option value="/site/oec/environmental-quality-review/technical-manual.page">Technical Manual</option><option value="/site/oec/environmental-quality-review/ceqr-forms-templates.page">Forms &amp; Templates</option><option value="/site/oec/environmental-quality-review/ceqr-laws-regulations.page">CEQR Laws &amp; Regulations</option><option value="/site/oec/environmental-quality-review/green-fast-track-for-housing.page">Proposed New Mayor&rsquo;s Office Rule</option></select>
+<ul class="clearfix hidden-phone">
+<li>
+<a href="/site/oec/environmental-quality-review/ceqr-basics.page">CEQR Basics</a>
+</li>
+<li>
+<a href="/site/oec/environmental-quality-review/ceqr-glossary.page">CEQR Glossary</a>
+</li>
+<li>
+<a href="/site/oec/environmental-quality-review/ceqr-faqs.page">CEQR FAQs</a>
+</li>
+<li class="active">
+<a href="/site/oec/environmental-quality-review/technical-manual.page">Technical Manual</a>
+</li>
+<li>
+<a href="/site/oec/environmental-quality-review/ceqr-forms-templates.page">Forms &amp; Templates</a>
+</li>
+<li>
+<a href="/site/oec/environmental-quality-review/ceqr-laws-regulations.page">CEQR Laws &amp; Regulations</a>
+</li>
+<li>
+<a href="/site/oec/environmental-quality-review/green-fast-track-for-housing.page">Proposed New Mayor&rsquo;s Office Rule</a>
+</li>
+</ul>
+</div>
+<div class="agencies-about-share">
+<div class="share">
+<a aria-label="Share on facebook" target="_blank" href="#"><span aria-hidden="true" class="facebook_custom" data-url="https://www1.nyc.gov/site/oec/environmental-quality-review/technical-manual.page?" data-title="Technical Manual - OEC"></span></a><a aria-label="Share on twitter" target="_blank" href="#"><span aria-hidden="true" class="twitter_custom" data-url="https://www1.nyc.gov/site/oec/environmental-quality-review/technical-manual.page?" data-title="Technical Manual - OEC"></span></a><a aria-label="Share on google plus" target="_blank" href="#"><span aria-hidden="true" class="googleplus_custom" data-url="https://www1.nyc.gov/site/oec/environmental-quality-review/technical-manual.page?" data-title="Technical Manual - OEC"></span></a><a aria-label="Share on tumblr" target="_blank" href="#"><span aria-hidden="true" class="tumblr_custom" data-url="https://www1.nyc.gov/site/oec/environmental-quality-review/technical-manual.page?" data-title="Technical Manual - OEC"></span></a><a aria-label="Share in email" href="#"><span aria-hidden="true" class="email_custom" data-url="https://www1.nyc.gov/site/oec/environmental-quality-review/technical-manual.page?" data-title="Technical Manual - OEC"></span></a>
+          Share
+  </div>
+<div class="print-event hidden-phone hidden-tablet">
+<img alt="Print icon" src="/assets/home/images/global/print.png"><span class="print-label"> Print </span>
+</div>
+</div>
+</div>
+<div class="span9 about-main-image">
+<div class="span6 about-description"><h1>2025 Technical Manual</h1>
+<p>The CEQR Technical Manual (the Manual) assists city agencies, project sponsors, and the public in conducting environmental reviews subject to City Environmental Quality Review (CEQR). The Manual (in PDF format below) summarizes CEQR procedures and provides guidance on the substantive areas of analysis customarily assessed in an environmental review.</p>
+<table style="border: #000000 1px solid;" border="1" frame="border" cellspacing="10" cellpadding="1">
+<tbody>
+<tr>
+<td><strong><em>*Applicability of the CEQR Technical Manual:</em></strong>* The updated CEQR Technical Manual (December 2025 Edition) should be used as guidance for any environmental review commenced on or after December 30, 2025. In the case of impact analyses commenced prior to the release date that are not considered complete as of such date&mdash;through the issuance of a Negative Declaration, a Conditional Negative Declaration, or a Final Environmental Impact Statement&mdash;the lead agency should consider whether supplementation of the impact analyses to reflect a methodology of the updated CEQR Technical Manual should be conducted, taking into account as necessary the scheduled timing of completion of environmental review under the applicable approval process.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;<br />CEQR Technical Manual, December 2025 Edition<br />(<a href="/assets/oec/technical-manual/2025_ceqr_technical_manual.pdf">Download the CEQR Technical Manual here</a> as one file &ndash; 34 MB)</p>
+<h2>Introductory Materials</h2>
+<p><a href="/assets/oec/technical-manual/CEQR_Cover_2025.pdf">Cover</a><br /><a href="/assets/oec/technical-manual/Acknowledgments_2025.pdf">Acknowledgments</a> <br /><a href="/assets/oec/technical-manual/Foreword_2025.pdf">Foreword</a><br /><a href="/assets/oec/technical-manual/Table_of_Contents_2025.pdf">Table of Contents</a><br /><a href="/assets/oec/technical-manual/Introduction_2025.pdf">Introduction</a></p>
+<p><a href="/assets/oec/technical-manual/2025_ceqr_tm_whats_changed.pdf">What's Changed</a></p>
+<h2>Chapters</h2>
+<p><strong>Chapter 1:</strong> <a href="/assets/oec/technical-manual/01_Procedures_and_Documentation_2025.pdf">Procedures and Documentation<br /></a><strong>Chapter 2:</strong> <a href="/assets/oec/technical-manual/02_Establishing_the_Analysis_Framework_2025.pdf">Establishing the Analysis Framework<br /></a><strong>Chapter 3:</strong> <a href="/assets/oec/technical-manual/03_Introduction_2025.pdf">Introduction to the Technical Guidance</a><br /><strong>Chapter 4:</strong> <a href="/assets/oec/technical-manual/04_Land_Use_Zoning_and_Public_Policy_2025.pdf">Land Use, Zoning and Public Policy<br /></a><strong>Chapter 5:</strong> <a href="/assets/oec/technical-manual/05_Socioeconomic_Conditions_2025.pdf">Socioeconomic Conditions</a><br /><strong>Chapter 6:</strong> <a href="/assets/oec/technical-manual/06_Community_Facilities_2025.pdf">Community Facilities and Services</a><br /><strong>Chapter 7:</strong> <a href="/assets/oec/technical-manual/07_Open_Space_2025.pdf">Open Space</a><br /><strong>Chapter 8:</strong> <a href="/assets/oec/technical-manual/08_Shadows_2025.pdf">Shadows</a><br /><strong>Chapter 9:</strong> <a href="/assets/oec/technical-manual/09_Historic_Resources_2025.pdf">Historic and Cultural Resources<br /></a><strong>Chapter 10:</strong> <a href="/assets/oec/technical-manual/10_Urban_Design_2025.pdf">Urban Design and Visual Resources</a><br /><strong>Chapter 11:</strong> <a href="/assets/oec/technical-manual/11_Natural_Resources_2025.pdf">Natural Resources</a><br /><strong>Chapter 12: </strong><a href="/assets/oec/technical-manual/12_Hazardous_Materials_2025.pdf">Hazardous Materials</a><br /><strong>Chapter 13:</strong> <a href="/assets/oec/technical-manual/13_Water_and_Sewer_Infrastructure_2025.pdf">Water and Sewer Infrastructure</a><br /><strong>Chapter 14:</strong> <a href="/assets/oec/technical-manual/14_Solid_Waste_2025.pdf">Solid Waste and Sanitation Services</a><br /><strong>Chapter 15:</strong> <a href="/assets/oec/technical-manual/15_Energy_2025.pdf">Energy</a><br /><strong>Chapter 16:</strong> <a href="/assets/oec/technical-manual/16_Transportation_2025.pdf">Transportation</a><br /><strong>Chapter 17:</strong> <a href="/assets/oec/technical-manual/17_Air_Quality_2025.pdf">Air Quality<br /></a><strong>Chapter 18:</strong> <a href="/assets/oec/technical-manual/18_Greenhouse_Gas_Emissions_2025.pdf">Greenhouse Gas Emissions and Climate Change</a><br /><strong>Chapter 19:</strong> <a href="/assets/oec/technical-manual/19_Noise_2025.pdf">Noise</a><br /><strong>Chapter 20:</strong> <a href="/assets/oec/technical-manual/20_Public_Health_2025.pdf">Public Health<br /></a><strong>Chapter 21:</strong> <a href="/assets/oec/technical-manual/21_Neighborhood_Character_2025.pdf">Neighborhood Character</a><br /><strong>Chapter 22:</strong> <a href="/assets/oec/technical-manual/22_Construction_2025.pdf">Construction</a><br /><strong>Chapter 23:</strong> <a href="/assets/oec/technical-manual/23_Effects on Disadvantaged Communities_2025.pdf">Effects on Disadvantaged Communities</a><br /><strong>Chapter 24:</strong> <a href="/assets/oec/technical-manual/24_Alternatives_2025.pdf">Alternatives</a><br /><strong>Chapter 25:</strong> <a href="/assets/oec/technical-manual/25_EIS_Summary_Chapters_2025.pdf">EIS Summary Chapters</a></p>
+<h2>Glossary</h2>
+<p><a href="/assets/oec/technical-manual/Glossary_2025.pdf">Glossary<br /></a></p>
+<h2>Appendices</h2>
+<p><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_appendix_environmental_review_laws_and_regs.pdf">Environmental Review Laws and Regulations</a><br /><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_ch08_appendix_shadows.pdf">Shadows</a><br /><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_ch12_appendix_hazardous_materials.pdf">Hazardous Materials<br /></a><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_appendix_transportation.pdf">Transportation</a><br /><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_appendix_air_quality.pdf">Air Quality</a><br /><strong>Appendix</strong>: <a href="/assets/oec/technical-manual/2025_ceqr_tm_appendix_noise.pdf">Noise</a></p>
+<table style="border: #000000 1px solid;" border="1" frame="border" cellspacing="10">
+<tbody>
+<tr>
+<td><strong><em>*Subsequent updates</em>:*</strong> Documents and information on this website are updated periodically. If you have downloaded any documents, please ensure that you are using the most current version. News pages will indicate when materials have been updated.</td>
+</tr>
+</tbody>
+</table>
+<p>Please <a href="/site/oec/about/contact-us.page">contact MOEC</a> if you have any questions regarding the content or use of the CEQR Technical Manual.</p>
+<h2>Reference</h2>
+<p><a href="/assets/oec/technical-manual/1993/CEQR_Tech_Manual_1993_Complete_Binder1.pdf">1993 CEQR Technical Manual</a></p>
+<p><a href="/site/oec/environmental-quality-review/2001-technical-manual.page">2001 CEQR Technical Manual</a></p>
+<p><a href="/site/oec/environmental-quality-review/2010-techincal-manual.page">2010 CEQR Technical Manual</a></p>
+<p><a href="/site/oec/environmental-quality-review/2012-techincal-manual.page">2012 CEQR Technical Manual (January Edition)</a></p>
+<p><a href="/site/oec/environmental-quality-review/2014-technical-manual.page">2014 CEQR Technical Manual (March Edition)</a></p>
+<p><a href="/site/oec/environmental-quality-review/2020-technical-manual.page">2020 CEQR Technical Manual</a></p>
+<p><a href="/site/oec/environmental-quality-review/2021-technical-manual.page">2021 CEQR Technical Manual</a></p></div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1456871101034]-->
+</div>
+<div class="ls-cmp-wrap" id="w1457413984531">
+<!--ls:begin[component-1457413984531]-->
+<div class="iw_component" id="1457413984531">
+</div>
+<!--ls:end[component-1457413984531]-->
+</div>
+<div class="ls-cmp-wrap" id="w1457413984532">
+<!--ls:begin[component-1457413984532]-->
+<div class="iw_component" id="1457413984532"><!--
+         Do not display agency programs. 
+    -->
+</div>
+<!--ls:end[component-1457413984532]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row" id="ls-row-1-col-1-row-3">
+<div class="ls-fxr" id="ls-gen46213000-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-3-area-1">
+<div class="ls-area-body" id="ls-gen46213001-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1457413984533">
+<!--ls:begin[component-1457413984533]-->
+<div class="iw_component" id="1457413984533"><div class="row">
+<footer>
+<div class="container">
+<div class="span9 footer-links">
+<a href="/main">nyc.gov home</a><a href="/main/services">Services</a><a href="/main/events/?">Events</a><a href="/main/your-government">Your government</a><a href="https://portal.311.nyc.gov/">311</a><a href="/main/your-government/contact-nyc-government">Contact NYC government</a><a href="https://www.nycvotes.org/">Register to vote</a><a href="https://a858-nycnotify.nyc.gov/notifynyc/">Emergency alerts </a><a href="https://cityjobs.nyc.gov/">Careers</a><a href="/main/forms/website-feedback">Website feedback</a><a href="https://www.nyc.gov/site/mopd/resources/digital-accessibility.page">Accessibility resources</a><a href="/main/nyc-gov-privacy-policy">Privacy policy</a><a href="/main/terms-of-use">Terms of use</a><a href="/main/about-our-content">About nyc.gov content</a>
+</div>
+<div class="span3">
+<span class="logo-nyc">NYC</span>
+<form class="form-search" method="get" action="/home/search/index.page">
+<label for="footer-search" class="sr-only">Search</label><input id="footer-search" type="text" placeholder="Search" class="input-search placeholder" name="search-terms"><button class="ico-search">Search</button>
+</form>
+<div class="copyright">
+<div><p>&copy; City of New York. 2025 All Rights Reserved. NYC is a trademark and service mark of the City of New York.</p>
+<!-- nyc footer 07-16-2025 --></div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<!--ls:end[component-1457413984533]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--></body>
+<!--ls:begin[foot-injection]--><!-- GLOBAL JAVASCRIPT INCLUDES (/js/_global.js.html.erb) --><script src="/assets/home/js/libs/jquery-1.9.1.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script><script src="/assets/home/js/libs/i18n/jquery-ui-i18n.js" type="text/javascript"></script><script src="/assets/home/js/utils.js" type="text/javascript"></script><script src="/assets/home/js/libs/class.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MainNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MobileNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.Global.js" type="text/javascript"></script><script src="/assets/home/js/libs/ZeroClipboard.min.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.InfoShare.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.ProgramsAndInitiatives.js" type="text/javascript"></script><script src="/assets/home/js/share.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery.colorbox-min.js" type="text/javascript"></script><!-- IE7 support for JSON --><!--[if (gte IE 6)&(lte IE 8)]>        <script src="/assets/home/js/libs/json2.js" type="text/javascript"></script>        <![endif]--><!-- PAGE SPECIFIC JAVASCRIPT --><script src="/assets/home/js/pages/agencies/about.js" type="text/javascript"></script><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script><!-- Google Translate Plugin --><script type="text/javascript">            function googleTranslateElementInit() {                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');            }        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!-- webtrends --><script type="text/javascript" src="/assets/oec/js/agencies/agency-wt.js"></script><script type="text/javascript" src="/assets/home/js/webtrends/webtrends_v10.js"></script><!-- End Analytics Tagging 8/4/14 TL. (NYC.gov Specific) --><!--ls:end[foot-injection]--></html></html>

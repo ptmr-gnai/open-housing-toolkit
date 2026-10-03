@@ -1,0 +1,18 @@
+{
+  "id": "hpd_design",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/design-guidelines.page",
+  "publisher": "NYC HPD",
+  "purpose": "Design process",
+  "retrieved_at": "2026-10-03T15:48:13.373200+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/design-guidelines.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 26425,
+  "sha256": "2d69a591fc44d3559bc1e82cc9a63d211a7dd521bd1733fb22b50150db42cc11",
+  "cache_path": "cache/hpd_design.body",
+  "parsed": "html",
+  "text_chars": 3590,
+  "link_count": 65
+}

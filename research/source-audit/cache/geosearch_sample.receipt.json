@@ -1,0 +1,22 @@
+{
+  "id": "geosearch_sample",
+  "url": "https://geosearch.planninglabs.nyc/v2/search?text=1240%20EDWARD%20L%20GRANT%20HWY%20BRONX",
+  "publisher": "NYC Planning Labs",
+  "purpose": "API",
+  "retrieved_at": "2026-10-03T15:46:42.046394+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://geosearch.planninglabs.nyc/v2/search?text=1240%20EDWARD%20L%20GRANT%20HWY%20BRONX",
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "bytes": 10648,
+  "sha256": "dc39eae8cad09e529bde83a5088509ee633e37f41e9a4f3903e912de14e25ae2",
+  "cache_path": "cache/geosearch_sample.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "geocoding",
+    "type",
+    "features",
+    "bbox"
+  ]
+}

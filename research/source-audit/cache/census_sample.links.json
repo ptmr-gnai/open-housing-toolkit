@@ -1,0 +1,38 @@
+[
+  {
+    "label": "",
+    "url": "https://api.census.gov/"
+  },
+  {
+    "label": "request an API Key here",
+    "url": "https://api.census.gov/data/key_signup.html"
+  },
+  {
+    "label": "watch video",
+    "url": "https://www.census.gov/library/video/2026/adrm/requesting-a-census-data-api-key.html"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.census.gov/about/policies/section-508.html"
+  },
+  {
+    "label": "Information Quality",
+    "url": "https://www.census.gov/quality/"
+  },
+  {
+    "label": "FOIA",
+    "url": "https://www.census.gov/foia/"
+  },
+  {
+    "label": "Data Protection and Privacy\n                    Policy",
+    "url": "https://www.census.gov/privacy/"
+  },
+  {
+    "label": "U.S. Department of Commerce",
+    "url": "https://www.commerce.gov/"
+  },
+  {
+    "label": "Release\n                    Notes",
+    "url": "https://www2.census.gov/data/api-documentation/data-census-gov-release-notes.pdf"
+  }
+]

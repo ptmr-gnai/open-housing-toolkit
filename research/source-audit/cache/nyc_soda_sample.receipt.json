@@ -1,0 +1,17 @@
+{
+  "id": "nyc_soda_sample",
+  "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028710002&%24limit=1",
+  "publisher": "NYC Open Data",
+  "purpose": "API",
+  "retrieved_at": "2026-10-03T15:46:41.531648+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028710002&%24limit=1",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+  "bytes": 1555,
+  "sha256": "e10877333eb5d093868d64d5fe26693c9af3e03660de0f38f8e0beb5ddb02734",
+  "cache_path": "cache/nyc_soda_sample.body",
+  "parsed": "json",
+  "row_count": 1
+}

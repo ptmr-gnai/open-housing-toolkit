@@ -1,0 +1,622 @@
+[
+  {
+    "label": "SODA Developers",
+    "url": "https://dev.socrata.com/"
+  },
+  {
+    "label": "App Developers",
+    "url": "https://dev.socrata.com/docs/queries/"
+  },
+  {
+    "label": "Getting Started",
+    "url": "https://dev.socrata.com/consumers/getting-started"
+  },
+  {
+    "label": "Finding Open Data",
+    "url": "https://dev.socrata.com/data/"
+  },
+  {
+    "label": "Data Visualization with Plotly and Pandas",
+    "url": "https://dev.socrata.com/blog/2016/02/02/plotly-pandas"
+  },
+  {
+    "label": "Data Analysis with Python and pandas using Jupyter Notebook",
+    "url": "https://dev.socrata.com/blog/2016/02/01/pandas-and-jupyter-notebook"
+  },
+  {
+    "label": "Using R and Shiny to Find Outliers with Scatter and Box Plots",
+    "url": "https://dev.socrata.com/blog/2015/11/28/using-r-and-shiny-to-find-outliers-with-box-plots"
+  },
+  {
+    "label": "Analyzing Open Data with SAS",
+    "url": "https://dev.socrata.com/blog/2015/11/10/analyzing-open-data-with-sas"
+  },
+  {
+    "label": "Building SMS Applications with Twilio",
+    "url": "https://dev.socrata.com/blog/2015/07/09/sms-apps-with-twilio"
+  },
+  {
+    "label": "Forecasting with RSocrata",
+    "url": "https://dev.socrata.com/blog/2015/06/17/forecasting_with_rsocrata"
+  },
+  {
+    "label": "Making a heatmap with R",
+    "url": "https://dev.socrata.com/blog/2015/05/20/data-visualisation-with-r"
+  },
+  {
+    "label": "Create a column chart with Highcharts",
+    "url": "https://dev.socrata.com/blog/2015/03/30/create-a-column-chart-with-highcharts"
+  },
+  {
+    "label": "Generating a within_box() query with Leaflet.js",
+    "url": "https://dev.socrata.com/blog/2015/02/10/within-box-query-with-leaflet"
+  },
+  {
+    "label": "Using a jQueryUI date slider to build a SODA Query",
+    "url": "https://dev.socrata.com/blog/2014/12/24/jquery-date-slider"
+  },
+  {
+    "label": "Data Analysis with Python, Pandas, and Bokeh",
+    "url": "https://dev.socrata.com/blog/2014/11/04/data-visualization-with-python"
+  },
+  {
+    "label": "Animated Heatmap with Heatmap.js",
+    "url": "https://dev.socrata.com/blog/2014/10/01/animated-heatmap"
+  },
+  {
+    "label": "Build a physical \"Traffic Light\"",
+    "url": "https://dev.socrata.com/blog/2014/09/26/traffic-light-with-electric-imp"
+  },
+  {
+    "label": "Google Maps Mashup",
+    "url": "https://dev.socrata.com/blog/2014/05/31/google-maps"
+  },
+  {
+    "label": "Google Maps with KML",
+    "url": "https://dev.socrata.com/blog/2014/05/31/google-kml"
+  },
+  {
+    "label": "Simple column chart with D3",
+    "url": "https://dev.socrata.com/blog/2013/08/13/simple-chart-with-d3"
+  },
+  {
+    "label": "PhpSoda",
+    "url": "https://github.com/allejo/PhpSoda"
+  },
+  {
+    "label": "Google Android",
+    "url": "https://github.com/socrata/soda-android-sdk"
+  },
+  {
+    "label": ".NET",
+    "url": "https://github.com/CityofSantaMonica/SODA.NET"
+  },
+  {
+    "label": "DataSync SDK (Java)",
+    "url": "https://github.com/socrata/datasync"
+  },
+  {
+    "label": "Elixr",
+    "url": "https://github.com/rozap/exsoda"
+  },
+  {
+    "label": "ember-socrata",
+    "url": "https://github.com/zachgarwood/ember-socrata"
+  },
+  {
+    "label": "go-soda",
+    "url": "https://github.com/SebastiaanKlippert/go-soda"
+  },
+  {
+    "label": "Apple iOS",
+    "url": "https://github.com/socrata/soda-ios-sdk"
+  },
+  {
+    "label": "Java",
+    "url": "http://github.com/socrata/soda-java"
+  },
+  {
+    "label": "javascript",
+    "url": "https://github.com/socrata/soda-js"
+  },
+  {
+    "label": "Julia",
+    "url": "https://github.com/drewgendreau/Socrata.jl"
+  },
+  {
+    "label": "PHP",
+    "url": "http://github.com/socrata/soda-php"
+  },
+  {
+    "label": "PowerShell",
+    "url": "https://github.com/socrata/Socrata-PowerShell"
+  },
+  {
+    "label": "Python (Dataset Management API)",
+    "url": "https://github.com/socrata/socrata-py"
+  },
+  {
+    "label": "Python",
+    "url": "https://github.com/xmunoz/sodapy"
+  },
+  {
+    "label": "R",
+    "url": "https://github.com/Chicago/RSocrata"
+  },
+  {
+    "label": "Ruby",
+    "url": "https://github.com/socrata/soda-ruby"
+  },
+  {
+    "label": "Scala",
+    "url": "https://github.com/socrata/soda-scala"
+  },
+  {
+    "label": "Swift",
+    "url": "https://github.com/socrata/soda-swift"
+  },
+  {
+    "label": "Data Publishers",
+    "url": "https://dev.socrata.com/docs/queries/"
+  },
+  {
+    "label": "Publisher Guide",
+    "url": "https://dev.socrata.com/publishers/"
+  },
+  {
+    "label": "SODA Producer API",
+    "url": "https://dev.socrata.com/publishers/soda-producer/soda-producer-basics"
+  },
+  {
+    "label": "Dataset Management API",
+    "url": "https://dev.socrata.com/publishers/dsmapi"
+  },
+  {
+    "label": "Connectors & ETL Templates",
+    "url": "http://socrata.github.io/connectors/"
+  },
+  {
+    "label": "Pentaho Kettle",
+    "url": "https://dev.socrata.com/connectors/pentaho-kettle"
+  },
+  {
+    "label": "RSocrata",
+    "url": "https://dev.socrata.com/connectors/rsocrata"
+  },
+  {
+    "label": "Safe FME",
+    "url": "https://dev.socrata.com/connectors/safe-fme"
+  },
+  {
+    "label": "Socrata Datasync",
+    "url": "http://socrata.github.io/datasync/"
+  },
+  {
+    "label": "PhpSoda",
+    "url": "https://github.com/allejo/PhpSoda"
+  },
+  {
+    "label": ".NET",
+    "url": "https://github.com/CityofSantaMonica/SODA.NET"
+  },
+  {
+    "label": "DataSync SDK (Java)",
+    "url": "https://github.com/socrata/datasync"
+  },
+  {
+    "label": "ember-socrata",
+    "url": "https://github.com/zachgarwood/ember-socrata"
+  },
+  {
+    "label": "go-soda",
+    "url": "https://github.com/SebastiaanKlippert/go-soda"
+  },
+  {
+    "label": "Java",
+    "url": "http://github.com/socrata/soda-java"
+  },
+  {
+    "label": "javascript",
+    "url": "https://github.com/socrata/soda-js"
+  },
+  {
+    "label": "PHP",
+    "url": "http://github.com/socrata/soda-php"
+  },
+  {
+    "label": "PowerShell",
+    "url": "https://github.com/socrata/Socrata-PowerShell"
+  },
+  {
+    "label": "Python (Dataset Management API)",
+    "url": "https://github.com/socrata/socrata-py"
+  },
+  {
+    "label": "Python",
+    "url": "https://github.com/xmunoz/sodapy"
+  },
+  {
+    "label": "R",
+    "url": "https://github.com/Chicago/RSocrata"
+  },
+  {
+    "label": "Ruby",
+    "url": "https://github.com/socrata/soda-ruby"
+  },
+  {
+    "label": "Visualizing data using the Google Calendar Chart",
+    "url": "https://dev.socrata.com/blog/2017/01/03/visualizing-data-using-google-calendar-chart"
+  },
+  {
+    "label": "Scrubbing data with Python",
+    "url": "https://dev.socrata.com/blog/2017/01/03/scrubbing-data-with-python"
+  },
+  {
+    "label": "Gauge Visualizations using the Google Charts library",
+    "url": "https://dev.socrata.com/blog/2017/01/03/gauge-visualizations-using-the-google-charts-library"
+  },
+  {
+    "label": "Pulling data from Hadoop and Publishing to Socrata",
+    "url": "https://dev.socrata.com/blog/2016/10/28/pulling-data-from-hadoop"
+  },
+  {
+    "label": "Using Pentaho to Read data from Salesforce and Publish to Socrata",
+    "url": "https://dev.socrata.com/blog/2016/08/30/pentaho-kettle-data-integration"
+  },
+  {
+    "label": "Using a SSIS to write to a Socrata Dataset",
+    "url": "https://dev.socrata.com/blog/2016/03/17/ssis-socrata-datasync"
+  },
+  {
+    "label": "Pentaho Kettle ETL Toolkit",
+    "url": "https://dev.socrata.com/blog/2015/05/29/pentaho-kettle-etl-kit"
+  },
+  {
+    "label": "Using a Wufoo form to write to a Socrata Dataset",
+    "url": "https://dev.socrata.com/blog/2015/02/09/wufoo-to-socrata"
+  },
+  {
+    "label": "Pushing Sensor Data to Socrata",
+    "url": "https://dev.socrata.com/blog/2015/01/11/soda-sensor-push"
+  },
+  {
+    "label": "Using the FME Socrata Writer",
+    "url": "https://dev.socrata.com/blog/2014/10/09/fme-socrata-writer"
+  },
+  {
+    "label": "Upsert via soda-ruby",
+    "url": "http://socrata.github.io/soda-ruby/examples/upsert.html"
+  },
+  {
+    "label": "API Docs",
+    "url": "https://dev.socrata.com/docs/queries/"
+  },
+  {
+    "label": "API Endpoints",
+    "url": "https://dev.socrata.com/docs/endpoints"
+  },
+  {
+    "label": "Row Identifiers",
+    "url": "https://dev.socrata.com/docs/row-identifiers"
+  },
+  {
+    "label": "RESTful Verbs",
+    "url": "https://dev.socrata.com/docs/verbs"
+  },
+  {
+    "label": "Application Tokens",
+    "url": "https://dev.socrata.com/docs/app-tokens"
+  },
+  {
+    "label": "Authentication",
+    "url": "https://dev.socrata.com/docs/authentication"
+  },
+  {
+    "label": "Response Codes & Headers",
+    "url": "https://dev.socrata.com/docs/response-codes"
+  },
+  {
+    "label": "System Fields",
+    "url": "https://dev.socrata.com/docs/system-fields"
+  },
+  {
+    "label": "CORS & JSONP",
+    "url": "https://dev.socrata.com/docs/cors-and-jsonp"
+  },
+  {
+    "label": "SoQL Queries",
+    "url": "https://dev.socrata.com/docs/queries/"
+  },
+  {
+    "label": "SoQL Function and Keyword Listing",
+    "url": "https://dev.socrata.com/docs/functions/"
+  },
+  {
+    "label": "Data Transform Functions",
+    "url": "https://dev.socrata.com/docs/transforms/"
+  },
+  {
+    "label": "Data Formats",
+    "url": "https://dev.socrata.com/docs/formats/"
+  },
+  {
+    "label": "JSON",
+    "url": "https://dev.socrata.com/docs/formats/json"
+  },
+  {
+    "label": "GeoJSON",
+    "url": "https://dev.socrata.com/docs/formats/geojson"
+  },
+  {
+    "label": "CSV",
+    "url": "https://dev.socrata.com/docs/formats/csv"
+  },
+  {
+    "label": "RDF-XML",
+    "url": "https://dev.socrata.com/docs/formats/rdf-xml"
+  },
+  {
+    "label": "Datatypes",
+    "url": "https://dev.socrata.com/docs/datatypes/"
+  },
+  {
+    "label": "Checkbox",
+    "url": "https://dev.socrata.com/docs/datatypes/checkbox"
+  },
+  {
+    "label": "Fixed Timestamp",
+    "url": "https://dev.socrata.com/docs/datatypes/fixed_timestamp"
+  },
+  {
+    "label": "Floating Timestamp",
+    "url": "https://dev.socrata.com/docs/datatypes/floating_timestamp"
+  },
+  {
+    "label": "Line",
+    "url": "https://dev.socrata.com/docs/datatypes/line"
+  },
+  {
+    "label": "Location",
+    "url": "https://dev.socrata.com/docs/datatypes/location"
+  },
+  {
+    "label": "MultiLine",
+    "url": "https://dev.socrata.com/docs/datatypes/multiline"
+  },
+  {
+    "label": "MultiPoint",
+    "url": "https://dev.socrata.com/docs/datatypes/multipoint"
+  },
+  {
+    "label": "MultiPolygon",
+    "url": "https://dev.socrata.com/docs/datatypes/multipolygon"
+  },
+  {
+    "label": "Number",
+    "url": "https://dev.socrata.com/docs/datatypes/number"
+  },
+  {
+    "label": "Point",
+    "url": "https://dev.socrata.com/docs/datatypes/point"
+  },
+  {
+    "label": "Polygon",
+    "url": "https://dev.socrata.com/docs/datatypes/polygon"
+  },
+  {
+    "label": "Text",
+    "url": "https://dev.socrata.com/docs/datatypes/text"
+  },
+  {
+    "label": "URL",
+    "url": "https://dev.socrata.com/docs/datatypes/url"
+  },
+  {
+    "label": "Other APIs",
+    "url": "https://dev.socrata.com/docs/other/"
+  },
+  {
+    "label": "Libraries & SDKs",
+    "url": "https://dev.socrata.com/libraries/"
+  },
+  {
+    "label": "Learn more...",
+    "url": "https://www.tylertech.com/solutions/transformative-technology/data-insights"
+  },
+  {
+    "label": "status.socrata.com",
+    "url": "http://status.socrata.com"
+  },
+  {
+    "label": "API Endpoints",
+    "url": "https://dev.socrata.com/docs/endpoints"
+  },
+  {
+    "label": "Row Identifiers",
+    "url": "https://dev.socrata.com/docs/row-identifiers"
+  },
+  {
+    "label": "RESTful Verbs",
+    "url": "https://dev.socrata.com/docs/verbs"
+  },
+  {
+    "label": "Application Tokens",
+    "url": "https://dev.socrata.com/docs/app-tokens"
+  },
+  {
+    "label": "Authentication",
+    "url": "https://dev.socrata.com/docs/authentication"
+  },
+  {
+    "label": "Response Codes & Headers",
+    "url": "https://dev.socrata.com/docs/response-codes"
+  },
+  {
+    "label": "System Fields",
+    "url": "https://dev.socrata.com/docs/system-fields"
+  },
+  {
+    "label": "CORS & JSONP",
+    "url": "https://dev.socrata.com/docs/cors-and-jsonp"
+  },
+  {
+    "label": "SoQL Queries",
+    "url": "https://dev.socrata.com/docs/queries/"
+  },
+  {
+    "label": "SoQL Function and Keyword Listing",
+    "url": "https://dev.socrata.com/docs/functions/"
+  },
+  {
+    "label": "Data Transform Functions",
+    "url": "https://dev.socrata.com/docs/transforms/"
+  },
+  {
+    "label": "Data Formats",
+    "url": "https://dev.socrata.com/docs/formats/"
+  },
+  {
+    "label": "JSON",
+    "url": "https://dev.socrata.com/docs/formats/json"
+  },
+  {
+    "label": "GeoJSON",
+    "url": "https://dev.socrata.com/docs/formats/geojson"
+  },
+  {
+    "label": "CSV",
+    "url": "https://dev.socrata.com/docs/formats/csv"
+  },
+  {
+    "label": "RDF-XML",
+    "url": "https://dev.socrata.com/docs/formats/rdf-xml"
+  },
+  {
+    "label": "Datatypes",
+    "url": "https://dev.socrata.com/docs/datatypes/"
+  },
+  {
+    "label": "Checkbox",
+    "url": "https://dev.socrata.com/docs/datatypes/checkbox"
+  },
+  {
+    "label": "Fixed Timestamp",
+    "url": "https://dev.socrata.com/docs/datatypes/fixed_timestamp"
+  },
+  {
+    "label": "Floating Timestamp",
+    "url": "https://dev.socrata.com/docs/datatypes/floating_timestamp"
+  },
+  {
+    "label": "Line",
+    "url": "https://dev.socrata.com/docs/datatypes/line"
+  },
+  {
+    "label": "Location",
+    "url": "https://dev.socrata.com/docs/datatypes/location"
+  },
+  {
+    "label": "MultiLine",
+    "url": "https://dev.socrata.com/docs/datatypes/multiline"
+  },
+  {
+    "label": "MultiPoint",
+    "url": "https://dev.socrata.com/docs/datatypes/multipoint"
+  },
+  {
+    "label": "MultiPolygon",
+    "url": "https://dev.socrata.com/docs/datatypes/multipolygon"
+  },
+  {
+    "label": "Number",
+    "url": "https://dev.socrata.com/docs/datatypes/number"
+  },
+  {
+    "label": "Point",
+    "url": "https://dev.socrata.com/docs/datatypes/point"
+  },
+  {
+    "label": "Polygon",
+    "url": "https://dev.socrata.com/docs/datatypes/polygon"
+  },
+  {
+    "label": "Text",
+    "url": "https://dev.socrata.com/docs/datatypes/text"
+  },
+  {
+    "label": "URL",
+    "url": "https://dev.socrata.com/docs/datatypes/url"
+  },
+  {
+    "label": "Other APIs",
+    "url": "https://dev.socrata.com/docs/other/"
+  },
+  {
+    "label": "Structured Query Language (SQL)",
+    "url": "https://en.wikipedia.org/wiki/Sql"
+  },
+  {
+    "label": "authenticated",
+    "url": "https://dev.socrata.com/docs/authentication"
+  },
+  {
+    "label": "application token",
+    "url": "https://dev.socrata.com/docs/app-tokens"
+  },
+  {
+    "label": "query",
+    "url": "https://dev.socrata.com/docs/queries/query"
+  },
+  {
+    "label": "page",
+    "url": "https://dev.socrata.com/docs/queries/page"
+  },
+  {
+    "label": "parameters",
+    "url": "https://dev.socrata.com/docs/queries/parameters"
+  },
+  {
+    "label": "timeout",
+    "url": "https://dev.socrata.com/docs/queries/timeout"
+  },
+  {
+    "label": "includeSystem",
+    "url": "https://dev.socrata.com/docs/queries/includesystem"
+  },
+  {
+    "label": "system columns",
+    "url": "https://dev.socrata.com/docs/system-fields"
+  },
+  {
+    "label": "includeSynthetic",
+    "url": "https://dev.socrata.com/docs/queries/includesynthetic"
+  },
+  {
+    "label": "orderingSpecifier",
+    "url": "https://dev.socrata.com/docs/queries/orderingspecifier"
+  },
+  {
+    "label": "serializationOptions",
+    "url": "https://dev.socrata.com/docs/queries/serializationoptions"
+  },
+  {
+    "label": "cURL",
+    "url": "https://curl.se/"
+  },
+  {
+    "label": "",
+    "url": "http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"
+  },
+  {
+    "label": "Tyler Technologies",
+    "url": "https://www.tylertech.com/solutions/transformative-technology/data-insights"
+  },
+  {
+    "label": "CC BY-NC-SA 3.0",
+    "url": "http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"
+  },
+  {
+    "label": "you can contribute!",
+    "url": "https://dev.socrata.com/contributing"
+  }
+]

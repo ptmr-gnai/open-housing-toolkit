@@ -1,0 +1,4662 @@
+[
+  {
+    "label": "",
+    "url": "https://www.census.gov"
+  },
+  {
+    "label": "Name",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/?C=N;O=D"
+  },
+  {
+    "label": "Last modified",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/?C=M;O=A"
+  },
+  {
+    "label": "Size",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/?C=S;O=A"
+  },
+  {
+    "label": "Description",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/?C=D;O=A"
+  },
+  {
+    "label": "Parent Directory",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_S000_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA01_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA01_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA02_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA02_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SA03_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SA03_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE01_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE01_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE02_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE02_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SE03_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SE03_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI01_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI01_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI02_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI02_JT05_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT00_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT01_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT02_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT02_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2002.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2002.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2003.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2003.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2004.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2004.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2005.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2005.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2006.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2006.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2007.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2007.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2008.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2008.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2009.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2009.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT03_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT03_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT04_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT04_2023.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2010.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2010.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2011.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2011.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2012.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2012.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2013.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2013.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2014.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2014.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2015.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2015.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2016.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2016.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2017.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2017.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2018.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2018.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2019.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2019.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2020.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2020.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2021.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2021.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2022.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2022.csv.gz"
+  },
+  {
+    "label": "ny_wac_SI03_JT05_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_SI03_JT05_2023.csv.gz"
+  },
+  {
+    "label": "CONNECT WITH US",
+    "url": "https://www.census.gov/about/contact-us/social_media.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.facebook.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://twitter.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.linkedin.com/company/us-census-bureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.youtube.com/user/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.instagram.com/uscensusbureau/"
+  },
+  {
+    "label": "Information Quality",
+    "url": "https://www.census.gov/quality/"
+  },
+  {
+    "label": "Data Linkage Infrastructure",
+    "url": "https://www.census.gov/datalinkage/"
+  },
+  {
+    "label": "Data Protection and Privacy Policy",
+    "url": "https://www.census.gov/privacy/"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility"
+  },
+  {
+    "label": "FOIA",
+    "url": "https://www.census.gov/foia/"
+  },
+  {
+    "label": "Inspector General",
+    "url": "https://www.oig.doc.gov/Pages/default.aspx"
+  },
+  {
+    "label": "No FEAR Act",
+    "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act"
+  },
+  {
+    "label": "U.S. Department of Commerce",
+    "url": "https://www.commerce.gov/"
+  },
+  {
+    "label": "USA.gov",
+    "url": "https://www.usa.gov/"
+  }
+]

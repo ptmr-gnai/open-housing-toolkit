@@ -1,0 +1,16 @@
+{
+  "id": "hpd_ncf_pdf",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf",
+  "publisher": "NYC HPD",
+  "purpose": "Program underwriting",
+  "retrieved_at": "2026-10-03T15:48:13.370595+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Wed, 17 Jun 2026 17:08:26 GMT",
+  "bytes": 276220,
+  "sha256": "3d0ffc5f8acb206e69d567699498a4c1047aa076b5bcce5a0cf11aee87e4c435",
+  "cache_path": "cache/hpd_ncf_pdf.body",
+  "parsed": "pdf"
+}

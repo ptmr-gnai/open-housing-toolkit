@@ -1,0 +1,18 @@
+{
+  "id": "census_sample",
+  "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB25070_010E&for=county%3A005&in=state%3A36",
+  "publisher": "US Census Bureau",
+  "purpose": "API",
+  "retrieved_at": "2026-10-03T15:46:42.760607+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://api.census.gov/data/missing_key.html",
+  "content_type": "text/html",
+  "last_modified": "Tue, 28 Jul 2026 17:16:03 GMT",
+  "bytes": 8531,
+  "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+  "cache_path": "cache/census_sample.body",
+  "parsed": "html",
+  "text_chars": 2275,
+  "link_count": 9
+}

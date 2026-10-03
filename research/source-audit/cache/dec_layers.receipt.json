@@ -1,0 +1,19 @@
+{
+  "id": "dec_layers",
+  "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/DECDatainfo?f=pjson",
+  "publisher": "NYS DEC",
+  "purpose": "GIS service discovery",
+  "retrieved_at": "2026-10-03T15:48:14.759287+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://gisservices.dec.ny.gov/arcgis/rest/services/DECDatainfo?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 82,
+  "sha256": "bc8581ee621b54100ebd46728d9c625f7c7e3256dce6065a999509bf3d6142ed",
+  "cache_path": "cache/dec_layers.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "error"
+  ]
+}

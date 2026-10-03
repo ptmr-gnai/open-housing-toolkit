@@ -1,0 +1,18 @@
+{
+  "id": "geosupport_new",
+  "url": "https://www.nyc.gov/content/planning/pages/resources/datasets/geosupport-desktop",
+  "publisher": "NYC DCP",
+  "purpose": "Address process",
+  "retrieved_at": "2026-10-03T15:49:59.392992+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/geosupport-desktop",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Wed, 01 Jul 2026 16:57:07 GMT",
+  "bytes": 15852,
+  "sha256": "79ba5cd843bcfc0ec18dbeec8a4f702ea43061f1d86fec47cdca171ee35924fa",
+  "cache_path": "cache/geosupport_new.body",
+  "parsed": "html",
+  "text_chars": 3470,
+  "link_count": 29
+}

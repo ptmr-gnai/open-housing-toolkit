@@ -1,0 +1,158 @@
+[
+  {
+    "id": "nyc_soda_sample",
+    "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028710002&%24limit=1",
+    "publisher": "NYC Open Data",
+    "purpose": "API"
+  },
+  {
+    "id": "soda_docs",
+    "url": "https://dev.socrata.com/docs/queries/",
+    "publisher": "Socrata",
+    "purpose": "API documentation"
+  },
+  {
+    "id": "dcp_zoning",
+    "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+    "publisher": "NYC DCP",
+    "purpose": "Legal text"
+  },
+  {
+    "id": "dcp_applicant",
+    "url": "https://www.nyc.gov/site/planning/applicants/applicant-portal.page",
+    "publisher": "NYC DCP",
+    "purpose": "Process"
+  },
+  {
+    "id": "dcp_ulurp",
+    "url": "https://www.nyc.gov/site/planning/applicants/applicant-portal/step5-ulurp-process.page",
+    "publisher": "NYC DCP",
+    "purpose": "Process"
+  },
+  {
+    "id": "ceqr_manual",
+    "url": "https://www.nyc.gov/site/oec/environmental-quality-review/technical-manual.page",
+    "publisher": "NYC Mayor's Office of Environmental Coordination",
+    "purpose": "Process"
+  },
+  {
+    "id": "geosearch_sample",
+    "url": "https://geosearch.planninglabs.nyc/v2/search?text=1240%20EDWARD%20L%20GRANT%20HWY%20BRONX",
+    "publisher": "NYC Planning Labs",
+    "purpose": "API"
+  },
+  {
+    "id": "geosupport_docs",
+    "url": "https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gde.page",
+    "publisher": "NYC DCP",
+    "purpose": "Address documentation"
+  },
+  {
+    "id": "acris_docs",
+    "url": "https://www.nyc.gov/site/finance/property/acris.page",
+    "publisher": "NYC DOF",
+    "purpose": "Property process"
+  },
+  {
+    "id": "acris_catalog",
+    "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=ACRIS&limit=8",
+    "publisher": "NYC Open Data",
+    "purpose": "Discovery"
+  },
+  {
+    "id": "hpd_term_sheets",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/term-sheets.page",
+    "publisher": "NYC HPD",
+    "purpose": "Program underwriting"
+  },
+  {
+    "id": "hpd_rfps",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page",
+    "publisher": "NYC HPD",
+    "purpose": "Procurement process"
+  },
+  {
+    "id": "hpd_ami",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+    "publisher": "NYC HPD",
+    "purpose": "Affordability"
+  },
+  {
+    "id": "hdc_financing",
+    "url": "https://www.nychdc.com/developers",
+    "publisher": "NYC HDC",
+    "purpose": "Financing"
+  },
+  {
+    "id": "mta_developers",
+    "url": "https://www.mta.info/developers",
+    "publisher": "MTA",
+    "purpose": "API documentation"
+  },
+  {
+    "id": "mta_api_sample",
+    "url": "https://data.ny.gov/resource/39hk-dx4f.json?%24limit=1",
+    "publisher": "MTA / NYS Open Data",
+    "purpose": "API"
+  },
+  {
+    "id": "census_sample",
+    "url": "https://api.census.gov/data/2024/acs/acs5?get=NAME%2CB25070_010E&for=county%3A005&in=state%3A36",
+    "publisher": "US Census Bureau",
+    "purpose": "API"
+  },
+  {
+    "id": "census_docs",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+    "publisher": "US Census Bureau",
+    "purpose": "API documentation"
+  },
+  {
+    "id": "lodes_docs",
+    "url": "https://lehd.ces.census.gov/data/",
+    "publisher": "US Census Bureau",
+    "purpose": "Job data documentation"
+  },
+  {
+    "id": "hud_api",
+    "url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+    "publisher": "HUD",
+    "purpose": "API documentation"
+  },
+  {
+    "id": "hud_income",
+    "url": "https://www.huduser.gov/portal/datasets/il.html",
+    "publisher": "HUD",
+    "purpose": "Income limits"
+  },
+  {
+    "id": "dec_data",
+    "url": "https://dec.ny.gov/environmental-protection/site-cleanup/brownfield-and-state-superfund-programs",
+    "publisher": "NYS DEC",
+    "purpose": "Environmental process"
+  },
+  {
+    "id": "dec_gis",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "API"
+  },
+  {
+    "id": "oer_e",
+    "url": "https://www.nyc.gov/site/oer/remediation/e-designation.page",
+    "publisher": "NYC OER",
+    "purpose": "Environmental process"
+  },
+  {
+    "id": "furman_core",
+    "url": "https://furmancenter.org/coredata",
+    "publisher": "NYU Furman Center",
+    "purpose": "Industry research platform"
+  },
+  {
+    "id": "furman_data",
+    "url": "https://furmancenter.org/data",
+    "publisher": "NYU Furman Center",
+    "purpose": "Industry research methods"
+  }
+]

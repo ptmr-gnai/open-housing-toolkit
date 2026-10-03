@@ -1,0 +1,22 @@
+{
+  "id": "hpd_ncf_uw_catalog",
+  "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Housing%20New%20York%20Units%20Building&limit=3",
+  "publisher": "NYC Open Data",
+  "purpose": "HPD housing production discovery",
+  "retrieved_at": "2026-10-03T15:49:59.915415+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Housing%20New%20York%20Units%20Building&limit=3",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": null,
+  "bytes": 44004,
+  "sha256": "f0b16a3e006c2cbbf65d7d0bf385d506ff8460c9f89544f530670e26c3dd9db7",
+  "cache_path": "cache/hpd_ncf_uw_catalog.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "results",
+    "resultSetSize",
+    "timings",
+    "warnings"
+  ]
+}

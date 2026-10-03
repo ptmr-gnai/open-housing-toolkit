@@ -1,0 +1,942 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Affordable Housing Production by Building",
+            "id" : "hg8x-zxpr",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The Department of Housing Preservation and Development (HPD) reports on projects, buildings, and units that began after January 1, 2014, and are counted towards either the Housing New York plan (1/1/2014 – 12/31/2021) or the Housing Our Neighbors: A Blueprint for Housing & Homelessness plan (1/1/2022 – present).",
+            "attribution" : "Department of Housing Preservation and Development (HPD)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-30T19:21:51.000Z",
+            "createdAt" : "2016-12-13T18:44:07.000Z",
+            "metadata_updated_at" : "2026-09-30T19:21:43.000Z",
+            "data_updated_at" : "2026-09-30T19:21:51.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 490,
+                "page_views_last_month" : 1731,
+                "page_views_total" : 103582,
+                "page_views_last_week_log" : 8.939579214314692,
+                "page_views_last_month_log" : 10.758223214726724,
+                "page_views_total_log" : 16.660427722363128
+              },
+            "columns_name" :
+              [
+                "Project ID",
+                "Unknown-BR Units",
+                "1-BR Units",
+                "Middle Income Units",
+                "Moderate Income Units",
+                "Extremely Low Income Units",
+                "Building Completion Date",
+                "Longitude",
+                "NTA - Neighborhood Tabulation Area",
+                "Postcode",
+                "Project Completion Date",
+                "Project Start Date",
+                "Project Name",
+                "Longitude (Internal)",
+                "Community Board",
+                "Number",
+                "BBL",
+                "Latitude (Internal)",
+                "BIN",
+                "2-BR Units",
+                "4-BR Units",
+                "Census Tract",
+                "Building ID",
+                "All Counted Units",
+                "Latitude",
+                "Low Income Units",
+                "Reporting Construction Type",
+                "Borough",
+                "Council District",
+                "Prevailing Wage Status",
+                "Extended Affordability Only",
+                "Counted Rental Units",
+                "Counted Homeownership Units",
+                "Street",
+                "Very Low Income Units",
+                "Other Income Units",
+                "3-BR Units",
+                "6-BR+ Units",
+                "Total Units",
+                "5-BR Units",
+                "Studio Units"
+              ],
+            "columns_field_name" :
+              [
+                "project_id",
+                "unknown_br_units",
+                "_1_br_units",
+                "middle_income_units",
+                "moderate_income_units",
+                "extremely_low_income_units",
+                "building_completion_date",
+                "longitude",
+                "neighborhood_tabulation_area",
+                "postcode",
+                "project_completion_date",
+                "project_start_date",
+                "project_name",
+                "longitude_internal",
+                "community_board",
+                "house_number",
+                "bbl",
+                "latitude_internal",
+                "bin",
+                "_2_br_units",
+                "_4_br_units",
+                "census_tract",
+                "building_id",
+                "all_counted_units",
+                "latitude",
+                "low_income_units",
+                "reporting_construction_type",
+                "borough",
+                "council_district",
+                "prevailing_wage_status",
+                "extended_affordability_status",
+                "counted_rental_units",
+                "counted_homeownership_units",
+                "street_name",
+                "very_low_income_units",
+                "other_income_units",
+                "_3_br_units",
+                "_6_br_units",
+                "total_units",
+                "_5_br_units",
+                "studio_units"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Calendar date",
+                "Number",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "The Project ID is a unique numeric identifier assigned to each project by HPD.",
+                "Unknown-BR Units are units with an unknown number of bedrooms.",
+                "1-BR Units are units with 1-bedroom.",
+                "Middle Income Units are units with rents that are affordable to households earning 121 to 165% of the area median income (AMI).",
+                "Moderate Income Units are units with rents that are affordable to households earning 81 to 120% of the area median income (AMI).",
+                "Extremely Low Income Units are units with rents that are affordable to households earning 0 to 30% of the area median income (AMI).",
+                "The Building Completion Date is the date the building was completed. The field is blank if the building has not completed.",
+                "The Latitude and Longitude specify the location of the property on the earth’s surface. The coordinates provided are an estimate of the location based on the street segment and address range.",
+                "The Neighborhood Tabulation Area indicates the New York City Neighborhood Tabulation Area where the building is located.",
+                "Zip code",
+                "The Project Completion Date is the date that the last building in the project was completed. If the project has not yet completed, then the field is blank.",
+                "The Project Start Date is the date of the project loan closing and regulatory agreement — or the notice of intent to market affordable units.",
+                "The Project Name is the name assigned to the project by HPD.",
+                "The Latitude (Internal) and Longitude (Internal) specify the location of the property on the earth’s surface. The coordinates provided are of the internal centroid derived from the tax lot.",
+                "The Community Board field indicates the New York City Community District where the building is located.",
+                "The House Number is the street number in the building’s address. E.g., the house number is ‘100’ in ‘100 Gold Street.’",
+                "The BBL (Borough, Block, and Lot) is a unique identifier for each tax lot in the City.",
+                "The Latitude (Internal) and Longitude (Internal) specify the location of the property on the earth’s surface. The coordinates provided are of the internal centroid derived from the tax lot.",
+                "The BIN (Building Identification Number) is a unique identifier for each building in the City.",
+                "2-BR Units are units with 2-bedrooms.",
+                "4-BR Units are units with 4-bedrooms.",
+                "The Census Tract indicates the 2010 U.S. Census Tract where the building is located.",
+                "The Building ID is a unique numeric identifier assigned to each building by HPD.",
+                "The Counted Units field indicates the total number of affordable units, counted towards the Housing New York plan, that are in the building.",
+                "The Latitude and Longitude specify the location of the property on the earth’s surface. The coordinates provided are an estimate of the location based on the street segment and address range.",
+                "Low Income Units are units with rents that are affordable to households earning 51 to 80% of the area median income (AMI).",
+                "The Reporting Construction Type field indicates whether the building is categorized as ‘new construction’ or ‘preservation’ in Housing New York statistics. Note that some preservation projects included here may not actually involve construction, because they extend the project’s regulatory restrictions but do not require rehabilitation.",
+                "The Borough is the borough where the building is located.",
+                "The Council District indicates the New York City Council District where the building is located.",
+                "The Prevailing Wage Status field indicates whether the project is subject to prevailing wage requirements, such as Davis Bacon.",
+                "The Extended Affordability Only field indicates whether the project is considered to be Extended Affordability. An extended affordability project involves no construction, but secures an extended or new regulatory agreement. All extended affordability projects have a ‘reporting construction type’ of ‘preservation.’",
+                "Counted Rental Units are the units in the building, counted toward the Housing New York plan, where assistance has been provided to landlords in exchange for a requirement for affordable units.",
+                "Counted Homeownership Units are the units in the building, counted toward the Housing New York Plan, where assistance has been provided directly to homeowners.",
+                "The Street Name is the name of the street in the building’s address. E.g., the street name is ‘Gold Street’ in ‘100 Gold Street.’",
+                "Very Low Income Units are units with rents that are affordable to households earning 31 to 50% of the area median income (AMI).",
+                "Other Units are units reserved for building superintendents.",
+                "3-BR Units are units with 3-bedrooms.",
+                "6-BR+ Units are units with 6-bedrooms or more.",
+                "The Total Units field indicates the total number of units, affordable and market rate, in each building.",
+                "5-BR Units are units with 5-bedrooms.",
+                "Studio Units are units with 0-bedrooms."
+              ],
+            "columns_format" :
+              [
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                { "displayStyle" : "plain", "align" : "left" }
+              ],
+            "download_count" : 47080,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-05-18T19:42:18.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Housing & Development",
+            "domain_tags" :
+              [
+                "affordable housing production",
+                "building",
+                "housing",
+                "hpd",
+                "development"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "12/20/2016" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Housing Preservation and Development (HPD)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/hg8x-zxpr",
+        "link" : "https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Housing Maintenance Code Violations",
+            "id" : "wvxf-dwi5",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing Preservation and Development (HPD) issues violations against conditions, in rental dwelling units and buildings, that have been verified to violate the New York City Housing Maintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL).\r\nEach row in this dataset contains discrete information about one violation of the New York City Housing Maintenance Code or New York State Multiple Dwelling Law. Each violation is identified using a unique Violation ID. These Laws are in place to provide requirements for the maintenance of residential dwelling units within New York City. \r\nViolations are issued by Housing Inspectors after a physical inspection is conducted (except for class I violations which are generally  administratively issued).  Violations are issued in four classes: Class A (non-hazardous), Class B (hazardous), Class C (immediately hazardous) and Class I (information orders).  For more information on violations, see https://www1.nyc.gov/site/hpd/owners/compliance-clear-violations.page  \r\nThe base data for this file is all violations open as of October 1, 2012.  Violation data is updated daily.  The daily update includes both new violations and updates to the status of previously issued violations. An open violation is a violation which is still active on the Department records. See the status table for determining how to filter for open violations versus closed violations, and within open violations for a more detailed current status. \r\nThe property owner may or may not have corrected the physical condition if the status is open. The violation status is closed when the violation is observed/verified as corrected by HPD or as certified by the landlord.   The processes for having violations dismissed are described at http://www1.nyc.gov/site/hpd/owners/compliance-clear-violations.page\r\nUsing other HPD datasets, such as the Building File or the Registration File, a user can link together violations issued for given buildings or for given owners.",
+            "attribution" : "Department of Housing Preservation and Development (HPD)",
+            "attribution_link" : "http://www.nyc.gov/html/hpd/html/pr/HPD-Open-Data.shtml",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-03T15:03:31.000Z",
+            "createdAt" : "2013-11-18T19:49:47.000Z",
+            "metadata_updated_at" : "2026-05-20T16:46:52.000Z",
+            "data_updated_at" : "2026-10-03T15:03:31.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1704,
+                "page_views_last_month" : 6077,
+                "page_views_total" : 232821,
+                "page_views_last_week_log" : 10.735556023911535,
+                "page_views_last_month_log" : 12.569380959522295,
+                "page_views_total_log" : 17.828867863401587
+              },
+            "columns_name" :
+              [
+                "Borough",
+                "OrderNumber",
+                "CertifiedDate",
+                "CouncilDistrict",
+                "CurrentStatus",
+                "CurrentStatusDate",
+                "BoroID",
+                "CurrentStatusID",
+                "RegistrationID",
+                "Latitude",
+                "CommunityBoard",
+                "CensusTract",
+                "Longitude",
+                "NewCertifyByDate",
+                "NOVID",
+                "NOVIssuedDate",
+                "NewCorrectByDate",
+                "NovType",
+                "Lot",
+                "OriginalCertifyByDate",
+                "StreetName",
+                "InspectionDate",
+                "Postcode",
+                "OriginalCorrectByDate",
+                "ViolationStatus",
+                "Block",
+                "ApprovedDate",
+                "StreetCode",
+                "Class",
+                "RentImpairing",
+                "Apartment",
+                "Story",
+                "BBL",
+                "BuildingID",
+                "ViolationID",
+                "BIN",
+                "HighHouseNumber",
+                "HouseNumber",
+                "LowHouseNumber",
+                "NTA",
+                "NOVDescription"
+              ],
+            "columns_field_name" :
+              [
+                "boro",
+                "ordernumber",
+                "certifieddate",
+                "councildistrict",
+                "currentstatus",
+                "currentstatusdate",
+                "boroid",
+                "currentstatusid",
+                "registrationid",
+                "latitude",
+                "communityboard",
+                "censustract",
+                "longitude",
+                "newcertifybydate",
+                "novid",
+                "novissueddate",
+                "newcorrectbydate",
+                "novtype",
+                "lot",
+                "originalcertifybydate",
+                "streetname",
+                "inspectiondate",
+                "zip",
+                "originalcorrectbydate",
+                "violationstatus",
+                "block",
+                "approveddate",
+                "streetcode",
+                "class",
+                "rentimpairing",
+                "apartment",
+                "story",
+                "bbl",
+                "buildingid",
+                "violationid",
+                "bin",
+                "highhousenumber",
+                "housenumber",
+                "lowhousenumber",
+                "nta",
+                "novdescription"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Boro code (1 = Manhattan, 2 = Bronx, 3 = Brooklyn, 4 = Queens, 5 = Staten Island)\n",
+                "Reference to the abstract description of the violation condition which cites a specific section of the law which is in violation\n",
+                "Date when the violation was certified (if it was)\n",
+                "The NYC council district associated with the provided entity location (numbered 1 – 51).",
+                "Violation status (see below for details)\n",
+                "Date when the current status when into effect\n",
+                "unique number to identify borough",
+                "unique id to identify current status",
+                "Unique identifier of valid registration information\n",
+                "The latitude associated with the provided entity location.",
+                "The NYC community board associated with the provided entity location (numbered 1 – 59.",
+                "The US census tract associated with the provided entity location (in the format of up to four-digit integers, followed by an optional two-digit suffix; e.g., “15.02” or “319”).",
+                "The longitude associated with the provided entity location.",
+                "Modified date by when the owner was to inform HPD that the violation as corrected\n",
+                "Unique identifier of the Notice of Violation sent to the owner\n",
+                "Date when the NOV was sent\n",
+                "Modified date by when the owner was to correct the violation\n",
+                "Original / Reissued Notice of Violation. For more information on the Reissuance process, see http://www1.nyc.gov/site/hpd/owners/compliance-clear-violations.page .\n",
+                "Tax lot for building\n",
+                "Original date by when the owner was to inform HPD that the violation as corrected\n",
+                "Address information for the building\n",
+                "Date when the violation was observed\n",
+                "Address information for the building\n",
+                "Original date by when the owner was to correct the violation\n",
+                "Status of Violation(Open / Close)",
+                "Tax block for building\n",
+                "Date when violation was approved",
+                "Address information for the building\n",
+                "Indicator of seriousness of the violations, where A is the least serious and C is the most serious\n",
+                "A rent-impairing violation is a condition within a multiple dwelling which constitutes, or if not promptly corrected will constitute, a fire hazard or a serious threat to the life, health or safety of occupants thereof (New York State Multiple Dwelling Law Section 302).",
+                "Apartment with violation, if applicable\n",
+                "Floor of violation\n",
+                "The Borough, Block, Lot (BBL) associated with the provided entity location. It is formatted as a ten-digit numerical identifier, which is unique to each parcel of real property in NYC.",
+                "Unique identifier of building\n",
+                "Unique identifier of Violation\n",
+                "The Building Identification Number (BIN) associated with the provided entity location. It is formatted as a seven-digit numerical identifier, which is unique to each building in NYC.",
+                "Address information for the building\n",
+                "Address information for the building\n",
+                "Address information for the building\n",
+                "The Neighborhood Tabulation Area (NTA) associated with the provided entity location, which is formatted as a two-letter borough identifier followed by a two-digit numerical identifier (e.g., “BX31”).",
+                "Description of the violation\n"
+              ],
+            "columns_format" :
+              [
+                { "displayStyle" : "plain", "align" : "left" },
+                { "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                { "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                {},
+                { "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "align" : "left" }
+              ],
+            "download_count" : 51026,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-11-07T00:15:19.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Housing & Development",
+            "domain_tags" :
+              [
+                "hpd",
+                "violation",
+                "housing",
+                "department of housing preservation and development"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "2/14/2014" },
+                { "key" : "Update_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Housing Preservation and Development (HPD)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/wvxf-dwi5",
+        "link" : "https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Affordable Housing Production by Project",
+            "id" : "hq68-rnsi",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The Department of Housing Preservation and Development (HPD) reports on projects, buildings, and units that began after January 1, 2014, and are counted towards either the Housing New York plan (1/1/2014 – 12/31/2021) or the Housing Our Neighbors: A Blueprint for Housing & Homelessness plan (1/1/2022 – present).",
+            "attribution" : "Department of Housing Preservation and Development (HPD)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-30T15:25:54.000Z",
+            "createdAt" : "2016-12-13T20:48:56.000Z",
+            "metadata_updated_at" : "2026-09-30T15:25:54.000Z",
+            "data_updated_at" : "2026-09-30T14:51:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 284,
+                "page_views_last_month" : 898,
+                "page_views_total" : 36197,
+                "page_views_last_week_log" : 8.154818109052105,
+                "page_views_last_month_log" : 9.812177305514448,
+                "page_views_total_log" : 15.143622367747664
+              },
+            "columns_name" :
+              [
+                "Prevailing Wage Status",
+                "Planned Tax Benefit",
+                "All Counted Units",
+                "Extended Affordability Only",
+                "Low Income Units",
+                "Total Units",
+                "Counted Homeownership Units",
+                "Moderate Income Units",
+                "Project Completion Date",
+                "Project Start Date",
+                "Project ID",
+                "Very Low Income Units",
+                "Project Name",
+                "Middle Income Units",
+                "Senior Units",
+                "Counted Rental Units",
+                "Program Group",
+                "Other Income Units",
+                "Extremely Low Income Units"
+              ],
+            "columns_field_name" :
+              [
+                "prevailing_wage_status",
+                "planned_tax_benefit",
+                "all_counted_units",
+                "extended_affordability_status",
+                "low_income_units",
+                "total_units",
+                "counted_homeownership_units",
+                "moderate_income",
+                "project_completion_date",
+                "project_start_date",
+                "project_id",
+                "very_low_income",
+                "project_name",
+                "middle_income",
+                "senior_units",
+                "counted_rental_units",
+                "program_group",
+                "other",
+                "extremely_low_income_units"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "The Prevailing Wage Status field indicates whether the project is subject to prevailing wage requirements, such as Davis Bacon.",
+                "The Planned Tax Benefit field indicates the type of tax benefit that is anticipated for the project at the time of the project start. Data on actual/final tax benefits received can only be obtained from the NYC Department of Finance. Note: Planned Tax Benefit data for confidential projects are masked.",
+                "The Counted Units field indicates the total number of affordable units, counted towards the Housing New York plan, that are in the building.",
+                "The Extended Affordability Only field indicates whether the project is considered to be Extended Affordability. An extended affordability project involves no construction, but secures an extended or new regulatory agreement. All extended affordability projects have a ‘reporting construction type’ of ‘preservation.’",
+                "Low Income Units are units with rents that are affordable to households earning 51 to 80% of the area median income (AMI).",
+                "The Total Units field indicates the total number of units, affordable and market rate, in each building.",
+                "Counted Homeownership Units are the units in the building, counted toward the Housing New York Plan, where assistance has been provided directly to homeowners.",
+                "Moderate Income Units are units with rents that are affordable to households earning 81 to 120% of the area median income (AMI).",
+                "The Project Completion Date is the date that the last building in the project was completed. If the project has not yet completed, then the field is blank.",
+                "The Project Start Date is the date of the project loan closing and regulatory agreement — or the notice of intent to market affordable units.",
+                "The Project ID is a unique numeric identifier assigned to each project by HPD.",
+                "Very Low Income Units are units with rents that are affordable to households earning 31 to 50% of the area median income (AMI).",
+                "The Project Name is the name assigned to the project by HPD.",
+                "Middle Income Units are units with rents that are affordable to households earning 121 to 165% of the area median income (AMI).",
+                "Senior Units are units that are created or preserved for senior households. Senior Units are a subset of the Counted Units in a building, and are also included in the appropriate Extremely Low Income, Low Income, Moderate Income, Middle Income, or Other category.",
+                "Counted Rental Units are the units in the building, counted toward the Housing New York plan, where assistance has been provided to landlords in exchange for a requirement for affordable units.",
+                "The broadened program category for a project, which is based on the project’s primary program.",
+                "Other Units are units reserved for building superintendents.",
+                "Extremely Low Income Units are units with rents that are affordable to households earning 0 to 30% of the area median income (AMI)."
+              ],
+            "columns_format" :
+              [
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "view" : "date", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                }
+              ],
+            "download_count" : 13256,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-05-09T15:27:55.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Housing & Development",
+            "domain_tags" :
+              [
+                "development",
+                "building",
+                "housing",
+                "hpd",
+                "affordable housing production"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "12/20/2016" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Housing Preservation and Development (HPD)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/hq68-rnsi",
+        "link" : "https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Project/hq68-rnsi",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      }
+    ],
+  "resultSetSize" : 508,
+  "timings" : { "serviceMillis" : 27, "searchMillis" : [ 11, 8 ] },
+  "warnings" : []
+}

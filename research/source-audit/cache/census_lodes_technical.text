@@ -1,0 +1,617 @@
+LEHD Origin-Destination Employment
+Statistics (LODES) Dataset Structure
+Format Version 8.1
+
+Introduction
+The LEHD Origin-Destination Employment Statistics (LODES) data product is released 1 both as part of the
+OnTheMap application 2 and in raw form as a set of comma separated variable (CSV) text files. This
+document describes the structure of those raw files and provides basic information for users who want
+to perform analytical work on the data outside of the OnTheMap application.
+
+Data Files
+The CSV data files are released at the state level and they are organized into three groups within each
+state. The three groups of files are named as follows, according to their contents:
+        OD – Origin-Destination data, jobs totals are associated with both a home Census Block and a
+                work Census Block
+
+        RAC – Residence Area Characteristic data, jobs are totaled by home Census Block
+
+        WAC – Workplace Area Characteristic data, jobs are totaled by work Census Block
+
+All CSV files are compressed using a GZip algorithm, which appends a “.gz” to the end of the filename.
+Most commonly used compression/extraction software packages can decompress these files (see
+en.wikipedia.org/wiki/Zip_(file_format)).
+
+File Organization
+At the root distribution level, each state (or state-equivalent) has a directory named by its lowercase, 2-
+letter postal code. Within each state directory are directories of data as well as metadata and geography
+files for the state. These are described below.
+
+The LODES8 directory tree is structured as follows:
+
+
+
+
+1
+  Note: The U.S. Census Bureau reviewed this data product for unauthorized disclosure of confidential information
+and approved the disclosure avoidance practices applied to this release. CBDRB-FY21-249. Project Number: P-
+6000266.
+2
+  The OnTheMap application can be accessed at onthemap.ces.census.gov.
+
+
+
+
+                                                   1                                         Rev. 20231107
+         lehd.ces.census.gov/data/lodes/LODES8/
+              ak
+                    od
+                          [individual origin-destination files]
+                    rac
+                          [individual residence area characteristics files]
+                    wac
+                          [individual workplace area characteristics files]
+
+                    ak_xwalk.csv.gz
+
+                    lodes_ak.sha256sum
+
+                    version.txt
+
+              az
+        [more state folders]
+
+              LODES Technical Document
+
+For users who want to automate the download of LODES data files, the root location of the directory
+structure is lehd.ces.census.gov/data/lodes/LODES8/. This location can be accessed directly via a web
+browser. Additionally, users can direct their browsers to lehd.ces.census.gov/data/#lodes for single-file
+downloads.
+
+Metadata Files and Geography Crosswalk
+As shown in the diagram above, within each state directory are two text files. One is a version
+document, called “version.txt”, and the other is a “checksum” file. Also in the state directory is a
+geographic relationship file (referred to here as a “geography crosswalk”).
+
+The version file contains information about the state, the data vintage, and the format version. The
+“data vintage” is an eight character code based on the date the data were prepared for release; it is in
+the form of YYYYMMDD. 3 New or corrected data may cause newer vintages of data to be released. Only
+files that have new or changed data will be included in future vintages. The “format version” is a number
+
+
+3
+  The data vintage is not the same as the createdate provided within the data files. The createdate refers to an
+internal processing point, while the data vintage is the code that refers to a specific release of public LODES data.
+
+
+
+
+                                                      2                                          Rev. 20231107
+that refers to file organization and structure of the data release and is fully defined by this document.
+Restructuring of the existing data into different file formats or a different organization structure would
+result in a change in the format version.
+
+The checksum file in each state directory is an SHA256SUM file, called “lodes_[ST].sha256sum” where
+[ST] is the respective state postal code. With the correct software tools, the SHA256SUM file can be
+used to check that the individual data files were downloaded without any file corruption or loss of data.
+Further information on SHA256SUM can be found at en.wikipedia.org/wiki/SHA-2.
+
+The geography crosswalk is a relationship file that establishes the hierarchical connection between each
+2020 census tabulation block and all higher level geographic entities supported by the OnTheMap
+application. The geography crosswalk file is distributed as a Gzipped (see below) CSV. More detail about
+this file, including the layout, is available in the Geography Crosswalk section below.
+
+Data Coverage and Availability
+LODES includes tabulations for 51 State and territorial partners. 4 Most states (or state equivalents) have
+OD, RAC, and WAC data for all 20 years (2002-2021). In some years, employment data are not available
+for some states. In those cases, the state will not have OD or WAC files, but will have RAC files that
+include residents who are employed in other states.
+
+Datasets for 2009 and later contain demographic variables (Race, Ethnicity, Education, and Sex) in the
+RAC and WAC files that are not available in other years of data. 2011 and later datasets contain
+additional variables (Firm Age and Firm Size) in the WAC files. 5 The data structure for all years of data
+includes space for these newer variables, but in years outside the listed range these variables contain
+only zeroes. See the “File Naming Conventions and File Structure Details” section of this document for
+more information.
+
+Datasets for 2010 and later contain additional Job Types that cover Federal employment as supplied by
+the Office of Personnel Management (OPM). 6 The data structure is outlined in the “File Naming
+Conventions and File Structure Details” segment of this document.
+
+For state-years 2009 and earlier, a full complement of data includes 8 OD files, 40 RAC files, and 40 WAC
+files. 2010 and forward includes 12 OD files, 60 RAC files, and 60 WAC files. In some cases, individual
+files produced for a state-year combination may contain no data because there are no jobs in the
+
+
+
+
+4
+  Specifically, the District of Columbia plus the 50 states. For more information on the LED partnership and to see a
+list of current partner states see lehd.ces.census.gov/state_partners/.
+5
+  Additionally, Firm Age and Firm Size are only made available for the All Private Jobs job type (JT02). For more
+information about Firm Age and Firm Size variables, please see lehd.ces.census.gov/research/.
+6
+  For more information about Federal employment data in LODES, please see
+lehd.ces.census.gov/doc/help/onthemap/FederalEmploymentInOnTheMap.pdf as well as
+lehd.ces.census.gov/doc/help/onthemap/LODES Data Note - Fed Emp 2015.pdf.
+
+
+
+
+                                                     3                                          Rev. 20231107
+specific combination of state-year-jobtype-filetype. When this occurs the individual file still exists, but
+only contains the file header as specified below.
+
+The details of the data coverage and state availability are summarized in the table below:
+
+    Year(s)     Available     States Without OD and           Federal    Race, Ethnicity,     Firm Age,
+                States        WAC Data7                       Jobs       Education, Sex       Firm Size
+
+                              Arkansas, Arizona, DC,
+    2002        45            Massachusetts, Mississippi,     No         No                   No
+                              New Hampshire
+                              Arizona, DC,
+    2003        47                                            No         No                   No
+                              Massachusetts, Mississippi
+    2004-2008   49            DC, Massachusetts               No         No                   No
+    2009        49            DC, Massachusetts               No         Yes                  No
+    2010        50            Massachusetts                   Yes        Yes                  No
+    2011-2016   51            (none)                          Yes        Yes                  Yes
+
+    2017-2018   50            Alaska                          Yes        Yes                  Yes
+                              Alaska, Arkansas,
+    2019-2021   48                                            Yes        Yes                  Yes
+                              Mississippi
+
+
+
+Geography Vintage
+LODES Version 8.1 is based on 2021 TIGER/Line shapefiles. 8 The data are enumerated with 2020 census
+blocks. LODES Version 7 and 6 used 2010 census blocks. Basic information on 2020 census blocks can be
+found at www.census.gov/geographies/reference-files/time-series/geo/block-assignment-files.html.
+General information on the relationships between 2010 census blocks and 2020 census blocks can be
+found at www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html. The
+methods used to translate historical data into 2020 census blocks can be found at
+lehd.ces.census.gov/doc/help/onthemap/OnTheMap2020Geography.pdf.
+
+
+
+
+7
+  While Puerto Rico is a member of the LED Partnership, data infrastructure constraints prevent it from being
+included in LODES at this time.
+8
+  See www.census.gov/geo/maps-data/data/tiger-line.html for more information on the TIGER/Line data products
+and lehd.ces.census.gov/applications/help/onthemap.html#!geographic_data for more information on how
+OnTheMap sources its geography.
+
+
+
+
+                                                  4                                       Rev. 20231107
+File Naming Conventions and File Structure Details
+The structure of the three types of files are described on the following pages:
+
+OD
+Filename of the OD datasets are described by the following templates
+
+[ST]_od_[PART]_[TYPE]_[YEAR].csv.gz where
+           [ST] = lowercase, 2-letter postal code for a chosen state
+
+           [PART] = Part of the state file, can have a value of either “main” or “aux”. Complimentary parts of
+                    the state file, the main part includes jobs with both workplace and residence in the state
+                    and the aux part includes jobs with the workplace in the state and the residence outside
+                    of the state.
+
+           [TYPE] = Job Type, can have a value of “JT00” for All Jobs, “JT01” for Primary Jobs, “JT02” for All
+                    Private Jobs, “JT03” for Private Primary Jobs, “JT04” for All Federal Jobs, or “JT05” for
+                    Federal Primary Jobs.
+
+           [YEAR] = Year of job data. Can have the value of 2002-2021 for most states.
+
+As an example, the main OD file of Primary Jobs in 2007 for California would be the file:
+ca_od_main_JT01_2007.csv.gz
+
+The structure of the OD files is as follows:
+
+                                         Origin-Destination (OD) File Structure
+    Pos     Variable     Type                                        Explanation
+     1    w_geocode     Char15   Workplace Census Block Code
+     2    h_geocode     Char15   Residence Census Block Code
+     3    S000          Num      Total number of jobs
+     4    SA01          Num      Number of jobs of workers age 29 or younger 9
+     5    SA02          Num      Number of jobs for workers age 30 to 549
+     6    SA03          Num      Number of jobs for workers age 55 or older9
+     7    SE01          Num      Number of jobs with earnings $1250/month or less
+     8    SE02          Num      Number of jobs with earnings $1251/month to $3333/month
+     9    SE03          Num      Number of jobs with earnings greater than $3333/month
+    10    SI01          Num      Number of jobs in Goods Producing industry sectors
+    11    SI02          Num      Number of jobs in Trade, Transportation, and Utilities industry sectors
+    12    SI03          Num      Number of jobs in All Other Services industry sectors
+    13    createdate    Char     Date on which data was created, formatted as YYYYMMDD
+
+
+
+
+9
+ For the 2012 data year and later, the job frame has been constrained to include only workers age 14 to 99, so
+that the youngest age group becomes 14 to 29 and the oldest age group becomes 55 to 99.
+
+
+
+
+                                                        5                                           Rev. 20231107
+RAC
+Filenames of the RAC datasets are described by the following template:
+
+[ST]_rac_[SEG]_[TYPE]_[YEAR]_1.csv.gz where
+        [ST] = lowercase, 2-letter postal code for a chosen state
+
+        [SEG] = Segment of the workforce, can have the values of “S000”, “SA01”, “SA02”, “SA03”, “SE01”,
+                 “SE02”, “SE03”, “SI01”, “SI02”, or “SI03”. These correspond to the same segments of the
+                 workforce as are listed in the OD file structure above.
+
+        [TYPE] = Job Type, can have a value of “JT00” for All Jobs, “JT01” for Primary Jobs, “JT02” for All
+                 Private Jobs, “JT03” for Private Primary Jobs, “JT04” for All Federal Jobs, or “JT05” for
+                 Federal Primary Jobs.
+
+        [YEAR] = Year of job data. Can have the value of 2002-2021 for most states.
+
+As an example, the RAC file of All Jobs for workers age 29 or younger in 2004 for New Jersey would be
+the file: nj_rac_SA01_JT00_2004.csv.gz
+
+                                Residence Area Characteristics (RAC) File Structure
+ Pos     Variable     Type                                         Explanation
+  1    h_geocode     Char15    Residence Census Block Code
+  2    C000          Num       Total number of jobs
+  3    CA01          Num       Number of jobs for workers age 29 or younger9
+  4    CA02          Num       Number of jobs for workers age 30 to 549
+  5    CA03          Num       Number of jobs for workers age 55 or older9
+  6    CE01          Num       Number of jobs with earnings $1250/month or less
+  7    CE02          Num       Number of jobs with earnings $1251/month to $3333/month
+  8    CE03          Num       Number of jobs with earnings greater than $3333/month
+  9    CNS01         Num       Number of jobs in NAICS sector 11 (Agriculture, Forestry, Fishing and Hunting)
+ 10    CNS02         Num       Number of jobs in NAICS sector 21 (Mining, Quarrying, and Oil and Gas Extraction)
+ 11    CNS03         Num       Number of jobs in NAICS sector 22 (Utilities)
+ 12    CNS04         Num       Number of jobs in NAICS sector 23 (Construction)
+ 13    CNS05         Num       Number of jobs in NAICS sector 31-33 (Manufacturing)
+ 14    CNS06         Num       Number of jobs in NAICS sector 42 (Wholesale Trade)
+ 15    CNS07         Num       Number of jobs in NAICS sector 44-45 (Retail Trade)
+ 16    CNS08         Num       Number of jobs in NAICS sector 48-49 (Transportation and Warehousing)
+ 17    CNS09         Num       Number of jobs in NAICS sector 51 (Information)
+ 18    CNS10         Num       Number of jobs in NAICS sector 52 (Finance and Insurance)
+ 19    CNS11         Num       Number of jobs in NAICS sector 53 (Real Estate and Rental and Leasing)
+ 20    CNS12         Num       Number of jobs in NAICS sector 54 (Professional, Scientific, and Technical Services)
+ 21    CNS13         Num       Number of jobs in NAICS sector 55 (Management of Companies and Enterprises)
+ 22    CNS14         Num       Number of jobs in NAICS sector 56 (Administrative and Support and Waste
+                               Management and Remediation Services)
+  23   CNS15         Num       Number of jobs in NAICS sector 61 (Educational Services)
+  24   CNS16         Num       Number of jobs in NAICS sector 62 (Health Care and Social Assistance)
+  25   CNS17         Num       Number of jobs in NAICS sector 71 (Arts, Entertainment, and Recreation)
+  26   CNS18         Num       Number of jobs in NAICS sector 72 (Accommodation and Food Services)
+
+
+
+
+                                                     6                                           Rev. 20231107
+     27   CNS19          Num      Number of jobs in NAICS sector 81 (Other Services [except Public Administration])
+     28   CNS20          Num      Number of jobs in NAICS sector 92 (Public Administration)
+     29   CR01           Num      Number of jobs for workers with Race: White, Alone 10
+     30   CR02           Num      Number of jobs for workers with Race: Black or African American Alone10
+     31   CR03           Num      Number of jobs for workers with Race: American Indian or Alaska Native Alone10
+     32   CR04           Num      Number of jobs for workers with Race: Asian Alone10
+     33   CR05           Num      Number of jobs for workers with Race: Native Hawaiian or Other Pacific Islander
+                                  Alone10
+     34   CR07           Num      Number of jobs for workers with Race: Two or More Race Groups10
+     35   CT01           Num      Number of jobs for workers with Ethnicity: Not Hispanic or Latino10
+     36   CT02           Num      Number of jobs for workers with Ethnicity: Hispanic or Latino10
+     37   CD01           Num      Number of jobs for workers with Educational Attainment: Less than high school10,11
+     38   CD02           Num      Number of jobs for workers with Educational Attainment: High school or equivalent,
+                                  no college10,11
+     39   CD03           Num      Number of jobs for workers with Educational Attainment: Some college or Associate
+                                  degree10,11
+     40   CD04           Num      Number of jobs for workers with Educational Attainment: Bachelor’s degree or
+                                  advanced degree10,11
+     41   CS01           Num      Number of jobs for workers with Sex: Male10
+     42   CS02           Num      Number of jobs for workers with Sex: Female10
+     43   createdate     Char8    Date on which data was created, formatted as YYYYMMDD
+
+
+
+
+10
+     Race, Ethnicity, Educational Attainment, and Sex variables are only available for data years 2009 and later.
+11
+     Educational Attainment is only available for workers age 30 and older.
+
+
+
+
+                                                        7                                         Rev. 20231107
+WAC
+Filenames of the WAC datasets are described by the following template:
+
+[ST]_wac_[SEG]_[TYPE]_[YEAR].csv.gz where
+        [ST] = lowercase, 2-letter postal code for a chosen state
+
+        [SEG] = Segment of the workforce, can have the values of “S000”, “SA01”, “SA02”, “SA03”, “SE01”,
+                 “SE02”, “SE03”, “SI01”, “SI02”, or “SI03”. These correspond to the same segments of the
+                 workforce as are listed in the OD file structure above.
+
+        [TYPE] = Job Type, can have a value of “JT00” for All Jobs, “JT01” for Primary Jobs, “JT02” for All
+                 Private Jobs, “JT03” for Private Primary Jobs, “JT04” for All Federal Jobs, or “JT05” for
+                 Federal Primary Jobs.
+
+        [YEAR] = Year of job data. Can have the value of 2002-2021 for most states.
+
+As an example, the WAC file of Private Primary Jobs for workers earning more than $3333/mo in 2008
+for Iowa would be the file: ia_wac_SE03_JT03_2008.csv.gz
+
+                             Workplace Area Characteristics (WAC) File Structure
+ Pos     Variable     Type                                      Explanation
+  1    w_geocode     Char15 Workplace Census Block Code
+  2    C000          Num    Total number of jobs
+  3    CA01          Num    Number of jobs for workers age 29 or younger9
+  4    CA02          Num    Number of jobs for workers age 30 to 549
+  5    CA03          Num    Number of jobs for workers age 55 or older9
+  6    CE01          Num    Number of jobs with earnings $1250/month or less
+  7    CE02          Num    Number of jobs with earnings $1251/month to $3333/month
+  8    CE03          Num    Number of jobs with earnings greater than $3333/month
+  9    CNS01         Num    Number of jobs in NAICS sector 11 (Agriculture, Forestry, Fishing and Hunting)
+ 10    CNS02         Num    Number of jobs in NAICS sector 21 (Mining, Quarrying, and Oil and Gas Extraction)
+ 11    CNS03         Num    Number of jobs in NAICS sector 22 (Utilities)
+ 12    CNS04         Num    Number of jobs in NAICS sector 23 (Construction)
+ 13    CNS05         Num    Number of jobs in NAICS sector 31-33 (Manufacturing)
+ 14    CNS06         Num    Number of jobs in NAICS sector 42 (Wholesale Trade)
+ 15    CNS07         Num    Number of jobs in NAICS sector 44-45 (Retail Trade)
+ 16    CNS08         Num    Number of jobs in NAICS sector 48-49 (Transportation and Warehousing)
+ 17    CNS09         Num    Number of jobs in NAICS sector 51 (Information)
+ 18    CNS10         Num    Number of jobs in NAICS sector 52 (Finance and Insurance)
+ 19    CNS11         Num    Number of jobs in NAICS sector 53 (Real Estate and Rental and Leasing)
+ 20    CNS12         Num    Number of jobs in NAICS sector 54 (Professional, Scientific, and Technical Services)
+ 21    CNS13         Num    Number of jobs in NAICS sector 55 (Management of Companies and Enterprises)
+ 22    CNS14         Num    Number of jobs in NAICS sector 56 (Administrative and Support and Waste
+                            Management and Remediation Services)
+ 23    CNS15         Num    Number of jobs in NAICS sector 61 (Educational Services)
+ 24    CNS16         Num    Number of jobs in NAICS sector 62 (Health Care and Social Assistance)
+ 25    CNS17         Num    Number of jobs in NAICS sector 71 (Arts, Entertainment, and Recreation)
+ 26    CNS18         Num    Number of jobs in NAICS sector 72 (Accommodation and Food Services)
+
+
+
+
+                                                     8                                           Rev. 20231107
+     27   CNS19          Num      Number of jobs in NAICS sector 81 (Other Services [except Public Administration])
+     28   CNS20          Num      Number of jobs in NAICS sector 92 (Public Administration)
+     29   CR01           Num      Number of jobs for workers with Race: White, Alone10
+     30   CR02           Num      Number of jobs for workers with Race: Black or African American Alone10
+     31   CR03           Num      Number of jobs for workers with Race: American Indian or Alaska Native Alone10
+     32   CR04           Num      Number of jobs for workers with Race: Asian Alone10
+     33   CR05           Num      Number of jobs for workers with Race: Native Hawaiian or Other Pacific Islander
+                                  Alone10
+     34   CR07           Num      Number of jobs for workers with Race: Two or More Race Groups10
+     35   CT01           Num      Number of jobs for workers with Ethnicity: Not Hispanic or Latino10
+     36   CT02           Num      Number of jobs for workers with Ethnicity: Hispanic or Latino10
+     37   CD01           Num      Number of jobs for workers with Educational Attainment: Less than high school10,11
+     38   CD02           Num      Number of jobs for workers with Educational Attainment: High school or equivalent,
+                                  no college10,11
+     39   CD03           Num      Number of jobs for workers with Educational Attainment: Some college or Associate
+                                  degree10,11
+     40   CD04           Num      Number of jobs for workers with Educational Attainment: Bachelor's degree or
+                                  advanced degree10,11
+     41   CS01           Num      Number of jobs for workers with Sex: Male10
+     42   CS02           Num      Number of jobs for workers with Sex: Female10
+     43   CFA01          Num      Number of jobs for workers at firms with Firm Age: 0-1 Years 12
+     44   CFA02          Num      Number of jobs for workers at firms with Firm Age: 2-3 Years12
+     45   CFA03          Num      Number of jobs for workers at firms with Firm Age: 4-5 Years12
+     46   CFA04          Num      Number of jobs for workers at firms with Firm Age: 6-10 Years12
+     47   CFA05          Num      Number of jobs for workers at firms with Firm Age: 11+ Years12
+     48   CFS01          Num      Number of jobs for workers at firms with Firm Size: 0-19 Employees12, 13
+     49   CFS02          Num      Number of jobs for workers at firms with Firm Size: 20-49 Employees12,13
+     50   CFS03          Num      Number of jobs for workers at firms with Firm Size: 50-249 Employees12,13
+     51   CFS04          Num      Number of jobs for workers at firms with Firm Size: 250-499 Employees12,13
+     52   CFS05          Num      Number of jobs for workers at firms with Firm Size: 500+ Employees12,13
+     53   createdate     Char8    Date on which data was created, formatted as YYYYMMDD
+
+
+
+
+12
+     Firm Age and Firm Size variables are only available for data years 2011-2021, for All Private Jobs (JT02).
+13
+     For firms 1 year and older, firm size is the national size of the firm in March of the previous year.
+
+
+
+
+                                                        9                                           Rev. 20231107
+Geography Crosswalk
+Filenames of the geography crosswalk datasets are described by the following template:
+
+[ST]_xwalk.csv.gz where
+            [ST] = lowercase, 2-letter postal code for a chosen state
+
+As an example, the geography crosswalk file for Michigan would be the file: mi_xwalk.csv.gz
+
+Code Vintages
+The primary key/identifier in the Geography Crosswalk is the 2020 Census Tabulation Block Code
+(tabblk2020). This code does not change between Decennial Censuses and can be used to link to the
+geocodes in the OD/RAC/WAC files. All other geographic codes in the crosswalk are “current” and
+represent the most recent definitions of the legal, statistical, or administrative areas as integrated into
+LODES and OnTheMap.
+
+                                       Geography Crosswalk File Structure
+     Pos      Variable  Type                                     Explanation 14
+      1    tabblk2020  Char15 2020 Census Tabulation Block Code
+      2    st          Char2   FIPS State Code
+      3    stusps      Char2   USPS State Code
+      4    stname      Char100 State Name
+      5    cty         Char5   FIPS County Code
+      6    ctyname     Char100 County or County Equivalent Name
+      7    trct        Char11 Census Tract Code
+      8    trctname    Char100 Tract Name, formatted with County and State
+      9    bgrp        Char12 Census Blockgroup Code
+     10    bgrpname    Char100 Census Blockgroup Name, formatted with Tract, County, and State
+     11    cbsa        Char5   CBSA (Metropolitan/Micropolitan Area) Code
+     12    cbsaname    Char100 CBSA (Metropolitan/Micropolitan Area) Name
+     13    zcta        Char5   ZIP Code Tabulation Area (ZCTA) Code
+     14    zctaname    Char100 ZCTA Name
+     15    stplc       Char7   Nationally Unique Place Code, (FIPS State + FIPS Place)
+     16    stplcname   Char100 Place Name
+     17    ctycsub     Char10 Nationally Unique County Subdivision Code, (FIPS State + FIPS County + FIPS
+                               County Subdivision)
+     18    ctycsubname Char100 County Subdivision Name
+     19    stcd116     Char4   Nationally Unique 116th Congressional District Code, (FIPS State + 2-digit District
+                               Number) 15
+     20    stcd116name Char100 116th Congressional District Name
+
+
+14
+   All codes are constructed to be nationally unique. For areas that do not have a FIPS or other identifier that is
+nationally unique, the State FIPS or both State and County FIPS codes are prepended to create uniqueness. Source
+information for each geography can be found at
+lehd.ces.census.gov/applications/help/onthemap.html#!geographic_data.
+15
+   States with At Large districts have a district code of “00”. State equivalents with Resident Commissioners or
+Delegates have a district code of “98”.
+
+
+
+
+                                                        10                                      Rev. 20231107
+     21   stsldl         Char5 Nationally Unique State Legislative District, Lower Chamber, (FIPS State + 3-digit
+                               District Number)
+     22   stsldlname   Char100 State Legislative District Chamber, Lower Chamber
+     23   stsldu       Char5   Nationally Unique State Legislative District, Upper Chamber, (FIPS State + 3-digit
+                               District Number)
+     24   stslduname   Char100 State Legislative District Chamber, Upper Chamber Chamber
+     25   stschool     Char7   Nationally Unique Unified/Elementary School District Code, (FIPS State + 5-digit
+                               Local Education Agency Code)
+     26   stschoolname Char100 Unified/Elementary School District Name
+     27   stsecon      Char7   Nationally Unique Secondary School District Code, (FIPS State + 5-digit Local
+                               Education Agency Code)
+     28   stseconname Char100 Secondary School District Name
+     29   trib         Char5   American Indian /Alaska Native/Native Hawaiian Area Census Code
+     30   tribname     Char100 American Indian /Alaska Native/Native Hawaiian Area Name
+     31   tsub         Char7   American Indian Tribal Subdivision Code
+     32   tsubname     Char100 American Indian Tribal Subdivision Name
+     33   stanrc       Char7   Nationally Unique Alaska Native Regional Corporation (ANRC) Code (FIPS State +
+                               FIPS ANRC)
+     34   stanrcname Char100 Alaska Native Regional Corporation Name
+     35   necta        Char5   New England City and Town Area (NECTA) Code
+     36   nectaname    Char100 New England City and Town Area (NECTA) Name
+     37   mil          Char22 Military Installation Landmark Code
+     38   milname      Char100 Military Installation Name
+     39   stwib        Char8   Nationally Unique Workforce Innovation Board (WIB) Area Code (FIPS State +
+                               state-provided 6-digit WIB Area Code)
+     40   stwibname    Char100 Workforce Innovation Board Area Name
+     41   blklatdd     Num     Latitude (in decimal degrees) of block internal point. 16
+     42   blklondd     Num     Longitude (in decimal degrees) of block internal point. 16
+     43   createdate   Char8   Date on which data was created, formatted as YYYYMMDD
+
+
+
+
+16
+   The internal point for each block is a point used by the OnTheMap application to assist in selecting blocks and
+allocating data from blocks to larger geographical aggregations. The internal point is not a centroid and the only
+guarantee is that it is inside the block.
+
+
+
+
+                                                     11                                         Rev. 20231107
+Format Version
+This document – LODES Format Version 8.1 – describes the structure for the data released along with
+the following OnTheMap Application versions:
+                        OnTheMap Version 6.23.4 – Released November 15, 2023
+LODES Format Version 8.0 describes the structure for the data released with the earlier OnTheMap
+Application versions. 17
+                        OnTheMap Version 6.23.1 – Released March 4, 2023
+LODES Format Version 7.5 describes the structure for the data released with the earlier OnTheMap
+Application versions. 18
+                        OnTheMap Version 6.8 – Released December 8, 2020
+LODES Format Version 7.4 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 19
+                        OnTheMap Version 6.7 – Released August 29, 2019
+LODES Format Version 7.3 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 20
+                        OnTheMap Version 6.6 – Released September 20, 2017
+LODES Format Version 7.2 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 21
+                        OnTheMap Version 6.5.1 – Released April 11, 2017
+                        OnTheMap Version 6.5 – Released March 3, 2016
+LODES Format Version 7.1 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 22
+                        OnTheMap Version 6.4.1 – Released August 12, 2015
+                        OnTheMap Version 6.4 – Released July 7, 2015
+LODES Format Version 7.0 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 23
+
+
+
+
+17
+   See lehd.ces.census.gov/data/lodes/LODES8/LODESTechDoc8.0.pdf for more information.
+18
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.5.pdf for more information.
+19
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.4.pdf for more information.
+20
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.3.pdf for more information.
+21
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.2.pdf for more information.
+22
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.1.pdf for more information.
+23
+   See lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.0.pdf for more information.
+
+
+
+
+                                                12                                       Rev. 20231107
+                          OnTheMap Version 6.3 – Released December 3, 2014
+                          OnTheMap Version 6.2 – Released December 3, 2013
+                          OnTheMap Version 6.1.2 – Released May 15, 2013
+LODES Format Version 6.1 describes the structure of the data released with the earlier OnTheMap
+Application Versions. 24
+                          OnTheMap Version 6.1.1 – Released August 6, 2012
+                          OnTheMap Version 6.1 – Released May 31, 2012
+LODES Format Version 6.0 describes the structure of data released with the earlier OnTheMap
+Application versions. 25,26
+                          Application Version 6.0 – Released January 26, 2012
+Format version 5.0 27 describes the structure of data released along with the earlier OnTheMap
+Application versions:
+                          Application Version 5.0 – Released December 13, 2010
+                          Application Version 5.1 – Released February 15, 2011
+Format version 4.1 28 describes the structure of data released along with the earlier OnTheMap
+Application versions:
+                          Application Version 3.0 – Released September 4, 2008
+                          Application Version 3.1 – Released September 11, 2008
+                          Application Version 3.2 – Released December 15, 2008
+                          Application Version 4.0 – Released December 14, 2009
+                          Application Version 4.1 – Released May 27, 2010
+For further information on the background and release history of the OnTheMap application, please visit
+lehd.ces.census.gov/applications/help/onthemap.html#!what_is_onthemap.
+
+
+
+
+24
+   See lehd.ces.census.gov/data/lodes/LODES6/LODESTechDoc6.1.pdf for more information.
+25
+   See lehd.ces.census.gov/data/lodes/LODES6/LODESTechDoc6.0.pdf for more information.
+26
+   The only difference in structure between Version 6.0 and Version 6.1 is the addition of two new job types to
+cover Federal employment.
+27
+   See lehd.ces.census.gov/data/lodes/LODES5/OnTheMapDataTechDoc5.0.pdf for more information.
+28
+   See lehd.ces.census.gov/data/lodes/LODES5/OnTheMapDataTechDoc4.1.pdf for more information.
+
+
+
+
+                                                    13                                         Rev. 20231107
+

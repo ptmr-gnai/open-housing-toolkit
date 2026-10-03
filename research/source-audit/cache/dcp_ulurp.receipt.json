@@ -1,0 +1,18 @@
+{
+  "id": "dcp_ulurp",
+  "url": "https://www.nyc.gov/site/planning/applicants/applicant-portal/step5-ulurp-process.page",
+  "publisher": "NYC DCP",
+  "purpose": "Process",
+  "retrieved_at": "2026-10-03T15:46:41.533749+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/planning/applicants/applicant-portal/step5-ulurp-process.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 7503,
+  "sha256": "bfbfe4e11be9cabdb230d6404b793fba6305c242e7d531df5602b71df1afc860",
+  "cache_path": "cache/dcp_ulurp.body",
+  "parsed": "html",
+  "text_chars": 246,
+  "link_count": 0
+}

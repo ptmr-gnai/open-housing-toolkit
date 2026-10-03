@@ -1,0 +1,18 @@
+{
+  "id": "hdc_home",
+  "url": "https://www.nychdc.com/",
+  "publisher": "NYC HDC",
+  "purpose": "Financing discovery",
+  "retrieved_at": "2026-10-03T15:48:13.974498+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nychdc.com/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 91990,
+  "sha256": "130aa80a26741369db78935087cb00bfd41770cb794023d285b0df3bc6ac29cb",
+  "cache_path": "cache/hdc_home.body",
+  "parsed": "html",
+  "text_chars": 12138,
+  "link_count": 85
+}

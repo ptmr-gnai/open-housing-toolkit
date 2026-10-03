@@ -1,0 +1,16 @@
+{
+  "id": "hpd_design_workbook",
+  "publisher": "HPD",
+  "purpose": "Verify professional workflow raw material or download",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/excel/NC-design-guidelines-workbook.xlsx",
+  "retrieved_at": "2026-10-03T15:57:17.117448+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/excel/NC-design-guidelines-workbook.xlsx",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": "Wed, 23 Sep 2026 19:26:41 GMT",
+  "bytes": 278896,
+  "sha256": "71f28279a499048e52449337380814ff20ee5dbc7ba2faf6351260ec3954f03b",
+  "cache_path": "cache/hpd_design_workbook.body",
+  "parsed": "other"
+}

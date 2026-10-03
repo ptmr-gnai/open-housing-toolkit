@@ -1,0 +1,18 @@
+{
+  "id": "hpd_term_sheets",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/term-sheets.page",
+  "publisher": "NYC HPD",
+  "purpose": "Program underwriting",
+  "retrieved_at": "2026-10-03T15:46:42.296766+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/term-sheets.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 20861,
+  "sha256": "a8b07c08ab9e0957c75cb112b74a711fe4167edfa3c69ae6c9a640e1bb39778f",
+  "cache_path": "cache/hpd_term_sheets.body",
+  "parsed": "html",
+  "text_chars": 1451,
+  "link_count": 48
+}

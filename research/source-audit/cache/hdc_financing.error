@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27781503-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-27781503-1", {"groups":"default","anonymize_ip":true,"page_path":"/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer});</script>
+<meta name="description" content="We can’t find the page you were trying to reach. You can return to our home page or try a search below." />
+<link rel="canonical" href="https://www.nychdc.com/developers" />
+<link rel="image_src" href="https://hdcredesigndev.prod.acquia-sites.com/sites/default/files/2021-03/nychdc.jpg" />
+<meta property="og:site_name" content="NYCHDC" />
+<meta property="og:url" content="https://www.nychdc.com/developers" />
+<meta property="og:title" content="Page Not Found | NYCHDC" />
+<meta property="og:image:url" content="https://hdcredesigndev.prod.acquia-sites.com/sites/default/files/2021-03/nychdc.jpg" />
+<meta property="og:image:secure_url" content="https://hdcredesigndev.prod.acquia-sites.com/sites/default/files/2021-03/nychdc.jpg" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favi-HDC-Logo-lettering-sq.jpg" type="image/jpeg" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Page Not Found | NYCHDC</title>
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_G2JACm7vX5yxn63MIa5_5BLmQBUlaJoVNpWF9mtK2BI.css?delta=0&amp;language=en&amp;theme=nychdc&amp;include=eJxdzlEKxCAMBNALufVIkmqqgWwiJrJ4--3Hdgv9C28YJlCKK8iK8Du2Y6h4qKqVMYEAL6ds8QnBljm-4w6GQVZuJcfKugO_zBeT1KfmQd3t0uNcsdBhQB3Qm8UyZgfebtmm9LkzWcNytf5pajj01opJ1NOhU0owcvxQOZ9lHB5JyL8Trlqs" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_pkGIPuuM-Fvtg_0f_j52gYScYpsUzWUucryWd95uufM.css?delta=1&amp;language=en&amp;theme=nychdc&amp;include=eJxdzlEKxCAMBNALufVIkmqqgWwiJrJ4--3Hdgv9C28YJlCKK8iK8Du2Y6h4qKqVMYEAL6ds8QnBljm-4w6GQVZuJcfKugO_zBeT1KfmQd3t0uNcsdBhQB3Qm8UyZgfebtmm9LkzWcNytf5pajj01opJ1NOhU0owcvxQOZ9lHB5JyL8Trlqs" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/klo8jdg.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Figtree:wght@800&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ZyqfQipFzgzkD8ATsJv4JXljFiK4w4u1vAp_VyI7o5A.css?delta=4&amp;language=en&amp;theme=nychdc&amp;include=eJxdzlEKxCAMBNALufVIkmqqgWwiJrJ4--3Hdgv9C28YJlCKK8iK8Du2Y6h4qKqVMYEAL6ds8QnBljm-4w6GQVZuJcfKugO_zBeT1KfmQd3t0uNcsdBhQB3Qm8UyZgfebtmm9LkzWcNytf5pajj01opJ1NOhU0owcvxQOZ9lHB5JyL8Trlqs" />
+
+    
+  </head>
+
+    <body class="node--type-page_not_found header-bg-color-white page--developers nav-half-blue">
+    <a href="#main" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <div data-sitewide-alert></div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header class="main-header">
+  <div class="gtranslate-outer notranslate main">
+    <div class="gtranslate-inner">
+      <div id="block-gtranslate--2">
+  
+    
+      
+<div class="gtranslate_wrapper"></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":[],"wrapper_selector":".gtranslate_wrapper","url_structure":"none","custom_domains":null,"languages":["en","ar","bg","zh-CN","zh-TW","hr","cs","da","nl","fi","fr","de","el","hi","it","ja","ko","no","pl","pt","ro","ru","es","sv","ca","tl","iw","id","lv","lt","sr","sk","sl","uk","vi","sq","et","gl","hu","mt","th","tr","fa","af","ms","sw","ga","cy","be","is","mk","yi","hy","az","eu","ka","ht","ur","bn","bs","ceb","eo","gu","ha","hmn","ig","jw","kn","km","lo","la","mi","mr","mn","ne","pa","so","ta","te","yo","zu","my","ny","kk","mg","ml","si","st","su","tg","uz","am","co","haw","ku","ky","lb","ps","sm","gd","sn","sd","fy","xh"],"custom_css":""};</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', 'https://cdn.gtranslate.net/widgets/latest/dropdown.js');js.setAttribute('data-gt-orig-url', '/developers');js.setAttribute('data-gt-orig-domain', 'www.nychdc.com');document.body.appendChild(js);})();</script>
+  </div>
+
+    </div>
+  </div>
+  <div class="main-header-inner">
+    <div class="left">
+      <a href="/"><svg id="Group_3197" data-name="Group 3197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.578" height="80" viewBox="0 0 171.578 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_973" data-name="Rectangle 973" width="171.578" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Path_520" data-name="Path 520" d="M35.462,32.853,24.553,28.589V13.874L43.642,4.461v72.1h-8.18ZM21.818,12.175V28.67L0,39.428v39.86H24.553V31.527l8.18,3.194V79.288H46.377V.062Z" transform="translate(0 0.299)" fill="#fff"/>
+  <path id="Path_521" data-name="Path 521" d="M9.377,64.838H28.024V8.4L9.377,3.061Z" transform="translate(45.181 14.748)" fill="#fff"/>
+  <path id="Path_522" data-name="Path 522" d="M35.592.062V28.629h-.977L20.691.062h-4.9V34.616h3.148V6.049h.977L33.841,34.616h4.9V.062Z" transform="translate(76.063 0.298)" fill="#fff"/>
+  <path id="Path_523" data-name="Path 523" d="M42.937.062,34.53,15.585H32.883L24.115.062H20.555l11.4,20.009V34.616h3.45V20.071L46.242.062Z" transform="translate(99.036 0.298)" fill="#fff"/>
+  <g id="Group_3196" data-name="Group 3196">
+    <g id="Group_3195" data-name="Group 3195" clip-path="url(#clip-path)">
+      <path id="Path_524" data-name="Path 524" d="M45.465,22.743v1.03c0,5.929-2.886,8.46-7.889,8.46H36.8c-4.951,0-7.889-2.583-7.889-8.716V11.857c0-5.929,2.577-8.815,7.889-8.815h.774c5.312,0,7.686,2.833,7.686,8.611v1.082h3.5V11.654C48.764,4.125,45.1,0,37.575,0H36.8C29.325,0,25.456,4.125,25.456,11.857v11.66c0,8.041,4.177,11.759,11.345,11.759h.774c7.22,0,11.345-3.665,11.345-11.5v-1.03Z" transform="translate(122.652)" fill="#fff"/>
+      <path id="Path_525" data-name="Path 525" d="M22.322,7.706V22.019h9.647V7.706h6.586V42.458H31.968V27.569H22.322V42.458H15.788V7.706Z" transform="translate(76.068 37.13)" fill="#fff"/>
+      <path id="Path_526" data-name="Path 526" d="M31.506,7.706c7.988,0,12.241,3.217,12.241,12.6v9.8c0,8.919-4,12.346-12.241,12.346H20.771V7.706ZM27.2,36.907h4.305c4.305,0,5.655-1.763,5.655-6.8v-9.8c0-5.289-1.507-7.052-5.655-7.052H27.2Z" transform="translate(100.078 37.129)" fill="#fff"/>
+      <path id="Path_527" data-name="Path 527" d="M42.026,30.663v.78c0,4.2-1.507,5.911-4.719,5.911h-.518c-3.113,0-4.672-1.711-4.672-5.911V19.359c0-3.945,1.3-5.865,4.672-5.865h.518c3.421,0,4.509,1.92,4.509,5.865v1.3H48.4v-1.3c0-7.209-3.159-11.724-11.043-11.724h-.518C29,7.635,25.531,12.15,25.531,19.359V31.443c0,7.831,3.683,11.77,11.311,11.77h.518c7.727,0,11.2-3.939,11.2-11.77v-.78Z" transform="translate(123.013 36.787)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
+</a>
+    </div>
+    <div class="right">
+      <nav class="main-nav-top">
+        
+              <ul>
+              <li>
+        <a href="/meet-hdc" data-drupal-link-system-path="node/186">Meet HDC</a>
+              </li>
+          <li>
+        <a href="/do-business" data-drupal-link-system-path="node/256">Do Business</a>
+              </li>
+        </ul>
+  
+
+
+        <a href="#" class="language-switcher main"><span><svg xmlns="http://www.w3.org/2000/svg" width="65" height="35" viewBox="0 0 65 35"><g transform="translate(-1251 -25)"><line y2="34" transform="translate(1283.5 25.5)" fill="none" stroke="#fff" stroke-width="0.5"/><text transform="translate(1273 49)" fill="#fff" font-size="18" font-family="loos-normal, sans-serif" font-weight="500" letter-spacing="0.15em"><tspan x="-12.419" y="0">A</tspan></text><text transform="translate(1309 48)" fill="#fff" font-size="18" font-family="PingFangSC-Semibold, PingFang SC" font-weight="600" letter-spacing="0.15em"><tspan x="-18" y="0">文</tspan></text><g transform="translate(1251 25)" fill="none" stroke="#fff" stroke-width="0.5"><rect width="65" height="35" stroke="none"/><rect x="0.25" y="0.25" width="64.5" height="34.5" fill="none"/></g></g></svg></span></a>
+      </nav>
+      <div class="main-nav-outer">
+        <nav class="main-nav">
+          
+
+  <ul class="menu menu-level-0">
+                  
+        <li class="menu-item">
+          <a href="/find" data-drupal-link-system-path="node/301">Find</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text-short field--type-string field--label-hidden field__item"><a href="/admin/structure/menu/item/1/edit" hreflang="en">Housing</a></div>
+      
+      </div>
+
+
+
+                  </li>
+                      
+        <li class="menu-item">
+          <a href="/invest" data-drupal-link-system-path="node/491">Invest</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text-short field--type-string field--label-hidden field__item"><a href="/admin/structure/menu/item/6/edit" hreflang="en">In Housing</a></div>
+      
+      </div>
+
+
+
+                  </li>
+                      
+        <li class="menu-item">
+          <a href="/develop" data-drupal-link-system-path="node/326">Develop</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text-short field--type-string field--label-hidden field__item"><a href="/admin/structure/menu/item/11/edit" hreflang="en">Housing</a></div>
+      
+      </div>
+
+
+
+                  </li>
+                      
+        <li class="menu-item">
+          <a href="/manage" data-drupal-link-system-path="node/366">Manage</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text-short field--type-string field--label-hidden field__item"><a href="/admin/structure/menu/item/16/edit" hreflang="en">Housing</a></div>
+      
+      </div>
+
+
+
+                  </li>
+          </ul>
+
+
+        </nav>
+        <div class="main-nav-right">
+          <a class="main-menu-search" href="/search"><span><svg xmlns="http://www.w3.org/2000/svg" width="28.707" height="28.707" viewBox="0 0 28.707 28.707">
+  <g data-name="Group 2724" transform="translate(-1257 -87)">
+    <g data-name="Ellipse 52" transform="translate(1257 87)" fill="none" stroke="#fff" stroke-width="3">
+      <ellipse cx="12.334" cy="12.146" rx="12.334" ry="12.146" stroke="none"/>
+      <ellipse cx="12.334" cy="12.146" rx="10.834" ry="10.646" fill="none"/>
+    </g>
+    <rect data-name="Rectangle 449" width="10.473" height="2.776" rx="1.388" transform="translate(1283.037 115) rotate(-135)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
+</span></a>
+          <a class="hamburger" href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="44" height="37.038" viewBox="0 0 44 37.038">
+  <g data-name="Group 3152" transform="translate(-1272 -86)">
+    <rect data-name="Rectangle 446" width="44" height="3" rx="1.5" transform="translate(1316 112.499) rotate(180)" fill="#6EDFE5"/>
+    <rect data-name="Rectangle 447" width="30" height="3" rx="1.5" transform="translate(1316 123.038) rotate(180)" fill="#6EDFE5"/>
+    <text class="font-figtree"  letter-spacing="0.15em" transform="translate(1316 101)" fill="#fff" font-size="13"><tspan x="-43.719" y="0">MENU</tspan></text>
+  </g>
+</svg>
+</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="main-mega-menu">
+  <div class="gtranslate-outer notranslate mega">
+    <div class="gtranslate-inner">
+      <div id="block-gtranslate--2">
+  
+    
+      
+<div class="gtranslate_wrapper"></div><script>window.gtranslateSettings = {"switcher_horizontal_position":"left","switcher_vertical_position":"bottom","horizontal_position":"inline","vertical_position":"inline","float_switcher_open_direction":"top","switcher_open_direction":"bottom","default_language":"en","native_language_names":1,"detect_browser_language":0,"add_new_line":1,"select_language_label":"Select Language","flag_size":32,"flag_style":"2d","globe_size":60,"alt_flags":[],"wrapper_selector":".gtranslate_wrapper","url_structure":"none","custom_domains":null,"languages":["en","ar","bg","zh-CN","zh-TW","hr","cs","da","nl","fi","fr","de","el","hi","it","ja","ko","no","pl","pt","ro","ru","es","sv","ca","tl","iw","id","lv","lt","sr","sk","sl","uk","vi","sq","et","gl","hu","mt","th","tr","fa","af","ms","sw","ga","cy","be","is","mk","yi","hy","az","eu","ka","ht","ur","bn","bs","ceb","eo","gu","ha","hmn","ig","jw","kn","km","lo","la","mi","mr","mn","ne","pa","so","ta","te","yo","zu","my","ny","kk","mg","ml","si","st","su","tg","uz","am","co","haw","ku","ky","lb","ps","sm","gd","sn","sd","fy","xh"],"custom_css":""};</script><script>(function(){var js = document.createElement('script');js.setAttribute('src', 'https://cdn.gtranslate.net/widgets/latest/dropdown.js');js.setAttribute('data-gt-orig-url', '/developers');js.setAttribute('data-gt-orig-domain', 'www.nychdc.com');document.body.appendChild(js);})();</script>
+  </div>
+
+    </div>
+  </div>
+  <header>
+    <div class="mega-header-inner">
+      <div class="left">
+        <a href="/"><svg id="Group_3197" data-name="Group 3197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.578" height="80" viewBox="0 0 171.578 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_973" data-name="Rectangle 973" width="171.578" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Path_520" data-name="Path 520" d="M35.462,32.853,24.553,28.589V13.874L43.642,4.461v72.1h-8.18ZM21.818,12.175V28.67L0,39.428v39.86H24.553V31.527l8.18,3.194V79.288H46.377V.062Z" transform="translate(0 0.299)" fill="#0b365d"/>
+  <path id="Path_521" data-name="Path 521" d="M9.377,64.838H28.024V8.4L9.377,3.061Z" transform="translate(45.181 14.748)" fill="#0b365d"/>
+  <path id="Path_522" data-name="Path 522" d="M35.592.062V28.629h-.977L20.691.062h-4.9V34.616h3.148V6.049h.977L33.841,34.616h4.9V.062Z" transform="translate(76.063 0.298)" fill="#0b365d"/>
+  <path id="Path_523" data-name="Path 523" d="M42.937.062,34.53,15.585H32.883L24.115.062H20.555l11.4,20.009V34.616h3.45V20.071L46.242.062Z" transform="translate(99.036 0.298)" fill="#0b365d"/>
+  <g id="Group_3196" data-name="Group 3196">
+    <g id="Group_3195" data-name="Group 3195" clip-path="url(#clip-path)">
+      <path id="Path_524" data-name="Path 524" d="M45.465,22.743v1.03c0,5.929-2.886,8.46-7.889,8.46H36.8c-4.951,0-7.889-2.583-7.889-8.716V11.857c0-5.929,2.577-8.815,7.889-8.815h.774c5.312,0,7.686,2.833,7.686,8.611v1.082h3.5V11.654C48.764,4.125,45.1,0,37.575,0H36.8C29.325,0,25.456,4.125,25.456,11.857v11.66c0,8.041,4.177,11.759,11.345,11.759h.774c7.22,0,11.345-3.665,11.345-11.5v-1.03Z" transform="translate(122.652)" fill="#0b365d"/>
+      <path id="Path_525" data-name="Path 525" d="M22.322,7.706V22.019h9.647V7.706h6.586V42.458H31.968V27.569H22.322V42.458H15.788V7.706Z" transform="translate(76.068 37.13)" fill="#0b365d"/>
+      <path id="Path_526" data-name="Path 526" d="M31.506,7.706c7.988,0,12.241,3.217,12.241,12.6v9.8c0,8.919-4,12.346-12.241,12.346H20.771V7.706ZM27.2,36.907h4.305c4.305,0,5.655-1.763,5.655-6.8v-9.8c0-5.289-1.507-7.052-5.655-7.052H27.2Z" transform="translate(100.078 37.129)" fill="#0b365d"/>
+      <path id="Path_527" data-name="Path 527" d="M42.026,30.663v.78c0,4.2-1.507,5.911-4.719,5.911h-.518c-3.113,0-4.672-1.711-4.672-5.911V19.359c0-3.945,1.3-5.865,4.672-5.865h.518c3.421,0,4.509,1.92,4.509,5.865v1.3H48.4v-1.3c0-7.209-3.159-11.724-11.043-11.724h-.518C29,7.635,25.531,12.15,25.531,19.359V31.443c0,7.831,3.683,11.77,11.311,11.77h.518c7.727,0,11.2-3.939,11.2-11.77v-.78Z" transform="translate(123.013 36.787)" fill="#0b365d"/>
+    </g>
+  </g>
+</svg>
+</a>
+      </div>
+
+      <div class="right">
+        <a href="#" class="language-switcher mega"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="20" viewBox="0 0 42 20"><line y2="19" transform="translate(20.5 0.5)" fill="none" stroke="#11365d" stroke-width="0.5"/><text transform="translate(3)" fill="#11365d" font-size="14" font-family="loos-normal, sans-serif" font-weight="500" letter-spacing="0.15em"><tspan x="2.17" y="15">A</tspan></text><text transform="translate(38 15)" fill="#11365d" font-size="14" font-family="PingFangSC-Semibold, PingFang SC" font-weight="600" letter-spacing="0.15em"><tspan x="-14" y="0">文</tspan></text><g fill="none" stroke="#11365d" stroke-width="0.5"><rect width="42" height="20" stroke="none"/><rect x="0.25" y="0.25" width="41.5" height="19.5" fill="none"/></g></svg></a>
+        <span class="text-cobalt">Close Menu</span>
+        <a class="close-mega-menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g data-name="Group 1770" transform="translate(-1401 -64.089)">
+    <rect data-name="Rectangle 476" width="2.64" height="36.957" rx="1.32" transform="translate(1401 65.956) rotate(-45)" fill="#0047AB"/>
+    <rect data-name="Rectangle 477" width="2.64" height="36.957" rx="1.32" transform="translate(1402.866 92.089) rotate(-135)" fill="#0047AB"/>
+  </g>
+</svg>
+</a>
+      </div>
+    </div>
+  </header>
+  <div class="menus">
+    <div class="inner">
+      
+
+  <ul class="menu menu-level-0">
+                  
+        <li class="menu-item">
+          <a href="/find" data-drupal-link-system-path="node/301">Find</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain-mega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text field--type-string field--label-hidden field__item">Affordable Housing</div>
+      
+      </div>
+
+
+
+                  </li>
+                      
+        <li class="menu-item menu-item--expanded">
+          <a href="/invest" data-drupal-link-system-path="node/491">Invest</a>
+                                
+  
+  <div class="menu_link_content menu-link-contentmain-mega-menu view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+            <div class="field field--name-field-sub-menu-item-text field--type-string field--label-hidden field__item">In Affordable Housing</div>
+      
+    <button type="button" class="sub-menu-toggler"></button>
+  <ul class="menu menu-level-1">
+            
+      

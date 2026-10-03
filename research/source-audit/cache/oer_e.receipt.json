@@ -1,0 +1,18 @@
+{
+  "id": "oer_e",
+  "url": "https://www.nyc.gov/site/oer/remediation/e-designation.page",
+  "publisher": "NYC OER",
+  "purpose": "Environmental process",
+  "retrieved_at": "2026-10-03T15:46:44.216834+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/oer/remediation/e-designation.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 21525,
+  "sha256": "2a637964a6d0d73afd790a30742872a1003697578ef074136b5ebe702dc46e8d",
+  "cache_path": "cache/oer_e.body",
+  "parsed": "html",
+  "text_chars": 2700,
+  "link_count": 40
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hpd_production_sample",
+  "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24limit=1",
+  "publisher": "NYC HPD",
+  "purpose": "Affordable housing production API",
+  "retrieved_at": "2026-10-03T15:52:01.308342+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24limit=1",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Wed, 30 Sep 2026 19:21:44 GMT",
+  "bytes": 731,
+  "sha256": "d866b0ff90b0decb6fbda19af6d4d86171d01ac1fe71de5ac51c63a67eb0917a",
+  "cache_path": "cache/hpd_production_sample.body",
+  "parsed": "json",
+  "row_count": 1
+}

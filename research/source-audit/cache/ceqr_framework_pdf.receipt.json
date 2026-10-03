@@ -1,0 +1,16 @@
+{
+  "id": "ceqr_framework_pdf",
+  "url": "https://www.nyc.gov/assets/oec/technical-manual/02_Establishing_the_Analysis_Framework_2025.pdf",
+  "publisher": "NYC OEC",
+  "purpose": "Analysis process",
+  "retrieved_at": "2026-10-03T15:48:13.372081+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/oec/technical-manual/02_Establishing_the_Analysis_Framework_2025.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 21 Apr 2026 11:32:22 GMT",
+  "bytes": 360481,
+  "sha256": "859c51e467fb8f0e3551443dbdf358d1b6435115caebd6584df34f17e74d47ef",
+  "cache_path": "cache/ceqr_framework_pdf.body",
+  "parsed": "pdf"
+}

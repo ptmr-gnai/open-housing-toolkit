@@ -1,0 +1,570 @@
+[
+  {
+    "label": "Skip Header",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html#content"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "About Developers",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/about/terms-of-service.html"
+  },
+  {
+    "label": "Request an API Key",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "View All Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "Census Data API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html"
+  },
+  {
+    "label": "Census Microdata API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/microdata-api-user-guide.html"
+  },
+  {
+    "label": "Census Data API Discovery Tool",
+    "url": "https://www.census.gov/data/developers/updates/new-discovery-tool.html"
+  },
+  {
+    "label": "Workshop: Basics of Using the Census API",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/workshops/basics-of-using-the-census-api.html"
+  },
+  {
+    "label": "View All Video Tutorials",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/guidance-for-data-users/video-tutorials.html"
+  },
+  {
+    "label": "Latest Data Releases",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/latest-releases.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "About Developers",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/about/terms-of-service.html"
+  },
+  {
+    "label": "Request an API Key",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "View All Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "Census Data API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html"
+  },
+  {
+    "label": "Census Microdata API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/microdata-api-user-guide.html"
+  },
+  {
+    "label": "Census Data API Discovery Tool",
+    "url": "https://www.census.gov/data/developers/updates/new-discovery-tool.html"
+  },
+  {
+    "label": "Workshop: Basics of Using the Census API",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/workshops/basics-of-using-the-census-api.html"
+  },
+  {
+    "label": "View All Video Tutorials",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/guidance-for-data-users/video-tutorials.html"
+  },
+  {
+    "label": "Latest Data Releases",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/latest-releases.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "Census.gov",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "Census Bureau Data and Maps",
+    "url": "https://www.census.gov/data"
+  },
+  {
+    "label": "Developers",
+    "url": "https://www.census.gov/developers/"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Skip Navigation",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html#content"
+  },
+  {
+    "label": "Within Developers",
+    "url": "https://www.census.gov/data/developers.html"
+  },
+  {
+    "label": "About",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/terms-of-service.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Within Developers",
+    "url": "https://www.census.gov/data/developers.html"
+  },
+  {
+    "label": "About",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/terms-of-service.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "API Resources page",
+    "url": "https://www.census.gov/data/developers.html"
+  },
+  {
+    "label": "ACS Data page",
+    "url": "https://www.census.gov/programs-surveys/acs/data.html"
+  },
+  {
+    "label": "here",
+    "url": "https://api.census.gov/data/key_signup.html"
+  },
+  {
+    "label": "Watch Video",
+    "url": "https://www.census.gov/library/video/2026/adrm/requesting-a-census-data-api-key.html"
+  },
+  {
+    "label": "2024",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2024.html#list-tab-1806015614"
+  },
+  {
+    "label": "2023",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2023.html#list-tab-1806015614"
+  },
+  {
+    "label": "2022",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2022.html#list-tab-1806015614"
+  },
+  {
+    "label": "2021",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2021.html#list-tab-1806015614"
+  },
+  {
+    "label": "2020",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2020.html#list-tab-1806015614"
+  },
+  {
+    "label": "2019",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2019.html#list-tab-1806015614"
+  },
+  {
+    "label": "2018",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2018.html#list-tab-1806015614"
+  },
+  {
+    "label": "2017",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2017.html#list-tab-1806015614"
+  },
+  {
+    "label": "2016",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2016.html#list-tab-1806015614"
+  },
+  {
+    "label": "2015",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2015.html#list-tab-1806015614"
+  },
+  {
+    "label": "2014",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2014.html#list-tab-1806015614"
+  },
+  {
+    "label": "2013",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2013.html#list-tab-1806015614"
+  },
+  {
+    "label": "2012",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2012.html#list-tab-1806015614"
+  },
+  {
+    "label": "2011",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2011.html#list-tab-1806015614"
+  },
+  {
+    "label": "2010",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2010.html#list-tab-1806015614"
+  },
+  {
+    "label": "2009",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.2009.html#list-tab-1806015614"
+  },
+  {
+    "label": "Comparing 2024 American Community Survey Data",
+    "url": "https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2024.html"
+  },
+  {
+    "label": "2024 5YR API Changes document",
+    "url": "https://www2.census.gov/data/api-documentation/2024-5yr-api-changes.csv"
+  },
+  {
+    "label": "ACS product changes webpage",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html"
+  },
+  {
+    "label": "2024 Table & Geography Changes    Learn more about changes to tables and geography for each American Community Survey data release.",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html"
+  },
+  {
+    "label": "geographic user note",
+    "url": "https://www.census.gov/programs-surveys/geography/technical-documentation/user-note/cd-sld-note.html"
+  },
+  {
+    "label": "Notes on ACS Estimates and Annotation Values",
+    "url": "https://census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+  },
+  {
+    "label": "Notes on ACS Estimates and Annotation Values",
+    "url": "https://census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+  },
+  {
+    "label": "html",
+    "url": "https://api.census.gov/data/2024/acs/acs5/variables.html"
+  },
+  {
+    "label": "xml",
+    "url": "https://api.census.gov/data/2024/acs/acs5/variables.xml"
+  },
+  {
+    "label": "json",
+    "url": "https://api.census.gov/data/2024/acs/acs5/variables.json"
+  },
+  {
+    "label": "ACS Technical Documentation",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
+    "label": "Examples",
+    "url": "https://api.census.gov/data/2024/acs/acs5/examples.html"
+  },
+  {
+    "label": "Supported Geography",
+    "url": "https://api.census.gov/data/2024/acs/acs5/geography.html"
+  },
+  {
+    "label": "html",
+    "url": "https://api.census.gov/data/2024/acs/acs5/subject/variables.html"
+  },
+  {
+    "label": "xml",
+    "url": "https://api.census.gov/data/2024/acs/acs5/subject/variables.xml"
+  },
+  {
+    "label": "json",
+    "url": "https://api.census.gov/data/2024/acs/acs5/subject/variables.json"
+  },
+  {
+    "label": "ACS Technical Documentation",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
+    "label": "Examples",
+    "url": "https://api.census.gov/data/2024/acs/acs5/subject/examples.html"
+  },
+  {
+    "label": "Supported Geography",
+    "url": "https://api.census.gov/data/2024/acs/acs5/subject/geography.html"
+  },
+  {
+    "label": "html",
+    "url": "https://api.census.gov/data/2024/acs/acs5/profile/variables.html"
+  },
+  {
+    "label": "xml",
+    "url": "https://api.census.gov/data/2024/acs/acs5/profile/variables.xml"
+  },
+  {
+    "label": "json",
+    "url": "https://api.census.gov/data/2024/acs/acs5/profile/variables.json"
+  },
+  {
+    "label": "ACS Technical Documentation",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
+    "label": "Examples",
+    "url": "https://api.census.gov/data/2024/acs/acs5/profile/examples.html"
+  },
+  {
+    "label": "Supported Geography",
+    "url": "https://api.census.gov/data/2024/acs/acs5/profile/geography.html"
+  },
+  {
+    "label": "html",
+    "url": "https://api.census.gov/data/2024/acs/acs5/cprofile/variables.html"
+  },
+  {
+    "label": "xml",
+    "url": "https://api.census.gov/data/2024/acs/acs5/cprofile/variables.xml"
+  },
+  {
+    "label": "json",
+    "url": "https://api.census.gov/data/2024/acs/acs5/cprofile/variables.json"
+  },
+  {
+    "label": "ACS Technical Documentation",
+    "url": "https://www.census.gov/programs-surveys/acs/technical-documentation.html"
+  },
+  {
+    "label": "Examples",
+    "url": "https://api.census.gov/data/2024/acs/acs5/cprofile/examples.html"
+  },
+  {
+    "label": "Supported Geography",
+    "url": "https://api.census.gov/data/2024/acs/acs5/cprofile/geography.html"
+  },
+  {
+    "label": "Notes on ACS API Variable Formats",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-api-variable-formats.html"
+  },
+  {
+    "label": "Notes on ACS API Variable Types",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-api-variable-types.html"
+  },
+  {
+    "label": "Notes on ACS Estimate and Annotation Values",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+  },
+  {
+    "label": "American Community Survey (ACS)    The American Community Survey is the premier source for information about America's changing population, housing and workforce.",
+    "url": "https://www.census.gov/programs-surveys/acs.html"
+  },
+  {
+    "label": "Developers' Forum    Need help? Check out our Developer Forum to submit questions, share your apps, and provide feedback.",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "FTP Server    To download full datasets, visit our FTP Server.",
+    "url": "https://www.census.gov/data/developers/ftp-server.html"
+  },
+  {
+    "label": "Back to Header",
+    "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html#uscb-nav-skip-header"
+  },
+  {
+    "label": "America Counts",
+    "url": "https://www.census.gov/library/stories.html"
+  },
+  {
+    "label": "Director\u2019s Blog",
+    "url": "https://www.census.gov/newsroom/blogs/director.html"
+  },
+  {
+    "label": "Deputy Director\u2019s Blog",
+    "url": "https://www.census.gov/newsroom/blogs/deputy-director.html"
+  },
+  {
+    "label": "Random Samplings",
+    "url": "https://www.census.gov/newsroom/blogs/random-samplings.html"
+  },
+  {
+    "label": "Research Matters",
+    "url": "https://www.census.gov/newsroom/blogs/research-matters.html"
+  },
+  {
+    "label": "Contact",
+    "url": "https://www.census.gov/about/contact-us.html"
+  },
+  {
+    "label": "Support",
+    "url": "https://www.census.gov/help.html"
+  },
+  {
+    "label": "Jobs",
+    "url": "https://www.census.gov/about/census-careers.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.facebook.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "http://x.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.linkedin.com/company/us-census-bureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.youtube.com/user/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.instagram.com/uscensusbureau"
+  },
+  {
+    "label": "Information Quality",
+    "url": "https://www.census.gov/about/policies/quality.html"
+  },
+  {
+    "label": "Data Linkage Infrastructure",
+    "url": "https://www.census.gov/about/adrm/linkage.html"
+  },
+  {
+    "label": "Data Protection and Privacy Policy",
+    "url": "https://www.census.gov/about/policies/privacy.html"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.census.gov/about/policies/section-508.html"
+  },
+  {
+    "label": "FOIA",
+    "url": "https://www.census.gov/about/policies/foia.html"
+  },
+  {
+    "label": "Inspector General",
+    "url": "https://www.oig.doc.gov"
+  },
+  {
+    "label": "No FEAR Act",
+    "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act"
+  },
+  {
+    "label": "U.S. Department of Commerce",
+    "url": "https://www.commerce.gov/"
+  },
+  {
+    "label": "USA.gov",
+    "url": "https://www.usa.gov/"
+  }
+]

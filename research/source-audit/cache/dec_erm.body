@@ -1,0 +1,30 @@
+{
+ "currentVersion": 10.91,
+ "folders": [],
+ "services": [
+  {
+   "name": "erm/erm_wetlands",
+   "type": "MapServer"
+  },
+  {
+   "name": "erm/erm",
+   "type": "MapServer"
+  },
+  {
+   "name": "erm/informational_freshwater_wetlands",
+   "type": "MapServer"
+  },
+  {
+   "name": "erm/limited_wave_action",
+   "type": "MapServer"
+  },
+  {
+   "name": "erm/national_wetlands_inventory",
+   "type": "MapServer"
+  },
+  {
+   "name": "erm/predicted_flood_levels",
+   "type": "MapServer"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hud_income",
+  "url": "https://www.huduser.gov/portal/datasets/il.html",
+  "publisher": "HUD",
+  "purpose": "Income limits",
+  "retrieved_at": "2026-10-03T15:46:43.590837+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.huduser.gov/portal/datasets/il.html",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Thu, 01 Oct 2026 12:03:08 GMT",
+  "bytes": 915856,
+  "sha256": "fe51b455ad70c18e81d2f3086b6659703ddeeb630608bbc85729a9031acc47e8",
+  "cache_path": "cache/hud_income.body",
+  "parsed": "html",
+  "text_chars": 445387,
+  "link_count": 1163
+}

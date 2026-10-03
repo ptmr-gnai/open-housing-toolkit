@@ -1,0 +1,18 @@
+{
+  "id": "furman_data",
+  "url": "https://furmancenter.org/data",
+  "publisher": "NYU Furman Center",
+  "purpose": "Industry research methods",
+  "retrieved_at": "2026-10-03T15:46:44.420473+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.furmancenter.org/publication/data-analysis-what-421-a-extension-requests-tell-us-about-the-future-of-multifamily-housing-development-in-nyc/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Tue, 29 Sep 2026 19:57:04 GMT",
+  "bytes": 148061,
+  "sha256": "f43e14794e79b870ac7f6faf1583ca908c63c8d2b6c66800aeff1a7be9cca63a",
+  "cache_path": "cache/furman_data.body",
+  "parsed": "html",
+  "text_chars": 38913,
+  "link_count": 129
+}

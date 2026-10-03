@@ -1,0 +1,490 @@
+[
+  {
+    "label": "",
+    "url": "https://www.census.gov"
+  },
+  {
+    "label": "Skip top of page navigation",
+    "url": "https://lehd.ces.census.gov/data/#SKIP2"
+  },
+  {
+    "label": "Main",
+    "url": "https://lehd.ces.census.gov/"
+  },
+  {
+    "label": "Applications",
+    "url": "https://lehd.ces.census.gov/applications/"
+  },
+  {
+    "label": "Data",
+    "url": "https://lehd.ces.census.gov/data/"
+  },
+  {
+    "label": "Workshops/Webinars",
+    "url": "https://lehd.ces.census.gov/workshops_webinars/"
+  },
+  {
+    "label": "Training",
+    "url": "https://lehd.ces.census.gov/training/"
+  },
+  {
+    "label": "Upcoming Data",
+    "url": "https://lehd.ces.census.gov/upcoming_data/"
+  },
+  {
+    "label": "Research",
+    "url": "https://lehd.ces.census.gov/research/"
+  },
+  {
+    "label": "State Partners",
+    "url": "https://lehd.ces.census.gov/state_partners/"
+  },
+  {
+    "label": "LED in Action",
+    "url": "https://lehd.ces.census.gov/led_in_action/"
+  },
+  {
+    "label": "J2J Explorer",
+    "url": "https://j2jexplorer.ces.census.gov/"
+  },
+  {
+    "label": "LED Extraction Tool",
+    "url": "https://ledextract.ces.census.gov/"
+  },
+  {
+    "label": "OnTheMap",
+    "url": "https://onthemap.ces.census.gov/"
+  },
+  {
+    "label": "OnTheMap for Emergency Management",
+    "url": "https://onthemap.ces.census.gov/em.html"
+  },
+  {
+    "label": "PSEO Explorer",
+    "url": "https://lehd.ces.census.gov/data/pseo_explorer.html"
+  },
+  {
+    "label": "QWI Explorer",
+    "url": "https://qwiexplorer.ces.census.gov/"
+  },
+  {
+    "label": "VEO Explorer",
+    "url": "https://lehd.ces.census.gov/applications/veo"
+  },
+  {
+    "label": "Center for Economic Studies",
+    "url": "https://www.census.gov/programs-surveys/ces.html"
+  },
+  {
+    "label": "J2J Data",
+    "url": "https://lehd.ces.census.gov/data/#j2j"
+  },
+  {
+    "label": "LODES Data",
+    "url": "https://lehd.ces.census.gov/data/#lodes"
+  },
+  {
+    "label": "PSEO Data",
+    "url": "https://lehd.ces.census.gov/data/pseo_experimental.html"
+  },
+  {
+    "label": "QWI Data",
+    "url": "https://lehd.ces.census.gov/data/#qwi"
+  },
+  {
+    "label": "VEO Data",
+    "url": "https://lehd.ces.census.gov/data/veo_experimental.html"
+  },
+  {
+    "label": "LED Workshop",
+    "url": "https://lehd.ces.census.gov/workshops_webinars/#workshop"
+  },
+  {
+    "label": "General",
+    "url": "mailto:CES.Local.Employment.Dynamics@census.gov"
+  },
+  {
+    "label": "LODES/OnTheMap",
+    "url": "mailto:CES.OnTheMap.Feedback@census.gov\n"
+  },
+  {
+    "label": "QWI/QWI Explorer",
+    "url": "mailto:CES.QWI.Feedback@census.gov\n"
+  },
+  {
+    "label": "J2J/J2J Explorer",
+    "url": "mailto:CES.j2j.Feedback@census.gov\n\n"
+  },
+  {
+    "label": "PSEO/PSEO Explorer",
+    "url": "mailto:CES.PSEO.Feedback@census.gov"
+  },
+  {
+    "label": "301-763-INFO (4636)",
+    "url": "tel:3017634636"
+  },
+  {
+    "label": "800-923-8282",
+    "url": "tel:8009238282"
+  },
+  {
+    "label": "Further contact information",
+    "url": "https://lehd.ces.census.gov/contact.html"
+  },
+  {
+    "label": "Partner With Us",
+    "url": "https://lehd.ces.census.gov/contact.html#partnerwithus"
+  },
+  {
+    "label": "Federal Statistical Research Data Centers (FSRDCs)",
+    "url": "https://www.census.gov/fsrdc"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/lehd-code-samples",
+    "url": "https://lehd.ces.census.gov/data/lehd-code-samples/"
+  },
+  {
+    "label": "J2J 101",
+    "url": "https://lehd.ces.census.gov/doc/j2j_101.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Job-to-Job Flows: Quick Start Guide",
+    "url": "https://lehd.ces.census.gov/doc/J2J_quickstart_guide.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Job-to-Job Flows: New Statistics on Worker Reallocation and Job Turnover",
+    "url": "https://lehd.ces.census.gov/doc/jobtojob_documentation_long.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Job-to-Job Flows: Data Dictionary and Schema",
+    "url": "https://lehd.ces.census.gov/data/schema/j2j_latest/lehd_public_use_schema.html"
+  },
+  {
+    "label": "Job-to-Job Flow Variable Relatedness",
+    "url": "https://lehd.ces.census.gov/doc/help/j2j_explorer/J2JVariableRelatedness.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Job-to-Job Flow Data Notices",
+    "url": "https://lehd.ces.census.gov/doc/J2J_data_notices.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/j2j/",
+    "url": "https://lehd.ces.census.gov/data/j2j/"
+  },
+  {
+    "label": "Job-to-Job Flows Explorer",
+    "url": "https://j2jexplorer.ces.census.gov"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/j2j_subsector_research.html",
+    "url": "https://lehd.ces.census.gov/data/j2j_subsector_research.html"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "OnTheMap Data Notices",
+    "url": "https://lehd.ces.census.gov/applications/help/onthemap.html#!data_notices"
+  },
+  {
+    "label": "LODES Tech Doc",
+    "url": "https://lehd.ces.census.gov/doc/help/onthemap/LODESTechDoc.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "LODES Data/Tech Doc Archive",
+    "url": "https://lehd.ces.census.gov/data/lodes/"
+  },
+  {
+    "label": "LODES Code Samples",
+    "url": "https://lehd.ces.census.gov/data/lehd-code-samples/sections/lodes.html"
+  },
+  {
+    "label": "Design Comparison Of LODES And ACS Commuting Data Products",
+    "url": "https://www.census.gov/library/working-papers/2014/adrm/ces-wp-14-38.html"
+  },
+  {
+    "label": "Quality Evaluation of QWI and LODES",
+    "url": "https://www2.census.gov/ces/wp/2020/CES-WP-20-30.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "OnTheMap",
+    "url": "https://onthemap.ces.census.gov/"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/lodes/",
+    "url": "https://lehd.ces.census.gov/data/lodes/"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/pseo_experimental.html",
+    "url": "https://lehd.ces.census.gov/data/pseo_experimental.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/pseo_documentation.html",
+    "url": "https://lehd.ces.census.gov/data/pseo_documentation.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/pseo/",
+    "url": "https://lehd.ces.census.gov/data/pseo/"
+  },
+  {
+    "label": "PSEO Explorer",
+    "url": "https://lehd.ces.census.gov/data/pseo_explorer.html"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "QWI 101",
+    "url": "https://lehd.ces.census.gov/doc/QWI_101.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "QWI Data Notices",
+    "url": "https://lehd.ces.census.gov/doc/QWI_data_notices.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "QWI Data Schema for Most Recent Release",
+    "url": "https://lehd.ces.census.gov/data/schema/latest/lehd_public_use_schema.html"
+  },
+  {
+    "label": "The LEHD Infrastructure Files and the Creation of the Quarterly Workforce Indicators",
+    "url": "https://lehd.ces.census.gov/doc/technical_paper/tp-2006-01.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Confidentiality Protection in the Census Bureau's Quarterly Workforce Indicators",
+    "url": "https://lehd.ces.census.gov/doc/technical_paper/tp-2006-02.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "QWI Weighting Adjustment",
+    "url": "https://lehd.ces.census.gov/doc/QWI-Weight-Adjustment-R2021Q2.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "Quality Evaluation of QWI and LODES",
+    "url": "https://www2.census.gov/ces/wp/2020/CES-WP-20-30.pdf"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/main/www/pdf.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/qwi_national.html",
+    "url": "https://lehd.ces.census.gov/data/qwi_national.html"
+  },
+  {
+    "label": "QWI Explorer",
+    "url": "https://qwiexplorer.ces.census.gov/"
+  },
+  {
+    "label": "LED Extraction Tool",
+    "url": "https://ledextract.ces.census.gov/"
+  },
+  {
+    "label": "Census API",
+    "url": "http://www.census.gov/data/developers/data-sets/qwi.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/qwi/",
+    "url": "https://lehd.ces.census.gov/data/qwi/"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/veo_experimental.html",
+    "url": "https://lehd.ces.census.gov/data/veo_experimental.html"
+  },
+  {
+    "label": "lehd.ces.census.gov/data/veo/",
+    "url": "https://lehd.ces.census.gov/data/veo/"
+  },
+  {
+    "label": "VEO Explorer",
+    "url": "https://lehd.ces.census.gov/applications/veo"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "Federal Statistical Research Data Center (FSRDC)",
+    "url": "https://www.census.gov/about/adrm/fsrdc.html"
+  },
+  {
+    "label": "CES LEHD Data page",
+    "url": "https://www.census.gov/programs-surveys/ces/data/restricted-use-data/lehd-data.html"
+  },
+  {
+    "label": "LEHD Snapshot documentation",
+    "url": "https://lehd.ces.census.gov/data/lehd-snapshot-doc/latest/"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/j2j",
+    "url": "https://lehd.ces.census.gov/data/j2j"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/j2j",
+    "url": "https://lehd.ces.census.gov/data/j2j"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/lodes",
+    "url": "https://lehd.ces.census.gov/data/lodes"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/lodes",
+    "url": "https://lehd.ces.census.gov/data/lodes"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/pseo",
+    "url": "https://lehd.ces.census.gov/data/pseo"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/pseo",
+    "url": "https://lehd.ces.census.gov/data/pseo"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/qwi",
+    "url": "https://lehd.ces.census.gov/data/qwi"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/qwi",
+    "url": "https://lehd.ces.census.gov/data/qwi"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/veo",
+    "url": "https://lehd.ces.census.gov/data/veo"
+  },
+  {
+    "label": "https://lehd.ces.census.gov/data/veo",
+    "url": "https://lehd.ces.census.gov/data/veo"
+  },
+  {
+    "label": "top",
+    "url": "https://lehd.ces.census.gov/data/#top"
+  },
+  {
+    "label": "GZip",
+    "url": "http://www.gzip.org"
+  },
+  {
+    "label": "http://en.wikipedia.org/wiki/Zip_(file_format)",
+    "url": "http://en.wikipedia.org/wiki/Zip_(file_format)"
+  },
+  {
+    "label": "CONNECT WITH US",
+    "url": "https://www.census.gov/about/contact-us/social_media.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.facebook.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://twitter.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.linkedin.com/company/us-census-bureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.youtube.com/user/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.instagram.com/uscensusbureau/"
+  },
+  {
+    "label": "Information Quality",
+    "url": "https://www.census.gov/quality/"
+  },
+  {
+    "label": "Data Linkage Infrastructure",
+    "url": "https://www.census.gov/datalinkage/"
+  },
+  {
+    "label": "Data Protection and Privacy Policy",
+    "url": "https://www.census.gov/privacy/"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility"
+  },
+  {
+    "label": "FOIA",
+    "url": "https://www.census.gov/foia/"
+  },
+  {
+    "label": "Inspector General",
+    "url": "https://www.oig.doc.gov/Pages/default.aspx"
+  },
+  {
+    "label": "No FEAR Act",
+    "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act"
+  },
+  {
+    "label": "U.S. Department of Commerce",
+    "url": "https://www.commerce.gov/"
+  },
+  {
+    "label": "USA.gov",
+    "url": "https://www.usa.gov/"
+  }
+]

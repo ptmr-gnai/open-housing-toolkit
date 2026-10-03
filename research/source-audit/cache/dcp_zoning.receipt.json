@@ -1,0 +1,18 @@
+{
+  "id": "dcp_zoning",
+  "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+  "publisher": "NYC DCP",
+  "purpose": "Legal text",
+  "retrieved_at": "2026-10-03T15:46:41.532629+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 14:47:12 GMT",
+  "bytes": 162737,
+  "sha256": "dcccd06dc9020a865e40c30701892ca3a83dc9b1e5e4f828b33622b2cfce5396",
+  "cache_path": "cache/dcp_zoning.body",
+  "parsed": "html",
+  "text_chars": 38306,
+  "link_count": 170
+}

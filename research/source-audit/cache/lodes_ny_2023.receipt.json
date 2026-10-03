@@ -1,0 +1,16 @@
+{
+  "id": "lodes_ny_2023",
+  "publisher": "Census LEHD",
+  "purpose": "Verify professional workflow raw material or download",
+  "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2023.csv.gz",
+  "retrieved_at": "2026-10-03T15:57:17.119018+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/ny_wac_S000_JT00_2023.csv.gz",
+  "content_type": "application/x-gzip",
+  "last_modified": "Wed, 03 Dec 2025 12:47:15 GMT",
+  "bytes": 2759201,
+  "sha256": "0274b2c3eabac9272c83674666e63d28690619a8111faf08531ecc54226d08c0",
+  "cache_path": "cache/lodes_ny_2023.body",
+  "parsed": "other"
+}

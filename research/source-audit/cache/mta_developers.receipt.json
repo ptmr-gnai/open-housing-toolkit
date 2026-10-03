@@ -1,0 +1,18 @@
+{
+  "id": "mta_developers",
+  "url": "https://www.mta.info/developers",
+  "publisher": "MTA",
+  "purpose": "API documentation",
+  "retrieved_at": "2026-10-03T15:46:42.672377+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.mta.info/developers",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Fri, 02 Oct 2026 20:38:04 GMT",
+  "bytes": 56981,
+  "sha256": "80f6b2fb2503d2aafef347e10675e9f9a588af1692f45b4dbc35cfe831b1cb51",
+  "cache_path": "cache/mta_developers.body",
+  "parsed": "html",
+  "text_chars": 15828,
+  "link_count": 78
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dcp_zap",
+  "url": "https://zap.planning.nyc.gov/projects",
+  "publisher": "NYC DCP",
+  "purpose": "Application records",
+  "retrieved_at": "2026-10-03T15:48:14.114797+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zap.planning.nyc.gov/projects",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 7539,
+  "sha256": "1527c80dd709b0dfbdc43e508c324f00d8f3f9dee69ad95d2b37f0b3919e9a22",
+  "cache_path": "cache/dcp_zap.body",
+  "parsed": "html",
+  "text_chars": 247,
+  "link_count": 0
+}

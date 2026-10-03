@@ -1,0 +1,18 @@
+{
+  "id": "hpd_hunter_rfp",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/hunterspointe-rfp.page",
+  "publisher": "NYC HPD",
+  "purpose": "Worked procurement",
+  "retrieved_at": "2026-10-03T15:49:58.587507+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/hunterspointe-rfp.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 25448,
+  "sha256": "bf5e7b1044751f479405f1a3e827d4ddfb3ad7bf5689e9289ccdadde93259c01",
+  "cache_path": "cache/hpd_hunter_rfp.body",
+  "parsed": "html",
+  "text_chars": 2815,
+  "link_count": 43
+}

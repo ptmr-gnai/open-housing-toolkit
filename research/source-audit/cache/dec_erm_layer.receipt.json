@@ -1,0 +1,19 @@
+{
+  "id": "dec_erm_layer",
+  "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm/Environmental_Remediation_Sites/MapServer?f=pjson",
+  "publisher": "NYS DEC",
+  "purpose": "Environmental service",
+  "retrieved_at": "2026-10-03T15:51:03.578672+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm/Environmental_Remediation_Sites/MapServer?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 130,
+  "sha256": "3583f50a22b0cd18306bcf550b12b2361ece74eff454f8c4ec2be4d503676e03",
+  "cache_path": "cache/dec_erm_layer.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "error"
+  ]
+}

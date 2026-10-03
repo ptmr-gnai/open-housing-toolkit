@@ -1,0 +1,18 @@
+{
+  "id": "census_lodes_ny_listing",
+  "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/",
+  "publisher": "US Census Bureau",
+  "purpose": "Job bulk download access",
+  "retrieved_at": "2026-10-03T15:52:01.309582+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/",
+  "content_type": "text/html;charset=ISO-8859-1",
+  "last_modified": null,
+  "bytes": 301504,
+  "sha256": "5e08f0f5c89ce526ec02e874bbe15c49171b9c2690b2de1b24646646ce177703",
+  "cache_path": "cache/census_lodes_ny_listing.body",
+  "parsed": "html",
+  "text_chars": 62635,
+  "link_count": 1165
+}

@@ -1,0 +1,17 @@
+{
+  "id": "acris_legals_lead",
+  "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D2%20AND%20block%3D2871%20AND%20lot%3D2&%24limit=1000&%24order=document_id",
+  "publisher": "NYC DOF",
+  "purpose": "Parcel document join",
+  "retrieved_at": "2026-10-03T15:49:58.586468+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D2%20AND%20block%3D2871%20AND%20lot%3D2&%24limit=1000&%24order=document_id",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Tue, 08 Sep 2026 19:31:02 GMT",
+  "bytes": 13571,
+  "sha256": "1b5e1e73277f74c3724fe302a45fdcfb53923664c4868ccb1ea6ff5efd6b9b47",
+  "cache_path": "cache/acris_legals_lead.body",
+  "parsed": "json",
+  "row_count": 48
+}

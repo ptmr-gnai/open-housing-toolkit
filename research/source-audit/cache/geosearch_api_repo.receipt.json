@@ -1,0 +1,10 @@
+{
+  "id": "geosearch_api_repo",
+  "url": "https://api.github.com/repos/NYCPlanning/labs-geosearch",
+  "publisher": "NYC Planning Labs",
+  "purpose": "Implementation discovery",
+  "retrieved_at": "2026-10-03T15:49:59.366039+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

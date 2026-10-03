@@ -1,0 +1,16 @@
+{
+  "id": "mta_subway_gtfs",
+  "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+  "publisher": "MTA",
+  "purpose": "Actual schedule download",
+  "retrieved_at": "2026-10-03T15:49:59.435342+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+  "content_type": "application/zip",
+  "last_modified": "Thu, 27 Aug 2026 13:39:18 GMT",
+  "bytes": 5615228,
+  "sha256": "2c9e69b82ac596a2fe660b56656509570cfba3c2e4c50be75eaf624eee1bc6f8",
+  "cache_path": "cache/mta_subway_gtfs.body",
+  "parsed": "other"
+}

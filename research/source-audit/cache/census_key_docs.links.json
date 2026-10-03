@@ -1,0 +1,418 @@
+[
+  {
+    "label": "Skip Header",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html#content"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "About Developers",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/about/terms-of-service.html"
+  },
+  {
+    "label": "Request an API Key",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "View All Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "Census Data API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html"
+  },
+  {
+    "label": "Census Microdata API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/microdata-api-user-guide.html"
+  },
+  {
+    "label": "Census Data API Discovery Tool",
+    "url": "https://www.census.gov/data/developers/updates/new-discovery-tool.html"
+  },
+  {
+    "label": "Workshop: Basics of Using the Census API",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/workshops/basics-of-using-the-census-api.html"
+  },
+  {
+    "label": "View All Video Tutorials",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/guidance-for-data-users/video-tutorials.html"
+  },
+  {
+    "label": "Latest Data Releases",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/latest-releases.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "About Developers",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/about/terms-of-service.html"
+  },
+  {
+    "label": "Request an API Key",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "View All Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "Census Data API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html"
+  },
+  {
+    "label": "Census Microdata API User Guide",
+    "url": "https://www.census.gov/data/developers/guidance/microdata-api-user-guide.html"
+  },
+  {
+    "label": "Census Data API Discovery Tool",
+    "url": "https://www.census.gov/data/developers/updates/new-discovery-tool.html"
+  },
+  {
+    "label": "Workshop: Basics of Using the Census API",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/workshops/basics-of-using-the-census-api.html"
+  },
+  {
+    "label": "View All Video Tutorials",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/guidance-for-data-users/video-tutorials.html"
+  },
+  {
+    "label": "Latest Data Releases",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/latest-releases.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/contact.html"
+  },
+  {
+    "label": "Census.gov",
+    "url": "https://www.census.gov/en.html"
+  },
+  {
+    "label": "Census Bureau Data and Maps",
+    "url": "https://www.census.gov/data"
+  },
+  {
+    "label": "Developers",
+    "url": "https://www.census.gov/developers/"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "Skip Navigation",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html#content"
+  },
+  {
+    "label": "Within Developers",
+    "url": "https://www.census.gov/data/developers.html"
+  },
+  {
+    "label": "About",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/terms-of-service.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "Within Developers",
+    "url": "https://www.census.gov/data/developers.html"
+  },
+  {
+    "label": "About",
+    "url": "https://www.census.gov/data/developers/about.html"
+  },
+  {
+    "label": "Available APIs",
+    "url": "https://www.census.gov/data/developers/data-sets.html"
+  },
+  {
+    "label": "Developers' Forum",
+    "url": "https://www.census.gov/data/developers/api-forum.html"
+  },
+  {
+    "label": "Geography",
+    "url": "https://www.census.gov/data/developers/geography.html"
+  },
+  {
+    "label": "Guidance for Developers",
+    "url": "https://www.census.gov/data/developers/guidance.html"
+  },
+  {
+    "label": "News",
+    "url": "https://www.census.gov/data/developers/news.html"
+  },
+  {
+    "label": "Terms of Service",
+    "url": "https://www.census.gov/data/developers/terms-of-service.html"
+  },
+  {
+    "label": "Updates",
+    "url": "https://www.census.gov/data/developers/updates.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.census.gov/data/developers/api-key.html"
+  },
+  {
+    "label": "",
+    "url": "https://www2.census.gov/data/api-documentation/api-user-guide.pdf"
+  },
+  {
+    "label": "Census Data API User Guide",
+    "url": "https://www2.census.gov/data/api-documentation/api-user-guide.pdf"
+  },
+  {
+    "label": "Overview",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Overview.html#list-tab-559651575"
+  },
+  {
+    "label": "What is the API",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.What_is_the_API.html#list-tab-559651575"
+  },
+  {
+    "label": "Query Limits",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Query_Limits.html#list-tab-559651575"
+  },
+  {
+    "label": "API Key",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.API_Key.html#list-tab-559651575"
+  },
+  {
+    "label": "Available Data",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Available_Data.html#list-tab-559651575"
+  },
+  {
+    "label": "Core Concepts",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Core_Concepts.html#list-tab-559651575"
+  },
+  {
+    "label": "Example API Queries",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Example_API_Queries.html#list-tab-559651575"
+  },
+  {
+    "label": "Ucgid Predicate",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Ucgid_Predicate.html#list-tab-559651575"
+  },
+  {
+    "label": "Help & Contact Us",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help_&_Contact_Us.html#list-tab-559651575"
+  },
+  {
+    "label": "The Census Data Application Programming Interface (API)",
+    "url": "https://www.census.gov/data/developers/updates/new-discovery-tool.html"
+  },
+  {
+    "label": "TIGERweb GeoServices REST API",
+    "url": "https://www.census.gov/data/developers/data-sets/TIGERweb-map-service.html"
+  },
+  {
+    "label": "Geocoding Services API",
+    "url": "https://www.census.gov/data/developers/data-sets/Geocoding-services.html"
+  },
+  {
+    "label": "How-to Materials for Using the Census API    Do you have questions on how to use the Census API? Check out our step-by-step guidance to learn how to use the Census API to find the data you need.",
+    "url": "https://www.census.gov/data/what-is-data-census-gov/guidance-for-data-users/how-to-materials-for-using-the-census-api.html"
+  },
+  {
+    "label": "Data Tool  Explore Census Data    This new platform on data.census.gov is based on overwhelming feedback to streamline the way you get data and digital content from the Census Bureau.",
+    "url": "https://www.census.gov/data/data-tools/data-cedsci.html"
+  },
+  {
+    "label": "Census Bureau Data and Maps  Access demographic, economic and population data from the U.S. Census Bureau. Explore census data with visualizations and view tutorials.",
+    "url": "https://www.census.gov/data"
+  },
+  {
+    "label": "Data Tools and Applications  Find information using interactive applications to get statistics from multiple surveys.",
+    "url": "https://www.census.gov/data/data-tools.html"
+  },
+  {
+    "label": "Emergency Management Hub  The U.S. Census Bureau produces timely local data that are critical to emergency planning, preparedness and recovery efforts.",
+    "url": "https://www.census.gov/disasters"
+  },
+  {
+    "label": "Back to Header",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html#uscb-nav-skip-header"
+  },
+  {
+    "label": "America Counts",
+    "url": "https://www.census.gov/library/stories.html"
+  },
+  {
+    "label": "Director\u2019s Blog",
+    "url": "https://www.census.gov/newsroom/blogs/director.html"
+  },
+  {
+    "label": "Deputy Director\u2019s Blog",
+    "url": "https://www.census.gov/newsroom/blogs/deputy-director.html"
+  },
+  {
+    "label": "Random Samplings",
+    "url": "https://www.census.gov/newsroom/blogs/random-samplings.html"
+  },
+  {
+    "label": "Research Matters",
+    "url": "https://www.census.gov/newsroom/blogs/research-matters.html"
+  },
+  {
+    "label": "Contact",
+    "url": "https://www.census.gov/about/contact-us.html"
+  },
+  {
+    "label": "Support",
+    "url": "https://www.census.gov/help.html"
+  },
+  {
+    "label": "Jobs",
+    "url": "https://www.census.gov/about/census-careers.html"
+  },
+  {
+    "label": "",
+    "url": "https://www.facebook.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "http://x.com/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.linkedin.com/company/us-census-bureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.youtube.com/user/uscensusbureau"
+  },
+  {
+    "label": "",
+    "url": "https://www.instagram.com/uscensusbureau"
+  },
+  {
+    "label": "Information Quality",
+    "url": "https://www.census.gov/about/policies/quality.html"
+  },
+  {
+    "label": "Data Linkage Infrastructure",
+    "url": "https://www.census.gov/about/adrm/linkage.html"
+  },
+  {
+    "label": "Data Protection and Privacy Policy",
+    "url": "https://www.census.gov/about/policies/privacy.html"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.census.gov/about/policies/section-508.html"
+  },
+  {
+    "label": "FOIA",
+    "url": "https://www.census.gov/about/policies/foia.html"
+  },
+  {
+    "label": "Inspector General",
+    "url": "https://www.oig.doc.gov"
+  },
+  {
+    "label": "No FEAR Act",
+    "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act"
+  },
+  {
+    "label": "U.S. Department of Commerce",
+    "url": "https://www.commerce.gov/"
+  },
+  {
+    "label": "USA.gov",
+    "url": "https://www.usa.gov/"
+  }
+]

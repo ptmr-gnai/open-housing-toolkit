@@ -1,0 +1,18 @@
+{
+  "id": "hpd_jerome_official",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+  "publisher": "NYC HPD",
+  "purpose": "Worked Bronx project",
+  "retrieved_at": "2026-10-03T15:52:01.306301+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 30564,
+  "sha256": "34d6146748ff9ce032b6e1468e70f01f2eb48e119ce9b5c3ca59b676e9a69056",
+  "cache_path": "cache/hpd_jerome_official.body",
+  "parsed": "html",
+  "text_chars": 4264,
+  "link_count": 43
+}

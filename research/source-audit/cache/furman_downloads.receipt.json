@@ -1,0 +1,18 @@
+{
+  "id": "furman_downloads",
+  "url": "https://www.furmancenter.org/data-tools/data-tools-data-downloads/",
+  "publisher": "NYU Furman Center",
+  "purpose": "Download access",
+  "retrieved_at": "2026-10-03T15:48:14.735953+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.furmancenter.org/data-tools-resources/data-tools-data-downloads/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 15:48:15 GMT",
+  "bytes": 87011,
+  "sha256": "ec3a2178dd78cb9a4535b6b5d9673f807d0560d0104cd230d476a98b27f87fa6",
+  "cache_path": "cache/furman_downloads.body",
+  "parsed": "html",
+  "text_chars": 19650,
+  "link_count": 66
+}

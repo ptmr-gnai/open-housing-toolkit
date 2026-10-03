@@ -1,0 +1,708 @@
+
+
+  
+    
+    
+        
+
+	
+	Data Set Downloads - NYU Furman Center
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+      
+
+  
+        
+    
+    
+    
+    
+      
+        Skip to content
+      
+
+      
+    
+        
+            
+                            
+        
+
+        
+            
+  
+            
+  
+        
+    
+
+    
+                    
+                
+
+                
+                                            
+
+                            
+
+  Give
+                        
+                                            
+
+                            
+
+  Contact
+                        
+                                            
+
+                            
+
+  Newsletters
+                        
+                                            
+
+                            
+
+  Housing Solutions Lab
+                        
+                                    
+
+                
+                    
+  
+                    
+  
+                
+
+                
+
+    
+        
+  
+    
+
+    
+        
+            Search for:        
+
+        
+    
+
+            
+        
+                    
+                
+                                            
+
+                            Research Topics
+                                                            
+                                    
+  
+                                
+                            
+                                                            
+                                    
+
+                                        
+                                            
+
+                                                
+                                                    Research Topics                                                
+
+                                                
+
+  View All
+                                            
+
+                                                                                            
+
+                                                    
+
+  Affordable & Subsidized Housing
+                                                
+                                                                                            
+
+                                                    
+
+  Housing Finance
+                                                
+                                                                                            
+
+                                                    
+
+  Land Use
+                                                
+                                                                                            
+
+                                                    
+
+  Neighborhood Indicators
+                                                
+                                                                                            
+
+                                                    
+
+  Climate Resilience
+                                                
+                                                                                            
+
+                                                    
+
+  Stability & Housing Conditions
+                                                
+                                                                                    
+                                    
+
+                                                                    
+                                                    
+                                            
+
+                            
+
+  Publications
+
+                            
+                                                    
+                                            
+
+                            Data Tools & Resources
+                                                            
+                                    
+  
+                                
+                            
+                                                            
+                                    
+
+                                        
+                                            
+
+                                                
+                                                    Data Tools & Resources                                                
+
+                                                
+
+  View All
+                                            
+
+                                                                                            
+
+                                                    Featured                                                
+                                                                                            
+
+                                                    
+
+  CoreData
+
+
+  Tool
+                                                
+                                                                                            
+
+                                                    
+
+  Eviction Tracker
+
+
+  Tool
+                                                
+                                                                                            
+
+                                                    
+
+  Directory of Housing Programs
+
+
+  Resource
+                                                
+                                                                                            
+
+                                                    
+
+  NYC Neighborhood Data Profiles
+
+
+  Tool
+                                                
+                                                                                            
+
+                                                    
+
+  State of the City
+
+
+  RESOURCE
+                                                
+                                                                                            
+
+                                                    
+
+  Land Use Reform Tracker
+
+
+  Tool
+                                                
+                                                                                    
+                                    
+
+                                                                            
+
+                                                                                            
+Housing Solutions Lab
+                                            
+                                                                                            
+Small and mid-size cities can find housing knowledge, tools, resources
+                                            
+                                                                                            
+                                                                                                            
+
+                                                            
+
+  About the Lab
+                                                        
+                                                                                                            
+
+                                                            
+
+  Explore the Lab
+                                                        
+                                                                                                    
+                                                                                    
+                                                                    
+                                                    
+                                            
+
+                            News & Events
+                                                            
+                                    
+  
+                                
+                            
+                                                            
+                                    
+
+                                        
+                                            
+
+                                                
+                                                    News & Events                                                
+
+                                                                                            
+
+                                                                                            
+
+                                                    
+
+  News & Announcements
+                                                
+                                                                                            
+
+                                                    
+
+  Events
+                                                
+                                                                                            
+
+                                                    
+
+  For the Media
+                                                
+                                                                                    
+                                    
+
+                                                                    
+                                                    
+                                            
+
+                            
+
+  About
+
+                                                            
+                                    
+  
+                                
+                            
+                                                            
+                                    
+
+                                        
+                                            
+
+                                                
+                                                    About                                                
+
+                                                                                            
+
+                                                                                            
+
+                                                    
+
+  About Us
+                                                
+                                                                                            
+
+                                                    
+
+  Team
+                                                
+                                                                                            
+
+                                                    
+
+  Advisory Board
+                                                
+                                                                                            
+
+                                                    
+
+  Fellowships
+                                                
+                                                                                            
+
+                                                    
+
+  Job Opportunities
+                                                
+                                                                                    
+                                    
+
+                                                                    
+                                                    
+                                    
+            
+            
+
+
+      
+               
+
+
+    
+    
+        
+        
+        
+            
+Home  Data Tools & Resources
+            
+                
+                
+                
+                
+                
+                
+                
+
+                    Data Set Downloads                
+
+                
+                
+                
+                
+                
+                
+                
+                            
+        
+
+        
+        
+        
+            
+
+
+
+
+
+Subsidized Housing Database Downloads
+
+
+
+
+Subsidized Housing Database download package contains two data files and two corresponding data dictionary files:
+
+
+
+
+
+The FC_SHD_subsidy_analysis_yyyy-mm-dd.csv file is provided for detailed analysis of subsidies and properties. Each entry in this data file represents the combination of a subsidy record and a property. If multiple subsidies are available for one property (identified by Borough-Block-Lot aka BBL), there will be multiple entries associated with the single BBL. Also, if a single subsidy contract applies to multiple properties, then there will be multiple entries associated with the single subsidy. Along with the subsidy information such as corresponding agency, subsidy type, as well as the start and end date, the subsidy analysis file provides the information of the property including address, the number of residential units, year built and etc. The file also provides latitude and longitude points of the BBLs for potential geospatial analysis. For detailed information, please refer to FC_SHD_subsidy_analysis_data_dictionary_yyyy-mm-dd.xlsx.
+
+
+
+
+The FC_SHD_bbl_analysis_yyyy-mm-dd.csv file will be useful for property-level analysis. Each entry is a unique property (BBL). The data set has compiled all the subsidies associated with the BBL into one entry with the property details, captured in a series of columns for each program. The file also provides latitude and longitude points of the BBLs for potential geospatial analysis. For detailed information, please refer to FC_SHD_bbl_analysis_data_dictionary_yyyy-mm-dd.xlsx.
+
+
+
+
+
+Full Neighborhood Indicators Downloads
+
+
+
+
+The full CoreData.nyc Neighborhood Indicator download file is a spreadsheet (Neighorhood_Indicators_CoreDataDownload_yyyy-mm-dd.xlsx) that contains the data table, data dictionary, and notes. This file includes all of the neighborhood indicators available on CoreData.nyc, for all available years and geographic levels including the City of New York, boroughs, and neighborhoods (community districts and sub-borough areas). The data files include the necessary geographic identifiers that will allow you to join the neighborhood indicators data to geometries for mapping or other datasets for further analysis (such as data from the above Subsidized Housing Database files). The definitions and data sources for all indicators are listed in the data dictionary sheet in the file.
+
+
+
+
+Methodology
+
+
+
+
+Read more about Subsidized Housing Database and Neighborhood Indicators on the Data & Methods tab.
+
+        
+
+      
+    
+        
+        
+            
+                                    
+
+                        NYU Furman Center                    
+                
+                                    
+
+                        Advancing research and debate on housing, neighborhoods, and urban policy                    
+                
+                                    
+                                                    
+
+                                
+
+  School of Law
+                            
+                                                    
+
+                                
+
+  Wagner School of Public Service
+                            
+                                            
+                
+                                    
+                                                    
+
+                                
+                                    
+  
+                                
+                            
+                                                    
+
+                                
+                                    
+  
+                                
+                            
+                                                    
+
+                                
+                                    
+  
+                                
+                            
+                                            
+                            
+
+                            
+                    
+                                                    
+
+                                
+                                                                    
+
+                                                                    
+                                                                                    
+
+                                                
+
+  About Us
+                                            
+                                                                                    
+
+                                                
+
+  Contact
+                                            
+                                                                                    
+
+                                                
+
+  Team
+                                            
+                                                                                    
+
+                                                
+
+  Job Opportunities
+                                            
+                                                                                    
+
+                                                
+
+  For the Media
+                                            
+                                                                            
+                                                            
+                                                    
+
+                                
+                                                                    
+
+                                                                    
+                                                                                    
+
+                                                
+
+  Affordable & Subsidized Housing
+                                            
+                                                                                    
+
+                                                
+
+  Housing Finance
+                                            
+                                                                                    
+
+                                                
+
+  Land Use
+                                            
+                                                                                    
+
+                                                
+
+  Neighborhood Indicators
+                                            
+                                                                                    
+
+                                                
+
+  Climate Resilience
+                                            
+                                                                                    
+
+                                                
+
+  Stability & Housing Conditions
+                                            
+                                                                            
+                                                            
+                                            
+                
+                    
+
+        
+                            
+                    
+                                            
+                
+            
+            
+                
+
+    
+        
+  
+    
+
+    
+        
+            Search for:        
+
+        
+    
+
+
+                                    
+                        
+                                                            
+
+                                    
+
+  Privacy Policy
+                                
+                                                            
+
+                                    
+
+  Consent Preferences
+                                
+                                                            
+
+                                    
+
+  Built by Radish Lab
+                                
+                                                    
+                    
+                
+                
+                    Cookie Preferences                
+
+                                    
+
+                        ©2026 The Furman Center                    
+                            
+        
+    
+
+    
+
+        
+    
+    
+    
+    
+
+
+
+
+
+  
+

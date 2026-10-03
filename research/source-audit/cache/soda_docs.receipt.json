@@ -1,0 +1,18 @@
+{
+  "id": "soda_docs",
+  "url": "https://dev.socrata.com/docs/queries/",
+  "publisher": "Socrata",
+  "purpose": "API documentation",
+  "retrieved_at": "2026-10-03T15:46:41.532136+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://dev.socrata.com/docs/queries/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 45554,
+  "sha256": "4b4c137890d19d60b466887a7a260c124d9171a3d3b5d22f1b0d6ee357eb6c17",
+  "cache_path": "cache/soda_docs.body",
+  "parsed": "html",
+  "text_chars": 27186,
+  "link_count": 155
+}

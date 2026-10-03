@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hpd_jerome_official",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+    "publisher": "NYC HPD",
+    "purpose": "Worked Bronx project"
+  },
+  {
+    "id": "hdc_develop",
+    "url": "https://www.nychdc.com/develop",
+    "publisher": "NYC HDC",
+    "purpose": "Financing documents"
+  },
+  {
+    "id": "dec_remediation_service",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm/erm/MapServer?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "Environmental GIS schema"
+  },
+  {
+    "id": "hpd_production_sample",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24limit=1",
+    "publisher": "NYC HPD",
+    "purpose": "Affordable housing production API"
+  },
+  {
+    "id": "census_lodes_ny_listing",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/wac/",
+    "publisher": "US Census Bureau",
+    "purpose": "Job bulk download access"
+  }
+]

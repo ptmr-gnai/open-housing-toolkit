@@ -1,0 +1,16 @@
+{
+  "id": "ceqr_landuse_pdf",
+  "url": "https://www.nyc.gov/assets/oec/technical-manual/04_Land_Use_Zoning_and_Public_Policy_2025.pdf",
+  "publisher": "NYC OEC",
+  "purpose": "Land use process",
+  "retrieved_at": "2026-10-03T15:48:13.372729+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/oec/technical-manual/04_Land_Use_Zoning_and_Public_Policy_2025.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 21 Apr 2026 11:32:22 GMT",
+  "bytes": 5115486,
+  "sha256": "106cb37079f8211b4e702ffb32c58278ab3c113ab1904869302e1bc9014d3cc9",
+  "cache_path": "cache/ceqr_landuse_pdf.body",
+  "parsed": "pdf"
+}

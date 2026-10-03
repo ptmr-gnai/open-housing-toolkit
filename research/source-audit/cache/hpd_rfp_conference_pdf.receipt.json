@@ -1,0 +1,16 @@
+{
+  "id": "hpd_rfp_conference_pdf",
+  "publisher": "HPD",
+  "purpose": "Verify professional workflow raw material or download",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-utrecht-rfp-pre-submission-conference-07012026.pdf",
+  "retrieved_at": "2026-10-03T15:57:17.117878+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-utrecht-rfp-pre-submission-conference-07012026.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Tue, 22 Sep 2026 17:47:01 GMT",
+  "bytes": 3402839,
+  "sha256": "53c063c34795a712efdef92e379987e69ff0f4e1515b1b0f215289f2d79fd094",
+  "cache_path": "cache/hpd_rfp_conference_pdf.body",
+  "parsed": "pdf"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hpd_bronx_rfps",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+  "publisher": "NYC HPD",
+  "purpose": "Worked procurement",
+  "retrieved_at": "2026-10-03T15:48:13.371673+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 37463,
+  "sha256": "c35a4da0e1b4aa449505f353089eabd1358d75c5ebdf762308a7f2f09e373a1f",
+  "cache_path": "cache/hpd_bronx_rfps.body",
+  "parsed": "html",
+  "text_chars": 11335,
+  "link_count": 49
+}

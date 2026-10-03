@@ -1,0 +1,18 @@
+{
+  "id": "dcp_home",
+  "url": "https://www.nyc.gov/content/planning/pages/",
+  "publisher": "NYC DCP",
+  "purpose": "Process discovery",
+  "retrieved_at": "2026-10-03T15:48:14.112507+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/content/planning/pages/",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Wed, 01 Jul 2026 16:57:07 GMT",
+  "bytes": 15852,
+  "sha256": "6ce51a4fb902bd5b526be621bd63333321fcbe50f7a056af478733dc853b8d2e",
+  "cache_path": "cache/dcp_home.body",
+  "parsed": "html",
+  "text_chars": 3470,
+  "link_count": 29
+}

@@ -1,0 +1,22 @@
+{
+  "id": "acris_catalog",
+  "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=ACRIS&limit=8",
+  "publisher": "NYC Open Data",
+  "purpose": "Discovery",
+  "retrieved_at": "2026-10-03T15:46:42.270148+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=ACRIS&limit=8",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": null,
+  "bytes": 38142,
+  "sha256": "e48cb72cd95acba8bef1acbe294e9f2329d12dae429b90f467d461ff8e5ba88f",
+  "cache_path": "cache/acris_catalog.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "results",
+    "resultSetSize",
+    "timings",
+    "warnings"
+  ]
+}

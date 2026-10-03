@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>new-utrecht-library-rfp</title>
+<!--fixed-layout-->
+<!--ls:begin[stylesheet]-->
+<link href="/iwov-resources/fixed-layout/3-Row Simple.css" type="text/css" rel="stylesheet">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[meta-keywords]-->
+<meta name="keywords" content="">
+<!--ls:end[meta-keywords]-->
+<!--ls:begin[meta-description]-->
+<meta name="description" content="">
+<!--ls:end[meta-description]-->
+<!--ls:begin[custom-meta-data]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<!--ls:begin[meta-vpath]-->
+<meta name="vpath" content="">
+<!--ls:end[meta-vpath]-->
+<!--ls:begin[meta-page-locale-name]-->
+<meta name="page-locale-name" content="">
+<!--ls:end[meta-page-locale-name]-->
+<!--
+					ls:begin[pre-head-injection]
+				--><!--
+					ls:end[pre-head-injection]
+				--><!--
+					ls:begin[social_media_injection]
+				--><!--
+					ls:end[social_media_injection]
+				--><!--ls:begin[head-injection]--><meta charset="utf-8" /><!--[if IE]>        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">        <![endif]--><meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- Google Translate Plugin --><meta name="google-translate-customization" content="4707bd7f535893a0-45bca7b6a97e5a2d-g609df9381571b349-c"/><!--[if lt IE 9]>            <script src="/assets/home/js/libs/html5shiv.js" type="text/javascript"></script>        <![endif]--><!-- GLOBAL STYLES --><script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10347260902154543.js" data-dtconfig="app=f936b00c6760395e|cuc=x8kxxto7|owasp=1|mel=100000|expw=1|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1790841134986|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10347260902154543.js|reportUrl=/rb_bf46289yka|rid=RID_843979509|rpid=1162910906|domain=nyc.gov"></script><link href="/assets/home/css/css-min/global.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/css-min/module.css" media="screen" rel="stylesheet" type="text/css" /><!-- PRINT STYLE --><link rel="stylesheet" href="/assets/home/css/print.css" type="text/css" media="print" /><!-- PAGE SPECIFIC STYLES --><link href="/assets/home/css/includes/header-agencies.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/news-panel.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/share-icons.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/agencies-about-links.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/programs-and-initiatives.css" media="screen" rel="stylesheet" type="text/css" /><!--<link href="/assets/hpd/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" />--><!-- centralized css --><link href="/assets/home/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/hpd/css/agency-styles.css" media="screen" rel="stylesheet" type="text/css" /><!--[if (gte IE 6)&(lte IE 8)]>        <script type="text/javascript" src="/assets/home/js/libs/selectivizr.js"></script>        <![endif]--><!--[if IE 8]>        <script type="text/javascript" src="/assets/home/js/libs/respond.min.js"></script>        <![endif]--><script src="/assets/home/js/libs/modernizr-2.6.2.min.js" type="text/javascript"></script><!--ls:end[head-injection]--><!--ls:begin[tracker-injection]--><!--ls:end[tracker-injection]--><!--ls:begin[script]--><!--ls:end[script]-->
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="QMXLB-WG9C2-LTK58-FW2PB-6ST8X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"QMXLB-WG9C2-LTK58-FW2PB-6ST8X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ljqlbeaxaqzgu2wbeo6q-f-6a73e8b9f-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"1071053","ak.ai":parseInt("181928",10),"ak.ol":"0","ak.cr":44,"ak.ipv":4,"ak.proto":"h2","ak.rid":"361fd333","ak.r":49882,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":43076,"ak.gh":"23.210.6.201","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1791042493","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==QCG+zxnByxZ4VMI8h7VuqoxNZyuydbjz3q06RdgSuYij9WQUzzqXWcfxwIyc8tgQ+uRREh6B/gR+FQT6H9lLqWpJ/1BwAYC/u6fvA2iSIEapg8rrRvfdx4CrpbPbGd2IOGxtHCYJMdQ/sXkHZAbWkhqwJ8bRPSdtpp45vH7CYwHwrd9FPplBeyJ8pTH0FGwvFx/tPy3cXeeNpzLx1ahJlXgu9C2qKiXMz73L2zzXkvUxvXZcGl7z1VWXQfXHbM0lEJlxhmXOquxXgaYxbNf9W0m0fQLQcg8N+lzJfq+XtGjKGVc0jUeZ5L0S/dBTS5W3jvs64HNNBSXzgZphBrUnY/BRlRfa/U8Z60zreoD4f6BDy6KH6+vczIqOxlnWLyUTj42HYE6zRBJ0ws260qHeLu6bHNhUqpNdYsh/ucjoO6w=","ak.pv":"122","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body id="page">
+<!--ls:begin[body]--><div class="ls-canvas page" id="outer-wrap">
+<div class="ls-row" id="inner-wrap">
+<div class="ls-fxr" id="ls-gen17180438-ls-fxr">
+<div class="ls-col" id="ls-row-1-col-1">
+<div class="ls-col-body" id="ls-gen17180439-ls-col-body">
+<div class="ls-row main-header" id="top">
+<div class="ls-fxr" id="ls-gen17180440-ls-fxr">
+<div class="ls-col block" id="ls-row-1-col-1-row-1-col-1">
+<div class="ls-col-body" id="ls-gen17180441-ls-col-body">
+<div class="ls-row" id="ls-row-1-col-1-row-1-col-1-row-1">
+<div class="ls-fxr" id="ls-gen17180442-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-1-col-1-row-1-area-1">
+<div class="ls-area-body" id="ls-gen17180443-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1750220462934">
+<!--ls:begin[component-1750220462934]-->
+<div class="iw_component" id="1750220462934"><div class="agency-header">
+<div class="upper-header-black">
+<div class="container">
+<span class="upper-header-left"><a href="http://www1.nyc.gov"><img src="/assets/home/images/global/nyc_white.png" alt="NYC" class="small-nyc-logo"></a><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-black-title">Housing Preservation &amp; Development</span></span><span class="upper-header-padding"></span><span class="upper-header-right"><span class="upper-header-three-one-one"><a href="/311/index.page">311</a></span><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-search"><a href="/home/search/index.page">Search all NYC.gov websites</a></span></span>
+</div>
+</div>
+</div><div role="banner" class="main-header">
+<div class="block">
+<div class="header-top">
+<div class="container">
+<a href="#" class="toggle-mobile-side-nav visible-phone" id="nav-open-btn">Menu</a><span class="welcome-text hidden-phone agency-header"></span>
+<div class="agency-logo-wrapper">
+<a href="/site/hpd/index.page"><img class="agency-logo" src="/assets/hpd/images/content/header/logo.svg" alt="Housing Preservation &amp; Development"></a>
+</div>
+<div class="hidden-phone" id="header-links">
+<div class="language-gif">
+<img src="/assets/home/images/global/language.gif" alt="Language"></div>
+<div class="language-selector">
+<div id="google_translate_element"></div>
+</div>
+<a class="text-size hidden-phone" href="http://www1.nyc.gov/home/text-size.page">Text-Size</a>
+</div>
+<a href="#" class="visible-phone nav-sprite-mobile" id="toggle-mobile-search"><span class="hidden">Search</span></a>
+</div>
+</div>
+<div class="container nav-outer">
+<nav role="navigation" class="hidden-phone" id="nav">
+<div class="block">
+<ul>
+<li class="nav-home hidden-phone">
+<a href="/site/hpd/index.page">
+                      Home</a>
+</li>
+<li>
+<a href="/site/hpd/about/about-hpd.page">About</a>
+</li>
+<li class="active">
+<a href="/site/hpd/services-and-information/services-and-information.page">Services and Information</a>
+</li>
+<li>
+<a href="/site/hpd/news/news.page">Media</a>
+</li>
+<li>
+<a href="/site/hpd/events/index.page">Events</a>
+</li>
+<li>
+<a href="/site/hpd/contact/contact.page">Contact</a>
+</li>
+<li class="hidden-phone toggle-search-wide-background-ico-search" id="toggle-search-wide"></li>
+</ul>
+</div>
+</nav>
+<div class="global-input-search">
+<form method="GET" action="/home/search/index.page" name="filter-search-form" class="hidden hidden-phone" id="global-search-form1">
+<div class="field-search">
+<input style="color: transparent" type="submit" class="ico-search btn-filter-search" value="submit" aria-hidden="true">
+<div class="input-padding">
+<label for="search-header" class="sr-only">Search</label><input id="search-header" type="text" name="search-terms" placeholder="Search" class="input-search input-black filter-item placeholder"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/hpd"><span class="reader-only"><input value="submit" aria-label="Submit" type="submit"></span>
+</div>
+</div>
+</form>
+</div>
+<div class="global-input-search visible-phone hidden-phone" id="nav-top-searches">
+<div class="block">
+<form class="hidden" method="GET" action="/home/search/index.page" name="filter-search-form" id="global-search-form2">
+<div class="field-search">
+<input style="color: transparent" aria-label="Submit" value="Submit" class="ico-search btn-filter-search" type="submit">
+<div class="input-padding">
+<label for="search-header-2" class="sr-only">Search</label><input id="search-header-2" class="input-search input-black filter-item" placeholder="Search" name="search-terms" type="text"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/hpd">
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1750220462934]-->
+</div>
+<div class="ls-cmp-wrap" id="w1750220462933">
+<!--ls:begin[component-1750220462933]-->
+<div class="iw_component" id="1750220462933">
+</div>
+<!--ls:end[component-1750220462933]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row main" id="main">
+<div class="ls-fxr" id="ls-gen17180444-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-2-area-1">
+<div class="ls-area-body" id="ls-gen17180445-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1750220462935">
+<!--ls:begin[component-1750220462935]-->
+<div class="iw_component" id="1750220462935"><div class="row">
+<div class="subheader">
+<div class="container">
+<h1 class="main-title">New Utrecht Library and Affordable Housing RFP</h1>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1750220462935]-->
+</div>
+<div class="ls-cmp-wrap" id="w1750220462936">
+<!--ls:begin[component-1750220462936]-->
+<div class="iw_component" id="1750220462936"><!-- Left nav component --><div class="row">
+<div class="container content-container">
+<div class="span3 agencies-about-links">
+<div class="agencies-about-share">
+<div class="share">
+<a aria-label="Share on facebook" target="_blank" href="#"><span aria-hidden="true" class="facebook_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page?" data-title="new-utrecht-library-rfp"></span></a><a aria-label="Share on twitter" target="_blank" href="#"><span aria-hidden="true" class="twitter_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page?" data-title="new-utrecht-library-rfp"></span></a><a aria-label="Share on google plus" target="_blank" href="#"><span aria-hidden="true" class="googleplus_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page?" data-title="new-utrecht-library-rfp"></span></a><a aria-label="Share on tumblr" target="_blank" href="#"><span aria-hidden="true" class="tumblr_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page?" data-title="new-utrecht-library-rfp"></span></a><a aria-label="Share in email" href="#"><span aria-hidden="true" class="email_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page?" data-title="new-utrecht-library-rfp"></span></a>
+          Share
+  </div>
+<div class="print-event hidden-phone hidden-tablet">
+<img alt="Print icon" src="/assets/home/images/global/print.png"><span class="print-label"> Print </span>
+</div>
+</div>
+</div>
+<div class="span9 about-main-image">
+<div class="span6 about-description"><h1 class="sr-only"><span data-teams="true">New Utrecht Library and Affordable Housing RFP</span></h1>
+<div class="row img-row">
+<div class="span12"><img src="/assets/hpd/images/content/pages/new-utrecht-homepage.jpg" alt="New Utrecht RFP" width="792" height="612" /></div>
+</div>
+<h2><strong>What Are We Planning for the New Utrecht Library?&nbsp;</strong></h2>
+<p>The NYC Department of Housing Preservation and Development (HPD) and Brooklyn Public Library (BPL) are collaborating on the redevelopment of New Utrecht Library to allow for a new state-of-the-art library along with 100% affordable housing. The redevelopment of the site will include the municipal parking lot next to the library that is operated by the Department of Transportation (DOT).</p>
+<p><span data-contrast="none" xml:lang="EN-US" lang="EN-US" class="TextRun SCXW131393371 BCX8"><span class="NormalTextRun SCXW131393371 BCX8">This project is part of the City&rsquo;s &ldquo;Living Libraries&rdquo; </span><span class="NormalTextRun SCXW131393371 BCX8">initiative</span><span class="NormalTextRun SCXW131393371 BCX8">, which focuses on building new libraries and housing together to better support families and address the city&rsquo;s housing crisis.</span></span><span class="EOP SCXW131393371 BCX8" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}">&nbsp;</span></p>
+<p>The existing library, which is owned by the City, was built in 1956 and has served the surrounding community for almost 70 years. The redevelopment will be initiated through a competitive process called a Request for Proposals (RFP) that asks developers to respond to a set of goals and guidelines that reflect community priorities.</p>
+<p>Community priorities for the new library and affordable housing were established through an extensive community engagement process, which built &nbsp;on BPL&rsquo;s previous engagement with New Utrecht Library patrons and culminated in the release of the <a href="/assets/hpd/downloads/pdfs/services/new-utrecht-RFP-community-visioning-report.pdf"><strong>Community Visioning Report</strong></a>.</p>
+<p>Scroll down to read more about community engagement and how to provide your input! The RFP and public approval process can take several years to complete; there will be multiple opportunities for the public to share feedback before construction begins.</p>
+<p><strong>The branch will remain open to serve the public until construction begins. The City and BPL will ensure critical library services are not interrupted during construction.</strong></p>
+<div><br /></div>
+<div>
+<div class="row">
+<div class="span3"><a href="/site/hpd/services-and-information/new-utrecht-library-rfp-site-overview.page" class="button-link btn-standard-hpd btn-standard-hpd-mod">Site<br />Overview</a></div>
+<div class="span3"><a href="/site/hpd/services-and-information/new-utrecht-library-rfp-how-to-get-involved.page" class="button-link btn-standard-hpd btn-standard-hpd-mod">How to Get<br />Involved</a></div>
+<div class="span3"><a href="/site/hpd/services-and-information/new-utrecht-library-rfp-process-faqs.page" class="button-link btn-standard-hpd btn-standard-hpd-mod">RFP Process and FAQ</a></div>
+<div class="span3"><a href="/site/hpd/services-and-information/new-utrecht-library-rfp-submit-response.page" class="button-link btn-standard-hpd btn-standard-hpd-mod">Submit an RFP<br />Response</a></div>
+</div>
+<hr />
+<h2>What Phase of the RFP Process Are We In?</h2>
+<div class="row img-row">
+<div class="span12"><img src="/assets/hpd/images/content/pages/RFP-tracker-new-utrecht-submissions-review.jpg" alt="New Utrecht RFP" width="3930" height="750" /></div>
+</div>
+<h2>1 Community Visioning</h2>
+<p>Thank you to everyone who shared their vision for the future of the New Utrecht Library site! Check out the New Utrecht Community Visioning Report to read about the results of community visioning.</p>
+<p>Check out the&nbsp;<a href="https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-how-to-get-involved.page"><strong>How To Get Involved tab</strong></a>&nbsp;for more information about how we have engaged the community.&nbsp;</p>
+<h2>2 <strong>Open Request</strong></h2>
+<p>The New Utrecht Library and Affordable Housing RFP was released on June 10, 2026. Submissions were due on September 4, 2026.</p>
+<h2>3 Submissions Review</h2>
+<p>HPD and &nbsp;BPL are currently reviewing submissions for the new library and affordable housing. To learn more about the RFP process, please navigate to the <a href="https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-process-faqs.page">RFP Process and FAQs tab</a>.<br /></p>
+<h2>Sign Up to Receive Updates</h2>
+<p>Please sign up below to stay informed about community engagement opportunities!</p>
+<p>You can also email any questions to <a href="mailto:NewUtrechtLibrary@hpd.nyc.gov"> NewUtrechtLibrary@hpd.nyc.gov</a>.</p>
+<!-- BEGIN: Signup Form Popup Code from Benchmark Email Ver 4.0  --></div>
+<style type="text/css">
+ .formbox-editor_33KN6 fieldset {border: none;margin: 0;padding: 0 40px;position: relative;}
+ .formbox-editor_33KN6 fieldset > input,.formbox-editor_33KN6 fieldset > textarea,.formbox-editable-field_33KN6 {margin: 10px 0;outline: none;}
+ .spacer-block_33KN6 {min-height: 20px;padding: 10px 0;position: relative;}
+ .spacer-block-line_33KN6 {position: absolute;top: 50%;left: 40px;right: 40px;display: none;border-top-style: solid;}
+ .formbox-editor_33KN6 {margin: 0 auto;padding: 0;text-align: left;width: 100%;box-sizing: border-box;}
+ #formbox_screen_subscribe_33KN6, #formbox_screen_success_33KN6 {padding: 30px 0;} 
+ .formbox-title_33KN6, .formbox-text-field_33KN6 {margin-bottom: 0; font-family: Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; }
+ .formbox-title_33KN6 a, .formbox-text-field_33KN6 a  {text-decoration: none;} 
+ .formbox-title_33KN6 p, .formbox-text-field_33KN6 p {margin: 0;margin-bottom: 10px;padding: 0; word-break: break-word;}
+
+ label.formbox-field-label_33KN6 {font-family: Helvetica, Arial, sans-serif; display: block; margin: 10px 0 0; padding: 0; font-size: 14px; text-align: left;line-height: 100%; color: #000000;}
+ label.formbox-label-wrap_33KN6 {font-family: Helvetica, Arial, sans-serif; display: block; margin: 10px 0 0; padding: 0; font-size: 14px; line-height: 100%; padding-left: 15px; text-indent: -15px; font-style: italic;color: #000000;} label.formbox-label-wrap_33KN6:last-of-type {margin-bottom: 10px;}
+ label.formbox-label-wrap_33KN6 input[type=checkbox], label.formbox-label-wrap_33KN6 input[type=radio] { width: 13px; height: 13px; padding: 0; margin:0; margin-right: 5px; vertical-align: bottom; position: relative; top: -1px; }
+ select.formbox-field_33KN6 {background-color: #000000; border: 2px solid #f1f2f2; border-radius: 0px; box-sizing: border-box; background-color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 14px; width: 100%; margin: 10px 0; height: auto; padding: 2px 0px;}
+
+ input.formbox-field_33KN6 {color: #000000; background-color: #ffffff; border: 2px solid #f1f2f2; border-radius:0px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; box-sizing: border-box; padding:15px; width: 100%;} input.formbox-field_33KN6.text-placeholder {color: #c4c4c4; font-weight: normal; font-style: normal; font-family: Helvetica, Arial, sans-serif; font-size: 14px;}
+ .formbox-field_33KN6::-webkit-input-placeholder {color: #c4c4c4; font-weight: normal; font-style: normal;opacity: 1;}
+ .formbox-field_33KN6::-moz-placeholder { color: #c4c4c4; font-weight: normal; font-style: normal;opacity: 1;}
+ .formbox-field_33KN6:-ms-input-placeholder {color: #c4c4c4; font-weight: normal; font-style: normal; opacity: 1;}
+ .formbox-button_33KN6 {line-height: 100%;  cursor: pointer; margin: 10px 0; }
+ .formbox-button_33KN6:hover { background-color:#353d41 !important; }
+ .formbox-button_33KN6:active { background-color:#0d1519 !important; }
+#popupFormLoader_33KN6 { display: none; position: absolute; bottom: 10px; right: 10px; width: 20px; height: 20px; background-image: url(https://benchmarkemail.com/images/popup-builder/loadingicon.svg); background-position: center center; background-repeat: no-repeat; background-color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.3);  border-radius: 100%; -webkit-animation-name: spin; -webkit-animation-duration: 800ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear; -moz-animation-name: spin; -moz-animation-duration: 800ms; -moz-animation-iteration-count: infinite; -moz-animation-timing-function: linear;
+-ms-animation-name: spin;-ms-animation-duration: 800ms;-ms-animation-iteration-count: infinite;-ms-animation-timing-function: linear;animation-name: spin;animation-duration: 800ms;animation-iteration-count: infinite;animation-timing-function: linear;}
+
+</style>
+<div>
+<div>
+<div id="signupFormContainer_33KN6">
+<div id="signupFormContent_33KN6">
+<div class="formbox-editor_33KN6" style="background: #ffffff; border-radius: 0px; box-sizing: border-box; top: 0px;">
+<div id="formbox_screen_subscribe_33KN6" style="display: block;" name="frmLB_33KN6"><input type="hidden" name="token_33KN6" id="token_33KN6" value="mFcQnoBFKMRJt%2Fw5bB0CHcxpSu0%2BSv5Kvxz9mRhE0EfqeaioHLt2UQ%3D%3D" /> <input type="hidden" name="successurl_33KN6" id="successurl_33KN6" value="https://lb.benchmarkemail.com/Code/Welcome?language=" /> <input type="hidden" name="errorurl_33KN6" id="errorurl_33KN6" value="https://lb.benchmarkemail.com//Code/Error" /><fieldset>
+<div class="formbox-title_33KN6">
+<p style="line-height: 1; text-align: left;"><span style="font-family: Helvetica,Arial,sans-serif; font-size: 20px;"><strong><span style="color: #000000;">New Utrecht Library and Affordable Housing Email Updates</span></strong></span></p>
+</div>
+</fieldset><fieldset class="formbox-field_33KN6"><input type="text" placeholder="Email Address *" class="formbox-field_33KN6 text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldemail_33KN6" name="fldemail_33KN6" maxlength="100" /></fieldset><fieldset class="formbox-field_33KN6"><input type="text" placeholder="First Name" class="formbox-field_33KN6 text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldfirstname_33KN6" name="fldfirstname_33KN6" maxlength="100" /></fieldset><fieldset class="formbox-field_33KN6"><input type="text" placeholder="Last Name" class="formbox-field_33KN6 text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldlastname_33KN6" name="fldlastname_33KN6" maxlength="100" /></fieldset><fieldset class="formbox-field_33KN6"><label class="formbox-field-label_33KN6">If applicable</label><input type="text" placeholder="Company Name" class="formbox-field_33KN6 text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldfield9_33KN6" name="fldfield9_33KN6" maxlength="100" /></fieldset><fieldset style="text-align: left;">
+<div id="btnSubmit_33KN6" onclick="javascript:return submit_33KN6Click();" style="word-break: break-all; box-sizing: border-box; text-align: center; display: inline-block; background-color: #21292d; border: rgba(0, 0, 0, 0) solid 0px; border-radius: 2px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #ffffff; line-height: 1; letter-spacing: 1pxpx; padding: 15px;" class="formbox-button_33KN6">Subscribe</div>
+</fieldset></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+function CheckField_33KN6(fldName, frm){var fldObj = document.getElementsByName(fldName);if ( fldObj.length > 1 ) {  for ( var i = 0, l = fldObj.length; i < l; i++ ) {   if ( fldObj[0].type == 'select-one' ) { if( fldObj[i].selected && i==0 && fldObj[i].value == '' ) { return false; }   if ( fldObj[i].selected ) { return true; } }  else { if ( fldObj[i].checked ) { return true; } }; } return false; }  else  { if ( fldObj[0].type == "checkbox" ) { return ( fldObj[0].checked ); }  else if ( fldObj[0].type == "radio" ) { return ( fldObj[0].checked ); }  else { fldObj[0].focus(); return (fldObj[0].value.length > 0); }} }
+function rmspaces(x) {var leftx = 0;var rightx = x.length -1;while ( x.charAt(leftx) == ' ') { leftx++; }while ( x.charAt(rightx) == ' ') { --rightx; }var q = x.substr(leftx,rightx-leftx + 1);if ( (leftx == x.length) && (rightx == -1) ) { q =''; } return(q); }
+
+function checkfield(data) {if (rmspaces(data) == ""){return false;}else {return true;}}
+
+function isemail(data) {var flag = false;if (  data.indexOf("@",0)  == -1 || data.indexOf("\\",0)  != -1 ||data.indexOf("/",0)  != -1 ||!checkfield(data) ||  data.indexOf(".",0)  == -1  ||  data.indexOf("@")  == 0 ||data.lastIndexOf(".") < data.lastIndexOf("@") ||data.lastIndexOf(".") == (data.length - 1)   ||data.lastIndexOf("@") !=   data.indexOf("@") ||data.indexOf(",",0)  != -1 ||data.indexOf(":",0)  != -1 ||data.indexOf(";",0)  != -1  ) {return flag;} else {var temp = rmspaces(data);if (temp.indexOf(' ',0) != -1) { flag = true; }var d3 = temp.lastIndexOf('.') + 4;var d4 = temp.substring(0,d3);var e2 = temp.length  -  temp.lastIndexOf('.')  - 1;var i1 = temp.indexOf('@');if (  (temp.charAt(i1+1) == '.') || ( e2 < 1 ) ) { flag = true; }return !flag;}}
+
+function focusPlaceHolder(obj) { 
+obj.className = "formbox-field_33KN6"; }
+function blurPlaceHolder(obj) { 
+if ( obj.value == '' ) { obj.className = "formbox-field_33KN6 text-placeholder"; } } 
+function isValidDate(year, month, day) { 
+if (year.toString() == '' || month.toString() == '' || day.toString() == '') { return false;} try { year = parseInt(year); month = parseInt(month); day = parseInt(day); } catch (e) { return false;} var d = new Date(year, month - 1, day, 0, 0, 0, 0); return (!isNaN(d) && (d.getDate() == day && d.getMonth() + 1 == month && d.getFullYear() == year));}var submitButton_33KN6 = document.getElementById("btnSubmit_33KN6");
+var subscribeScreen_33KN6 = document.getElementById("formbox_screen_subscribe_33KN6");
+var signupFormContainer_33KN6 = document.getElementById("signupFormContainer_33KN6");
+var signupFormLoader_33KN6 = document.getElementById("popupFormLoader_33KN6");
+function submit_33KN6Click(){
+ var retVal = true; var contentdata = ""; var frm = document.getElementById("formbox_screen_subscribe_33KN6");if ( !isemail(document.getElementsByName("fldemail_33KN6")[0].value) ) { 
+   alert("Please enter the Email Address");
+document.getElementById("fldemail_33KN6").focus(); retVal = false;} if ( retVal == true ) {var frm = "_33KN6"; var f = document.createElement("form"); f.setAttribute('accept-charset', "UTF-8");  f.setAttribute('method', "post"); f.setAttribute('action', "https://lb.benchmarkemail.com//code/lbform"); var elms = document.getElementsByName("frmLB" + frm)[0].getElementsByTagName("*");var ty = ""; for (var ei = 0; ei < elms.length; ei++) {ty = elms[ei].type; if (ty == "hidden" || ty == "text" || (ty == "checkbox" && elms[ei].checked) || (ty == "radio" && elms[ei].checked) || ty == "textarea" || ty == "select-one" || ty == "button") {elm = elms[ei]; if(elm.id != "") { var i = document.createElement("input"); i.type = "hidden"; i.name = elm.name.replace("_33KN6", ""); i.id = elm.id; i.value = elm.value; f.appendChild(i); } } } document.getElementsByTagName('body')[0].appendChild(f);f.submit(); }
+if(isemail(document.getElementById("fldemail_33KN6").value) && window && window.JB_TRACKER && typeof window.JB_TRACKER.jbSubmitForm === 'function') { 
+ window.JB_TRACKER.jbSubmitForm({ 
+ email: document.getElementById("fldemail_33KN6").value, didSubmit: true 
+ }); 
+ }
+
+return retVal;}  var bmePopupFormViewed_33KN6 = localStorage.getItem('bmePopupFormSignedUp1770992'); 
+  if ( bmePopupFormViewed_33KN6 != 'true') {
+  } 
+function debounce_33KN6(func, wait, immediate) {
+var timeout;
+return function() {
+var context = this, args = arguments;
+var later = function() {timeout = null; if (!immediate) func.apply(context, args); };
+var callNow = immediate && !timeout; clearTimeout(timeout); timeout = setTimeout(later, wait); if (callNow) func.apply(context, args); };
+};
+var hasVerticalCenter_33KN6 = document.getElementsByClassName('position-centered');
+function verticalCenter_33KN6(element) { if(element) { element.style.opacity = 0;  element.style.display = 'block';  }
+setTimeout(function () { if (hasVerticalCenter_33KN6.length > 0) { var windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0); 
+ var formElement_33KN6 = document.getElementsByClassName('formbox-editor_33KN6')[0]; var formHeight_33KN6 = formElement_33KN6.clientHeight; 
+ if (formHeight_33KN6 < windowHeight) { var newPosition = 0; newPosition = (windowHeight - formHeight_33KN6) / 2; formElement_33KN6.style.top = newPosition + 'px'; } else { formElement_33KN6.style.top = '0px'; } }
+if(element) { element.style.opacity = 1;  }
+ }, 100);
+}
+if (hasVerticalCenter_33KN6.length > 0) { var resizeEvent_33KN6 = debounce_33KN6(function() { verticalCenter_33KN6(); }, 250); window.addEventListener('resize', resizeEvent_33KN6); } 
+</script>
+<!-- END: Signup Form Popup Code from Benchmark Email Ver 4.0  -->
+<p><strong>General Housing Resources</strong></p>
+<p>Visit the <a href="https://www.nyc.gov/site/housingportal/index.page">NYC Housing Resource Portal</a> for additional housing resources.</p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1750220462936]-->
+</div>
+<div class="ls-cmp-wrap" id="w1750220462937">
+<!--ls:begin[component-1750220462937]-->
+<div class="iw_component" id="1750220462937">
+</div>
+<!--ls:end[component-1750220462937]-->
+</div>
+<div class="ls-cmp-wrap" id="w1750220462938">
+<!--ls:begin[component-1750220462938]-->
+<div class="iw_component" id="1750220462938"><!--
+         Do not display agency programs. 
+    -->
+</div>
+<!--ls:end[component-1750220462938]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row" id="ls-row-1-col-1-row-3">
+<div class="ls-fxr" id="ls-gen17180446-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-3-area-1">
+<div class="ls-area-body" id="ls-gen17180447-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1750220462939">
+<!--ls:begin[component-1750220462939]-->
+<div class="iw_component" id="1750220462939"><div class="row">
+<footer>
+<div class="container">
+<div class="span9 footer-links">
+<a href="/main">nyc.gov home</a><a href="/main/services">Services</a><a href="/main/events/?">Events</a><a href="/main/your-government">Your government</a><a href="https://portal.311.nyc.gov/">311</a><a href="/main/your-government/contact-nyc-government">Contact NYC government</a><a href="https://www.nycvotes.org/">Register to vote</a><a href="https://a858-nycnotify.nyc.gov/notifynyc/">Emergency alerts </a><a href="https://cityjobs.nyc.gov/">Careers</a><a href="/main/forms/website-feedback">Website feedback</a><a href="https://www.nyc.gov/site/mopd/resources/digital-accessibility.page">Accessibility resources</a><a href="/main/nyc-gov-privacy-policy">Privacy policy</a><a href="/main/terms-of-use">Terms of use</a><a href="/main/about-our-content">About nyc.gov content</a>
+</div>
+<div class="span3">
+<span class="logo-nyc">NYC</span>
+<form class="form-search" method="get" action="/home/search/index.page">
+<label for="footer-search" class="sr-only">Search</label><input id="footer-search" type="text" placeholder="Search" class="input-search placeholder" name="search-terms"><button class="ico-search">Search</button>
+</form>
+<div class="copyright">
+<div><p>&copy; City of New York. 2025 All Rights Reserved. NYC is a trademark and service mark of the City of New York.</p>
+<!-- nyc footer 07-16-2025 --></div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<!--ls:end[component-1750220462939]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--></body>
+<!--ls:begin[foot-injection]--><!-- GLOBAL JAVASCRIPT INCLUDES (/js/_global.js.html.erb) --><script src="/assets/home/js/libs/jquery-1.9.1.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script><script src="/assets/home/js/libs/i18n/jquery-ui-i18n.js" type="text/javascript"></script><script src="/assets/home/js/utils.js" type="text/javascript"></script><script src="/assets/home/js/libs/class.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MainNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MobileNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.Global.js" type="text/javascript"></script><script src="/assets/home/js/libs/ZeroClipboard.min.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.InfoShare.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.ProgramsAndInitiatives.js" type="text/javascript"></script><script src="/assets/home/js/share.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery.colorbox-min.js" type="text/javascript"></script><!-- IE7 support for JSON --><!--[if (gte IE 6)&(lte IE 8)]>        <script src="/assets/home/js/libs/json2.js" type="text/javascript"></script>        <![endif]--><!-- PAGE SPECIFIC JAVASCRIPT --><script src="/assets/home/js/pages/agencies/about.js" type="text/javascript"></script><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script><!-- Google Translate Plugin --><script type="text/javascript">            function googleTranslateElementInit() {                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');            }        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!-- webtrends --><script type="text/javascript" src="/assets/hpd/js/agencies/agency-wt.js"></script><script type="text/javascript" src="/assets/home/js/webtrends/webtrends_v10.js"></script><!-- End Analytics Tagging 8/4/14 TL. (NYC.gov Specific) --><!--ls:end[foot-injection]--></html></html>

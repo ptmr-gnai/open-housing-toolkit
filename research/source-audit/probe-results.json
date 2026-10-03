@@ -1,0 +1,144 @@
+{
+  "hpd_design_workbook": {
+    "sheets": [
+      "COVERSHEET + Instructions",
+      "HPD Review Status",
+      "INTAKE - Project-Building(s)",
+      "Design Waiver Form",
+      "Project-Level Unit Distribution",
+      "MIH-UAP in AHRA Projects",
+      "HIDE - Project-Bldgs dropdowns",
+      "Criteria Checklist",
+      "HPD ONLY Review Checklist",
+      "Green Building Cert Pre-Auth",
+      "Dashboard",
+      "Approach Options"
+    ]
+  },
+  "furman_xlsx": {
+    "sheets": [
+      "About",
+      "Data Dictionary",
+      "Data",
+      "Notes"
+    ]
+  },
+  "lodes_ny_2023": {
+    "rows": 108030,
+    "bronx_workplace_blocks": 3435,
+    "bronx_jobs_C000": 340785,
+    "meaning": "2023 all-jobs workplace counts, not unique employed residents or travel-time accessible jobs"
+  },
+  "gtfs": {
+    "feed_info": [
+      {
+        "feed_publisher_name": "MTA New York City Transit",
+        "feed_publisher_url": "https://www.mta.info/",
+        "feed_lang": "EN",
+        "feed_start_date": "20260526",
+        "feed_end_date": "20261031",
+        "feed_version": "20260826-X-long-term-supplement-trip-ids",
+        "feed_contact_url": "https://groups.google.com/forum/#!forum/mtadeveloperresources"
+      }
+    ],
+    "station_170_st": [
+      {
+        "stop_id": "412",
+        "stop_name": "170 St",
+        "stop_lat": "40.840075",
+        "stop_lon": "-73.917791",
+        "location_type": "1",
+        "parent_station": ""
+      }
+    ]
+  },
+  "jerome_pluto": [
+    {
+      "borough": "BX",
+      "block": "2856",
+      "lot": "51",
+      "cd": "204",
+      "ct2010": "219",
+      "cb2010": "1006",
+      "schooldist": "9",
+      "council": "16",
+      "zipcode": "10452",
+      "firecomp": "L049",
+      "policeprct": "44",
+      "healtharea": "2220",
+      "sanitboro": "2",
+      "sanitsub": "3A",
+      "address": "1337 JEROME AVENUE",
+      "zonedist1": "R8A",
+      "overlay1": "C2-4",
+      "spdist1": "J",
+      "splitzone": false,
+      "bldgclass": "O1",
+      "landuse": "5",
+      "easements": "0",
+      "ownertype": "C",
+      "ownername": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "lotarea": "6516",
+      "bldgarea": "6250",
+      "comarea": "6250",
+      "resarea": "0",
+      "officearea": "6250",
+      "retailarea": "0",
+      "garagearea": "0",
+      "strgearea": "0",
+      "factryarea": "0",
+      "otherarea": "0",
+      "areasource": "2",
+      "numbldgs": "1",
+      "numfloors": "1.0000000",
+      "unitsres": "0",
+      "unitstotal": "1",
+      "lotfront": "50.4400000",
+      "lotdepth": "133.6500000",
+      "bldgfront": "50.0000000",
+      "bldgdepth": "125.0000000",
+      "ext": "N",
+      "proxcode": "0",
+      "irrlotcode": true,
+      "lottype": "5",
+      "bsmtcode": "0",
+      "assessland": "88200.00000",
+      "assesstot": "461250.00000",
+      "exempttot": "461250.00000",
+      "yearbuilt": "1920",
+      "yearalter1": "0",
+      "yearalter2": "0",
+      "builtfar": "0.96000000000",
+      "residfar": "6.02000000000",
+      "commfar": "0.00000000000",
+      "facilfar": "6.50000000000",
+      "affresfar": "7.20000000000",
+      "mnffar": "0.00000000000",
+      "borocode": "2",
+      "bbl": "2028560051.00000000",
+      "tract2010": "219",
+      "xcoord": "1006645",
+      "ycoord": "244937",
+      "latitude": "40.8389423",
+      "longitude": "-73.9190648",
+      "zonemap": "3b",
+      "sanborn": "210N076",
+      "taxmap": "21103",
+      "plutomapid": "1",
+      "version": "26v2",
+      "sanitdistrict": "4",
+      "healthcenterdistrict": "25",
+      "dcpedited": "t",
+      "bct2020": "2021900",
+      "bctcb2020": "20219001005",
+      "mih_opt1": true,
+      "mih_opt3": true,
+      "transitzone": "Outer Transit Zone"
+    }
+  ],
+  "acris": {
+    "legals_rows": 48,
+    "master_rows": 48,
+    "latest_document_date": "2023-02-10T00:00:00.000"
+  }
+}

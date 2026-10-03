@@ -1,0 +1,10 @@
+{
+  "id": "dcp_applicant",
+  "url": "https://www.nyc.gov/site/planning/applicants/applicant-portal.page",
+  "publisher": "NYC DCP",
+  "purpose": "Process",
+  "retrieved_at": "2026-10-03T15:46:41.533146+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

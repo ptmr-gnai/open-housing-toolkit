@@ -1,0 +1,18 @@
+{
+  "id": "ceqr_manual",
+  "url": "https://www.nyc.gov/site/oec/environmental-quality-review/technical-manual.page",
+  "publisher": "NYC Mayor's Office of Environmental Coordination",
+  "purpose": "Process",
+  "retrieved_at": "2026-10-03T15:46:41.534385+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/oec/environmental-quality-review/technical-manual.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 28755,
+  "sha256": "4a159b64e82b37c2ba64c6712bf300fc96312d8f77c351c98aa6382d32a51704",
+  "cache_path": "cache/ceqr_manual.body",
+  "parsed": "html",
+  "text_chars": 4159,
+  "link_count": 88
+}

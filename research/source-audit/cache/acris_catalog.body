@@ -1,0 +1,1058 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Real Property Master",
+            "id" : "bnx9-e6tj",
+            "resource_name" : null,
+            "parent_fxf" : [ "tr7r-dr6g" ],
+            "description" : "Document Details for Real Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-08T19:32:41.000Z",
+            "createdAt" : "2013-09-23T12:44:48.000Z",
+            "metadata_updated_at" : "2025-02-28T21:32:46.000Z",
+            "data_updated_at" : "2026-09-08T19:32:41.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1432,
+                "page_views_last_month" : 6148,
+                "page_views_total" : 244580,
+                "page_views_last_week_log" : 10.484822894262146,
+                "page_views_last_month_log" : 12.586136091480487,
+                "page_views_total_log" : 17.89995280851285
+              },
+            "columns_name" :
+              [
+                "REEL PAGE",
+                "MODIFIED DATE",
+                "DOC. TYPE",
+                "DOC. DATE",
+                "% TRANSFERRED",
+                "DOCUMENT ID",
+                "REEL NBR",
+                "DOC. AMOUNT",
+                "GOOD THROUGH DATE",
+                "REEL YEAR",
+                "RECORDED / FILED",
+                "RECORD TYPE",
+                "BOROUGH",
+                "CRFN"
+              ],
+            "columns_field_name" :
+              [
+                "reel_pg",
+                "modified_date",
+                "doc_type",
+                "document_date",
+                "percent_trans",
+                "document_id",
+                "reel_nbr",
+                "document_amt",
+                "good_through_date",
+                "reel_yr",
+                "recorded_datetime",
+                "record_type",
+                "recorded_borough",
+                "crfn"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Calendar date",
+                "Text",
+                "Calendar date",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Calendar date",
+                "Number",
+                "Calendar date",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Pre-ACRIS reel page",
+                "Date document was modified",
+                "Specific type of instrument ",
+                "Date of Document",
+                "Reported percentage of interest transferred.",
+                "Document Identifier",
+                "Pre-ACRIS reel number",
+                "Principal debt or obligation",
+                "Date of latest recording or correction included with this extract",
+                "Pre-ACRIS reel year",
+                "Legal date instrument was recorded",
+                "A for Master Record",
+                "Borough where document was recorded",
+                "City Register File Number"
+              ],
+            "columns_format" :
+              [
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "view" : "date", "align" : "left" },
+                {},
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "view" : "date", "align" : "left" },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {}
+              ],
+            "download_count" : 111205,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2015-09-14T15:45:50.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/bnx9-e6tj",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Master/bnx9-e6tj",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Real Property Parties",
+            "id" : "636b-3b5g",
+            "resource_name" : null,
+            "parent_fxf" : [ "n3e6-cvun" ],
+            "description" : "Party Names for Real Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-15T14:03:53.000Z",
+            "createdAt" : "2013-09-23T12:57:54.000Z",
+            "metadata_updated_at" : "2025-02-28T21:29:09.000Z",
+            "data_updated_at" : "2026-09-15T14:03:53.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 658,
+                "page_views_last_month" : 2563,
+                "page_views_total" : 87540,
+                "page_views_last_week_log" : 9.364134655008051,
+                "page_views_last_month_log" : 11.324180546618742,
+                "page_views_total_log" : 16.417671243841703
+              },
+            "columns_name" :
+              [
+                "RECORD TYPE",
+                "ADDRESS 2",
+                "NAME",
+                "COUNTRY",
+                "STATE",
+                "DOCUMENT ID",
+                "ZIP",
+                "ADDRESS 1",
+                "GOOD THROUGH DATE",
+                "CITY",
+                "PARTY TYPE"
+              ],
+            "columns_field_name" :
+              [
+                "record_type",
+                "address_2",
+                "name",
+                "country",
+                "state",
+                "document_id",
+                "zip",
+                "address_1",
+                "good_through_date",
+                "city",
+                "party_type"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "P for Parties Record",
+                "Street address of party",
+                "Name of party (last name, first name  MI)",
+                "Country location of party",
+                "State location of party",
+                "Document Identifier",
+                "Zip code of party",
+                "Name attention/address of party",
+                "Date of latest recording or correction included with this extract",
+                "City location of party",
+                "Party type code"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 49940,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-02-07T00:43:26.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/636b-3b5g",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Parties/636b-3b5g",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Personal Property References",
+            "id" : "6y3e-jcrc",
+            "resource_name" : null,
+            "parent_fxf" : [ "weh6-zng3" ],
+            "description" : "Document Remarks for Personal Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-08T19:32:08.000Z",
+            "createdAt" : "2013-09-23T13:13:30.000Z",
+            "metadata_updated_at" : "2025-02-28T21:29:43.000Z",
+            "data_updated_at" : "2026-09-08T19:32:08.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 29,
+                "page_views_last_month" : 138,
+                "page_views_total" : 28060,
+                "page_views_last_week_log" : 4.906890595608519,
+                "page_views_last_month_log" : 7.118941072723508,
+                "page_views_total_log" : 14.776278802239771
+              },
+            "columns_name" :
+              [
+                "RECORD TYPE",
+                "DOCUMENT ID",
+                "REFERENCE BY FILE NBR",
+                "GOOD THROUGH DATE",
+                "REFERENCE BY DOC ID",
+                "REFERENCE BY CRFN "
+              ],
+            "columns_field_name" :
+              [
+                "record_type",
+                "document_id",
+                "file_nbr",
+                "good_through_date",
+                "doc_id_ref",
+                "crfn"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Calendar date", "Text", "Text" ],
+            "columns_description" :
+              [
+                "X for Cross Reference Record",
+                "Document Indentifier",
+                "File number of reference",
+                "Date of latest recording or correction included with this extract",
+                "Doc ID of reference",
+                "City Register File Number"
+              ],
+            "columns_format" :
+              [ {}, {}, {}, { "view" : "date", "align" : "left" }, {}, {} ],
+            "download_count" : 4115,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2015-08-20T15:06:51.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/6y3e-jcrc",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Personal-Property-References/6y3e-jcrc",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Personal Property Master",
+            "id" : "sv7x-dduq",
+            "resource_name" : null,
+            "parent_fxf" : [ "yez5-2zyz" ],
+            "description" : "Document Details for Personal Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-08T19:32:50.000Z",
+            "createdAt" : "2013-09-23T13:03:37.000Z",
+            "metadata_updated_at" : "2025-02-28T21:43:08.000Z",
+            "data_updated_at" : "2026-09-08T19:32:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 102,
+                "page_views_last_month" : 644,
+                "page_views_total" : 26401,
+                "page_views_last_week_log" : 6.6865005271832185,
+                "page_views_last_month_log" : 9.333155350310617,
+                "page_views_total_log" : 14.688359600072276
+              },
+            "columns_name" :
+              [
+                "SLID#",
+                "RPTT #",
+                "GOOD THROUGH DATE",
+                "REEL YEAR",
+                "MODIFIED DATE",
+                "RECORDED / FILED",
+                "DOC. AMOUNT",
+                "DOCUMENT ID",
+                "ASSESSMENT DATE",
+                "REEL NBR",
+                "CRFN",
+                "REEL PAGE",
+                "FILE NUMBER",
+                "COLLATERAL",
+                "DOC. TYPE",
+                "BOROUGH",
+                "RECORD TYPE"
+              ],
+            "columns_field_name" :
+              [
+                "fedtax_serial_nbr",
+                "rpttl_nbr",
+                "good_through_date",
+                "reel_yr",
+                "modified_date",
+                "recorded_datetime",
+                "document_amt",
+                "document_id",
+                "fedtax_assessment_date",
+                "reel_nbr",
+                "crfn",
+                "reel_pg",
+                "file_nbr",
+                "ucc_collateral",
+                "doc_type",
+                "recorded_borough",
+                "record_type"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Number",
+                "Calendar date",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Number",
+                "Text",
+                "Calendar date",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Federal Tax Lien Serial Number",
+                "Real Property Transfer Tax Return Number",
+                "Date of latest recording or correction included with this extract",
+                "Pre-ACRIS reel year",
+                "Date Document was Modified",
+                "Legal date instrument was recorded",
+                "Principal debt or obligation",
+                "Document Identifier",
+                "Federal tax Lien Assessment Date",
+                "Pre-ACRIS reel number",
+                "City Register File Number",
+                "Pre-ACRIS reel page",
+                "Pre-ACRIS file number",
+                "UCC Collateral code ",
+                "Specific type of instrument ",
+                "Borough where document was recorded",
+                "A for Master Record"
+              ],
+            "columns_format" :
+              [
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "view" : "date", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                { "view" : "date", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {}
+              ],
+            "download_count" : 6493,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2015-10-16T15:50:31.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "09/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/sv7x-dduq",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Personal-Property-Master/sv7x-dduq",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Real Property Legals",
+            "id" : "8h5j-fqxa",
+            "resource_name" : null,
+            "parent_fxf" : [ "a366-musu" ],
+            "description" : "Property Details for Real Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-08T19:31:09.000Z",
+            "createdAt" : "2013-09-23T12:55:27.000Z",
+            "metadata_updated_at" : "2025-02-28T21:30:44.000Z",
+            "data_updated_at" : "2026-09-08T19:31:09.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 575,
+                "page_views_last_month" : 2667,
+                "page_views_total" : 78456,
+                "page_views_last_week_log" : 9.169925001442314,
+                "page_views_last_month_log" : 11.381542951184585,
+                "page_views_total_log" : 16.259614550958986
+              },
+            "columns_name" :
+              [
+                "LOT",
+                "RECORD TYPE",
+                "PROPERTY TYPE",
+                "GOOD THROUGH DATE",
+                "STREET NUMBER",
+                "STREET NAME",
+                "DOCUMENT ID",
+                "EASEMENT",
+                "BOROUGH",
+                "PARTIAL LOT",
+                "AIR RIGHTS",
+                "UNIT",
+                "SUBTERRANEAN RIGHTS",
+                "BLOCK"
+              ],
+            "columns_field_name" :
+              [
+                "lot",
+                "record_type",
+                "property_type",
+                "good_through_date",
+                "street_number",
+                "street_name",
+                "document_id",
+                "easement",
+                "borough",
+                "partial_lot",
+                "air_rights",
+                "unit",
+                "subterranean_rights",
+                "block"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "Lot number of instrument",
+                "L for Legals Record",
+                "Code defined in property table",
+                "Date of latest recording or correction included with this extract",
+                "Street Number for BBL",
+                "Street Name for BBL",
+                "Document Identifier",
+                "‘Y’ or ‘N’ field",
+                "Borough Code:\n1 = Manhattan\n2 = Bronx\n3 = Brooklyn\n4 = Queens",
+                "P=partial E=entire",
+                "‘Y’ or ‘N’ field",
+                "Unit Number for BBL",
+                "‘Y’ or ‘N’ field",
+                "Block number of instrument"
+              ],
+            "columns_format" :
+              [
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {},
+                { "view" : "date", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                }
+              ],
+            "download_count" : 36720,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2015-08-24T14:03:42.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "acris land records", "dof" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/8h5j-fqxa",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Legals/8h5j-fqxa",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Country Codes",
+            "id" : "j2iz-mwzu",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "ACRIS Countries mapping for Codes in the ACRIS Real and Personal Parties Property Datasets",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-08T19:20:05.000Z",
+            "createdAt" : "2013-09-16T18:17:14.000Z",
+            "metadata_updated_at" : "2026-09-08T19:20:05.000Z",
+            "data_updated_at" : "2023-12-08T20:34:17.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 26,
+                "page_views_last_month" : 119,
+                "page_views_total" : 17478,
+                "page_views_last_week_log" : 4.754887502163469,
+                "page_views_last_month_log" : 6.906890595608519,
+                "page_views_total_log" : 14.093335027985816
+              },
+            "columns_name" : [ "COUNTRY CODE", "DESCRIPTION", "RECORD TYPE" ],
+            "columns_field_name" :
+              [ "country_code", "description", "record_type" ],
+            "columns_datatype" : [ "Text", "Text", "Text" ],
+            "columns_description" :
+              [
+                "Country code ",
+                "Country name",
+                "‘T’ for Collateral type record"
+              ],
+            "columns_format" : [ {}, {}, {} ],
+            "download_count" : 26941,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-12-08T20:34:19.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                },
+                {
+                  "key" : "Legislative-Compliance_Geo-coding-Attached?",
+                  "value" : ""
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/j2iz-mwzu",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Country-Codes/j2iz-mwzu",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Real Property References",
+            "id" : "pwkr-dpni",
+            "resource_name" : null,
+            "parent_fxf" : [ "tcvz-yet6" ],
+            "description" : "Document Cross References for Real Property Related Documents Recorded in ACRIS",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2026-09-08T19:31:55.000Z",
+            "createdAt" : "2017-01-31T20:25:55.000Z",
+            "metadata_updated_at" : "2025-02-28T21:40:53.000Z",
+            "data_updated_at" : "2026-09-08T19:31:55.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 130,
+                "page_views_last_month" : 592,
+                "page_views_total" : 22330,
+                "page_views_last_week_log" : 7.03342300153745,
+                "page_views_last_month_log" : 9.211888294546004,
+                "page_views_total_log" : 14.446760237191604
+              },
+            "columns_name" :
+              [
+                "GOOD THROUGH DATE",
+                "REFERENCE BY REEL NBR",
+                "REFERENCE BY REEL YEAR",
+                "RECORD TYPE",
+                "Not_Used_2",
+                "REFERENCE BY CRFN ",
+                "REFERENCE BY DOC ID",
+                "REFERENCE BY REEL BOROUGH",
+                "REFERENCE BY REEL PAGE",
+                "DOCUMENT ID",
+                "Not_Used_1"
+              ],
+            "columns_field_name" :
+              [
+                "good_through_date",
+                "reference_by_reel_nbr",
+                "reference_by_reel_year",
+                "record_type",
+                "not_used_2",
+                "reference_by_crfn_",
+                "reference_by_doc_id",
+                "reference_by_reel_borough",
+                "reference_by_reel_page",
+                "document_id",
+                "not_used_1"
+              ],
+            "columns_datatype" :
+              [
+                "Calendar date",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Date of latest recording or correction included with this extract",
+                "Reel of reel/page  reference",
+                "Year of reel/page reference",
+                "X for Cross Reference Record",
+                "Space Filler",
+                "CRFN of reference",
+                "Doc ID of reference",
+                "Borough of reel/page reference",
+                "Page of reel/page reference",
+                "Document Identifier",
+                "Space Filler"
+              ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, { "align" : "left" }, {}, {}, {}, {} ],
+            "download_count" : 9927,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-01-31T20:23:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dof", "acris land records" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/pwkr-dpni",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-References/pwkr-dpni",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "ACRIS - Property Types Codes",
+            "id" : "94g4-w6xz",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "ACRIS State mapping for Codes in the ACRIS Real and Personal Property Legals Datasets",
+            "attribution" : "Department of Finance (DOF)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-08T19:20:02.000Z",
+            "createdAt" : "2013-09-16T18:19:28.000Z",
+            "metadata_updated_at" : "2026-09-08T19:20:02.000Z",
+            "data_updated_at" : "2026-08-08T19:20:09.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 61,
+                "page_views_last_month" : 335,
+                "page_views_total" : 23749,
+                "page_views_last_week_log" : 5.954196310386876,
+                "page_views_last_month_log" : 8.39231742277876,
+                "page_views_total_log" : 14.535639892993036
+              },
+            "columns_name" : [ "RECORD TYPE", "PROPERTY TYPE", "DESCRIPTION" ],
+            "columns_field_name" :
+              [ "record_type", "property_type", "description" ],
+            "columns_datatype" : [ "Text", "Text", "Text" ],
+            "columns_description" :
+              [
+                "‘G’ for Property type record",
+                "Property_type code ",
+                "Property type description "
+              ],
+            "columns_format" : [ {}, {}, {} ],
+            "download_count" : 11586,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-01-08T20:31:28.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "acris land records", "dof" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Finance (DOF)"
+                },
+                {
+                  "key" : "Legislative-Compliance_Geo-coding-Attached?",
+                  "value" : ""
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/94g4-w6xz",
+        "link" : "https://data.cityofnewyork.us/City-Government/ACRIS-Property-Types-Codes/94g4-w6xz",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      }
+    ],
+  "resultSetSize" : 19,
+  "timings" : { "serviceMillis" : 29, "searchMillis" : [ 16, 5 ] },
+  "warnings" : []
+}

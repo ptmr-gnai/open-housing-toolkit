@@ -1,0 +1,1371 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.9 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Data Dictionary - NYU Furman Center</title>
+	<link rel="canonical" href="https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Data Dictionary - NYU Furman Center" />
+	<meta property="og:url" content="https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/" />
+	<meta property="og:site_name" content="NYU Furman Center" />
+	<meta property="article:modified_time" content="2026-01-29T20:19:05+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/","url":"https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/","name":"Data Dictionary - NYU Furman Center","isPartOf":{"@id":"https://www.furmancenter.org/#website"},"datePublished":"2025-11-27T14:21:15+00:00","dateModified":"2026-01-29T20:19:05+00:00","breadcrumb":{"@id":"https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/"]}]},{"@type":"WebSite","@id":"https://www.furmancenter.org/#website","url":"https://www.furmancenter.org/","name":"NYU Furman Center","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.furmancenter.org/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.furmancenter.org' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.furmancenter.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.furmancenter.org%2Fdata-tools-resources%2Fdata-tools-core-data-dictionary%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.furmancenter.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.furmancenter.org%2Fdata-tools-resources%2Fdata-tools-core-data-dictionary%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="furman-blocks-filtered-list-style-inline-css">
+.air-datepicker-cell.-year-.-other-decade-,.air-datepicker-cell.-day-.-other-month-{color:var(--adp-color-other-month)}.air-datepicker-cell.-year-.-other-decade-:hover,.air-datepicker-cell.-day-.-other-month-:hover{color:var(--adp-color-other-month-hover)}.-disabled-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-disabled-.-focus-.air-datepicker-cell.-day-.-other-month-{color:var(--adp-color-other-month)}.-selected-.air-datepicker-cell.-year-.-other-decade-,.-selected-.air-datepicker-cell.-day-.-other-month-{color:#fff;background:var(--adp-background-color-selected-other-month)}.-selected-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-selected-.-focus-.air-datepicker-cell.-day-.-other-month-{background:var(--adp-background-color-selected-other-month-focused)}.-in-range-.air-datepicker-cell.-year-.-other-decade-,.-in-range-.air-datepicker-cell.-day-.-other-month-{background-color:var(--adp-background-color-in-range);color:var(--adp-color)}.-in-range-.-focus-.air-datepicker-cell.-year-.-other-decade-,.-in-range-.-focus-.air-datepicker-cell.-day-.-other-month-{background-color:var(--adp-background-color-in-range-focused)}.air-datepicker-cell.-year-.-other-decade-:empty,.air-datepicker-cell.-day-.-other-month-:empty{background:none;border:none}.air-datepicker-cell{border-radius:var(--adp-cell-border-radius);box-sizing:border-box;cursor:pointer;display:flex;position:relative;align-items:center;justify-content:center;z-index:1}.air-datepicker-cell.-focus-{background:var(--adp-cell-background-color-hover)}.air-datepicker-cell.-current-{color:var(--adp-color-current-date)}.air-datepicker-cell.-current-.-focus-{color:var(--adp-color)}.air-datepicker-cell.-current-.-in-range-{color:var(--adp-color-current-date)}.air-datepicker-cell.-disabled-{cursor:default;color:var(--adp-color-disabled)}.air-datepicker-cell.-disabled-.-focus-{color:var(--adp-color-disabled)}.air-datepicker-cell.-disabled-.-in-range-{color:var(--adp-color-disabled-in-range)}.air-datepicker-cell.-disabled-.-current-.-focus-{color:var(--adp-color-disabled)}.air-datepicker-cell.-in-range-{background:var(--adp-cell-background-color-in-range);border-radius:0}.air-datepicker-cell.-in-range-:hover,.air-datepicker-cell.-in-range-.-focus-{background:var(--adp-cell-background-color-in-range-hover)}.air-datepicker-cell.-range-from-{border:1px solid var(--adp-cell-border-color-in-range);background-color:var(--adp-cell-background-color-in-range);border-radius:var(--adp-cell-border-radius) 0 0 var(--adp-cell-border-radius)}.air-datepicker-cell.-range-to-{border:1px solid var(--adp-cell-border-color-in-range);background-color:var(--adp-cell-background-color-in-range);border-radius:0 var(--adp-cell-border-radius) var(--adp-cell-border-radius) 0}.air-datepicker-cell.-range-to-.-range-from-{border-radius:var(--adp-cell-border-radius)}.air-datepicker-cell.-selected-{color:#fff;border:none;background:var(--adp-cell-background-color-selected)}.air-datepicker-cell.-selected-.-current-{color:#fff;background:var(--adp-cell-background-color-selected)}.air-datepicker-cell.-selected-.-focus-{background:var(--adp-cell-background-color-selected-hover)}.air-datepicker-body{transition:all var(--adp-transition-duration) var(--adp-transition-ease)}.air-datepicker-body.-hidden-{display:none}.air-datepicker-body--day-names{display:grid;grid-template-columns:repeat(7, var(--adp-day-cell-width));margin:8px 0 3px}.air-datepicker-body--day-name{color:var(--adp-day-name-color);display:flex;align-items:center;justify-content:center;flex:1;text-align:center;text-transform:uppercase;font-size:.8em}.air-datepicker-body--day-name.-clickable-{cursor:pointer}.air-datepicker-body--day-name.-clickable-:hover{color:var(--adp-day-name-color-hover)}.air-datepicker-body--cells{display:grid}.air-datepicker-body--cells.-days-{grid-template-columns:repeat(7, var(--adp-day-cell-width));grid-auto-rows:var(--adp-day-cell-height)}.air-datepicker-body--cells.-months-{grid-template-columns:repeat(3, 1fr);grid-auto-rows:var(--adp-month-cell-height)}.air-datepicker-body--cells.-years-{grid-template-columns:repeat(4, 1fr);grid-auto-rows:var(--adp-year-cell-height)}.air-datepicker-nav{display:flex;justify-content:space-between;border-bottom:1px solid var(--adp-border-color-inner);min-height:var(--adp-nav-height);padding:var(--adp-padding);box-sizing:content-box}.-only-timepicker- .air-datepicker-nav{display:none}.air-datepicker-nav--title,.air-datepicker-nav--action{display:flex;cursor:pointer;align-items:center;justify-content:center}.air-datepicker-nav--action{width:var(--adp-nav-action-size);border-radius:var(--adp-border-radius);-webkit-user-select:none;-moz-user-select:none;user-select:none}.air-datepicker-nav--action:hover{background:var(--adp-background-color-hover)}.air-datepicker-nav--action:active{background:var(--adp-background-color-active)}.air-datepicker-nav--action.-disabled-{visibility:hidden}.air-datepicker-nav--action svg{width:32px;height:32px}.air-datepicker-nav--action path{fill:none;stroke:var(--adp-nav-arrow-color);stroke-width:2px}.air-datepicker-nav--title{border-radius:var(--adp-border-radius);padding:0 8px}.air-datepicker-nav--title i{font-style:normal;color:var(--adp-nav-color-secondary);margin-left:.3em}.air-datepicker-nav--title:hover{background:var(--adp-background-color-hover)}.air-datepicker-nav--title:active{background:var(--adp-background-color-active)}.air-datepicker-nav--title.-disabled-{cursor:default;background:none}.air-datepicker-buttons{display:grid;grid-auto-columns:1fr;grid-auto-flow:column}.air-datepicker-button{display:inline-flex;color:var(--adp-btn-color);border-radius:var(--adp-btn-border-radius);cursor:pointer;height:var(--adp-btn-height);border:none;background:rgba(255, 255, 255, 0)}.air-datepicker-button:hover{color:var(--adp-btn-color-hover);background:var(--adp-btn-background-color-hover)}.air-datepicker-button:focus{color:var(--adp-btn-color-hover);background:var(--adp-btn-background-color-hover);outline:none}.air-datepicker-button:active{background:var(--adp-btn-background-color-active)}.air-datepicker-button span{outline:none;display:flex;align-items:center;justify-content:center;width:100%;height:100%}.air-datepicker-time{display:grid;grid-template-columns:max-content 1fr;grid-column-gap:12px;align-items:center;position:relative;padding:0 var(--adp-time-padding-inner)}.-only-timepicker- .air-datepicker-time{border-top:none}.air-datepicker-time--current{display:flex;align-items:center;flex:1;font-size:14px;text-align:center}.air-datepicker-time--current-colon{margin:0 2px 3px;line-height:1}.air-datepicker-time--current-hours,.air-datepicker-time--current-minutes{line-height:1;font-size:19px;font-family:"Century Gothic",CenturyGothic,AppleGothic,sans-serif;position:relative;z-index:1}.air-datepicker-time--current-hours:after,.air-datepicker-time--current-minutes:after{content:"";background:var(--adp-background-color-hover);border-radius:var(--adp-border-radius);position:absolute;left:-2px;top:-3px;right:-2px;bottom:-2px;z-index:-1;opacity:0}.air-datepicker-time--current-hours.-focus-:after,.air-datepicker-time--current-minutes.-focus-:after{opacity:1}.air-datepicker-time--current-ampm{text-transform:uppercase;align-self:flex-end;color:var(--adp-time-day-period-color);margin-left:6px;font-size:11px;margin-bottom:1px}.air-datepicker-time--row{display:flex;align-items:center;font-size:11px;height:17px;background:linear-gradient(to right, var(--adp-time-track-color), var(--adp-time-track-color)) left 50%/100% var(--adp-time-track-height) no-repeat}.air-datepicker-time--row:first-child{margin-bottom:4px}.air-datepicker-time--row input[type=range]{background:none;cursor:pointer;flex:1;height:100%;width:100%;padding:0;margin:0;-webkit-appearance:none}.air-datepicker-time--row input[type=range]::-webkit-slider-thumb{-webkit-appearance:none}.air-datepicker-time--row input[type=range]::-ms-tooltip{display:none}.air-datepicker-time--row input[type=range]:hover::-webkit-slider-thumb{border-color:var(--adp-time-track-color-hover)}.air-datepicker-time--row input[type=range]:hover::-moz-range-thumb{border-color:var(--adp-time-track-color-hover)}.air-datepicker-time--row input[type=range]:hover::-ms-thumb{border-color:var(--adp-time-track-color-hover)}.air-datepicker-time--row input[type=range]:focus{outline:none}.air-datepicker-time--row input[type=range]:focus::-webkit-slider-thumb{background:var(--adp-cell-background-color-selected);border-color:var(--adp-cell-background-color-selected)}.air-datepicker-time--row input[type=range]:focus::-moz-range-thumb{background:var(--adp-cell-background-color-selected);border-color:var(--adp-cell-background-color-selected)}.air-datepicker-time--row input[type=range]:focus::-ms-thumb{background:var(--adp-cell-background-color-selected);border-color:var(--adp-cell-background-color-selected)}.air-datepicker-time--row input[type=range]::-webkit-slider-thumb{box-sizing:border-box;height:12px;width:12px;border-radius:3px;border:1px solid var(--adp-time-track-color);background:#fff;cursor:pointer;-webkit-transition:background var(--adp-transition-duration);transition:background var(--adp-transition-duration)}.air-datepicker-time--row input[type=range]::-moz-range-thumb{box-sizing:border-box;height:12px;width:12px;border-radius:3px;border:1px solid var(--adp-time-track-color);background:#fff;cursor:pointer;-moz-transition:background var(--adp-transition-duration);transition:background var(--adp-transition-duration)}.air-datepicker-time--row input[type=range]::-ms-thumb{box-sizing:border-box;height:12px;width:12px;border-radius:3px;border:1px solid var(--adp-time-track-color);background:#fff;cursor:pointer;-ms-transition:background var(--adp-transition-duration);transition:background var(--adp-transition-duration)}.air-datepicker-time--row input[type=range]::-webkit-slider-thumb{margin-top:calc(var(--adp-time-thumb-size)/2*-1)}.air-datepicker-time--row input[type=range]::-webkit-slider-runnable-track{border:none;height:var(--adp-time-track-height);cursor:pointer;color:rgba(0, 0, 0, 0);background:rgba(0, 0, 0, 0)}.air-datepicker-time--row input[type=range]::-moz-range-track{border:none;height:var(--adp-time-track-height);cursor:pointer;color:rgba(0, 0, 0, 0);background:rgba(0, 0, 0, 0)}.air-datepicker-time--row input[type=range]::-ms-track{border:none;height:var(--adp-time-track-height);cursor:pointer;color:rgba(0, 0, 0, 0);background:rgba(0, 0, 0, 0)}.air-datepicker-time--row input[type=range]::-ms-fill-lower{background:rgba(0, 0, 0, 0)}.air-datepicker-time--row input[type=range]::-ms-fill-upper{background:rgba(0, 0, 0, 0)}.air-datepicker{--adp-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--adp-font-size: 14px;--adp-width: 246px;--adp-z-index: 100;--adp-padding: 4px;--adp-grid-areas: "nav" "body" "timepicker" "buttons";--adp-transition-duration: .3s;--adp-transition-ease: ease-out;--adp-transition-offset: 8px;--adp-background-color: #fff;--adp-background-color-hover: #f0f0f0;--adp-background-color-active: #eaeaea;--adp-background-color-in-range: rgba(92, 196, 239, .1);--adp-background-color-in-range-focused: rgba(92, 196, 239, .2);--adp-background-color-selected-other-month-focused: #8ad5f4;--adp-background-color-selected-other-month: #a2ddf6;--adp-color: #4a4a4a;--adp-color-secondary: #9c9c9c;--adp-accent-color: #4eb5e6;--adp-color-current-date: var(--adp-accent-color);--adp-color-other-month: #dedede;--adp-color-disabled: #aeaeae;--adp-color-disabled-in-range: #939393;--adp-color-other-month-hover: #c5c5c5;--adp-border-color: #dbdbdb;--adp-border-color-inner: #efefef;--adp-border-radius: 4px;--adp-border-color-inline: #d7d7d7;--adp-nav-height: 32px;--adp-nav-arrow-color: var(--adp-color-secondary);--adp-nav-action-size: 32px;--adp-nav-color-secondary: var(--adp-color-secondary);--adp-day-name-color: #ff9a19;--adp-day-name-color-hover: #8ad5f4;--adp-day-cell-width: 1fr;--adp-day-cell-height: 32px;--adp-month-cell-height: 42px;--adp-year-cell-height: 56px;--adp-pointer-size: 10px;--adp-poiner-border-radius: 2px;--adp-pointer-offset: 14px;--adp-cell-border-radius: 4px;--adp-cell-background-color-hover: var(--adp-background-color-hover);--adp-cell-background-color-selected: #5cc4ef;--adp-cell-background-color-selected-hover: #45bced;--adp-cell-background-color-in-range: rgba(92, 196, 239, 0.1);--adp-cell-background-color-in-range-hover: rgba(92, 196, 239, 0.2);--adp-cell-border-color-in-range: var(--adp-cell-background-color-selected);--adp-btn-height: 32px;--adp-btn-color: var(--adp-accent-color);--adp-btn-color-hover: var(--adp-color);--adp-btn-border-radius: var(--adp-border-radius);--adp-btn-background-color-hover: var(--adp-background-color-hover);--adp-btn-background-color-active: var(--adp-background-color-active);--adp-time-track-height: 1px;--adp-time-track-color: #dedede;--adp-time-track-color-hover: #b1b1b1;--adp-time-thumb-size: 12px;--adp-time-padding-inner: 10px;--adp-time-day-period-color: var(--adp-color-secondary);--adp-mobile-font-size: 16px;--adp-mobile-nav-height: 40px;--adp-mobile-width: 320px;--adp-mobile-day-cell-height: 38px;--adp-mobile-month-cell-height: 48px;--adp-mobile-year-cell-height: 64px}.air-datepicker-overlay{--adp-overlay-background-color: rgba(0, 0, 0, .3);--adp-overlay-transition-duration: .3s;--adp-overlay-transition-ease: ease-out;--adp-overlay-z-index: 99}.air-datepicker{background:var(--adp-background-color);border:1px solid var(--adp-border-color);box-shadow:0 4px 12px rgba(0, 0, 0, 0.15);border-radius:var(--adp-border-radius);box-sizing:content-box;display:grid;grid-template-columns:1fr;grid-template-rows:repeat(4, max-content);grid-template-areas:var(--adp-grid-areas);font-family:var(--adp-font-family),sans-serif;font-size:var(--adp-font-size);color:var(--adp-color);width:var(--adp-width);position:absolute;transition:opacity var(--adp-transition-duration) var(--adp-transition-ease),transform var(--adp-transition-duration) var(--adp-transition-ease);z-index:var(--adp-z-index)}.air-datepicker:not(.-custom-position-){opacity:0}.air-datepicker.-from-top-{transform:translateY(calc(var(--adp-transition-offset) * -1))}.air-datepicker.-from-right-{transform:translateX(var(--adp-transition-offset))}.air-datepicker.-from-bottom-{transform:translateY(var(--adp-transition-offset))}.air-datepicker.-from-left-{transform:translateX(calc(var(--adp-transition-offset) * -1))}.air-datepicker.-active-:not(.-custom-position-){transform:translate(0, 0);opacity:1}.air-datepicker.-active-.-custom-position-{transition:none}.air-datepicker.-inline-{border-color:var(--adp-border-color-inline);box-shadow:none;position:static;left:auto;right:auto;opacity:1;transform:none}.air-datepicker.-inline- .air-datepicker--pointer{display:none}.air-datepicker.-is-mobile-{--adp-font-size: var(--adp-mobile-font-size);--adp-day-cell-height: var(--adp-mobile-day-cell-height);--adp-month-cell-height: var(--adp-mobile-month-cell-height);--adp-year-cell-height: var(--adp-mobile-year-cell-height);--adp-nav-height: var(--adp-mobile-nav-height);--adp-nav-action-size: var(--adp-mobile-nav-height);position:fixed;width:var(--adp-mobile-width);border:none}.air-datepicker.-is-mobile- *{-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}.air-datepicker.-is-mobile- .air-datepicker--pointer{display:none}.air-datepicker.-is-mobile-:not(.-custom-position-){transform:translate(-50%, calc(-50% + var(--adp-transition-offset)))}.air-datepicker.-is-mobile-.-active-:not(.-custom-position-){transform:translate(-50%, -50%)}.air-datepicker.-custom-position-{transition:none}.air-datepicker-global-container{position:absolute;left:0;top:0}.air-datepicker--pointer{--pointer-half-size: calc(var(--adp-pointer-size) / 2);position:absolute;width:var(--adp-pointer-size);height:var(--adp-pointer-size);z-index:-1}.air-datepicker--pointer:after{content:"";position:absolute;background:#fff;border-top:1px solid var(--adp-border-color-inline);border-right:1px solid var(--adp-border-color-inline);border-top-right-radius:var(--adp-poiner-border-radius);width:var(--adp-pointer-size);height:var(--adp-pointer-size);box-sizing:border-box}.-top-left- .air-datepicker--pointer,.-top-center- .air-datepicker--pointer,.-top-right- .air-datepicker--pointer,[data-popper-placement^=top] .air-datepicker--pointer{top:calc(100% - var(--pointer-half-size) + 1px)}.-top-left- .air-datepicker--pointer:after,.-top-center- .air-datepicker--pointer:after,.-top-right- .air-datepicker--pointer:after,[data-popper-placement^=top] .air-datepicker--pointer:after{transform:rotate(135deg)}.-right-top- .air-datepicker--pointer,.-right-center- .air-datepicker--pointer,.-right-bottom- .air-datepicker--pointer,[data-popper-placement^=right] .air-datepicker--pointer{right:calc(100% - var(--pointer-half-size) + 1px)}.-right-top- .air-datepicker--pointer:after,.-right-center- .air-datepicker--pointer:after,.-right-bottom- .air-datepicker--pointer:after,[data-popper-placement^=right] .air-datepicker--pointer:after{transform:rotate(225deg)}.-bottom-left- .air-datepicker--pointer,.-bottom-center- .air-datepicker--pointer,.-bottom-right- .air-datepicker--pointer,[data-popper-placement^=bottom] .air-datepicker--pointer{bottom:calc(100% - var(--pointer-half-size) + 1px)}.-bottom-left- .air-datepicker--pointer:after,.-bottom-center- .air-datepicker--pointer:after,.-bottom-right- .air-datepicker--pointer:after,[data-popper-placement^=bottom] .air-datepicker--pointer:after{transform:rotate(315deg)}.-left-top- .air-datepicker--pointer,.-left-center- .air-datepicker--pointer,.-left-bottom- .air-datepicker--pointer,[data-popper-placement^=left] .air-datepicker--pointer{left:calc(100% - var(--pointer-half-size) + 1px)}.-left-top- .air-datepicker--pointer:after,.-left-center- .air-datepicker--pointer:after,.-left-bottom- .air-datepicker--pointer:after,[data-popper-placement^=left] .air-datepicker--pointer:after{transform:rotate(45deg)}.-top-left- .air-datepicker--pointer,.-bottom-left- .air-datepicker--pointer{left:var(--adp-pointer-offset)}.-top-right- .air-datepicker--pointer,.-bottom-right- .air-datepicker--pointer{right:var(--adp-pointer-offset)}.-top-center- .air-datepicker--pointer,.-bottom-center- .air-datepicker--pointer{left:calc(50% - var(--adp-pointer-size)/2)}.-left-top- .air-datepicker--pointer,.-right-top- .air-datepicker--pointer{top:var(--adp-pointer-offset)}.-left-bottom- .air-datepicker--pointer,.-right-bottom- .air-datepicker--pointer{bottom:var(--adp-pointer-offset)}.-left-center- .air-datepicker--pointer,.-right-center- .air-datepicker--pointer{top:calc(50% - var(--adp-pointer-size)/2)}.air-datepicker--navigation{grid-area:nav}.air-datepicker--content{box-sizing:content-box;padding:var(--adp-padding);grid-area:body}.-only-timepicker- .air-datepicker--content{display:none}.air-datepicker--time{grid-area:timepicker}.air-datepicker--buttons{grid-area:buttons}.air-datepicker--buttons,.air-datepicker--time{padding:var(--adp-padding);border-top:1px solid var(--adp-border-color-inner)}.air-datepicker-overlay{position:fixed;background:var(--adp-overlay-background-color);left:0;top:0;width:0;height:0;opacity:0;transition:opacity var(--adp-overlay-transition-duration) var(--adp-overlay-transition-ease),left 0s,height 0s,width 0s;transition-delay:0s,var(--adp-overlay-transition-duration),var(--adp-overlay-transition-duration),var(--adp-overlay-transition-duration);z-index:var(--adp-overlay-z-index)}.air-datepicker-overlay.-active-{opacity:1;width:100%;height:100%;transition:opacity var(--adp-overlay-transition-duration) var(--adp-overlay-transition-ease),height 0s,width 0s}
+
+/*# sourceURL=https://www.furmancenter.org/wp-content/mu-plugins/furman-blocks/build/filtered-list/style-index.css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+
+<link rel='stylesheet' id='block-columns-style-css' href='https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/style-DZ88vjDE.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='block-footer-style-css' href='https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/style-B7JGDQia.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='block-header-style-css' href='https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/style-ZLBWD5er.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='block-hero-banner-style-css' href='https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/style-BUTs3g7w.css?ver=7.1.2' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #1A0704;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFFDFB;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--parchment: #FFFCF1;--wp--preset--color--peach: #FDE6CF;--wp--preset--color--purple: #55153E;--wp--preset--color--purple-light: #8B4B74;--wp--preset--color--orange: #FF4A26;--wp--preset--color--teal: #005974;--wp--preset--color--gray: #8C8381;--wp--preset--color--gray-light: #D7D5CD;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--heading-1: clamp(2.25rem, 1.077rem + 2.564vw, 4rem);--wp--preset--font-size--heading-2: clamp(2rem, 0.963rem + 2.885vw, 3.625rem);--wp--preset--font-size--heading-3: clamp(1.5rem, 0.577rem + 2.564vw, 2.5rem);--wp--preset--font-size--heading-4: clamp(1.25rem, 0.558rem + 1.923vw, 2rem);--wp--preset--font-size--heading-5: clamp(1rem, 0.538rem + 1.282vw, 1.5rem);--wp--preset--font-size--heading-6: clamp(1rem, 0.769rem + 0.641vw, 1.25rem);--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--work-sans: Work Sans, sans-serif;--wp--preset--spacing--20: clamp(0.625rem, 0.188rem + 1.214vw, 1.25rem);--wp--preset--spacing--30: clamp(0.938rem, 0.282rem + 1.82vw, 1.875rem);--wp--preset--spacing--40: clamp(1.25rem, 0.376rem + 2.427vw, 2.5rem);--wp--preset--spacing--50: clamp(1.563rem, 0.47rem + 3.034vw, 3.125rem);--wp--preset--spacing--60: clamp(1.875rem, 0.564rem + 3.641vw, 3.75rem);--wp--preset--spacing--70: clamp(2.188rem, 0.658rem + 4.248vw, 4.375rem);--wp--preset--spacing--80: clamp(2.5rem, 0.752rem + 4.854vw, 5rem);--wp--preset--spacing--10: clamp(0.313rem, 0.094rem + 0.607vw, 0.625rem);--wp--preset--spacing--90: clamp(2.813rem, 0.846rem + 5.461vw, 5.625rem);--wp--preset--spacing--100: clamp(3.125rem, 0.941rem + 6.068vw, 6.25rem);--wp--preset--spacing--110: clamp(3.438rem, 1.035rem + 6.675vw, 6.875rem);--wp--preset--spacing--120: clamp(3.75rem, 1.129rem + 7.282vw, 7.5rem);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);--wp--preset--shadow--shadow-1: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--custom--spacing--space-1: 3px;--wp--custom--spacing--space-2: 5px;--wp--custom--spacing--space-3: 60px;--wp--custom--spacing--space-4: 140px;--wp--custom--spacing--space-5: 437px;--wp--custom--spacing--space-6: 620px;--wp--custom--spacing--space-7: 620px;--wp--custom--letter-spacing--tracking-1: -0.03571428571428571em;--wp--custom--letter-spacing--tracking-2: -0.03125em;--wp--custom--letter-spacing--tracking-3: -0.027777777777777777em;--wp--custom--letter-spacing--tracking-4: -0.025em;--wp--custom--letter-spacing--tracking-5: 0.03125em;--wp--custom--letter-spacing--tracking-6: 0.0625em;--wp--custom--line-height--leading-1: 0.875em;--wp--custom--line-height--leading-2: 1em;--wp--custom--line-height--leading-3: 1.1em;--wp--custom--line-height--leading-4: 1.1428571428571428em;--wp--custom--line-height--leading-5: 1.2em;--wp--custom--line-height--leading-6: 1.25em;--wp--custom--line-height--leading-7: 1.2999999788072374em;--wp--custom--line-height--leading-8: 1.3em;--wp--custom--line-height--leading-9: 1.3333333333333333em;--wp--custom--line-height--leading-10: 1.4285714285714286em;--wp--custom--line-height--leading-11: 1.5em;--wp--custom--font-size--size-1: 15px;--wp--custom--font-size--size-2: 22px;--wp--custom--font-size--size-3: 28px;--wp--custom--font-size--size-4: 40px;--wp--custom--font-size--size-5: 64px;--wp--custom--border-radius--radius-1: 2px;--wp--custom--border-radius--radius-2: 10px;--wp--custom--border-radius--radius-3: 20px;--wp--custom--border-radius--radius-4: 100px;--wp--custom--border-width--border-1: 3px;--wp--custom--width--3-10: 30%;--wp--custom--width--7-10: 70%;--wp--custom--container-padding--default: 1.5rem;--wp--custom--container-padding--sm: 1.5rem;--wp--custom--container-padding--md: 2.25rem;--wp--custom--container-padding--lg: 3rem;--wp--custom--progress-bar: 6px;}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: clamp(1rem, 0.192rem + 2.244vw, 1.875rem);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: clamp(1rem, 0.192rem + 2.244vw, 1.875rem);}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-parchment-color{color: var(--wp--preset--color--parchment) !important;}.has-peach-color{color: var(--wp--preset--color--peach) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-purple-light-color{color: var(--wp--preset--color--purple-light) !important;}.has-orange-color{color: var(--wp--preset--color--orange) !important;}.has-teal-color{color: var(--wp--preset--color--teal) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-gray-light-color{color: var(--wp--preset--color--gray-light) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-parchment-background-color{background-color: var(--wp--preset--color--parchment) !important;}.has-peach-background-color{background-color: var(--wp--preset--color--peach) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-purple-light-background-color{background-color: var(--wp--preset--color--purple-light) !important;}.has-orange-background-color{background-color: var(--wp--preset--color--orange) !important;}.has-teal-background-color{background-color: var(--wp--preset--color--teal) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-gray-light-background-color{background-color: var(--wp--preset--color--gray-light) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-parchment-border-color{border-color: var(--wp--preset--color--parchment) !important;}.has-peach-border-color{border-color: var(--wp--preset--color--peach) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-purple-light-border-color{border-color: var(--wp--preset--color--purple-light) !important;}.has-orange-border-color{border-color: var(--wp--preset--color--orange) !important;}.has-teal-border-color{border-color: var(--wp--preset--color--teal) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-gray-light-border-color{border-color: var(--wp--preset--color--gray-light) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-heading-1-font-size{font-size: var(--wp--preset--font-size--heading-1) !important;}.has-heading-2-font-size{font-size: var(--wp--preset--font-size--heading-2) !important;}.has-heading-3-font-size{font-size: var(--wp--preset--font-size--heading-3) !important;}.has-heading-4-font-size{font-size: var(--wp--preset--font-size--heading-4) !important;}.has-heading-5-font-size{font-size: var(--wp--preset--font-size--heading-5) !important;}.has-heading-6-font-size{font-size: var(--wp--preset--font-size--heading-6) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<script id="furman-blocks-filtered-list-view-script-js-extra">
+var filtered_list_settings = {"style":"list","eyebrow":"","heading":"Data Dictionary","subheading":"Learn how we define the fields in our data to understand what our data means and how to use it.","button":"","post_types":["data-dictionary"],"min_max_dates":{"old":"2016-11","new":"2021-05"},"has_search":"1","has_date":"0","has_authors":"","posts_per_page":"10","sort_by":"1","pre_filter":"","authors":[],"rest_url":"https://www.furmancenter.org/wp-json/fur/v1/","page_url":"https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/"};
+//# sourceURL=furman-blocks-filtered-list-view-script-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="furman-blocks-filtered-list-view-script-js" src="https://www.furmancenter.org/wp-content/mu-plugins/furman-blocks/build/filtered-list/view.js?ver=7b73c8f88ea5b6078bae"></script>
+<script id="global-js-after">
+window.APP_CONFIG = {"resturl":"https:\/\/www.furmancenter.org\/wp-json\/fur\/v1\/","cookie_banner":{"title":"We use cookies","description":"We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking \u201cAccept\u201d, you consent to the use of ALL the cookies. However you may visit \"Cookie Settings\" to provide a controlled consent.","privacy_url":"https:\/\/www.furmancenter.org\/privacy\/","privacy_text":"Privacy Policy"}};
+//# sourceURL=global-js-after
+</script>
+<link rel="https://api.w.org/" href="https://www.furmancenter.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.furmancenter.org/wp-json/wp/v2/pages/411" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.furmancenter.org/wp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://www.furmancenter.org/?p=411' />
+    <!-- Google Tag Manager -->
+    <script type="text/plain" data-category="analytics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N7ZCNNSV');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" href="https://www.furmancenter.org/wp-content/uploads/2026/02/cropped-FUR_Favicon-A-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.furmancenter.org/wp-content/uploads/2026/02/cropped-FUR_Favicon-A-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.furmancenter.org/wp-content/uploads/2026/02/cropped-FUR_Favicon-A-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.furmancenter.org/wp-content/uploads/2026/02/cropped-FUR_Favicon-A-270x270.png" />
+
+    <link rel="preload" as="style" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-rxQZgXK1.css" /><link rel="preload" as="style" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-zZa9xLX1.css" /><link rel="modulepreload" as="script" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-DfTW4mKc.js" /><link rel="modulepreload" as="script" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/accordion-F4t_IBrX.js" /><link rel="stylesheet" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-rxQZgXK1.css" /><link rel="stylesheet" href="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-zZa9xLX1.css" /><script type="module" src="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/app-DfTW4mKc.js"></script>  </head>
+
+  <body class="wp-singular page-template-default page page-id-411 page-child parent-pageid-407 wp-embed-responsive wp-theme-fur001 data-tools-core-data-dictionary">
+        <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7ZCNNSV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="app">
+      <a class="fur-sr-only focus:fur-not-sr-only" href="#main">
+        Skip to content
+      </a>
+
+      <header class="banner js-header fur-bg-parchment lg:fur-px-[var(--wp--custom--container-padding--lg)] lg:fur-py-4 fur-flex fur-gap-x-6 fur-items-end fur-justify-between fur-flex-wrap lg:fur-flex-nowrap fur-sticky fur-top-[-200px] fur-z-[999] fur-transition-[top] fur-duration-[600ms]">
+    <div class="fur-flex fur-items-center fur-px-[var(--wp--custom--container-padding--sm)] md:fur-px-[var(--wp--custom--container-padding--md)] lg:fur-px-0 fur-py-4 lg:fur-py-0 fur-gap-8 fur-w-full lg:fur-w-auto fur-h-[72px] lg:fur-h-auto">
+        <figure class="fur-w-[150px] lg:fur-w-[225px] fur-m-0 lg:fur-mb-1">
+            <a href="https://www.furmancenter.org/" aria-label="go to home page">
+                <img width="225" height="45" src="https://www.furmancenter.org/wp-content/uploads/2025/11/nyu-furman-center-logo-purple.svg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" />            </a>
+        </figure>
+
+        <button
+            id="btn-menu-toggler"
+            aria-label="open/close menu"
+            aria-expanded="false"
+            class="banner-button banner-button--hide-lg fur-ml-auto"
+        >
+            <svg class="fur-w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+  <path
+    d="M2.32812 15.2442V13.3484H17.6669V15.2442H2.32812ZM2.32812 10.9479V9.05211H17.6669V10.9479H2.32812ZM2.32812 6.65169V4.75586H17.6669V6.65169H2.32812Z"
+    fill="currentColor" />
+</svg>            <svg class="fur-w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" fill="none">
+  <path
+    d="M1.59125 14.3825L0 12.7913L5.6 7.19125L0 1.59125L1.59125 0L7.19125 5.6L12.7913 0L14.3825 1.59125L8.7825 7.19125L14.3825 12.7913L12.7913 14.3825L7.19125 8.7825L1.59125 14.3825Z"
+    fill="currentColor" />
+</svg>        </button>
+    </div>
+
+    <div class="fur-hidden fur-flex-col lg:fur-flex lg:fur-flex-col fur-gap-14 lg:fur-gap-3 lg:fur-justify-end lg:fur-items-end fur-bg-purple lg:fur-bg-parchment fur-px-[var(--wp--custom--container-padding--sm)] md:fur-px-[var(--wp--custom--container-padding--md)] fur-pt-12 fur-pb-6 lg:fur-p-0 fur-w-full fur-h-[calc(100dvh-72px)] lg:fur-h-auto fur-overflow-y-auto lg:fur-overflow-y-visible" id="nav-container">
+                    <nav class="fur-flex fur-flex-col lg:fur-flex-row lg:fur-items-center fur-gap-6 xl:fur-gap-8 fur-relative fur-h-full lg:fur-h-auto fur-order-2 lg:fur-order-none">
+                <hr class="fur-border-0 fur-bg-opacity-100 fur-border-t-[3px] fur-border-orange fur-pt-[3px] before:fur-content-[''] before:fur-block before:fur-w-full before:fur-h-[1px] before:fur-bg-orange fur-m-0 lg:fur-hidden fur-border-solid">
+
+                <ul class="fur-list-none fur-flex fur-flex-col lg:fur-flex-row fur-gap-6 xl:fur-gap-8 fur-m-0 fur-p-0">
+                                            <li>
+                            
+<a href="https://www.furmancenter.org/give/"
+    class="fur-body--sm lg:fur-body--xs fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  Give</a>
+                        </li>
+                                            <li>
+                            
+<a href="https://www.furmancenter.org/contact/"
+    class="fur-body--sm lg:fur-body--xs fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  Contact</a>
+                        </li>
+                                            <li>
+                            
+<a href="https://www.furmancenter.org/email-newsletter/"
+    class="fur-body--sm lg:fur-body--xs fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  Newsletters</a>
+                        </li>
+                                            <li>
+                            
+<a href="https://www.furmancenter.org/local-housing-solutions-lab/"
+    class="fur-body--sm lg:fur-body--xs fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  Housing Solutions Lab</a>
+                        </li>
+                                    </ul>
+
+                <button
+                    aria-label="Open Search"
+                    aria-expanded="false"
+                    class="banner-button"
+                    id="btn-search-toggler"
+                >
+                    <svg class="fur-w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+  <path
+    d="M14.3807 16L10.5753 12.1929C10.0724 12.5825 9.49255 12.8916 8.83562 13.1201C8.17869 13.3486 7.47647 13.4629 6.72898 13.4629C4.85078 13.4629 3.25973 12.8107 1.95584 11.5063C0.651946 10.2018 0 8.61014 0 6.73143C0 4.85271 0.651946 3.26109 1.95584 1.95655C3.25973 0.652183 4.85078 0 6.72898 0C8.60701 0 10.198 0.652183 11.5019 1.95655C12.8059 3.26109 13.458 4.85271 13.458 6.73143C13.458 7.48325 13.3437 8.18572 13.1153 8.83883C12.8867 9.49195 12.5777 10.068 12.1884 10.5669L16 14.386L14.3807 16ZM6.72898 11.1557C7.95971 11.1557 9.0045 10.7261 9.86334 9.86693C10.7222 9.00795 11.1516 7.96278 11.1516 6.73143C11.1516 5.50008 10.7222 4.45491 9.86334 3.59593C9.0045 2.73677 7.95971 2.30719 6.72898 2.30719C5.49808 2.30719 4.45321 2.73677 3.59436 3.59593C2.73569 4.45491 2.30635 5.50008 2.30635 6.73143C2.30635 7.96278 2.73569 9.00795 3.59436 9.86693C4.45321 10.7261 5.49808 11.1557 6.72898 11.1557Z"
+    fill="currentColor" />
+</svg>                    <svg class="fur-w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" fill="none">
+  <path
+    d="M1.59125 14.3825L0 12.7913L5.6 7.19125L0 1.59125L1.59125 0L7.19125 5.6L12.7913 0L14.3825 1.59125L8.7825 7.19125L14.3825 12.7913L12.7913 14.3825L7.19125 8.7825L1.59125 14.3825Z"
+    fill="currentColor" />
+</svg>                </button>
+
+                
+<form role="search" method="get" class="search-form fur-flex fur-items-strech fur-w-full fur-mt-auto lg:fur-mt-0" action="https://www.furmancenter.org/">
+    <button
+        aria-label="Search"
+        class="fur-aspect-square fur-bg-orange fur-text-white fur-transition-colors fur-duration-200 fur-min-w-10 fur-flex-shrink-0 fur-rounded-l-radius-1 fur-grid fur-place-items-center  hover:fur-bg-purple hover:fur-text-white fur-border-none"
+    >
+        <svg class="fur-w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+  <path
+    d="M14.3807 16L10.5753 12.1929C10.0724 12.5825 9.49255 12.8916 8.83562 13.1201C8.17869 13.3486 7.47647 13.4629 6.72898 13.4629C4.85078 13.4629 3.25973 12.8107 1.95584 11.5063C0.651946 10.2018 0 8.61014 0 6.73143C0 4.85271 0.651946 3.26109 1.95584 1.95655C3.25973 0.652183 4.85078 0 6.72898 0C8.60701 0 10.198 0.652183 11.5019 1.95655C12.8059 3.26109 13.458 4.85271 13.458 6.73143C13.458 7.48325 13.3437 8.18572 13.1153 8.83883C12.8867 9.49195 12.5777 10.068 12.1884 10.5669L16 14.386L14.3807 16ZM6.72898 11.1557C7.95971 11.1557 9.0045 10.7261 9.86334 9.86693C10.7222 9.00795 11.1516 7.96278 11.1516 6.73143C11.1516 5.50008 10.7222 4.45491 9.86334 3.59593C9.0045 2.73677 7.95971 2.30719 6.72898 2.30719C5.49808 2.30719 4.45321 2.73677 3.59436 3.59593C2.73569 4.45491 2.30635 5.50008 2.30635 6.73143C2.30635 7.96278 2.73569 9.00795 3.59436 9.86693C4.45321 10.7261 5.49808 11.1557 6.72898 11.1557Z"
+    fill="currentColor" />
+</svg>    </button>
+
+    <label class="fur-w-full">
+        <span class="fur-sr-only">
+            Search for:        </span>
+
+        <input
+            type="search"
+            placeholder="Search&hellip;"
+            value=""
+            name="s"
+            class="search-field fur-body--xs"
+        >
+    </label>
+</form>
+            </nav>
+        
+                    <nav class="fur-flex">
+                <ul class="main-menu">
+                                            <li class="fur-body--lg lg:fur-body--sm">
+                            <span class="fur-text-white lg:fur-text-black fur-cursor-default" tabindex="0">Research Topics</span>
+                                                            <button
+                                    class="btn-submenu-toggler"
+                                    aria-expanded="false"
+                                    aria-label="open submenu"
+                                >
+                                    <svg class="fur-w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" fill="none">
+  <path d="M8 10L0 2.04465L2.05613 0L8 5.9107L13.9439 0L16 2.04465L8 10Z" fill="#FF4A26" />
+</svg>                                </button>
+                            
+                                                            <ul class="submenu">
+                                    <li class="fur-flex-1">
+                                        <ul class="fur-flex fur-flex-col fur-gap-[20px] fur-p-6 lg:fur-min-w-[400px]">
+                                            <li class="fur-flex fur-gap-4 fur-items-baseline fur-justify-between fur-pb-3 fur-border-0 fur-border-b-[1px] fur-border-orange fur-border-solid fur-mb-1 fur-flex-wrap">
+                                                <span class="fur-text-purple fur-body--lg">
+                                                    Research Topics                                                </span>
+
+                                                
+<a href="https://www.furmancenter.org/research-topics/"
+    class="sublink-orange"
+     target=""     rel="">
+  View All</a>
+                                            </li>
+
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/affordable-and-subsidized-housing"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Affordable &amp; Subsidized Housing</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/housing-finance/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Housing Finance</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/land-use/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Land Use</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/neighborhood-indicators/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Neighborhood Indicators</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/climate-resilience/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Climate Resilience</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/topic/stability-and-housing-conditions/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Stability &amp; Housing Conditions</a>
+                                                </li>
+                                                                                    </ul>
+                                    </li>
+
+                                                                    </ul>
+                                                    </li>
+                                            <li class="fur-body--lg lg:fur-body--sm">
+                            
+<a href="https://www.furmancenter.org/publications/"
+    class="fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  Publications</a>
+
+                            
+                                                    </li>
+                                            <li class="fur-body--lg lg:fur-body--sm">
+                            <span class="fur-text-white lg:fur-text-black fur-cursor-default" tabindex="0">Data Tools &amp; Resources</span>
+                                                            <button
+                                    class="btn-submenu-toggler"
+                                    aria-expanded="false"
+                                    aria-label="open submenu"
+                                >
+                                    <svg class="fur-w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" fill="none">
+  <path d="M8 10L0 2.04465L2.05613 0L8 5.9107L13.9439 0L16 2.04465L8 10Z" fill="#FF4A26" />
+</svg>                                </button>
+                            
+                                                            <ul class="submenu">
+                                    <li class="fur-flex-1">
+                                        <ul class="fur-flex fur-flex-col fur-gap-[20px] fur-p-6 lg:fur-min-w-[400px]">
+                                            <li class="fur-flex fur-gap-4 fur-items-baseline fur-justify-between fur-pb-3 fur-border-0 fur-border-b-[1px] fur-border-orange fur-border-solid fur-mb-1 fur-flex-wrap">
+                                                <span class="fur-text-purple fur-body--lg">
+                                                    Data Tools &amp; Resources                                                </span>
+
+                                                
+<a href="https://www.furmancenter.org/all-data-tools/"
+    class="sublink-orange"
+     target=""     rel="">
+  View All</a>
+                                            </li>
+
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    <span class="fur-detail fur-text-purple">Featured</span>                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/coredata-nyc/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  CoreData</a>
+
+<a href="https://coredata.nyc/"
+    class="sublink-orange"
+     target="_blank"     rel="noopener noreferrer">
+  Tool</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/new-york-eviction-tracker/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Eviction Tracker</a>
+
+<a href="https://www.furmancenter.org/data-tools-resources/eviction-tracker/"
+    class="sublink-orange"
+     target="_blank"     rel="">
+  Tool</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/directory-of-nyc-housing-programs/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Directory of Housing Programs</a>
+
+<a href="https://www.furmancenter.org/data-tools-resources/directory-nyc-housing-programs/"
+    class="sublink-orange"
+     target=""     rel="">
+  Resource</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/nyc-neighborhood-data-profiles/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  NYC Neighborhood Data Profiles</a>
+
+<a href="https://www.furmancenter.org/data-tools-resources/nyc-neighborhood-data-profiles-map/"
+    class="sublink-orange"
+     target=""     rel="">
+  Tool</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/state-of-the-city/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  State of the City</a>
+
+<a href="https://www.furmancenter.org/soc-report/state-of-the-city-2025/"
+    class="sublink-orange"
+     target=""     rel="">
+  RESOURCE</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/data-tool/land-use-reform-tracker/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Land Use Reform Tracker</a>
+
+<a href="https://www.furmancenter.org/land-use-reform-tracker/"
+    class="sublink-orange"
+     target=""     rel="">
+  Tool</a>
+                                                </li>
+                                                                                    </ul>
+                                    </li>
+
+                                                                            <li class="fur-flex fur-flex-col fur-pt-0 fur-p-6 lg:fur-pt-6 fur-bg-white lg:fur-bg-purple lg:fur-w-[275px]">
+                                                                                            <p class="fur-body--lg fur-mt-0 fur-mb-6 fur-text-purple lg:fur-text-white">Housing Solutions Lab</p>
+                                            
+                                                                                            <p class="fur-body--xs fur-mt-0 fur-mb-6 fur-text-black lg:fur-text-white">Small and mid-size cities can find housing knowledge, tools, resources</p>
+                                            
+                                                                                            <ul class="fur-list-none fur-flex fur-flex-col fur-gap-4 fur-p-0 fur-pt-4 fur-border-0 fur-border-t-[1px] fur-border-orange fur-border-solid fur-mt-auto">
+                                                                                                            <li>
+                                                            
+<a href="https://www.furmancenter.org/local-housing-solutions-lab/"
+    class="sublink-orange lg:sublink-white"
+     target=""     rel="">
+  About the Lab</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            
+<a href="https://www.localhousingsolutions.org/"
+    class="sublink-orange lg:sublink-white"
+     target="_blank"     rel="noopener noreferrer">
+  Explore the Lab</a>
+                                                        </li>
+                                                                                                    </ul>
+                                                                                    </li>
+                                                                    </ul>
+                                                    </li>
+                                            <li class="fur-body--lg lg:fur-body--sm">
+                            <span class="fur-text-white lg:fur-text-black fur-cursor-default" tabindex="0">News &amp; Events</span>
+                                                            <button
+                                    class="btn-submenu-toggler"
+                                    aria-expanded="false"
+                                    aria-label="open submenu"
+                                >
+                                    <svg class="fur-w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" fill="none">
+  <path d="M8 10L0 2.04465L2.05613 0L8 5.9107L13.9439 0L16 2.04465L8 10Z" fill="#FF4A26" />
+</svg>                                </button>
+                            
+                                                            <ul class="submenu">
+                                    <li class="fur-flex-1">
+                                        <ul class="fur-flex fur-flex-col fur-gap-[20px] fur-p-6 lg:fur-min-w-[400px]">
+                                            <li class="fur-flex fur-gap-4 fur-items-baseline fur-justify-between fur-pb-3 fur-border-0 fur-border-b-[1px] fur-border-orange fur-border-solid fur-mb-1 fur-flex-wrap">
+                                                <span class="fur-text-purple fur-body--lg">
+                                                    News &amp; Events                                                </span>
+
+                                                                                            </li>
+
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/news-announcements/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  News &amp; Announcements</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/events/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Events</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/for-the-media/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  For the Media</a>
+                                                </li>
+                                                                                    </ul>
+                                    </li>
+
+                                                                    </ul>
+                                                    </li>
+                                            <li class="fur-body--lg lg:fur-body--sm">
+                            
+<a href="https://www.furmancenter.org/about/"
+    class="fur-no-underline fur-text-white lg:fur-text-black fur-transition-colors fur-duration-200 hover:fur-text-orange focus-visible:fur-text-orange"
+     target=""     rel="">
+  About</a>
+
+                                                            <button
+                                    class="btn-submenu-toggler"
+                                    aria-expanded="false"
+                                    aria-label="open submenu"
+                                >
+                                    <svg class="fur-w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" fill="none">
+  <path d="M8 10L0 2.04465L2.05613 0L8 5.9107L13.9439 0L16 2.04465L8 10Z" fill="#FF4A26" />
+</svg>                                </button>
+                            
+                                                            <ul class="submenu">
+                                    <li class="fur-flex-1">
+                                        <ul class="fur-flex fur-flex-col fur-gap-[20px] fur-p-6 lg:fur-min-w-[400px]">
+                                            <li class="fur-flex fur-gap-4 fur-items-baseline fur-justify-between fur-pb-3 fur-border-0 fur-border-b-[1px] fur-border-orange fur-border-solid fur-mb-1 fur-flex-wrap">
+                                                <span class="fur-text-purple fur-body--lg">
+                                                    About                                                </span>
+
+                                                                                            </li>
+
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/about/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  About Us</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/team/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Team</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/advisory-board/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Advisory Board</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/fellowships/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Fellowships</a>
+                                                </li>
+                                                                                            <li class="fur-flex fur-flex-wrap fur-gap-3">
+                                                    
+<a href="https://www.furmancenter.org/jobs/"
+    class="fur-body--sm-sans fur-no-underline fur-text-purple fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Job Opportunities</a>
+                                                </li>
+                                                                                    </ul>
+                                    </li>
+
+                                                                    </ul>
+                                                    </li>
+                                    </ul>
+            </nav>
+            </div>
+</header>
+
+      <main id="main" class="main">
+               <style>
+    .wp-block-fur-hero-banner .fur-breadcrumbs {
+        --link-color: var(--wp--preset--color--white);
+    }
+
+    </style>
+
+<header class="wp-block-fur-hero-banner js-hero-banner alignfull fur-bg-teal text-only ">
+    
+    <div class="fur-container ">
+        
+        
+        <div class="">
+            <p class="hero-banner-breadcrumbs fur-breadcrumbs fur-mb-8 fur-text-white"><span><span><a href="https://www.furmancenter.org/">Home</a></span>  <span><a href="https://www.furmancenter.org/data-tools-resources/">Data Tools &#038; Resources</a></span></span></p>
+            <div class="fur-flex fur-flex-col fur-gap-8 ">
+                
+                
+                
+                
+                
+                
+                <h1 class="fur-title--heading-1 fur-max-w-[970px] fur-text-white">
+                    Data Dictionary                </h1>
+
+                                    <p class="hero-banner-subheading fur-max-w-[700px] fur-mt-[-16px] fur-body--lg fur-text-white">
+                        Discover how we define our data, learn how to interpret our data, and how to use it.                    </p>
+                
+                
+                
+                
+                
+                
+                
+                            </div>
+        </div>
+
+        
+        
+        
+            </div>
+</header>
+
+
+
+<section class="wp-block-fur-columns js-columns alignfull fur-bg-parchment">
+    <div class="fur-container">
+        
+<header class="fur-border-t-[3px] fur-border-orange fur-pt-[3px] fur-py-14 fur-flex fur-flex-col fur-gap-y-8 before:fur-content-[''] before:fur-block before:fur-w-full before:fur-h-[1px] before:fur-bg-orange ">
+    
+            <h2 class="fur-title--heading-2 fur-text-purple fur-max-w-[900px] ">
+            Data Tools &amp; Resources        </h2>
+    
+            <p class="fur-body--lg fur-text-black fur-max-w-[900px] ">
+            Explore the data tools and resources we built to identify key housing and economic indicators.        </p>
+    
+    
+    </header>
+
+
+        <div class="swiper js-slider ">
+            <div class="swiper-wrapper lg:fur-grid-cols-3  lg:fur-grid lg:fur-gap-6">
+                                    <div class="swiper-slide fur-h-auto">
+                        
+<article class="fur-bg-white fur-p-6 fur-border fur-border-orange fur-flex fur-flex-col fur-gap-8 fur-rounded-radius-1 fur-h-full">
+    
+    <h3 class="fur-text-purple fur-title--heading-5">
+        CoreData.nyc    </h3>
+
+            <p class="fur-body--sm">
+            Explore CoreData.nyc’s Subsidized Housing Database, the only property-level database of New York City’s subsidized housing.        </p>
+    
+    
+<div class="fur-flex fur-flex-wrap fur-items-center fur-gap-8 !fur-gap-3 fur-mt-auto fur-flex-col !fur-items-start">
+    
+<a href="https://coredata.nyc/"
+    class="link-orange"
+     target=""     rel="noopener noreferrer">
+  Go to Tool</a>
+</div>
+</article>
+                    </div>
+                                    <div class="swiper-slide fur-h-auto">
+                        
+<article class="fur-bg-white fur-p-6 fur-border fur-border-orange fur-flex fur-flex-col fur-gap-8 fur-rounded-radius-1 fur-h-full">
+    
+    <h3 class="fur-text-purple fur-title--heading-5">
+        State of the City    </h3>
+
+            <p class="fur-body--sm">
+            Citywide annual data that shows housing production trends, information on rents, demographics and incomes, and residential property values.        </p>
+    
+    
+<div class="fur-flex fur-flex-wrap fur-items-center fur-gap-8 !fur-gap-3 fur-mt-auto fur-flex-col !fur-items-start">
+    
+<a href="https://www.furmancenter.org/soc-report/state-of-the-city-2024/"
+    class="link-orange"
+     target=""     rel="">
+  Explore the Data</a>
+</div>
+</article>
+                    </div>
+                                    <div class="swiper-slide fur-h-auto">
+                        
+<article class="fur-bg-white fur-p-6 fur-border fur-border-orange fur-flex fur-flex-col fur-gap-8 fur-rounded-radius-1 fur-h-full">
+    
+    <h3 class="fur-text-purple fur-title--heading-5">
+        Neighborhood Data Profiles    </h3>
+
+            <p class="fur-body--sm">
+            Explore and download neighborhood indicators for each of New York City’s 59 community districts, including housing market conditions and development trends.        </p>
+    
+    
+<div class="fur-flex fur-flex-wrap fur-items-center fur-gap-8 !fur-gap-3 fur-mt-auto fur-flex-col !fur-items-start">
+    
+<a href="https://www.furmancenter.org/data-tools-resources/nyc-neighborhood-data-profiles/"
+    class="link-orange"
+     target=""     rel="">
+  Search Neighborhoods</a>
+</div>
+</article>
+                    </div>
+                            </div>
+        </div>
+
+                    <div class="swiper-controls fur-flex fur-justify-start fur-items-center fur-gap-6 fur-mt-8 lg:fur-hidden">
+                
+<button
+    aria-label="Previous slide"
+    class="fur-aspect-square fur-w-10 fur-rounded-radius-1 fur-p-[10px] fur-bg-orange fur-text-white fur-flex fur-items-center fur-justify-center fur-cursor-pointer fur-transition-colors fur-duration-200 hover:fur-bg-purple js-slider-prev "
+>
+    <svg class="fur-w-3 fur-h-[18px]" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M5.60272e-07 9L9.54642 9.41824e-07L12 2.31314L4.90716 9L12 15.6869L9.54642 18L5.60272e-07 9Z"
+    fill="currentColor" />
+</svg></button>
+
+<div class="fur-flex fur-items-center fur-gap-3 js-slider-pagination ">
+    </div>
+
+<button
+    aria-label="Next slide"
+    class="fur-aspect-square fur-w-10 fur-rounded-radius-1 fur-p-[10px] fur-bg-orange fur-text-white fur-flex fur-items-center fur-justify-center fur-cursor-pointer fur-transition-colors fur-duration-200 hover:fur-bg-purple js-slider-next "
+>
+    <svg class="fur-w-3 fur-h-[18px]" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M12 9L2.45359 18L5.22638e-06 15.6869L7.09284 9L8.1493e-06 2.31314L2.45359 5.36247e-07L12 9Z"
+    fill="currentColor" />
+</svg></button>
+            </div>
+            </div>
+</section>
+
+
+<section class="wp-block-fur-filtered-list component-filtered-list fur-bg-parchment style-list wp-block-furman-blocks-filtered-list" id="filtered-list">
+  <div class="fur-container fur-flex fur-flex-wrap">
+    <div class="component-filtered-list-top fur-w-full">
+			<header class="component-header fur-border-t-[3px] fur-border-orange fur-pt-[3px] fur-py-14 fur-flex fur-flex-col fur-gap-y-8 before:fur-content-[''] before:fur-block before:fur-w-full before:fur-h-[1px] before:fur-bg-orange">
+  
+      <h2 class="component-header-heading fur-title--heading-2 fur-text-purple fur-max-w-[900px]">
+      Data Dictionary
+    </h2>
+  
+      <p class="fur-body--md fur-text-black fur-max-w-[900px]">
+      Learn how we define the fields in our data to understand what our data means and how to use it.
+    </p>
+  
+  </header>
+
+      <div class="component-filtered-list-selected-filters-wrapper fur-flex fur-flex-wrap fur-gap-4 fur-items-center fur-mb-10">
+        <p class="fur-title--heading-5 fur-text-purple">Filtering by:</p>
+        <div id="component-filtered-list-selected-filters" class="fur-flex fur-flex-wrap fur-gap-4"></div>
+
+        <button id="component-filtered-list-reset" class="fur-detail fur-text-purple fur-p-0 fur-bg-transparent fur-underline fur-transition-colors fur-duration-200 hover:fur-text-orange fur-cursor-pointer">
+          Clear All
+        </button>
+      </div>
+
+			<search class="component-filtered-list-search search-form fur-flex fur-items-strech fur-w-full">
+  <button
+    aria-label="Search"
+		id="component-filtered-list-search-button"
+    class="fur-aspect-square fur-bg-orange fur-text-white fur-transition-colors fur-duration-200 fur-min-w-10 fur-flex-shrink-0 fur-rounded-l-radius-1 fur-grid fur-place-items-center"
+  >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="fur-w-4">
+  <path
+    d="M14.3807 16L10.5753 12.1929C10.0724 12.5825 9.49255 12.8916 8.83562 13.1201C8.17869 13.3486 7.47647 13.4629 6.72898 13.4629C4.85078 13.4629 3.25973 12.8107 1.95584 11.5063C0.651946 10.2018 0 8.61014 0 6.73143C0 4.85271 0.651946 3.26109 1.95584 1.95655C3.25973 0.652183 4.85078 0 6.72898 0C8.60701 0 10.198 0.652183 11.5019 1.95655C12.8059 3.26109 13.458 4.85271 13.458 6.73143C13.458 7.48325 13.3437 8.18572 13.1153 8.83883C12.8867 9.49195 12.5777 10.068 12.1884 10.5669L16 14.386L14.3807 16ZM6.72898 11.1557C7.95971 11.1557 9.0045 10.7261 9.86334 9.86693C10.7222 9.00795 11.1516 7.96278 11.1516 6.73143C11.1516 5.50008 10.7222 4.45491 9.86334 3.59593C9.0045 2.73677 7.95971 2.30719 6.72898 2.30719C5.49808 2.30719 4.45321 2.73677 3.59436 3.59593C2.73569 4.45491 2.30635 5.50008 2.30635 6.73143C2.30635 7.96278 2.73569 9.00795 3.59436 9.86693C4.45321 10.7261 5.49808 11.1557 6.72898 11.1557Z"
+    fill="currentColor" />
+</svg>
+  </button>
+
+	<label class="fur-w-full">
+		<span class="fur-sr-only">
+			Search for:
+		</span>
+
+		<input
+			type="search"
+			id="component-filtered-list-search-field"
+			placeholder="Search by keyword&hellip;"
+			value=""
+			name="s"
+			class="search-field fur-body--xs"
+		>
+	</label>
+</search>
+    </div>
+
+          <nav class="component-filtered-list-filters fur-w-full lg:fur-flex-[3.2_1_0] fur-min-w-0">
+        <div class="component-filtered-list-filters-checkbox">
+          <input type="checkbox" id="filter-button">
+          <label for="filter-button">
+						Filter your results
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" fill="none">
+	<path d="M8 10L0 2.23042L2.29656 0L8 5.53917L13.7034 0L16 2.23042L8 10Z" fill="currentColor" />
+</svg>					</label>
+        </div>
+
+        <div class="component-filtered-list-filters-options">
+                                                    <div class="filtered-list-dropdown-wrapper">
+	<label for="dictionary-category">Categories</label>
+
+	<select
+		class="component-filtered-list-dropdown"
+		id="dictionary-category"
+		aria-label="Categories"
+	>
+					<option value="">All Categories</option>
+		
+					<option
+				value="affordability"
+				id="dictionary-category-affordability"
+				data-label="Affordability"
+			>
+				Affordability
+			</option>
+
+								<option
+				value="city-and-state-programs"
+				id="dictionary-category-city-and-state-programs"
+				data-label="City and State Programs"
+			>
+				City and State Programs
+			</option>
+
+								<option
+				value="commute"
+				id="dictionary-category-commute"
+				data-label="Commute"
+			>
+				Commute
+			</option>
+
+								<option
+				value="crime-and-incarceration"
+				id="dictionary-category-crime-and-incarceration"
+				data-label="Crime and Incarceration"
+			>
+				Crime and Incarceration
+			</option>
+
+								<option
+				value="demographics"
+				id="dictionary-category-demographics"
+				data-label="Demographics"
+			>
+				Demographics
+			</option>
+
+								<option
+				value="density"
+				id="dictionary-category-density"
+				data-label="Density"
+			>
+				Density
+			</option>
+
+								<option
+				value="development"
+				id="dictionary-category-development"
+				data-label="Development"
+			>
+				Development
+			</option>
+
+								<option
+				value="evictions"
+				id="dictionary-category-evictions"
+				data-label="Evictions"
+			>
+				Evictions
+			</option>
+
+								<option
+				value="finance-distress"
+				id="dictionary-category-finance-distress"
+				data-label="Finance - Distress"
+			>
+				Finance &#8211; Distress
+			</option>
+
+								<option
+				value="finance-lending"
+				id="dictionary-category-finance-lending"
+				data-label="Finance - Lending"
+			>
+				Finance &#8211; Lending
+			</option>
+
+								<option
+				value="geographies"
+				id="dictionary-category-geographies"
+				data-label="Geographies"
+			>
+				Geographies
+			</option>
+
+								<option
+				value="households"
+				id="dictionary-category-households"
+				data-label="Households"
+			>
+				Households
+			</option>
+
+								<option
+				value="housing-market-and-conditions"
+				id="dictionary-category-housing-market-and-conditions"
+				data-label="Housing Market and Conditions"
+			>
+				Housing Market and Conditions
+			</option>
+
+								<option
+				value="housing-stock"
+				id="dictionary-category-housing-stock"
+				data-label="Housing Stock"
+			>
+				Housing Stock
+			</option>
+
+								<option
+				value="income-and-poverty"
+				id="dictionary-category-income-and-poverty"
+				data-label="Income and Poverty"
+			>
+				Income and Poverty
+			</option>
+
+								<option
+				value="labor-market"
+				id="dictionary-category-labor-market"
+				data-label="Labor Market"
+			>
+				Labor Market
+			</option>
+
+								<option
+				value="land-use-and-development"
+				id="dictionary-category-land-use-and-development"
+				data-label="Land Use and Development"
+			>
+				Land Use and Development
+			</option>
+
+								<option
+				value="median-rent"
+				id="dictionary-category-median-rent"
+				data-label="Median Rent"
+			>
+				Median Rent
+			</option>
+
+								<option
+				value="misc"
+				id="dictionary-category-misc"
+				data-label="Misc"
+			>
+				Misc
+			</option>
+
+								<option
+				value="neighborhood-services-and-conditions"
+				id="dictionary-category-neighborhood-services-and-conditions"
+				data-label="Neighborhood Services and Conditions"
+			>
+				Neighborhood Services and Conditions
+			</option>
+
+								<option
+				value="physical-and-financial-condition"
+				id="dictionary-category-physical-and-financial-condition"
+				data-label="Physical and Financial Condition"
+			>
+				Physical and Financial Condition
+			</option>
+
+								<option
+				value="political-and-administrative"
+				id="dictionary-category-political-and-administrative"
+				data-label="Political and Administrative"
+			>
+				Political and Administrative
+			</option>
+
+								<option
+				value="population"
+				id="dictionary-category-population"
+				data-label="Population"
+			>
+				Population
+			</option>
+
+								<option
+				value="property"
+				id="dictionary-category-property"
+				data-label="Property"
+			>
+				Property
+			</option>
+
+								<option
+				value="race-and-ethnicity"
+				id="dictionary-category-race-and-ethnicity"
+				data-label="Race and Ethnicity"
+			>
+				Race and Ethnicity
+			</option>
+
+								<option
+				value="regulatory-tools"
+				id="dictionary-category-regulatory-tools"
+				data-label="Regulatory Tools"
+			>
+				Regulatory Tools
+			</option>
+
+								<option
+				value="rent-burden"
+				id="dictionary-category-rent-burden"
+				data-label="Rent Burden"
+			>
+				Rent Burden
+			</option>
+
+								<option
+				value="rental-subsidy"
+				id="dictionary-category-rental-subsidy"
+				data-label="Rental Subsidy"
+			>
+				Rental Subsidy
+			</option>
+
+								<option
+				value="renters"
+				id="dictionary-category-renters"
+				data-label="Renters"
+			>
+				Renters
+			</option>
+
+								<option
+				value="sales-housing-price-index"
+				id="dictionary-category-sales-housing-price-index"
+				data-label="Sales - Housing Price Index"
+			>
+				Sales &#8211; Housing Price Index
+			</option>
+
+								<option
+				value="sales-median-prices"
+				id="dictionary-category-sales-median-prices"
+				data-label="Sales - Median Prices"
+			>
+				Sales &#8211; Median Prices
+			</option>
+
+								<option
+				value="sales-volume"
+				id="dictionary-category-sales-volume"
+				data-label="Sales - Volume"
+			>
+				Sales &#8211; Volume
+			</option>
+
+								<option
+				value="schools"
+				id="dictionary-category-schools"
+				data-label="Schools"
+			>
+				Schools
+			</option>
+
+								<option
+				value="services"
+				id="dictionary-category-services"
+				data-label="Services"
+			>
+				Services
+			</option>
+
+								<option
+				value="subsidized-housing"
+				id="dictionary-category-subsidized-housing"
+				data-label="Subsidized Housing"
+			>
+				Subsidized Housing
+			</option>
+
+								<option
+				value="subsidized-properties"
+				id="dictionary-category-subsidized-properties"
+				data-label="Subsidized Properties"
+			>
+				Subsidized Properties
+			</option>
+
+						</select>
+</div>
+                                    
+                            </div>
+      </nav>
+    
+    <div class="component-filtered-list-results fur-flex-[6.8_1_0] fur-w-full fur-min-w-0">
+      <div class="fur-flex fur-flex-col md:fur-flex-row fur-items-start md:fur-items-center fur-gap-5 md:fur-justify-end fur-flex-wrap">
+        <p id="component-filtered-list-total-count" class="fur-body--sm-sans fur-mr-auto"></p>
+
+									<div class="component-filtered-list-order-selector fur-flex fur-gap-4 fur-items-center">
+						<label for="component-filtered-list-sort" class="fur-body--sm-sans">
+							Sort by
+						</label>
+
+						<select
+							name="component-filtered-list-sort"
+							id="component-filtered-list-sort"
+							class="filtered-list-select"
+						>
+							<option value="recent">Most Recent</option>
+							<option value="popular">Most Popular</option>
+						</select>
+					</div>
+				
+				<div class="component-filtered-list-posts-selector fur-flex fur-gap-4 fur-items-center">
+          <label for="component-filtered-list-results-number" class="fur-body--sm-sans">
+            Results per page
+          </label>
+
+          <select
+            name="component-filtered-list-results-number"
+            id="component-filtered-list-results-number"
+						class="filtered-list-select"
+          >
+                          <option value="10">10</option>
+                          <option value="20">20</option>
+                          <option value="40">40</option>
+                      </select>
+        </div>
+      </div>
+
+      <div id="component-filtered-list-posts"></div>
+      <div id="component-filtered-list-paginate"></div>
+    </div>
+  </div>
+</section>
+
+        </main>
+
+      <footer class="wp-block-fur-footer js-footer alignfull fur-bg-purple fur-text-white">
+    <div class="fur-container">
+        <hr class="fur-border-t-[3px] fur-border-orange fur-pt-[3px] before:fur-content-[''] before:fur-block before:fur-w-full before:fur-h-[1px] before:fur-bg-orange">
+        <div class="fur-pt-8 fur-flex fur-flex-col md:fur-flex-row fur-gap-14 md:fur-justify-between">
+            <div class="fur-flex-1 md:fur-max-w-[328px]">
+                                    <p class="fur-footer-heading fur-mb-4">
+                        NYU Furman Center                    </p>
+                
+                                    <p class="fur-body--xs">
+                        Advancing research and debate on housing, neighborhoods, and urban policy                    </p>
+                
+                                    <ul class="fur-left-links fur-list-none fur-mt-8 fur-flex fur-flex-col fur-gap-4">
+                                                    <li>
+                                
+<a href="https://www.law.nyu.edu/"
+    class="fur-footer-link"
+     target=""     rel="noopener noreferrer">
+  School of Law</a>
+                            </li>
+                                                    <li>
+                                
+<a href="https://wagner.nyu.edu/"
+    class="fur-footer-link"
+     target=""     rel="noopener noreferrer">
+  Wagner School of Public Service</a>
+                            </li>
+                                            </ul>
+                
+                                    <ul class="fur-list-none fur-mt-8 fur-flex fur-flex-wrap fur-gap-4">
+                                                    <li class="fur-flex fur-items-center">
+                                <a
+                                    href="https://www.facebook.com/furmancenter"
+                                    target="_blank"
+                                    aria-label="Visit our facebook page"
+                                    rel="noopener noreferrer"
+                                    class="fur-text-white fur-shrink-0 fur-w-5 fur-block fur-transition-colors fur-duration-200 hover:fur-text-orange"
+                                >
+                                    <svg class="fur-block" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M49.4172 24.4828C49.4172 11.0548 38.5317 0.169189 25.1036 0.169189C11.6756 0.169189 0.790039 11.0548 0.790039 24.4828C0.790039 36.6182 9.68112 46.677 21.3046 48.501V31.5109H15.1313V24.4828H21.3046V19.1262C21.3046 13.0326 24.9346 9.66669 30.4883 9.66669C33.1476 9.66669 35.9308 10.1416 35.9308 10.1416V16.125H32.865C29.8448 16.125 28.9026 17.9993 28.9026 19.924V24.4828H35.6459L34.5679 31.5109H28.9026V48.501C40.5262 46.677 49.4172 36.6182 49.4172 24.4828Z"
+    fill="currentColor" />
+</svg>                                </a>
+                            </li>
+                                                    <li class="fur-flex fur-items-center">
+                                <a
+                                    href="https://twitter.com/FurmanCenterNYU"
+                                    target="_blank"
+                                    aria-label="Visit our x page"
+                                    rel="noopener noreferrer"
+                                    class="fur-text-white fur-shrink-0 fur-w-5 fur-block fur-transition-colors fur-duration-200 hover:fur-text-orange"
+                                >
+                                    <svg class="fur-block" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+  <path
+    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+</svg>                                </a>
+                            </li>
+                                                    <li class="fur-flex fur-items-center">
+                                <a
+                                    href="https://www.linkedin.com/groups/5016089/"
+                                    target="_blank"
+                                    aria-label="Visit our linkedin page"
+                                    rel="noopener noreferrer"
+                                    class="fur-text-white fur-shrink-0 fur-w-5 fur-block fur-transition-colors fur-duration-200 hover:fur-text-orange"
+                                >
+                                    <svg class="fur-block" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+  <path
+    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+</svg>                                </a>
+                            </li>
+                                            </ul>
+                            </div>
+
+                            <nav>
+                    <ul class="fur-list-none fur-flex fur-flex-col md:fur-flex-row md:fur-flex-wrap fur-gap-x-14 fur-gap-y-8">
+                                                    <li class="fur-flex fur-flex-col fur-gap-6">
+                                <span class="fur-footer-column">
+                                                                    </span>
+
+                                                                    <ul class="fur-list-none fur-flex fur-flex-col fur-gap-6">
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/about/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  About Us</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/contact/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Contact</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/team/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Team</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/about/jobs/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Job Opportunities</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/for-the-media/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  For the Media</a>
+                                            </li>
+                                                                            </ul>
+                                                            </li>
+                                                    <li class="fur-flex fur-flex-col fur-gap-6">
+                                <span class="fur-footer-column">
+                                                                    </span>
+
+                                                                    <ul class="fur-list-none fur-flex fur-flex-col fur-gap-6">
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/affordable-and-subsidized-housing/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Affordable &amp; Subsidized Housing</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/housing-finance/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Housing Finance</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/land-use/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Land Use</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/neighborhood-indicators/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Neighborhood Indicators</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/climate-resilience/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Climate Resilience</a>
+                                            </li>
+                                                                                    <li>
+                                                
+<a href="https://www.furmancenter.org/topic/stability-and-housing-conditions/"
+    class="fur-footer-link fur-text-white fur-no-underline fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Stability &amp; Housing Conditions</a>
+                                            </li>
+                                                                            </ul>
+                                                            </li>
+                                            </ul>
+                </nav>
+                    </div>
+
+        <div class="fur-mt-12 md:fur-mt-10 fur-flex fur-flex-col-reverse md:fur-flex-col fur-gap-8">
+                            <figure class="fur-max-w-[596px]">
+                    <a href="https://www.furmancenter.org/" aria-label="go to home page">
+                        <img width="597" height="120" src="https://www.furmancenter.org/wp-content/uploads/2025/11/nyu-furman-center-logo-white.svg" class="attachment-large size-large" alt="" decoding="async" loading="lazy" />                    </a>
+                </figure>
+            
+            <div class="fur-flex fur-flex-col md:fur-flex-row md:fur-items-center md:fur-justify-end fur-gap-y-8 fur-gap-x-6 fur-pt-8 md:fur-pt-6 fur-border-t-[1px] fur-border-orange">
+                
+<form role="search" method="get" class="search-form fur-flex fur-items-strech fur-w-full fur-mr-auto md:fur-max-w-[330px] fur-flex-1" action="https://www.furmancenter.org/">
+    <button
+        aria-label="Search"
+        class="fur-aspect-square fur-bg-orange fur-text-white fur-transition-colors fur-duration-200 fur-min-w-10 fur-flex-shrink-0 fur-rounded-l-radius-1 fur-grid fur-place-items-center  hover:fur-bg-peach hover:fur-text-purple"
+    >
+        <svg class="fur-w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+  <path
+    d="M14.3807 16L10.5753 12.1929C10.0724 12.5825 9.49255 12.8916 8.83562 13.1201C8.17869 13.3486 7.47647 13.4629 6.72898 13.4629C4.85078 13.4629 3.25973 12.8107 1.95584 11.5063C0.651946 10.2018 0 8.61014 0 6.73143C0 4.85271 0.651946 3.26109 1.95584 1.95655C3.25973 0.652183 4.85078 0 6.72898 0C8.60701 0 10.198 0.652183 11.5019 1.95655C12.8059 3.26109 13.458 4.85271 13.458 6.73143C13.458 7.48325 13.3437 8.18572 13.1153 8.83883C12.8867 9.49195 12.5777 10.068 12.1884 10.5669L16 14.386L14.3807 16ZM6.72898 11.1557C7.95971 11.1557 9.0045 10.7261 9.86334 9.86693C10.7222 9.00795 11.1516 7.96278 11.1516 6.73143C11.1516 5.50008 10.7222 4.45491 9.86334 3.59593C9.0045 2.73677 7.95971 2.30719 6.72898 2.30719C5.49808 2.30719 4.45321 2.73677 3.59436 3.59593C2.73569 4.45491 2.30635 5.50008 2.30635 6.73143C2.30635 7.96278 2.73569 9.00795 3.59436 9.86693C4.45321 10.7261 5.49808 11.1557 6.72898 11.1557Z"
+    fill="currentColor" />
+</svg>    </button>
+
+    <label class="fur-w-full">
+        <span class="fur-sr-only">
+            Search for:        </span>
+
+        <input
+            type="search"
+            placeholder="Search&hellip;"
+            value=""
+            name="s"
+            class="search-field fur-body--xs"
+        >
+    </label>
+</form>
+
+                                    <nav>
+                        <ul class="fur-list-none fur-flex fur-flex-col md:fur-flex-row fur-gap-6">
+                                                            <li>
+                                    
+<a href="https://www.furmancenter.org/privacy/"
+    class="fur-footer-link fur-no-underline fur-text-white fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="">
+  Privacy Policy</a>
+                                </li>
+                                                            <li>
+                                    
+<a href="#consent-preferences"
+    class="fur-footer-link fur-no-underline fur-text-white fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target=""     rel="noopener noreferrer">
+  Consent Preferences</a>
+                                </li>
+                                                            <li>
+                                    
+<a href="https://radishlab.com/"
+    class="fur-footer-link fur-no-underline fur-text-white fur-transition-colors fur-duration-200 hover:fur-text-orange"
+     target="_blank"     rel="">
+  Built by Radish Lab</a>
+                                </li>
+                                                    </ul>
+                    </nav>
+                
+                <button
+                    type="button"
+                    data-cc="show-preferencesModal"
+                    class="fur-footer-link fur-no-underline fur-text-white fur-transition-colors fur-duration-200 hover:fur-text-orange fur-bg-transparent fur-border-0 fur-p-0 fur-cursor-pointer"
+                >
+                    Cookie Preferences                </button>
+
+                                    <p class="fur-footer-link">
+                        &copy;2026 The Furman Center                    </p>
+                            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+        <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp/wp-*.php","/wp/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/fur001/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+    <!-- Google tag (gtag.js) -->
+    <script type="text/plain" data-category="analytics" data-src="https://www.googletagmanager.com/gtag/js?id=G-8P2EGFMLH0" async></script>
+    <script type="text/plain" data-category="analytics">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8P2EGFMLH0');
+    </script>
+    <script>
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	if (newUrl.substr(0, 1) == '&') {
+		newUrl = '?' + newUrl.substr(1)
+	}
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+</script>
+<script type="module" id="block-columns-view-js" src="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/view-BLx5zXwl.js"></script>
+<script type="module" id="block-footer-view-js" src="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/view-Bir18a8D.js"></script>
+<script type="module" id="block-header-view-js" src="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/view-BGPEs-GN.js"></script>
+<script type="module" id="block-hero-banner-view-js" src="https://www.furmancenter.org/wp-content/themes/fur001/public/build/assets/view-iB16Loj2.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.furmancenter.org/wp/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.furmancenter.org/wp/wp-includes/js/wp-emoji-loader.min.js
+</script>
+  </body>
+</html>

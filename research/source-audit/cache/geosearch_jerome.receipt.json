@@ -1,0 +1,22 @@
+{
+  "id": "geosearch_jerome",
+  "url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+  "publisher": "NYC Planning Labs",
+  "purpose": "Worked-case identity",
+  "retrieved_at": "2026-10-03T15:51:02.940023+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "bytes": 10401,
+  "sha256": "1414beb9a36ef502a09e2612100ed34fe3371eafd039d1b3d273245b6fa54341",
+  "cache_path": "cache/geosearch_jerome.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "geocoding",
+    "type",
+    "features",
+    "bbox"
+  ]
+}

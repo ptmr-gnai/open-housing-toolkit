@@ -1,0 +1,80 @@
+[
+  {
+    "id": "acris_legals_lead",
+    "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D2%20AND%20block%3D2871%20AND%20lot%3D2&%24limit=1000&%24order=document_id",
+    "publisher": "NYC DOF",
+    "purpose": "Parcel document join"
+  },
+  {
+    "id": "dob_now_bin_lead",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bin%3D%272008638%27&%24select=job_filing_number%2Cbbl%2Cbin%2Cjob_type%2Cfiling_status%2Cfiling_date%2Chouse_no%2Cstreet_name%2Cjob_description&%24limit=1000",
+    "publisher": "NYC DOB",
+    "purpose": "Alias and BIN cross-check"
+  },
+  {
+    "id": "hpd_hunter_rfp",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/hunterspointe-rfp.page",
+    "publisher": "NYC HPD",
+    "purpose": "Worked procurement"
+  },
+  {
+    "id": "hpd_design_docs",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/design-guidelines-new-construction.pdf",
+    "publisher": "NYC HPD",
+    "purpose": "Design document"
+  },
+  {
+    "id": "dec_erm",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "Remediation GIS discovery"
+  },
+  {
+    "id": "dec_search_layers",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/search_layers/MapServer?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "Layer metadata"
+  },
+  {
+    "id": "geosearch_readme",
+    "url": "https://raw.githubusercontent.com/NYCPlanning/labs-geosearch/master/README.md",
+    "publisher": "NYC Planning Labs",
+    "purpose": "Implementation documentation"
+  },
+  {
+    "id": "geosearch_api_repo",
+    "url": "https://api.github.com/repos/NYCPlanning/labs-geosearch",
+    "publisher": "NYC Planning Labs",
+    "purpose": "Implementation discovery"
+  },
+  {
+    "id": "geosupport_new",
+    "url": "https://www.nyc.gov/content/planning/pages/resources/datasets/geosupport-desktop",
+    "publisher": "NYC DCP",
+    "purpose": "Address process"
+  },
+  {
+    "id": "mta_subway_gtfs",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+    "publisher": "MTA",
+    "purpose": "Actual schedule download"
+  },
+  {
+    "id": "census_lodes_technical",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/LODESTechDoc8.1.pdf",
+    "publisher": "US Census Bureau",
+    "purpose": "Job data methods"
+  },
+  {
+    "id": "furman_xlsx",
+    "url": "https://www.furmancenter.org/files/CoreData/Neighorhood_Indicators_CoreDataDownload_2026-05-05.xlsx",
+    "publisher": "NYU Furman Center",
+    "purpose": "Download test"
+  },
+  {
+    "id": "hpd_ncf_uw_catalog",
+    "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Housing%20New%20York%20Units%20Building&limit=3",
+    "publisher": "NYC Open Data",
+    "purpose": "HPD housing production discovery"
+  }
+]

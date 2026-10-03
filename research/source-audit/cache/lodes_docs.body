@@ -1,0 +1,1502 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+
+<meta name="description" content="Download LEHD data to explore employment, worker mobility, commuting patterns, and workforce trends with LODES, QWI, J2J, PSEO, and VEO statistics" />
+
+<title>LEHD Data Products for Workforce Analytics | U.S. Census Bureau</title>
+
+<link rel="canonical" href="https://lehd.ces.census.gov/data/">
+
+	<!-- lehd jquery was clashing with the census header jquery -->
+	<!-- javascript files moved to footer -->
+
+	<!-- CSS Styles --> 
+	<link href="/css/SiteDefined.css" rel="stylesheet" type="text/css"  media="all, handheld" />
+
+	<link href="/css/menus.css" rel="stylesheet" type="text/css" media="all, handheld" />
+
+	<link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+	<link href="/css/2col.css" rel="stylesheet" type="text/css" media="all, handheld" />
+
+
+
+<div id="page-container">
+
+
+    <script src="https://www.census.gov/main/uswds/uswds-2.12.0/js/uswds-init.min.js"></script>
+   <!-- <link rel="stylesheet" href="https://www.census.gov/main/uswds/uswds-2.12.0/css/uswds.min.css" /> -->
+  <!--  <link rel="stylesheet" href="https://www.census.gov/main/.in/css/all_header_styles.css" /> -->
+  <link rel="stylesheet" href="https://www.census.gov/main/css/all_header_styles.css" />
+   
+
+    <script src="https://www.census.gov/main/uswds/uswds-2.12.0/js/uswds.min.js"></script>
+    <section class="usa-banner" aria-label="Official government website">
+        <div class="usa-accordion">
+          <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+              <div class="grid-col-auto">
+                <img
+                  class="usa-banner__header-flag"
+                  src="https://www.census.gov/main/uswds/uswds-2.12.0/img/us_flag_small.png"
+                  alt="U.S. flag"
+                />
+              </div>
+              <div class="grid-col-fill tablet:grid-col-auto">
+                <p class="usa-banner__header-text">
+                  An official website of the United States government
+                </p>
+                <!-- <p class="usa-banner__header-action" aria-hidden="true">
+                  Here's how you know
+                </p>
+              </div>
+              <button
+                class="usa-accordion__button usa-banner__button"
+                aria-expanded="false"
+                aria-controls="gov-banner-default"
+              >
+                <span class="usa-banner__button-text">Here's how you know</span>
+              </button>
+            </div>
+          </header>
+          <div class="usa-banner__content usa-accordion__content" id="gov-banner-default">
+            <div class="grid-row grid-gap-lg">
+              <div class="usa-banner__guidance tablet:grid-col-6">
+                <img
+                  class="usa-banner__icon usa-media-block__img"
+                  src="https://www.census.gov/main/uswds/uswds-2.12.0/img/icon-dot-gov.svg"
+                  role="img"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <div class="usa-media-block__body">
+                  <p>
+                    <strong> Official websites use .gov </strong>
+                    <br />
+                    A <strong>.gov</strong> website belongs to an official government
+                    organization in the United States.
+                  </p>
+                </div>
+              </div>
+              <div class="usa-banner__guidance tablet:grid-col-6">
+                <img
+                  class="usa-banner__icon usa-media-block__img"
+                  src="https://www.census.gov/main/uswds/uswds-2.12.0/img/icon-https.svg"
+                  role="img"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <div class="usa-media-block__body">
+                  <p>
+                    <strong> Secure .gov websites use HTTPS </strong>
+                    <br />
+                    A <strong>lock</strong> (
+                    <span class="icon-lock"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="52"
+                        height="64"
+                        viewBox="0 0 52 64"
+                        class="usa-banner__lock-image"
+                        role="img"
+                        aria-labelledby="banner-lock-title-default banner-lock-description-default"
+                        focusable="false"
+                      >
+                        <title id="banner-lock-title-default">Lock</title>
+                        <desc id="banner-lock-description-default">A locked padlock</desc>
+                        <path
+                          fill="#000000"
+                          fill-rule="evenodd"
+                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/>
+                        </svg></span>
+                    ) or <strong>https://</strong> means you ve safely connected to
+                    the .gov website. Share sensitive information only on official,
+                    secure websites.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+         <!-- </div>
+        </div>-->
+      </section>
+
+
+<!-- Adding original census.gov css -->
+<!-- 
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/bootstrap.css" class="cb-main-support global-file">
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/base.css" class="cb-main-support global-file">
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/extra.css" class="cb-main-support global-file">
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/typeahead.css" class="cb-main-support global-file">
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/header.css" class="cb-main-support global-file">
+<link rel="stylesheet" href="https://www.census.gov/main/css/_new/search.css" class="cb-main-support global-file">
+ -->
+
+<style id="antiClickjack">
+    body {
+        display: none !important
+    }
+</style>
+<script type="text/javascript" src="https://www.census.gov/main/javascript/clickjack.js"></script>
+<script src="/js/jquery.js"
+    class="cb-main-support global-file"></script>
+<!-- <script src="https://www.census.gov/main/javascript/jquery-ui-1.13.2/jquery-ui.js" class="cb-main-support global-file"></script> -->
+
+<!-- Check for jquery conflict -->
+<script type="text/javascript">
+
+	$.ajax({
+		type : 'get',
+		url : 'https://www.census.gov/main/app-config/header/adobe-launch.txt',	
+		dataType: 'text',            	
+		success : function(data){		 		
+	                var adobeLaunchScript = document.createElement("script");
+	                adobeLaunchScript.setAttribute("src",data);
+	                document.head.appendChild(adobeLaunchScript);
+	            },
+	    error : function(xhr, errorText, errorMessage){
+	                console.log('adobe-launch URL recognition failed: ' + errorText);
+	            }
+	});
+
+    $acn = jQuery.noConflict();
+    if (typeof jQuery === 'undefined' || typeof $ === 'undefined') {
+        jQuery = $acn;
+        $ = $acn;
+    }
+    $(function () {
+        $('.cb-header-skip-nav').click(function () {
+            $('#cb-after-header-anchor').focus();
+        });
+    });
+</script>
+
+<script src="https://www.census.gov/main/responsive-header/bootstrap-custom/js/bootstrap.js"
+    class="cb-main-support global-file"></script>
+<!-- <script src="https://www.census.gov/main/responsive-header/js/typeahead.js" class="cb-main-support global-file"></script> -->
+
+
+<style type="text/css">
+    header.hdr-primary,
+    header.hdr-primary>nav {
+        display: flex !important;
+        align-items: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 64px !important;
+        background-color: #112e51 !important;
+       /* border-color: #0000 !important;*/
+    }
+
+    header.hdr-primary>nav>div {
+        box-sizing: border-box !important;
+        height: 36.62px !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.02em !important;
+        line-height: 30px !important;
+        white-space: nowrap !important;
+        vertical-align: baseline !important;
+        padding: 0 0 0 16px !important;
+        margin: 0 !important;
+        min-width: 150px !important;
+    }
+
+    header.hdr-primary>nav>div>a,
+    header.hdr-primary>nav>div>a>img {
+        padding: 0 !important;
+        margin: 0 !important;
+        border-style: none !important;
+        background: transparent !important;
+        text-decoration: none !important;
+    }
+
+    header.hdr-primary>nav>div>a {
+        box-sizing: border-box !important;
+        cursor: pointer !important;
+        text-decoration: none !important;
+    }
+
+    header.hdr-primary>nav>div>a>img {
+        width: 86px !important;
+        height: 33.62px !important;
+        margin-left: 15px !important;
+    }
+    hr.blue-line {
+   /* border-top-width: 2px;*/
+   /* border-color: #d0dce1;*/
+    margin: 0px;
+    border-bottom: #d0dce1 1px solid;
+    
+    }
+    
+</style>
+<button class="cb-header-skip-nav sr-only sr-only-focusable">Skip to main content</button>
+
+<header class="hdr-primary">
+    <nav>
+        <!--  <div><a href="https://www.census.gov" id="census-home-link"><img src="https://data.census.gov/cedsci/img/census-logo-white.25c8cb29.svg" alt="United States Census Bureau" title="U.S. Census Bureau"></a></div> 
+          <div class="transbox"><a href="https://www.census.gov" id="census-home-link"><img src="https://www.census.gov/main/.in/USCENSUS_IDENTITY_SOLO_White_2in_TM.svg" alt="United States Census Bureau" title="U.S. Census Bureau"></a></div>
+    -->
+        <div><a href="https://www.census.gov" id="census-home-link">
+
+<img
+                    src="https://www.census.gov/main/img/USCENSUS_IDENTITY_SOLO_WHITE_2in_R.svg" 
+                    alt="United States Census Bureau" title="U.S. Census Bureau"
+>
+
+</a>
+
+</div>
+    </nav>
+
+</header>
+
+
+<hr class="blue-line">
+<a class="sr-only" tabindex="-1" id="cb-after-header-anchor">end of header</a>
+
+
+
+
+
+
+
+
+<style>
+    #div-3 {
+    	background-color: #FBD603;
+    }
+</style>
+<td>
+<div id="masthead">
+	<h1>Longitudinal Employer-Household Dynamics</h1>
+</div>
+
+<script type="text/javascript" src="/js/breadcrumbs.js"></script>
+
+<span style="height: 0; width: 0;  overflow: hidden;  position: absolute; font-size: 0;"><a href="#SKIP2" title="Skip Navigation">Skip top of page navigation</a></span>
+<div id="dropdown" class="clearfix rMenu-hor rMenu">
+<ul id="middlemenu" class="clearfix rMenu-hor rMenu">
+
+	<li><a href="/">Main</a></li>
+	<li><a href="/applications/">Applications</a></li>
+	<li><a href="/data/">Data</a></li>
+	<li><a href="/workshops_webinars/">Workshops/Webinars
+</a></li>
+
+	<li><a href="/training/">Training</a></li>
+	<li><a href="/upcoming_data/">Upcoming Data</a></li>
+
+
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/state_partners/">State Partners</a></li>
+<li><a href="/led_in_action/">LED in Action</a></li>
+</ul>
+</div>
+<!--anti-clickjacking for browsers which don't support X-Frame-Options-->
+<style> html{display:none;} </style>
+<script type="text/javascript">
+if(self == top) {
+document.documentElement.style.display = 'block'; 
+} else {
+top.location = self.location; 
+} 
+</script>
+
+<script type="text/javascript" src="/js/navtabs.js"></script>
+</head>
+
+<body>
+
+<a name="SKIP2"></a>
+<!--horizontal nav end-->
+<!--includes end here-->
+
+<div id="outer-column-container">
+	<div id="inner-column-container">
+		<div id="source-order-container">
+
+
+
+
+<div id="left-column"><div class="inside">     <div class="navcontainer">         <div id="emergency_notice">             <h3>Alert</h3>              <div class="hi-lite">                 <p>                 </p>             </div>         </div>          <h3>Applications</h3>          <ul class="navlist">  
+
+<li><a href="https://j2jexplorer.ces.census.gov/" target="_blank">J2J Explorer</a></li> 
+
+<li><a href="https://ledextract.ces.census.gov/" target="_blank">LED Extraction Tool</a></li>         
+
+<li><a href="https://onthemap.ces.census.gov/" target="_blank">OnTheMap</a></li>             
+
+<li><a href="https://onthemap.ces.census.gov/em.html" target="_blank">OnTheMap for Emergency Management</a></li>  
+
+<li><a href="/data/pseo_explorer.html" target="_blank">PSEO Explorer</a></li> 
+
+<li><a href="https://qwiexplorer.ces.census.gov/" target="_blank">QWI Explorer</a></li>             
+
+
+<li><a href="/applications/veo" target="_blank">VEO Explorer</a></li> 
+	
+</ul>          <h3>Useful Links</h3>          
+<ul id="useful_links" class="navlist"> 
+            
+<li><a href="https://www.census.gov/programs-surveys/ces.html">Center for Economic Studies</a>
+</li>     
+        
+<li><a href="/data/#j2j">J2J Data</a></li>  
+
+<li><a href="/data/#lodes">LODES Data</a></li> 
+
+<li><a href="/data/pseo_experimental.html">PSEO Data</a></li>  
+
+<li><a href="/data/#qwi">QWI Data</a></li>             
+         
+
+<li><a href="/data/veo_experimental.html">VEO Data</a></li>  
+
+ <li><a href="/workshops_webinars/#workshop">LED Workshop</a></li> 
+ 
+</ul>          
+
+<h3>Contact Information</h3>          <div id="contact_information" class="hi-lite">             <p>                 Email us:<br/><br/> <a href="mailto:&#67;&#69;&#83;&#46;&#76;&#111;&#99;&#97;&#108;&#46;&#69;&#109;&#112;&#108;&#111;&#121;&#109;&#101;&#110;&#116;&#46;&#68;&#121;&#110;&#97;&#109;&#105;&#99;&#115;&#64;&#99;&#101;&#110;&#115;&#117;&#115;&#46;&#103;&#111;&#118;">General</a>
+
+<br />
+<br />
+<a href="mailto:&#67;&#69;&#83;&#46;&#79;&#110;&#84;&#104;&#101;&#77;&#97;&#112;&#46;&#70;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#101;&#110;&#115;&#117;&#115;&#46;&#103;&#111;&#118;
+">LODES/OnTheMap</a>                 
+
+<br />
+<br />
+<a href="mailto:&#67;&#69;&#83;&#46;&#81;&#87;&#73;&#46;&#70;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#101;&#110;&#115;&#117;&#115;&#46;&#103;&#111;&#118;
+">QWI/QWI Explorer</a>                 
+
+<br />
+<br />
+<a href="mailto:&#67;&#69;&#83;&#46;&#106;&#50;&#106;&#46;&#70;&#101;&#101;&#100;&#98;&#97;&#99;&#107;&#64;&#99;&#101;&#110;&#115;&#117;&#115;&#46;&#103;&#111;&#118;
+
+">J2J/J2J Explorer</a> 
+
+<br /><br />
+<a href="mailto:CES.PSEO.Feedback@census.gov";
+
+">PSEO/PSEO Explorer</a>                 
+                
+
+<br /><br />or<br /><br />                 
+
+
+Census Call Center: <a href="tel:3017634636">301-763-INFO (4636)</a> or <a href="tel:8009238282">800-923-8282</a>
+    </p>              
+<p>                 
+<a href="/contact.html">Further contact information</a>                 <br /><br />     
+<a href="/contact.html#partnerwithus">Partner With Us
+</a>  
+<br /><br />  
+
+<center>
+<table border="0" cellpadding="0" cellspacing="0"></tr><td>            
+
+
+
+
+
+
+
+<form action="https://public.govdelivery.com/accounts/USCENSUS/signup/40892" target="_new">
+
+<button class="favorite govdelivery">Subscribe for<br />LEHD Updates</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td></tr></table>
+</center>
+</p>         
+</div>     
+</div> 
+</div>  
+
+
+
+
+
+
+</div>
+
+<div id="middle-column">
+<h3 class="page_header">Data</h3>
+
+<div id="main_left" class="no_right">
+	<p id="data_intro">
+    LEHD makes available several data products that may be used to research and characterize workforce dynamics for specific groups. These data products include online applications, public-use data, and restricted-use microdata. The Quarterly Workforce Indicators (QWI), LEHD Origin-Destination Employment Statistics (LODES), Job-to-Job Flows (J2J), and Post-Secondary Employment Outcomes (PSEO) are available online for public use. Confidential microdata are available to qualified researchers with approved projects through restricted access use in <a href="https://www.census.gov/fsrdc">Federal Statistical Research Data Centers (FSRDCs)</a>. Examples of how to access and visualize public-use LEHD data products using open source programming languages can be found here: <a href="/data/lehd-code-samples/">lehd.ces.census.gov/data/lehd-code-samples</a>.
+
+<br /><br />
+Note: The data released by LEHD are based on tabulated and modeled administrative data, which are subject to error. Because the estimates are not derived from a probability-based sample, no sampling error measures are applicable. However, the data are subject to nonsampling errors, which can be attributed to many sources: misreported data, late reporters whose records are missing and imputed, and geographic/industry edits and imputations. The accuracy of the data is impacted by the joint effects of these nonsampling errors. While no direct measurement of these joint effects has been obtained, precautionary steps are taken in all phases of collection and processing to minimize the impact of nonsampling errors.
+	</p>
+
+<br /><br />
+
+		<div class="dp_nav hi-lite">
+			<h3 class="hi-litehead">J2J Help</h3>
+
+			<p>Learn more about J2J by choosing one of the links below.
+</p>
+
+<ul>
+<li><a href="/doc/j2j_101.pdf" target="_new">J2J 101</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+
+(1.01 MB)  
+
+</span>
+
+</li>
+
+<li><a href="/doc/J2J_quickstart_guide.pdf" target="_new">Job-to-Job Flows: Quick Start Guide
+</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+
+(325 KB)  
+
+</span>
+
+</li>
+
+<li><a href="/doc/jobtojob_documentation_long.pdf">Job-to-Job Flows: New Statistics on Worker Reallocation and Job Turnover
+</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">
+(740 KB)  
+</span></li>
+<li>
+<a href="/data/schema/j2j_latest/lehd_public_use_schema.html">Job-to-Job Flows: Data Dictionary and Schema
+</a></li>
+<li><a href="/doc/help/j2j_explorer/J2JVariableRelatedness.pdf">Job-to-Job Flow Variable Relatedness
+</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">
+
+(622 KB)  
+
+</span></li>
+
+<li><a href="/doc/J2J_data_notices.pdf" target="_new">
+Job-to-Job Flow Data Notices
+</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">
+
+
+(456 KB)  
+
+</span></li>
+
+</ul>
+			</ul>
+
+		</div>  <a name="j2j"></a>
+		<div class="dp_info">
+
+  <h4 class="page_subheader">Job-to-Job Flows (J2J)
+</h4>
+Job-to-Job Flows (J2J) is a set of statistics on job mobility in the United States. J2J include statistics on: (1) the job-to-job transition rate, (2) hires and separations to and from employment, (3) earnings changes due to job change, and (4) characteristics of origin and destination jobs for job-to-job transitions. These statistics are available at the national, state, and metropolitan area levels and by worker and firm characteristics.
+  <br />
+  <br />
+
+
+<p>
+To browse J2J data files, go to: <a href="/data/j2j/">lehd.ces.census.gov/data/j2j/</a>. J2J data can also be accessed via <a href="https://j2jexplorer.ces.census.gov" target="_new">Job-to-Job Flows Explorer</a>. This analysis and visualization tool allows for the construction of tables, maps, and charts to compare, aggregate and analyze flows by worker and firm characteristics. A research release of NAICS subsector J2J tabulations can be found at <a href="/data/j2j_subsector_research.html">lehd.ces.census.gov/data/j2j_subsector_research.html</a>.
+  </p>
+
+<div id="j2j_download_area"></div> 
+  </div>
+
+<p><a href="#top">top</a></p> 
+
+
+<br /><br />
+		<div class="dp_nav hi-lite">
+			<h3 class="hi-litehead">LODES Help</h3>
+
+			<p>Learn more about LODES by choosing one of the links below.</p>
+
+			<ul>
+				<li><a href="/applications/help/onthemap.html#!data_notices">OnTheMap Data Notices</a></li>
+
+<li><a href="/doc/help/onthemap/LODESTechDoc.pdf" target="_blank" rel="noopener noreferrer">LODES Tech Doc</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+
+(588 KB)  
+
+</span>
+
+
+</li>
+
+				<li><a href="/data/lodes/" target="_blank" rel="noopener noreferrer">LODES Data/Tech Doc Archive</a> </li>
+
+
+<li><a href="/data/lehd-code-samples/sections/lodes.html">LODES Code Samples</a> </li>
+
+<li><a href="https://www.census.gov/library/working-papers/2014/adrm/ces-wp-14-38.html" target="_new">Design Comparison Of LODES And ACS Commuting Data Products</a>
+</li>
+
+<li><a href="https://www2.census.gov/ces/wp/2020/CES-WP-20-30.pdf" target="_new">Quality Evaluation of QWI and LODES</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+(451 KB)
+</span>
+
+</li>
+
+			</ul>
+
+		</div>  
+
+
+
+<div class="dp_info">
+
+			<h4 id="lodes" class="page_subheader">LEHD Origin-Destination Employment Statistics (LODES)</h4>
+
+<p>LEHD Origin-Destination Employment Statistics (LODES) used by&nbsp;<a href="https://onthemap.ces.census.gov/">OnTheMap</a>&nbsp;are available for download below. Version 8 of LODES was enumerated by 2020 census blocks. Previous versions of LODES were enumerated with 2010 census blocks (LODES7) or 2000 census blocks (LODES5).</p>
+<p>Data files are state-based and organized into three types: Origin-Destination (OD), Residence Area Characteristics (RAC), and Workplace Area Characteristics (WAC), all at census block geographic detail. Data is available for most states for the years (2002-2023).
+</p>
+<p>To browse LODES data files, go to&nbsp;<a href="/data/lodes/">lehd.ces.census.gov/data/lodes/</a>.</p>
+<p><a name="_msocom_1" id="_msocom_1"></a></p>
+			
+			<div id="lodes_download_area"></div>
+
+		</div>
+
+
+
+
+
+<p><a href="#top">top</a></p><br />
+<a name="pseo"></a>
+
+	</div>
+
+		<div class="dp_info">
+  <h4 class="page_subheader">Post-Secondary Employment Outcomes (PSEO) (Experimental)
+</h4>
+<p>
+  Post-Secondary Employment Outcomes (PSEO) is a new set of statistics on the earnings and employment outcomes of graduates of select post-secondary institutions in the United States, and is constructed using LEHD data. Earnings Outcomes reports earnings by institution, degree field, degree level and graduation cohort for 1, 5 and 10 years after graduation. Employment Flows tabulations provide the destination industry and geography of employment for graduates of an institution by degree level, degree field, and graduation cohort, for one, five, and 10 years after graduation. A limited number of institutions are available as part of the pilot release, but future updates will include additional post-secondary institutions.
+
+  <p>
+Data coverage details and data files can be found here: 
+ <a href="/data/pseo_experimental.html">lehd.ces.census.gov/data/pseo_experimental.html</a>. Methodology and data source information can be found here: <a href="/data/pseo_documentation.html">lehd.ces.census.gov/data/pseo_documentation.html</a>.<br /> 
+  </p>
+
+<p>
+  To browse PSEO data files, go to: <a href="/data/pseo/">lehd.ces.census.gov/data/pseo/</a>.
+
+</p>
+<p>
+PSEO data can also be accessed via the <a href="/data/pseo_explorer.html" target="_new">PSEO Explorer</a> visualization tool. This interactive tool allows for comparisons of employment outcomes through dynamic grouped bar charts and employment flows through Sankey diagrams.</p>
+
+  </div>
+
+<p><a href="#top">top</a></p><br />
+
+		<div class="dp_nav hi-lite">
+			<h3 class="hi-litehead">QWI Help</h3>
+
+			<p>Learn more about QWI by choosing one of the links below.</p>
+
+			<ul>
+				<li><a href="/doc/QWI_101.pdf" target="_new">QWI 101</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+
+(1.06 MB)  
+
+</span>
+</li>
+				<li><a href="/doc/QWI_data_notices.pdf" target="_new">QWI Data Notices</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">
+
+(631 KB)  
+
+</span></li>
+
+                <li><a href="/data/schema/latest/lehd_public_use_schema.html">QWI Data Schema for Most Recent Release</a> </li>
+                <li><a href="/doc/technical_paper/tp-2006-01.pdf" target="_new">The LEHD Infrastructure Files and the Creation of the Quarterly Workforce Indicators</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">(252 KB)</span></li>
+
+                <li><a href="/doc/technical_paper/tp-2006-02.pdf" target="_new">Confidentiality Protection in the Census Bureau's Quarterly Workforce Indicators</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ <span class="file_size">(252 KB)</span></li>
+                
+
+<li><a href="/doc/QWI-Weight-Adjustment-R2021Q2.pdf" target="_new">QWI Weighting Adjustment </a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+(929 KB)  
+</span>
+
+</li>
+
+
+
+<li><a href="https://www2.census.gov/ces/wp/2020/CES-WP-20-30.pdf" target="_new">Quality Evaluation of QWI and LODES</a> <a href="//www.census.gov/main/www/pdf.html"><img class="pdf_icon" src="/images/pdficon.gif" alt="PDF icon" /></a>
+ 
+
+<span class="file_size">
+(451 KB)
+</span>
+
+</li>
+
+			</ul>
+
+
+
+		</div>
+
+
+
+<p><a name="qwi"></a></p>
+
+		<div class="dp_info">
+			<h4 class="page_subheader">Quarterly Workforce Indicators (QWI)</h4>
+
+			<p>
+            The Quarterly Workforce Indicators (QWI) are a set of economic indicators including employment, job creation, earnings, and other measures of employment flows. The QWI are reported based on detailed firm characteristics (geography, industry, age, size) and worker demographics information (sex, age, education, race, ethnicity) and are available tabulated to national*, state, metropolitan/micropolitan areas, county, and Workforce Investment Board (WIB) areas. 
+</P>
+<p>
+*Note: National QWIs are currently released as Beta and can be accessed at <a href="/data/qwi_national.html">lehd.ces.census.gov/data/qwi_national.html</a>.
+</P>
+<p>
+QWI data can be accessed through the following tools:
+
+
+			</p>
+
+            <ul class="standard_list">
+
+			<li>Comparisons and Rankings with <a href="https://qwiexplorer.ces.census.gov/" target="_blank" rel="noopener noreferrer">QWI Explorer</a></li>
+                <li>Custom queries with the <a href="https://ledextract.ces.census.gov/" target="_blank" rel="noopener noreferrer">LED Extraction Tool</a></li>
+<li>Mobile and web queries through the <a href="http://www.census.gov/data/developers/data-sets/qwi.html">Census API</a>
+                <li>Direct data download using the tool below</li>
+            </ul>
+
+To browse QWI data files, go to <a href="/data/qwi/">lehd.ces.census.gov/data/qwi/</a>.
+<br />
+
+</p>
+
+			<div id="qwi_download_area"></div> 
+        </div>
+    </div>
+
+
+
+<p><a href="#top">top</a></p><br /><br />
+
+<a name="veo"></a>
+
+		<div class="dp_info">
+  <h4 class="page_subheader">Veteran Employment Outcomes (VEO) (Experimental)</h4>
+<p>
+
+Veteran Employment Outcomes (VEO) are experimental statistics on veterans' labor market outcomes one, five, and 10 years after discharge, by military occupation, rank, demographics (age, sex, race, ethnicity, education), industry and geography of employment. These statistics are generated by linking veteran records provided by the Department of Defense to national administrative data on jobs at the U.S. Census Bureau. Coverage of the data includes veterans honorably discharged between 2002 and 2021 from the Air Force, Army, Coast Guard, Marine Corps, and Navy (about 2.8 million veterans).
+
+  <p>
+Documentation and CSV files are available for download here: 
+ <a href="/data/veo_experimental.html">lehd.ces.census.gov/data/veo_experimental.html</a><br /> 
+  </p>
+
+<p>To browse VEO data files, go to: <a href="/data/veo/">lehd.ces.census.gov/data/veo/</a>.
+
+</p>
+<p>
+VEO data can also be accessed via the <a href="/applications/veo" target="_new">VEO Explorer</a> 
+
+visualization tool. This interactive tool allows for comparisons of veterans outcomes via an easy-to-use line and bar chart interface.
+</p>
+
+
+  </div>
+
+<a href="#top">top</a></p>
+
+
+
+	<div class="dp_row">
+		<div class="dp_info">
+<a name="microdata"></a>
+
+			<h4 class="page_subheader">Restricted-Use Microdata</h4>
+
+			<p>
+In addition to public-use data products, LEHD microdata are available for research use in approved projects. Researchers interested in using restricted-use LEHD data must submit a proposal to conduct research at a secure <a href="https://www.census.gov/about/adrm/fsrdc.html">Federal Statistical Research Data Center (FSRDC)</a>. LEHD data available in the FSRDCs includes job-level quarterly earnings history data, person-level demographic data, establishment-level firm characteristics, and establishment-level Quarterly Workforce Indicators. Detailed information about restricted-use LEHD data, including available states and years, is on the <a href="https://www.census.gov/programs-surveys/ces/data/restricted-use-data/lehd-data.html">CES LEHD Data page</a>. Additional details are also available in the <a href="/data/lehd-snapshot-doc/latest/">LEHD Snapshot documentation</a>.
+            </p>
+		</div>
+	</div>
+
+
+
+
+<a href="#top">top</a>
+	<div class="dp_row">
+		<div class="dp_info">
+<a name="datacitations"></a>
+
+			<h4 class="page_subheader">LEHD Data Citations
+</h4>
+
+<p>
+
+{File Name} refers to the specific raw data file that was accessed.
+</p>
+<p>
+{Vintage} (e.g. R2017Q2) can be found in the "version" text file that is distributed with each data series.
+</p>
+<p>
+{Date} refers to the day, month, and year in which the data were accessed.
+</p>
+<h5>
+Job-to-Job Flows (J2J)
+</h5>
+<p>
+U.S. Census Bureau, "{File Name}," Job-to-Job Flows, {Vintage}, <a href="/data/j2j">https://lehd.ces.census.gov/data/j2j</a>, accessed on {Date}.
+</p>
+<p>
+<i>Example:</i>
+</p>
+<p>
+U.S. Census Bureau, "j2j_al_d_f_gs_n_oslp_u," Job-to-Job Flows, R2025Q1, <a href="/data/j2j">https://lehd.ces.census.gov/data/j2j</a>, accessed on May 12, 2025.
+</p>
+<h5>
+LEHD Origin-Destination Employment Statistics (LODES)
+</h5>
+
+<p>
+U.S. Census Bureau, "{File Name}," LEHD Origin-Destination Employment Statistics, {Vintage}, <a href="/data/lodes">https://lehd.ces.census.gov/data/lodes</a>, accessed on {Date}.
+
+</p>
+<p>
+<i>Example:</i>
+<p>
+U.S. Census Bureau, "al_od_main_JT00_2022," LEHD Origin-Destination Employment Statistics, 8.3, <a href="/data/lodes">https://lehd.ces.census.gov/data/lodes</a>, accessed on May 12, 2025.
+</p>
+
+<h5>
+Post-Secondary Employment Outcomes (PSEO)
+</h5>
+
+<p> 
+U.S. Census Bureau, "{File Name}," Post-Secondary Employment Outcomes [Experimental], {Vintage}, <a href="/data/pseo"> https://lehd.ces.census.gov/data/pseo</a>, accessed on {Date}.
+</p>
+<p>
+<i>Example:</i>
+<p>
+U.S. Census Bureau, "pseo_al," Post-Secondary Employment Outcomes [Experimental], R2024Q4, <a href="/data/pseo">https://lehd.ces.census.gov/data/pseo</a>, accessed on May 12, 2025.
+</p>
+
+
+
+<h5>
+
+Quarterly Workforce Indicators (QWI)
+
+</h5>
+<p>
+U.S. Census Bureau, "{File Name}," Quarterly Workforce Indicators, {Vintage}, 
+
+<a href="/data/qwi">https://lehd.ces.census.gov/data/qwi</a>, accessed on {Date}.
+</p>
+
+<i>Example:</i>
+<p>
+U.S. Census Bureau, "qwi_al_se_fs_gw_ns_op_u," Quarterly Workforce Indicators, R2025Q2, <a href="/data/qwi">https://lehd.ces.census.gov/data/qwi</a>, accessed on May 12, 2025.
+</p>
+
+
+
+<h5>
+Veteran Employment Outcomes (VEO)
+</h5>
+<p>
+U.S. Census Bureau, "{File Name}," Veteran Employment Outcomes [Experimental], {Vintage},
+
+<a href="/data/veo">https://lehd.ces.census.gov/data/veo</a>, accessed on {Date}.
+</p>
+
+<i>Example:</i>
+<p>
+U.S. Census Bureau, "veoa," Veteran Employment Outcomes [Experimental], R2024Q4, <a href="/data/veo">https://lehd.ces.census.gov/data/veo</a>, accessed on May 12, 2025.
+
+</p>
+
+</p>
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+<a href="#top">top</a></p>
+
+	<div class="dp_row">
+		<div class="dp_info star_note">
+            <b>*</b> All CSV files are compressed using a <a href="http://www.gzip.org" target="_blank" rel="noopener noreferrer">GZip</a> <img class="offsite_image" src="//www.census.gov/main/www/img/offsite.gif" title="This link to a non-federal Web site does not imply endorsement of any particular product, company, or content." alt="This link to a non-federal Web site does not imply endorsement of any particular product, company, or content." />
+ algorithm, which appends a ".gz" to the end of the filename. Most commonly used compression/extraction software packages can decompress these files (see <a href="http://en.wikipedia.org/wiki/Zip_(file_format)" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Zip_(file_format)</a> <img class="offsite_image" src="//www.census.gov/main/www/img/offsite.gif" title="This link to a non-federal Web site does not imply endorsement of any particular product, company, or content." alt="This link to a non-federal Web site does not imply endorsement of any particular product, company, or content." />
+).
+        </div>
+    </div>
+</div><!--close main_left-->
+</div><!--close middle column-->
+
+
+</div>
+<!--close source-order-container--></div><!--close inner-column-container--></div><!--close outer-column-container--><div class="clear-columns"></div><!--do not delete-->
+
+<!-- START CB Footer - Last Revised: 10/04/2022 -->
+<!-- Responsive Version -->
+
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="https://www.census.gov/main/css/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--  <link rel="stylesheet" type="text/css" href="https://www.census.gov/main/css/bootstrap-4.3.1.min.css">-->
+<link rel="stylesheet" type="text/css" href="https://lehd.ces.census.gov/css/footer.css">
+
+
+<!-- <script src="https://www.census.gov/main/javascript/jquery-3.0.0/jquery.min.js"></script>
+<script src="https://www.census.gov/main/javascript/bootstrap-4.3.1/bootstrap.min.js"></script>-->
+
+<style>
+
+@media only screen and (max-width: 700px) {
+    .val {
+    width: 100%;
+    margin: auto 0;
+    
+}
+
+a{
+font-size: small;
+}
+
+.foot_bottom_links{
+width: 100%;
+
+text-align:left;
+}
+
+}
+
+hr.foot-line {
+margin-bottom: 10px;
+}
+
+
+
+</style>
+
+
+        
+        <footer class="footer container-fluid">
+   <div class="row">
+  
+    <div class="grid_footer_links cf">
+   
+
+        <div class="foot_bottom">
+            <div class="foot_bottom_links">
+            
+                <div class="footerbottom">
+                
+                 
+                <div class="val">
+					<a class="foot_bottom_socialLinks" href="https://www.census.gov/about/contact-us/social_media.html">CONNECT WITH US</a>
+                    <a class="social-icon" href="https://www.facebook.com/uscensusbureau"><i class="fa fa-facebook"></i></a>
+                    <a class="social-icon" href="https://twitter.com/uscensusbureau"><i class="fa fa-twitter"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/company/us-census-bureau"><i class="fa fa-linkedin"></i></a>
+                    <a class="social-icon" href="https://www.youtube.com/user/uscensusbureau"><i class="fa fa-youtube"></i></a>
+                    <a class="social-icon" href="https://www.instagram.com/uscensusbureau/"><i class="fa fa-instagram"></i></a>
+                    <!-- <i class="foot_bottom_socialLinks" href="https://public.govdelivery.com/accounts/USCENSUS/subscriber/new" target="_blank"><img src="//www.census.gov/main/img/Mail_White.svg" alt="Email Updates logo" title="Email Updates"/></i> -->
+</div>
+
+<div class="val">
+                    <ul class="legal-menu">
+                    <li><a href="https://www.census.gov/quality/">Information Quality</a></li>
+                    <li><a href="https://www.census.gov/datalinkage/">Data Linkage Infrastructure</a></li>
+                    <li><a href="https://www.census.gov/privacy/">Data Protection and Privacy Policy</a></li>
+                    <li><a href="https://www.census.gov/about/policies/privacy/privacy-policy.html#accessibility">Accessibility</a></li>      
+                    <li><a href="https://www.census.gov/foia/">FOIA</a></li>
+                    <li><a href="https://www.oig.doc.gov/Pages/default.aspx">Inspector General</a></li>
+                    <li><a href="https://www.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR Act</a></li>
+                    <li><a href="https://www.commerce.gov/">U.S. Department of Commerce</a></li>
+                    <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                        
+                    </ul>
+                   
+                   </div>
+                   <hr class="foot-line">
+                   <p class="foot_bottom_tagline">Measuring America's People, Places, and Economy</p>
+                   </div> 
+                </div> <!-- end class=footerbotom -->
+            </div> <!-- end class=foot_bottom_links -->
+        </div> <!-- end class=grid_footer_links -->
+    </div>
+</footer> <!-- end class=footer -->
+
+<div id="ratingTool"><!-- START Rating Tool -->
+
+
+<div id = "ratingtooljquery"></div>
+
+
+<script id="ratingtooljs" type="text/javascript" src="https://www.census.gov/ratingtool/js/ratingtool.js"></script> 
+
+
+ <style>
+ 
+ *::before,
+*::after {
+  box-sizing: content-box !important; 
+}
+ 
+ 
+ 
+ /*prevent scrollbar in IE10 from covering tool*/
+html {
+   -ms-overflow-style: scrollbar;
+}
+/*thumbs div*/
+#thumbs_div {
+	display: none;
+}
+#ratingtooljquery center{
+	
+	position: relative;
+	top: 15px;
+	right: 34px;
+   background-color: red;
+
+	
+}
+
+.rate-ratingtool_div { 
+    position:fixed;
+    right:0.2%;
+    bottom:0.5%;
+    margin: 0;
+    width:174px;
+    height:56px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-size:100%;
+    cursor: default;
+    z-index:100;
+   /*border: 1px solid lightgrey;*/
+   padding: 12px;
+   box-shadow: -2px -4px 12px 0px #D1D1D1;
+   box-sizing: content-box;
+   background-color: white;
+}
+
+.rate-WasThisPageHelpful_div{
+/*     position:absolute; */
+    top:0px;
+    bottom:-0.5%;
+    left:0px;
+    right:-1px;
+    height:85%;
+    width:85%;
+    margin:auto;
+    text-align:left;
+    background: #fff;
+    padding: 5px;
+    box-sizing: content-box;
+
+
+}
+.rate-WasThisPageHelpfulText{
+    font-family: "Roboto", "Roboto Bold";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    font-style: normal;
+    position: relative;
+   /* top: 11;
+    left: 6;*/
+}
+
+
+.yes-no-box{
+    padding-top: 3px;
+}
+
+.YesNoText{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #333333;
+    cursor: pointer;
+
+
+}
+
+
+.YesNoText:hover{
+	
+	border-bottom: 2px solid #333333;
+	
+	
+}
+
+.thumbs-valign {
+  	vertical-align: middle;
+/*   	padding-left:1.4em; */
+  	cursor: pointer;
+  	box-sizing: content-box;
+}
+.thumbs-valign:focus{
+  	vertical-align: middle;
+  	padding-left:1.4em;
+  	cursor: pointer;
+        /*outline: 1px dotted #036391;*/
+}
+
+.thumbs-valign:hover{
+	filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4)); 
+	
+}
+
+#thumbsdown{
+    padding-left:1.4em;
+}
+
+.NoThanks:focus{
+        outline: 1px dotted #036391;
+}
+
+#RatingToolSubmit:focus{
+        outline: 1px dotted #036391;
+}
+
+/*****Popup******/
+#popupRating {
+	position:fixed;
+	right:0.2%;
+	bottom:0.5%;
+	margin:0;
+	width: 293px;
+	height: 263px;
+	font-family:'Roboto';
+	box-sizing: border-box;
+	box-shadow: -2px -4px 12px 0px #D1D1D1;
+	background-color:white;
+	cursor: default;
+	z-index:100;
+	display: none;
+	font-weight: 700;
+	font-size: 15px;
+
+
+}
+
+#popupRatingHeadingContainer{
+	padding-left: 12px;
+	padding-top: 12px;
+}
+#popupRatingHeading {
+	font-family: "Arial-BoldMT", "Arial Bold", "Arial";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #3d6eb1;
+    margin-bottom: 10px;
+}
+
+#RatingTool_textarea {
+	position: absolute;
+	left: 8.5px;
+	top: 109px;
+	width:260px;
+	height:127px;
+	font-family: "Roboto";
+	line-height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	color:  #333333;
+	text-align: left;
+	box-sizing: border-box;
+	border:solid 1px #7E99A6;
+	outline: none;
+	padding:5px;
+
+
+}
+
+textarea#RatingTool_textarea:focus { 
+        border: 2px solid #2492FF; 
+} 
+
+#RatingTool_textarea::-webkit-input-placeholder {
+	color: rgba(204,204,204,1);
+}
+#RatingTool_textarea:-moz-placeholder { /* Firefox 18- */
+	color: rgba(204,204,204,1); 
+}
+#RatingTool_textarea::-moz-placeholder {  /* Firefox 19+ */
+	color: rgba(204,204,204,1);
+}
+#RatingTool_textarea:-ms-input-placeholder {
+	color: rgba(204,204,204,1); 
+}
+
+#popupRatingContainer{
+	
+	border-width: 0px;
+	left: 9px;
+	top: -72px;
+	width: 274px;
+	height:350px;
+	overflow-x: hidden;
+	text-align: center;
+	position: absolute;
+	overflow:hidden;
+}
+#RatingToolSubmit{
+    position: absolute;
+    right: 6px;
+    bottom: 23px;
+    width: 100px;
+    height: 38px;
+    background: inherit;
+    background-color: #2B74B7;
+    box-sizing: border-box;
+    box-shadow: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff ;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+   /* outline: none;*/  /*removes blue glow around submit*/
+}
+#RatingToolSubmit:active {
+}
+
+#RatingToolSubmit:hover {
+	background-color: #2340AA;
+	color: #ffffff;
+	border: 2px solid #2340AA;
+	
+}
+
+.NoThanks {
+    border: 2px solid #2B74B7;
+    position: absolute;
+    left: 11px;
+    top: 289px;
+    width: 107px;
+    height: 34px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #2B74B7;
+    cursor:pointer;
+    line-height: 35px;
+}
+
+.NoThanks:hover{
+	
+	background-color: #2340AA;
+	color: #ffffff;
+	border: 2px solid #2340AA;
+	
+}
+
+#rate-CharCounter {
+	color: #000000;
+	cursor: pointer;
+	font-family: "Roboto";
+	font-size: 12px;
+	font-weight: 400;
+	left: 8px;
+	position: absolute;
+	top: 240px;
+	
+}
+
+
+/*thank you div*/
+.rate-thankyou_div { 
+    position:fixed;
+    right:0.2%;
+    bottom:0.5%;
+    margin:0;
+    width:250px;
+    height:85px;
+    background-color: white;
+    box-shadow: -2px -4px 12px 0 #D1D1D1;
+    background-size:100%;
+    cursor: default;
+    display: none; 
+    z-index:100;
+}
+
+.rate-comments-suggestions, #linkcomments{
+	
+	color: #2B74B7;
+	border: none;
+	position: relative;
+	top: 15px;
+	left: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Roboto;
+	
+}
+
+#linkcomments:hover{
+	
+	text-decoration: underline;
+	color: #2340AA;
+}
+
+.rate-thankyouforfeedback_div{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    width:100%;
+    
+    text-align:left;
+    padding: 12px;
+}
+.rate-thankyouText{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+    color: #333333;
+    font-style: normal;
+    display:inline-block;
+    line-height: 22px;
+}
+
+/* x to close feedback form*/
+#closeX{
+	position: relative;
+	top: -18px;
+	right:-14px;
+	float:right;
+	vertical-align:top;
+	color:#333333;
+	text-align:center;
+	font-size:17px;
+	font-weight:400;
+	cursor:pointer;
+	z-index: 1;
+	padding: 30px;
+}
+#closeXX{	
+	
+	position: relative;
+	top: 11px;
+	right: 11px;
+	float:right;
+	vertical-align:top;
+	color:#333333;
+	text-align:center;
+	font-size:17px;
+	/*font-weight:700;*/
+	cursor:pointer;
+	z-index: 1;
+}
+
+/* x to close thumbs*/
+#CloseThumbs{
+	
+	position: relative;
+	bottom: 9px;
+/* 	right: -6px; */
+	float:right;
+	vertical-align:top;
+	color:#333333;
+	text-align:center;
+	font-size:16px;
+	/*font-weight:700;*/
+	cursor:pointer;
+	z-index: 1;
+}
+
+.rate-popupRatingHeading{
+	
+	position: relative;
+	left: 4px;
+	top: 3px;
+}
+
+::placeholder {
+  color: #646464;
+  font-family:"Roboto";
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #646464;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #646464;
+}
+
+.rate-max-reached{
+	display: none;
+	color: #BF350C;
+	position: absolute;
+	left: -3px;
+	width: 220px;
+	
+}
+
+.rate-comments-suggestions img.rate-arrow-hover {
+      position: relative;   
+      right: 23px;
+      opacity: 0;
+      transition: opacity .2s;
+      
+      
+    }
+    .rate-comments-suggestions:hover img.rate-arrow-hover {
+      opacity: 1;
+      
+    }
+    
+ .counter{
+ 
+ float: right;
+ position: relative;
+ bottom: 10px;
+ left: 42px;
+ 
+ } 
+ 
+ </style>
+ 
+ 
+ 
+ 
+
+<div id="thumbs_div" class="rate-ratingtool_div" > 
+    <div id="CloseThumbs" alt="Close" tabindex="3">&#10005;</div>    
+    <div class="rate-WasThisPageHelpful_div" >
+		<span class="rate-WasThisPageHelpfulText" align="top">Is this page helpful?</span><br>
+		<div class="yes-no-box">
+    		<img class="thumbs-valign" id="thumbsup" src="https://www.census.gov/ratingtool/images/like-hand-3122.svg" width="29px;" alt="Thumbs Up Image" tabindex="1"/>
+      		<span class="YesNoText" id="yes">Yes</span>
+      		<img class="thumbs-valign" id="thumbsdown" src="https://www.census.gov/ratingtool/images/unlike-hand-3123.svg" width="29px;" alt="Thumbs Down Image" tabindex="2"/>
+      		<span class="YesNoText" id="no">No</span>
+  		</div>
+  		
+    </div>
+</div>
+
+<div id="popupRating">
+        <div id="closeX" alt="Close"  tabindex="4">&#10005;</div>
+		<div id="popupRatingHeadingContainer">
+		<span class="rate-popupRatingHeading"></span>
+		</div>
+		<div id="popupRatingContainer" >
+			<form id="rtform" method="post" name="rtform">
+				<textarea id="RatingTool_textarea" name="message" placeholder="Tell us more." alt="Comments or Suggestions 255 characters max" tabindex="2" maxlength="256"></textarea>
+				<input alt="Submit" tabindex="3" id="RatingToolSubmit" type="submit" value="SUBMIT">
+			</form>
+			<div id="NoThanksDiv">
+			     <span tabindex="1"  class="NoThanks" alt="No thanks" >NO THANKS</span>
+			
+			</div>
+			<div id="rate-CharCounter">
+				<span class="rate-start-text">255 characters maximum</span>
+				<span class="rate-max-reached"><img src="https://www.census.gov/ratingtool/images/exclamation-icon.png" width="20px;" style="position:absolute; top:-2px; left: -1px;">255 characters maximum reached</span>
+			</div>
+		</div>
+</div>
+
+<div id="thnx_div" class="rate-thankyou_div">
+    <div id="closeXX" alt="Close" tabindex="2">&#10005;</div>
+	<div class="rate-thankyouforfeedback_div">
+		<span class="rate-thankyouText">Thank you for your feedback.</span><br>
+		<span class="rate-comments-suggestions" id="linkcomments" tabindex="1">Comments or suggestions? <img class="rate-arrow" src="https://www.census.gov/ratingtool/images/angle-circle-arrow-right.png" style="width:19px; position: absolute; top: -1px; right: -30px;"><img class="rate-arrow-hover" src="https://www.census.gov/ratingtool/images/angle-circle-arrow-right-hover.png" style="width:19px; position: absolute; top: -1px; right: -30px;">
+
+	</span></div>
+	
+	
+</div>
+
+<!-- END Rating Tool -->
+
+
+</div>
+
+<!--close page container div--></div><!-- Begin Javascript Links --><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/jquery-ui.js"></script><script type="text/javascript" src="/js/js.js?124
+"></script><script type="text/javascript" src="/js/xdr.js"></script><!--End JavaScript Links-->
+
+<script type="text/javascript">
+(function() {
+    $('#qwi_download_area').load('/php/inc_qwiDownloadTool.php');
+    $('#lodes_download_area').load('/php/inc_lodesDownloadTool.php');
+
+    $('#pseo_download_area').load('/php/inc_pseoDownloadTool.php');
+    
+    $('#j2j_download_area').load('/php/inc_j2jDownloadTool.php');
+}());
+</script>
+
+</body>
+</html>
+
+

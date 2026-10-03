@@ -1,0 +1,18 @@
+{
+  "id": "furman_core",
+  "url": "https://furmancenter.org/coredata",
+  "publisher": "NYU Furman Center",
+  "purpose": "Industry research platform",
+  "retrieved_at": "2026-10-03T15:46:44.231660+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.furmancenter.org/data-tool/coredata-nyc/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 15:46:46 GMT",
+  "bytes": 250943,
+  "sha256": "926a7844762e93dae85149861ff0b22aeccc054a59797e7b8f50e3013ccb31c6",
+  "cache_path": "cache/furman_core.body",
+  "parsed": "html",
+  "text_chars": 72521,
+  "link_count": 114
+}

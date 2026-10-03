@@ -1,0 +1,18 @@
+{
+  "id": "hud_api",
+  "url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+  "publisher": "HUD",
+  "purpose": "API documentation",
+  "retrieved_at": "2026-10-03T15:46:43.514259+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.huduser.gov/portal/dataset/fmr-api.html",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": "Thu, 01 Oct 2026 12:03:31 GMT",
+  "bytes": 216106,
+  "sha256": "33cbe278bb35fea493214725edaf17c589acb7e2b9a8f67d6292447d7fc14695",
+  "cache_path": "cache/hud_api.body",
+  "parsed": "html",
+  "text_chars": 99767,
+  "link_count": 276
+}

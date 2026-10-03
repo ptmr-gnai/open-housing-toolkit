@@ -1,0 +1,16 @@
+{
+  "id": "hpd_design_process_pdf",
+  "publisher": "HPD",
+  "purpose": "Verify professional workflow raw material or download",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+  "retrieved_at": "2026-10-03T15:57:17.117152+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Wed, 23 Sep 2026 19:57:54 GMT",
+  "bytes": 284385,
+  "sha256": "a5f72ba5acf7a93da7146e4689c9ec50d98d2b92c0e577f674c9ad29dd04d6fd",
+  "cache_path": "cache/hpd_design_process_pdf.body",
+  "parsed": "pdf"
+}

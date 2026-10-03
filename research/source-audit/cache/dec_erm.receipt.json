@@ -1,0 +1,21 @@
+{
+  "id": "dec_erm",
+  "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm?f=pjson",
+  "publisher": "NYS DEC",
+  "purpose": "Remediation GIS discovery",
+  "retrieved_at": "2026-10-03T15:49:58.588646+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 484,
+  "sha256": "167ebd246cc8584b0192ec0007a2f711778e36c76c67d07d6bc931bc09f1ebf7",
+  "cache_path": "cache/dec_erm.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "currentVersion",
+    "folders",
+    "services"
+  ]
+}

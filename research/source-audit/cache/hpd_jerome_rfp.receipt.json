@@ -1,0 +1,10 @@
+{
+  "id": "hpd_jerome_rfp",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-rfp.page",
+  "publisher": "NYC HPD",
+  "purpose": "Existing Bronx project",
+  "retrieved_at": "2026-10-03T15:51:02.938930+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

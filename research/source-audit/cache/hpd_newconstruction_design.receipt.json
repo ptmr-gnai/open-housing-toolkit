@@ -1,0 +1,18 @@
+{
+  "id": "hpd_newconstruction_design",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/new-construction-design.page",
+  "publisher": "NYC HPD",
+  "purpose": "Design requirements",
+  "retrieved_at": "2026-10-03T15:51:02.941513+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/new-construction-design.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 24741,
+  "sha256": "cb49a632560e9c9b27cc6cc081645bf7191a47366561dd35c724034735debb1d",
+  "cache_path": "cache/hpd_newconstruction_design.body",
+  "parsed": "html",
+  "text_chars": 3942,
+  "link_count": 56
+}

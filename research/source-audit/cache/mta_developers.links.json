@@ -1,0 +1,314 @@
+[
+  {
+    "label": "Skip to main content",
+    "url": "https://www.mta.info/developers#main-content"
+  },
+  {
+    "label": "Schedules",
+    "url": "https://www.mta.info/schedules"
+  },
+  {
+    "label": "Maps",
+    "url": "https://www.mta.info/maps"
+  },
+  {
+    "label": "Fares and tolls",
+    "url": "https://www.mta.info/fares-tolls"
+  },
+  {
+    "label": "Planned Service Changes",
+    "url": "https://www.mta.info/planned-service-changes"
+  },
+  {
+    "label": "Elevator & Escalator Status",
+    "url": "https://www.mta.info/elevator-escalator-status"
+  },
+  {
+    "label": "Accessibility",
+    "url": "https://www.mta.info/accessibility"
+  },
+  {
+    "label": "Sign up for service alerts",
+    "url": "https://www.mta.info/guides/service-alerts"
+  },
+  {
+    "label": "Guides",
+    "url": "https://www.mta.info/guides"
+  },
+  {
+    "label": "Access-A-Ride Paratransit",
+    "url": "https://www.mta.info/accessibility/access-a-ride"
+  },
+  {
+    "label": "About the MTA",
+    "url": "https://www.mta.info/about"
+  },
+  {
+    "label": "Transparency",
+    "url": "https://www.mta.info/transparency"
+  },
+  {
+    "label": "Projects",
+    "url": "https://www.mta.info/project"
+  },
+  {
+    "label": "Safety and Security",
+    "url": "https://www.mta.info/safety-and-security"
+  },
+  {
+    "label": "Careers",
+    "url": "https://www.mta.info/careers"
+  },
+  {
+    "label": "New York City Transit",
+    "url": "https://www.mta.info/agency/new-york-city-transit"
+  },
+  {
+    "label": "Bridges & Tunnels",
+    "url": "https://www.mta.info/agency/bridges-and-tunnels"
+  },
+  {
+    "label": "Long Island Rail Road",
+    "url": "https://www.mta.info/agency/long-island-rail-road"
+  },
+  {
+    "label": "Metro-North Railroad",
+    "url": "https://www.mta.info/agency/metro-north-railroad"
+  },
+  {
+    "label": "Other agencies and departments",
+    "url": "https://www.mta.info/agency"
+  },
+  {
+    "label": "Give feedback",
+    "url": "https://contact.mta.info/s/customer-feedback"
+  },
+  {
+    "label": "Contact the MTA",
+    "url": "https://www.mta.info/contact-us"
+  },
+  {
+    "label": "Media Relations",
+    "url": "https://www.mta.info/agency/media-relations"
+  },
+  {
+    "label": "Procurement and solicitations",
+    "url": "https://www.mta.info/doing-business-with-us/procurement"
+  },
+  {
+    "label": "",
+    "url": "https://www.mta.info/"
+  },
+  {
+    "label": "Schedules",
+    "url": "https://www.mta.info/schedules"
+  },
+  {
+    "label": "Maps",
+    "url": "https://www.mta.info/maps"
+  },
+  {
+    "label": "Fares & Tolls",
+    "url": "https://www.mta.info/fares-tolls"
+  },
+  {
+    "label": "Planned Work",
+    "url": "https://www.mta.info/alerts"
+  },
+  {
+    "label": "Home",
+    "url": "https://www.mta.info/"
+  },
+  {
+    "label": "Regular GTFS",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip"
+  },
+  {
+    "label": "Supplemented GTFS",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_supplemented.zip"
+  },
+  {
+    "label": "Long Island Rail Road",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfslirr.zip"
+  },
+  {
+    "label": "Metro-North Railroad",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfsmnr.zip"
+  },
+  {
+    "label": "NJ TRANSIT GTFS",
+    "url": "https://www.njtransit.com/developer-tools"
+  },
+  {
+    "label": "Bronx",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_bx.zip"
+  },
+  {
+    "label": "Brooklyn",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_b.zip"
+  },
+  {
+    "label": "Manhattan",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_m.zip"
+  },
+  {
+    "label": "Queens",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_q.zip"
+  },
+  {
+    "label": "Staten Island",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_si.zip"
+  },
+  {
+    "label": "MTA Bus Company",
+    "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_busco.zip"
+  },
+  {
+    "label": "Learn more about how to handle the transition between these schedules.",
+    "url": "https://new.mta.info/developers/gtfs-schedules-transition"
+  },
+  {
+    "label": "GTFS-RT format",
+    "url": "https://gtfs.org/realtime/"
+  },
+  {
+    "label": "terms and conditions",
+    "url": "https://www.mta.info/developers/terms-and-conditions"
+  },
+  {
+    "label": "NYC Subway",
+    "url": "https://raw.githubusercontent.com/OneBusAway/onebusaway-gtfs-realtime-api/master/src/main/proto/com/google/transit/realtime/gtfs-realtime-NYCT.proto"
+  },
+  {
+    "label": "reference",
+    "url": "https://new.mta.info/document/134521"
+  },
+  {
+    "label": "LIRR and Metro-North",
+    "url": "https://raw.githubusercontent.com/OneBusAway/onebusaway-gtfs-realtime-api/master/src/main/proto/com/google/transit/realtime/gtfs-realtime-MTARR.proto"
+  },
+  {
+    "label": "Service Alerts",
+    "url": "https://raw.githubusercontent.com/OneBusAway/onebusaway-gtfs-realtime-api/master/src/main/proto/com/google/transit/realtime/gtfs-realtime-service-status.proto"
+  },
+  {
+    "label": "Real-time feeds",
+    "url": "https://api.mta.info/"
+  },
+  {
+    "label": "Bus Time APIs",
+    "url": "http://bt.mta.info/wiki/Developers/Index"
+  },
+  {
+    "label": "GitHub repository",
+    "url": "https://github.com/nymta/gtfs-documentation"
+  },
+  {
+    "label": "GTFS documentation GitHub repository",
+    "url": "https://github.com/nymta/gtfs-documentation"
+  },
+  {
+    "label": "Open Data catalog",
+    "url": "https://data.ny.gov/Transportation/MTA-Open-Data-Catalog-and-Publication-Schedule/f462-ka72"
+  },
+  {
+    "label": "About our Open Data initiatives",
+    "url": "https://www.mta.info/open-data"
+  },
+  {
+    "label": "Performance metrics",
+    "url": "https://metrics.mta.info/"
+  },
+  {
+    "label": "Capital Program dashboard",
+    "url": "http://web.mta.info/capitaldashboard/CPDHome.html"
+  },
+  {
+    "label": "Line colors (PDF)",
+    "url": "https://www.mta.info/document/168976"
+  },
+  {
+    "label": "Line colors (Open Data)",
+    "url": "https://data.ny.gov/Transportation/MTA-Colors/3uhz-sej2/about_data"
+  },
+  {
+    "label": "Tunnel beacon coordinates",
+    "url": "http://web.mta.info/developers/dataFeedsBT.html"
+  },
+  {
+    "label": "Visit the MTA Developers Google Group",
+    "url": "https://groups.google.com/forum/#!forum/mtadeveloperresources"
+  },
+  {
+    "label": "apply for a\u00a0license",
+    "url": "https://www.mta.info/doing-business-with-us/licensing-program"
+  },
+  {
+    "label": "Creating a \"Status Box\"",
+    "url": "https://www.mta.info/developers/service-status-box"
+  },
+  {
+    "label": "Subway accessibility and elevator & escalator status",
+    "url": "https://www.mta.info/developers/display-elevators-NYCT"
+  },
+  {
+    "label": "About the MTA",
+    "url": "https://www.mta.info/about"
+  },
+  {
+    "label": "Contact Us",
+    "url": "https://www.mta.info/contact-us"
+  },
+  {
+    "label": "Careers",
+    "url": "https://www.mta.info/careers"
+  },
+  {
+    "label": "Transparency",
+    "url": "https://www.mta.info/transparency"
+  },
+  {
+    "label": "INFORMATION",
+    "url": "https://www.mta.info/"
+  },
+  {
+    "label": "Doing Business With Us",
+    "url": "https://www.mta.info/doing-business-with-us"
+  },
+  {
+    "label": "Press Releases",
+    "url": "https://www.mta.info/press-release"
+  },
+  {
+    "label": "Arts & Design",
+    "url": "https://www.mta.info/agency/arts-design"
+  },
+  {
+    "label": "NY Transit Museum & Shop",
+    "url": "https://www.nytransitmuseum.org/"
+  },
+  {
+    "label": "Terms & Conditions",
+    "url": "https://www.mta.info/terms-and-conditions"
+  },
+  {
+    "label": "Privacy Policy",
+    "url": "https://www.mta.info/privacy-policy"
+  },
+  {
+    "label": "Facebook Social Network Link",
+    "url": "https://www.facebook.com/mta/"
+  },
+  {
+    "label": "Twitter Social Network Link",
+    "url": "https://twitter.com/MTA"
+  },
+  {
+    "label": "Youtube Social Network Link",
+    "url": "https://www.youtube.com/user/mtainfo"
+  },
+  {
+    "label": "Instagram Social Network Link",
+    "url": "https://www.instagram.com/mta/"
+  }
+]

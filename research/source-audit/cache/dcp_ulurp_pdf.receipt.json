@@ -1,0 +1,16 @@
+{
+  "id": "dcp_ulurp_pdf",
+  "url": "https://www.nyc.gov/assets/planning/download/pdf/applicants/applicant-portal/lur.pdf",
+  "publisher": "NYC DCP",
+  "purpose": "Land use process",
+  "retrieved_at": "2026-10-03T15:51:03.424523+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/planning/download/pdf/applicants/applicant-portal/lur.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Fri, 11 Oct 2024 21:53:52 GMT",
+  "bytes": 46377,
+  "sha256": "c358a3abe63b92c155143c738dd18b3001d7b579baca68ccf9bc91777a3b7b9c",
+  "cache_path": "cache/dcp_ulurp_pdf.body",
+  "parsed": "pdf"
+}

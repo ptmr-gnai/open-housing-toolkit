@@ -1,0 +1,18 @@
+{
+  "id": "hpd_rfps",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page",
+  "publisher": "NYC HPD",
+  "purpose": "Procurement process",
+  "retrieved_at": "2026-10-03T15:46:42.380613+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 43985,
+  "sha256": "4da6170bab557a6537151d9a5f1a45d6fbb75fa2a6a3e2d7a5cca2610f2f5eca",
+  "cache_path": "cache/hpd_rfps.body",
+  "parsed": "html",
+  "text_chars": 18385,
+  "link_count": 65
+}

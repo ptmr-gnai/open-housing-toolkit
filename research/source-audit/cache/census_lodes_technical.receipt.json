@@ -1,0 +1,16 @@
+{
+  "id": "census_lodes_technical",
+  "url": "https://lehd.ces.census.gov/data/lodes/LODES8/LODESTechDoc8.1.pdf",
+  "publisher": "US Census Bureau",
+  "purpose": "Job data methods",
+  "retrieved_at": "2026-10-03T15:49:59.553803+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://lehd.ces.census.gov/data/lodes/LODES8/LODESTechDoc8.1.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Thu, 09 Nov 2023 17:30:54 GMT",
+  "bytes": 546604,
+  "sha256": "b5497357deca7be4ebd67399a297a56ac089464eb1bcadb5ca679319e31efab3",
+  "cache_path": "cache/census_lodes_technical.body",
+  "parsed": "pdf"
+}

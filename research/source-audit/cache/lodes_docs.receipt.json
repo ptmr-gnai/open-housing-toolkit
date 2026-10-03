@@ -1,0 +1,18 @@
+{
+  "id": "lodes_docs",
+  "url": "https://lehd.ces.census.gov/data/",
+  "publisher": "US Census Bureau",
+  "purpose": "Job data documentation",
+  "retrieved_at": "2026-10-03T15:46:43.327080+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://lehd.ces.census.gov/data/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 49097,
+  "sha256": "f93878ac8bb67bb9eb0fbd13e544183af5940da87e7ae7285f2710050dd73eef",
+  "cache_path": "cache/lodes_docs.body",
+  "parsed": "html",
+  "text_chars": 14321,
+  "link_count": 122
+}

@@ -1,0 +1,16 @@
+{
+  "id": "furman_xlsx",
+  "url": "https://www.furmancenter.org/files/CoreData/Neighorhood_Indicators_CoreDataDownload_2026-05-05.xlsx",
+  "publisher": "NYU Furman Center",
+  "purpose": "Download test",
+  "retrieved_at": "2026-10-03T15:49:59.624735+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.furmancenter.org/wp-content/uploads/ee-legacy/CoreData/Neighorhood_Indicators_CoreDataDownload_2026-05-05.xlsx",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "last_modified": "Fri, 26 Jun 2026 14:03:58 GMT",
+  "bytes": 1184109,
+  "sha256": "d8868b9ddeb29c093f3c34f5174856e47a8989ddde96ae3f0499faccbfe1c2ef",
+  "cache_path": "cache/furman_xlsx.body",
+  "parsed": "other"
+}

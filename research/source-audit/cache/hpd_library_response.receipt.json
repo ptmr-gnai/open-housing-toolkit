@@ -1,0 +1,18 @@
+{
+  "id": "hpd_library_response",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-submit-response.page",
+  "publisher": "NYC HPD",
+  "purpose": "RFP submission requirements",
+  "retrieved_at": "2026-10-03T15:51:02.940771+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp-submit-response.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 22106,
+  "sha256": "696edf23ca0ccb9cc3635d4f89b7e776dba670ece55f78a5b4687ee16c8f3578",
+  "cache_path": "cache/hpd_library_response.body",
+  "parsed": "html",
+  "text_chars": 1774,
+  "link_count": 43
+}

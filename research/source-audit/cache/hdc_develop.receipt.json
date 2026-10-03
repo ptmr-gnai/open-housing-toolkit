@@ -1,0 +1,18 @@
+{
+  "id": "hdc_develop",
+  "url": "https://www.nychdc.com/develop",
+  "publisher": "NYC HDC",
+  "purpose": "Financing documents",
+  "retrieved_at": "2026-10-03T15:52:01.307012+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nychdc.com/develop",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 83622,
+  "sha256": "04e11976c1814d32e2bc4c2f9c5fdb25c1c4bb9bbe319f2a796b81e89b65c7da",
+  "cache_path": "cache/hdc_develop.body",
+  "parsed": "html",
+  "text_chars": 13110,
+  "link_count": 80
+}

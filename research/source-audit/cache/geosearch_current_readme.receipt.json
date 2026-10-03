@@ -1,0 +1,10 @@
+{
+  "id": "geosearch_current_readme",
+  "url": "https://raw.githubusercontent.com/NYCPlanning/nyc-geosearch/master/README.md",
+  "publisher": "NYC Planning Labs",
+  "purpose": "API implementation documentation",
+  "retrieved_at": "2026-10-03T15:51:03.401165+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

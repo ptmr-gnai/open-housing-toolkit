@@ -41,3 +41,26 @@ The release gate is technical. The site action gate remains unresolved until
 current uses, entitlement, ownership, environmental conditions, development
 status, full economics and affordability inputs have been reviewed. The two
 advisor dispositions remain pending.
+
+## Source audit — 3 October 2026
+
+76 request receipts and ten source families are recorded in
+[the source audit](../research/source-audit/report.md).
+
+| Papercut | Evidence | Deterministic response |
+|---|---|---|
+| HTTP 200 with Missing Key HTML | Census ACS sample | Separate semantic success from transport success; reject non-JSON API payload |
+| HTTP 200 with JSON error | Guessed DEC services | Reject error objects; discover and inspect actual layer names |
+| Working GIS service has wrong subject | DEC erm/erm exposes ecological/wetland layers | Do not promote GIS discovery to a verified cleanup source |
+| DCP application shells and stale paths | ZAP shell; old agency URLs return 404 | Mark unparsed content; follow official indexes; no invented API contracts |
+| Ambiguous tied geocoder confidence | Jerome fallback candidates share 0.8 | Exact address plus independent BBL/parcel corroboration |
+| Mixed vintages on one page | HPD 2026 income / 2025 rent headings | Block derived rents pending explicit vintage reconciliation |
+| Cross-project agency link | New Utrecht FAQ links Grand Concourse vision report | Validate document project/site identity |
+| Record availability mistaken for current title | ACRIS lead returned latest document date 2023 | Preserve coverage dates; require native documents/current title review |
+| New policy applicability | HPD 2026 guidance applies from October 1 consultations | Model effective date and project milestone explicitly |
+| Proposal criteria mistaken for parcel metrics | HPD RFP threshold/team/finance requirements | Store requirement/evidence matrix and advisor dispositions |
+
+Source audit validator checks retained byte integrity, ten-source cap, references,
+structured API error rejection, parcel corroboration, ACRIS joins and feed validity.
+Public document interpretation, licensing and professional feasibility remain
+explicit review inputs; none are implied by a technical pass.

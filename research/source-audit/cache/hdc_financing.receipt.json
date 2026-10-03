@@ -1,0 +1,10 @@
+{
+  "id": "hdc_financing",
+  "url": "https://www.nychdc.com/developers",
+  "publisher": "NYC HDC",
+  "purpose": "Financing",
+  "retrieved_at": "2026-10-03T15:46:42.566156+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "census_key_docs",
+  "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html",
+  "publisher": "US Census Bureau",
+  "purpose": "Access requirements",
+  "retrieved_at": "2026-10-03T15:48:14.815637+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 302289,
+  "sha256": "814d68188bb49255b1b77e6c033cad9ce159cd2355b4db3e3d12d536de443c07",
+  "cache_path": "cache/census_key_docs.body",
+  "parsed": "html",
+  "text_chars": 28193,
+  "link_count": 104
+}

@@ -1,0 +1,999 @@
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Developer Resources
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+  
+    
+      Skip to main content
+    
+    
+      
+    
+
+                
+    
+  
+    
+      
+    
+    Menu
+  
+  
+    
+    Close Menu
+  
+
+
+  
+    
+
+      
+                        
+          
+                                                
+
+            Schedules
+                              
+                                        
+
+            Maps
+                              
+                                        
+
+            Fares and tolls
+                              
+                                        
+
+            Planned Service Changes
+                              
+                                                    
+
+              
+                Travel
+                
+                  
+                
+              
+              
+                
+
+                  
+                    
+                      
+                    
+                    Back
+                  
+                
+                                                                                              
+
+                                      Elevator & Escalator Status
+                                          
+                                        
+
+                                      Accessibility
+                                          
+                                        
+
+                                      Sign up for service alerts
+                                          
+                                        
+
+                                      Guides
+                                          
+                
+              
+                    
+                                        
+
+            Access-A-Ride Paratransit
+                              
+                                                    
+
+              
+                About
+                
+                  
+                
+              
+              
+                
+
+                  
+                    
+                      
+                    
+                    Back
+                  
+                
+                                                                                              
+
+                                      About the MTA
+                                          
+                                        
+
+                                      Transparency
+                                          
+                                        
+
+                                      Projects
+                                          
+                                        
+
+                                      Safety and Security
+                                          
+                                        
+
+                                      Careers
+                                          
+                
+              
+                    
+                                                    
+
+              
+                Agencies
+                
+                  
+                
+              
+              
+                
+
+                  
+                    
+                      
+                    
+                    Back
+                  
+                
+                                                                                              
+
+                                      New York City Transit
+                                          
+                                        
+
+                                      Bridges & Tunnels
+                                          
+                                        
+
+                                      Long Island Rail Road
+                                          
+                                        
+
+                                      Metro-North Railroad
+                                          
+                                        
+
+                                      Other agencies and departments
+                                          
+                
+              
+                    
+                                                    
+
+              
+                Contact us
+                
+                  
+                
+              
+              
+                
+
+                  
+                    
+                      
+                    
+                    Back
+                  
+                
+                                                                                              
+
+                                      Give feedback
+                                          
+                                        
+
+                                      Contact the MTA
+                                          
+                                        
+
+                                      Media Relations
+                                          
+                                        
+
+                                      Procurement and solicitations
+                                          
+                
+              
+                    
+                
+              
+            
+  
+  
+
+  
+
+  
+    
+      
+    
+    
+                                                    Schedules
+                                                    Maps
+                                                    Fares & Tolls
+                                                    Planned Work
+              
+    
+    
+
+    
+    
+    
+    
+        
+
+  
+  
+  
+      
+  
+
+
+
+  
+
+                    
+    
+
+  
+    
+
+      
+
+
+  
+    
+          
+  
+          
+
+
+
+  
+
+
+  
+    
+
+      
+  
+
+
+
+    
+    
+      
+        
+          We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not work as you expect them to. We recommend updating your browser to the latest version.
+        
+      
+    
+  
+  
+  
+
+      
+
+  
+    
+
+            
+                  
+
+
+                                        
+    
+    
+          
+
+                  
+                      
+            Home
+                    
+            
+              
+
+          
+
+         
+                      Developer resources
+                        
+
+      
+
+
+  
+
+                  
+                
+                                      
+                  
+                
+                
+                
+                          
+            
+      
+
+        
+
+        
+          Developer resources
+  
+
+    
+
+
+
+
+
+
+  
+
+  
+    
+
+  
+  
+    
+      
+              
+  
+                  
+
+      Static GTFS data
+    
+
+          
+                      
+
+  
+    
+      
+            
+Subways
+
+There are two subway GTFS feeds available.
+
+
+Regular GTFS: This file represents the "normal" subway schedule and does not include most temporary service changes, though some long term service changes may be included. It is typically updated a few times a year.
+
+Supplemented GTFS: This file includes most, but not all, service changes for the next seven calendar days. Generally, the 'simpler' the service change, the more likely it will not be included. Beyond that period, service changes will not be included. It is updated hourly.
+
+
+      
+          
+    
+      
+            
+Railroads
+
+The railroad GTFS files generally include all schedules for the current timetable, and are updated frequently to include most types of service changes for the next 7-10 days.
+
+
+Long Island Rail Road
+
+Metro-North Railroad
+
+
+Schedules for the Port Jervis and Pascack Valley Lines are contained in the NJ TRANSIT GTFS.
+
+      
+          
+    
+      
+            
+Buses
+
+The bus GTFS is generally updated four times a year to correspond with our quarterly bus schedule changes. Temporary service changes and detours are generally not included.
+
+The data is broken into six separate files, generally by borough with some exceptions:
+
+
+Bronx (includes M100; does not include Bx23 or BxM routes)
+
+Brooklyn (includes some Queens local routes; does not include B100, B103, BM routes)
+
+Manhattan (does not include M100)
+
+Queens (includes most local routes and QM63, QM64, QM68)
+
+Staten Island (all routes)
+
+MTA Bus Company (B100, B103, Bx23, and BxM routes, and various routes in Queens)
+
+
+Note that these files only contain data for the current quarterly schedule. Learn more about how to handle the transition between these schedules.
+
+      
+          
+  
+
+
+
+      
+              
+  
+                  
+
+      Realtime data
+    
+
+          
+                      
+
+
+
+
+
+  
+    
+      
+            
+Subway, rail, and alerts
+
+We provide real-time feeds of subway and railroad data, as well as current and future service alerts for all modes in GTFS-RT format, subject to our terms and conditions.
+
+Many of these feeds use custom extensions to provide additional information beyond what is available in the GTFS-RT specification. To use this additional information, download the protobuf files for NYC Subway (reference), LIRR and Metro-North, or Service Alerts feeds.
+
+      
+              
+          Real-time feeds
+        
+          
+    
+      
+            
+Buses
+
+Real-time bus data is provided via the Bus Time set of APIs. You will need to create an account and use an API key to access the feeds.
+
+      
+              
+          Bus Time APIs
+        
+          
+  
+
+
+
+      
+              
+
+                  
+
+      GTFS documentation
+    
+
+          
+                      
+
+
+    
+            
+We're developing a GitHub repository which will contain documentation for the MTA's GTFS and GTFS-RT feeds. Documentation in this repository will supplement the published GTFS and GTFS-RT specifications with implementation-specific guidance, clarifications, and reference material for MTA feeds. 
+
+This repository is in development, and will be expanded in the future.
+
+      
+            
+            GTFS documentation GitHub repository
+        
+    
+  
+
+
+      
+                
+                      
+
+      Performance metrics and historical data
+    
+
+
+
+      
+  
+
+  
+                                            
+            
+                              
+      
+      
+        
+          
+            Open Data catalog
+            
+          
+        
+      
+          
+                                                       
+        
+
+              
+            
+                              
+      
+      
+        
+          
+            About our Open Data initiatives
+            
+          
+        
+      
+          
+                                            
+            
+                              
+      
+      
+        
+          
+            Performance metrics
+            
+          
+        
+      
+          
+                                            
+            
+                              
+      
+      
+        
+          
+            Capital Program dashboard
+            
+          
+        
+      
+          
+        
+  
+
+
+
+
+      
+
+                
+                      
+
+      Other data sets
+    
+
+
+
+      
+  
+
+  
+                              
+            
+                            
+                    
+      
+        
+          
+            Line colors (PDF)
+            
+          
+        
+      
+          
+                                            
+            
+                              
+      
+      
+        
+          
+            Line colors (Open Data)
+            
+          
+        
+      
+          
+                                            
+            
+                              
+      
+      
+        
+          
+            Tunnel beacon coordinates
+            
+          
+        
+      
+          
+        
+  
+
+
+
+
+      
+
+              
+
+                  
+
+      Community support and questions
+    
+
+          
+                      
+
+
+    
+            
+We don't have a dedicated developer support team, but we actively monitor the MTA Developer Google Group. Send questions and comments to the group.
+
+      
+            
+            Visit the MTA Developers Google Group
+        
+    
+  
+
+
+      
+              
+
+                  
+
+      Using MTA logos, maps or symbols
+    
+
+          
+                      
+
+
+    
+            
+Our data feeds are free to use. But to use our logos, maps, symbols or other intellectual property, you need to apply for a license. The MTA protects its brand identity and intellectual property on behalf of the public. Revenues generated from licensing go back into our budget, helping provide services for our customers.
+
+If an MTA-approved mobile application is provided to the public free of charge, the MTA requires a license but will not charge a license fee for the use of our intellectual property. Commercial and ad-sponsored applications may be charged a license fee.
+
+      
+    
+  
+
+
+      
+                
+                      
+
+      How to use MTA data
+    
+
+
+
+      
+  
+
+  
+                                                       
+        
+
+              
+            
+                              
+      
+      
+        
+          
+            Creating a "Status Box"
+            
+          
+        
+      
+          
+                                                       
+        
+
+              
+            
+                              
+      
+      
+        
+          
+            Subway accessibility and elevator & escalator status
+            
+          
+        
+      
+          
+        
+  
+
+
+
+
+      
+
+          
+  
+  
+
+
+
+
+  
+
+              
+
+            
+                
+  
+
+      
+        
+    
+
+  
+    
+
+            
+      
+
+                  THE MTA
+              
+      
+                  
+
+            
+
+                          
+                About the MTA
+              
+                        
+          
+                  
+
+            
+
+                          
+                Contact Us
+              
+                        
+          
+                  
+
+            
+
+                          
+                Careers
+              
+                        
+          
+                  
+
+            
+
+                          
+                Transparency
+              
+                        
+          
+              
+    
+      
+      
+
+                  INFORMATION
+              
+      
+                  
+
+            
+
+                          
+                Doing Business With Us
+              
+                        
+          
+                  
+
+            
+
+                          
+                Press Releases
+              
+                        
+          
+                  
+
+            
+
+                          
+                Arts & Design
+              
+                        
+          
+                  
+
+            
+
+                          
+                NY Transit Museum & Shop
+              
+                        
+          
+              
+    
+      
+      
+
+                  Other
+              
+      
+                  
+
+            
+
+                          
+                Terms & Conditions
+              
+                        
+          
+                  
+
+            
+
+                          
+                Privacy Policy
+              
+                        
+          
+                  
+
+            
+
+                                        
+                Facebook Social Network Link
+                
+              
+              
+                Twitter Social Network Link
+                
+              
+              
+                Youtube Social Network Link
+                
+              
+              
+                Instagram Social Network Link
+                
+              
+                        
+          
+              
+    
+  
+  
+    Powered by
+    
+      
+    
+    
+Translate
+  
+
+
+  
+
+  
+
+    
+  
+
+
+  
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

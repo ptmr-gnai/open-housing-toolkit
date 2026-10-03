@@ -1,0 +1,18 @@
+{
+  "id": "census_docs",
+  "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+  "publisher": "US Census Bureau",
+  "purpose": "API documentation",
+  "retrieved_at": "2026-10-03T15:46:43.126103+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 319044,
+  "sha256": "f574776b5f414ffeae61a46233c6fae4601990fe19e848e87cdc268d05b1cdac",
+  "cache_path": "cache/census_docs.body",
+  "parsed": "html",
+  "text_chars": 32829,
+  "link_count": 142
+}

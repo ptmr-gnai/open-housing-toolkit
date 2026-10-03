@@ -1,0 +1,77 @@
+{
+ "currentVersion": 10.91,
+ "folders": [
+  "dil",
+  "dop",
+  "EAF",
+  "erm",
+  "hvnrm",
+  "NYNHP",
+  "opsrec",
+  "sandbox",
+  "storm",
+  "Utilities"
+ ],
+ "services": [
+  {
+   "name": "dec_backcountry_features",
+   "type": "MapServer"
+  },
+  {
+   "name": "dil_permits_and_regs",
+   "type": "MapServer"
+  },
+  {
+   "name": "dil_reference",
+   "type": "MapServer"
+  },
+  {
+   "name": "gnis",
+   "type": "MapServer"
+  },
+  {
+   "name": "mines_and_wells",
+   "type": "MapServer"
+  },
+  {
+   "name": "parcel_boundaries",
+   "type": "MapServer"
+  },
+  {
+   "name": "reference_test",
+   "type": "MapServer"
+  },
+  {
+   "name": "reference",
+   "type": "MapServer"
+  },
+  {
+   "name": "search_layers",
+   "type": "MapServer"
+  },
+  {
+   "name": "Spills_GRP",
+   "type": "MapServer"
+  },
+  {
+   "name": "storm_new",
+   "type": "MapServer"
+  },
+  {
+   "name": "storm",
+   "type": "MapServer"
+  },
+  {
+   "name": "stormwater",
+   "type": "MapServer"
+  },
+  {
+   "name": "Wetlands",
+   "type": "MapServer"
+  },
+  {
+   "name": "zipcode_polygons",
+   "type": "MapServer"
+  }
+ ]
+}

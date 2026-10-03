@@ -1,0 +1,10 @@
+{
+  "id": "hdc_terms",
+  "url": "https://www.nychdc.com/term-sheets",
+  "publisher": "NYC HDC",
+  "purpose": "Financing terms",
+  "retrieved_at": "2026-10-03T15:51:02.942610+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

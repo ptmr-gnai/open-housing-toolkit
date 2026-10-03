@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hpd_ncf_pdf",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf",
+    "publisher": "NYC HPD",
+    "purpose": "Program underwriting"
+  },
+  {
+    "id": "hpd_library_rfp_page",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page",
+    "publisher": "NYC HPD",
+    "purpose": "Worked public-facility procurement"
+  },
+  {
+    "id": "hpd_bronx_rfps",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+    "publisher": "NYC HPD",
+    "purpose": "Worked procurement"
+  },
+  {
+    "id": "ceqr_framework_pdf",
+    "url": "https://www.nyc.gov/assets/oec/technical-manual/02_Establishing_the_Analysis_Framework_2025.pdf",
+    "publisher": "NYC OEC",
+    "purpose": "Analysis process"
+  },
+  {
+    "id": "ceqr_landuse_pdf",
+    "url": "https://www.nyc.gov/assets/oec/technical-manual/04_Land_Use_Zoning_and_Public_Policy_2025.pdf",
+    "publisher": "NYC OEC",
+    "purpose": "Land use process"
+  },
+  {
+    "id": "hpd_design",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/design-guidelines.page",
+    "publisher": "NYC HPD",
+    "purpose": "Design process"
+  },
+  {
+    "id": "hdc_home",
+    "url": "https://www.nychdc.com/",
+    "publisher": "NYC HDC",
+    "purpose": "Financing discovery"
+  },
+  {
+    "id": "geosearch_docs",
+    "url": "https://github.com/NYCPlanning/labs-geosearch",
+    "publisher": "NYC Planning Labs",
+    "purpose": "API source documentation"
+  },
+  {
+    "id": "dcp_home",
+    "url": "https://www.nyc.gov/content/planning/pages/",
+    "publisher": "NYC DCP",
+    "purpose": "Process discovery"
+  },
+  {
+    "id": "dcp_zap",
+    "url": "https://zap.planning.nyc.gov/projects",
+    "publisher": "NYC DCP",
+    "purpose": "Application records"
+  },
+  {
+    "id": "acris_real_metadata",
+    "url": "https://data.cityofnewyork.us/api/views/8h5j-fqxa.json",
+    "publisher": "NYC DOF",
+    "purpose": "API schema"
+  },
+  {
+    "id": "acris_master_metadata",
+    "url": "https://data.cityofnewyork.us/api/views/bnx9-e6tj.json",
+    "publisher": "NYC DOF",
+    "purpose": "API schema"
+  },
+  {
+    "id": "furman_dictionary",
+    "url": "https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/",
+    "publisher": "NYU Furman Center",
+    "purpose": "Existing data fusion methodology"
+  },
+  {
+    "id": "furman_downloads",
+    "url": "https://www.furmancenter.org/data-tools/data-tools-data-downloads/",
+    "publisher": "NYU Furman Center",
+    "purpose": "Download access"
+  },
+  {
+    "id": "dec_layers",
+    "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/DECDatainfo?f=pjson",
+    "publisher": "NYS DEC",
+    "purpose": "GIS service discovery"
+  },
+  {
+    "id": "hud_noauth_probe",
+    "url": "https://www.huduser.gov/hudapi/public/fmr/data/36005",
+    "publisher": "HUD",
+    "purpose": "Unauthenticated API test"
+  },
+  {
+    "id": "census_key_docs",
+    "url": "https://www.census.gov/data/developers/guidance/api-user-guide.Help.html",
+    "publisher": "US Census Bureau",
+    "purpose": "Access requirements"
+  }
+]

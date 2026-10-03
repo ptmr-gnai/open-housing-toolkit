@@ -1,0 +1,21 @@
+{
+  "id": "dec_gis",
+  "url": "https://gisservices.dec.ny.gov/arcgis/rest/services?f=pjson",
+  "publisher": "NYS DEC",
+  "purpose": "API",
+  "retrieved_at": "2026-10-03T15:46:43.711029+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://gisservices.dec.ny.gov/arcgis/rest/services?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 1064,
+  "sha256": "3c9fa04073e0e9f789606c301926d7f7f48c6e275fc60fd862da1c36571e301c",
+  "cache_path": "cache/dec_gis.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "currentVersion",
+    "folders",
+    "services"
+  ]
+}

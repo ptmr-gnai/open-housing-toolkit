@@ -1,0 +1,43 @@
+"""Build a reproducible ten-platform registry from retained receipts. MIT."""
+import json,pathlib,hashlib,zipfile,gzip,csv,io,xml.etree.ElementTree as ET
+P=pathlib.Path(__file__).resolve().parent; C=P/'cache'
+S=[
+('nyc-open-data','NYC Open Data / Socrata','Queryable API','nyc_soda_sample','soda_docs','PLUTO; DOB BIS/NOW; HPD violations and affordable production; E-designations; DOF sales.','BBL, BIN; dataset-specific identifiers','https://data.cityofnewyork.us/resource/{dataset_id}.json','No credential required for tested bounded query; app tokens/rate limits matter at scale.','Dataset coverage, dates and metadata must be checked separately. Production records are program activity, not all housing or necessarily completions.'),
+('dcp-planning','NYC DCP zoning and land-use resources','Legal text + browser applications','dcp_zoning','dcp_ulurp_pdf','Zoning Resolution, special districts, ZoLa, ZAP, ULURP.','BBL, district, zoning section, project ID','https://zr.planning.nyc.gov/','Public legal text verified; ZAP returned an application shell. No public ZAP API verified.','PLUTO FAR is a screening attribute, not an entitlement calculation. Resolve applicable text, geometry, effective dates and approvals.'),
+('dcp-geosearch','DCP GeoSearch / Geosupport','Queryable API','geosearch_sample','geosearch_jerome','Address normalization and BBL/BIN resolution.','Address, BBL, BIN, coordinates','https://geosearch.planninglabs.nyc/v2/search?text={address}','No credential required for tested search. Dedicated API documentation links attempted were unavailable.','Fallback matches and duplicate confidence scores require exact address and independent parcel checks; PAD and PLUTO versions differ.'),
+('dof-acris','NYC DOF ACRIS','Records portal + Socrata API','acris_master_join','acris_docs','Deeds, mortgages, recorded instruments, parcel/document join.','Borough + block + lot -> document_id -> master/parties/images','https://data.cityofnewyork.us/resource/8h5j-fqxa.json ; bnx9-e6tj.json','48 lead-parcel legal rows joined to 48 master rows. Native images not retrieved. API transport is source 1.','NYC borough coverage excludes Staten Island; records from 1966 onward. Mixed good-through dates; retrieved latest document was 2023. Not a current title opinion.'),
+('hpd-hdc','HPD / HDC development resources','PDFs + XLSX + RFP pages','hpd_design_workbook','hpd_rfp_conference_pdf','Program term sheets, affordability, underwriting assumptions, design workbooks, RFP criteria, community vision.','Program/version, site/BBL, household size, AMI/year, review milestone','https://www.nyc.gov/site/hpd/services-and-information/term-sheets.page','Public documents and actual design workbook downloaded; no general underwriting API verified.','Apply correct program and effective date, superseding addenda and agency assumptions. Design guidance is not a loan award or substitute for codes.'),
+('mta','MTA developer resources / NY State Open Data','GTFS download + Socrata API','mta_subway_gtfs','mta_developers','Stations, scheduled service, transfers, real-time feeds, performance data.','Stop/station ID, route/trip ID, service calendar','https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip','Public schedule ZIP and station API returned data. Bus Time account/key requirement documented; real-time not tested.','Station distance is not door-to-door access. Respect feed validity, transfers, walking, accessibility, cancellations and service reliability.'),
+('census','US Census ACS / LEHD LODES','Credentialed API + public bulk CSV','lodes_ny_2023','census_docs','Households, rent burden, income, tenure; workplace/residence jobs and OD flows.','County/tract/block GEOID, year, ACS estimate + MOE','https://api.census.gov/data/{year}/acs/acs5 ; https://lehd.ces.census.gov/data/lodes/LODES8/','ACS request returned HTTP 200 Missing Key HTML. NY 2023 workplace CSV gzip downloaded and parsed.','ACS sampling error and geography vintages; LODES jobs are not unique workers, coverage excludes some work, time lag. Borough-wide statistics cannot identify parcel occupants.'),
+('hud-user','HUD User income limits / FMR','Credentialed API + published tables','hud_income','hud_api','Official income limits, fair-market rents, geographic and program benchmarks.','HUD area/entity ID, year, family/unit size','https://www.huduser.gov/hudapi/public/fmr','API registration and bearer token documented. Unauthenticated request returned 401; tables page accessible.','FMR is not achievable rent, HPD restricted rent or project revenue. Match year, area, program and utility allowance; authenticated response not verified.'),
+('dec','NYS DEC GIS / cleanup resources','ArcGIS REST discovery + agency documents','dec_gis','dec_data','Environmental GIS discovery; brownfield/superfund process and records. Supplement NYC OER E-designation obligations.','Site/program ID, geometry, coordinates; BBL for NYC E-designations','https://gisservices.dec.ny.gov/arcgis/rest/services?f=pjson','REST catalog and a GIS layer catalog returned valid JSON. Guessed cleanup endpoint failed; no remediation-site query verified.','The discovered erm/erm service contains ecological/wetland layers, not cleanup sites. An empty map is never clearance. Need Phase I/II, noise/air and OER review as applicable.'),
+('furman','NYU Furman Center CoreData NYC','Published dictionary + XLSX download','furman_xlsx','furman_dictionary','Existing industry data fusion: neighborhood indicators and subsidized-housing context.','Geography/type/year; building identifiers where provided','https://www.furmancenter.org/data-tool/coredata-nyc/','Dictionary read and 2026-05-05 neighborhood indicators workbook downloaded. No public API verified.','Indicators vary in source/vintage. Subsidized-housing database generally multifamily and excludes expired subsidies. Use upstream sources for parcel/legal authority.')]
+registry={'version':'0.1','audit_date':'2026-10-03','scope':'Bronx transit-adjacent housing opportunity triage; 10 source families, not 10 datasets. ACRIS APIs use NYC Open Data transport; grouped publishers are explicit.','sources':[]}
+for ident,name,kind,probe,doc,materials,keys,endpoint,access,limits in S:
+ registry['sources'].append(dict(id=ident,name=name,interface=kind,probe_receipt=probe,documentation_receipt=doc,raw_materials=materials,join_keys=keys,endpoint=endpoint,access=access,limitations=limits,license='Upstream terms apply; public access does not establish redistribution rights. Record per dataset before redistribution.'))
+(P/'registry.json').write_text(json.dumps(registry,indent=2)+'\n')
+ledger=[]
+for f in sorted(C.glob('*.receipt.json')):
+ r=json.loads(f.read_text());state='transport_failed' if r['status']!='ok' else 'document_or_download'
+ if r.get('parsed')=='json':
+  o=json.loads((C/(r['id']+'.body')).read_text());state='api_error' if isinstance(o,dict) and 'error' in o else 'structured_data'
+ if r['id']=='census_sample':state='credential_required_html'
+ if r['id'] in ['dcp_home','dcp_ulurp','dcp_zap','geosupport_new']:state='application_shell'
+ ledger.append({**r,'semantic_status':state})
+(P/'access-ledger.json').write_text(json.dumps(ledger,indent=2)+'\n')
+proof={}
+for name in ['hpd_design_workbook','furman_xlsx']:
+ with zipfile.ZipFile(C/(name+'.body')) as z:
+  root=ET.fromstring(z.read('xl/workbook.xml'));proof[name]={'sheets':[x.attrib['name'] for x in root.findall('.//{http://schemas.openxmlformats.org/spreadsheetml/2006/main}sheet')]}
+with gzip.open(C/'lodes_ny_2023.body','rt') as f:
+ reader=csv.DictReader(f);count=0;bronx_blocks=0;bronx_jobs=0
+ for row in reader:
+  count+=1
+  if row['w_geocode'].startswith('36005'):bronx_blocks+=1;bronx_jobs+=int(row['C000'])
+ proof['lodes_ny_2023']={'rows':count,'bronx_workplace_blocks':bronx_blocks,'bronx_jobs_C000':bronx_jobs,'meaning':'2023 all-jobs workplace counts, not unique employed residents or travel-time accessible jobs'}
+with zipfile.ZipFile(C/'mta_subway_gtfs.body') as z:
+ proof['gtfs']={'feed_info':list(csv.DictReader(io.StringIO(z.read('feed_info.txt').decode()))),'station_170_st':[r for r in csv.DictReader(io.StringIO(z.read('stops.txt').decode())) if r['stop_id']=='412']}
+proof['jerome_pluto']=json.loads((C/'jerome_pluto.body').read_text())
+proof['acris']={'legals_rows':len(json.loads((C/'acris_legals_lead.body').read_text())),'master_rows':len(json.loads((C/'acris_master_join.body').read_text())),'latest_document_date':max(x.get('document_date','') for x in json.loads((C/'acris_master_join.body').read_text()))}
+(P/'probe-results.json').write_text(json.dumps(proof,indent=2)+'\n')
+print(json.dumps({'sources':len(S),'receipts':len(ledger),'lodes':proof['lodes_ny_2023'],'gtfs':proof['gtfs']},indent=2))

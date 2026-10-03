@@ -1,0 +1,18 @@
+{
+  "id": "furman_dictionary",
+  "url": "https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/",
+  "publisher": "NYU Furman Center",
+  "purpose": "Existing data fusion methodology",
+  "retrieved_at": "2026-10-03T15:48:14.687905+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.furmancenter.org/data-tools-resources/data-tools-core-data-dictionary/",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 03 Oct 2026 15:48:15 GMT",
+  "bytes": 118492,
+  "sha256": "2d3a52692f6975dfb3a40b2e6bacc9b7cf6b59e6c238da892587763facc1e75c",
+  "cache_path": "cache/furman_dictionary.body",
+  "parsed": "html",
+  "text_chars": 20854,
+  "link_count": 63
+}

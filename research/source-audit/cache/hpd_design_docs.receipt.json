@@ -1,0 +1,10 @@
+{
+  "id": "hpd_design_docs",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/design-guidelines-new-construction.pdf",
+  "publisher": "NYC HPD",
+  "purpose": "Design document",
+  "retrieved_at": "2026-10-03T15:49:58.589467+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}
