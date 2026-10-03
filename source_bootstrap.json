@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "pluto_metadata",
+    "url": "https://data.cityofnewyork.us/api/views/64uk-42ks.json",
+    "publisher": "NYC Department of City Planning",
+    "limits": "Live dataset metadata. Source update timestamps are not field-level validity dates.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "mta_stations",
+    "url": "https://raw.githubusercontent.com/MTA-New-York-City-Transit/Station-Data/master/Stations.csv",
+    "publisher": "MTA New York City Transit",
+    "limits": "Station reference coordinates; not entrance coordinates, service performance, or proof of current accessibility.",
+    "terms": "https://www.mta.info/developers"
+  },
+  {
+    "source_id": "dob_jobs_metadata",
+    "url": "https://data.cityofnewyork.us/api/views/ic3t-wcy2.json",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Legacy DOB BIS job filings; not complete coverage of DOB NOW or proof of completion.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "hpd_violations_metadata",
+    "url": "https://data.cityofnewyork.us/api/views/wvxf-dwi5.json",
+    "publisher": "NYC Housing Preservation and Development",
+    "limits": "Recorded housing violations; not complete occupancy or displacement data.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+outputs/ir.json
+outputs/exclusions.json
+outputs/dossiers.json
+outputs/manifest.json
+outputs/validation.json
+replay-output/
+sensitivity-output/
+*.zip
+.DS_Store

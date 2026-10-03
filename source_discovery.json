@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "mta_stations_official",
+    "url": "https://web.mta.info/developers/data/nyct/subway/Stations.csv",
+    "publisher": "MTA New York City Transit",
+    "limits": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+    "terms": "https://www.mta.info/developers"
+  },
+  {
+    "source_id": "mta_station_catalog",
+    "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.ny.gov&q=MTA%20Subway%20Stations&limit=5",
+    "publisher": "New York State Open Data catalog",
+    "limits": "Discovery metadata only; not station facts."
+  },
+  {
+    "source_id": "dob_now_catalog",
+    "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=DOB%20NOW%20Build%20Job%20Application%20Filings&limit=5",
+    "publisher": "NYC Open Data catalog",
+    "limits": "Discovery metadata only; not site development status."
+  },
+  {
+    "source_id": "pluto_dictionary",
+    "url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/open-data/pluto_datadictionary.pdf",
+    "publisher": "NYC Department of City Planning",
+    "limits": "Field definitions; check against downloaded PLUTO version.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "zoning_r8a",
+    "url": "https://zr.planning.nyc.gov/article-ii/chapter-3/23-21",
+    "publisher": "NYC Department of City Planning",
+    "limits": "One zoning section only. Does not resolve complete parcel entitlements or special district rules.",
+    "terms": "https://www.nyc.gov/home/terms-of-use.page"
+  }
+]

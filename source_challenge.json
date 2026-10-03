@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "dob_bis_2028710002",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bbl%3D2028710002&%24limit=10000&%24select=job__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cproposed_dwelling_units%2Cexisting_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin__%2Cbbl%2Chouse__%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "dob_now_2028710002",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bbl%3D2028710002&%24limit=10000&%24select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Ccurrent_status_date%2Capproved_date%2Cfirst_permit_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin%2Cbbl%2Chouse_no%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "hpd_violations_2028710002",
+    "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json?%24where=bbl%3D2028710002&%24limit=10000&%24select=violationid%2Cinspectiondate%2Cclass%2Cviolationstatus%2Ccurrentstatus%2Cnovdescription%2Cbbl%2Cbin%2Cblock%2Clot%2Chousenumber%2Cstreetname",
+    "publisher": "NYC Housing Preservation and Development",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "dob_bis_2028430040",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bbl%3D2028430040&%24limit=10000&%24select=job__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cproposed_dwelling_units%2Cexisting_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin__%2Cbbl%2Chouse__%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "dob_now_2028430040",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bbl%3D2028430040&%24limit=10000&%24select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Ccurrent_status_date%2Capproved_date%2Cfirst_permit_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin%2Cbbl%2Chouse_no%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "hpd_violations_2028430040",
+    "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json?%24where=bbl%3D2028430040&%24limit=10000&%24select=violationid%2Cinspectiondate%2Cclass%2Cviolationstatus%2Ccurrentstatus%2Cnovdescription%2Cbbl%2Cbin%2Cblock%2Clot%2Chousenumber%2Cstreetname",
+    "publisher": "NYC Housing Preservation and Development",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "dob_bis_2024890077",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bbl%3D2024890077&%24limit=10000&%24select=job__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cproposed_dwelling_units%2Cexisting_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin__%2Cbbl%2Chouse__%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "dob_now_2024890077",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bbl%3D2024890077&%24limit=10000&%24select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Ccurrent_status_date%2Capproved_date%2Cfirst_permit_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin%2Cbbl%2Chouse_no%2Cstreet_name%2Cowner_s_business_name",
+    "publisher": "NYC Department of Buildings",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  },
+  {
+    "source_id": "hpd_violations_2024890077",
+    "url": "https://data.cityofnewyork.us/resource/wvxf-dwi5.json?%24where=bbl%3D2024890077&%24limit=10000&%24select=violationid%2Cinspectiondate%2Cclass%2Cviolationstatus%2Ccurrentstatus%2Cnovdescription%2Cbbl%2Cbin%2Cblock%2Clot%2Chousenumber%2Cstreetname",
+    "publisher": "NYC Housing Preservation and Development",
+    "limits": "Exact BBL match only. Historical lot changes, missing BBLs, other filings and aliases can cause false negatives. Returned rows are not proof of vacancy, permits, completion, or no housing stress.",
+    "terms": "https://opendata.cityofnewyork.us/overview/#termsofuse"
+  }
+]

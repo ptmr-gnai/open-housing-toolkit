@@ -1,0 +1,140 @@
+{
+  "dsl_version": "0.1",
+  "project": "Bronx open housing opportunity probe",
+  "scope": {
+    "station_source": "mta_stations_official",
+    "station_id": "387",
+    "station_name": "170 St",
+    "route": "4",
+    "radius_m": {
+      "value": 650,
+      "unit": "metres straight line",
+      "rationale": "Bounded first probe; proximity proxy, not walked access.",
+      "status": "assumption"
+    },
+    "bbox_padding_lat": 0.008,
+    "bbox_padding_lon": 0.01
+  },
+  "screen": {
+    "min_lotarea_sf": 2500,
+    "max_lotarea_sf": 60000,
+    "min_capacity_gap_sf": 5000,
+    "ranking": "no_recorded_residential_first_then_capacity_gap_desc_bbl_asc",
+    "shortlist_count": 10,
+    "investigate_count": 3,
+    "capacity_formula": "max(0, lotarea * residfar - bldgarea)",
+    "missing_policy": "exclude_from_numeric_rank_and_record_unknown",
+    "selection_rationale": "Favor a lower recorded residential displacement burden while leaving commercial occupancy unresolved. This is a research preference, not a welfare ranking."
+  },
+  "scenarios": [
+    {
+      "id": "A",
+      "label": "Lower intensity illustrative concept",
+      "far_share": 0.65,
+      "coverage": 0.55
+    },
+    {
+      "id": "B",
+      "label": "Higher intensity illustrative concept",
+      "far_share": 0.9,
+      "coverage": 0.55
+    }
+  ],
+  "assumptions": {
+    "net_efficiency": {
+      "value": 0.8,
+      "unit": "share gross area",
+      "rationale": "Illustrative allowance for circulation and support space; not architectural design."
+    },
+    "avg_net_unit_sf": {
+      "value": 850,
+      "unit": "square feet per unit",
+      "rationale": "Family oriented average size; no verified unit mix."
+    },
+    "hard_cost_per_gsf": {
+      "value": 350,
+      "range": [
+        275,
+        350,
+        450
+      ],
+      "unit": "USD per gross square foot",
+      "rationale": "Stress-test input, not a Bronx contractor estimate."
+    },
+    "soft_contingency_share": {
+      "value": 0.3,
+      "unit": "share hard cost",
+      "rationale": "Illustrative combined allowance; excludes financing carry and site acquisition."
+    },
+    "floor_height_ft": {
+      "value": 10,
+      "unit": "feet per floor",
+      "rationale": "Concept diagram only; ground floor and actual structure unresolved."
+    },
+    "vacancy_share": {
+      "value": 0.05,
+      "unit": "share gross rent",
+      "rationale": "Illustrative stabilized operations."
+    },
+    "opex_share_egi": {
+      "value": 0.35,
+      "unit": "share effective gross income",
+      "rationale": "Illustrative operating expense including assumed taxes; no verified tax program."
+    },
+    "debt_ltc": {
+      "value": 0.65,
+      "unit": "share modeled ex-land cost",
+      "rationale": "Illustrative financing; not lender terms."
+    },
+    "annual_interest": {
+      "value": 0.065,
+      "range": [
+        0.05,
+        0.065,
+        0.08
+      ],
+      "unit": "annual decimal rate",
+      "rationale": "Hypothetical permanent debt rate."
+    },
+    "amortization_years": {
+      "value": 30,
+      "unit": "years",
+      "rationale": "Hypothetical permanent debt amortization."
+    },
+    "dscr": {
+      "value": 1.2,
+      "unit": "NOI / debt service",
+      "rationale": "Illustrative underwriting target."
+    },
+    "monthly_rent_test": {
+      "value": 1800,
+      "range": [
+        1500,
+        1800,
+        2200
+      ],
+      "unit": "USD per unit per month",
+      "rationale": "Hypothetical all-unit collectible rents; not market rents or official AMI rents."
+    },
+    "affordable_income_lens": {
+      "value": 60,
+      "unit": "percent AMI",
+      "rationale": "Research objective only. Official household-size schedule, utility allowance and income bands remain unknown; not used to infer legal rent."
+    }
+  },
+  "required_gates": [
+    "legal_entitlement",
+    "current_occupancy_and_leases",
+    "owner_willingness_and_title",
+    "environment_and_geotechnical",
+    "current_development_pipeline",
+    "full_cost_and_financing",
+    "official_affordability_schedule",
+    "pedestrian_and_job_access"
+  ],
+  "exports": {
+    "public_site_claims": "blocked_until_required_gates_reviewed",
+    "expert_pack": "allowed_with_unknowns",
+    "media_draft": "research_process_only"
+  }
+}
