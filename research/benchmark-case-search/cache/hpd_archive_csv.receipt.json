@@ -1,0 +1,16 @@
+{
+  "id": "hpd_archive_csv",
+  "publisher": "NYC HPD",
+  "purpose": "Dated case inventory with solicitation and designation links; archive narrative contains outcome spoilers",
+  "url": "https://www.nyc.gov/assets/hpd/data/rfp-rfq-rfei-designated.csv",
+  "retrieved_at": "2026-10-04T16:46:14.501036+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/data/rfp-rfq-rfei-designated.csv",
+  "content_type": "text/csv",
+  "last_modified": "Tue, 14 Jul 2026 15:40:42 GMT",
+  "bytes": 189890,
+  "sha256": "fb31d2e6c76bc0e884f87b9aff47955b0b7253869e64f9bf4611bacfaaa7c83a",
+  "cache_path": "cache/hpd_archive_csv.body",
+  "parsed": "other"
+}

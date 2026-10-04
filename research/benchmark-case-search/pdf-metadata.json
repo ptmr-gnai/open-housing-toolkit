@@ -1,0 +1,62 @@
+{
+  "extracted/candidate_0/97-west-169th-st-rfp.pdf": {
+    "sha256": "212ea247c3eda660eccc4da79800bd24ce1969aff67e2ffbb5ddd30ce61407f9",
+    "pdfinfo": "Title:           NEW YORK CITY\nAuthor:          NYC\nCreator:         Microsoft\u00ae Word 2010\nProducer:        Microsoft\u00ae Word 2010\nCreationDate:    Thu Dec 20 19:41:39 2018 UTC\nModDate:         Thu Dec 20 21:12:55 2018 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           102\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       2832333 bytes\nOptimized:       no\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_0/97-west-169th-street-rfp-addendum.pdf": {
+    "sha256": "b0d01825edc9afa5d1d30525a75b9f47d347f3345c4e6b145d1e03ca3a65f2c0",
+    "pdfinfo": "Author:          Kobzantsev, Zlata\nCreator:         Microsoft\u00ae Word 2010\nProducer:        Microsoft\u00ae Word 2010\nCreationDate:    Tue Feb 19 19:21:59 2019 UTC\nModDate:         Tue Feb 19 19:25:59 2019 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           11\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       3784546 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_0/97-west-169th-street-rfp-addendum2.pdf": {
+    "sha256": "930d90fea2ac4499bbe8621e6c0fe44a07de8c4597c8a3b55f2dc019a99b3d09",
+    "pdfinfo": "Author:          Kobzantsev, Zlata\nCreator:         Acrobat PDFMaker 10.1 for Word\nProducer:        Adobe PDF Library 10.0\nCreationDate:    Wed Mar 13 17:13:02 2019 UTC\nModDate:         Wed Mar 13 17:13:03 2019 UTC\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           4\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       26620 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_0/97-west-169th-street-rfp-addendum3.pdf": {
+    "sha256": "8bb55336354f12c1a101ee6eea83ae0d3340c6640a004c074fd539d968d5942b",
+    "pdfinfo": "Author:          Kobzantsev, Zlata\nCreator:         Microsoft\u00ae Word 2010\nProducer:        Microsoft\u00ae Word 2010\nCreationDate:    Tue Mar 26 20:03:59 2019 UTC\nModDate:         Tue Mar 26 20:25:19 2019 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           2\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       124558 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_1/425-Addendum-2.pdf": {
+    "sha256": "04a04f67a36e4288671fe21dba6584c830acea317ece40decf341e659bb42400",
+    "pdfinfo": "Author:          Goldberg, Arielle\nCreator:         Acrobat PDFMaker 10.0 for Word\nProducer:        Adobe PDF Library 10.0\nCreationDate:    Fri Sep  4 20:09:10 2015 UTC\nModDate:         Fri Sep  4 20:35:18 2015 UTC\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           2\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       100427 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_1/425-Addendum1.pdf": {
+    "sha256": "681ee730ca922aaaa1f6b1c282f5bdcd5e686e6c209722adfcc23925877d5ca7",
+    "pdfinfo": "Title:           \nAuthor:          Easterbrooks-Dick, Evan\nCreator:         Adobe Acrobat Pro 10.0.0\nProducer:        Adobe Acrobat Pro 10.0.0\nCreationDate:    Thu Aug 13 14:31:15 2015 UTC\nModDate:         Fri Aug 14 13:54:43 2015 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           26\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       5884636 bytes\nOptimized:       yes\nPDF version:     1.7\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_1/425-Grand-Concourse-RFP.pdf": {
+    "sha256": "77016ca90e83378858fa5fb63676d8b16fc0384996f42e251cd5481ae470bdd9",
+    "pdfinfo": "Title:           \nAuthor:          suhe\nCreator:         Adobe Acrobat Pro 10.0.0\nProducer:        Adobe Acrobat Pro 10.0.0\nCreationDate:    Thu Jun 25 22:25:09 2015 UTC\nModDate:         Fri Jun 26 20:30:08 2015 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           157\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       2698883 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_2/st-anns-rfp-addendum-1.pdf": {
+    "sha256": "250e9afa34638f00a17cdbe2076d5c9323316f40794558f2404fb27bc057695a",
+    "pdfinfo": "Title:           \nAuthor:          suhe\nCreator:         PScript5.dll Version 5.2.2\nProducer:        Acrobat Distiller 10.0.0 (Windows)\nCreationDate:    Thu Mar 12 18:30:22 2015 UTC\nModDate:         Thu Mar 12 19:16:29 2015 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           6\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       99324 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_2/st-anns-rfp-addendum-2.pdf": {
+    "sha256": "2609df459b5e9bb949b6b66a9e3ca7a363fe74b50ed68781d472b11442d635e7",
+    "pdfinfo": "Title:           \nAuthor:          suhe\nCreator:         Adobe Acrobat Pro 10.0.0\nProducer:        Adobe Acrobat Pro 10.0.0\nCreationDate:    Wed May  6 15:41:31 2015 UTC\nModDate:         Wed May  6 15:48:03 2015 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           7\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       87490 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "extracted/candidate_2/st-anns-rfp.pdf": {
+    "sha256": "b687c9599c8d44cc80817860cf0254c781f88f238e96ffab371208dc0137fe29",
+    "pdfinfo": "Title:           \nAuthor:          suhe\nCreator:         Adobe Acrobat Pro 10.0.0\nProducer:        Adobe Acrobat Pro 10.0.0\nCreationDate:    Thu Feb 12 17:15:56 2015 UTC\nModDate:         Tue Feb 17 16:08:06 2015 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           152\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       2652456 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only; selected input PDFs additionally retained in inputs/"
+  },
+  "cache/powers_rfp_large.body": {
+    "sha256": "025efb05fa2bdeef1184f6623af7b75749c03af1c921b037ab73b1ae3efe244e",
+    "pdfinfo": "Title:           \nAuthor:          Saad, Lyna\nCreator:         Adobe Acrobat Pro (32-bit) 24.2.20687\nProducer:        Adobe Acrobat Pro (32-bit) 24.2.20687\nCreationDate:    Tue Apr 23 15:45:06 2024 UTC\nModDate:         Wed Apr 24 16:11:45 2024 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           71\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       24068092 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+    "storage": "local_only"
+  },
+  "cache/powers_cvr_large.body": {
+    "sha256": "ddb083628c201fcc45a657f76c799dd258c99144d236d3c30ff959362ee72e85",
+    "pdfinfo": "Creator:         Adobe InDesign 17.3 (Windows)\nProducer:        Adobe PDF Library 16.0.7\nCreationDate:    Wed Jul 20 21:03:03 2022 UTC\nModDate:         Wed Jul 20 21:03:10 2022 UTC\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           21\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       21858828 bytes\nOptimized:       yes\nPDF version:     1.4\n",
+    "storage": "local_only"
+  }
+}

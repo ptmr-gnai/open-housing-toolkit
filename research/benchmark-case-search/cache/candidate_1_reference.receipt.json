@@ -1,0 +1,18 @@
+{
+  "id": "candidate_1_reference",
+  "publisher": "NYC HPD",
+  "purpose": "425 Grand Concourse RFP: reference; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/015-16/mayor-de-blasio-hpd-commissioner-been-hdc-president-rodney-development-team-will",
+  "retrieved_at": "2026-10-04T16:47:01.398887+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/015-16/mayor-de-blasio-hpd-commissioner-been-hdc-president-rodney-development-team-will",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 37470,
+  "sha256": "fdc903ef44651feb989fe9f28b6512ffe4353e7c951f6b1b6568e9b5f881b440",
+  "cache_path": "cache/candidate_1_reference.body",
+  "parsed": "html",
+  "text_chars": 14162,
+  "link_count": 45
+}

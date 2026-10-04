@@ -1,0 +1,18 @@
+{
+  "id": "search_bronxpoint",
+  "publisher": "Bing search discovery",
+  "purpose": "Find agency document links; search results do not establish factual claims",
+  "url": "https://www.bing.com/search?q=Bronx+Point+RFEI+2016+PDF",
+  "retrieved_at": "2026-10-04T16:44:57.791379+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=Bronx+Point+RFEI+2016+PDF",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "bytes": 118059,
+  "sha256": "200340098703457fcb2aa10becde8722a123f32c3370a9d7fce30bd7b8c2151a",
+  "cache_path": "cache/search_bronxpoint.body",
+  "parsed": "html",
+  "text_chars": 2786,
+  "link_count": 49
+}

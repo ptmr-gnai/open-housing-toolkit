@@ -1,0 +1,18 @@
+{
+  "id": "powers_cvr_large",
+  "publisher": "NYC HPD",
+  "purpose": "Pre-solicitation community vision report; raised size budget for known linked PDF",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-community-visioning-report.pdf",
+  "retrieved_at": "2026-10-04T16:50:09.981894+00:00",
+  "max_bytes": 67108864,
+  "timeout_seconds": 35,
+  "status": "ok",
+  "parsed": "pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-community-visioning-report.pdf",
+  "last_modified": "Wed, 17 Jun 2026 16:12:43 GMT",
+  "bytes": 21858828,
+  "sha256": "ddb083628c201fcc45a657f76c799dd258c99144d236d3c30ff959362ee72e85",
+  "cache_path": "cache/powers_cvr_large.body"
+}

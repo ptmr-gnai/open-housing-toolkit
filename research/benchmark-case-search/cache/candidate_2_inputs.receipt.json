@@ -1,0 +1,16 @@
+{
+  "id": "candidate_2_inputs",
+  "publisher": "NYC HPD",
+  "purpose": "St. Ann's Avenue/East 142nd Street RFP: inputs; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/zip/st-anns-rfp.zip",
+  "retrieved_at": "2026-10-04T16:47:01.398395+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/zip/st-anns-rfp.zip",
+  "content_type": "application/zip",
+  "last_modified": "Mon, 27 Jan 2020 21:10:55 GMT",
+  "bytes": 2831191,
+  "sha256": "0bae6b59ac9d91c7ac246d1bd06e7c038424006db0572a6d4b073569f55d34d6",
+  "cache_path": "cache/candidate_2_inputs.body",
+  "parsed": "other"
+}

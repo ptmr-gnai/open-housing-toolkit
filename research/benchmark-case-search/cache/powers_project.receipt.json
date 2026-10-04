@@ -1,0 +1,18 @@
+{
+  "id": "powers_project",
+  "publisher": "NYC HPD",
+  "purpose": "Find original RFP, community vision and timeline",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/351-powers-avenue-rfp.page",
+  "retrieved_at": "2026-10-04T16:47:02.321091+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/351-powers-avenue-rfp.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 26529,
+  "sha256": "f74c236001b0ed90c84befba698e4ad9e146474de0384bb5e48ead265727182c",
+  "cache_path": "cache/powers_project.body",
+  "parsed": "html",
+  "text_chars": 2844,
+  "link_count": 40
+}

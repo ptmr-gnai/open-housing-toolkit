@@ -1,0 +1,18 @@
+{
+  "id": "search_sunset",
+  "publisher": "Bing search discovery",
+  "purpose": "Find agency document links; search results do not establish factual claims",
+  "url": "https://www.bing.com/search?q=site%3Anyc.gov+Sunset+Park+library+housing+RFP+2014",
+  "retrieved_at": "2026-10-04T16:44:57.790516+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=site%3Anyc.gov+Sunset+Park+library+housing+RFP+2014",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "bytes": 120204,
+  "sha256": "0ac5cb71722a02ad0df48a44eda8857d56d8a0cc81bf8bc2a0d05d5be2ce79ba",
+  "cache_path": "cache/search_sunset.body",
+  "parsed": "html",
+  "text_chars": 2872,
+  "link_count": 49
+}

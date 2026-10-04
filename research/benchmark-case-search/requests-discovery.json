@@ -1,0 +1,38 @@
+[
+  {
+    "id": "search_bronx",
+    "publisher": "Bing search discovery",
+    "purpose": "Find agency document links; search results do not establish factual claims",
+    "url": "https://www.bing.com/search?q=site%3Anyc.gov+HPD+Bronx+housing+RFP+%222017%22+%22pdf%22"
+  },
+  {
+    "id": "search_inwood",
+    "publisher": "Bing search discovery",
+    "purpose": "Find agency document links; search results do not establish factual claims",
+    "url": "https://www.bing.com/search?q=site%3Anyc.gov+Inwood+library+RFP+2017+pdf"
+  },
+  {
+    "id": "search_sunset",
+    "publisher": "Bing search discovery",
+    "purpose": "Find agency document links; search results do not establish factual claims",
+    "url": "https://www.bing.com/search?q=site%3Anyc.gov+Sunset+Park+library+housing+RFP+2014"
+  },
+  {
+    "id": "search_celina",
+    "publisher": "Bing search discovery",
+    "purpose": "Find agency document links; search results do not establish factual claims",
+    "url": "https://www.bing.com/search?q=Casa+Celina+NYCHA+RFP+2016+2018+development+selection"
+  },
+  {
+    "id": "search_bronxpoint",
+    "publisher": "Bing search discovery",
+    "purpose": "Find agency document links; search results do not establish factual claims",
+    "url": "https://www.bing.com/search?q=Bronx+Point+RFEI+2016+PDF"
+  },
+  {
+    "id": "hpd_rfp_index",
+    "publisher": "NYC HPD",
+    "purpose": "Find current and archived official solicitations",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  }
+]

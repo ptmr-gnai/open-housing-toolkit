@@ -1,0 +1,18 @@
+{
+  "id": "candidate_2_launch",
+  "publisher": "NYC HPD",
+  "purpose": "St. Ann's Avenue/East 142nd Street RFP: launch; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/004-15/hpd-commissioner-been-request-proposals-build-new-mixed-use-mixed-income",
+  "retrieved_at": "2026-10-04T16:47:02.026496+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/004-15/hpd-commissioner-been-request-proposals-build-new-mixed-use-mixed-income",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 27459,
+  "sha256": "cfd68871b107fe33d2e3b71527fc5bcc268f4a6fd7c1cec158e6502cd7dc1366",
+  "cache_path": "cache/candidate_2_launch.body",
+  "parsed": "html",
+  "text_chars": 5626,
+  "link_count": 42
+}

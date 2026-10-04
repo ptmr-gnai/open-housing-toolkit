@@ -1,0 +1,60 @@
+{
+  "recommendation": "97 West 169th Street",
+  "basis": [
+    "Bronx CD4 and geographically close to original corridor probe",
+    "Single development site comprised of two parcels",
+    "Original RFP and three addenda physically retrieved and internally dated pre-cutoff",
+    "Concrete terrain, parkland, identity and program constraints",
+    "Later dated agency selection summary physically retrieved"
+  ],
+  "stage": "Developer designation announced 2019-12-05; construction completion not verified",
+  "reference": {
+    "id": "candidate_0_reference",
+    "publisher": "NYC HPD",
+    "purpose": "97 West 169th Street RFP: reference; outcome documents excluded from future analyst inputs",
+    "url": "https://www.nyc.gov/site/hpd/news/109-19/city-selects-nonprofit-develop-100-unit-building-seniors-the-bronx",
+    "retrieved_at": "2026-10-04T16:47:01.396662+00:00",
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/site/hpd/news/109-19/city-selects-nonprofit-develop-100-unit-building-seniors-the-bronx",
+    "content_type": "text/html;charset=UTF-8",
+    "last_modified": null,
+    "bytes": 27790,
+    "sha256": "1d610a860b94a260e785fda9b6ef869f1f46d8945af37d763e4197fc2a6d03a6",
+    "cache_path": "cache/candidate_0_reference.body",
+    "parsed": "html",
+    "text_chars": 6201,
+    "link_count": 43
+  },
+  "input_manifest": "inputs/manifest.json",
+  "full_submitted_proposal_available": false,
+  "strict_historical_backtest_ready": false,
+  "document_reconstruction_ready": true,
+  "practitioner_utility_test_ready": false,
+  "limitations": [
+    "No independently verified pre-cutoff archive copy",
+    "Discovery curator has seen reference outcomes",
+    "Public designation summary is not full submitted proposal or underwriting",
+    "Expert usefulness/time-savings hypothesis needs real practitioner feedback"
+  ],
+  "alternatives": [
+    {
+      "name": "351 Powers Avenue",
+      "stage": "Designation 2024-02-16",
+      "input_issue": "Printed RFP date 2022-08-18, but retrieved PDF created/modified April 2024, after designation; strict use deferred pending version reconciliation",
+      "strength": "Complete CVR, RFP, two addenda and conference; partial-tax-lot, parking and climate constraints"
+    },
+    {
+      "name": "425 Grand Concourse",
+      "stage": "Designation 2016-04-28",
+      "strength": "2015 RFP and addenda; complex mixed-use/high-rise and rezoning case",
+      "reason_not_first": "Larger, more complex scope and longer historical-data reconstruction"
+    },
+    {
+      "name": "St. Ann\u2019s Avenue / East 142nd Street",
+      "stage": "Designation 2016-01-14",
+      "strength": "2015 RFP, addenda, launch and designation summaries",
+      "reason_not_first": "Older mixed-use/rezoning reconstruction; useful subsequent case"
+    }
+  ]
+}

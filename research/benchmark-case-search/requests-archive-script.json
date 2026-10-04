@@ -1,0 +1,8 @@
+[
+  {
+    "id": "hpd_archive_script",
+    "publisher": "NYC HPD",
+    "purpose": "Discover public archive data loaded by designated-projects page",
+    "url": "https://www.nyc.gov/assets/hpd/js/rfp-filter.js"
+  }
+]

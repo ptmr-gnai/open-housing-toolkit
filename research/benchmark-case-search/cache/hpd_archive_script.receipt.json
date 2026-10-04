@@ -1,0 +1,16 @@
+{
+  "id": "hpd_archive_script",
+  "publisher": "NYC HPD",
+  "purpose": "Discover public archive data loaded by designated-projects page",
+  "url": "https://www.nyc.gov/assets/hpd/js/rfp-filter.js",
+  "retrieved_at": "2026-10-04T16:46:02.521636+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/js/rfp-filter.js",
+  "content_type": "application/javascript; charset=utf-8",
+  "last_modified": "Thu, 03 Aug 2023 15:59:56 GMT",
+  "bytes": 12407,
+  "sha256": "2bbd1f7dc1a21cd5b1d2725d739d24ca81ca90d03f99f32a6fb734cc017d1730",
+  "cache_path": "cache/hpd_archive_script.body",
+  "parsed": "other"
+}

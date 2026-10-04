@@ -1,0 +1,12 @@
+{
+  "document_input_integrity": "pass",
+  "pdfs": 4,
+  "cutoff": "2019-04-04",
+  "certified_historical_backtest": "blocked",
+  "reasons": [
+    "Exact historical byte equivalence not independently established",
+    "Historical zoning, market and parcel data not yet assembled"
+  ],
+  "experiment": "not_run",
+  "expert_usefulness": "not_tested"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "powers_archive_available",
+    "publisher": "Internet Archive",
+    "purpose": "Check independent availability of a pre-cutoff snapshot; do not infer version equivalence from metadata",
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww1.nyc.gov%2Fassets%2Fhpd%2Fdownloads%2Fpdfs%2Fservices%2F351-powers-avenue-rfp.pdf&timestamp=20221118"
+  },
+  {
+    "id": "169_archive_available",
+    "publisher": "Internet Archive",
+    "purpose": "Check independent availability of a pre-cutoff snapshot; do not infer version equivalence from metadata",
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww1.nyc.gov%2Fassets%2Fhpd%2Fdownloads%2Fzip%2F97-west-169th-street-rfp.zip&timestamp=20190404"
+  }
+]

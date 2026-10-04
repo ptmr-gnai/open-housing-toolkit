@@ -1,0 +1,18 @@
+{
+  "id": "hpd_rfp_index",
+  "publisher": "NYC HPD",
+  "purpose": "Find current and archived official solicitations",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page",
+  "retrieved_at": "2026-10-04T16:44:57.791850+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 43986,
+  "sha256": "67d9e42be85da92590f3c69e2eab857530d3b8d0cd897c03296ceb2a8c7e7c78",
+  "cache_path": "cache/hpd_rfp_index.body",
+  "parsed": "html",
+  "text_chars": 18385,
+  "link_count": 65
+}

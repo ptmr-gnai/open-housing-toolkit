@@ -1,0 +1,18 @@
+{
+  "id": "candidate_3_launch",
+  "publisher": "NYC HPD",
+  "purpose": "351 Powers Avenue RFP: launch; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/035-22/hpd-seeks-partners-proposals-climate-resilient-100-percent-affordable-housing-project-in",
+  "retrieved_at": "2026-10-04T16:47:02.110086+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/035-22/hpd-seeks-partners-proposals-climate-resilient-100-percent-affordable-housing-project-in",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 29293,
+  "sha256": "9e91ecde685d31f77f1b2badd5905e15b5ad73b10ee74caac26d3c2beac7cb72",
+  "cache_path": "cache/candidate_3_launch.body",
+  "parsed": "html",
+  "text_chars": 7401,
+  "link_count": 44
+}

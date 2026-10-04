@@ -1,0 +1,10 @@
+{
+  "id": "nycha_affordable",
+  "publisher": "NYC HPD",
+  "purpose": "Find dated Bronx NYCHA solicitation and reference documents",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/nextgen-nycha-affordable-housing.page",
+  "retrieved_at": "2026-10-04T16:45:22.922619+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

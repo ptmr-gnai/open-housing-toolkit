@@ -85,3 +85,23 @@ The packet has 70 typed claims, 12 unresolved professional requirements, exact
 source passage/field traces, pending independent A/B review forms and 13 rejection
 and acceptance tests. Technical advisor-packet release passes; workflow acceptance,
 agency proposal and development recommendation remain blocked pending evidence.
+
+## Retrospective case search — 4 October 2026
+
+| Papercut | Evidence | Control |
+|---|---|---|
+| Archive page appears empty | HPD designated-project records are loaded by rfp-filter.js from a CSV | Follow the official script/data provenance; do not interpret shell text as absence of records |
+| Search results ignore query detail | Bing returned generic first-term results for specific case queries | Treat discovery as unreliable; use agency archive/documents for substantive claims |
+| Printed issue date hides later PDF export | 351 Powers RFP printed August 2022, PDF creation/modification April 2024 | Reject strict date promotion until version reconciled; test metadata boundary |
+| ZIP migration dates confuse document dates | 97 West 169 ZIP members dated 2021; PDF metadata 2018–2019 | Preserve packaging, printed issue and PDF metadata dates separately; no historical-byte certification |
+| No archive result overinterpreted | Two specific Internet Archive URL checks returned no snapshot | Record the exact checked variants; do not assert no archival evidence exists anywhere |
+| Known document exceeds collection cap | Powers RFP/CVR exceed 12 MiB | Retain failed attempts; explicit 64 MiB/two-worker exception with receipts |
+| Original RFP disagrees on parcel ID | 97 West 169 p8 Block 2519 vs p9 Block 2509 | Flag contradiction; addendum evidence supports follow-up; do not silently fuse wrong parcel |
+| Case finder already saw answers | Discovery archive and selection summaries disclose later outcomes | Fresh analyst context, input-only packet and allowlist; no claim of zero model prior knowledge |
+| Agency summary confused with full proposal | Reference is a designation press release | Label missing submitted proposal/underwriting; test documentary reasoning separately from utility |
+| Large binary discovery duplicates bloat Git | Alternative archives and later re-export PDFs | Keep receipts/metadata and selected input PDFs in Git; document local-only raw retention |
+
+Recommended document exercise: 97 West 169th Street, with April 4, 2019 cutoff.
+No experiment, expert assessment, time-savings estimate or construction-outcome
+finding has been performed. Document integrity passes; strict historical replay
+remains unverified.

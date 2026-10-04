@@ -1,0 +1,18 @@
+{
+  "id": "search_inwood",
+  "publisher": "Bing search discovery",
+  "purpose": "Find agency document links; search results do not establish factual claims",
+  "url": "https://www.bing.com/search?q=site%3Anyc.gov+Inwood+library+RFP+2017+pdf",
+  "retrieved_at": "2026-10-04T16:44:57.789551+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=site%3Anyc.gov+Inwood+library+RFP+2017+pdf",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "bytes": 120643,
+  "sha256": "61ce11a3cb59517eaf5b378806202defb003859694ba7ae23762d970cbe7aafd",
+  "cache_path": "cache/search_inwood.body",
+  "parsed": "html",
+  "text_chars": 2695,
+  "link_count": 55
+}

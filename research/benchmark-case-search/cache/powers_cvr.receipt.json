@@ -1,0 +1,9 @@
+{
+  "id": "powers_cvr",
+  "publisher": "NYC HPD",
+  "purpose": "Dated pre-designation input document for retrospective benchmark",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-community-visioning-report.pdf",
+  "retrieved_at": "2026-10-04T16:48:33.554622+00:00",
+  "status": "failed",
+  "error": "ValueError: Response exceeds audit size budget"
+}

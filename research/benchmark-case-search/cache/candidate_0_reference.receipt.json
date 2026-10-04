@@ -1,0 +1,18 @@
+{
+  "id": "candidate_0_reference",
+  "publisher": "NYC HPD",
+  "purpose": "97 West 169th Street RFP: reference; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/109-19/city-selects-nonprofit-develop-100-unit-building-seniors-the-bronx",
+  "retrieved_at": "2026-10-04T16:47:01.396662+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/109-19/city-selects-nonprofit-develop-100-unit-building-seniors-the-bronx",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 27790,
+  "sha256": "1d610a860b94a260e785fda9b6ef869f1f46d8945af37d763e4197fc2a6d03a6",
+  "cache_path": "cache/candidate_0_reference.body",
+  "parsed": "html",
+  "text_chars": 6201,
+  "link_count": 43
+}

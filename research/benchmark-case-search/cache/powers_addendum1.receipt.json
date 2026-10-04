@@ -1,0 +1,16 @@
+{
+  "id": "powers_addendum1",
+  "publisher": "NYC HPD",
+  "purpose": "Dated pre-designation input document for retrospective benchmark",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-rfp-addendum-1.pdf",
+  "retrieved_at": "2026-10-04T16:48:33.554928+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-rfp-addendum-1.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Mon, 29 Apr 2024 20:26:37 GMT",
+  "bytes": 292017,
+  "sha256": "60dd42064b0aaec2be1f2eeab773a1558a2ba6feb9d82c2f30fc03f6d5d9a76a",
+  "cache_path": "cache/powers_addendum1.body",
+  "parsed": "pdf"
+}

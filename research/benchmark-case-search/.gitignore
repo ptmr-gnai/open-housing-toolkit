@@ -1,0 +1,3 @@
+cache/*.body
+cache/*.error
+extracted/

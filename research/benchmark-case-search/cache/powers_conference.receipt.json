@@ -1,0 +1,16 @@
+{
+  "id": "powers_conference",
+  "publisher": "NYC HPD",
+  "purpose": "Dated pre-designation input document for retrospective benchmark",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-pre-submission-conference.pdf",
+  "retrieved_at": "2026-10-04T16:48:33.555747+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/351-powers-pre-submission-conference.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Mon, 29 Apr 2024 20:26:37 GMT",
+  "bytes": 2471209,
+  "sha256": "cbcde25e29685ac3d80d0ee205717afec44ad86e3e85080246bc92adc02d304f",
+  "cache_path": "cache/powers_conference.body",
+  "parsed": "pdf"
+}

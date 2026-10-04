@@ -1,0 +1,262 @@
+[
+  {
+    "label": "",
+    "url": "http://www1.nyc.gov"
+  },
+  {
+    "label": "311",
+    "url": "https://www.nyc.gov/311/index.page"
+  },
+  {
+    "label": "Search all NYC.gov websites",
+    "url": "https://www.nyc.gov/home/search/index.page"
+  },
+  {
+    "label": "Menu",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/index.page"
+  },
+  {
+    "label": "Text-Size",
+    "url": "http://www1.nyc.gov/home/text-size.page"
+  },
+  {
+    "label": "Search",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "Home",
+    "url": "https://www.nyc.gov/site/hpd/index.page"
+  },
+  {
+    "label": "About",
+    "url": "https://www.nyc.gov/site/hpd/about/about-hpd.page"
+  },
+  {
+    "label": "Services and Information",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/services-and-information.page"
+  },
+  {
+    "label": "Media",
+    "url": "https://www.nyc.gov/site/hpd/news/news.page"
+  },
+  {
+    "label": "Events",
+    "url": "https://www.nyc.gov/site/hpd/events/index.page"
+  },
+  {
+    "label": "Contact",
+    "url": "https://www.nyc.gov/site/hpd/contact/contact.page"
+  },
+  {
+    "label": "Do Business with HPD",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/contract-opportunities.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/rfps-rfqs-rfeis.page"
+  },
+  {
+    "label": "Sign up for Email Alerts",
+    "url": "https://www1.nyc.gov/site/hpd/about/hpd-newsletter-sign-up.page"
+  },
+  {
+    "label": "Expand All",
+    "url": "javascript:expandAll();"
+  },
+  {
+    "label": "Collapse All",
+    "url": "javascript:collapseAll();"
+  },
+  {
+    "label": "ANCP, TPT-TP & Special Projects RFP",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/ancp-tpt-tp-special-projects-rfq.page"
+  },
+  {
+    "label": "Monitor of Housing Development Fund Corporation Cooperatives RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/coop-monitor-rfq.page"
+  },
+  {
+    "label": "HomeFirst RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/homefirst-rfq.page"
+  },
+  {
+    "label": "HPD Family Living Center Services RFP",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/hpd-family-living-center-services-rfp.page"
+  },
+  {
+    "label": "HPD Housing Ambassador Services RFEI: FY2027",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/housing-ambassador-services-rfei.page"
+  },
+  {
+    "label": "Hunter\u2019s Point South Parcel E RFP",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/hunterspointe-rfp.page"
+  },
+  {
+    "label": "Inclusionary Housing Program Administering Agent RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/inclusionary-housing-administering-agent-rfq.page"
+  },
+  {
+    "label": "Mitchell-Lama Property Management RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/mitchell-lama-property-management-rfq.page"
+  },
+  {
+    "label": "Mixed Income Market Initiative RFEI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/mimi-rfei.page"
+  },
+  {
+    "label": "Moving On RFP Re-Solicitation",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/moving-on-rfp.page"
+  },
+  {
+    "label": "Neighborhood Builders Fast Track \u2013 RFPs",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page"
+  },
+  {
+    "label": "Neighborhood Builders Fast Track \u2013 RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfq.page"
+  },
+  {
+    "label": "New Utrecht Library and Affordable Housing RFP",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/new-utrecht-library-rfp.page"
+  },
+  {
+    "label": "NYC 15/15 Rental Assistance RFP",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/nyc-15-15-rental-assistance-rfp.page"
+  },
+  {
+    "label": "Planning and Development Resources RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/planning-and-development-resources-rfq.page"
+  },
+  {
+    "label": "Preservation Buyer RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/preservation-buyer-rfq.page"
+  },
+  {
+    "label": "Property Pathways RFEI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/property-pathways-rfei.page"
+  },
+  {
+    "label": "Qualified Marketing Agent RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/marketing-agent-rfq.page"
+  },
+  {
+    "label": "Supportive Housing RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/supportive-housing-rfq.page"
+  },
+  {
+    "label": "Expand All",
+    "url": "javascript:expandAll();"
+  },
+  {
+    "label": "Collapse All",
+    "url": "javascript:collapseAll();"
+  },
+  {
+    "label": "Edgemere CLT RFEI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/edgemere-clt-rfei.page"
+  },
+  {
+    "label": "Housing Ambassador Services RFEI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/housing-ambassador-services-rfei.page"
+  },
+  {
+    "label": "Housing Retention Stabilization Services RFQ",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/updated-housing-retention-stabilization-services-rfq.page"
+  },
+  {
+    "label": "Project Based Vouchers",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/project-based-vouchers-rfp.page"
+  },
+  {
+    "label": "Sea View Healthy Community RFEI",
+    "url": "https://edc.nyc/project/sea-view-healthy-community"
+  },
+  {
+    "label": "Security Deposit Alternatives RFEI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/security-deposit-rfei.page"
+  },
+  {
+    "label": "Shared Equity RFI",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/shared-equity-rfi.page"
+  },
+  {
+    "label": "Designated Requests",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/designated-rfp-projects.page"
+  },
+  {
+    "label": "nyc.gov home",
+    "url": "https://www.nyc.gov/main"
+  },
+  {
+    "label": "Services",
+    "url": "https://www.nyc.gov/main/services"
+  },
+  {
+    "label": "Events",
+    "url": "https://www.nyc.gov/main/events/"
+  },
+  {
+    "label": "Your government",
+    "url": "https://www.nyc.gov/main/your-government"
+  },
+  {
+    "label": "311",
+    "url": "https://portal.311.nyc.gov/"
+  },
+  {
+    "label": "Contact NYC government",
+    "url": "https://www.nyc.gov/main/your-government/contact-nyc-government"
+  },
+  {
+    "label": "Register to vote",
+    "url": "https://www.nycvotes.org/"
+  },
+  {
+    "label": "Emergency alerts",
+    "url": "https://a858-nycnotify.nyc.gov/notifynyc/"
+  },
+  {
+    "label": "Careers",
+    "url": "https://cityjobs.nyc.gov/"
+  },
+  {
+    "label": "Website feedback",
+    "url": "https://www.nyc.gov/main/forms/website-feedback"
+  },
+  {
+    "label": "Accessibility resources",
+    "url": "https://www.nyc.gov/site/mopd/resources/digital-accessibility.page"
+  },
+  {
+    "label": "Privacy policy",
+    "url": "https://www.nyc.gov/main/nyc-gov-privacy-policy"
+  },
+  {
+    "label": "Terms of use",
+    "url": "https://www.nyc.gov/main/terms-of-use"
+  },
+  {
+    "label": "About nyc.gov content",
+    "url": "https://www.nyc.gov/main/about-our-content"
+  }
+]

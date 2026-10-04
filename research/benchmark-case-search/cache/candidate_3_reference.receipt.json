@@ -1,0 +1,18 @@
+{
+  "id": "candidate_3_reference",
+  "publisher": "NYC HPD",
+  "purpose": "351 Powers Avenue RFP: reference; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/008-24/from-parking-powerhouse-fully-affordable-fully-electric-apartments-replace-bronx-lot-in",
+  "retrieved_at": "2026-10-04T16:47:02.295523+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/008-24/from-parking-powerhouse-fully-affordable-fully-electric-apartments-replace-bronx-lot-in",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 35700,
+  "sha256": "70e932f71ad0eb5c57dc7b87b54abb2ef9d0357e037f05633c63c3ad5750d854",
+  "cache_path": "cache/candidate_3_reference.body",
+  "parsed": "html",
+  "text_chars": 11116,
+  "link_count": 46
+}

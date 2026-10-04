@@ -1,0 +1,82 @@
+{
+  "version": "0.1",
+  "case": "97 West 169th Street, Bronx",
+  "cutoff": "2019-04-04",
+  "experiment_status": "prepared_not_run",
+  "scope": "Document-bounded retrospective reconstruction, not certified historical data or independent expert evaluation",
+  "input_sources": [
+    {
+      "file": "97-west-169th-st-rfp.pdf",
+      "text_file": "97-west-169th-st-rfp.text",
+      "declared_issue_date": "2018-12-21",
+      "date_evidence": "RFP or addendum cover, PDF page 1",
+      "source_url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+      "source_zip_sha256": "c0b6581ebddf3e3706ead761b5785798b303ebed82b8ef75bc6cefc27e3fc0b2",
+      "zip_member": "97-west-169th-street-rfp/97-west-169th-st-rfp.pdf",
+      "pdf_sha256": "212ea247c3eda660eccc4da79800bd24ce1969aff67e2ffbb5ddd30ce61407f9",
+      "text_sha256": "eed89161dcd3cfd755fe1a583f83c12f7a7c1b356919aea081c2b2ba929266c6",
+      "pdf_creation": "Thu Dec 20 19:41:39 2018 UTC",
+      "pdf_modified": "Thu Dec 20 21:12:55 2018 UTC",
+      "pdf_pages": 102,
+      "text_transform": "pdftotext -layout"
+    },
+    {
+      "file": "97-west-169th-street-rfp-addendum.pdf",
+      "text_file": "97-west-169th-street-rfp-addendum.text",
+      "declared_issue_date": "2019-02-19",
+      "date_evidence": "RFP or addendum cover, PDF page 1",
+      "source_url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+      "source_zip_sha256": "c0b6581ebddf3e3706ead761b5785798b303ebed82b8ef75bc6cefc27e3fc0b2",
+      "zip_member": "97-west-169th-street-rfp/97-west-169th-street-rfp-addendum.pdf",
+      "pdf_sha256": "b0d01825edc9afa5d1d30525a75b9f47d347f3345c4e6b145d1e03ca3a65f2c0",
+      "text_sha256": "94fb6a4d34849e59041ecd695223ecab92d27a43a7489ed30bfe186b8bc9f3b9",
+      "pdf_creation": "Tue Feb 19 19:21:59 2019 UTC",
+      "pdf_modified": "Tue Feb 19 19:25:59 2019 UTC",
+      "pdf_pages": 11,
+      "text_transform": "pdftotext -layout"
+    },
+    {
+      "file": "97-west-169th-street-rfp-addendum2.pdf",
+      "text_file": "97-west-169th-street-rfp-addendum2.text",
+      "declared_issue_date": "2019-03-13",
+      "date_evidence": "RFP or addendum cover, PDF page 1",
+      "source_url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+      "source_zip_sha256": "c0b6581ebddf3e3706ead761b5785798b303ebed82b8ef75bc6cefc27e3fc0b2",
+      "zip_member": "97-west-169th-street-rfp/97-west-169th-street-rfp-addendum2.pdf",
+      "pdf_sha256": "930d90fea2ac4499bbe8621e6c0fe44a07de8c4597c8a3b55f2dc019a99b3d09",
+      "text_sha256": "6908da5efe35db393d4be2b4906c4ff76d7ecbe3c8e7fad663c11ab524441a19",
+      "pdf_creation": "Wed Mar 13 17:13:02 2019 UTC",
+      "pdf_modified": "Wed Mar 13 17:13:03 2019 UTC",
+      "pdf_pages": 4,
+      "text_transform": "pdftotext -layout"
+    },
+    {
+      "file": "97-west-169th-street-rfp-addendum3.pdf",
+      "text_file": "97-west-169th-street-rfp-addendum3.text",
+      "declared_issue_date": "2019-03-26",
+      "date_evidence": "RFP or addendum cover, PDF page 1",
+      "source_url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+      "source_zip_sha256": "c0b6581ebddf3e3706ead761b5785798b303ebed82b8ef75bc6cefc27e3fc0b2",
+      "zip_member": "97-west-169th-street-rfp/97-west-169th-street-rfp-addendum3.pdf",
+      "pdf_sha256": "8bb55336354f12c1a101ee6eea83ae0d3340c6640a004c074fd539d968d5942b",
+      "text_sha256": "e4c9429e2ceb09da2d6fdab06e07c3d10c464eb87078e239b4728871a31f3a26",
+      "pdf_creation": "Tue Mar 26 20:03:59 2019 UTC",
+      "pdf_modified": "Tue Mar 26 20:25:19 2019 UTC",
+      "pdf_pages": 2,
+      "text_transform": "pdftotext -layout"
+    }
+  ],
+  "excluded": [
+    "designation announcements",
+    "current project pages",
+    "HPD archive narratives",
+    "later building data",
+    "curator rubric and case-search notes"
+  ],
+  "historical_bytes_certified": false,
+  "archive_check": "Internet Archive availability query for one www1 ZIP URL returned no snapshot; this does not establish that no archival copy exists.",
+  "curator_exposed_to_outcomes": true,
+  "analyst_requires_fresh_context": true,
+  "historical_raw_data_added": false,
+  "input_files_sha256": "0d18c5438dca296d399b34484274952a36c43f8e060cb4391d83fe6feee0366e"
+}

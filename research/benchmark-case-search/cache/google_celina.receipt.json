@@ -1,0 +1,18 @@
+{
+  "id": "google_celina",
+  "publisher": "Google search discovery",
+  "purpose": "Find official documents; snippets are discovery only",
+  "url": "https://www.google.com/search?q=%22Casa+Celina%22+%22RFP%22",
+  "retrieved_at": "2026-10-04T16:45:22.923151+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.google.com/search?q=%22Casa+Celina%22+%22RFP%22",
+  "content_type": "text/html; charset=ISO-8859-1",
+  "last_modified": null,
+  "bytes": 92396,
+  "sha256": "b1a926aa5c991b76d3f0772e6a7f0f929d609914fc91313f2792a5feb48291f4",
+  "cache_path": "cache/google_celina.body",
+  "parsed": "html",
+  "text_chars": 164,
+  "link_count": 3
+}

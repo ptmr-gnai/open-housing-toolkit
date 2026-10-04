@@ -1,0 +1,18 @@
+{
+  "id": "search_bronx",
+  "publisher": "Bing search discovery",
+  "purpose": "Find agency document links; search results do not establish factual claims",
+  "url": "https://www.bing.com/search?q=site%3Anyc.gov+HPD+Bronx+housing+RFP+%222017%22+%22pdf%22",
+  "retrieved_at": "2026-10-04T16:44:57.788839+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=site%3Anyc.gov+HPD+Bronx+housing+RFP+%222017%22+%22pdf%22",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "bytes": 117030,
+  "sha256": "bf2f080106c5572cd3f7b7f90495bd2cdf8f45625fa2113d39be52250c1b805e",
+  "cache_path": "cache/search_bronx.body",
+  "parsed": "html",
+  "text_chars": 2539,
+  "link_count": 49
+}

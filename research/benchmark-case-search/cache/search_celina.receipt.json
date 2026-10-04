@@ -1,0 +1,18 @@
+{
+  "id": "search_celina",
+  "publisher": "Bing search discovery",
+  "purpose": "Find agency document links; search results do not establish factual claims",
+  "url": "https://www.bing.com/search?q=Casa+Celina+NYCHA+RFP+2016+2018+development+selection",
+  "retrieved_at": "2026-10-04T16:44:57.790887+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=Casa+Celina+NYCHA+RFP+2016+2018+development+selection",
+  "content_type": "text/html; charset=utf-8",
+  "last_modified": null,
+  "bytes": 116508,
+  "sha256": "00da2eb2ea536a0b471ed8a1a9e9fe541178296901ff701c2bfb9dd7ed9221e6",
+  "cache_path": "cache/search_celina.body",
+  "parsed": "html",
+  "text_chars": 2664,
+  "link_count": 48
+}

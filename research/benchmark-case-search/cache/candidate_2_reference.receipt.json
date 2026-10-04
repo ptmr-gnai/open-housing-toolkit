@@ -1,0 +1,18 @@
+{
+  "id": "candidate_2_reference",
+  "publisher": "NYC HPD",
+  "purpose": "St. Ann's Avenue/East 142nd Street RFP: reference; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/site/hpd/news/003-16/hpd-commissioner-been-hdc-president-rodney-development-team-designated-build-105",
+  "retrieved_at": "2026-10-04T16:47:02.041719+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/news/003-16/hpd-commissioner-been-hdc-president-rodney-development-team-designated-build-105",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 35064,
+  "sha256": "a58e65aeaa90b51957bf36435d281018b6d72a346a834c9c0fd620274e43cfd1",
+  "cache_path": "cache/candidate_2_reference.body",
+  "parsed": "html",
+  "text_chars": 12229,
+  "link_count": 43
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hpd_designated",
+    "publisher": "NYC HPD",
+    "purpose": "Find completed solicitations and reference projects",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/designated-rfp-projects.page"
+  },
+  {
+    "id": "nycha_affordable",
+    "publisher": "NYC HPD",
+    "purpose": "Find dated Bronx NYCHA solicitation and reference documents",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/nextgen-nycha-affordable-housing.page"
+  },
+  {
+    "id": "google_celina",
+    "publisher": "Google search discovery",
+    "purpose": "Find official documents; snippets are discovery only",
+    "url": "https://www.google.com/search?q=%22Casa+Celina%22+%22RFP%22"
+  }
+]
