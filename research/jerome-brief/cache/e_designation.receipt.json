@@ -1,0 +1,17 @@
+{
+  "id": "e_designation",
+  "publisher": "NYC DCP",
+  "purpose": "Exact BBL screening of recorded environmental obligations; does not establish satisfaction",
+  "url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028560051&%24limit=1000",
+  "retrieved_at": "2026-10-04T00:04:55.765952+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028560051&%24limit=1000",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Wed, 12 Aug 2026 14:37:19 GMT",
+  "bytes": 3,
+  "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "cache_path": "cache/e_designation.body",
+  "parsed": "json",
+  "row_count": 0
+}

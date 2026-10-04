@@ -1,0 +1,18 @@
+{
+  "id": "jerome_project",
+  "publisher": "NYC HPD",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+  "retrieved_at": "2026-10-04T00:02:04.816702+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 30566,
+  "sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c",
+  "cache_path": "cache/jerome_project.body",
+  "parsed": "html",
+  "text_chars": 4264,
+  "link_count": 43
+}

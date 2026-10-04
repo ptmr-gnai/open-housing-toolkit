@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "review_slot": "A",
+  "packet_sha256": "b65b44aa2b848f10505ed4f4afa30c9d151290d9d7fc5d142712969dc4302e3e",
+  "status": "pending",
+  "reviewer_name": null,
+  "expertise": null,
+  "reviewed_at": null,
+  "independent_first_pass": null,
+  "disposition": null,
+  "answers": {
+    "next_decision": null,
+    "usefulness": null,
+    "fatal_errors": null,
+    "zoning": null,
+    "approval": null,
+    "units": null,
+    "buyers": null,
+    "finance": null,
+    "environment": null,
+    "community": null,
+    "control": null,
+    "provenance": null,
+    "workflow": null,
+    "acceptance": null,
+    "signoff": null
+  },
+  "material_issues": [],
+  "time_minutes": null,
+  "time_measurement": "not_measured",
+  "identity_verification": "Not performed by this pipeline; reviewer attribution must be checked by project owner."
+}

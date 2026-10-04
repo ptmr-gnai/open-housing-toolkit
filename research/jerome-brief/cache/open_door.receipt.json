@@ -1,0 +1,16 @@
+{
+  "id": "open_door",
+  "publisher": "NYC HPD",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/open-door-term-sheet.pdf",
+  "retrieved_at": "2026-10-04T00:02:04.817811+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/open-door-term-sheet.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Wed, 17 Jun 2026 17:08:27 GMT",
+  "bytes": 242886,
+  "sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976",
+  "cache_path": "cache/open_door.body",
+  "parsed": "pdf"
+}

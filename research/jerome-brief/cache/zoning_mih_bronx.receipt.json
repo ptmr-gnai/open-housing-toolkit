@@ -1,0 +1,10 @@
+{
+  "id": "zoning_mih_bronx",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://zr.planning.nyc.gov/appendix-f/bronx",
+  "retrieved_at": "2026-10-04T00:02:05.288331+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "error": "HTTP Error 404: Not Found"
+}

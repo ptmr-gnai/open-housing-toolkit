@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"5760a34c9c",applicationID:"169342041",browserID:"169342080"};;/*! For license information please see nr-loader-rum-1.323.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.323.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.323.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.323.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zhTI1o3vPu0UcYWUELiLeb9P46+LBW0K7R4KO/PafMc68L5tJ2mSHyvZtcNeG9Cw/PTZstuo62K1wwaoAsHdXQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.323.0.PROD"]=self["webpackChunk:NRBA-1.323.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119812007-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-119812007-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});</script>
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/neoclassic/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://zr.planning.nyc.gov/article-xiv/chapter-1" />
+<link rel="shortlink" href="https://zr.planning.nyc.gov/node/546" />
+
+        <title>Chapter 1 | Zoning Resolution</title>
+        <link rel="stylesheet" media="all" href="/sites/default/files/css/css_efOAbo8WQ3nm66v0LD0Ne5l63ICbrXLhlDGap2Qe1YY.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_r-UD6UQVmC1uZ1C-sDG8PRSVWXxSMI682jOfPgtS_3M.css" />
+
+            
+                <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+                </head>
+<body class="path-node page-node-type-chapter preload">
+    <div id="main-container">
+                <a href="#main-content" class="visually-hidden focusable skip-link">
+            Skip to main content
+        </a>
+        
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <!-- Header -->
+<header role="banner" id="header">
+    <div class="header-top">
+    
+    <div class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <div id="block-neoclassic-branding" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-logo">
+      <img src="/themes/custom/neoclassic/logo.png" alt="Home" />
+    </a>
+        <div class="site-name">
+      <a href="/" rel="home">Zoning Resolution</a>
+    </div>
+    </div>
+<nav role="navigation" aria-labelledby="block-neoclassic-main-menu-menu" id="block-neoclassic-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-neoclassic-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/79" data-drupal-link-system-path="node/79">Preamble</a>
+              </li>
+                <li class="menu-item">
+        <a href="/zr-downloads" data-drupal-link-system-path="zr-downloads">Archive</a>
+              </li>
+                <li class="menu-item">
+        <a href="/search" data-drupal-link-system-path="search">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+
+    <button class="hamburger hamburger--spin" type="button" aria-label="Menu" aria-controls="navigation">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+    </button>
+  </div>
+  <div class="header-bottom"><a class="toc-toggle expand" href="#">Contents</a></div>
+</header>
+
+<aside class="layout-sidebar-first" role="complementary">
+  <div class="sidebar-first-container">
+    <div class="sidebar-first-container-top">
+      <a class="toc-toggle collapse" href="#">Contents</a>
+        <div class="region region-left-sidebar-top">
+    <div id="block-zrglobalsearch" class="block block-nyczr-search block-nyczr-search-search-form">
+  
+    
+      <form class="nyczr-search-global-search-form" data-drupal-selector="nyczr-search-global-search-form" action="/article-xiv/chapter-1" method="post" id="nyczr-search-global-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search-term form-item-search-term">
+      <label for="edit-search-term">Search</label>
+        <input data-drupal-selector="edit-search-term" type="text" id="edit-search-term" name="search_term" value="" size="60" maxlength="128" placeholder="Enter Search" class="form-text" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-fqzl0exqofcat3gvpz5sq3jqqxugxex-uvs1i7zk4my" type="hidden" name="form_build_id" value="form-FQzl0eXQOfcat3gVPZ5sq3JQQXugxeX-uVS1i7zk4MY" />
+<input data-drupal-selector="edit-nyczr-search-global-search-form" type="hidden" name="form_id" value="nyczr_search_global_search_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button button--primary js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+    </div>
+    
+
+  <div class="region region-left-sidebar">
+    <div class="views-element-container block block-views block-views-blockarticles-block-1" id="block-views-block-articles-block-1">
+  
+    
+      <div><div class="view view-articles view-id-articles view-display-id-block_1 js-view-dom-id-74be1ce4a4eb8f6f3dba7d4d8046cd889431a274e51c89c73d386faf043736cb">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+<article role="article" about="/article-i" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-i">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article I</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">General Provisions</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-ii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-ii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article II</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Residence District Regulations</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-iii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-iii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article III</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Commercial District Regulations</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-iv" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-iv">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article IV</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Manufacturing District Regulations</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-v" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-v">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article V</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Non-Conforming Uses and Non-Complying Buildings</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-vi" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-vi">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article VI</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Regulations Applicable to Certain Areas</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-vii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-vii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article VII</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Administration</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-viii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-viii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article VIII</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-ix" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-ix">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article IX</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-x" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-x">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article X</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xi" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-xi">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article XI</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-xii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article XII</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiii" class="node node--type-article node--view-mode-leftnav">
+
+    <a href="/article-xiii">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article XIII</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="border-divider"></div>
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv" class="node node--type-article node--view-mode-leftnav is-expanded">
+
+    <a href="/article-xiv">
+        <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Article XIV</span>
+</div>
+        <div class="article-title">
+            <div class="field field--name-field-article-title field--type-string field--label-hidden field__item">Special Purpose Districts</div>
+      </div>
+    </a>
+
+        <div class="article-chapters ">
+        <div class="views-element-container"><div class="view view-chapters-by-article view-id-chapters_by_article view-display-id-block_1 js-view-dom-id-0a03ae0071fa4ebdf6757bf73ce929ad8c4866390c08d35bee92918671df667a">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+<article role="article" about="/article-xiv/chapter-1" class="node node--type-chapter node--view-mode-leftnav is-expanded">
+    <a class="chapter-title" href="/article-xiv/chapter-1"><span class="field field--name-title field--type-string field--label-hidden">Chapter 1</span>
+ - Special Jerome Corridor District  (J)</a>
+
+          <div class="chapter-sections ">
+        
+<article role="article" about="/article-xiv/chapter-1/141-00" class="node node--type-section node--view-mode-top-level has-children node--view-mode-teaser top-level nav-item" id="nav-item-141-00" data-section=141-00>
+
+  <a class="section-link" data-node-id="20121" href="/article-xiv/chapter-1#141-00">
+    <div class="section-number">141-00</div>
+    <div class="section-title">GENERAL PURPOSES</div>
+  </a>
+
+      <div data-children-for="141-00" class="section-children">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-01" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-01" data-section=141-01>
+    <a class="section-link" data-node-id="20122" href="/article-xiv/chapter-1#141-01">
+        <div class="section-number">141-01</div>
+        <div class="section-title">General Provisions</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-02" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-02" data-section=141-02>
+    <a class="section-link" data-node-id="20123" href="/article-xiv/chapter-1#141-02">
+        <div class="section-number">141-02</div>
+        <div class="section-title">District Plan and Maps</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-03" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-03" data-section=141-03>
+    <a class="section-link" data-node-id="20124" href="/article-xiv/chapter-1#141-03">
+        <div class="section-number">141-03</div>
+        <div class="section-title">Subdistricts and Subareas</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-04" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-04" data-section=141-04>
+    <a class="section-link" data-node-id="20125" href="/article-xiv/chapter-1#141-04">
+        <div class="section-number">141-04</div>
+        <div class="section-title">Applicability of the Mandatory Inclusionary Housing Program</div>
+    </a>
+
+    
+</article>
+
+
+
+
+    </div>
+  </article>
+
+<article role="article" about="/article-xiv/chapter-1/141-10" class="node node--type-section node--view-mode-top-level has-children node--view-mode-teaser top-level nav-item" id="nav-item-141-10" data-section=141-10>
+
+  <a class="section-link" data-node-id="20126" href="/article-xiv/chapter-1#141-10">
+    <div class="section-number">141-10</div>
+    <div class="section-title">SPECIAL USE REGULATIONS</div>
+  </a>
+
+      <div data-children-for="141-10" class="section-children">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-11" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-11" data-section=141-11>
+    <a class="section-link" data-node-id="20127" href="/article-xiv/chapter-1#141-11">
+        <div class="section-number">141-11</div>
+        <div class="section-title">Modification of Supplemental Use Provisions</div>
+    </a>
+
+    
+</article>
+
+
+
+
+    </div>
+  </article>
+
+<article role="article" about="/article-xiv/chapter-1/141-20" class="node node--type-section node--view-mode-top-level has-children node--view-mode-teaser top-level nav-item" id="nav-item-141-20" data-section=141-20>
+
+  <a class="section-link" data-node-id="20130" href="/article-xiv/chapter-1#141-20">
+    <div class="section-number">141-20</div>
+    <div class="section-title">SPECIAL BULK REGULATIONS</div>
+  </a>
+
+      <div data-children-for="141-20" class="section-children">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-21" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-21" data-section=141-21>
+    <a class="section-link" data-node-id="20131" href="/article-xiv/chapter-1#141-21">
+        <div class="section-number">141-21</div>
+        <div class="section-title">Special Yard Regulations</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-22" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-22" data-section=141-22>
+    <a class="section-link" data-node-id="20132" href="/article-xiv/chapter-1#141-22">
+        <div class="section-number">141-22</div>
+        <div class="section-title">Special Floor Area Regulations in R8A Districts</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-23" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-23" data-section=141-23>
+    <a class="section-link" data-node-id="20133" href="/article-xiv/chapter-1#141-23">
+        <div class="section-number">141-23</div>
+        <div class="section-title">Special Height and Setback Regulations Along the Elevated Rail Structure Outside Subdistrict A</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-24" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-24" data-section=141-24>
+    <a class="section-link" data-node-id="20134" href="/article-xiv/chapter-1#141-24">
+        <div class="section-number">141-24</div>
+        <div class="section-title">Special Height and Setback Regulations in Subdistrict A</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-25" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-25" data-section=141-25>
+    <a class="section-link" data-node-id="20135" href="/article-xiv/chapter-1#141-25">
+        <div class="section-number">141-25</div>
+        <div class="section-title">Special Height and Setback Regulations in R8A Districts</div>
+    </a>
+
+    
+</article>
+
+
+
+
+    </div>
+  </article>
+
+<article role="article" about="/article-xiv/chapter-1/141-30" class="node node--type-section node--view-mode-top-level has-children node--view-mode-teaser top-level nav-item" id="nav-item-141-30" data-section=141-30>
+
+  <a class="section-link" data-node-id="20136" href="/article-xiv/chapter-1#141-30">
+    <div class="section-number">141-30</div>
+    <div class="section-title">SPECIAL STREETSCAPE REGULATIONS</div>
+  </a>
+
+      <div data-children-for="141-30" class="section-children">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-31" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-31" data-section=141-31>
+    <a class="section-link" data-node-id="20138" href="/article-xiv/chapter-1#141-31">
+        <div class="section-number">141-31</div>
+        <div class="section-title">Streetscape Regulations</div>
+    </a>
+
+    
+</article>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-32" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-32" data-section=141-32>
+    <a class="section-link" data-node-id="20139" href="/article-xiv/chapter-1#141-32">
+        <div class="section-number">141-32</div>
+        <div class="section-title">Special Open Space Provisions </div>
+    </a>
+
+    
+</article>
+
+
+
+
+    </div>
+  </article>
+
+<article role="article" about="/article-xiv/chapter-1/141-40" class="node node--type-section node--view-mode-top-level has-children node--view-mode-teaser top-level nav-item" id="nav-item-141-40" data-section=141-40>
+
+  <a class="section-link" data-node-id="20140" href="/article-xiv/chapter-1#141-40">
+    <div class="section-number">141-40</div>
+    <div class="section-title">SPECIAL PARKING AND LOADING REGULATIONS</div>
+  </a>
+
+      <div data-children-for="141-40" class="section-children">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-41" class="node node--type-section node--view-mode-teaser nav-item" id="nav-item-141-41" data-section=141-41>
+    <a class="section-link" data-node-id="20141" href="/article-xiv/chapter-1#141-41">
+        <div class="section-number">141-41</div>
+        <div class="section-title">Location of Curb Cuts</div>
+    </a>
+
+    
+</article>
+
+
+
+
+    </div>
+  </article>
+
+
+
+
+      </div>
+    
+    
+            <div class="chapter-appendices">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-d546f70cf700ad945f4f301be989ad164caff359836253522c9ea92beb450407">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv/chapter-2" class="node node--type-chapter node--view-mode-leftnav">
+    <a class="chapter-title" href="/article-xiv/chapter-2"><span class="field field--name-title field--type-string field--label-hidden">Chapter 2</span>
+ - Special Inwood District (IN)</a>
+
+    
+    
+            <div class="chapter-appendices hidden">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-b5c74676d9a8700edd60cd050849348ea553cfcae8f4e918a1d6407493c53bce">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv/chapter-3" class="node node--type-chapter node--view-mode-leftnav">
+    <a class="chapter-title" href="/article-xiv/chapter-3"><span class="field field--name-title field--type-string field--label-hidden">Chapter 3</span>
+ - Special SoHo-NoHo Mixed Use District (SNX)</a>
+
+    
+    
+            <div class="chapter-appendices hidden">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-251ac6dafb622abb43096f92458beee74b8e8adac18d7d8a6440411e9579c427">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv/chapter-4" class="node node--type-chapter node--view-mode-leftnav">
+    <a class="chapter-title" href="/article-xiv/chapter-4"><span class="field field--name-title field--type-string field--label-hidden">Chapter 4</span>
+ - Special Brooklyn Navy Yard District (BNY)</a>
+
+    
+    
+            <div class="chapter-appendices hidden">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-92bd74048fe36812003ea69a33d16b4667e7fc273d52d445763b7b0b1a45f5a3">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv/chapter-5" class="node node--type-chapter node--view-mode-leftnav">
+    <a class="chapter-title" href="/article-xiv/chapter-5"><span class="field field--name-title field--type-string field--label-hidden">Chapter 5</span>
+ - Special Eastchester – East Tremont Corridor District (ETC)</a>
+
+    
+    
+            <div class="chapter-appendices hidden">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-d9589859af506ebe39eda204afca9a3e2baa62f1013b37581681e04a7ff4b43b">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+    <div class="views-row">
+<article role="article" about="/article-xiv/chapter-6" class="node node--type-chapter node--view-mode-leftnav">
+    <a class="chapter-title" href="/article-xiv/chapter-6"><span class="field field--name-title field--type-string field--label-hidden">Chapter 6</span>
+ - Special Atlantic Avenue Mixed Use District (AAM)</a>
+
+    
+    
+            <div class="chapter-appendices hidden">
+            <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_1 js-view-dom-id-9cd224b4ba3cf2b0ffdda80da980c6b2bd6e9392d2b2feba33057ede53e27a0e">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><a class="appendix-link" data-node-id="20142" id="nav-appendix" href="#APPENDIX"><strong>APPENDIX</strong> -         </a>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+        </div>
+    
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+        <div class="border-divider"></div>
+</article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container block block-views block-views-blockappendices-block-1" id="block-views-block-appendices-block-1">
+  
+    
+      <div><div class="view view-appendices view-id-appendices view-display-id-block_1 js-view-dom-id-be22f8a1191017b129ce5879c6735aa19c0f4a4b06b9204dc93aae51aa54af11">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+<article role="article" about="/appendix-b-index-special-purpose-districts" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-b-index-special-purpose-districts">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX B — Index of Special Purpose Districts</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-c-table-1-city-environmental-quality-review-ceqr-environmental-requirements-e-designations" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-c-table-1-city-environmental-quality-review-ceqr-environmental-requirements-e-designations">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX C, Table 1 — City Environmental Quality Review (CEQR) Environmental Requirements: (E) Designations</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-c-table-2-city-environmental-quality-review-ceqr-environmental-requirements-environmental" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-c-table-2-city-environmental-quality-review-ceqr-environmental-requirements-environmental">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX C, Table 2 — City Environmental Quality Review (CEQR) Environmental Requirements: Environmental Restrictive Declarations</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-d-zoning-map-amendment-d-restrictive-declarations" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-d-zoning-map-amendment-d-restrictive-declarations">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX D — Zoning Map Amendment (&quot;D&quot;) Restrictive Declarations</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-e-design-requirements-plazas-residential-plazas-and-urban-plazas-developed-prior-october" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-e-design-requirements-plazas-residential-plazas-and-urban-plazas-developed-prior-october">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX E — Design Requirements for Plazas, Residential Plazas and Urban Plazas Developed Prior to October 17, 2007</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX F – Mandatory Inclusionary Housing Areas and former Inclusionary Housing Designated Areas</span>
+</div>
+  </a>
+
+      <div class="child-appendices hidden">
+      
+      <div class="field field--name-field-child-appendices field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item">
+<article role="article" about="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2" class="node node--type-child-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Appendix F – The Bronx</span>
+</div>
+  </a>
+</article>
+</div>
+              <div class="field__item">
+<article role="article" about="/appendix-f-inclusionary-housing-designated-areas-and-mandatory-inclusionary-housing-areas-0" class="node node--type-child-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-inclusionary-housing-designated-areas-and-mandatory-inclusionary-housing-areas-0">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Appendix F – Brooklyn</span>
+</div>
+  </a>
+</article>
+</div>
+              <div class="field__item">
+<article role="article" about="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-0" class="node node--type-child-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-0">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Appendix F - Manhattan</span>
+</div>
+  </a>
+</article>
+</div>
+              <div class="field__item">
+<article role="article" about="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-1" class="node node--type-child-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-1">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Appendix F - Queens</span>
+</div>
+  </a>
+</article>
+</div>
+              <div class="field__item">
+<article role="article" about="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-3" class="node node--type-child-appendix node--view-mode-leftnav">
+  <a href="/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-3">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">Appendix F - Staten Island</span>
+</div>
+  </a>
+</article>
+</div>
+          </div>
+  
+    </div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-g-radioactive-materials" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-g-radioactive-materials">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX G — Radioactive Materials</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-h-arterial-highways" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-h-arterial-highways">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX H — Arterial Highways</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-i" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-i">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX I </span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-j-designated-areas-within-manufacturing-districts" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-j-designated-areas-within-manufacturing-districts">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX J — Designated Areas Within Manufacturing Districts</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+    <div class="views-row">
+<article role="article" about="/appendix-k-areas-nursing-home-restrictions" class="node node--type-appendix node--view-mode-leftnav">
+  <a href="/appendix-k-areas-nursing-home-restrictions">
+    <div class="article-number"><span class="field field--name-title field--type-string field--label-hidden">APPENDIX K — Areas With Nursing Home Restrictions</span>
+</div>
+  </a>
+
+      <div class="border-divider"></div>
+  </article>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+  </div>
+</aside>
+
+<main role="main" class="main-content" id="content-main">
+    <div class="region region-content">
+    <div id="block-neoclassic-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  <a href="/article-xiv">Article XIV</a>
+              </li>
+          <li>
+                  Chapter 1
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-neoclassic-content" class="block block-system block-system-main-block">
+  
+    
+      
+
+
+<a id="top" href="#"></a>
+<article role="article" about="/article-xiv/chapter-1" class="node node--type-chapter node--view-mode-full">
+  <section class="chapter-main">
+        <div class="crest-header">
+      <div class="ch-crest"></div>
+      <div class="ch-title">
+        <h2><span class="field field--name-title field--type-string field--label-hidden">Chapter 1</span>
+ - Special Jerome Corridor District  (J)</h2>
+        <div class="ch-figs">
+          <div class="ch-fig">
+            <div class="fig-title">The City of New York</div>
+            <div class="fig-name">Zohran K. Mamdani, Mayor</div>
+          </div>
+          <div class="ch-fig">
+            <div class="fig-title">City Planning Commission</div>
+            <div class="fig-name">Sideya Sherman, Chair</div>
+          </div>
+        </div>
+      </div>
+
+            <div class="action-links">
+        <div class="amended"><span class="views-label">Last Amended</span><span class="field-content">3/22/2018</span></div>
+        <div class="action-link"><a title="Amendment History" data-content-nid="546" data-section-number="Chapter 1" data-section-title="Special Jerome Corridor District  (J)" class="use-ajax action-icon revisions" href="/nojs/get/amendment/chapter/546">History</a></div>
+                  <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/sites/default/files/article/146/chapters/Chapter%201.pdf" target="_blank">Print Chapter</a></div>
+                <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Copy Link" class="action-icon link">Copy Link</a></div>
+      </div>
+
+            <div class="action-link-content hidden">
+        <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1</div>
+      </div>
+    </div>
+
+        <div class="chapter-sections">
+      
+
+<article role="article" about="/article-xiv/chapter-1/141-00" class="node node--type-section node--view-mode-default" id="141-00" data-section=141-00 data-node-id=20121>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-00</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-00">GENERAL PURPOSES</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-a93ab420665fe0897126b412db11e3c2f12191ad6a61bc62076d3ea509de80be">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-8a2c8855f6587ecc2f50541786ac2393c75fe0300209a693180b2c393cf88b20">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20121" data-section-number="141-00" data-section-title="GENERAL PURPOSES" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20121">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20121" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-00</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-34428fa2f6735329b0c0f5e37c5c4c202096f080b1088c12e5416d7b149f8146">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>The “Special Jerome Corridor District” established in this Resolution is designed to promote and protect public health, safety and general welfare. These general goals include, among others, the following specific purposes:</span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(a)        to encourage well-designed buildings that complement the built character of the Highbridge, Concourse, Mount Eden, Mount Hope, Morris Heights and University Heights neighborhoods;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(b)        to achieve a harmonious visual and functional relationship with the adjacent neighborhoods;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(c)        to enhance neighborhood economic diversity by broadening the range of housing choices for residents at varied incomes;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(d)        to create a livable community combining housing, retail and other uses throughout the district;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(e)        to create a walkable, urban streetscape environment through a mix of ground floor uses;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(f)        to create a lively and attractive built environment that will provide daily amenities and services for the use and enjoyment of area residents, workers and visitors;</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(g)        to provide flexibility of architectural design within limits established to assure adequate access of light and air to the street, and thus to encourage more attractive and economic building forms on zoning lots with irregular shapes and on zoning lots fronting on the elevated rail structure along Jerome and River Avenues; and</span></p><p style="margin-left: 43pt;text-indent: -43pt;"><span></span></p><p style="margin-left: 43pt;text-indent: -43pt;" class="pseudo-li"><span>(h)        to promote the most desirable use of land in accordance with a well-considered plan and thus conserve the value of land and buildings, and thereby protect the City’s tax revenues.</span></p></div>
+      
+          </div>
+
+</article>
+
+    <div class="section-children">
+        
+
+<article role="article" about="/article-xiv/chapter-1/141-01" class="node node--type-section node--view-mode-default" id="141-01" data-section=141-01 data-node-id=20122>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-01</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-01">General Provisions</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-b6483f6a0335fd5d2260a717b494a8a5f855a85a95a63ec2cc596cae87e788cf">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-621ac459e45842a5d786c3cef9d91f0b3ac48afbf039f00fa27e5c7eda7a007f">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2021-10-07T12:00:00Z" class="datetime">10/7/2021</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20122" data-section-number="141-01" data-section-title="General Provisions" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20122">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20122" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-01</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-715753f5682def63c387c82a760be6b40bbc8572cde221e492117eae88a0b175">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>The provisions of this Chapter shall apply within the <strong><em>Special Jerome Corridor District</em></strong>. The regulations of all other Chapters of this Resolution are applicable, except as superseded, supplemented or modified by the provisions of this Chapter. In the event of a conflict between the provisions of this Chapter and other regulations of this Resolution, the provisions of this Chapter shall control. However, for <strong><em>transit-adjacent sites</em></strong> or <strong><em>qualifying transit improvement sites</em></strong>, as defined in Section <a class="sec-link-inline" target="_blank" href="/article-vi/chapter-6#66-11"><span>66-11</span></a> (Definitions), in the event of a conflict between the provisions of this Chapter and the provisions of Article VI, Chapter 6 (Special Regulations Applying Around Mass Transit Stations), the provisions of Article VI, Chapter 6 shall control.</span></p></div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-02" class="node node--type-section node--view-mode-default" id="141-02" data-section=141-02 data-node-id=20123>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-02</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-02">District Plan and Maps</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-539e40b8f1eacf7c0c1acfe5f084b70f12715782ae6f2b9726adb2614c2178dc">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-2dc1c0620200992cd7ed691255084ca74b26d22e72a9d5a6cf7914be747c033f">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20123" data-section-number="141-02" data-section-title="District Plan and Maps" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20123">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20123" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-02</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-6d639df9740e4ad0a109ba6a27b8c1640095583ce51dff1c0f879be9e9d27753">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>In order to carry out the purposes and provisions of this Chapter, district maps are located in the Appendix to this Chapter and are hereby incorporated and made an integral part of this Resolution. They are incorporated for the purpose of specifying locations where special regulations and requirements, as set forth in the text of this Chapter, apply.</span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span></span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span>Map 1.        Special Jerome Corridor District, Subdistrict and Subareas</span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span></span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span>Map 2.        Designated locations for street wall continuity and ground floor requirements in Subarea A1</span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span></span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span>Map 3.        Designated locations for street wall continuity and ground floor requirements in Subarea A2 </span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span></span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span>Map 4.        Designated locations for street wall continuity requirements in Subarea A3</span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span></span></p><p style="margin-left: 129pt;text-indent: -72pt;"><span>Map 5.        Boundary of Subarea A4</span></p></div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-03" class="node node--type-section node--view-mode-default" id="141-03" data-section=141-03 data-node-id=20124>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-03</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-03">Subdistricts and Subareas</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-625a1992bac797bd0084cbbbde126ea25b19671c56c7dc24a25e797e84f547f3">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-5d2e60bebcb48e60ffb64b3f8d68db892d1ef483a70fb4280a06aa4fcdeef575">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20124" data-section-number="141-03" data-section-title="Subdistricts and Subareas" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20124">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20124" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-03</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-6868dab20622524ca6045c2f57991e1346028a730a79434f570b0d622ab34d35">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>To carry out the provisions of this Chapter, Subdistrict A, comprised of Subareas A1, A2, A3 and A4, is established. The location and boundaries of this Subdistrict and Subareas are shown on Map 1 (Special Jerome Corridor District, Subdistrict and Subareas) in the Appendix to this Chapter.</span></p></div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-04" class="node node--type-section node--view-mode-default" id="141-04" data-section=141-04 data-node-id=20125>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-04</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-04">Applicability of the Mandatory Inclusionary Housing Program</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-df4906aee91bb814dc0d34145e15448b5bc6a37a73daea677064481b256a63e0">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-eaff4c1e3e8fe51fc692408f127eb19e31aa035cc067ddc49080ea3867375653">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20125" data-section-number="141-04" data-section-title="Applicability of the Mandatory Inclusionary Housing Program" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20125">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20125" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-04</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-f68f150ec72be644045b1579b9cb8982303d542587cfea5cf56356d48290ab6f">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>For the purposes of applying the Mandatory Inclusionary Housing Program provisions set forth in Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-7#27-10"><span>27-10</span></a> (ADMINISTRATION OF AFFORDABLE HOUSING), inclusive, <strong><em>Mandatory Inclusionary Housing areas</em></strong> within the <strong><em>Special Jerome Corridor District</em></strong> are shown on the maps in APPENDIX F of this Resolution.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+
+
+    </div>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-10" class="node node--type-section node--view-mode-default" id="141-10" data-section=141-10 data-node-id=20126>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-10</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-10">SPECIAL USE REGULATIONS</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-a7c3e109a0454ff8b54bbb4a1ff58da04517c37093be3b8b60f27f53d91a50d9">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-e6c146b3648f9cc36de7582df68c26521c1ffe3b95d851be218515a44b4cabfb">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-06-06T12:00:00Z" class="datetime">6/6/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20126" data-section-number="141-10" data-section-title="SPECIAL USE REGULATIONS" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20126">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20126" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-10</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-34a647dfc86a8bb09516810f4210f5a1985b6b6d9ff211c93df9878f0102130e">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>Within the <strong><em>Special Jerome Corridor District</em></strong>, the underlying <strong><em>use</em></strong> regulations shall apply.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+    <div class="section-children">
+        
+
+<article role="article" about="/article-xiv/chapter-1/141-11" class="node node--type-section node--view-mode-default" id="141-11" data-section=141-11 data-node-id=20127>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-11</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-11">Modification of Supplemental Use Provisions</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-addd49afe187697deb0895d15c05ff79223e5ddef7b0586afeac06e767be3e1e">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-3473793c5707cd41a9e415567a50632acf24d3ad5ba5ef8669caa62b6d0c19de">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-06-06T12:00:00Z" class="datetime">6/6/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20127" data-section-number="141-11" data-section-title="Modification of Supplemental Use Provisions" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20127">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20127" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-11</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-7f8865a682aaaa5ce2ee2bd01b78af5b56c097f8296fcd88883e95722ea06b34">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>In C1 or C2 Districts mapped within R7 or R8 Districts and located along the elevated rail structure on Jerome or River Avenues, the provisions of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-2#32-421"><span>32-421</span></a> (Limitation on floors occupied by commercial uses) shall be modified for <strong><em>buildings</em></strong> containing <strong><em>residences</em></strong> as follows. The limitations set forth in paragraph (a) of such Section shall be modified to apply to <strong><em>buildings</em></strong> constructed before March 22, 2018.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+
+
+    </div>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-20" class="node node--type-section node--view-mode-default" id="141-20" data-section=141-20 data-node-id=20130>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-20</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-20">SPECIAL BULK REGULATIONS</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-5f1d74d8c55cad6bb5dc1635ccc9aa10ebdfbd075f1794e4e140cb251487cb04">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-c2b9a8d8d5f127145bcadec42e5f30c66cdfd4235a1e374eb4de7b51c3cdb027">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20130" data-section-number="141-20" data-section-title="SPECIAL BULK REGULATIONS" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20130">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20130" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-20</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-c3e5adcc0230e9daf6f4569d76d7a40ee698ed82863f99589f1600d4d4f863ec">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>The underlying <strong><em>bulk</em></strong> regulations are modified by the provisions of this Section. </span></p></div>
+      
+          </div>
+
+</article>
+
+    <div class="section-children">
+        
+
+<article role="article" about="/article-xiv/chapter-1/141-21" class="node node--type-section node--view-mode-default" id="141-21" data-section=141-21 data-node-id=20131>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-21</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-21">Special Yard Regulations</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-06e8becc81a37a0be2ffd537ebd18264001b4be8eb7a88c6c0e9aaa5ca001df9">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-86145a51089321e9084fc2b0485df3bfbbc38d75bd3135927343e5508e4bcc16">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2023-12-06T12:00:00Z" class="datetime">12/6/2023</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20131" data-section-number="141-21" data-section-title="Special Yard Regulations" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20131">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20131" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-21</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-539ba754fa27ae4893dfd2dfeff563c84e8da4624d94cee6ddd4c1cf8837ddef">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>In <strong><em>Commercial Districts</em></strong>, for <strong><em>zoning lots</em></strong> or portions thereof, with <strong><em>street lines</em></strong> along the elevated rail structure on Jerome or River Avenues and within 100 feet of such <strong><em>street lines</em></strong>, the permitted obstructions set forth in Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-3#33-23"><span>33-23</span></a> (Permitted Obstructions in Required Yards or Rear Yard Equivalents) shall be modified to permit any <strong><em>building</em></strong> or portion of a <strong><em>building</em></strong> used for any permitted <strong><em>use</em></strong> other than <strong><em>residences</em></strong>, to be a permitted obstruction within a required <strong><em>yard</em></strong>, <strong><em>rear yard equivalent</em></strong> or other <strong><em>open space</em></strong> required pursuant to the provisions of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-3#33-20"><span>33-20</span></a> (YARD REGULATIONS), inclusive, or Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-3#33-30"><span>33-30</span></a> (OTHER SPECIAL PROVISIONS FOR REAR YARDS), inclusive, provided that the height of such portion of a <strong><em>building</em></strong> shall not exceed two <strong><em>stories</em></strong>, excluding <strong><em>basement</em></strong>, nor in any event 30 feet above <strong><em>curb level</em></strong>. Any allowance for other permitted obstructions above a <strong><em>building</em></strong> in a <strong><em>rear yard</em></strong> or <strong><em>rear yard equivalent</em></strong> set forth in Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-3#33-23"><span>33-23</span></a>, shall be permitted above such modified height limitations.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-22" class="node node--type-section node--view-mode-default" id="141-22" data-section=141-22 data-node-id=20132>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-22</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-22">Special Floor Area Regulations in R8A Districts</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-4bbf30bab6af80aeb95dd0d36524fe2ae7a7847ffd2031cb99f41cecd59436ae">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-2e5e27ca960302f8a14730dc7e105d293536c9e4db85d9ab675792de10476f72">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20132" data-section-number="141-22" data-section-title="Special Floor Area Regulations in R8A Districts" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20132">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20132" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-22</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-fd2d89150900e8ee1a5cba8de5efb5519b02826abef63615c67fc5545a2272fd">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>For <strong><em>zoning lots</em></strong> in R8A Districts, or <strong><em>Commercial Districts</em></strong> mapped within, or with a <strong><em>residential equivalent</em></strong> of an R8A District, within 100 feet of a <strong><em>wide street</em></strong> located outside of <strong><em>Mandatory Inclusionary Housing areas</em></strong>, the underlying <strong><em>floor area</em></strong> provisions applicable to an R8 District within 100 feet of a <strong><em>wide street</em></strong> shall apply.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-23" class="node node--type-section node--view-mode-default" id="141-23" data-section=141-23 data-node-id=20133>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-23</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-23">Special Height and Setback Regulations Along the Elevated Rail Structure Outside Subdistrict A</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-6fe5a4a7e08b16b2cff8fbb32a5a06cb133e4ab05f40d9dbdb9000e61ebd1739">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-1291d1a22f6c8d0b9c61b3a58671811a629d481f95ebfaca28e098d925280a0a">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20133" data-section-number="141-23" data-section-title="Special Height and Setback Regulations Along the Elevated Rail Structure Outside Subdistrict A" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20133">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20133" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-23</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-915d447b9018a29af21f4c87f3e88222ed2b9add85b8eeb52f8298e6f3780dae">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>For <strong><em>zoning lots</em></strong>, or portions thereof, within 100 feet of <strong><em>street lines</em></strong> along the elevated rail structure on Jerome or River Avenues, and located outside Subdistrict A, the underlying height and setback provisions are modified by the provisions of this Section.</span></p>
+
+<ol><li><span><strong><em>Street wall</em></strong> location</span><br /><br /><span>The <strong><em>street wall</em></strong> location provisions of paragraph (a)(1) of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-5#35-643"><span>35-643</span></a> (Special provisions in other geographies) shall apply.</span><br /><br /><span>Any open space between a <strong><em>street wall</em></strong> and a <strong><em>street line</em></strong> along the elevated rail structure on Jerome or River Avenues shall comply with the special open space provisions of paragraph (a) of Section <a class="sec-link-inline" target="_blank" href="/article-xiv/chapter-1#141-32"><span>141-32</span></a>. </span></li>
+	<li><span>Base heights, maximum <strong><em>building</em></strong> heights</span><br /><br /><span>The underlying height and setback provisions of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-5#35-63"><span>35-63</span></a> (Height and Setback Requirements in Commercial Districts with R6 Through R12 Equivalency), inclusive, shall apply, as modified by the provisions of paragraph (a) of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-5#35-643"><span>35-643</span></a> (Special provisions in other geographies). However, for <strong><em>street walls</em></strong> facing the elevated rail structure, beyond 75 feet of the corner of <strong><em>streets</em></strong> intersecting Jerome or River Avenues, the maximum base height shall be 30 feet.</span></li>
+	<li><span>Required and permitted articulation</span><br /><br /><span>For <strong><em>street walls</em></strong> fronting the elevated rail structure on Jerome or River Avenues with widths exceeding 100 feet, a minimum of 20 percent of the surface area of such <strong><em>street walls</em></strong> above the level of the second <strong><em>story</em></strong>, or a height of 30 feet, whichever is lower, shall either recess or project a minimum of three feet from the remaining surface of the <strong><em>street wall</em></strong>. Any such projections shall be considered a permitted obstruction into a required setback, and the depth of such projections along the elevated rail structure shall not exceed three feet.</span><br /><br /><span>In addition, the underlying dormer provisions of paragraph (b) of Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-3#23-413"><span>23-413</span></a> (Permitted obstructions in certain districts) shall be modified for portions of <strong><em>buildings</em></strong> facing the elevated rail structure, so that above the maximum base height set forth in paragraph (b) of this Section, dormers shall be permitted only within 75 feet of a corner. </span></li>
+</ol></div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-24" class="node node--type-section node--view-mode-default" id="141-24" data-section=141-24 data-node-id=20134>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-24</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-24">Special Height and Setback Regulations in Subdistrict A</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-d9d1f7cc008a31e3feb05e1475377fb9571cb8b716c16fe662a38b256168e9de">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-773213447a8a305748e807583dcfdc039edd24ea756eb177d4aa02ac6177f7b8">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20134" data-section-number="141-24" data-section-title="Special Height and Setback Regulations in Subdistrict A" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20134">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20134" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-24</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-e899e7193f05ba3d126b93f1f9df2920bc0b3d96ef062e3a054cbae56f39c1ef">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>In Subdistrict A, as shown on Map 1 in the Appendix to this Chapter, the underlying height and setback provisions are modified by the provisions of this Section.</p>
+
+<ol><li><strong><em>Street wall</em></strong> location
+	<ol><li>Along the elevated rail structure<br /><br />
+		For <strong><em>street walls</em></strong>, or portions thereof, within 100 feet of <strong><em>street lines</em></strong> along the elevated rail structure on Jerome or River Avenues, the <strong><em>street wall</em></strong> location provisions of paragraph (a)(1) of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-5#35-643"><span>35-643</span></a> (Special provisions in other geographies) shall apply.</li>
+		<li>Along designated <strong><em>streets</em></strong><br /><br />
+		In Subareas A1 through A3, along the <strong><em>streets</em></strong> designated on Maps 2 through 4 in the Appendix to this Chapter, the following shall apply:
+		<ol><li>In <strong><em>Commercial Districts</em></strong><br /><br />
+			In <strong><em>Commercial Districts</em></strong>, the <strong><em>street wall</em></strong> location provisions of paragraph (b) of Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-5#35-631"><span>35-631</span></a> shall apply, except that the <strong><em>street wall</em></strong> shall extend to at least a height of 30 feet, or the height of the <strong><em>building</em></strong>, whichever is lower. In addition, above a height of 30 feet, at least 50 percent of the <strong><em>aggregate width of street walls</em></strong> shall be located within eight feet of the <strong><em>street line</em></strong> and shall extend to at least a minimum base height of 60 feet, or the height of the <strong><em>building</em></strong>, whichever is lower.<br /><br />
+			The remaining <strong><em>aggregate width of street walls</em></strong> may be recessed beyond 15 feet of the <strong><em>street line</em></strong>, provided that any such recesses deeper than 10 feet along a <strong><em>wide street</em></strong> or 15 feet along a <strong><em>narrow street</em></strong> are located within an <strong><em>outer court</em></strong>.<br /><br />
+			In the corner locations designated on Maps 2 and 3, an open space may be provided within 75 feet of the corner, pursuant to the provisions of paragraph (b) of Section <a class="sec-link-inline" target="_blank" href="/article-xiv/chapter-1#141-33"><span>141-33</span></a>.</li>
+			<li>In <strong><em>Residence Districts</em></strong><br /><br />
+			For <strong><em>street walls</em></strong>, or portions thereof, located in <strong><em>Residence Districts</em></strong>, at least 70 percent of the <strong><em>aggregate width of street walls</em></strong> shall be located within 15 feet of the <strong><em>street line</em></strong> and shall extend to at least the minimum base height set forth in paragraph (b) of this Section, or the height of the <strong><em>building</em></strong>, whichever is lower.<br /><br />
+			The remaining <strong><em>aggregate width of street walls</em></strong> may be recessed beyond 15 feet of the <strong><em>street line</em></strong>, provided that any such recesses deeper than 10 feet along a <strong><em>wide street</em></strong> or 15 feet along a <strong><em>narrow street</em></strong> are located within an <strong><em>outer court</em></strong>.<br /><br />
+			The underlying allowances for <strong><em>street wall</em></strong> articulation, set forth in paragraph (d) of Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-3#23-431"><span>23-431</span></a> shall be permitted to project or recess, where applicable, beyond the <strong><em>street wall</em></strong> locations established in this paragraph.<br /><br />
+			In the corner locations designated on Map 4, an open space may be provided within 75 feet of the corner, pursuant to the provisions of paragraph (b) of Section <a class="sec-link-inline" target="_blank" href="/article-xiv/chapter-1#141-33"><span>141-33</span></a>.</li>
+		</ol></li>
+		<li>Along other <strong><em>streets</em></strong><br /><br />
+		In Subareas A1 through A3, along <strong><em>streets</em></strong> that are not designated on Maps 2 through 4, and in Subarea A4, along all <strong><em>streets</em></strong>, no <strong><em>street wall</em></strong> location provisions shall apply, and no minimum base heights shall apply.</li>
+	</ol></li>
+	<li>Base heights and maximum <strong><em>building</em></strong> heights<br /><br />
+	The underlying height and setback regulations shall apply, except as modified below:
+	<ol><li>for <strong><em>street walls</em></strong> facing the elevated rail structure, beyond 75 feet of the corner of <strong><em>streets</em></strong> intersecting Jerome or River Avenues, the maximum base height shall be 30 feet;</li>
+		<li>the setback provisions of Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-3#23-433"><span>23-433</span></a> (Standard setback regulations) shall apply except that for portions of <strong><em>buildings or other structures</em></strong> along Cromwell Avenue located beyond 200 feet from a corner, a minimum setback with a depth of at least 30 feet shall be provided;</li>
+		<li>In R9A Districts, or in <strong><em>Commercial Districts</em></strong> mapped within R9A Districts:
+		<ol><li>the maximum base height shall be 125 feet;</li>
+			<li>above the required setback, the height of a <strong><em>building</em></strong> shall not exceed a maximum transition height of 175 feet;</li>
+			<li>where the <strong><em>lot coverage</em></strong> of all <strong><em>buildings</em></strong> on the <strong><em>zoning lot</em></strong> above the maximum transition height has been reduced to 50 percent on <strong><em>zoning lots</em></strong> with a <strong><em>lot area</em></strong> less than or equal to 15,000 square feet, 40 percent on <strong><em>zoning lots</em></strong> with a <strong><em>lot area</em></strong> greater than 15,000 square feet but less than 30,000 square feet, and 30 percent for all other <strong><em>zoning lots</em></strong>, a <strong><em>building</em></strong> may rise to a maximum <strong><em>building</em></strong> height of 225 feet. The maximum <strong><em>street wall</em></strong> width of any <strong><em>story</em></strong> above the maximum transition height shall not exceed 165 feet and, where two or more non-contiguous portions of a <strong><em>building</em></strong> exist at the same level above the maximum transition height, such portions shall provide a minimum distance of 60 feet between facing walls at any point.</li>
+		</ol></li>
+	</ol></li>
+	<li>Required and permitted articulation<br /><br />
+	In Subareas A1 through A3, along <strong><em>streets</em></strong> designated in Maps 2, 3 and 4 in the Appendix to this Chapter, for <strong><em>street wall</em></strong> widths exceeding 100 feet, a minimum of 20 percent of the surface area of <strong><em>street walls</em></strong> above the level of the second <strong><em>story</em></strong>, or a height of 30 feet, whichever is lower, shall either recess or project a minimum of three feet from the remaining surface of the <strong><em>street wall</em></strong>. Any such projections shall be considered a permitted obstruction into a required setback, provided that any projections with a depth greater than five feet shall be considered a dormer.<br /><br />
+	In addition, the underlying dormer provisions of paragraph (b) of Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-3#23-413"><span>23-413</span></a> (Permitted obstructions in certain districts) shall apply, except that in Subareas A1 through A3, for <strong><em>street walls</em></strong> intersecting within 100 feet of the corners designated on Maps 2, 3 and 4, and irrespective of the width of the <strong><em>street wall</em></strong> below the maximum base height, dormers shall be permitted within 100 feet of such intersecting <strong><em>street walls</em></strong>. Such dormers need not decrease in width as the height above the maximum base height increases.<br /><br />
+	Any dormers or projections provided in accordance with this paragraph need not be included in the maximum <strong><em>lot coverage</em></strong> permitted above the maximum transition height, nor be included in the maximum <strong><em>street wall</em></strong> width of a <strong><em>story</em></strong>.</li>
+</ol></div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-25" class="node node--type-section node--view-mode-default" id="141-25" data-section=141-25 data-node-id=20135>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-25</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-25">Special Height and Setback Regulations in R8A Districts</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-26441b51898f35e1e11c9554ee40943fd9af5c7b6a410fcd1324b64098d670f2">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-7a18dc000b20b5eea4398dd815de1389f1ea5f8bd89de24f7d56b7a7cf38fd83">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20135" data-section-number="141-25" data-section-title="Special Height and Setback Regulations in R8A Districts" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20135">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20135" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-25</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-774d6158f8ab6ebd49a0450f93343f910eb7b0f12ec859152330bb7ac9ee1f66">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>For <strong><em>zoning lots</em></strong> in R8A Districts, or in <strong><em>Commercial Districts</em></strong> mapped within, or with a <strong><em>residential equivalent</em></strong> of an R8A District, within 100 feet of a <strong><em>wide street</em></strong> located outside of <strong><em>Mandatory Inclusionary Housing areas</em></strong>, the underlying height and setback provisions applicable to an R8 District within 100 feet of a <strong><em>wide street</em></strong> shall apply. However, <strong><em>sky exposure plane buildings</em></strong> shall not be permitted, and the additional height allowances for eligible sites set forth in Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-3#23-434"><span>23-434</span></a> (Height and setback modifications for eligible sites) shall not apply.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+
+
+    </div>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-30" class="node node--type-section node--view-mode-default" id="141-30" data-section=141-30 data-node-id=20136>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-30</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-30">SPECIAL STREETSCAPE REGULATIONS</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-54348a8352764bb0e9132dd56f82849977c8c03f0a27403fe78d3cd31fc90d25">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-3155cab5c805af07bb06aacfdeedb179efe17b03b71e538ac25b50a045a391df">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20136" data-section-number="141-30" data-section-title="SPECIAL STREETSCAPE REGULATIONS" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20136">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20136" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-30</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-69b6ec0654cdfaa2a2d6766f4a53a4f03854188b1b1e33504c2483db92fd0964">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+          </div>
+
+</article>
+
+    <div class="section-children">
+        
+
+<article role="article" about="/article-xiv/chapter-1/141-31" class="node node--type-section node--view-mode-default" id="141-31" data-section=141-31 data-node-id=20138>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-31</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-31">Streetscape Regulations</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-ea66853eab2a3b3b62276e48a3f03909b4880fd438d5f2743daf8ce73f46290a">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-5c9e7e674eae0bff3bac6b197f56dabec948d453646e35448eb6696efe34818d">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-06-06T12:00:00Z" class="datetime">6/6/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20138" data-section-number="141-31" data-section-title="Streetscape Regulations" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20138">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20138" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-31</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-104f0db5c330425aee6de91c369460f862cabbcc8dc151ef832d526ec07fa144">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>The underlying <strong><em>ground floor level</em></strong> streetscape provisions set forth in Section <a class="sec-link-inline" target="_blank" href="/article-iii/chapter-2#32-30"><span>32-30</span></a> (STREETSCAPE REGULATIONS), inclusive, shall apply, except that <strong><em>ground floor level</em></strong> <strong><em>street</em></strong> frontages along Jerome Avenue or River Avenue, or portions thereof, as well as designated <strong><em>street frontages</em></strong> shown on Maps 2 or 3 in the Appendix to this Chapter, shall be considered <strong><em>Tier C street frontages</em></strong>.</span></p>
+
+<p><span>Defined terms in this Section shall include those in Sections <a class="sec-link-inline" target="_blank" href="/article-i/chapter-2#12-10"><span>12-10</span></a> and 32-301.</span><br />
+ </p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+<article role="article" about="/article-xiv/chapter-1/141-32" class="node node--type-section node--view-mode-default" id="141-32" data-section=141-32 data-node-id=20139>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-32</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-32">Special Open Space Provisions </a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-bc048899305fa5b93af39e0149a6d2c9e2d585571d8fbd2b5b01672fd8d147d9">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-65a9c66a26cea0198b320df792e3560ff59487204d815cc84d9ff1a98201437d">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-12-05T12:00:00Z" class="datetime">12/5/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20139" data-section-number="141-32" data-section-title="Special Open Space Provisions " title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20139">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20139" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-32</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-7653db61ae7d4261248fa04f8c0c74f26174f66ca5135c3690317c491305f3d0">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>Along the elevated rail structure on Jerome or River Avenues, where open space is provided between the <strong><em>street line</em></strong> of the <strong><em>zoning lot</em></strong> and the <strong><em>street wall</em></strong> of a <strong><em>building</em></strong> facing the elevated rail structure, or in Subdistrict A, for Subareas A1 through A3, where open space is provided between the <strong><em>street wall</em></strong> and the corner at a location designated on Maps 2, 3 or 4 in the Appendix to this Chapter, the provisions of Section <a class="sec-link-inline" target="_blank" href="/article-ii/chapter-2#22-613"><span>22-613</span></a> (Front yard planting requirements) shall apply to all <strong><em>buildings</em></strong>, whether the ground floor is occupied by <strong><em>residential uses</em></strong> or non- <strong><em>residential uses</em></strong>, subject to the modifications of this Section. </span></p>
+
+<ol><li><span>Along the elevated rail structure </span><br /><br /><span>Along the elevated rail structure on Jerome or River Avenues, a sidewalk widening, built to Department of Transportation standards, may be provided as an alternative to planting, provided that the area that would otherwise be allocated to planting, measured in square feet, is allocated to streetscape amenities, including, but not limited to, trees, bicycle racks, benches or wall treatment, that are provided along such sidewalk widening, as set forth below.</span><br /><br /><span>Where benches are provided as an alternative to such planting, the length of such benches shall not exceed, in the aggregate, 15 feet per every 50 feet of <strong><em>street wall</em></strong> frontage. Where bicycle racks are provided, such racks shall be oriented so that the bicycles are placed parallel to the <strong><em>street wall</em></strong>, and the width of such bicycle racks shall not exceed, in the aggregate, 10 feet per every 50 feet of <strong><em>street wall</em></strong> frontage. Such benches or bicycle racks shall be located entirely within the <strong><em>zoning lot</em></strong>, and each bench or bicycle rack so provided shall be equivalent to 15 square feet of planted area.</span><br /><br /><span>Where trees, and associated tree pits are provided as an alternative, the minimum depth of any open space between the <strong><em>street wall</em></strong> and <strong><em>street line</em></strong> shall be eight feet. Each tree provided shall be equivalent to 15 square feet of planted area.</span><br /><br /><span>Where a wall treatment is provided as an alternative, it shall be in the form of permitted <strong><em>signs</em></strong>, graphic or sculptural art, rustication, decorative screening or latticework, or living plant material along the <strong><em>street wall</em></strong>. Such wall treatment shall extend to a height of at least 10 feet, as measured from the level of the adjoining sidewalk or grade, and shall have a minimum width of 10 feet, as measured parallel to the <strong><em>street wall</em></strong>. Portions of a <strong><em>street wall</em></strong> providing such wall treatment may satisfy applicable requirements of Section <a class="sec-link-inline" target="_blank" href="/article-xiv/chapter-1#141-32"><span>141-32</span></a>, or the planting requirement directly in front of such <strong><em>street wall</em></strong>.</span><br /><br /><span>Where planting is provided, the minimum depth of open space between the <strong><em>street line</em></strong> and the <strong><em>street wall</em></strong> shall not be less than three feet.</span></li>
+	<li><span>In Subdistrict A</span><br /><br /><span>In Subdistrict A, where open space is provided between the <strong><em>street wall</em></strong> and the intersection of two <strong><em>streets</em></strong>, pursuant to paragraph (a)(2) of Section <a class="sec-link-inline" target="_blank" href="/article-xiv/chapter-1#141-23"><span>141-23</span></a>, streetscape amenities may be provided as an alternative to planting, provided that the area that would otherwise be allocated to planting, measured in square feet, is allocated to trees, benches, or tables and chairs, as set forth below. However, planting shall not be reduced to less than 20 percent of the area of the open space.</span><br /><br /><span>Each bench provided shall be equivalent to 10 square feet of planted area, and each set of tables and at least two chairs shall be equivalent to 15 square feet of planted area. Seating shall be publicly accessible, unless tables and chairs are associated with an open eating or drinking establishment on the <strong><em>zoning lot</em></strong>. The area under such seating shall be paved with permeable materials and shall either abut the adjoining sidewalk or be connected to such sidewalk by a circulation path at least five feet wide that is also paved with permeable materials.</span><br /><br /><span>Each tree and associated tree pits provided shall be equivalent to 15 square feet of planted area, and shall be located at least 10 feet from any <strong><em>building wall</em></strong> or the adjoining sidewalk.</span><br /><br /><span>Where planting is provided, the minimum depth of a planted bed shall not be less than three feet.</span></li>
+</ol><p><span>In no event shall chain link fencing or barbed or razor wire be permitted in any open space provided pursuant to this Section.</span></p>
+</div>
+      
+          </div>
+
+</article>
+
+
+
+
+
+    </div>
+
+
+<article role="article" about="/article-xiv/chapter-1/141-40" class="node node--type-section node--view-mode-default" id="141-40" data-section=141-40 data-node-id=20140>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-40</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-40">SPECIAL PARKING AND LOADING REGULATIONS</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-f79de32623a8026fd3332ecdf8d4c28c507b926d14df46ceff47a1ff2b7ba752">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-7d103f26b5d3b89086d8da7d9f738bed41d20a507bf29740ff0013eda665b6c3">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20140" data-section-number="141-40" data-section-title="SPECIAL PARKING AND LOADING REGULATIONS" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20140">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20140" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-40</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-42748541a1efefe255343f7be2b19f3136e1588a7938f54191b846c490568569">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>The underlying parking provisions are modified by the provisions of this Section.</span></p></div>
+      
+          </div>
+
+</article>
+
+    <div class="section-children">
+        
+
+<article role="article" about="/article-xiv/chapter-1/141-41" class="node node--type-section node--view-mode-default" id="141-41" data-section=141-41 data-node-id=20141>
+
+    
+    
+
+        <div class="section-header-wrapper">
+        <div class="section-title">
+            <span class="section-link"><span class="section-number"><span class="field field--name-title field--type-string field--label-hidden">141-41</span>
+</span></span>
+            <h3><a href="/article-xiv/chapter-1/141-41">Location of Curb Cuts</a></h3>
+        </div>
+
+        <div class="action-links">
+            <div class="box-dagger">
+                <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_2 js-view-dom-id-d1b67803128e601b8590fbabe05a28cdb92184770049e0b11e438aaf06fba59f">
+  
+    
+      
+  
+          </div>
+</div>
+
+            </div>
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-aaf238f7b0dbe11073819754c6fed1f2540fceee22eb7896ced01857bdbde1b3">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2018-03-22T12:00:00Z" class="datetime">3/22/2018</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20141" data-section-number="141-41" data-section-title="Location of Curb Cuts" title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/section/20141">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Download PDF" class="action-icon print" href="/entityprint/pdf/node/20141" target="_blank">Print Section</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link">Copy Link</a></div>
+        </div>
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/141-41</div>
+        </div>
+    </div>
+
+        <div class="section-annotations">
+        <div class="views-element-container"><div class="view view-section-annotations view-id-section_annotations view-display-id-block_1 js-view-dom-id-bc6bac093579efdc3f0454da3791e1561338a55c9fc0ca3a256aa3ebe6fff398">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+
+    <div class="sec-body">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>In all districts, for <strong><em>zoning lots</em></strong> existing on March 22, 2018, with frontage along Edward L. Grant Highway, West 170th Street, or the portions of Jerome or River Avenues with an elevated rail structure, and fronting along other <strong><em>streets</em></strong>, no curb cut accessing off-street parking spaces or loading spaces shall be permitted along such <strong><em>streets</em></strong>, as applicable.</span></p></div>
+      
+          </div>
+
+</article>
+
+
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+        <div class="chapter-appendices">
+      <div class="views-element-container"><div class="view view-chapter-appendices view-id-chapter_appendices view-display-id-block_2 js-view-dom-id-f48798f26a55d4c9e5544a9a00ad2f28b308bffb1176698912f3e1aecbf705d5">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+<a id="APPENDIX"></a>
+<article role="article" about="/article-xiv/chapter-1/appendix" class="node node--type-chapter-appendix node--view-mode-default">
+
+    
+    
+
+    <div class="flex-container appendix-header">
+        <div>
+            <h2 class="appendix-title">APPENDIX</h2>
+            <h2>        </h2>
+        </div>
+
+        <div class="action-links">
+            <div class="amended"><div class="views-element-container"><div class="view view-amendment-history-popup view-id-amendment_history_popup view-display-id-last_amended_date js-view-dom-id-cabba082fedf63fb3c0542ed5d064b20515ddd349438a9e1e65a07b694b6f413">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-effective-date"><span class="views-label views-label-field-effective-date">Last Amended</span><div class="field-content"><time datetime="2024-06-06T12:00:00Z" class="datetime">6/6/2024</time>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+            <div class="action-link"><a data-content-nid="20142" data-section-number="APPENDIX" data-section-title="        " title="Amendment History" class="use-ajax action-icon revisions" href="/nojs/get/amendment/chapter_appendix/20142">History</a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="top" title="Print Appendix" class="action-icon print" href="/entityprint/pdf/node/20142" target="_blank"></a></div>
+            <div class="action-link"><a data-toggle="tooltip" data-placement="left" title="Copy Link" class="action-icon link"></a></div>
+        </div>
+
+        <div class="action-link-content hidden">
+            <div class="share-link">https://zr.planning.nyc.gov/article-xiv/chapter-1/appendix</div>
+        </div>
+    </div>
+
+  <div class="chapter-appendix-content">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p style="margin-left: 43pt;text-indent: -43pt;"><span>Map 1.        Special Jerome Corridor District, Subdistrict and Subareas</span></p>
+
+<p class="pb_after"><span><a href="/sites/default/files/doc_images/Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.0.png" target="_blank"><img alt="Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.0" src="/sites/default/files/doc_images/Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.0.png" title="" /></a></span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>        </span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>Map 2.        Designated locations for street wall continuity and ground floor requirements in Subarea A1</span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"> </p>
+
+<div alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 2" data-embed-button="file_browser" data-entity-embed-display="image:image" data-entity-embed-display-settings="{&quot;image_style&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;file&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;}}" data-entity-type="file" data-entity-uuid="dc80f374-de67-49cb-ba91-d9a8ccb1cdc1" data-langcode="en" class="embedded-entity">  <a href="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.1_0.png"><img loading="lazy" src="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.1_0.png" alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 2" typeof="foaf:Image" /></a>
+</div>
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>        </span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>Map 3.        Designated locations for street wall continuity and ground floor requirements in Subarea A2</span></p>
+
+<div alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 3" data-embed-button="file_browser" data-entity-embed-display="image:image" data-entity-embed-display-settings="{&quot;image_style&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;file&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;}}" data-entity-type="file" data-entity-uuid="c433c917-24f0-4cf5-bd69-5ca10e4ce0fb" data-langcode="en" class="embedded-entity">  <a href="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.2_0.png"><img loading="lazy" src="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.2_0.png" alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 3" typeof="foaf:Image" /></a>
+</div>
+<p id="h.gjdgxs" style="margin-left: 43pt;text-indent: -43pt;"><span>        </span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>Map 4.        Designated locations for street wall continuity requirements in Subarea A3</span></p>
+
+<div alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 4" data-embed-button="file_browser" data-entity-embed-display="image:image" data-entity-embed-display-settings="{&quot;image_style&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;file&quot;,&quot;image_loading&quot;:{&quot;attribute&quot;:&quot;lazy&quot;}}" data-entity-type="file" data-entity-uuid="900fc4c7-da7e-44eb-b16c-8922af8778f6" data-langcode="en" class="embedded-entity">  <a href="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.3_0.png"><img loading="lazy" src="/sites/default/files/Zoning%20Resolution%20Article%20XIV%20Chapter%201_Special%20Jerome%20Corridor%20District%20APPPENDIX.3_0.png" alt="Zoning Resolution Article XIV Chapter 1_Special Jerome Corridor District APPENDIX Map 4" typeof="foaf:Image" /></a>
+</div>
+<p style="margin-left: 43pt;text-indent: -43pt;"><span>        </span></p>
+
+<p style="margin-left: 43pt;text-indent: -43pt;"><span> Map 5        Boundary of Subarea A4</span></p>
+
+<p class="pb_after"><span><a href="/sites/default/files/doc_images/Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.4.png" target="_blank"><img alt="Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.4" src="/sites/default/files/doc_images/Zoning Resolutions Chapter 1: Special Jerome Corridor District APPENDIX.4.png" title="" /></a></span></p>
+</div>
+      
+  </div>
+
+</article>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+
+  </section>
+</article>
+
+  </div>
+<div id="block-chapterpreviousnextblock" class="block block-nyczr-chapter-nav block-previous-next-block">
+  
+    
+      <div class="hide-mobile">
+    <div class="row">
+        <div class="prev"></div>
+        <div class="current">
+            <div class="cn-article-title"><a href="/article-xiv">Article XIV</a></div>
+        </div>
+        <div class="next"><a href="/article-xiv/chapter-2">Chapter 2</a></div>
+    </div>
+</div>
+  </div>
+
+  </div>
+
+
+  <section class="main-content-columns">
+    <div class="main-content-column column-first"></div>
+  </section>
+
+  <div id="main-footer">
+    <div class="copyright">  <div class="region region-footer-copyright">
+    <div id="block-footercopyright-2" class="block block-block-content block-block-contente1f13e41-5981-4e24-91df-18d7fe9684c9">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img src="/themes/custom/neoclassic/img/logo-footer.png" /></p></div>
+      
+  </div>
+
+  </div>
+</div>
+    <div class="footer-menu">
+        <div class="region region-footer-links">
+    <nav role="navigation" aria-labelledby="block-footerlinks-2-menu" id="block-footerlinks-2" class="block block-menu navigation menu--footer-links">
+            
+  <h2 class="visually-hidden" id="block-footerlinks-2-menu">Footer Links</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/disclaimer" data-drupal-link-system-path="node/8771">Disclaimer</a>
+              </li>
+                <li class="menu-item">
+        <a href="/feedback" data-drupal-link-system-path="node/8790">Feedback</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu hidden">
+    <div class="region region-mobile-menu">
+    <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/79" data-drupal-link-system-path="node/79">Preamble</a>
+              </li>
+                <li class="menu-item">
+        <a href="/zr-downloads" data-drupal-link-system-path="zr-downloads">Archive</a>
+              </li>
+                <li class="menu-item">
+        <a href="/search" data-drupal-link-system-path="search">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+</div>
+
+<div class="back-to-top">
+  <a href="#">Top</a>
+</div>
+
+<!-- Modal  -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-section"></h5>
+        <h5 class="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <a target="_blank" class="print-ah btn btn-primary" href="#">Print</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+        
+    </div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/546","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"classy\/base,classy\/messages,core\/normalize,extlink\/drupal.extlink,footnotes\/footnotes,google_analytics\/google_analytics,neoclassic\/chapter-nav,neoclassic\/ckeditor,neoclassic\/global-css,neoclassic\/global-js,nyczr_amendment_popup\/popup,nyczr_defined_terms\/defined_terms,nyczr_section_preview\/section-preview,system\/base,views\/views.module","theme":"neoclassic","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"google_analytics":{"account":"UA-119812007-1","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":null}},"user":{"uid":0,"permissionsHash":"a3e1b8794d1f1d34587a359927cfbbe45e762989c7a4405c8e6c1cd102f1e6f2"}}</script>
+<script src="/sites/default/files/js/js_isWlLgpsS313ByrtKEdQTyWgROlhvlqOaZ8LW21VPns.js"></script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5760a34c9c","applicationID":"169342041","transactionName":"MQAHZkVVWktTAEAPWwhKJFFDXVtWHSdGE0QHCTlcWFBRZHEMWhJGCQkJV0VoeldWBmIPUREmClxDRltUXgZGSwoQDABF","queueTime":0,"applicationTime":3969,"atts":"HUcEEA1PSUU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

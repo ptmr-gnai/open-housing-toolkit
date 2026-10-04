@@ -1,0 +1,17 @@
+{
+  "id": "pluto",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028560051&%24limit=1",
+  "retrieved_at": "2026-10-04T00:02:05.347056+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028560051&%24limit=1",
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+  "bytes": 1576,
+  "sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698",
+  "cache_path": "cache/pluto.body",
+  "parsed": "json",
+  "row_count": 1
+}

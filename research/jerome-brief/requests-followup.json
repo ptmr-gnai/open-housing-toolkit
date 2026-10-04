@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mih_bronx_resolved",
+    "publisher": "NYC DCP",
+    "purpose": "Official MIH maps; spatial applicability remains subject to mapped parcel boundary review",
+    "url": "https://zr.planning.nyc.gov/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2"
+  },
+  {
+    "id": "expedited_housing",
+    "publisher": "NYC HPD",
+    "purpose": "Determine conditions and limits of expedited land-use path",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page"
+  }
+]

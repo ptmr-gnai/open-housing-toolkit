@@ -1,0 +1,16 @@
+{
+  "id": "jerome_cb4",
+  "publisher": "NYC HPD",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/1337-Jerome-CB4-briefing.pdf",
+  "retrieved_at": "2026-10-04T00:02:04.817353+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/1337-Jerome-CB4-briefing.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Thu, 24 Sep 2026 23:00:06 GMT",
+  "bytes": 2274434,
+  "sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3",
+  "cache_path": "cache/jerome_cb4.body",
+  "parsed": "pdf"
+}

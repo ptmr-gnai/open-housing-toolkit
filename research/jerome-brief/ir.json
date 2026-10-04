@@ -1,0 +1,1394 @@
+{
+  "schema_version": "0.1",
+  "case_id": "jerome-1337",
+  "as_of": "2026-10-04",
+  "purpose": "Independent advisor-review benchmark for an open housing playbook; not an RFP response",
+  "sources": {
+    "ami": {
+      "id": "ami",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+      "retrieved_at": "2026-10-04T00:02:06.298475+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+      "content_type": "text/html;charset=UTF-8",
+      "last_modified": null,
+      "bytes": 35977,
+      "sha256": "a4319fcbfc59a23df25a90564415cd63711b633af50a4e31fe571b17259d7ee2",
+      "cache_path": "cache/ami.body",
+      "parsed": "html",
+      "text_chars": 4934,
+      "link_count": 38
+    },
+    "builders": {
+      "id": "builders",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+      "retrieved_at": "2026-10-04T00:02:04.818144+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+      "content_type": "text/html;charset=UTF-8",
+      "last_modified": null,
+      "bytes": 37462,
+      "sha256": "479b4a02d745fc19ff3f49bc05548d2c07b47650ca13684ecbb43b976e9e6f0b",
+      "cache_path": "cache/builders.body",
+      "parsed": "html",
+      "text_chars": 11335,
+      "link_count": 49
+    },
+    "design_process": {
+      "id": "design_process",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+      "retrieved_at": "2026-10-04T00:02:06.189004+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+      "content_type": "application/pdf",
+      "last_modified": "Wed, 23 Sep 2026 19:57:54 GMT",
+      "bytes": 284385,
+      "sha256": "a5f72ba5acf7a93da7146e4689c9ec50d98d2b92c0e577f674c9ad29dd04d6fd",
+      "cache_path": "cache/design_process.body",
+      "parsed": "pdf",
+      "text_transform": {
+        "tool": "pdftotext -layout",
+        "output": "cache/design_process.text",
+        "sha256": "dea7509f5a92123c1275e7f6968479095022af474e1e6a13cf1594a96239c614",
+        "page_count": 6
+      }
+    },
+    "e_designation": {
+      "id": "e_designation",
+      "publisher": "NYC DCP",
+      "purpose": "Exact BBL screening of recorded environmental obligations; does not establish satisfaction",
+      "url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028560051&%24limit=1000",
+      "retrieved_at": "2026-10-04T00:04:55.765952+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028560051&%24limit=1000",
+      "content_type": "application/json;charset=utf-8",
+      "last_modified": "Wed, 12 Aug 2026 14:37:19 GMT",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "cache_path": "cache/e_designation.body",
+      "parsed": "json",
+      "row_count": 0
+    },
+    "expedited_housing": {
+      "id": "expedited_housing",
+      "publisher": "NYC HPD",
+      "purpose": "Determine conditions and limits of expedited land-use path",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page",
+      "retrieved_at": "2026-10-04T00:02:58.800998+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page",
+      "content_type": "text/html;charset=UTF-8",
+      "last_modified": null,
+      "bytes": 30499,
+      "sha256": "4dd0744fa3b9915f0da04bad9cd35265c2c223e43d5593a710f6e8da29c0ee43",
+      "cache_path": "cache/expedited_housing.body",
+      "parsed": "html",
+      "text_chars": 7726,
+      "link_count": 61
+    },
+    "geosearch": {
+      "id": "geosearch",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+      "retrieved_at": "2026-10-04T00:02:05.452219+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "bytes": 10401,
+      "sha256": "b755728e152cc7257f7a68efec7a7923655002495030082110b6ee4d91356b0c",
+      "cache_path": "cache/geosearch.body",
+      "parsed": "json",
+      "top_level_keys": [
+        "geocoding",
+        "type",
+        "features",
+        "bbox"
+      ]
+    },
+    "jerome_cb4": {
+      "id": "jerome_cb4",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/1337-Jerome-CB4-briefing.pdf",
+      "retrieved_at": "2026-10-04T00:02:04.817353+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/1337-Jerome-CB4-briefing.pdf",
+      "content_type": "application/pdf",
+      "last_modified": "Thu, 24 Sep 2026 23:00:06 GMT",
+      "bytes": 2274434,
+      "sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3",
+      "cache_path": "cache/jerome_cb4.body",
+      "parsed": "pdf",
+      "text_transform": {
+        "tool": "pdftotext -layout",
+        "output": "cache/jerome_cb4.text",
+        "sha256": "376ed290946677bd8711ac98f96ab302ce787ff4b57e46b9da38b3faaed936f9",
+        "page_count": 15
+      }
+    },
+    "jerome_project": {
+      "id": "jerome_project",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+      "retrieved_at": "2026-10-04T00:02:04.816702+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page",
+      "content_type": "text/html;charset=UTF-8",
+      "last_modified": null,
+      "bytes": 30566,
+      "sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c",
+      "cache_path": "cache/jerome_project.body",
+      "parsed": "html",
+      "text_chars": 4264,
+      "link_count": 43
+    },
+    "jerome_zoning": {
+      "id": "jerome_zoning",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+      "retrieved_at": "2026-10-04T00:02:04.818647+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+      "bytes": 162677,
+      "sha256": "1e8cf4be51d63f53c80576dff53e93427d061b525992307fcc14eff513436c40",
+      "cache_path": "cache/jerome_zoning.body",
+      "parsed": "html",
+      "text_chars": 38306,
+      "link_count": 170
+    },
+    "mih_bronx_resolved": {
+      "id": "mih_bronx_resolved",
+      "publisher": "NYC DCP",
+      "purpose": "Official MIH maps; spatial applicability remains subject to mapped parcel boundary review",
+      "url": "https://zr.planning.nyc.gov/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2",
+      "retrieved_at": "2026-10-04T00:02:58.799831+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://zr.planning.nyc.gov/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sun, 04 Oct 2026 00:02:59 GMT",
+      "bytes": 81263,
+      "sha256": "47b7c48fcce9c6ec5b271a216dca4cd4a6c2bda2470d76dba04e064905ed5e74",
+      "cache_path": "cache/mih_bronx_resolved.body",
+      "parsed": "html",
+      "text_chars": 8452,
+      "link_count": 48
+    },
+    "open_door": {
+      "id": "open_door",
+      "publisher": "NYC HPD",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/open-door-term-sheet.pdf",
+      "retrieved_at": "2026-10-04T00:02:04.817811+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/open-door-term-sheet.pdf",
+      "content_type": "application/pdf",
+      "last_modified": "Wed, 17 Jun 2026 17:08:27 GMT",
+      "bytes": 242886,
+      "sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976",
+      "cache_path": "cache/open_door.body",
+      "parsed": "pdf",
+      "text_transform": {
+        "tool": "pdftotext -layout",
+        "output": "cache/open_door.text",
+        "sha256": "cccb950be90f8fc9dfafe62e759b9fafd9a0abd4842a76dbb68192a379517d00",
+        "page_count": 6
+      }
+    },
+    "pluto": {
+      "id": "pluto",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028560051&%24limit=1",
+      "retrieved_at": "2026-10-04T00:02:05.347056+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028560051&%24limit=1",
+      "content_type": "application/json;charset=utf-8",
+      "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+      "bytes": 1576,
+      "sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698",
+      "cache_path": "cache/pluto.body",
+      "parsed": "json",
+      "row_count": 1
+    },
+    "zoning_affordable": {
+      "id": "zoning_affordable",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://zr.planning.nyc.gov/article-ii/chapter-7",
+      "retrieved_at": "2026-10-04T00:02:05.273385+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://zr.planning.nyc.gov/article-ii/chapter-7",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+      "bytes": 245036,
+      "sha256": "f3f6e7939e0be523f04b47dac0652c764d875d3dc0bdbd893a8018f319c9a913",
+      "cache_path": "cache/zoning_affordable.body",
+      "parsed": "html",
+      "text_chars": 88782,
+      "link_count": 214
+    },
+    "zoning_mih_bronx": {
+      "id": "zoning_mih_bronx",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://zr.planning.nyc.gov/appendix-f/bronx",
+      "retrieved_at": "2026-10-04T00:02:05.288331+00:00",
+      "status": "failed",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    "zoning_residential_bulk": {
+      "id": "zoning_residential_bulk",
+      "publisher": "NYC DCP",
+      "purpose": "1337 Jerome opportunity brief evidence",
+      "url": "https://zr.planning.nyc.gov/article-ii/chapter-3",
+      "retrieved_at": "2026-10-04T00:02:04.819035+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://zr.planning.nyc.gov/article-ii/chapter-3",
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+      "bytes": 1580622,
+      "sha256": "2c9d21b0360068dbc3f1a8cd2328ae8c4a05889d9337b02211b4deeb4a2cb544",
+      "cache_path": "cache/zoning_residential_bulk.body",
+      "parsed": "html",
+      "text_chars": 228301,
+      "link_count": 697
+    }
+  },
+  "claims": [
+    {
+      "id": "parcel_bbl",
+      "kind": "observed",
+      "value": 2028560051,
+      "unit": "BBL",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, bbl",
+        "selector": [
+          "0",
+          "bbl"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "lot_area",
+      "kind": "observed",
+      "value": 6516.0,
+      "unit": "square feet",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, lotarea",
+        "selector": [
+          "0",
+          "lotarea"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "existing_bldg_area",
+      "kind": "observed",
+      "value": 6250.0,
+      "unit": "square feet",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, bldgarea",
+        "selector": [
+          "0",
+          "bldgarea"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "existing_units",
+      "kind": "observed",
+      "value": 0.0,
+      "unit": "dwelling units",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, unitsres",
+        "selector": [
+          "0",
+          "unitsres"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "existing_built_far",
+      "kind": "observed",
+      "value": 0.96,
+      "unit": "FAR",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, builtfar",
+        "selector": [
+          "0",
+          "builtfar"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "standard_far",
+      "kind": "observed",
+      "value": 6.02,
+      "unit": "FAR",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, residfar",
+        "selector": [
+          "0",
+          "residfar"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "affordable_far",
+      "kind": "observed",
+      "value": 7.2,
+      "unit": "FAR",
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, affresfar",
+        "selector": [
+          "0",
+          "affresfar"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "district",
+      "kind": "observed",
+      "value": "R8A",
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, zonedist1",
+        "selector": [
+          "0",
+          "zonedist1"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "overlay",
+      "kind": "observed",
+      "value": "C2-4",
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, overlay1",
+        "selector": [
+          "0",
+          "overlay1"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "special_district",
+      "kind": "observed",
+      "value": "J",
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, spdist1",
+        "selector": [
+          "0",
+          "spdist1"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "owner_label",
+      "kind": "observed",
+      "value": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, ownername",
+        "selector": [
+          "0",
+          "ownername"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "irregular_lot",
+      "kind": "observed",
+      "value": true,
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, irrlotcode",
+        "selector": [
+          "0",
+          "irrlotcode"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "mih_option1",
+      "kind": "observed",
+      "value": true,
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, mih_opt1",
+        "selector": [
+          "0",
+          "mih_opt1"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "mih_option3",
+      "kind": "observed",
+      "value": true,
+      "unit": null,
+      "evidence": {
+        "source_id": "pluto",
+        "locator": "row 0, mih_opt3",
+        "selector": [
+          "0",
+          "mih_opt3"
+        ],
+        "source_sha256": "fde465a205fc0fbf2316bdb869d1e1c9d26e5f9a19ffcf0385c25cd13d8b2698"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "building_bin",
+      "kind": "observed",
+      "value": 2008295,
+      "unit": "BIN",
+      "evidence": {
+        "source_id": "geosearch",
+        "locator": "exact-address candidate, features[0].properties.addendum.pad.bin",
+        "selector": [
+          "features",
+          "0",
+          "properties",
+          "addendum",
+          "pad",
+          "bin"
+        ],
+        "source_sha256": "b755728e152cc7257f7a68efec7a7923655002495030082110b6ee4d91356b0c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "coop_flip_tax",
+      "kind": "observed",
+      "value": 0.1,
+      "unit": "minimum share of resale proceeds",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 3",
+        "quote": "Apartment resales are subject to a minimum 10% flip tax paid out of sales proceeds to the HDFC cooperative.",
+        "extraction": {
+          "pattern": "minimum (\\d+)% flip tax",
+          "groups": [
+            1
+          ],
+          "scale": 0.01
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "coop_reserves",
+      "kind": "observed",
+      "value": "Capitalized/operating budget reserves and monthly operating/replacement reserves",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 3",
+        "quote": "Underwriting for cooperative buildings will be required to include monthly operating and/or replacement reserves in the monthly maintenance charges.",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "city_land_debt",
+      "kind": "observed",
+      "value": "Nominal $1 disposition with balance of appraised value in enforcement note/mortgage",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 2 Land Acquisition",
+        "quote": "For City-owned sites, disposition will be for $1 per lot with the balance of appraised value in an enforcement note and mortgage",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "program",
+      "kind": "observed",
+      "value": "Open Door",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_project",
+        "locator": "Project Background",
+        "quote": "The site will be developed using HPD’s Open Door program",
+        "source_sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "past_use",
+      "kind": "observed",
+      "value": "City pest control facility until 2013",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_project",
+        "locator": "Site Overview",
+        "quote": "City pest control facility until 2013",
+        "source_sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "agency_vacancy",
+      "kind": "observed",
+      "value": "vacant one-story commercial building",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_project",
+        "locator": "Site Overview",
+        "quote": "a vacant one-story commercial building",
+        "source_sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "rfp_status",
+      "kind": "observed",
+      "value": "community visioning; RFP planned Fall 2026",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_project",
+        "locator": "Request for Proposals",
+        "quote": "developers selected from the Neighborhood Builders Pre-Qualified List in Fall 2026",
+        "source_sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "community_response_due",
+      "kind": "observed",
+      "value": "October 16; year not repeated in deadline sentence",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_project",
+        "locator": "How to Get Involved",
+        "quote": "Project Questionnaire by October 16!",
+        "source_sha256": "9c2b0b08bb01283fdc7d4115355c24ebf731da85805173e73ca1a20e6abaf34c"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "agency_current_far",
+      "kind": "observed",
+      "value": 7.2,
+      "unit": "FAR",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Max. Residential 7.20 9.02 Floor Area Ratio",
+        "extraction": {
+          "pattern": "Max\\. Residential (\\d+\\.\\d+) (\\d+\\.\\d+)",
+          "groups": [
+            1
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_rezone_far",
+      "kind": "observed",
+      "value": 9.02,
+      "unit": "FAR",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Max. Residential 7.20 9.02 Floor Area Ratio",
+        "extraction": {
+          "pattern": "Max\\. Residential (\\d+\\.\\d+) (\\d+\\.\\d+)",
+          "groups": [
+            2
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_current_height",
+      "kind": "observed",
+      "value": 175,
+      "unit": "feet",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Max. Height 175’ 185’",
+        "extraction": {
+          "pattern": "Max\\. Height (\\d+)’ (\\d+)’",
+          "groups": [
+            1
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_rezone_height",
+      "kind": "observed",
+      "value": 185,
+      "unit": "feet",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Max. Height 175’ 185’",
+        "extraction": {
+          "pattern": "Max\\. Height (\\d+)’ (\\d+)’",
+          "groups": [
+            2
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_current_units",
+      "kind": "observed",
+      "value": 48,
+      "unit": "estimated homes",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Est. Units 48 60",
+        "extraction": {
+          "pattern": "Est\\. Units (\\d+) (\\d+)",
+          "groups": [
+            1
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_rezone_units",
+      "kind": "observed",
+      "value": 60,
+      "unit": "estimated homes",
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 7",
+        "quote": "Est. Units 48 60",
+        "extraction": {
+          "pattern": "Est\\. Units (\\d+) (\\d+)",
+          "groups": [
+            2
+          ],
+          "scale": 1
+        },
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "HPD September 14, 2026 planning concept; not independently verified buildable or approved capacity"
+    },
+    {
+      "id": "agency_timeline",
+      "kind": "observed",
+      "value": "RFP before year-end; submissions early spring 2027; designation late spring/early summer 2027",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_cb4",
+        "locator": "PDF page 10",
+        "quote": "Spring 2027",
+        "source_sha256": "33597aba4b0cc66d2c811540ff91722a1e339f8712ddc9d39b9eab8cc1b969c3"
+      },
+      "scope": "Agency planning schedule, not binding procurement deadlines; webpage says Fall 2026"
+    },
+    {
+      "id": "open_door_version",
+      "kind": "observed",
+      "value": "2025-06-30",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 footer",
+        "quote": "Updated – 06.30.2025",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "housing_cost_share",
+      "kind": "observed",
+      "value": 0.33,
+      "unit": "share of annual household income",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 Sales Prices",
+        "quote": "cap housing costs at 33% of total annual income",
+        "extraction": {
+          "pattern": "cap housing costs at (\\d+)%",
+          "groups": [
+            1
+          ],
+          "scale": 0.01
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "sales_income_range",
+      "kind": "observed",
+      "value": "70–120% AMI or as dictated by market",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 Sales Prices",
+        "quote": "between 70-120% AMI, or as dictated by market",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "market_discount",
+      "kind": "observed",
+      "value": 0.1,
+      "unit": "minimum share",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 Sales Prices",
+        "quote": "A minimum 10% discount to market will be required.",
+        "extraction": {
+          "pattern": "minimum (\\d+)% discount",
+          "groups": [
+            1
+          ],
+          "scale": 0.01
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "coop_regulatory_years",
+      "kind": "observed",
+      "value": 40,
+      "unit": "minimum years",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 3 Regulatory Requirements",
+        "quote": "Cooperative projects will be subject to a minimum 40-year Regulatory Agreement",
+        "extraction": {
+          "pattern": "minimum (\\d+)-year Regulatory",
+          "groups": [
+            1
+          ],
+          "scale": 1
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "maintenance_escalation",
+      "kind": "observed",
+      "value": 0.02,
+      "unit": "minimum annual share",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 3 Regulatory Requirements",
+        "quote": "Minimum annual maintenance increases of 2% per year.",
+        "extraction": {
+          "pattern": "increases of (\\d+)%",
+          "groups": [
+            1
+          ],
+          "scale": 0.01
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "subsidy_caps",
+      "kind": "observed",
+      "value": [
+        445000,
+        430000,
+        365000,
+        355000
+      ],
+      "unit": "USD per dwelling unit by AMI tier",
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 table",
+        "quote": "Up to 80% $445,000 81%-90% $430,000 91%-100% $365,000 101%-120% $355,000",
+        "extraction": {
+          "all_currency_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "scale": 1
+        },
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Maximum contingent amounts, not awarded subsidy; AHOP/AHC availability and HPD determination apply"
+    },
+    {
+      "id": "subsidy_contingency",
+      "kind": "observed",
+      "value": "AHOP up to 100% AMI; AHC at 101–120%",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1",
+        "quote": "contingent upon the availability of AHOP funds for units up to 100% AMI and AHC funds for units between 101% and 120% AMI.",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "hdfc_ownership",
+      "kind": "observed",
+      "value": "HDFC during construction",
+      "unit": null,
+      "evidence": {
+        "source_id": "open_door",
+        "locator": "PDF page 1 Eligible Borrowers",
+        "quote": "the property must be owned by a Housing Development Fund",
+        "source_sha256": "7bafe00910c7938eff9dd2874c508155935632e7758a4ceb8f84c470321e0976"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "guideline_effective",
+      "kind": "observed",
+      "value": "2026-10-01 design consultation submissions",
+      "unit": null,
+      "evidence": {
+        "source_id": "design_process",
+        "locator": "PDF page 1 Applicability",
+        "quote": "Design Consultation on or after October 1, 2026.",
+        "source_sha256": "a5f72ba5acf7a93da7146e4689c9ec50d98d2b92c0e577f674c9ad29dd04d6fd"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "environmental_review_rule",
+      "kind": "observed",
+      "value": "Phase I unless BCP or hazardous-material E-designation pathway; noise screening also required",
+      "unit": null,
+      "evidence": {
+        "source_id": "design_process",
+        "locator": "PDF page 4 note",
+        "quote": "require the submission of a Phase I Environmental Site Assessment (ESA), unless the site is going through the Brownfield Cleanup Program or subject to (E)-Designation for hazardous materials; noise screening is also required.",
+        "source_sha256": "a5f72ba5acf7a93da7146e4689c9ec50d98d2b92c0e577f674c9ad29dd04d6fd"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "zoning_141_25_condition",
+      "kind": "observed",
+      "value": "R8A special height branch requires outside MIH and within 100 feet of wide street",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_zoning",
+        "locator": "Section 141-25",
+        "quote": "within 100 feet of a wide street located outside of Mandatory Inclusionary Housing areas, the underlying height and setback provisions applicable to an R8 District",
+        "source_sha256": "1e8cf4be51d63f53c80576dff53e93427d061b525992307fcc14eff513436c40"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "zoning_141_23_condition",
+      "kind": "observed",
+      "value": "Elevated-rail height/setback branch outside Subdistrict A",
+      "unit": null,
+      "evidence": {
+        "source_id": "jerome_zoning",
+        "locator": "Section 141-23",
+        "quote": "within 100 feet of street lines along the elevated rail structure on Jerome or River Avenues, and located outside Subdistrict A",
+        "source_sha256": "1e8cf4be51d63f53c80576dff53e93427d061b525992307fcc14eff513436c40"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "expedited_density_description",
+      "kind": "observed",
+      "value": 0.3,
+      "unit": "maximum increase in HPD example, not complete eligibility test",
+      "evidence": {
+        "source_id": "expedited_housing",
+        "locator": "ELURP-CPC section",
+        "quote": "increasing allowable floor area in a medium-density district by no more than 30%",
+        "extraction": {
+          "pattern": "no more than (\\d+)%",
+          "groups": [
+            1
+          ],
+          "scale": 0.01
+        },
+        "source_sha256": "4dd0744fa3b9915f0da04bad9cd35265c2c223e43d5593a710f6e8da29c0ee43"
+      },
+      "scope": "Agency statement or recorded attribute; not independently certified"
+    },
+    {
+      "id": "income_2026_3person",
+      "kind": "observed",
+      "value": [
+        106890,
+        122160,
+        152700,
+        183240
+      ],
+      "unit": "USD annual at 70, 80, 100, 120% AMI",
+      "evidence": {
+        "source_id": "ami",
+        "locator": "2026 income table, family size 3",
+        "quote": "3 $30,540 $45,810 $61,080 $76,350 $91,620 $106,890 $122,160 $137,430 $152,700 $167,970 $183,240 $198,510 $251,955 $267,225",
+        "extraction": {
+          "all_currency_indices": [
+            5,
+            6,
+            8,
+            10
+          ],
+          "scale": 1
+        },
+        "source_sha256": "a4319fcbfc59a23df25a90564415cd63711b633af50a4e31fe571b17259d7ee2"
+      },
+      "scope": "2026 regional AMI income benchmarks; not local household income or actual buyer eligibility"
+    },
+    {
+      "id": "e_screen",
+      "kind": "observed",
+      "value": 0,
+      "unit": "returned rows",
+      "evidence": {
+        "source_id": "e_designation",
+        "locator": "complete bounded BBL query response",
+        "selector": [
+          "length"
+        ],
+        "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "scope": "No rows returned for queried tax BBL; does not clear environmental conditions, lot history or other instruments"
+    },
+    {
+      "id": "analysis_no_action",
+      "kind": "assumption",
+      "value": "Existing recorded nonresidential use remains; no residential redevelopment",
+      "unit": null,
+      "reason": "A comparison assumption for this brief only; no independently accepted CEQR No-Action scenario or forecast."
+    },
+    {
+      "id": "budget_household_size",
+      "kind": "assumption",
+      "value": 3,
+      "unit": "persons",
+      "reason": "Illustrative comparison using a single household size. Unit bedroom/household-size mapping and final project mix unresolved."
+    },
+    {
+      "id": "legal_envelope",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No reviewed survey, zoning-lot geometry, MIH/subdistrict mapping or written rule reconciliation; agency planning values remain attributed."
+    },
+    {
+      "id": "community_priorities",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "Questionnaire ongoing; completed Jerome community visioning report not located in the captured project-page links. No priorities inferred from generic citywide policy."
+    },
+    {
+      "id": "site_control",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "Agency owner label is not a title opinion or development agreement; disposition, easements and current legal control unverified."
+    },
+    {
+      "id": "occupancy",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "Agency vacancy description not independently checked by site visit, lease or occupant verification."
+    },
+    {
+      "id": "environment",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No Phase I/BCP/E-pathway documents, noise/air assessment, geotechnical or remediation acceptance reviewed."
+    },
+    {
+      "id": "finance",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No project costs, lenders, costed design, mix, sales prices, maintenance, reserves, confirmed subsidy or operating model."
+    },
+    {
+      "id": "approval_path",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "HPD slide labels ELURP; no legal eligibility determination, application or final approvals reviewed."
+    },
+    {
+      "id": "qualified_team",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No proposed developer or confirmation of pre-qualified eligibility."
+    },
+    {
+      "id": "usable_transit",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "Transit proximity stated by agency; no verified pedestrian route, step-free access, door-to-door routing or reliability estimate."
+    },
+    {
+      "id": "buyer_access",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No local eligible-buyer income/assets/credit distribution, down-payment assistance or closing-cost analysis."
+    },
+    {
+      "id": "procurement_requirements",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "Jerome RFP, final program/mix, addenda and completeness checklist not available in captured materials."
+    },
+    {
+      "id": "professional_design",
+      "kind": "unknown",
+      "value": null,
+      "unit": null,
+      "reason": "No surveyed architectural scheme or cost estimate independently prepared or reviewed."
+    },
+    {
+      "id": "incremental_agency_units",
+      "kind": "derived",
+      "value": 12.0,
+      "unit": "estimated homes",
+      "inputs": [
+        "agency_rezone_units",
+        "agency_current_units"
+      ],
+      "formula": "rezone - current",
+      "scope": "Difference between two HPD planning estimates, not forecast completions or a causal effect"
+    },
+    {
+      "id": "unit_increase_pct",
+      "kind": "derived",
+      "value": 25.0,
+      "unit": "percent",
+      "inputs": [
+        "agency_rezone_units",
+        "agency_current_units"
+      ],
+      "formula": "100 * (rezone/current - 1)",
+      "scope": "Agency-estimate comparison"
+    },
+    {
+      "id": "far_increase_pct",
+      "kind": "derived",
+      "value": 25.27777777777778,
+      "unit": "percent",
+      "inputs": [
+        "agency_rezone_far",
+        "agency_current_far"
+      ],
+      "formula": "100 * (rezone/current - 1)",
+      "scope": "Arithmetic matches HPD example of <=30% increase, but is not full ELURP eligibility"
+    },
+    {
+      "id": "current_area_proxy",
+      "kind": "derived",
+      "value": 46915.2,
+      "unit": "zoning square feet proxy",
+      "inputs": [
+        "lot_area",
+        "agency_current_far"
+      ],
+      "formula": "tax_lot_area * agency_planning_far",
+      "scope": "Tax lot equals zoning lot only for this arithmetic illustration; no geometry/use/allocation verification. Not gross sf."
+    },
+    {
+      "id": "rezone_area_proxy",
+      "kind": "derived",
+      "value": 58774.32,
+      "unit": "zoning square feet proxy",
+      "inputs": [
+        "lot_area",
+        "agency_rezone_far"
+      ],
+      "formula": "tax_lot_area * agency_planning_far",
+      "scope": "Tax lot equals zoning lot only for this arithmetic illustration; no geometry/use/allocation verification. Not gross sf."
+    },
+    {
+      "id": "incremental_area_proxy",
+      "kind": "derived",
+      "value": 11859.12,
+      "unit": "zoning square feet proxy",
+      "inputs": [
+        "rezone_area_proxy",
+        "current_area_proxy"
+      ],
+      "formula": "rezone - current",
+      "scope": "Not physical buildability or gross construction area"
+    },
+    {
+      "id": "monthly_budget_70",
+      "kind": "derived",
+      "value": 2939.48,
+      "unit": "USD monthly total housing cost",
+      "inputs": [
+        "income_2026_3person",
+        "housing_cost_share",
+        "budget_household_size"
+      ],
+      "formula": "annual_income_for_selected_AMI * 0.33 / 12",
+      "scope": "Illustrative cap includes mortgage, maintenance and shareholder-paid utilities. Not rent, sales price, mortgage approval or local affordability finding."
+    },
+    {
+      "id": "monthly_budget_80",
+      "kind": "derived",
+      "value": 3359.4,
+      "unit": "USD monthly total housing cost",
+      "inputs": [
+        "income_2026_3person",
+        "housing_cost_share",
+        "budget_household_size"
+      ],
+      "formula": "annual_income_for_selected_AMI * 0.33 / 12",
+      "scope": "Illustrative cap includes mortgage, maintenance and shareholder-paid utilities. Not rent, sales price, mortgage approval or local affordability finding."
+    },
+    {
+      "id": "monthly_budget_100",
+      "kind": "derived",
+      "value": 4199.25,
+      "unit": "USD monthly total housing cost",
+      "inputs": [
+        "income_2026_3person",
+        "housing_cost_share",
+        "budget_household_size"
+      ],
+      "formula": "annual_income_for_selected_AMI * 0.33 / 12",
+      "scope": "Illustrative cap includes mortgage, maintenance and shareholder-paid utilities. Not rent, sales price, mortgage approval or local affordability finding."
+    },
+    {
+      "id": "monthly_budget_120",
+      "kind": "derived",
+      "value": 5039.1,
+      "unit": "USD monthly total housing cost",
+      "inputs": [
+        "income_2026_3person",
+        "housing_cost_share",
+        "budget_household_size"
+      ],
+      "formula": "annual_income_for_selected_AMI * 0.33 / 12",
+      "scope": "Illustrative cap includes mortgage, maintenance and shareholder-paid utilities. Not rent, sales price, mortgage approval or local affordability finding."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "zoning",
+      "title": "Reconcile legal envelope and agency concept",
+      "unknown_claim": "legal_envelope",
+      "review_owner": "Architect / zoning counsel",
+      "acceptance": "Written zoning memo tied to survey, mapped MIH/subdistrict boundaries, special elevated-rail rules and affordable housing qualification.",
+      "status": "unresolved"
+    },
+    {
+      "id": "community",
+      "title": "Use actual community priorities",
+      "unknown_claim": "community_priorities",
+      "review_owner": "HPD / community engagement lead",
+      "acceptance": "Published Jerome CVR and traceable proposal response; avoid fabricating survey results.",
+      "status": "unresolved"
+    },
+    {
+      "id": "control",
+      "title": "Confirm legal control and disposition",
+      "unknown_claim": "site_control",
+      "review_owner": "Title counsel / HPD",
+      "acceptance": "Current title, restrictions/easements and disposition/development documents.",
+      "status": "unresolved"
+    },
+    {
+      "id": "occupants",
+      "title": "Verify existing occupants and obligations",
+      "unknown_claim": "occupancy",
+      "review_owner": "Developer / housing counsel",
+      "acceptance": "Site/lease verification and any relocation or tenant protection requirements.",
+      "status": "unresolved"
+    },
+    {
+      "id": "environment",
+      "title": "Determine environmental pathway and costs",
+      "unknown_claim": "environment",
+      "review_owner": "Environmental professional / HPD/OER",
+      "acceptance": "Applicable Phase I or alternate BCP/E materials, noise/air assessment and review disposition.",
+      "status": "unresolved"
+    },
+    {
+      "id": "finance",
+      "title": "Underwrite co-op development and buyer affordability",
+      "unknown_claim": "finance",
+      "review_owner": "Housing finance advisor / lender / HPD",
+      "acceptance": "Complete sources/uses and sales/maintenance/reserve model; funding availability and rates.",
+      "status": "unresolved"
+    },
+    {
+      "id": "approvals",
+      "title": "Determine approvals and schedule",
+      "unknown_claim": "approval_path",
+      "review_owner": "Land-use counsel / HPD/DCP",
+      "acceptance": "Written eligibility and approvals roadmap; separate public-land disposition from zoning change.",
+      "status": "unresolved"
+    },
+    {
+      "id": "team",
+      "title": "Verify developer/program qualifications",
+      "unknown_claim": "qualified_team",
+      "review_owner": "Sponsor / HPD",
+      "acceptance": "Pre-qualified status and applicable HDFC/sponsor experience evidence.",
+      "status": "unresolved"
+    },
+    {
+      "id": "transit",
+      "title": "Measure usable transit access",
+      "unknown_claim": "usable_transit",
+      "review_owner": "Transport analyst",
+      "acceptance": "Dated pedestrian route plus scheduled/reliability-aware travel comparisons and accessibility limits.",
+      "status": "unresolved"
+    },
+    {
+      "id": "buyers",
+      "title": "Test who can actually buy and remain",
+      "unknown_claim": "buyer_access",
+      "review_owner": "Housing finance / fair housing advisor",
+      "acceptance": "Income/assets/credit, down payment and closing costs; maintenance escalation, reserves and resale restrictions.",
+      "status": "unresolved"
+    },
+    {
+      "id": "rfp",
+      "title": "Complete site-specific procurement requirements",
+      "unknown_claim": "procurement_requirements",
+      "review_owner": "Sponsor / HPD",
+      "acceptance": "Issued Jerome RFP, amendments and final threshold checklist; no borrowing another site’s criteria.",
+      "status": "unresolved"
+    },
+    {
+      "id": "design",
+      "title": "Provide dimensioned professional design",
+      "unknown_claim": "professional_design",
+      "review_owner": "Architect / engineer / estimator",
+      "acceptance": "Survey-based plans, areas, core/lift layout, program and amenity mix, accessibility and signed cost estimate.",
+      "status": "unresolved"
+    }
+  ],
+  "budgets": [
+    {
+      "ami_pct": 70,
+      "income": 106890,
+      "monthly_cap": 2939.48,
+      "claim_id": "monthly_budget_70"
+    },
+    {
+      "ami_pct": 80,
+      "income": 122160,
+      "monthly_cap": 3359.4,
+      "claim_id": "monthly_budget_80"
+    },
+    {
+      "ami_pct": 100,
+      "income": 152700,
+      "monthly_cap": 4199.25,
+      "claim_id": "monthly_budget_100"
+    },
+    {
+      "ami_pct": 120,
+      "income": 183240,
+      "monthly_cap": 5039.1,
+      "claim_id": "monthly_budget_120"
+    }
+  ],
+  "packet_sha256": "b65b44aa2b848f10505ed4f4afa30c9d151290d9d7fc5d142712969dc4302e3e"
+}

@@ -1,0 +1,101 @@
+{
+  "packet_sha256": "b65b44aa2b848f10505ed4f4afa30c9d151290d9d7fc5d142712969dc4302e3e",
+  "requirements": [
+    {
+      "id": "zoning",
+      "title": "Reconcile legal envelope and agency concept",
+      "unknown_claim": "legal_envelope",
+      "review_owner": "Architect / zoning counsel",
+      "acceptance": "Written zoning memo tied to survey, mapped MIH/subdistrict boundaries, special elevated-rail rules and affordable housing qualification.",
+      "status": "unresolved"
+    },
+    {
+      "id": "community",
+      "title": "Use actual community priorities",
+      "unknown_claim": "community_priorities",
+      "review_owner": "HPD / community engagement lead",
+      "acceptance": "Published Jerome CVR and traceable proposal response; avoid fabricating survey results.",
+      "status": "unresolved"
+    },
+    {
+      "id": "control",
+      "title": "Confirm legal control and disposition",
+      "unknown_claim": "site_control",
+      "review_owner": "Title counsel / HPD",
+      "acceptance": "Current title, restrictions/easements and disposition/development documents.",
+      "status": "unresolved"
+    },
+    {
+      "id": "occupants",
+      "title": "Verify existing occupants and obligations",
+      "unknown_claim": "occupancy",
+      "review_owner": "Developer / housing counsel",
+      "acceptance": "Site/lease verification and any relocation or tenant protection requirements.",
+      "status": "unresolved"
+    },
+    {
+      "id": "environment",
+      "title": "Determine environmental pathway and costs",
+      "unknown_claim": "environment",
+      "review_owner": "Environmental professional / HPD/OER",
+      "acceptance": "Applicable Phase I or alternate BCP/E materials, noise/air assessment and review disposition.",
+      "status": "unresolved"
+    },
+    {
+      "id": "finance",
+      "title": "Underwrite co-op development and buyer affordability",
+      "unknown_claim": "finance",
+      "review_owner": "Housing finance advisor / lender / HPD",
+      "acceptance": "Complete sources/uses and sales/maintenance/reserve model; funding availability and rates.",
+      "status": "unresolved"
+    },
+    {
+      "id": "approvals",
+      "title": "Determine approvals and schedule",
+      "unknown_claim": "approval_path",
+      "review_owner": "Land-use counsel / HPD/DCP",
+      "acceptance": "Written eligibility and approvals roadmap; separate public-land disposition from zoning change.",
+      "status": "unresolved"
+    },
+    {
+      "id": "team",
+      "title": "Verify developer/program qualifications",
+      "unknown_claim": "qualified_team",
+      "review_owner": "Sponsor / HPD",
+      "acceptance": "Pre-qualified status and applicable HDFC/sponsor experience evidence.",
+      "status": "unresolved"
+    },
+    {
+      "id": "transit",
+      "title": "Measure usable transit access",
+      "unknown_claim": "usable_transit",
+      "review_owner": "Transport analyst",
+      "acceptance": "Dated pedestrian route plus scheduled/reliability-aware travel comparisons and accessibility limits.",
+      "status": "unresolved"
+    },
+    {
+      "id": "buyers",
+      "title": "Test who can actually buy and remain",
+      "unknown_claim": "buyer_access",
+      "review_owner": "Housing finance / fair housing advisor",
+      "acceptance": "Income/assets/credit, down payment and closing costs; maintenance escalation, reserves and resale restrictions.",
+      "status": "unresolved"
+    },
+    {
+      "id": "rfp",
+      "title": "Complete site-specific procurement requirements",
+      "unknown_claim": "procurement_requirements",
+      "review_owner": "Sponsor / HPD",
+      "acceptance": "Issued Jerome RFP, amendments and final threshold checklist; no borrowing another site’s criteria.",
+      "status": "unresolved"
+    },
+    {
+      "id": "design",
+      "title": "Provide dimensioned professional design",
+      "unknown_claim": "professional_design",
+      "review_owner": "Architect / engineer / estimator",
+      "acceptance": "Survey-based plans, areas, core/lift layout, program and amenity mix, accessibility and signed cost estimate.",
+      "status": "unresolved"
+    }
+  ]
+}

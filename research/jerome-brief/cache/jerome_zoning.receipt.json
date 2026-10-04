@@ -1,0 +1,18 @@
+{
+  "id": "jerome_zoning",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+  "retrieved_at": "2026-10-04T00:02:04.818647+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zr.planning.nyc.gov/article-xiv/chapter-1",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+  "bytes": 162677,
+  "sha256": "1e8cf4be51d63f53c80576dff53e93427d061b525992307fcc14eff513436c40",
+  "cache_path": "cache/jerome_zoning.body",
+  "parsed": "html",
+  "text_chars": 38306,
+  "link_count": 170
+}

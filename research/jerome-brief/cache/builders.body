@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>neighborhood-builders-rfps</title>
+<!--fixed-layout-->
+<!--ls:begin[stylesheet]-->
+<link href="/iwov-resources/fixed-layout/3-Row Simple.css" type="text/css" rel="stylesheet">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[meta-keywords]-->
+<meta name="keywords" content="">
+<!--ls:end[meta-keywords]-->
+<!--ls:begin[meta-description]-->
+<meta name="description" content="">
+<!--ls:end[meta-description]-->
+<!--ls:begin[custom-meta-data]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<!--ls:begin[meta-vpath]-->
+<meta name="vpath" content="">
+<!--ls:end[meta-vpath]-->
+<!--ls:begin[meta-page-locale-name]-->
+<meta name="page-locale-name" content="">
+<!--ls:end[meta-page-locale-name]-->
+<!--
+					ls:begin[pre-head-injection]
+				--><!--
+					ls:end[pre-head-injection]
+				--><!--
+					ls:begin[social_media_injection]
+				--><!--
+					ls:end[social_media_injection]
+				--><!--ls:begin[head-injection]--><meta charset="utf-8" /><!--[if IE]>        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">        <![endif]--><meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- Google Translate Plugin --><meta name="google-translate-customization" content="4707bd7f535893a0-45bca7b6a97e5a2d-g609df9381571b349-c"/><!--[if lt IE 9]>            <script src="/assets/home/js/libs/html5shiv.js" type="text/javascript"></script>        <![endif]--><!-- GLOBAL STYLES --><script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10347260902154543.js" data-dtconfig="app=f936b00c6760395e|cuc=x8kxxto7|owasp=1|mel=100000|expw=1|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1790841134986|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10347260902154543.js|reportUrl=/rb_bf46289yka|rid=RID_-234427635|rpid=823115158|domain=nyc.gov"></script><link href="/assets/home/css/css-min/global.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/css-min/module.css" media="screen" rel="stylesheet" type="text/css" /><!-- PRINT STYLE --><link rel="stylesheet" href="/assets/home/css/print.css" type="text/css" media="print" /><!-- PAGE SPECIFIC STYLES --><link href="/assets/home/css/includes/header-agencies.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/news-panel.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/share-icons.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/agencies-about-links.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/home/css/modules/programs-and-initiatives.css" media="screen" rel="stylesheet" type="text/css" /><!--<link href="/assets/hpd/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" />--><!-- centralized css --><link href="/assets/home/css/pages/agencies/inside.css" media="screen" rel="stylesheet" type="text/css" /><link href="/assets/hpd/css/agency-styles.css" media="screen" rel="stylesheet" type="text/css" /><!--[if (gte IE 6)&(lte IE 8)]>        <script type="text/javascript" src="/assets/home/js/libs/selectivizr.js"></script>        <![endif]--><!--[if IE 8]>        <script type="text/javascript" src="/assets/home/js/libs/respond.min.js"></script>        <![endif]--><script src="/assets/home/js/libs/modernizr-2.6.2.min.js" type="text/javascript"></script><!--ls:end[head-injection]--><!--ls:begin[tracker-injection]--><!--ls:end[tracker-injection]--><!--ls:begin[script]--><!--ls:end[script]-->
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="QMXLB-WG9C2-LTK58-FW2PB-6ST8X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"QMXLB-WG9C2-LTK58-FW2PB-6ST8X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ljqlbeaxaqzgu2wbs56q-f-375205956-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"1071053","ak.ai":parseInt("181928",10),"ak.ol":"0","ak.cr":17,"ak.ipv":4,"ak.proto":"h2","ak.rid":"3c3cb4fc","ak.r":49882,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":29517,"ak.gh":"23.210.6.201","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1791072125","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Z/T2Z3OLpKoenqU1L24gU1mygB0YZIKcpFnAJTHwN65qYd93+ReyZvqJW6kC/b3+o4J6PF5oBx15VfOOaWLbJ3ohOoAC20aIyIKhsmxLDkwc1kdia6Hd0vFDhSa3/ABXcS2QJDaVRUBVGPZVIZwEPn5U/jhK2NjzrtOCvs0H+qxU3W0aOnjDdjjvayt7NrPAMoQjs8IfyXmS9KMs3vwmNBz+Bh2jW8KhSelGIae7bqQq4TAewIJXFPDL19CG4RTPnNbZD52yb229NxlXP4nIwrWcY7mvF7qKyBl2HuTjeqJHSSBZFnrbzKJiMf4PEaS6dnL3HOYvgTc4UhC+jtfBYPf3UQFti5k7kOIb8t2gGrRVemd5xelrPt4vVCrJs3wTY4hGhFiwte9GlSji9+FoIiEylbJzybEuvwFm35IDBH0=","ak.pv":"122","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body id="page">
+<!--ls:begin[body]--><div class="ls-canvas page" id="outer-wrap">
+<div class="ls-row" id="inner-wrap">
+<div class="ls-fxr" id="ls-gen89384565-ls-fxr">
+<div class="ls-col" id="ls-row-1-col-1">
+<div class="ls-col-body" id="ls-gen89384566-ls-col-body">
+<div class="ls-row main-header" id="top">
+<div class="ls-fxr" id="ls-gen89384567-ls-fxr">
+<div class="ls-col block" id="ls-row-1-col-1-row-1-col-1">
+<div class="ls-col-body" id="ls-gen89384568-ls-col-body">
+<div class="ls-row" id="ls-row-1-col-1-row-1-col-1-row-1">
+<div class="ls-fxr" id="ls-gen89384569-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-1-col-1-row-1-area-1">
+<div class="ls-area-body" id="ls-gen89384570-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1788927422675">
+<!--ls:begin[component-1788927422675]-->
+<div class="iw_component" id="1788927422675">
+</div>
+<!--ls:end[component-1788927422675]-->
+</div>
+<div class="ls-cmp-wrap" id="w1788927422676">
+<!--ls:begin[component-1788927422676]-->
+<div class="iw_component" id="1788927422676"><div class="agency-header">
+<div class="upper-header-black">
+<div class="container">
+<span class="upper-header-left"><a href="http://www1.nyc.gov"><img src="/assets/home/images/global/nyc_white.png" alt="NYC" class="small-nyc-logo"></a><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-black-title">Housing Preservation &amp; Development</span></span><span class="upper-header-padding"></span><span class="upper-header-right"><span class="upper-header-three-one-one"><a href="/311/index.page">311</a></span><img src="/assets/home/images/global/upper-header-divider.gif" alt=""><span class="upper-header-search"><a href="/home/search/index.page">Search all NYC.gov websites</a></span></span>
+</div>
+</div>
+</div><div role="banner" class="main-header">
+<div class="block">
+<div class="header-top">
+<div class="container">
+<a href="#" class="toggle-mobile-side-nav visible-phone" id="nav-open-btn">Menu</a><span class="welcome-text hidden-phone agency-header"></span>
+<div class="agency-logo-wrapper">
+<a href="/site/hpd/index.page"><img class="agency-logo" src="/assets/hpd/images/content/header/logo.svg" alt="Housing Preservation &amp; Development"></a>
+</div>
+<div class="hidden-phone" id="header-links">
+<div class="language-gif">
+<img src="/assets/home/images/global/language.gif" alt="Language"></div>
+<div class="language-selector">
+<div id="google_translate_element"></div>
+</div>
+<a class="text-size hidden-phone" href="http://www1.nyc.gov/home/text-size.page">Text-Size</a>
+</div>
+<a href="#" class="visible-phone nav-sprite-mobile" id="toggle-mobile-search"><span class="hidden">Search</span></a>
+</div>
+</div>
+<div class="container nav-outer">
+<nav role="navigation" class="hidden-phone" id="nav">
+<div class="block">
+<ul>
+<li class="nav-home hidden-phone">
+<a href="/site/hpd/index.page">
+                      Home</a>
+</li>
+<li>
+<a href="/site/hpd/about/about-hpd.page">About</a>
+</li>
+<li class="active">
+<a href="/site/hpd/services-and-information/services-and-information.page">Services and Information</a>
+</li>
+<li>
+<a href="/site/hpd/news/news.page">Media</a>
+</li>
+<li>
+<a href="/site/hpd/events/index.page">Events</a>
+</li>
+<li>
+<a href="/site/hpd/contact/contact.page">Contact</a>
+</li>
+<li class="hidden-phone toggle-search-wide-background-ico-search" id="toggle-search-wide"></li>
+</ul>
+</div>
+</nav>
+<div class="global-input-search">
+<form method="GET" action="/home/search/index.page" name="filter-search-form" class="hidden hidden-phone" id="global-search-form1">
+<div class="field-search">
+<input style="color: transparent" type="submit" class="ico-search btn-filter-search" value="submit" aria-hidden="true">
+<div class="input-padding">
+<label for="search-header" class="sr-only">Search</label><input id="search-header" type="text" name="search-terms" placeholder="Search" class="input-search input-black filter-item placeholder"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/hpd"><span class="reader-only"><input value="submit" aria-label="Submit" type="submit"></span>
+</div>
+</div>
+</form>
+</div>
+<div class="global-input-search visible-phone hidden-phone" id="nav-top-searches">
+<div class="block">
+<form class="hidden" method="GET" action="/home/search/index.page" name="filter-search-form" id="global-search-form2">
+<div class="field-search">
+<input style="color: transparent" aria-label="Submit" value="Submit" class="ico-search btn-filter-search" type="submit">
+<div class="input-padding">
+<label for="search-header-2" class="sr-only">Search</label><input id="search-header-2" class="input-search input-black filter-item" placeholder="Search" name="search-terms" type="text"><input type="hidden" name="sitesearch" value="www1.nyc.gov/site/hpd">
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1788927422676]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row main" id="main">
+<div class="ls-fxr" id="ls-gen89384571-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-2-area-1">
+<div class="ls-area-body" id="ls-gen89384572-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1788927422677">
+<!--ls:begin[component-1788927422677]-->
+<div class="iw_component" id="1788927422677"><div class="row">
+<div class="subheader">
+<div class="container">
+<h1 class="main-title">Neighborhood Builders Fast Track - Homepage</h1>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1788927422677]-->
+</div>
+<div class="ls-cmp-wrap" id="w1788927422678">
+<!--ls:begin[component-1788927422678]-->
+<div class="iw_component" id="1788927422678"><!-- Left nav component --><div class="row">
+<div class="container content-container">
+<div class="span3 agencies-about-links">
+<div class="agencies-about-share">
+<div class="share">
+<a aria-label="Share on facebook" target="_blank" href="#"><span aria-hidden="true" class="facebook_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page?" data-title="neighborhood-builders-rfps"></span></a><a aria-label="Share on twitter" target="_blank" href="#"><span aria-hidden="true" class="twitter_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page?" data-title="neighborhood-builders-rfps"></span></a><a aria-label="Share on google plus" target="_blank" href="#"><span aria-hidden="true" class="googleplus_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page?" data-title="neighborhood-builders-rfps"></span></a><a aria-label="Share on tumblr" target="_blank" href="#"><span aria-hidden="true" class="tumblr_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page?" data-title="neighborhood-builders-rfps"></span></a><a aria-label="Share in email" href="#"><span aria-hidden="true" class="email_custom" data-url="https://www1.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page?" data-title="neighborhood-builders-rfps"></span></a>
+          Share
+  </div>
+<div class="print-event hidden-phone hidden-tablet">
+<img alt="Print icon" src="/assets/home/images/global/print.png"><span class="print-label"> Print </span>
+</div>
+</div>
+</div>
+<div class="span9 about-main-image">
+<div class="span6 about-description"><h1><strong>About Neighborhood Builders</strong></h1>
+<p>Announced as part of Mayor Mamdani&rsquo;s first 100 days, the Neighborhood Builders Fast Track is a new, expedited process to speed the delivery of affordable housing on City-owned land. Through Neighborhood Builders, HPD will pre-qualify M/WBE and non-profit affordable housing builders and shorten the Request for Proposals (RFP) process for certain projects by several months. These time savings will be achieved be establishing a pre-qualified list of M/WBE and non-profit developers through the Neighborhood Builders Request for Qualifications (RFQ) released on March 25, 2026. Pre-qualified developers will be invited off the list to patriciate in an expedited RFP process.</p>
+<p>Non-profit organizations and certified M/WBE firms who wish to be considered for sites via the Neighborhood Builders RFQ can learn more about the process on the <a href="/site/hpd/services-and-information/neighborhood-builders-rfps.page">Neighborhood Builders Fast Track RFQ </a>Webpage.</p>
+<p><br /></p>
+<h3><strong>Fast Track RFP Process</strong></h3>
+<h3><img src="/assets/hpd/images/content/pages/rfp-process-faq.jpg" alt="a color graphic that shows a step-by-step rfp prcess" /></h3>
+<p><br /></p>
+<h3><strong><span data-contrast="none">1. Community Visioning</span></strong><span>&nbsp;<br /></span></h3>
+<p><span data-contrast="auto">The&nbsp;Community&nbsp;Visioning phase is your chance to help shape the Request for Proposals (RFP) for the new&nbsp;affordable housing and&nbsp;community amenities at each site. HPD will conduct engagement events and surveys for each individual Neighborhood Builders&nbsp;site.&nbsp;Takeaways for each site will be published in a&nbsp;document attached to the RFP.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">2. Open Request</span></strong><span>&nbsp;<br /></span></h3>
+<p><span data-contrast="none">HPD will issue an&nbsp;RFP that seeks development proposals&nbsp;for each Neighborhood Builders&nbsp;site.&nbsp;Development teams will propose projects in response to the criteria and requirements outlined in the document.</span><span>&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">3. Submissions Review</span></strong><span>&nbsp;<br /></span></h3>
+<p><span data-contrast="none">HPD will evaluate development proposals based on their ability to meet the requirements and advance the goals described in the RFP document and the&nbsp;CVR.</span><span>&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">4. Developer Designation</span></strong><span>&nbsp;</span></h3>
+<p><span data-contrast="none">The development team with the strongest proposal will be selected by HPD to proceed with the development.</span><span>&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">5. Public Approvals</span></strong><span>&nbsp;<br /></span></h3>
+<p><span data-contrast="none">The project&nbsp;will&nbsp;go through the City's public approval process and secure financing before construction can begin.&nbsp;Some&nbsp;projects may already have prior land use approvals in&nbsp;place, or&nbsp;may&nbsp;utilize&nbsp;expedited processes such as those described on HPD&rsquo;s&nbsp;</span><a href="https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page"><strong><span data-contrast="none">Expediting New Affordable Housing</span></strong></a><span data-contrast="none">&nbsp;webpage.</span><span>&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">6. Construction</span></strong><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></h3>
+<p><span data-contrast="none">The&nbsp;proposed&nbsp;affordable housing building will be constructed.</span><span>&nbsp;</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span></p>
+<h3><strong><span data-contrast="none">7. Housing Lottery</span></strong><span>&nbsp;<br /></span></h3>
+<p><span data-contrast="none">When construction is almost complete, the new affordable homes will be made available through HPD's lottery process on&nbsp;</span><a href="https://housingconnect.nyc.gov/PublicWeb/"><strong><span data-contrast="none">NYC Housing Connect</span></strong></a><strong><span data-contrast="auto">.</span></strong><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559685&quot;:375,&quot;335559739&quot;:0,&quot;335559740&quot;:276}">&nbsp;</span><span data-ccp-props="{&quot;335559739&quot;:0}">&nbsp;</span></p>
+<h3><strong>How to Get Involved</strong></h3>
+<p>&nbsp;Follow the links for each site below to learn more about how to get involved.</p>
+<p><br /></p>
+<h1><strong><a id="fall"></a>Fall 2026 Sites</strong></h1>
+<p><span data-contrast="auto" xml:lang="EN-US" lang="EN-US" class="TextRun SCXW208571259 BCX8"><span class="NormalTextRun SCXW208571259 BCX8">HPD launched the Community Visioning phase for the following three sites in Fall 2026.<span>&nbsp;</span></span></span><span data-contrast="auto" xml:lang="EN-US" lang="EN-US" class="TextRun Highlight SCXW208571259 BCX8"><span class="NormalTextRun SCXW208571259 BCX8">All three sites were<span>&nbsp;</span></span><span class="NormalTextRun SCXW208571259 BCX8">identified</span><span class="NormalTextRun SCXW208571259 BCX8"><span>&nbsp;</span>in the<span>&nbsp;</span></span></span><a class="Hyperlink SCXW208571259 BCX8" href="https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e" target="_blank" rel="noreferrer noopener"><span data-contrast="none" xml:lang="EN-US" lang="EN-US" class="TextRun Highlight Underlined SCXW208571259 BCX8"><span class="NormalTextRun SCXW208571259 BCX8" data-ccp-charstyle="Hyperlink">Land Inventory Fast Track (LIFT) Tracker</span></span></a><span data-contrast="auto" xml:lang="EN-US" lang="EN-US" class="TextRun Highlight SCXW208571259 BCX8"><span class="NormalTextRun SCXW208571259 BCX8"><span>&nbsp;</span>released in<span>&nbsp;</span></span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW208571259 BCX8">July,</span><span class="NormalTextRun SCXW208571259 BCX8"><span>&nbsp;</span>2026.</span></span><span data-contrast="auto" xml:lang="EN-US" lang="EN-US" class="TextRun SCXW208571259 BCX8"><span class="NormalTextRun SCXW208571259 BCX8"><span>&nbsp;</span></span><span class="NormalTextRun SCXW208571259 BCX8">Follow the links for each site below to learn more about how to get involved.</span></span><span class="EOP Selected SCXW208571259 BCX8" data-ccp-props="{}">&nbsp;</span></p>
+<div class="faq-v1">
+<div class="faq-head">
+<div class="faq-controls"><a href="javascript:expandAll();" class="faq-expand-all">Expand All</a><a href="javascript:collapseAll();" class="faq-collapse-all">Collapse All</a></div>
+</div>
+<div data-answer="faq1a" class="faq-questions">
+<p>784-800 Myrtle Ave, Brooklyn</p>
+</div>
+<div class="faq-answers" id="faq1a">
+<p><a href="/site/hpd/services-and-information/myrtle-ave-affordable-housing-rfp.page">784-800 Myrtle Ave, Brooklyn</a></p>
+<p>Identified in the <a href="https://www.nyc.gov/site/hpd/services-and-information/bed-stuy.page">2020 Bedford-Stuyvesant Housing plan</a>, 784-800 Myrtle Ave is a vacant City-owned site in Bedford-Stuyvesant, Brooklyn.</p>
+</div>
+<div data-answer="faq2a" class="faq-questions">
+<p>109-43 Farmers Blvd, Queens</p>
+</div>
+<div class="faq-answers" id="faq2a">
+<p><a href="/site/hpd/services-and-information/farmers-blvd-affordable-homeownership-rfp.page">109-43 Farmers Blvd, Queens</a></p>
+<p>HPD committed to building affordable homeownership opportunities on this site as part of the <a href="https://www.jamaicaplan.nyc/">2025 Jamaica Neighborhood Plan</a>. The site is located in St. Albans, Queens, and includes three vacant one-story buildings.</p>
+</div>
+<div data-answer="faq3a" class="faq-questions">
+<p>1337 Jerome Ave, The Bronx</p>
+</div>
+<div class="faq-answers" id="faq3a">
+<p><a href="/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page">1337 Jerome Ave, The Bronx</a></p>
+<p>HPD committed to building affordable homeownership opportunities on this site as part of the <a href="https://www.nyc.gov/content/planning/pages/our-work/plans/citywide/city-of-yes-housing-opportunity">2024 City of Yes for Housing Opportunity</a> zoning text amendment. The site is located in the Mount Eden neighborhood of the Bronx, and includes a vacant one-story commercial building.</p>
+</div>
+<h1><strong>Frequently Asked Questions  </strong></h1>
+<div class="faq-v1">
+<h3>Neighborhood Builders Fast Track Request for Proposals (RFPs)</h3>
+<p>
+<script src="/assets/home/js/pages/agencies/expand-collapse-2.js" type="text/javascript"></script>
+</p>
+<div class="faq-v1">
+<div class="faq-head">
+<div class="faq-controls"><a href="javascript:expandAll();" class="faq-expand-all">Expand All</a><a href="javascript:collapseAll();" class="faq-collapse-all">Collapse All</a></div>
+</div>
+<p class="sr-only">Click a topic, or press the enter key on a topic, to reveal its answer.</p>
+<div data-answer="faq1" class="faq-questions">
+<p>What is a Request for Proposals (RFP)?</p>
+</div>
+<div class="faq-answers" id="faq1">
+<p>A Request for Proposals is a document issued by HPD that seeks proposals for new housing and community amenities on City-owned land. Development teams submit proposals and those proposals are evaluated based on their ability to meet the requirements and advance the goals identified in the RFP and community engagement report.</p>
+</div>
+<div data-answer="faq2" class="faq-questions">
+<p>What is the difference between the Neighborhood Builders Fast Track RFQ and RFPs?</p>
+</div>
+<div class="faq-answers" id="faq2">
+<p>A Request for Qualifications (RFQ) is a solicitation process designed to pre-qualify developers who meet criteria related to experience and capacity. HPD uses the Neighborhood Builders RFQ to build a list of vetted non-profit and M/WBE partners qualified to work on affordable housing development, including for certain RFP sites.</p>
+</div>
+<div data-answer="faq3" class="faq-questions">
+<p>Why is HPD issuing RFPs on these sites?</p>
+</div>
+<div class="faq-answers" id="faq3">
+<p>Many New Yorkers are experiencing homelessness, living in poor quality housing, or struggling to keep up with housing costs. A priority for the mayoral administration is for HPD to finance and preserve more affordable housing, and to enable new affordable housing developments to include important community amenities. The Neighborhood Builders Fast Track initiative provides an opportunity for the City to create 100% affordable housing that will serve the community and New Yorkers in a more expediated manner.</p>
+</div>
+<div data-answer="faq4" class="faq-questions">
+<p>How is the Neighborhood Builders RFP different than a typical RFP released by HPD, and how will it result in a faster process?</p>
+</div>
+<div class="faq-answers" id="faq4">
+<p>A typical HPD Request for Proposals (RFP) is a competitive process in which HPD calls for developers to submit site-specific project proposals that respond to a set of defined goals and guidelines that are informed by policy goals and feedback from the community. Under the Neighborhood Builders Initiative, a Request for Qualifications (RFQ) identifies a set of criteria for developers to be evaluated to establish a list of qualified developers to potentially be selected to develop, or to apply to develop, a site for affordable housing development.</p>
+<p>The pre-qualification process, as well as working with simpler sites that may have prior commitments or land use approvals, will reduce the time taken to designate sites to developers for certain projects by approximately seven to eight months. The Neighborhood Builders Fast Track Initiative, in addition to other streamlined processes such as the Expedited Land Use Review Procedure (ELURP), would reduce the overall pre-development process by approximately 2.5 years.</p>
+</div>
+<div data-answer="faq5" class="faq-questions">
+<p>Can the community help choose the developers or proposal for an RFP site?</p>
+</div>
+<div class="faq-answers" id="faq5">
+<p>We highly value community input informing the development of the RFP before it is written and issued, which is why we designed a questionnaire and will be hosting a workshop to gather your input. HPD takes the integrity of its RFP competitive review process seriously. As such, HPD is required to ensure that the RFP process prevents potential conflicts of interest (and disqualifications of teams because of potential conflict of interest) and cannot allow community members to partake in the review.</p>
+<p>As stated above, the input gathered throughout the engagement process is published in the report and attached to the RFP for development teams to refer to in crafting proposals. Proposals will be scored in part on how well they respond to the visions of the community.</p>
+</div>
+<div data-answer="faq5a" class="faq-questions">
+<p>Will we be able to see the RFPs when they are released?</p>
+</div>
+<div class="faq-answers" id="faq5a">
+<p>Yes. The RFP and any relevant supplemental information will be linked on the sites individual project website to downloadable as PDFs. </p>
+</div>
+<h3><strong>Community Input</strong></h3>
+<div data-answer="faq23" class="faq-questions">
+<p>How will community input be incorporated into the RFP?</p>
+</div>
+<div class="faq-answers" id="faq23">
+<p>The results of the community engagement will be summarized in a report. The report is provided as part of the RFP document so that prospective developers can understand and craft proposals that are responsive to the priorities and needs of the community. Amongst other evaluation criteria, proposals will be evaluated in part on how thoughtfully they consider and respond to the priorities and needs. (<a href="#fall">See what sites are open in your neighborhood</a>.)</p>
+</div>
+<div data-answer="faq24" class="faq-questions">
+<p>Why is the community engagement phase shortened compared to HPD&rsquo;s typical RFP</p>
+</div>
+<div class="faq-answers" id="faq24">
+<p>Sites under the Neighborhood Builders initiative are considered ready-to-develop, meaning they are small-to-moderately sized with more programmatic constraints and may have outstanding prior commitments from neighborhood plans and citywide initiatives. HPD is committed to delivering on these commitments in an expedited manner. HPD will work closely with local community stakeholders to help spread the word about upcoming projects.</p>
+</div>
+<div data-answer="faq25" class="faq-questions">
+<p>Will community members who are not able to attend in-person meetings have an opportunity to provide input?</p>
+</div>
+<div class="faq-answers" id="faq25">
+<p>Yes. For people who are not able to make it to public events, there is an online Project Questionnaire available on a project site&rsquo;s website. Community members can also offer feedback and submit questions about this project by emailing the project site email address. For community members without access to the internet, there will be paper versions of the project questionnaire available at our public tabling events.</p>
+<p>HPD will present our findings at a public report back meeting when the community visioning phase is coming to an end.</p>
+</div>
+<div data-answer="faq26" class="faq-questions">
+<p>Will there be additional opportunities for community feedback after a developer is selected for a site?</p>
+</div>
+<div class="faq-answers" id="faq26">
+<p>Yes. The community engagement process does not end with the release of the report. Once selected, the developer and HPD will report back to the Community Board and other key stakeholders about project progress toward major milestones and how to apply for affordable housing.</p>
+</div>
+<div data-answer="faq27" class="faq-questions">
+<p>Will input from people who live far away from the site have the same weight as people near the site?</p>
+</div>
+<div class="faq-answers" id="faq27">
+<p>While we receive input from many different types of stakeholders, our goal is to focus on the big picture and to accommodate as many perspectives as possible. We are conducting extensive outreach in the community to ensure that those who may be most impacted by the new development are informed and have opportunities to provide feedback.</p>
+</div>
+<div data-answer="faq28a" class="faq-questions">
+<p>Once the building is complete, how can I apply to live in one of the units?</p>
+</div>
+<div class="faq-answers" id="faq28a">
+<p>After construction, newly available apartments go through a housing lottery process. Visit <a href="https://housingconnect.nyc.gov/PublicWeb/">NYC Housing Connect</a> online for more information about current affordable housing lotteries. Supportive housing and formerly homeless units are leased through referrals from the New York City Department of Homeless Services (DHS), Human Resources Administration (HRA), HPD, or other sources.</p>
+<p>For help on how to apply for housing, contact a nearby <a href="https://www.nyc.gov/site/hpd/services-and-information/housing-ambassadors.page">NYC Housing Ambassador</a> Brooklyn.</p>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<!--ls:end[component-1788927422678]-->
+</div>
+<div class="ls-cmp-wrap" id="w1788927422679">
+<!--ls:begin[component-1788927422679]-->
+<div class="iw_component" id="1788927422679">
+</div>
+<!--ls:end[component-1788927422679]-->
+</div>
+<div class="ls-cmp-wrap" id="w1788927422680">
+<!--ls:begin[component-1788927422680]-->
+<div class="iw_component" id="1788927422680"><!--
+         Do not display agency programs. 
+    -->
+</div>
+<!--ls:end[component-1788927422680]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+<div class="ls-row" id="ls-row-1-col-1-row-3">
+<div class="ls-fxr" id="ls-gen89384573-ls-fxr">
+<div class="ls-area" id="ls-row-1-col-1-row-3-area-1">
+<div class="ls-area-body" id="ls-gen89384574-ls-area-body">
+<div class="ls-cmp-wrap ls-1st" id="w1788927422681">
+<!--ls:begin[component-1788927422681]-->
+<div class="iw_component" id="1788927422681"><div class="row">
+<footer>
+<div class="container">
+<div class="span9 footer-links">
+<a href="/main">nyc.gov home</a><a href="/main/services">Services</a><a href="/main/events/?">Events</a><a href="/main/your-government">Your government</a><a href="https://portal.311.nyc.gov/">311</a><a href="/main/your-government/contact-nyc-government">Contact NYC government</a><a href="https://www.nycvotes.org/">Register to vote</a><a href="https://a858-nycnotify.nyc.gov/notifynyc/">Emergency alerts </a><a href="https://cityjobs.nyc.gov/">Careers</a><a href="/main/forms/website-feedback">Website feedback</a><a href="https://www.nyc.gov/site/mopd/resources/digital-accessibility.page">Accessibility resources</a><a href="/main/nyc-gov-privacy-policy">Privacy policy</a><a href="/main/terms-of-use">Terms of use</a><a href="/main/about-our-content">About nyc.gov content</a>
+</div>
+<div class="span3">
+<span class="logo-nyc">NYC</span>
+<form class="form-search" method="get" action="/home/search/index.page">
+<label for="footer-search" class="sr-only">Search</label><input id="footer-search" type="text" placeholder="Search" class="input-search placeholder" name="search-terms"><button class="ico-search">Search</button>
+</form>
+<div class="copyright">
+<div><p>&copy; City of New York. 2025 All Rights Reserved. NYC is a trademark and service mark of the City of New York.</p>
+<!-- nyc footer 07-16-2025 --></div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<!--ls:end[component-1788927422681]-->
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ls-row-clr"></div>
+</div>
+</div>
+</div><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--></body>
+<!--ls:begin[foot-injection]--><!-- GLOBAL JAVASCRIPT INCLUDES (/js/_global.js.html.erb) --><script src="/assets/home/js/libs/jquery-1.9.1.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script><script src="/assets/home/js/libs/i18n/jquery-ui-i18n.js" type="text/javascript"></script><script src="/assets/home/js/utils.js" type="text/javascript"></script><script src="/assets/home/js/libs/class.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MainNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.MobileNav.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.Global.js" type="text/javascript"></script><script src="/assets/home/js/libs/ZeroClipboard.min.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.InfoShare.js" type="text/javascript"></script><script src="/assets/home/js/classes/NYC.ProgramsAndInitiatives.js" type="text/javascript"></script><script src="/assets/home/js/share.js" type="text/javascript"></script><script src="/assets/home/js/libs/jquery.colorbox-min.js" type="text/javascript"></script><!-- IE7 support for JSON --><!--[if (gte IE 6)&(lte IE 8)]>        <script src="/assets/home/js/libs/json2.js" type="text/javascript"></script>        <![endif]--><!-- PAGE SPECIFIC JAVASCRIPT --><script src="/assets/home/js/pages/agencies/about.js" type="text/javascript"></script><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script><!-- Google Translate Plugin --><script type="text/javascript">            function googleTranslateElementInit() {                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');            }        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!-- webtrends --><script type="text/javascript" src="/assets/hpd/js/agencies/agency-wt.js"></script><script type="text/javascript" src="/assets/home/js/webtrends/webtrends_v10.js"></script><!-- End Analytics Tagging 8/4/14 TL. (NYC.gov Specific) --><!--ls:end[foot-injection]--></html></html>

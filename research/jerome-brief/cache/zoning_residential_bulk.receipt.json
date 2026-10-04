@@ -1,0 +1,18 @@
+{
+  "id": "zoning_residential_bulk",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://zr.planning.nyc.gov/article-ii/chapter-3",
+  "retrieved_at": "2026-10-04T00:02:04.819035+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zr.planning.nyc.gov/article-ii/chapter-3",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+  "bytes": 1580622,
+  "sha256": "2c9d21b0360068dbc3f1a8cd2328ae8c4a05889d9337b02211b4deeb4a2cb544",
+  "cache_path": "cache/zoning_residential_bulk.body",
+  "parsed": "html",
+  "text_chars": 228301,
+  "link_count": 697
+}

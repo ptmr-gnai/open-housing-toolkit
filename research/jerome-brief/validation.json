@@ -1,0 +1,62 @@
+{
+  "technical_status": "pass",
+  "packet_sha256": "b65b44aa2b848f10505ed4f4afa30c9d151290d9d7fc5d142712969dc4302e3e",
+  "source_receipts": 15,
+  "bound_claims": 70,
+  "professional_requirements": 12,
+  "gates": {
+    "advisor_packet": {
+      "allowed": true,
+      "meaning": "Technical review readiness only; expert outcomes pending"
+    },
+    "second_site_workflow": {
+      "allowed": false,
+      "meaning": "Workflow feedback acceptance, not feasibility",
+      "review_errors": [
+        [
+          "review pending"
+        ],
+        [
+          "review pending"
+        ]
+      ],
+      "same_reviewer": false
+    },
+    "agency_proposal": {
+      "allowed": false,
+      "meaning": "Snapshot has no issued Jerome RFP, completed professional evidence or approved project",
+      "unresolved_requirements": [
+        "zoning",
+        "community",
+        "control",
+        "occupants",
+        "environment",
+        "finance",
+        "approvals",
+        "team",
+        "transit",
+        "buyers",
+        "rfp",
+        "design"
+      ]
+    },
+    "development_recommendation": {
+      "allowed": false,
+      "unresolved_requirements": [
+        "zoning",
+        "community",
+        "control",
+        "occupants",
+        "environment",
+        "finance",
+        "approvals",
+        "team",
+        "transit",
+        "buyers",
+        "rfp",
+        "design"
+      ]
+    },
+    "reviewer_authentication": "Not performed; project owner must verify attribution and independence."
+  }
+}

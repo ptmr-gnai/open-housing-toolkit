@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jerome_project",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/1337-jerome-ave-affordable-homeownership-rfp.page"
+  },
+  {
+    "id": "jerome_cb4",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/1337-Jerome-CB4-briefing.pdf"
+  },
+  {
+    "id": "open_door",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/open-door-term-sheet.pdf"
+  },
+  {
+    "id": "builders",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page"
+  },
+  {
+    "id": "jerome_zoning",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://zr.planning.nyc.gov/article-xiv/chapter-1"
+  },
+  {
+    "id": "zoning_residential_bulk",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://zr.planning.nyc.gov/article-ii/chapter-3"
+  },
+  {
+    "id": "zoning_affordable",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://zr.planning.nyc.gov/article-ii/chapter-7"
+  },
+  {
+    "id": "zoning_mih_bronx",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://zr.planning.nyc.gov/appendix-f/bronx"
+  },
+  {
+    "id": "pluto",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D2028560051&%24limit=1"
+  },
+  {
+    "id": "geosearch",
+    "publisher": "NYC DCP",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX"
+  },
+  {
+    "id": "design_process",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf"
+  },
+  {
+    "id": "ami",
+    "publisher": "NYC HPD",
+    "purpose": "1337 Jerome opportunity brief evidence",
+    "url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "mih_bronx_resolved",
+  "publisher": "NYC DCP",
+  "purpose": "Official MIH maps; spatial applicability remains subject to mapped parcel boundary review",
+  "url": "https://zr.planning.nyc.gov/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2",
+  "retrieved_at": "2026-10-04T00:02:58.799831+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zr.planning.nyc.gov/appendix-f-mandatory-inclusionary-housing-areas-and-former-inclusionary-housing-designated-areas-2",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 04 Oct 2026 00:02:59 GMT",
+  "bytes": 81263,
+  "sha256": "47b7c48fcce9c6ec5b271a216dca4cd4a6c2bda2470d76dba04e064905ed5e74",
+  "cache_path": "cache/mih_bronx_resolved.body",
+  "parsed": "html",
+  "text_chars": 8452,
+  "link_count": 48
+}

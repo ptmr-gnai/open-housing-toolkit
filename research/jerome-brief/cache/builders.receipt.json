@@ -1,0 +1,18 @@
+{
+  "id": "builders",
+  "publisher": "NYC HPD",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+  "retrieved_at": "2026-10-04T00:02:04.818144+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/site/hpd/services-and-information/neighborhood-builders-rfps.page",
+  "content_type": "text/html;charset=UTF-8",
+  "last_modified": null,
+  "bytes": 37462,
+  "sha256": "479b4a02d745fc19ff3f49bc05548d2c07b47650ca13684ecbb43b976e9e6f0b",
+  "cache_path": "cache/builders.body",
+  "parsed": "html",
+  "text_chars": 11335,
+  "link_count": 49
+}

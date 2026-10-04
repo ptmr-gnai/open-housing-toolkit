@@ -1,0 +1,22 @@
+{
+  "id": "geosearch",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+  "retrieved_at": "2026-10-04T00:02:05.452219+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://geosearch.planninglabs.nyc/v2/search?text=1337%20JEROME%20AVENUE%20BRONX",
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "bytes": 10401,
+  "sha256": "b755728e152cc7257f7a68efec7a7923655002495030082110b6ee4d91356b0c",
+  "cache_path": "cache/geosearch.body",
+  "parsed": "json",
+  "top_level_keys": [
+    "geocoding",
+    "type",
+    "features",
+    "bbox"
+  ]
+}

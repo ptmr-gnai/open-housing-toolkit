@@ -1,0 +1,18 @@
+{
+  "id": "zoning_affordable",
+  "publisher": "NYC DCP",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://zr.planning.nyc.gov/article-ii/chapter-7",
+  "retrieved_at": "2026-10-04T00:02:05.273385+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://zr.planning.nyc.gov/article-ii/chapter-7",
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 04 Oct 2026 00:02:05 GMT",
+  "bytes": 245036,
+  "sha256": "f3f6e7939e0be523f04b47dac0652c764d875d3dc0bdbd893a8018f319c9a913",
+  "cache_path": "cache/zoning_affordable.body",
+  "parsed": "html",
+  "text_chars": 88782,
+  "link_count": 214
+}

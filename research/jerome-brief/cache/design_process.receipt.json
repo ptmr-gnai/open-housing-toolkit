@@ -1,0 +1,16 @@
+{
+  "id": "design_process",
+  "publisher": "NYC HPD",
+  "purpose": "1337 Jerome opportunity brief evidence",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+  "retrieved_at": "2026-10-04T00:02:06.189004+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/new-construction-design-review-process-guide.pdf",
+  "content_type": "application/pdf",
+  "last_modified": "Wed, 23 Sep 2026 19:57:54 GMT",
+  "bytes": 284385,
+  "sha256": "a5f72ba5acf7a93da7146e4689c9ec50d98d2b92c0e577f674c9ad29dd04d6fd",
+  "cache_path": "cache/design_process.body",
+  "parsed": "pdf"
+}
