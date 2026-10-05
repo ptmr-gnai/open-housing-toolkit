@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "case": "97 West 169th Street",
+  "scope": "Document assessment; not practitioner utility or certified historical backtest",
+  "curator_exposed_to_outcomes": true,
+  "analyst_boundary": "Fresh context; input-only folder; no network or other repository reads. Instruction boundary, not OS sandbox. Model prior knowledge cannot be excluded.",
+  "criteria": [
+    {
+      "id": "identity",
+      "requirement": "Expose 2519 versus 2509 contradiction; use corroboration without claiming title verification",
+      "source": "RFP PDF pp8\u20139; Addendum1 p2"
+    },
+    {
+      "id": "parkland",
+      "requirement": "Separate 2017 parkland authorization from remaining disposition and land-use approvals",
+      "source": "RFP PDF pp8\u20139"
+    },
+    {
+      "id": "physical",
+      "requirement": "Expose terrain/rock/no survey; public contours cannot prove buildable envelope",
+      "source": "Addendum1 p2; Addendum2 p3"
+    },
+    {
+      "id": "capacity",
+      "requirement": "Identify R7-1/AIRS and qualification uncertainty without invented FAR or units",
+      "source": "RFP PDF p10"
+    },
+    {
+      "id": "finance",
+      "requirement": "Separate 4% and 9% branches; cite subsidy caps and financing evidence; no award guarantee",
+      "source": "RFP PDF p21; Addendum2"
+    },
+    {
+      "id": "nonresidential",
+      "requirement": "Account for nonresidential income/equity support; no free amenities",
+      "source": "RFP PDF pp9,21"
+    },
+    {
+      "id": "evaluation",
+      "requirement": "Use threshold/competitive feasibility and capacity obligations; no unit maximization",
+      "source": "RFP PDF pp17\u201318"
+    },
+    {
+      "id": "addenda",
+      "requirement": "Resolve clarifications and latest team/form requirements",
+      "source": "Addenda1\u20133"
+    },
+    {
+      "id": "calibration",
+      "requirement": "Separate agency facts, assumptions, inference, missing evidence; no fabricated professional acceptance",
+      "source": "Input task"
+    },
+    {
+      "id": "action",
+      "requirement": "Specify evidence and responsible roles for next decision, with bounded recommendations",
+      "source": "Input task"
+    }
+  ],
+  "grading": "met / partial / missed / contradicted with evidence, no aggregate score. Source page review and citations audited separately. No outcome unit-count score. No threshold changes after output.",
+  "reveal_condition": "Assessment files and input/rubric hashes frozen in Git before evaluator reads later reference in this run. Curator previously exposed; disclose."
+}

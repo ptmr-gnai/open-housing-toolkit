@@ -1,0 +1,16 @@
+{
+  "files": {
+    "research/benchmark-case-search/inputs/97-west-169th-st-rfp.pdf": "212ea247c3eda660eccc4da79800bd24ce1969aff67e2ffbb5ddd30ce61407f9",
+    "research/benchmark-case-search/inputs/97-west-169th-st-rfp.text": "eed89161dcd3cfd755fe1a583f83c12f7a7c1b356919aea081c2b2ba929266c6",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum.pdf": "b0d01825edc9afa5d1d30525a75b9f47d347f3345c4e6b145d1e03ca3a65f2c0",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum.text": "94fb6a4d34849e59041ecd695223ecab92d27a43a7489ed30bfe186b8bc9f3b9",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum2.pdf": "930d90fea2ac4499bbe8621e6c0fe44a07de8c4597c8a3b55f2dc019a99b3d09",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum2.text": "6908da5efe35db393d4be2b4906c4ff76d7ecbe3c8e7fad663c11ab524441a19",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum3.pdf": "8bb55336354f12c1a101ee6eea83ae0d3340c6640a004c074fd539d968d5942b",
+    "research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum3.text": "e4c9429e2ceb09da2d6fdab06e07c3d10c464eb87078e239b4728871a31f3a26",
+    "research/benchmark-case-search/inputs/manifest.json": "1f5ce96fa5d48f0a88aad5a2ce7540663f182c523f260b1432df2598b28497ac",
+    "research/benchmark-case-search/inputs/task.md": "c68902ebf7bccbe280a7d0397e3b048f13ebb25862d3a256de067ac949c64011"
+  },
+  "rubric_sha256": "fc3aaffbfffe19de59425ccac61a2841d5a07e7e325a50996f8b2b3be281aa5a",
+  "status": "precommitted_before_assessment"
+}
