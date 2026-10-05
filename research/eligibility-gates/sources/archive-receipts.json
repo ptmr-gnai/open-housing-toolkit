@@ -1,0 +1,34 @@
+{
+  "west169": {
+    "id": "candidate_0_inputs",
+    "publisher": "NYC HPD",
+    "purpose": "97 West 169th Street RFP: inputs; outcome documents excluded from future analyst inputs",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+    "retrieved_at": "2026-10-04T16:47:01.395994+00:00",
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/assets/hpd/downloads/zip/97-west-169th-street-rfp.zip",
+    "content_type": "application/zip",
+    "last_modified": "Mon, 15 Nov 2021 21:19:23 GMT",
+    "bytes": 6831631,
+    "sha256": "c0b6581ebddf3e3706ead761b5785798b303ebed82b8ef75bc6cefc27e3fc0b2",
+    "cache_path": "cache/candidate_0_inputs.body",
+    "parsed": "other"
+  },
+  "stanns": {
+    "id": "candidate_2_inputs",
+    "publisher": "NYC HPD",
+    "purpose": "St. Ann's Avenue/East 142nd Street RFP: inputs; outcome documents excluded from future analyst inputs",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/zip/st-anns-rfp.zip",
+    "retrieved_at": "2026-10-04T16:47:01.398395+00:00",
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/assets/hpd/downloads/zip/st-anns-rfp.zip",
+    "content_type": "application/zip",
+    "last_modified": "Mon, 27 Jan 2020 21:10:55 GMT",
+    "bytes": 2831191,
+    "sha256": "0bae6b59ac9d91c7ac246d1bd06e7c038424006db0572a6d4b073569f55d34d6",
+    "cache_path": "cache/candidate_2_inputs.body",
+    "parsed": "other"
+  }
+}

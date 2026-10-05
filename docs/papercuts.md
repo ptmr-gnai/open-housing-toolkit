@@ -121,3 +121,24 @@ remains unverified.
 The original analyst output is frozen at commit ae56d78. Evaluation records one
 material missed criterion (applicant/submission review); no aggregate success score,
 practitioner usefulness, professional approval or historical certification is claimed.
+
+## Applicant gate transfer — 5 October 2026
+
+| Papercut | Observed source or test | Engineering response |
+|---|---|---|
+| Universal threshold copied between projects | 97 West 169 requires 60 units; St Ann’s base criterion 70 | Bind parameters to exact case/document passage; reject source-value mismatch |
+| Mechanical cutoff erases agency review route | St Ann’s Add1 p3 permits development experience justification | Preserve base fail separately; effective unknown pending agency review, no automatic approval |
+| Development flexibility spreads to management | St Ann’s Add2 p3 explicitly rejects management flexibility/future credentials | Separate gates and authority passages; current-at-submission evidence required |
+| Projects summed into a qualifying single project | Two 30-unit development fixtures vs one-project requirement | Existential witness per qualifying development project; no arbitrary sum |
+| Management count treated as same one-project rule | Management concerns qualifying unit portfolio, not necessarily one building | Require reviewed unique-unit portfolio scope; duplicate-unit reconciliation remains evidence task |
+| PDF table labels break phrase matching | 97 RFP p19 puts “Experience” between count and “residential units” in layout text | Retain original text; explicit scoped regex accepts documented interleaving; ambiguity rejects |
+| Empty history is called ineligible | No actual applicant records supplied | Unknown unless complete evidence scope is reviewed and bound to exact record set |
+| Review survives rule/fact/source changes | Mutation tests change evidence, facts or case assumptions | Bind reviews to payload/source and requirement+engine+schema+release-policy fingerprints |
+| Caller invents ready flag | Injected submission_readiness_claim_allowed=true in profile | Export recomputes; no trust in caller-supplied readiness status |
+| Synthetic fixture masquerades as credentials | Relabeled actual profile and removed synthetic flag | Check fixture path/content and block actual promotion; passing test records remain synthetic |
+| Rule matching is mistaken for complete proposal readiness | All scoped synthetic gates pass, unexpanded full submission inventory | Separate coverage and actual-evidence blockers; evidence pack permitted, readiness claim exit 2 |
+| Curated regression overclaimed as holdout analyst improvement | Curator previously saw second-case summary; manually authored gate inventory | Explicitly label source-driven transfer; no independent holdout, expert utility or automatic extraction claim |
+
+22 gates / 31 source-page citations / seven PDFs / 26 tests. No real applicant
+credentials, professional acceptance or certified historical replay were supplied.
+The original assessment and its fingerprints remain unchanged.

@@ -1,0 +1,334 @@
+{
+  "dsl_version": "0.1",
+  "id": "stanns",
+  "title": "St Ann\u2019s Avenue and East 142nd Street",
+  "cutoff": "2015-05-22",
+  "gates": [
+    {
+      "id": "team.development",
+      "label": "Comparable development experience",
+      "kind": "experience",
+      "collection": "development",
+      "where": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "residential_units",
+            "value": 70,
+            "binding": "min_units",
+            "unit": "dwelling_units"
+          },
+          {
+            "op": "within_years",
+            "field": "completion_date",
+            "value": 7,
+            "binding": "lookback",
+            "unit": "calendar_years"
+          },
+          {
+            "op": "eq",
+            "field": "successful_completion",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "as_principal",
+            "value": true
+          },
+          {
+            "op": "in",
+            "field": "work_type",
+            "values": [
+              "new_construction"
+            ],
+            "domain": [
+              "new_construction",
+              "substantial_rehabilitation",
+              "other"
+            ]
+          }
+        ]
+      },
+      "bindings": [
+        {
+          "id": "min_units",
+          "citation_index": 0,
+          "regex": "at least (?:sixty|seventy) \\((\\d+)\\)(?: Experience)? residential units",
+          "value": 70
+        },
+        {
+          "id": "lookback",
+          "citation_index": 0,
+          "regex": "within the past (seven)(?: \\(7\\))? years",
+          "value": 7
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "At least one Principal of the Applicant must have had prior development experience, as Principal, by successfully completing new construction of at least one project of comparable size and scope to the one proposed in this RFP. \u201cDevelopment Experience\u201d is defined as the successful completion of the construction of at least one new construction project of at least seventy (70) residential units within the past seven years."
+        },
+        {
+          "source_id": "stanns_add1",
+          "pdf_page": 3,
+          "quote": "Q15: The RFP indicates that Applicants must have experience with at least one new construction development with a minimum of 70 units. Are you flexible on the minimum number of units? A15: We would like to see teams that are capable and experienced and have the track record that we can rely on to know that these units will be developed. To that end, if you have experience that does not exactly match the criteria, you may put together a summary of your experience and justify that you are an experienced team."
+        }
+      ],
+      "on_no_match": "agency_review",
+      "discretion_citation": 1,
+      "owner": "Developer principal",
+      "next_action": "Provide project/principal-role/completion evidence; if criteria differ, prepare justified experience for HPD review without assuming approval.",
+      "interpretation": "Numeric predicates are source-bound. Credential field meanings and role/ownership applicability require scoped human review."
+    },
+    {
+      "id": "team.management",
+      "label": "Comparable NYC management experience",
+      "kind": "experience",
+      "collection": "management",
+      "where": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "residential_units",
+            "value": 70,
+            "binding": "min_units",
+            "unit": "dwelling_units"
+          },
+          {
+            "op": "within_years",
+            "field": "management_date",
+            "value": 7,
+            "binding": "lookback",
+            "unit": "calendar_years"
+          },
+          {
+            "op": "eq",
+            "field": "successful_management",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "eligible_participant",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "nyc",
+            "value": true
+          },
+          {
+            "op": "in",
+            "field": "ownership_role",
+            "values": [
+              "owner_and_manager",
+              "owner_through_management_entity"
+            ],
+            "domain": [
+              "owner_and_manager",
+              "owner_through_management_entity",
+              "manager_without_ownership",
+              "other"
+            ]
+          }
+        ]
+      },
+      "bindings": [
+        {
+          "id": "min_units",
+          "citation_index": 0,
+          "regex": "at least (?:sixty|seventy) \\((\\d+)\\)(?: Experience)? residential units",
+          "value": 70
+        },
+        {
+          "id": "lookback",
+          "citation_index": 0,
+          "regex": "within the past (seven)(?: \\(7\\))? years",
+          "value": 7
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "At least one Principal of the Applicant or the proposed managing agent must have comparable rental management experience. \u201cComparable Management Experience\u201d is defined as the successful management of at least seventy (70) residential units in New York City within the past seven (7) years. The Principal must have been the owner and manager, or the owner acting through a management entity, to fulfill this qualification. No changes in managing agent may be made without prior HPD approval."
+        },
+        {
+          "source_id": "stanns_add2",
+          "pdf_page": 3,
+          "quote": "Q11: I\u2019m aware that the preference is for a managing agent to have managed at least 70 units in NYC within the last seven years. My company manages over 10K units in other parts of the country and expects to be managing a project in the city prior to construction completion of the St. Ann\u2019s project if chosen. As we\u2019d have NYC management experience before lease up (though not before submission of a proposal) might there be some flexibility around this requirement? A11: There is no flexibility around this requirement. HPD will only evaluate information that is current at the time of submission."
+        }
+      ],
+      "on_no_match": "fail",
+      "discretion_citation": null,
+      "owner": "Proposed managing principal or agent",
+      "next_action": "Provide reviewed NYC portfolio/unit and ownership/management-role history current at submission. Future experience cannot cure missing current evidence.",
+      "interpretation": "Numeric predicates are source-bound. Credential field meanings and role/ownership applicability require scoped human review."
+    },
+    {
+      "id": "submission.completeness",
+      "label": "Complete proposal and required attachments",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "The Proposal must contain all documentation required under Section IX. Submission Requirements. All of the required forms must be fully completed and application requirements met at the time of submission. Upon review, however, HPD, at their discretion, may notify an Applicant that additional information or clarification is necessary."
+        },
+        {
+          "source_id": "stanns_add1",
+          "pdf_page": 4,
+          "quote": "Q18: On page 21 of the RFP it references the need for a financing proposal for each design? Do I need to make multiple submissions? A18: Please disregard. This is from a former multi-site RFP."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Expand required forms/attachments; disregard obsolete separate-multiple-site instruction per addendum.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.capacity",
+      "label": "Development capacity and current workload",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "Applicants must be capable of meeting the construction timeline presented in Section V.B Obligations of Selected Developer. An Applicant\u2019s current workload and other pending project obligations will be considered in assessing capacity for undertaking the Project proposed by the Applicant within HPD\u2019s proposed timeframe prescribed for the Project."
+        }
+      ],
+      "owner": "Developer principal",
+      "next_action": "Review workload, obligations and capacity to meet required timeline.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.conformance",
+      "label": "Conformance to minimum program requirements",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "Proposed Project must meet all minimum requirements outlined in Section IV.B Program Requirements and Preferences."
+        }
+      ],
+      "owner": "Project manager and architect",
+      "next_action": "Expand minimum program requirements and distinguish preferences; review comparable development scope.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.financial_capacity",
+      "label": "Ability to finance entire project",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 18,
+          "quote": "Applicants must demonstrate adequate financial resources to develop a project of the scope proposed in their submission. HPD will evaluate the Applicant\u2019s assets, bank or other lender references, and current commitments in order to assess the Applicant\u2019s capacity to secure construction and permanent financing, meet construction lender\u2019s equity requirements, absorb any cost overruns, and commence and complete construction of Applicant\u2019s entire Project in a timely manner."
+        }
+      ],
+      "owner": "Finance lead",
+      "next_action": "Review assets, commitments, equity and overruns capacity.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.finance_feasibility",
+      "label": "Feasible development and operating proposal",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 19,
+          "quote": "The Applicant\u2019s financing plan must be considered feasible. Estimated Project development and operating costs must be within current industry parameters. Proposed rents for the housing units and any additional income from commercial, community space or other sources must be deemed realistic based upon Proposal information and market conditions. An estimate of the square footage construction costs using both net and gross square footage must be provided along with the Project budget."
+        }
+      ],
+      "owner": "Finance lead",
+      "next_action": "Obtain credible costs, rents, comparables and supported sources/uses.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.adverse_findings",
+      "label": "Applicant and associated-party adverse findings",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 19,
+          "quote": "An Applicant\u2019s Proposal may be rejected at any time during or after the evaluation process if there are any adverse findings regarding the Applicant, any entity or individual associated with the Applicant, or any property owned and/or managed by them. Such adverse findings may include, but are not limited to: \uf0b7 conviction, administrative violation, judicial or administrative finding, pending judicial or administrative case, or pending litigation for harassment, arson, fraud, bribery, grand larceny, any felony or crime of dishonesty, or noncompliance with fair housing or anti-discrimination laws, any applicable codes or ordinances, labor laws, or construction laws. \uf0b7 defaults or poor performance under any government-assisted program; \uf0b7 suspension or debarment by any governmental entity; \uf0b7 mortgage arrears, default, or foreclosure proceedings; \uf0b7 tax arrears, tax foreclosure or enforcement proceedings, or sale of tax liens; \uf0b7 voluntary or involuntary bankruptcy proceeding; or \uf0b7 negative findings by the Department of Investigation."
+        }
+      ],
+      "owner": "Counsel",
+      "next_action": "Collect adverse-finding disclosures and scoped legal review; no clearance inferred.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.gc",
+      "label": "General contractor identified at submission",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_add2",
+          "pdf_page": 3,
+          "quote": "Q12: The RFP states that the selected developer is responsible for assembling a team including a GC. Is having a GC identified necessary for the proposal? A12: Yes, having a General Contractor identified is necessary for the proposal."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Identify proposed general contractor and evidence its commitment.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "submission.delivery",
+      "label": "Historical deadline and required delivery format",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 21,
+          "quote": "Proposals must be delivered by hand no later than 4:00 p.m. on Friday, May 22, 2015"
+        },
+        {
+          "source_id": "stanns_rfp",
+          "pdf_page": 21,
+          "quote": "Each Proposal must include one (1) bound original, one (1) bound copy and one (1) flash drive with all components of the Proposal. An authorized representative of the Applicant must sign the original proposal."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Verify historical delivery requirements in retrospective exercise; this is not a currently open solicitation.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    }
+  ],
+  "coverage": {
+    "threshold_gate_ids": [
+      "team.development",
+      "team.management",
+      "submission.completeness",
+      "team.capacity",
+      "proposal.conformance",
+      "team.financial_capacity",
+      "proposal.finance_feasibility",
+      "team.adverse_findings",
+      "team.gc",
+      "submission.delivery"
+    ],
+    "full_submission_inventory_review": "pending",
+    "unexpanded": "Referenced program, design/code and full form/attachment obligations require further scoped review. This inventory cannot certify full proposal completeness."
+  },
+  "assumptions": [
+    {
+      "id": "window_anchor",
+      "value": "2015-05-22",
+      "rationale": "Use submission deadline as historical assessment anchor; inclusive calendar-year window. Boundary convention needs agency confirmation if material."
+    },
+    {
+      "id": "management_portfolio",
+      "rationale": "Management credential is a reviewed unique-unit portfolio for the required period, not necessarily one building. Never sum unreviewed overlapping project counts."
+    }
+  ],
+  "limits": [
+    "Authored source interpretation, not an automated analyst benchmark.",
+    "No real applicant credentials supplied.",
+    "Rule check is not HPD acceptance or a selection probability.",
+    "Curator previously saw later summaries; outcomes excluded from this transfer test."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Reproducible code behavior; no professional or agency acceptance",
+  "files": {
+    "research/eligibility-gates/engine.py": "00b16880ed9b37ed5e3ca39dd919c2c56cc15f9adb826eaa450ea0a7a146bd2f",
+    "research/eligibility-gates/build.py": "9eb55a48c65f7f7d1221081821e03252f868896e325426c0d726f73a3ee76352",
+    "research/eligibility-gates/check.py": "04fc0b82ebb11ea174db79126782fb4e9a867f28119b197cfaac993090129599",
+    "research/eligibility-gates/validate.py": "2962e8e4b4cd1f3995e4b86738e56a659b6bde2a0f43e30194605f0b27e925e3",
+    "research/eligibility-gates/author_cases.py": "627df8f04c53b96c01054af4a02b8a438d980342015bba47c89a7d3424415b71",
+    "research/eligibility-gates/sources.json": "a2cfbcb6331b3e16d29bc4f6b111e283fab2385cf8d48859e5147a7ed9e4d98f",
+    "research/eligibility-gates/schemas/gates.schema.json": "ebeebc81f6c7057f6ea13b3614979a3ec2c0ab4c3c5a20ef3056861f8754a0c0",
+    "research/eligibility-gates/fixtures/credential-examples.json": "11aef787df7b4a1447cf2fa3aa5c7f7749de64bfe7f977a1fc55e3adb9fc7b28",
+    "research/eligibility-gates/cases/stanns.json": "512f4f0775e2a15ddbd36f1cc87264f024a422422023825f317698e8c2a8c4df",
+    "research/eligibility-gates/cases/west169.json": "86892e434e1e24001a4569e91dfd37ce3f2be05098e5b94507bc53d5dc732ca4",
+    "research/eligibility-gates/tests/test_engine.py": "6038f01ee1664103f21fdeb2048ca336172913ff1753020a3da5b15ed85be419"
+  },
+  "outputs": {
+    "evidence-requests.md": "2d4453164739bc73d912bbf63c3ddb885ee24e0d5f01ebb24d517e8bd15d0613",
+    "stanns-actual-unknown.json": "e1058d6bc8d124d2bc1fc17f3212b9cade4b7f565afe861e406a6a4f54a76ac3",
+    "synthetic-transfer.json": "2a259a2705e94bcb6129bd138b1f9986e18f059a96024913ddcc86b6bdba171d",
+    "west169-actual-unknown.json": "9bd87ef9b5ce39251ecd7831f650679effe4e28e37c1a5df9050c497ae0988be"
+  },
+  "case_fingerprints": {
+    "stanns": "952c9c2dd5d62b6c47371b21625ad4368455f65d576d2bd5e62a0fe04f8235e6",
+    "west169": "8fc237ffd1cc699934a65cbf4ae841e961605ca5f328432521c7ed189f690066"
+  }
+}

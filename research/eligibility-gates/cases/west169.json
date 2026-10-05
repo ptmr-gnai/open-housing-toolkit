@@ -1,0 +1,377 @@
+{
+  "dsl_version": "0.1",
+  "id": "west169",
+  "title": "97 West 169th Street",
+  "cutoff": "2019-04-04",
+  "gates": [
+    {
+      "id": "team.development",
+      "label": "Comparable development experience",
+      "kind": "experience",
+      "collection": "development",
+      "where": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "residential_units",
+            "value": 60,
+            "binding": "min_units",
+            "unit": "dwelling_units"
+          },
+          {
+            "op": "within_years",
+            "field": "completion_date",
+            "value": 7,
+            "binding": "lookback",
+            "unit": "calendar_years"
+          },
+          {
+            "op": "eq",
+            "field": "successful_completion",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "as_principal",
+            "value": true
+          },
+          {
+            "op": "in",
+            "field": "work_type",
+            "values": [
+              "new_construction",
+              "substantial_rehabilitation"
+            ],
+            "domain": [
+              "new_construction",
+              "substantial_rehabilitation",
+              "other"
+            ]
+          },
+          {
+            "op": "eq",
+            "field": "mixed_use",
+            "value": true
+          }
+        ]
+      },
+      "bindings": [
+        {
+          "id": "min_units",
+          "citation_index": 0,
+          "regex": "at least (?:sixty|seventy) \\((\\d+)\\)(?: Experience)? residential units",
+          "value": 60
+        },
+        {
+          "id": "lookback",
+          "citation_index": 0,
+          "regex": "within the past (seven)(?: \\(7\\))? years",
+          "value": 7
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "At least one Principal must have, as Principal, successfully completed new E Development construction or substantial rehabilitation of at least one mixed use project of Experience at least sixty (60) residential units within the past seven (7) years."
+        }
+      ],
+      "on_no_match": "fail",
+      "discretion_citation": null,
+      "owner": "Developer principal",
+      "next_action": "Provide project/principal-role/completion evidence; if unmet, assess qualified team changes; do not assume a waiver.",
+      "interpretation": "Numeric predicates are source-bound. Credential field meanings and role/ownership applicability require scoped human review."
+    },
+    {
+      "id": "team.management",
+      "label": "Comparable NYC management experience",
+      "kind": "experience",
+      "collection": "management",
+      "where": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "residential_units",
+            "value": 60,
+            "binding": "min_units",
+            "unit": "dwelling_units"
+          },
+          {
+            "op": "within_years",
+            "field": "management_date",
+            "value": 7,
+            "binding": "lookback",
+            "unit": "calendar_years"
+          },
+          {
+            "op": "eq",
+            "field": "successful_management",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "eligible_participant",
+            "value": true
+          },
+          {
+            "op": "eq",
+            "field": "nyc",
+            "value": true
+          },
+          {
+            "op": "in",
+            "field": "ownership_role",
+            "values": [
+              "owner_and_manager",
+              "owner_through_management_entity"
+            ],
+            "domain": [
+              "owner_and_manager",
+              "owner_through_management_entity",
+              "manager_without_ownership",
+              "other"
+            ]
+          }
+        ]
+      },
+      "bindings": [
+        {
+          "id": "min_units",
+          "citation_index": 0,
+          "regex": "at least (?:sixty|seventy) \\((\\d+)\\)(?: Experience)? residential units",
+          "value": 60
+        },
+        {
+          "id": "lookback",
+          "citation_index": 0,
+          "regex": "within the past (seven)(?: \\(7\\))? years",
+          "value": 7
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "Residential: At least one Principal (of Respondent, or the Respondent's E Management Property Manager) must have experience managing at least sixty (60) Experience residential units in New York City within the past seven (7) years. The Principal must have been the owner and manager, or the owner acting through a management entity, to fulfill this qualification."
+        }
+      ],
+      "on_no_match": "fail",
+      "discretion_citation": null,
+      "owner": "Proposed managing principal or agent",
+      "next_action": "Provide reviewed NYC portfolio/unit and ownership/management-role history current at submission. Future experience cannot cure missing current evidence.",
+      "interpretation": "Numeric predicates are source-bound. Credential field meanings and role/ownership applicability require scoped human review."
+    },
+    {
+      "id": "submission.completeness",
+      "label": "Complete submission and current addenda",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 17,
+          "quote": "The Submission must contain each Tab with all requested Forms and supporting documents. Submissions that are not complete or do not conform to the requirements of this Request will be eliminated from further consideration, unless HPD permits the Respondent to correct the omission or provide further information through a request for clarification."
+        },
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 26,
+          "quote": "Each Respondent must submit the forms and supporting documentation described below. Each copy of the Submission must be tabbed as indicated below, with tabs running down the right-hand side of the binder. Submissions that are incomplete or not in conformance with the requirements of this Request will be eliminated from further consideration."
+        },
+        {
+          "source_id": "west169_add3",
+          "pdf_page": 2,
+          "quote": "There is no Form e-4 included with the RFP. Commercial management experience can be listed in the format you prefer."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Expand every required tab/form/attachment, reconcile addenda, and verify each artifact; absent E-4 is not a blocker.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.adverse_findings",
+      "label": "Applicant and associated-party adverse findings",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "Submission may be rejected at any time during or after the evaluation D Findings process if there are any adverse findings in HPD\u2019s sole discretion, regarding the Respondent, any entity or individual associated with the Respondent, or any property owned and/or managed by them. (HPD may ask for a request for clarification)."
+        }
+      ],
+      "owner": "Counsel",
+      "next_action": "Collect entity/principal disclosures and review adverse findings; no clearance inferred.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.roles",
+      "label": "Required qualified team and general contractor",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "At a minimum, the Development Team responding to this Request must include: architect and engineer; construction manager; real estate (with condominium experience) and land-use attorney, environmental planner and engineer."
+        },
+        {
+          "source_id": "west169_add1",
+          "pdf_page": 3,
+          "quote": "Q13: The criteria refer to a construction manager to be part of the team. Does this refer to the general contractor? A13: Yes."
+        },
+        {
+          "source_id": "west169_add3",
+          "pdf_page": 2,
+          "quote": "The development team\u2019s real estate attorney should have experience with elements that are in the proposed project."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Identify team members, roles and qualifications; counsel experience must fit proposed elements.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.capacity",
+      "label": "Capacity and commitments",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "The Development Team must submit an Affirmative Capacity Statement D, E Team attesting to their ability to undertake this Project within the timeframes delineated."
+        }
+      ],
+      "owner": "Developer principal",
+      "next_action": "Provide capacity statement and current workload/obligations evidence.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.schedule",
+      "label": "Development schedule and phasing",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 19,
+          "quote": "A detailed schedule with construction commencing within 18-36 months from F Schedule/ the issuance of the Negotiation Letter, and other Project specific key Phasing Plan benchmarks. A phasing plan, if applicable."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Evidence schedule feasibility and anticipated approval dependencies.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.finance_feasibility",
+      "label": "Feasible sources uses and operations",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 21,
+          "quote": "The proposed Project must be in compliance with HPD-HDC Term Sheets, G Submission including requirements for units that serve very low and extremely low- income households. Market comparables must be provided for residential unit rents, and any additional income from other sources."
+        }
+      ],
+      "owner": "Finance lead",
+      "next_action": "Provide cost estimates, comparables, term-sheet compliance and supported capital/operating scenarios.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "team.financial_capacity",
+      "label": "Ability to secure financing",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 21,
+          "quote": "Asset statements must demonstrate capacity to secure pre-development, H construction and permanent financing, for the proposed Project."
+        }
+      ],
+      "owner": "Finance lead",
+      "next_action": "Provide assets, lender indications and evidence of financial commitments.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.program",
+      "label": "Senior affordability and compliant program",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 23,
+          "quote": "Affordability. 100% of the total units must be affordable to seniors. I Program Unit Types and Sizes. Submissions must have a distribution of unit types I and sizes that complies with SARA Term Sheet and guidelines. Term of Restriction. Submissions must ensure that the affordable units I remain in the rent stabilization system for the duration of the Project regulatory period, or as required by law, but in no case less than thirty (30) years."
+        }
+      ],
+      "owner": "Developer and housing-program lead",
+      "next_action": "Review senior eligibility, unit mix and restriction terms against applicable term sheets.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.community",
+      "label": "Hiring and procurement obligations",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 23,
+          "quote": "Local Hiring/M/WBE. Submission includes a Hiring and Procurement plan for J Economic complying with the HireNYC and M/WBE Build-up Programs."
+        }
+      ],
+      "owner": "Project manager",
+      "next_action": "Prepare supported hiring/procurement plan and applicable compliance evidence.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    },
+    {
+      "id": "proposal.zoning",
+      "label": "Zoning and design compliance",
+      "kind": "review",
+      "citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 17,
+          "quote": "Design and Performance \u2022 Zoning Compliance"
+        },
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 24,
+          "quote": "The Projects must conform and comply with all zoning requirements."
+        }
+      ],
+      "owner": "Architect and zoning counsel",
+      "next_action": "Provide sourced applicable zoning/code and concept review; no entitlement inferred.",
+      "interpretation": "Requires a scoped evidence-backed review; document presence alone cannot pass this gate."
+    }
+  ],
+  "coverage": {
+    "threshold_gate_ids": [
+      "team.development",
+      "team.management",
+      "submission.completeness",
+      "team.adverse_findings",
+      "team.roles",
+      "team.capacity",
+      "proposal.schedule",
+      "proposal.finance_feasibility",
+      "team.financial_capacity",
+      "proposal.program",
+      "proposal.community",
+      "proposal.zoning"
+    ],
+    "full_submission_inventory_review": "pending",
+    "unexpanded": "Referenced program, design/code and full form/attachment obligations require further scoped review. This inventory cannot certify full proposal completeness."
+  },
+  "assumptions": [
+    {
+      "id": "window_anchor",
+      "value": "2019-04-04",
+      "rationale": "Use submission deadline as historical assessment anchor; inclusive calendar-year window. Boundary convention needs agency confirmation if material."
+    },
+    {
+      "id": "management_portfolio",
+      "rationale": "Management credential is a reviewed unique-unit portfolio for the required period, not necessarily one building. Never sum unreviewed overlapping project counts."
+    }
+  ],
+  "limits": [
+    "Authored source interpretation, not an automated analyst benchmark.",
+    "No real applicant credentials supplied.",
+    "Rule check is not HPD acceptance or a selection probability.",
+    "Curator previously saw later summaries; outcomes excluded from this transfer test."
+  ]
+}

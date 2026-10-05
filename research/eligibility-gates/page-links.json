@@ -1,0 +1,8 @@
+{
+  "results": "https://chatgpt.com/space/page_9a3cc2af14d08191abd57fea3e42fa1f",
+  "prior_assessment": "https://chatgpt.com/space/page_c8fca4b68ac08191be121e7bab18c2cc",
+  "bundle_reference": "library-file:fde1_bGliZmlsZV93T3J0b0V4M1U0alcyWE9xRnY4cWlR_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+  "bundle_sha256": "3a4e867719e2d8616157473dcd3488ae46276490829906ea04d5c5a0bc5edaf5",
+  "evidence_requests_reference": "library-file:fde1_bGliZmlsZV8zeVVIbWYtWDk4eVZXWGoxUVc3UzlR_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+  "portable_extracted_bundle_validation": "pass"
+}
