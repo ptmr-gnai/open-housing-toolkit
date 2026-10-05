@@ -1,0 +1,25 @@
+{
+  "frozen_at_utc": "2026-10-05T17:56:26.493300+00:00",
+  "precommit_git": "9d0fef619b00c93209ebc314bf1440296ac2f2d6",
+  "files": {
+    "assessment.md": "e757659a37c72102005cc1ee738466250092fd65e1bf3871c1afe8354511f60c",
+    "claims.json": "0acabc2b66b2269441dd7e75c7105522f62be4de458afd34f40f0d0c3070a3ef",
+    "access-log.json": "714c7f33f31af6ba395634c32da9a47e1fa05e5f868f4edd6c27e35c745f436b"
+  },
+  "rubric_sha256": "fc3aaffbfffe19de59425ccac61a2841d5a07e7e325a50996f8b2b3be281aa5a",
+  "validator_sha256": "a40e978ac3975e018513a196671be9ee84312657ce948c4ce33fb04b47b05468",
+  "freeze_code_sha256": "cdd889e0852da965093ad80c1526d54300fb041852983b44163d01f3395b782e",
+  "input_precommit_sha256": "e76f8fa5dca82b58d498867ce732094a28c330793cc549803701d70907bb9fcf",
+  "technical_validation": {
+    "claims": 24,
+    "page_matched_citations": 82,
+    "technical_boundary": "pass",
+    "access_enforcement": "self-reported instruction boundary, not OS sandbox",
+    "semantic_accuracy": "requires evaluator review",
+    "practitioner_utility": "not_tested",
+    "historical_certification": "blocked"
+  },
+  "curator_already_exposed_to_outcomes": true,
+  "analyst_context": "fresh input-only context; declared access auditable; no OS sandbox or guarantee against model prior knowledge",
+  "later_reference_read_in_this_run": "not yet; compare only after freeze commit"
+}

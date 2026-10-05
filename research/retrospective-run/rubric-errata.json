@@ -1,0 +1,10 @@
+{
+  "changes_to_rubric": false,
+  "locator_error": {
+    "criterion": "physical",
+    "precommitted": "Addendum2 p3",
+    "correct": "Addendum2 PDF p2",
+    "evidence": "Q2/A2 names NYC Open Data 2-foot contours; p3 is contact information",
+    "effect": "No requirement or scoring threshold changed; retain original rubric hash and disclose error"
+  }
+}

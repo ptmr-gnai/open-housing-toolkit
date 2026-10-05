@@ -1,0 +1,594 @@
+{
+  "boundary": {
+    "cutoff": "2019-04-04",
+    "allowed_sources": "Only inputs/task.md, manifest.json and four supplied PDF/text pairs",
+    "network_used": false,
+    "other_repository_or_history_read": false,
+    "reference_or_rubric_read": false,
+    "delegation_used": false,
+    "recalled_outcome": false,
+    "historical_bytes_certified": false,
+    "numeric_scenarios_present": false,
+    "freeze": "Final bounded assessment; no revisions after evaluator feedback."
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "kind": "agency_statement",
+      "statement": "HPD describes vacant City-owned parcels, approximately 15,100 sf, formerly mapped parkland and reports State authorization in 2017 for affordable housing.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "The Site is comprised of two vacant, City-owned parcels"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "Approximately 15,100 square feet."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "legislation to authorize the City to discontinue the use of Block"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "2519, Lots 27 and 32 as parkland and facilitate the"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "construction of affordable housing."
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "kind": "agency_statement",
+      "statement": "Identity conflicts: snapshot Block 2519 versus context Block 2509, both Lots 27/32; Addendum 1 points to 2519.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "Block 2519, Lots 27 and 32."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 9,
+          "exact_quote": "two adjacent tax lots on Block 2509 (Lots 27 and 32)"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "for Bronx Block 2519, Lots 27 and 32"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "kind": "inference",
+      "statement": "Use 2519 provisionally because snapshot/later addendum agree, pending counsel/title/survey confirmation.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "Block 2519, Lots 27 and 32."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "for Bronx Block 2519, Lots 27 and 32"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "kind": "agency_statement",
+      "statement": "Six-story senior building north/west and two- to three-story homes east; remaining northern parkland/Fischer Place planned for park.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 9,
+          "exact_quote": "a six-story senior building to the north and west, and two to three-story homes to the east."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 9,
+          "exact_quote": "The remaining parkland on the northern side of this block, along with the demapped Corporal Irwin Fischer Place, will be developed by the DPR as Corporal Irwin Fischer Park."
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "kind": "agency_statement",
+      "statement": "R7-1 allows residential/community facility uses and AIRS additional floor area; all units affordable for seniors, assumed 62+.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 10,
+          "exact_quote": "This zoning designation allows for medium-density residential and community facility uses and is eligible for additional floor area pursuant to Affordable Independent Residences for Seniors (AIRS)."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 21,
+          "exact_quote": "100% of the units must be affordable to seniors."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "assume units are restricted to residents 62 years and older."
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "kind": "inference",
+      "statement": "Investigate senior affordable rental housing under SARA/AIRS with compliant accessible concept tests; this is program responsiveness, not demonstrated feasibility.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 35,
+          "exact_quote": "Developer Submissions must comply with all terms of the HPD SARA Term Sheet."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 24,
+          "exact_quote": "The Projects must conform and comply with all zoning requirements."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 24,
+          "exact_quote": "design features for seniors and accommodations for aging in place."
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "kind": "agency_statement",
+      "statement": "Optional 30% supportive substitution for general homeless set-aside; supportive rental assistance only supportive units, other units PBV. Services require source/provider; no social-services budget in submission.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "Respondents may replace the SARA program\u2019s 30% general population homeless set-aside requirement with a 30% supportive housing set-aside."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "Rental assistance associated with NYC 15/15 or other supportive housing operating funding should only be applied to the supportive units. Non-supportive units would receive project based Section 8 vouchers."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 28,
+          "exact_quote": "Respondents should identify their proposed service funding source, service provider"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 28,
+          "exact_quote": "A social services budget should not be included in submissions."
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "kind": "agency_statement",
+      "statement": "Optional community/commercial space needs neighborhood rationale and income/equity covering hard/soft costs; condominium optional.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 21,
+          "exact_quote": "If community facility or commercial spaces are included, they must generate enough rental income or the Development Team must provide equity to support all associated development costs, inclusive of hard and soft costs."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 23,
+          "exact_quote": "address a neighborhood need"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum3.pdf",
+          "pdf_page": 2,
+          "exact_quote": "The proposed project may include a condominium, but it is not required."
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "kind": "inference",
+      "statement": "Investigate supportive and community-use variants only with substantiated services, tenancy and capital/operating resources; permissions are not awards or proven tenancy.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "Such projects may assume service and rental assistance funding"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 21,
+          "exact_quote": "Nonresidential income and equity assumptions must be described in detail"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 23,
+          "exact_quote": "soundness of tenancy, tenant mix, marketing, management, and lease terms to secure tenancy."
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "kind": "agency_statement",
+      "statement": "HPD cannot provide survey; contours use citywide two-foot layer; site visit prohibited instruments/equipment.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "HPD cannot provide a survey of the Site."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "citywide 2-foot contour line features"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "no equipment or survey instruments will be allowed."
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "kind": "unknown",
+      "statement": "Measured boundaries, elevations, rock depth/extent, verified FAR/envelope, gross/net areas and unit yield remain unknown; respondent rock/topography question is not professional acceptance.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "Q2: The most important information is topological information because of the extreme elevation changes and rock outcroppings."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 24,
+          "exact_quote": "The Projects must conform and comply with all zoning requirements."
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "kind": "inference",
+      "statement": "Survey/access and geotechnical/structural review should precede excavation/foundation/layout decisions, testing accessible entry, egress and neighbor/park interfaces; no quantities established.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "Given the topography of the Site"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 45,
+          "exact_quote": "accessibility, clear egress/ingress and circulation."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 45,
+          "exact_quote": "Structural systems are appropriate for Site and building design"
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "kind": "agency_statement",
+      "statement": "ULURP/Council/Mayoral and UDAAP approvals remain; selection only negotiations. Remainder interest reverts title at regulatory expiry absent mutual extension.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "The selected Project will require ULURP and City Council and"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "Mayoral approvals."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "project as a UDAAP project and must designate the land in the"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 18,
+          "exact_quote": "Selection of one or more Developers under this Request means only that HPD will commence negotiations"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "so that title to the Project will revert to the City upon the"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "expiration of the regulatory period unless the parties mutually"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 8,
+          "exact_quote": "agree to an additional term of affordability."
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "kind": "agency_statement",
+      "statement": "Pre-ULURP/ULURP estimated 1.5\u20132 years from selection; construction start required 18\u201336 months from Negotiation Letter. Park staging review conditional on end by spring 2021, park construction anticipated 2021.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "the pre-ULURP and ULURP process will take about a year and half to two years."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 19,
+          "exact_quote": "construction commencing within 18-36 months from"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 19,
+          "exact_quote": "the issuance of the Negotiation Letter"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "construction is anticipated to begin in 2021."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "If all proposed staging activity terminates by spring 2021, DPR is open to reviewing proposals to use the park for construction staging."
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "kind": "inference",
+      "statement": "Approval timing may conflict with park-staging window; seek DPR acceptance if pursued and plan alternative logistics.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "the pre-ULURP and ULURP process will take about a year and half to two years."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "If all proposed staging activity terminates by spring 2021"
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "kind": "agency_statement",
+      "statement": "Developer bears environmental review/mitigation, applicable investigations with agency oversight; conveyance as-is with no suitability representation.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 34,
+          "exact_quote": "The Developer will be solely responsible for any mitigation measures identified as a result of the CEQR review."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 34,
+          "exact_quote": "No such investigation or remediation plan development may proceed without the oversight of these City agencies."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 40,
+          "exact_quote": "The Site(s) is to be disposed of in its \u201cas is\u201d condition."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 40,
+          "exact_quote": "make no representation whatsoever as to the physical condition of the Site(s) or its suitability for any specific use."
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "kind": "unknown",
+      "statement": "Contamination and noise/archaeological mitigation remain unverified; former parkland status establishes neither clean nor contaminated land.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 34,
+          "exact_quote": "Phase I and Phase II Environmental Site Assessment (ESA), Phase IA archaeological assessments and noise/acoustical studies."
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "kind": "agency_statement",
+      "statement": "4%/9% credits allowed if feasible, no preference; 9% needs historical similar-project letters within seven years. SARA up-to caps $75,000/unit (4%) and $125,000/unit (9%).",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum2.pdf",
+          "pdf_page": 2,
+          "exact_quote": "Respondents may assume either 4% or 9% Low Income Housing Tax Credits (LIHTC), so long as they are able to show that it is realistic and feasible for the proposed project."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum2.pdf",
+          "pdf_page": 2,
+          "exact_quote": "If proposing to use 9% tax credits, submissions must submit historical letters of interest or award letters for similar projects financed within the past seven years. There is no preference for using either type of tax credit program."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "a subsidy amount of up to $125,000 per unit is allowed for proposals assuming 9% Low Income Housing Tax Credits and up to $75,000 per unit is allowed for proposals assuming 4% credits."
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "kind": "agency_statement",
+      "statement": "Use November 13, 2014 SARA absent further instructions; assume prevailing wage and PBV at 100% of 2019 FMR. Tax benefits not warranted; nominal price does not remove transfer taxes.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "Respondents to the RFP should adhere to the SARA term sheet that is dated November 13, 2014"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "HPD will provide further instructions if a new SARA term sheet"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 4,
+          "exact_quote": "triggers Davis-Bacon prevailing wage requirements."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 28,
+          "exact_quote": "assume rental assistance at 100% of the 2019 FMR."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 34,
+          "exact_quote": "HPD makes no representations or warranties as to the continued availability of these benefits or as to the Project\u2019s eligibility to receive these benefits."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 35,
+          "exact_quote": "The Developer is responsible for paying all transfer taxes associated with the conveyance of the Site(s)"
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "kind": "unknown",
+      "statement": "Full linked term sheets/design guidance, verified dollar rents/allowances, comparable evidence, credit pricing, lender terms, costs and commitments missing. No capital/operating feasibility conclusion supportable.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 35,
+          "exact_quote": "Developer Submissions must comply with all terms of the HPD SARA Term Sheet."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 28,
+          "exact_quote": "Provide Hard Cost calculations"
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 29,
+          "exact_quote": "a syndication letter of interest is required."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 21,
+          "exact_quote": "Market comparables must be provided for residential"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "kind": "inference",
+      "statement": "Compare parallel 4% bond and 9% credit underwriting for evidenced layouts; cap permissions do not establish award/equity/debt/funding sufficiency.",
+      "citations": [
+        {
+          "file": "97-west-169th-street-rfp-addendum2.pdf",
+          "pdf_page": 2,
+          "exact_quote": "so long as they are able to show that it is realistic and feasible for the proposed project."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 21,
+          "exact_quote": "the feasibility and terms of the financing sources"
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "kind": "agency_statement",
+      "statement": "Amendments govern; addenda remove rail-overbuild applicability, clarify construction manager as GC, counsel experience matched to project, flexible evidence instead of E-4, no modular preference or contour DWG.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 16,
+          "exact_quote": "Submissions must conform to any amendments that may be issued to this Request."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "Q12: The RFP notes that the consultant team must have experience with a rail overbuild. Is that applicable to this RFP? A12: No."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "Q13: The criteria refer to a construction manager to be part of the team. Does this refer to the general contractor? A13: Yes."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum3.pdf",
+          "pdf_page": 2,
+          "exact_quote": "The development team\u2019s real estate attorney should have experience with elements that are in the proposed project."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum3.pdf",
+          "pdf_page": 2,
+          "exact_quote": "There is no Form e-4 included with the RFP."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 3,
+          "exact_quote": "There is no scoring preference for using modular construction."
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum2.pdf",
+          "pdf_page": 2,
+          "exact_quote": "A dwg file is not available of the contour lines."
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "kind": "unknown",
+      "statement": "Clarify regulatory-period/minimum-30-year stabilization versus perpetuity language; no exit right inferred, eventual deed/LDA governs variance.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 23,
+          "exact_quote": "but in no case less than thirty (30) years."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 37,
+          "exact_quote": "Residential apartments must remain in the system for perpetuity."
+        },
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 41,
+          "exact_quote": "the terms of the deed and/or the LDA will govern."
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "kind": "inference",
+      "statement": "Developer PM should organize staged legal/physical due diligence and concept tests; counsel confirms identity/title/statutory conditions, surveyor/engineers measure inputs, architect tests compliance, finance/services leads assess evidenced layouts.",
+      "citations": [
+        {
+          "file": "97-west-169th-st-rfp.pdf",
+          "pdf_page": 33,
+          "exact_quote": "The Developer will be responsible for assembling a Development Team with the necessary expertise, experience, and capacity to develop and manage the proposed Project"
+        },
+        {
+          "file": "97-west-169th-street-rfp-addendum.pdf",
+          "pdf_page": 2,
+          "exact_quote": "HPD cannot provide a survey of the Site."
+        }
+      ]
+    }
+  ]
+}

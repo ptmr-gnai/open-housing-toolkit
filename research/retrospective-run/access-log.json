@@ -1,0 +1,55 @@
+{
+  "reads": [
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/task.md",
+      "sha256": "c68902ebf7bccbe280a7d0397e3b048f13ebb25862d3a256de067ac949c64011"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/manifest.json",
+      "sha256": "1f5ce96fa5d48f0a88aad5a2ce7540663f182c523f260b1432df2598b28497ac"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-st-rfp.text",
+      "sha256": "eed89161dcd3cfd755fe1a583f83c12f7a7c1b356919aea081c2b2ba929266c6"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum.text",
+      "sha256": "94fb6a4d34849e59041ecd695223ecab92d27a43a7489ed30bfe186b8bc9f3b9"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum2.text",
+      "sha256": "6908da5efe35db393d4be2b4906c4ff76d7ecbe3c8e7fad663c11ab524441a19"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum3.text",
+      "sha256": "e4c9429e2ceb09da2d6fdab06e07c3d10c464eb87078e239b4728871a31f3a26"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-st-rfp.pdf",
+      "sha256": "212ea247c3eda660eccc4da79800bd24ce1969aff67e2ffbb5ddd30ce61407f9"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum.pdf",
+      "sha256": "b0d01825edc9afa5d1d30525a75b9f47d347f3345c4e6b145d1e03ca3a65f2c0"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum2.pdf",
+      "sha256": "930d90fea2ac4499bbe8621e6c0fe44a07de8c4597c8a3b55f2dc019a99b3d09"
+    },
+    {
+      "file": "/workspace/bronx-housing-probe/research/benchmark-case-search/inputs/97-west-169th-street-rfp-addendum3.pdf",
+      "sha256": "8bb55336354f12c1a101ee6eea83ae0d3340c6640a004c074fd539d968d5942b"
+    }
+  ],
+  "limitations": [
+    "Document-bounded reconstruction, not independent professional acceptance.",
+    "Currently retrieved pre-cutoff printed/metadata documents; source ZIP repackaged later; exact historical bytes uncertified.",
+    "No historical PLUTO/zoning maps, market data, visit/survey, geotechnical result, lender quote or cost estimate added.",
+    "No network, repository/history, outcome/reference/rubric or preexisting evaluator output read.",
+    "Map graphics not visually inspected/measured; no map-derived geometry/elevations used.",
+    "Each quote audited against stated 1-based formfeed-separated supplied-text page and fresh original-PDF extraction.",
+    "Selected substantive pages reviewed, not exhaustive appendix-form review.",
+    "No case outcome recalled from prior model knowledge."
+  ],
+  "recalled_outcome": false
+}
