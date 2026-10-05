@@ -1,0 +1,15 @@
+{
+  "read_after_freeze_commit": "ae56d782f5b803f889fbd406960ddd9dfa21195a",
+  "recorded_at_utc": "2026-10-05T17:57:54.568104+00:00",
+  "reference_url": "https://www.nyc.gov/site/hpd/news/109-19/city-selects-nonprofit-develop-100-unit-building-seniors-the-bronx",
+  "local_parsed_text": "research/benchmark-case-search/cache/candidate_0_reference.text",
+  "parsed_text_sha256": "2e3d8f3611523153a2c466c63e925eefb471571d4d78c5e4d6f9b82b6aaaa3ea",
+  "quotes": [
+    "December 5, 2019",
+    "plans to develop 100 affordable homes for seniors",
+    "The 60,000 square-foot mixed-use building will feature a 2,700 square-foot federally-qualified health center (FQHC)",
+    "expected to be financed through the Senior Affordable Rental Apartments (SARA) Program, and the Extremely Low & Low-Income Affordability (ELLA) Program, with 30 percent of the units set aside for formerly homeless seniors."
+  ],
+  "scope": "Designation/plans announcement, not full submission, closed finance, construction completion or resident outcomes",
+  "curator_previously_exposed": true
+}

@@ -1,0 +1,9 @@
+{
+  "claims": 24,
+  "page_matched_citations": 82,
+  "technical_boundary": "pass",
+  "access_enforcement": "self-reported instruction boundary, not OS sandbox",
+  "semantic_accuracy": "requires evaluator review",
+  "practitioner_utility": "not_tested",
+  "historical_certification": "blocked"
+}

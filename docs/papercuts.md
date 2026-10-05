@@ -105,3 +105,19 @@ Recommended document exercise: 97 West 169th Street, with April 4, 2019 cutoff.
 No experiment, expert assessment, time-savings estimate or construction-outcome
 finding has been performed. Document integrity passes; strict historical replay
 remains unverified.
+
+## First retrospective assessment — 5 October 2026
+
+| Papercut | Observed evidence | Control or next engineering change |
+|---|---|---|
+| Strong site narrative misses applicant eligibility | Frozen 97 West 169 assessment omitted RFP pp17–19 threshold framework and 60-unit/seven-year experience requirements | Add explicit applicant/submission pass/unknown/fail gates before claims of pursuit readiness; unknown credentials require evidence |
+| Traceable quotes are mistaken for completeness | 24 claims and 82 exact-page quotes pass, but material team requirements are absent | Keep provenance validation separate from requirement coverage and professional utility; report omission rather than approve workflow |
+| Evaluator has incorrect page locator | Precommitted rubric named Addendum2 p3 for contours; actual p2 | Preserve rubric hash; separate locator erratum; no post-output criterion change |
+| Later reference invites answer matching | Agency selection announces 100 homes and specific health center | Freeze output before reveal; no score for unit/tenant/developer match; distinguish RFP requirements from independent discovery |
+| Fresh context overclaimed as secure blinding | Analyst declares only input reads and no recalled outcome | Label instruction boundary, not OS sandbox; record curator exposure and model-prior limitation |
+| Detailed provenance adds latency | Approximately 14-minute dispatched-to-freeze run, no human baseline | Bound first-pass scope and record run duration; no time-saved claim; future structured extraction and coverage checks |
+| Available graphics left unreviewed | Analyst did not visually inspect addendum maps | Keep geometry and measured elevations unknown; require separate visual/map reconciliation before spatial conclusions |
+
+The original analyst output is frozen at commit ae56d78. Evaluation records one
+material missed criterion (applicant/submission review); no aggregate success score,
+practitioner usefulness, professional approval or historical certification is claimed.

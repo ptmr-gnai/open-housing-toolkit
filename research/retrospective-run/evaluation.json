@@ -1,0 +1,127 @@
+{
+  "status": "document_assessment_completed_with_material_omission",
+  "evaluator": "Outcome-exposed project curator; not independent expert review",
+  "frozen_assessment_commit": "ae56d782f5b803f889fbd406960ddd9dfa21195a",
+  "rubric_unchanged": true,
+  "rubric_locator_erratum": "rubric-errata.json",
+  "criteria": [
+    {
+      "id": "identity",
+      "status": "met",
+      "claims": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "finding": "Reports contradiction and working identity without claiming verified title."
+    },
+    {
+      "id": "parkland",
+      "status": "met",
+      "claims": [
+        "C01",
+        "C13"
+      ],
+      "finding": "Separates reported State authorization from title and remaining discretionary approvals."
+    },
+    {
+      "id": "physical",
+      "status": "met",
+      "claims": [
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "finding": "No survey/buildable area invented; source attribution distinguishes respondent rock concern from agency finding. Map graphics unreviewed."
+    },
+    {
+      "id": "capacity",
+      "status": "met",
+      "claims": [
+        "C05",
+        "C06",
+        "C11"
+      ],
+      "finding": "Identifies R7-1/AIRS but does not invent legal FAR or units."
+    },
+    {
+      "id": "finance",
+      "status": "met",
+      "claims": [
+        "C18",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "finding": "Two branches, exact up-to subsidy caps, evidence conditions and unverified finance inputs exposed."
+    },
+    {
+      "id": "nonresidential",
+      "status": "met",
+      "claims": [
+        "C08",
+        "C09"
+      ],
+      "finding": "Costs/tenancy/resources required; condo optional, no free amenity assumption."
+    },
+    {
+      "id": "evaluation",
+      "status": "missed",
+      "claims": [],
+      "finding": "Omits threshold-versus-competitive review, 25% weights, and material applicant qualification/completeness gates. RFP pp17\u201319 requires at least one principal with a completed mixed-use project of at least 60 homes within seven years and applicable NYC management experience of at least 60 homes within seven years. Team eligibility can end a pursuit before expensive concept work."
+    },
+    {
+      "id": "addenda",
+      "status": "met",
+      "claims": [
+        "C07",
+        "C10",
+        "C18",
+        "C19",
+        "C22"
+      ],
+      "finding": "Handles later finance/team/form clarifications without assuming they establish feasibility."
+    },
+    {
+      "id": "calibration",
+      "status": "met",
+      "claims": [
+        "C03",
+        "C11",
+        "C17",
+        "C20",
+        "C23"
+      ],
+      "finding": "Separates sources/inferences/unknowns; no professional acceptance or numeric scenario fabricated."
+    },
+    {
+      "id": "action",
+      "status": "met",
+      "claims": [
+        "C12",
+        "C15",
+        "C21",
+        "C24"
+      ],
+      "finding": "Roles and change/stop triggers are concrete; bid-eligibility decision missing under evaluation criterion."
+    }
+  ],
+  "aggregate_score": null,
+  "source_audit": "All 24 claim statements and their cited page context reviewed. Exact-quote validation is separate from semantic judgment; no independent professional approval implied. Full appendix/form or visual-map review not performed.",
+  "semantic_findings": [
+    {
+      "severity": "material_omission",
+      "source": "97-west-169th-st-rfp.pdf pp17\u201319",
+      "finding": "Omits threshold-versus-competitive review, 25% weights, and material applicant qualification/completeness gates. RFP pp17\u201319 requires at least one principal with a completed mixed-use project of at least 60 homes within seven years and applicable NYC management experience of at least 60 homes within seven years. Team eligibility can end a pursuit before expensive concept work."
+    },
+    {
+      "severity": "evaluator_locator_error",
+      "finding": "Precommitted rubric points contours to Addendum2 p3; actual p2. Original rubric retained; no criterion changed."
+    }
+  ],
+  "utility": "not_tested",
+  "time_savings": "not_tested",
+  "certified_historical_backtest": "blocked",
+  "outcome_match_score": "prohibited",
+  "recommendation": "Next version should represent applicant and submission prerequisites as explicit pass/unknown/fail gates before concept/finance spend; test on another held-out solicitation. Do not patch frozen assessment."
+}
