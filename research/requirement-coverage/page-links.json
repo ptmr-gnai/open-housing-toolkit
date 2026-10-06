@@ -1,0 +1,30 @@
+{
+  "page_id": "page_65650e7fbc8c8191bf04a21a6b39d5cd",
+  "url": "https://chatgpt.com/space/page_65650e7fbc8c8191bf04a21a6b39d5cd",
+  "bundle": {
+    "page_id": "page_65650e7fbc8c8191bf04a21a6b39d5cd",
+    "reference": "library-file:fde1_bGliZmlsZV82QU1EMUhOOHg2b3hiVjZkSUxYZkd3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+    "file_name": "housing-requirement-coverage-167031d8bf9a4edda98d4221d4a65ec1.zip",
+    "mime_type": "application/zip",
+    "byte_size": 9634336,
+    "sha256": "5679f5cfd2135643cb2b2052b0860dd1fc3261ff28c3c0888e055700bd7588bb",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[Reproducible coverage checker and seven source PDFs](library-file:fde1_bGliZmlsZV82QU1EMUhOOHg2b3hiVjZkSUxYZkd3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  },
+  "review_queue": {
+    "page_id": "page_65650e7fbc8c8191bf04a21a6b39d5cd",
+    "reference": "library-file:fde1_bGliZmlsZV9mTjhkcHNPS1I1cnF2alRnbjFYS2Z3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+    "file_name": "review-queue-35042b1d323f4684816fe5121e5200df.md",
+    "mime_type": "text/markdown",
+    "byte_size": 3366,
+    "sha256": "eb35fa0edb36699917ece3c5aec71a17cc807332e067d3b6816d388a294d243c",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[Scoped obligation review queue](library-file:fde1_bGliZmlsZV9mTjhkcHNPS1I1cnF2alRnbjFYS2Z3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  }
+}

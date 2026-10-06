@@ -1,0 +1,759 @@
+{
+  "scope": "Known deliberate defects test invariants; not an empirical analyst recall/precision benchmark. All packets are synthetic.",
+  "faults": [
+    {
+      "fixture": "remove_west169.form_G",
+      "kind": "synthetic_packet_omission",
+      "observed": {
+        "id": "west169.form_G",
+        "label": "Financing scenario Form G",
+        "status": "missing",
+        "reason": "Absent from declared complete packet",
+        "anchors": [
+          "west169_rfp:be65a680975e96c6"
+        ]
+      },
+      "readiness": false
+    },
+    {
+      "fixture": "remove_stanns.form_D1",
+      "kind": "synthetic_packet_omission",
+      "observed": {
+        "id": "stanns.form_D1",
+        "label": "Per-principal Form D1 including None when applicable",
+        "status": "missing",
+        "reason": "Absent from declared complete packet",
+        "anchors": [
+          "stanns_rfp:47553fcb3ef97ddf"
+        ]
+      },
+      "readiness": false
+    },
+    {
+      "fixture": "remove_stanns.gc_identified",
+      "kind": "synthetic_packet_omission",
+      "observed": {
+        "id": "stanns.gc_identified",
+        "label": "General contractor identified at proposal",
+        "status": "missing",
+        "reason": "Absent from declared complete packet",
+        "anchors": [
+          "stanns_add2:Q12"
+        ]
+      },
+      "readiness": false
+    },
+    {
+      "fixture": "remove_stanns.sustainability_submission",
+      "kind": "synthetic_packet_omission",
+      "observed": {
+        "id": "stanns.sustainability_submission",
+        "label": "Sustainability narrative and certification overlay instructions",
+        "status": "requested_material_absent",
+        "reason": "Packet inventory incomplete",
+        "anchors": [
+          "stanns_rfp:a66390fa151882cd"
+        ]
+      },
+      "readiness": false
+    },
+    {
+      "fixture": "obsolete_e4_and_missing_commercial_evidence",
+      "kind": "synthetic_packet_error",
+      "obsolete_requests": [
+        {
+          "change": "west169.replace_e4",
+          "obsolete_request": "west169.form_E4"
+        }
+      ],
+      "missing": {
+        "id": "west169.commercial_management",
+        "label": "Commercial management evidence in permitted format",
+        "status": "missing",
+        "reason": "Absent from declared complete packet",
+        "anchors": [
+          "west169_rfp:9395f7a586fb9466",
+          "west169_add3:Q2"
+        ]
+      }
+    },
+    {
+      "fixture": "obsolete_multisite_and_deferred_certificate",
+      "kind": "synthetic_packet_error",
+      "obsolete_requests": [
+        {
+          "change": "stanns.multisite_removed",
+          "obsolete_request": "stanns.multiple_site_submissions"
+        }
+      ],
+      "certificate": {
+        "id": "stanns.green_certificate",
+        "label": "Enterprise Green Communities certification",
+        "status": "not_a_submission_blocker",
+        "reason": "deferred",
+        "anchors": [
+          "stanns_add2:Q14"
+        ]
+      }
+    },
+    {
+      "fixture": "remove_definition",
+      "kind": "inventory_mutation",
+      "issues": [
+        {
+          "code": "missing_requirement_definition",
+          "requirement": "west169.form_G"
+        },
+        {
+          "code": "baseline_requirement_omitted",
+          "requirement": "west169.form_G"
+        }
+      ],
+      "full_semantic_coverage": false
+    },
+    {
+      "fixture": "remove_source_anchor",
+      "kind": "inventory_mutation",
+      "issues": [
+        {
+          "code": "unaccounted_source_unit",
+          "anchor": "west169_rfp:be65a680975e96c6"
+        },
+        {
+          "code": "unmapped_requirement",
+          "requirement": "west169.form_G"
+        }
+      ],
+      "full_semantic_coverage": false
+    },
+    {
+      "fixture": "reclassify_required",
+      "kind": "inventory_mutation",
+      "issues": [
+        {
+          "code": "unreviewed_requirement_change",
+          "requirement": "west169.form_G"
+        }
+      ],
+      "full_semantic_coverage": false
+    },
+    {
+      "fixture": "remove_addendum",
+      "kind": "inventory_mutation",
+      "issues": [
+        {
+          "code": "addendum_operation_omitted_or_changed",
+          "change": "west169.replace_e4"
+        }
+      ],
+      "full_semantic_coverage": false
+    },
+    {
+      "fixture": "premature_review_acceptance",
+      "kind": "inventory_mutation",
+      "issues": [
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:6456dd1f816844d1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:dc19c04780a9b9aa"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:5233491338ed1a26"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:1f1acfbf5331117c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:bc2cf889e4b136b4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:5fa491deb3b3dab9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:5f89af35c180cfb8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:427a3ffa55ea4fe4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:bd6a08b0b69a3f31"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:590b491df4b5531a"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:1b51a1253b5726ee"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:6f72e6721656bc01"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:d27f2221bf19b7f1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:939787b807f4e3f8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:9395f7a586fb9466"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:6de710f08c6a0c7c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:73c55e9b091a95dd"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:896ec6e68ead5d0f"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:141cfe2fb0d50f43"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:09e1eda1c49ec4b9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:21abeaf75421fba7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:5df0ac04350551ec"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:be65a680975e96c6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:78cd0a50c080e391"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:5eb8745247dfc46b"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:19c3654b8602379c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:0d9019318c1342e6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:ebeb435e0ba638bb"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:f9af522d29dc76eb"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:9f6d1c660e6f1f92"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:ff668e62c5fa5cdd"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:9b1755e58d4546d1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:9ce3412b4fef8a9e"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:4a3332a1eeaf6dab"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:51d164e348e87e6f"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:c258e1ef292e683e"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:d49f17746da58e8f"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:667c70643a92b259"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:e4ab85153ae8eb02"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:fe9771ff57bd5d8b"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:53be8a17066e5c51"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:3f4144cf766b8014"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:ec6df670e36dd36c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:25f7074c01854eab"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:800d4950f2a26c87"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:de10c0f6cef5cfb7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:bf2f14dd8489bec2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:c04697df08001414"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:52a11a9e1b3a8be6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:ae79b58b5b701b17"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:c82ec8508120ff79"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_rfp:9d81c69d69e4edc6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q3"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q5"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q10"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q11"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q12"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q13"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q14"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q15"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q16"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q17"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q18"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q19"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q20"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q21"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add1:Q22"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add2:Q1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add2:Q2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add3:Q1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add3:Q2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "west169_add3:Q3"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:6c841ca9ab13316b"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:9ad9f22a04959615"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:4f6a81d1eb31c1d8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:3fc59ce6d740bec8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:7447ddafb912fbd8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:650d17c9afab3469"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:4621c26f0506c03e"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:47553fcb3ef97ddf"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:26060af53d687cb1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:79d3b0499c2c5f50"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:2268070dd4768cfa"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:80d31146098e6db2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:70bf98f707258f88"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:285dbab78febe0f5"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:e8d15ebdb8af1dc5"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:77a8d9115e70bf6c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:20754a7c3bc0bdf6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:a66390fa151882cd"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:cc2370c294c856ff"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:3216f78f820fb098"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:04967bfb0ae33336"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:f4fd07558f20f885"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:9d5e3221764d3bb7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:f5b2622c5a428d93"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:89e2ff9197715e75"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:4d9c6a8dbb1b61dc"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:3f56cced0759f736"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:75259f6cffe5e294"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:41faa37527e473b9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:2e24f8c48f8ee7b7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:4a44b5946d37d82c"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:092aaabd88e556ea"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:85099873c3a7f189"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:ac81132a0d51f1cd"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:172a6e8842d5851f"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:413f41a5bc1f9665"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_rfp:272106f91d12d7d4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q3"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q5"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q10"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q11"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q12"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q13"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q14"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q15"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q16"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q17"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q18"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q19"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add1:Q20"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q1"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q2"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q3"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q4"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q5"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q6"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q7"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q8"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q9"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q10"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q11"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q12"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q13"
+        },
+        {
+          "code": "unreviewed_source_disposition_change",
+          "anchor": "stanns_add2:Q14"
+        }
+      ],
+      "full_semantic_coverage": false
+    }
+  ]
+}

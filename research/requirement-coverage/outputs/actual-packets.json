@@ -1,0 +1,369 @@
+{
+  "results": [
+    {
+      "case": "west169",
+      "packet": "actual_packet_not_supplied",
+      "contract": "cfbb7eb79c5869e819c390c02fb00268aa9d521de391b37f8a9a5df493e63ce7",
+      "requirements": [
+        {
+          "id": "west169.form_A1",
+          "label": "Form A1",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:6456dd1f816844d1"
+          ]
+        },
+        {
+          "id": "west169.form_A2",
+          "label": "Form A2",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:dc19c04780a9b9aa"
+          ]
+        },
+        {
+          "id": "west169.form_B",
+          "label": "Proposal summary Form B",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:1f1acfbf5331117c"
+          ]
+        },
+        {
+          "id": "west169.form_D1",
+          "label": "Form D1",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:5fa491deb3b3dab9"
+          ]
+        },
+        {
+          "id": "west169.form_E1",
+          "label": "Form E1",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:6f72e6721656bc01"
+          ]
+        },
+        {
+          "id": "west169.form_E2",
+          "label": "Form E2",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:d27f2221bf19b7f1"
+          ]
+        },
+        {
+          "id": "west169.form_E3",
+          "label": "Form E3",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:939787b807f4e3f8"
+          ]
+        },
+        {
+          "id": "west169.form_D2",
+          "label": "Nonprofit team member form D-2",
+          "status": "unknown",
+          "reason": "Applicability unknown; no unsupported waiver",
+          "anchors": [
+            "west169_rfp:5f89af35c180cfb8"
+          ]
+        },
+        {
+          "id": "west169.form_G",
+          "label": "Financing scenario Form G",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:be65a680975e96c6"
+          ]
+        },
+        {
+          "id": "west169.organization_chart",
+          "label": "Ownership and organization chart",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:427a3ffa55ea4fe4"
+          ]
+        },
+        {
+          "id": "west169.project_narrative",
+          "label": "Project narrative",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:5233491338ed1a26"
+          ]
+        },
+        {
+          "id": "west169.project_budgets",
+          "label": "Hard and soft cost budgets",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:19c3654b8602379c"
+          ]
+        },
+        {
+          "id": "west169.zoning_analysis",
+          "label": "Detailed zoning analysis",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "west169_rfp:fe9771ff57bd5d8b"
+          ]
+        },
+        {
+          "id": "west169.staffing_plan",
+          "label": "Optional staffing and governance plan",
+          "status": "not_a_submission_blocker",
+          "reason": "optional",
+          "anchors": [
+            "west169_rfp:590b491df4b5531a"
+          ]
+        },
+        {
+          "id": "west169.commercial_management",
+          "label": "Commercial management evidence in permitted format",
+          "status": "unknown",
+          "reason": "Applicability unknown; no unsupported waiver",
+          "anchors": [
+            "west169_rfp:9395f7a586fb9466",
+            "west169_add3:Q2"
+          ]
+        },
+        {
+          "id": "west169.condominium_requirement",
+          "label": "Condominium component",
+          "status": "not_a_submission_blocker",
+          "reason": "optional",
+          "anchors": [
+            "west169_add3:Q1"
+          ]
+        },
+        {
+          "id": "west169.rail_overbuild",
+          "label": "Rail-overbuild experience",
+          "status": "not_a_submission_blocker",
+          "reason": "not_required",
+          "anchors": [
+            "west169_add1:Q12"
+          ]
+        }
+      ],
+      "obsolete_requests": [],
+      "blockers": [
+        "west169.form_A1",
+        "west169.form_A2",
+        "west169.form_B",
+        "west169.form_D1",
+        "west169.form_E1",
+        "west169.form_E2",
+        "west169.form_E3",
+        "west169.form_D2",
+        "west169.form_G",
+        "west169.organization_chart",
+        "west169.project_narrative",
+        "west169.project_budgets",
+        "west169.zoning_analysis",
+        "west169.commercial_management",
+        "coverage.semantic_expansion_and_review"
+      ],
+      "submission_completeness_claim_allowed": false,
+      "coverage_summary": {
+        "source_units": 79,
+        "library_source_units": 150,
+        "scoped_obligations": 17,
+        "structural_inventory_integrity": true,
+        "full_semantic_coverage": false
+      }
+    },
+    {
+      "case": "stanns",
+      "packet": "actual_packet_not_supplied",
+      "contract": "cfbb7eb79c5869e819c390c02fb00268aa9d521de391b37f8a9a5df493e63ce7",
+      "requirements": [
+        {
+          "id": "stanns.form_A1",
+          "label": "Form A1",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:6c841ca9ab13316b"
+          ]
+        },
+        {
+          "id": "stanns.form_A2",
+          "label": "Form A2",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:6c841ca9ab13316b"
+          ]
+        },
+        {
+          "id": "stanns.form_B",
+          "label": "Proposal summary Form B",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:9ad9f22a04959615"
+          ]
+        },
+        {
+          "id": "stanns.form_C1",
+          "label": "Form C1",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:3fc59ce6d740bec8"
+          ]
+        },
+        {
+          "id": "stanns.form_C2",
+          "label": "Form C2",
+          "status": "unknown",
+          "reason": "Applicability unknown; no unsupported waiver",
+          "anchors": [
+            "stanns_rfp:3fc59ce6d740bec8"
+          ]
+        },
+        {
+          "id": "stanns.form_D1",
+          "label": "Per-principal Form D1 including None when applicable",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:47553fcb3ef97ddf"
+          ]
+        },
+        {
+          "id": "stanns.form_D2",
+          "label": "Per-principal Form D2 including None when applicable",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:47553fcb3ef97ddf"
+          ]
+        },
+        {
+          "id": "stanns.form_D3",
+          "label": "Per-principal Form D3 including None when applicable",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:47553fcb3ef97ddf"
+          ]
+        },
+        {
+          "id": "stanns.form_K",
+          "label": "Financing proposal Form K",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:3216f78f820fb098"
+          ]
+        },
+        {
+          "id": "stanns.project_narrative",
+          "label": "Project narrative",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:4f6a81d1eb31c1d8"
+          ]
+        },
+        {
+          "id": "stanns.market_comparables",
+          "label": "Residential income comparables",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:89e2ff9197715e75"
+          ]
+        },
+        {
+          "id": "stanns.marketing_plan",
+          "label": "Fair housing marketing plan",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:413f41a5bc1f9665"
+          ]
+        },
+        {
+          "id": "stanns.gc_identified",
+          "label": "General contractor identified at proposal",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_add2:Q12"
+          ]
+        },
+        {
+          "id": "stanns.green_certificate",
+          "label": "Enterprise Green Communities certification",
+          "status": "not_a_submission_blocker",
+          "reason": "deferred",
+          "anchors": [
+            "stanns_add2:Q14"
+          ]
+        },
+        {
+          "id": "stanns.sustainability_submission",
+          "label": "Sustainability narrative and certification overlay instructions",
+          "status": "unknown",
+          "reason": "Packet inventory incomplete",
+          "anchors": [
+            "stanns_rfp:a66390fa151882cd"
+          ]
+        },
+        {
+          "id": "stanns.multiple_site_submissions",
+          "label": "Obsolete multiple-site separate submission instruction",
+          "status": "not_a_submission_blocker",
+          "reason": "not_required",
+          "anchors": [
+            "stanns_add1:Q18"
+          ]
+        }
+      ],
+      "obsolete_requests": [],
+      "blockers": [
+        "stanns.form_A1",
+        "stanns.form_A2",
+        "stanns.form_B",
+        "stanns.form_C1",
+        "stanns.form_C2",
+        "stanns.form_D1",
+        "stanns.form_D2",
+        "stanns.form_D3",
+        "stanns.form_K",
+        "stanns.project_narrative",
+        "stanns.market_comparables",
+        "stanns.marketing_plan",
+        "stanns.gc_identified",
+        "stanns.sustainability_submission",
+        "coverage.semantic_expansion_and_review"
+      ],
+      "submission_completeness_claim_allowed": false,
+      "coverage_summary": {
+        "source_units": 71,
+        "library_source_units": 150,
+        "scoped_obligations": 16,
+        "structural_inventory_integrity": true,
+        "full_semantic_coverage": false
+      }
+    }
+  ],
+  "scope": "No actual packet supplied; absent artifacts are unknown, not presumed missing."
+}

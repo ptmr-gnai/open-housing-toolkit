@@ -41,7 +41,7 @@ def audit(registry,sources):
         if change['anchor'] not in r['anchors']:issues.append({'code':'addendum_not_bound','change':change['id']})
         for key,value in change['required_effect'].items():
             if r.get(key)!=value:issues.append({'code':'addendum_effect_not_applied','change':change['id'],'field':key})
-    review_queue=[{'anchor':u['anchor'],'expansion':u['expansion'],'review_status':u['review_status']} for u in registry['units'] if u['review_status']!='accepted' or u['expansion']!='fully_expanded']
+    review_queue=[{'anchor':u['anchor'],'expansion':u['expansion'],'review_status':u['review_status'],'case':byid[u['anchor']]['case'] if u['anchor'] in byid else None} for u in registry['units'] if u['review_status']!='accepted' or u['expansion']!='fully_expanded']
     return {'source_units':len(units),'scoped_obligations':len(reqs),'addendum_operations':len(registry['changes']),'issues':issues,'structural_inventory_integrity':not issues,'review_queue':review_queue,'full_semantic_coverage':not issues and not review_queue,'limits':registry['limits']}
 
 def pinned_audit(candidate=None):
@@ -55,6 +55,9 @@ def pinned_audit(candidate=None):
     for rid,r in old.items():
         if rid not in new:result['issues'].append({'code':'baseline_requirement_omitted','requirement':rid})
         elif fp(r)!=fp(new[rid]):result['issues'].append({'code':'unreviewed_requirement_change','requirement':rid})
+    old_units={u['anchor']:u for u in baseline['units']};new_units={u['anchor']:u for u in registry['units']}
+    for anchor,u in old_units.items():
+        if anchor in new_units and fp(u)!=fp(new_units[anchor]):result['issues'].append({'code':'unreviewed_source_disposition_change','anchor':anchor})
     old_changes={c['id']:c for c in baseline['changes']};new_changes={c['id']:c for c in registry['changes']}
     for cid,c in old_changes.items():
         if cid not in new_changes or fp(c)!=fp(new_changes[cid]):result['issues'].append({'code':'addendum_operation_omitted_or_changed','change':cid})
@@ -73,7 +76,15 @@ def review_ok(payload,review,fingerprint):
 def packet_check(case,packet,candidate=None):
     registry,coverage=pinned_audit(candidate);sources,_=load();fingerprint=contract(registry,sources)
     if packet['kind'] not in ['actual','synthetic']:raise ValueError('Unknown packet kind')
-    facts=packet.get('facts',{});fact_known=review_ok(facts,packet.get('facts_review',{}),fingerprint)
+    facts=packet.get('facts',{});facts_payload={'facts':facts,'evidence':packet.get('facts_evidence')}
+    fact_known=review_ok(facts_payload,packet.get('facts_review',{}),fingerprint)
+    if fact_known:
+        proof=packet.get('facts_evidence')
+        if not proof:raise ValueError('Accepted applicability review has no source evidence')
+        proof_path=(ROOT/proof['file']).resolve()
+        if not proof_path.is_relative_to(ROOT):raise ValueError('Applicability evidence escapes repository')
+        if eligibility.sha(proof_path.read_bytes())!=proof['sha256']:raise ValueError('Applicability source changed')
+        if (proof.get('synthetic') is True or 'fixtures' in proof_path.parts) and packet['kind']=='actual':raise ValueError('Synthetic applicability source cannot support actual packet')
     artifacts=packet.get('artifacts',{});results=[]
     for r in registry['requirements']:
         if r['case']!=case:continue
@@ -85,9 +96,10 @@ def packet_check(case,packet,candidate=None):
         else:
             artifact=artifacts.get(r['id'])
             if not artifact:
-                status='missing' if packet.get('inventory_complete') is True else 'unknown'
+                status=('requested_material_absent' if mode=='review_instruction' else 'missing') if packet.get('inventory_complete') is True else 'unknown'
                 reason='Absent from declared complete packet' if status=='missing' else 'Packet inventory incomplete'
             else:
+                if artifact.get('requirement_id')!=r['id']:raise ValueError('Artifact review belongs to another requirement')
                 path=(ROOT/artifact['file']).resolve()
                 if not path.is_relative_to(ROOT):raise ValueError('Artifact path escapes repository')
                 data=path.read_bytes()
@@ -109,6 +121,11 @@ def packet_check(case,packet,candidate=None):
         key=case+'.'+str(change['obsolete_artifact'])
         if change['case']==case and change['obsolete_artifact'] and key in packet.get('required_requests',[]):obsolete.append({'change':change['id'],'obsolete_request':key})
     blockers=[x['id'] for x in results if x['status'] not in ['scoped_review_pass','not_a_submission_blocker','not_applicable']]
+    library_units=coverage['source_units'];coverage=copy.deepcopy(coverage)
+    coverage['review_queue']=[u for u in coverage['review_queue'] if u['case']==case]
+    coverage['source_units']=sum(u['case']==case for u in discover(sources));coverage['library_source_units']=library_units
+    coverage['scoped_obligations']=sum(r['case']==case for r in registry['requirements'])
+    coverage['full_semantic_coverage']=not coverage['issues'] and not coverage['review_queue']
     if not coverage['full_semantic_coverage']:blockers.append('coverage.semantic_expansion_and_review')
     if coverage['issues']:blockers.append('coverage.structural_inventory')
     if obsolete:blockers.append('obsolete_submission_requests')

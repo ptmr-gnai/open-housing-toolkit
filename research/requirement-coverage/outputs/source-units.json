@@ -1,31 +1,5 @@
 {
-  "scope": {
-    "west169": {
-      "submission": [
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32
-      ]
-    },
-    "stanns": {
-      "submission": [
-        22,
-        23,
-        24,
-        25,
-        26,
-        27
-      ]
-    }
-  },
-  "limits": [
-    "Text segments are review units, not necessarily atomic requirements.",
-    "Question continuations across pages and referenced appendices require separate review."
-  ],
+  "scope": "Checkbox units and paragraph blocks in detailed submission sections; addendum Q/A start anchors",
   "units": [
     {
       "id": "west169_rfp:6456dd1f816844d1",
@@ -1588,5 +1562,11 @@
       "tab": "",
       "optional_context": false
     }
+  ],
+  "limits": [
+    "Initial authored mapping, not complete semantic expansion.",
+    "Nested clauses, per-principal cardinality, signatures, formula correctness, dates and referenced appendices require substantive review.",
+    "All addendum Q/A text anchors enumerated, but cross-page continuation and graphics are not fully expanded.",
+    "Not a blind analyst benchmark, real submitted proposal or expert accepted inventory."
   ]
 }

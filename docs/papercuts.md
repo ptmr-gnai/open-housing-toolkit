@@ -142,3 +142,24 @@ practitioner usefulness, professional approval or historical certification is cl
 22 gates / 31 source-page citations / seven PDFs / 26 tests. No real applicant
 credentials, professional acceptance or certified historical replay were supplied.
 The original assessment and its fingerprints remain unchanged.
+
+## Requirement coverage — 6 October 2026
+
+| Papercut | Observed evidence | Engineering response |
+| --- | --- | --- |
+| Obsolete form erases a live evidence obligation | West 169 Add3 p2 removes E4 format but retains commercial experience evidence | Separate artifact replacement from underlying conditional obligation |
+| No experience treated as no form | St Ann’s RFP p23 requires forms marked “None” | Keep required form presence independent of applicant experience |
+| Certification timing suppresses submission narrative | St Ann’s Add2 Q14 defers certificate; submission explains sustainability | Bind phase per obligation; retain softer requested material separately |
+| Optional prefix lost at checkbox boundary | Optional staffing text precedes checkbox in the same block | Carry prefix context until next tab; regression test |
+| Generic module names collide | Eligibility check import shadowed coverage/check modules | Rename coverage modules explicitly; verify CLI behavior |
+| Source segments mistaken for atomic requirements | 150 segments include nested clauses and question start anchors | Publish bounded scanner scope; keep all semantic review pending |
+| Accepted review copied between forms | Synthetic E1 acceptance could be reused for G without requirement binding | Bind artifact review to requirement ID and exact payload |
+| False applicability silently waives required evidence | Unreviewed facts or facts without retained proof | Require scoped review and hash-checked applicability evidence |
+| Global review queue confuses case release | Combined library contains two case inventories | Publish case-specific queues; global integrity still checked |
+| Workbook presence mistaken for compliance | Minimal synthetic workbook passes container test | Separate container check from template and substantive review |
+| Regression success mistaken for empirical improvement | Curated map and eleven known faults | Pin inventory before controls; no fresh holdout or utility claim |
+
+27 coverage tests and deterministic replay pass. No actual proposal packet or
+independent semantic review was supplied. Original analyst and eligibility artifacts
+remain unchanged; the joined export delegates the old generic coverage placeholder
+to this component while retaining eligibility blockers.

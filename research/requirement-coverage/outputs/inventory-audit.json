@@ -1,0 +1,916 @@
+{
+  "source_units": 150,
+  "scoped_obligations": 33,
+  "addendum_operations": 6,
+  "issues": [],
+  "structural_inventory_integrity": true,
+  "review_queue": [
+    {
+      "anchor": "west169_rfp:6456dd1f816844d1",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:dc19c04780a9b9aa",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:5233491338ed1a26",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:1f1acfbf5331117c",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:bc2cf889e4b136b4",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:5fa491deb3b3dab9",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:5f89af35c180cfb8",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:427a3ffa55ea4fe4",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:bd6a08b0b69a3f31",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:590b491df4b5531a",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:1b51a1253b5726ee",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:6f72e6721656bc01",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:d27f2221bf19b7f1",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:939787b807f4e3f8",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:9395f7a586fb9466",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:6de710f08c6a0c7c",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:73c55e9b091a95dd",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:896ec6e68ead5d0f",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:141cfe2fb0d50f43",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:09e1eda1c49ec4b9",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:21abeaf75421fba7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:5df0ac04350551ec",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:be65a680975e96c6",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:78cd0a50c080e391",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:5eb8745247dfc46b",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:19c3654b8602379c",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:0d9019318c1342e6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:ebeb435e0ba638bb",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:f9af522d29dc76eb",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:9f6d1c660e6f1f92",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:ff668e62c5fa5cdd",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:9b1755e58d4546d1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:9ce3412b4fef8a9e",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:4a3332a1eeaf6dab",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:51d164e348e87e6f",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:c258e1ef292e683e",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:d49f17746da58e8f",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:667c70643a92b259",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:e4ab85153ae8eb02",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:fe9771ff57bd5d8b",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:53be8a17066e5c51",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:3f4144cf766b8014",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:ec6df670e36dd36c",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:25f7074c01854eab",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:800d4950f2a26c87",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:de10c0f6cef5cfb7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:bf2f14dd8489bec2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:c04697df08001414",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:52a11a9e1b3a8be6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:ae79b58b5b701b17",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:c82ec8508120ff79",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_rfp:9d81c69d69e4edc6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q3",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q4",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q5",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q8",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q9",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q10",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q11",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q12",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q13",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q14",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q15",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q16",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q17",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q18",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q19",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q20",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q21",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add1:Q22",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add2:Q1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add2:Q2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add3:Q1",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add3:Q2",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "west169_add3:Q3",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "west169"
+    },
+    {
+      "anchor": "stanns_rfp:6c841ca9ab13316b",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:9ad9f22a04959615",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:4f6a81d1eb31c1d8",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:3fc59ce6d740bec8",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:7447ddafb912fbd8",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:650d17c9afab3469",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:4621c26f0506c03e",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:47553fcb3ef97ddf",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:26060af53d687cb1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:79d3b0499c2c5f50",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:2268070dd4768cfa",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:80d31146098e6db2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:70bf98f707258f88",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:285dbab78febe0f5",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:e8d15ebdb8af1dc5",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:77a8d9115e70bf6c",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:20754a7c3bc0bdf6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:a66390fa151882cd",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:cc2370c294c856ff",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:3216f78f820fb098",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:04967bfb0ae33336",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:f4fd07558f20f885",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:9d5e3221764d3bb7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:f5b2622c5a428d93",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:89e2ff9197715e75",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:4d9c6a8dbb1b61dc",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:3f56cced0759f736",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:75259f6cffe5e294",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:41faa37527e473b9",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:2e24f8c48f8ee7b7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:4a44b5946d37d82c",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:092aaabd88e556ea",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:85099873c3a7f189",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:ac81132a0d51f1cd",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:172a6e8842d5851f",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:413f41a5bc1f9665",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_rfp:272106f91d12d7d4",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q3",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q4",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q5",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q8",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q9",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q10",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q11",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q12",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q13",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q14",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q15",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q16",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q17",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q18",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q19",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add1:Q20",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q1",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q2",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q3",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q4",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q5",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q6",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q7",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q8",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q9",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q10",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q11",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q12",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q13",
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "case": "stanns"
+    },
+    {
+      "anchor": "stanns_add2:Q14",
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "case": "stanns"
+    }
+  ],
+  "full_semantic_coverage": false,
+  "limits": [
+    "Initial authored mapping, not complete semantic expansion.",
+    "Nested clauses, per-principal cardinality, signatures, formula correctness, dates and referenced appendices require substantive review.",
+    "All addendum Q/A text anchors enumerated, but cross-page continuation and graphics are not fully expanded.",
+    "Not a blind analyst benchmark, real submitted proposal or expert accepted inventory."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "research/eligibility-gates/cases/stanns.json": "512f4f0775e2a15ddbd36f1cc87264f024a422422023825f317698e8c2a8c4df",
+    "research/eligibility-gates/cases/west169.json": "86892e434e1e24001a4569e91dfd37ce3f2be05098e5b94507bc53d5dc732ca4",
+    "research/eligibility-gates/check.py": "04fc0b82ebb11ea174db79126782fb4e9a867f28119b197cfaac993090129599",
+    "research/eligibility-gates/engine.py": "00b16880ed9b37ed5e3ca39dd919c2c56cc15f9adb826eaa450ea0a7a146bd2f",
+    "research/eligibility-gates/schemas/gates.schema.json": "ebeebc81f6c7057f6ea13b3614979a3ec2c0ab4c3c5a20ef3056861f8754a0c0",
+    "research/eligibility-gates/sources.json": "a2cfbcb6331b3e16d29bc4f6b111e283fab2385cf8d48859e5147a7ed9e4d98f",
+    "research/requirement-coverage/author.py": "3a183b72ba14fe931877b372861fd89cb4c4656b216056d8adaaf57cb548e345",
+    "research/requirement-coverage/build_coverage.py": "00110f77491b3e1b3f14e4660cb2c6c363213b1e742a68f9f6b7fe1d9f539c2c",
+    "research/requirement-coverage/coverage_check.py": "76a18bb868cf48073cbd5f190a705f304bda245ce00e23e3d0d92d142197e0f4",
+    "research/requirement-coverage/coverage_engine.py": "dfa3917bc30b014120caea521754ce291f398191c13247ee1cc014d78c518023",
+    "research/requirement-coverage/fixtures/packet-fixture.txt": "c70d956d448896ed39900b8e5f69686b81bcf44c5df9fb2c65aa603a1a1eef00",
+    "research/requirement-coverage/fixtures/packet-fixture.xlsx": "bebba58348e2eb0975f95225861f24fdd9654ed5daf296305475637ed0fdb244",
+    "research/requirement-coverage/fixtures.py": "5667f5d29338f3000b4e3efef8494c687aa0081a6a89510fbf0a644597d3455d",
+    "research/requirement-coverage/precommit.json": "2e8a1be0771753d6dc222b07ba1e3dc9eb32f69d8ad1eca3a9fae150b63e4319",
+    "research/requirement-coverage/registry.json": "a69d926b6c483a9498e91081b444e2e9094d6b603010a6769ac9d7d76f42625b",
+    "research/requirement-coverage/scan.py": "baaf8c8601e3716a19daa5f7a33234c97f8038673fe137bedb10f19113185d0e",
+    "research/requirement-coverage/tests/test_coverage.py": "fcdf85852a34791289725b7b047fe73c25d079b4d99f66698be0b6a538014bbe",
+    "research/requirement-coverage/validate_coverage.py": "994d8a239a1fd145e6701c4f301dff54142e42b5985b8995a24fa359197d2d09"
+  },
+  "outputs": {
+    "actual-packets.json": "92c1687ccc8621c67a2f993a0f557bb212f3864e812884385cfc8157df490dc9",
+    "fault-injections.json": "a18ad3b4d79745e4510a4a0d894fa8b97f156d6da90c5ba59264cf23d756d87b",
+    "inventory-audit.json": "a7687fb9ad781240e5f58d248b3f670d683793ea43ac4062c7ff55b6333fe329",
+    "review-queue.md": "eb35fa0edb36699917ece3c5aec71a17cc807332e067d3b6816d388a294d243c",
+    "source-units.json": "f82797492cd2b5a6b2b5c67511e4dc28d379b8620482a5733cfcfe0089300bcb"
+  },
+  "source_bytes_bound_by": "research/eligibility-gates/sources.json",
+  "scope": "Source anchor integrity and bounded authored obligations; no complete semantic inventory or expert acceptance."
+}
