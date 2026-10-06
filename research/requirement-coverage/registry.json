@@ -1,0 +1,1879 @@
+{
+  "version": "0.1",
+  "requirements": [
+    {
+      "id": "west169.form_A1",
+      "case": "west169",
+      "label": "Form A1",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:6456dd1f816844d1"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_A2",
+      "case": "west169",
+      "label": "Form A2",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:dc19c04780a9b9aa"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_B",
+      "case": "west169",
+      "label": "Proposal summary Form B",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:1f1acfbf5331117c"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_A1",
+      "case": "stanns",
+      "label": "Form A1",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:6c841ca9ab13316b"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_A2",
+      "case": "stanns",
+      "label": "Form A2",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:6c841ca9ab13316b"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_B",
+      "case": "stanns",
+      "label": "Proposal summary Form B",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:9ad9f22a04959615"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_D1",
+      "case": "west169",
+      "label": "Form D1",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:5fa491deb3b3dab9"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_E1",
+      "case": "west169",
+      "label": "Form E1",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "west169_rfp:6f72e6721656bc01"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review",
+      "supporting_citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 16,
+          "quote": "Forms E1-3 and G must also be submitted on a flash drive; additionally Forms E1-2 and G must be in Excel format."
+        }
+      ]
+    },
+    {
+      "id": "west169.form_E2",
+      "case": "west169",
+      "label": "Form E2",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "west169_rfp:d27f2221bf19b7f1"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review",
+      "supporting_citations": [
+        {
+          "source_id": "west169_rfp",
+          "pdf_page": 16,
+          "quote": "Forms E1-3 and G must also be submitted on a flash drive; additionally Forms E1-2 and G must be in Excel format."
+        }
+      ]
+    },
+    {
+      "id": "west169.form_E3",
+      "case": "west169",
+      "label": "Form E3",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:939787b807f4e3f8"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_D2",
+      "case": "west169",
+      "label": "Nonprofit team member form D-2",
+      "mode": "conditional",
+      "condition": "nonprofit_team",
+      "excel": false,
+      "anchors": [
+        "west169_rfp:5f89af35c180cfb8"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.form_G",
+      "case": "west169",
+      "label": "Financing scenario Form G",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "west169_rfp:be65a680975e96c6"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.organization_chart",
+      "case": "west169",
+      "label": "Ownership and organization chart",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:427a3ffa55ea4fe4"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.project_narrative",
+      "case": "west169",
+      "label": "Project narrative",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:5233491338ed1a26"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.project_budgets",
+      "case": "west169",
+      "label": "Hard and soft cost budgets",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:19c3654b8602379c"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.zoning_analysis",
+      "case": "west169",
+      "label": "Detailed zoning analysis",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:fe9771ff57bd5d8b"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.staffing_plan",
+      "case": "west169",
+      "label": "Optional staffing and governance plan",
+      "mode": "optional",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_rfp:590b491df4b5531a"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.commercial_management",
+      "case": "west169",
+      "label": "Commercial management evidence in permitted format",
+      "mode": "conditional",
+      "condition": "nonresidential_space",
+      "excel": false,
+      "anchors": [
+        "west169_rfp:9395f7a586fb9466",
+        "west169_add3:Q2"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.condominium_requirement",
+      "case": "west169",
+      "label": "Condominium component",
+      "mode": "optional",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_add3:Q1"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "west169.rail_overbuild",
+      "case": "west169",
+      "label": "Rail-overbuild experience",
+      "mode": "not_required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "west169_add1:Q12"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_C1",
+      "case": "stanns",
+      "label": "Form C1",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:3fc59ce6d740bec8"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_C2",
+      "case": "stanns",
+      "label": "Form C2",
+      "mode": "conditional",
+      "condition": "nonprofit_team",
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:3fc59ce6d740bec8"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_D1",
+      "case": "stanns",
+      "label": "Per-principal Form D1 including None when applicable",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "stanns_rfp:47553fcb3ef97ddf"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_D2",
+      "case": "stanns",
+      "label": "Per-principal Form D2 including None when applicable",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "stanns_rfp:47553fcb3ef97ddf"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_D3",
+      "case": "stanns",
+      "label": "Per-principal Form D3 including None when applicable",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:47553fcb3ef97ddf"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.form_K",
+      "case": "stanns",
+      "label": "Financing proposal Form K",
+      "mode": "required",
+      "condition": null,
+      "excel": true,
+      "anchors": [
+        "stanns_rfp:3216f78f820fb098"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.project_narrative",
+      "case": "stanns",
+      "label": "Project narrative",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:4f6a81d1eb31c1d8"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.market_comparables",
+      "case": "stanns",
+      "label": "Residential income comparables",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:89e2ff9197715e75"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.marketing_plan",
+      "case": "stanns",
+      "label": "Fair housing marketing plan",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:413f41a5bc1f9665"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.gc_identified",
+      "case": "stanns",
+      "label": "General contractor identified at proposal",
+      "mode": "required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_add2:Q12"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.green_certificate",
+      "case": "stanns",
+      "label": "Enterprise Green Communities certification",
+      "mode": "deferred",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_add2:Q14"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "post_selection",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.sustainability_submission",
+      "case": "stanns",
+      "label": "Sustainability narrative and certification overlay instructions",
+      "mode": "review_instruction",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_rfp:a66390fa151882cd"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    },
+    {
+      "id": "stanns.multiple_site_submissions",
+      "case": "stanns",
+      "label": "Obsolete multiple-site separate submission instruction",
+      "mode": "not_required",
+      "condition": null,
+      "excel": false,
+      "anchors": [
+        "stanns_add1:Q18"
+      ],
+      "content_review_required": true,
+      "owner": "Proposal coordinator and responsible specialist",
+      "phase": "submission",
+      "authority": "authored source interpretation, pending independent review"
+    }
+  ],
+  "changes": [
+    {
+      "id": "west169.replace_e4",
+      "case": "west169",
+      "anchor": "west169_add3:Q2",
+      "operation": "replace_artifact",
+      "target": "west169.commercial_management",
+      "obsolete_artifact": "form_E4",
+      "required_effect": {
+        "mode": "conditional",
+        "condition": "nonresidential_space",
+        "excel": false,
+        "phase": "submission"
+      },
+      "reason": "No E-4 blank form exists; commercial experience may use chosen format. Do not drop the evidence obligation."
+    },
+    {
+      "id": "west169.condo_optional",
+      "case": "west169",
+      "anchor": "west169_add3:Q1",
+      "operation": "not_mandatory",
+      "target": "west169.condominium_requirement",
+      "obsolete_artifact": null,
+      "required_effect": {
+        "mode": "optional",
+        "condition": null,
+        "excel": false,
+        "phase": "submission"
+      },
+      "reason": "Condominium is permitted, not required; counsel experience follows proposed elements."
+    },
+    {
+      "id": "west169.rail_removed",
+      "case": "west169",
+      "anchor": "west169_add1:Q12",
+      "operation": "not_required",
+      "target": "west169.rail_overbuild",
+      "obsolete_artifact": "rail_overbuild",
+      "required_effect": {
+        "mode": "not_required",
+        "condition": null,
+        "excel": false,
+        "phase": "submission"
+      },
+      "reason": "This copied experience criterion does not apply."
+    },
+    {
+      "id": "stanns.gc_at_submission",
+      "case": "stanns",
+      "anchor": "stanns_add2:Q12",
+      "operation": "add",
+      "target": "stanns.gc_identified",
+      "obsolete_artifact": null,
+      "required_effect": {
+        "mode": "required",
+        "condition": null,
+        "excel": false,
+        "phase": "submission"
+      },
+      "reason": "GC identification is necessary for proposal, not only after designation."
+    },
+    {
+      "id": "stanns.cert_deferred",
+      "case": "stanns",
+      "anchor": "stanns_add2:Q14",
+      "operation": "defer",
+      "target": "stanns.green_certificate",
+      "obsolete_artifact": "green_certificate_at_submission",
+      "required_effect": {
+        "mode": "deferred",
+        "condition": null,
+        "excel": false,
+        "phase": "post_selection"
+      },
+      "reason": "Certification follows selection. Submission sustainability material remains a separate instruction."
+    },
+    {
+      "id": "stanns.multisite_removed",
+      "case": "stanns",
+      "anchor": "stanns_add1:Q18",
+      "operation": "not_required",
+      "target": "stanns.multiple_site_submissions",
+      "obsolete_artifact": "multiple_site_submissions",
+      "required_effect": {
+        "mode": "not_required",
+        "condition": null,
+        "excel": false,
+        "phase": "submission"
+      },
+      "reason": "Agency says disregard former multi-site language."
+    }
+  ],
+  "units": [
+    {
+      "anchor": "west169_rfp:6456dd1f816844d1",
+      "source_fingerprint": "cde0016a81b9b22d0ca9c9bfcdcdbe50b4009aad39c9dea306632abab1c3bfb1",
+      "requirements": [
+        "west169.form_A1"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:dc19c04780a9b9aa",
+      "source_fingerprint": "d99ed88c6c0e21bfadfe8ce1b95e5b2c349fc0788064fccbb7afd9c93d3cc0fb",
+      "requirements": [
+        "west169.form_A2"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:5233491338ed1a26",
+      "source_fingerprint": "4e02364f7ed1d7a1f2861ff59ff7485bf5e3b135b9301b848040b36b88a8a3fc",
+      "requirements": [
+        "west169.project_narrative"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:1f1acfbf5331117c",
+      "source_fingerprint": "06a1c48ccc330c426fa6801c11115d0e5a8b01e4596998dc945cff063595aaa9",
+      "requirements": [
+        "west169.form_B"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:bc2cf889e4b136b4",
+      "source_fingerprint": "bd1dede30e08ea3707a372c662863fcdde890c3a1cb8e525a61d3b0b7dcfdb8a",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:5fa491deb3b3dab9",
+      "source_fingerprint": "5be63bbd6fb676bdc300e778b6d07d4d53b0155fde1230535c0399c8c0333fda",
+      "requirements": [
+        "west169.form_D1"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:5f89af35c180cfb8",
+      "source_fingerprint": "7564a0134fd85ac7b10c991a44011467c6ef0f50cabfe607689da146d33a0bd4",
+      "requirements": [
+        "west169.form_D2"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:427a3ffa55ea4fe4",
+      "source_fingerprint": "e23b4f02b3d2e542fc30164ddfa5d4020642308739036a64a2496febc4bf5a9d",
+      "requirements": [
+        "west169.organization_chart"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:bd6a08b0b69a3f31",
+      "source_fingerprint": "54c6f4d6689127104e908344beebdf2013bf559af86a6e6a6b92a1cf1a9508d2",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:590b491df4b5531a",
+      "source_fingerprint": "79639f0db411236888241d466d3ea59f35ff046835ab1e67fdf5bef74592ec03",
+      "requirements": [
+        "west169.staffing_plan"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:1b51a1253b5726ee",
+      "source_fingerprint": "6d2f25f87b1a0e4df56e5f245f8a4029891ea1f3f216050c4b70b2f6b6bdba15",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:6f72e6721656bc01",
+      "source_fingerprint": "3e2a1399c90ac8a8cefce567670069b6fd9fb85a5be19b278b1af02c2a5c0fc5",
+      "requirements": [
+        "west169.form_E1"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:d27f2221bf19b7f1",
+      "source_fingerprint": "092c41efc44defece0d8bf69afb02c375bf974f38b57b07c61c9f4cbd1f0b26c",
+      "requirements": [
+        "west169.form_E2"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:939787b807f4e3f8",
+      "source_fingerprint": "033ddb6d1742cc45c0c37cf817ce722a5d2b013d59fc2055319f81b694e7b759",
+      "requirements": [
+        "west169.form_E3"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:9395f7a586fb9466",
+      "source_fingerprint": "feb6b10bd28d92a2cd243319663439f5e04a6808cfd2f7b07b4e1a2b2c2098b8",
+      "requirements": [
+        "west169.commercial_management"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:6de710f08c6a0c7c",
+      "source_fingerprint": "d3b22e0c51081bf1685c16846c7a0a1775eea07b59394a4c2cd3389e79737615",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:73c55e9b091a95dd",
+      "source_fingerprint": "dfdfe658e72879c4a291606ee4cee9607c5fa9b9067d16778860f76f6f5caa4e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:896ec6e68ead5d0f",
+      "source_fingerprint": "e617fbad0b2c852a98f37710648a1086c621a4b6434f78e64ae7d2f4137990a5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:141cfe2fb0d50f43",
+      "source_fingerprint": "f180fdad5cdbce81bbd04c086d1c50251375ebd00c6ddd11fcec1b04e7bcc907",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:09e1eda1c49ec4b9",
+      "source_fingerprint": "5f2b5e0864619946f0e0c0ab85a98a3decba3031b010a2c10e2d3e78f209e4c3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:21abeaf75421fba7",
+      "source_fingerprint": "b291d3321c8b888e15df24c1332cc6fe9a3252ebdd72f2ccfa1f4ed261286653",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:5df0ac04350551ec",
+      "source_fingerprint": "8deba41d6595fc2586d537f81752683a3a67ac71fe02d2b41cd51a0c5b9db541",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:be65a680975e96c6",
+      "source_fingerprint": "4ce1bd58e386c0de4fff61a6747e835678d3620a8b35d7f56b62170401e7ae79",
+      "requirements": [
+        "west169.form_G"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:78cd0a50c080e391",
+      "source_fingerprint": "28d23c99e89521d7fb7ecf773a8da8ccc2b0eed03d20d37ca6539cbe79a1fb34",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:5eb8745247dfc46b",
+      "source_fingerprint": "45ee6a0b14293877f7d9bee0bd149cb59f906fbacd1039d437da50bf59cd6b38",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:19c3654b8602379c",
+      "source_fingerprint": "f618c0042761f6a057dd9239a8b959e0299328e621a6b76e0aacd98d3c1266ed",
+      "requirements": [
+        "west169.project_budgets"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:0d9019318c1342e6",
+      "source_fingerprint": "4c9e4ec08423a9f8d3bab29428192404848f340c9411adad1a7b46ed85dd7ce3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:ebeb435e0ba638bb",
+      "source_fingerprint": "7ddffb27b29d2300fb76a706b37bfa4a48eaa2ec1b6186133adce2268b473a90",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:f9af522d29dc76eb",
+      "source_fingerprint": "1466f0d62fb441a8c9a1593dbc5aff548efed9244d03ef95a452bc1476dab4ad",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:9f6d1c660e6f1f92",
+      "source_fingerprint": "17acf1814f6dd0f3b2db842e48b3c204258e482ecce1c6b198906f979f20a8e5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:ff668e62c5fa5cdd",
+      "source_fingerprint": "8b21fa83ad5900c79d572d4adf9865bb2b081379609f6cd605fe7ac402c4278e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:9b1755e58d4546d1",
+      "source_fingerprint": "7cec0b5c2106de44b1499885f92912bbd01f96a0ac3c8db4f81b5ca78cb0c368",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:9ce3412b4fef8a9e",
+      "source_fingerprint": "3c8a52331967db7eea853d3939dee54a73912aab0e2792703133f4ee59f32a57",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:4a3332a1eeaf6dab",
+      "source_fingerprint": "40eedf7aafd5fe728ae8e2c160a674ece22cd5419b99a36a873c921a327fafe0",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:51d164e348e87e6f",
+      "source_fingerprint": "0675a58fb2936ebf86c5061c6954f1deb4191ee62bb26ebcaa0a256918cbf58e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:c258e1ef292e683e",
+      "source_fingerprint": "20a0fc9a1d7761808d3bc5580a77dd8822e2218a767a18266b06dcbd3f4b9a4c",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:d49f17746da58e8f",
+      "source_fingerprint": "751223d3fa5afae0d8d45029c640074bdeaae2ae2fa19d492d16fa428fe4729f",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:667c70643a92b259",
+      "source_fingerprint": "d4a1ede5ad6f20952e83ffd7ac52ef39dcc44da385a46a31652d9ec095394670",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:e4ab85153ae8eb02",
+      "source_fingerprint": "51d542dd3bec547738d8ee2914bc2fe80278a0cdef43e9956b11a322cde3feef",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:fe9771ff57bd5d8b",
+      "source_fingerprint": "8209ffc2e78461a327abb0acc12d5097da520c56f3f32731aa887a3b8bc8aa58",
+      "requirements": [
+        "west169.zoning_analysis"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_rfp:53be8a17066e5c51",
+      "source_fingerprint": "c71854b787358ace6d84ae1fc441485a5ba0b84b720aef7c13e8b756527439ba",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:3f4144cf766b8014",
+      "source_fingerprint": "3fa63b4c588a6f5bed0837e0fa3439d3270f29f740bcbb83298004294ba35aa7",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:ec6df670e36dd36c",
+      "source_fingerprint": "7e09aa228fc5ced0b26082838e9aa7605a7b785dd06c56dbf70229c8308be3ce",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:25f7074c01854eab",
+      "source_fingerprint": "ab4a90cd471f9ece9509b178fe689240af0f62ab687b5c571790a8e0726f0760",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:800d4950f2a26c87",
+      "source_fingerprint": "428e2dd219c1df46547975828bc27534370b636563d0ed6b668d2beb51eb23fe",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:de10c0f6cef5cfb7",
+      "source_fingerprint": "84f18fa789049e4ba1c91b002e9e08d2a5c9ddaaf56ad9d130f410469dc640e1",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:bf2f14dd8489bec2",
+      "source_fingerprint": "952f4170e491771aeafecfc112d9b13cf6228d5f815c3c3826da62280efe2487",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:c04697df08001414",
+      "source_fingerprint": "fbd82a34d2453964b909efd20463a670462e496a32062068a7ade04663acd089",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:52a11a9e1b3a8be6",
+      "source_fingerprint": "3f44bbf5d81ca3a1e9f6c596f0b7c1de0bfbe02d0a00b9e493bbbadb9da2d9b6",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:ae79b58b5b701b17",
+      "source_fingerprint": "e7d0d2073bb6f76872bba68b148407f88bc45c5c5122af15f3337d3c66151417",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:c82ec8508120ff79",
+      "source_fingerprint": "ec79e45da23928953b206f003ee4bec701f560408ce69ba0ac375e37298499ba",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_rfp:9d81c69d69e4edc6",
+      "source_fingerprint": "8efc2716935fecb7513648ff2af894eceee89571a4e07c9bc3831432a41101fc",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q1",
+      "source_fingerprint": "943de966c4b2f439ec02f954ca5b7fa36293f65dc985fe114a0cd9dfa8db5414",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q2",
+      "source_fingerprint": "a060c4fbf0e4733f1dcf77f30395bfe70e77d97963267b44939bf9122247b132",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q3",
+      "source_fingerprint": "f86c7402f25f582b742d5f076ba3ad56033ea2cb8e0e465a435709030db014b7",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q4",
+      "source_fingerprint": "aa7ae2ff5c0b21b94d33a1becd2a3693b35668ccbdbf67ff7c4c875b3348c719",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q5",
+      "source_fingerprint": "cdd56edac1eeba36814f25358855e14b0f9aab68dacb554bcd3daff15a523ba2",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q6",
+      "source_fingerprint": "1a12f033a7471f5f6d9a8c2405e872038da9e95f13240ba6d474a99c740306b3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q7",
+      "source_fingerprint": "3ec133573eda92854892f8a1a36402c21bc51958f3bf68937fbd230d1dd1d4b1",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q8",
+      "source_fingerprint": "28ae0973cc741809dce5bbdaecbc011311998d9868b42e8191dcc362ee0140b9",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q9",
+      "source_fingerprint": "82b8a0b3b34e61df3b22d529b0219d00f6a6e80294de3c8396f1e46de4efcf0e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q10",
+      "source_fingerprint": "f6cca1c3a2ce2e3e3977ad0025e359d96a37abed35ebbdbc181f8dd7270642a1",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q11",
+      "source_fingerprint": "7b9e1337c37c4ffd98d96e266bcb33914dcbf32dd0d973f3ab883f812a934b1c",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q12",
+      "source_fingerprint": "d97730618fb669248c93bef73c40d0eb9182d014c9f0756b5b4b109ffb843d5d",
+      "requirements": [
+        "west169.rail_overbuild"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_add1:Q13",
+      "source_fingerprint": "c1c173a51eac0b60dc2a544b1f36462d0046b30edd156c4bba3d238c8b0d6253",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q14",
+      "source_fingerprint": "903c7de028a3fe5b3baa96952be1094520b3c50bf601d536a61d82f9eb16bdda",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q15",
+      "source_fingerprint": "202d141734530390d7720ece900ecfd7b4a18ed3918e29fe26c65c280d0c648e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q16",
+      "source_fingerprint": "8f763959adf95627aaac126bf614fac41a2bb37cf716b9a65188f473446ab9e6",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q17",
+      "source_fingerprint": "4aa36552bffa770a9f4560269747a34f26c91251bc85e862723264f17875bf98",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q18",
+      "source_fingerprint": "56b41aee396cab7fed5eeb8b8dd242aef0f98e66a6855e8676348a034098d159",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q19",
+      "source_fingerprint": "9e5ca9bb3aaf477e0c185e7fd84cf72d40e1adf57c818b58ecddae96153efede",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q20",
+      "source_fingerprint": "0c80bf892ba310d113fa9280d8da5e72220c9ba015bb75aaae6e7073cb42f21b",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q21",
+      "source_fingerprint": "2a714c3b0ca383e1538370044e0db74e7942e8e8d41fe606c0581c0885416fd3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add1:Q22",
+      "source_fingerprint": "845baa9e253d23e958a05c34de899510d3d58d35f484a9630e4f77439a416db5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add2:Q1",
+      "source_fingerprint": "3ae94ca2a1eace7c234bf90d5f6ca7277af5963863d455f20afc6330a1ae0255",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add2:Q2",
+      "source_fingerprint": "3063e4c9bfdd9a04853c2a27d0864a7b77916a04e80037e2e11b94bb2e2144da",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "west169_add3:Q1",
+      "source_fingerprint": "fee126c62cb43a00f8a9d73e783c7359a978f6181c8a0b1062e570260187dbc2",
+      "requirements": [
+        "west169.condominium_requirement"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_add3:Q2",
+      "source_fingerprint": "5e52c3a52af7bae5d52f0d220e13cd25f0848f0319b198555d92d08c216593cb",
+      "requirements": [
+        "west169.commercial_management"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "west169_add3:Q3",
+      "source_fingerprint": "318a09a77288ff16473fbf066039a4fab8be864f79ae686f54c14ae38f754deb",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:6c841ca9ab13316b",
+      "source_fingerprint": "75f9f34ba7c2612174f32824b14e08a45bf1d68dd3684e82fa79f1eff043a4ac",
+      "requirements": [
+        "stanns.form_A1",
+        "stanns.form_A2"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:9ad9f22a04959615",
+      "source_fingerprint": "f11811e4de0f8ed374dd62733783754d17731406475cc94853b349236164a1a0",
+      "requirements": [
+        "stanns.form_B"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:4f6a81d1eb31c1d8",
+      "source_fingerprint": "efe9865525f4f96a163d4e1327fbf4d4400b77b66eb8d1ff4812f2f84a6a9aa4",
+      "requirements": [
+        "stanns.project_narrative"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:3fc59ce6d740bec8",
+      "source_fingerprint": "88ee6e4c840ce0f409301f382fc4e96863031672ccfd19c91bd0df77dbc56c11",
+      "requirements": [
+        "stanns.form_C1",
+        "stanns.form_C2"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:7447ddafb912fbd8",
+      "source_fingerprint": "e5f788f951065f6ba3f1c4f93dfe9e8a1cd2f5d8e9e964c4e27624937762bfaf",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:650d17c9afab3469",
+      "source_fingerprint": "12e0e35493abf9b086bd5bee16f5b8514e010376d5086a4d92ab72f6fcaf52e0",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:4621c26f0506c03e",
+      "source_fingerprint": "576d8d4b14c6277314234c9111be9ebcbf8bc43a05f9b35d46b29ad8d703e27b",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:47553fcb3ef97ddf",
+      "source_fingerprint": "2c057f8aaa9661d4bca0282a251d84cf33553a35fc47075b6150e37f8a0d4149",
+      "requirements": [
+        "stanns.form_D1",
+        "stanns.form_D2",
+        "stanns.form_D3"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:26060af53d687cb1",
+      "source_fingerprint": "31dcfe580287d7a92e7b7b292e0e4222105e22bc57cd2f56a6455a1f7c26c653",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:79d3b0499c2c5f50",
+      "source_fingerprint": "d9b0c0c04427cadee3762b053623f6ca87e529c0f57db479e5fa5b133b0b7cd0",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:2268070dd4768cfa",
+      "source_fingerprint": "d1a7fc3e62a425c2986df28cb94041d75f3879d2f937cc76f49f9a013dd463f3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:80d31146098e6db2",
+      "source_fingerprint": "f5a56e92c9167987d8582b904bcb885be6459d2cc6c6543d28aff44154ea8f91",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:70bf98f707258f88",
+      "source_fingerprint": "188b0d7996556fe52afecdfe0ca0c93d270dc18e01b2be8ad264168568a6085d",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:285dbab78febe0f5",
+      "source_fingerprint": "bdb19126a47620374f91e6b0b9b8d9762354b65f13203a46dabac04737c71dde",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:e8d15ebdb8af1dc5",
+      "source_fingerprint": "5f16b40e685f0cf7bf607ea60bcf698da1cb0b9bef2f6a409e37fcc9af94bcd4",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:77a8d9115e70bf6c",
+      "source_fingerprint": "7cd28ae336b84a5e53537d9be1f732250399be032ff894b54700f832f6577259",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:20754a7c3bc0bdf6",
+      "source_fingerprint": "e9e451d8f362f035974e97f165d188422a0729ddddb00e67eea72bc82ef0d970",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:a66390fa151882cd",
+      "source_fingerprint": "e72beb1be9938cd987ec43870cc02859d0ceba1190738d233d06d794f3fee126",
+      "requirements": [
+        "stanns.sustainability_submission"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:cc2370c294c856ff",
+      "source_fingerprint": "cc1a034486ea195fe188bfc579a0a8e8348825b80c7957f4d3f486b8a47249c9",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:3216f78f820fb098",
+      "source_fingerprint": "3ef602f4af8087a41ca7ad5f265857e0edbd82a542169a64c91f2aca78ef1ba2",
+      "requirements": [
+        "stanns.form_K"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:04967bfb0ae33336",
+      "source_fingerprint": "72eee6888a0b90799da8729e561994ca44f88d344b14d92d2b42a488d095ef59",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:f4fd07558f20f885",
+      "source_fingerprint": "e166a0717fe8d540b8ca1917b3d323b0f5b0847fa17f7eca77b48019c989b22e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:9d5e3221764d3bb7",
+      "source_fingerprint": "7dbf5132968cb7bcdca13f9479f870e197e8d29d30a6a72c74695357fa01bddb",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:f5b2622c5a428d93",
+      "source_fingerprint": "246808b39e88afb26a70569f3fa5a78ae58a89d56911ee72094300a87c3f6251",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:89e2ff9197715e75",
+      "source_fingerprint": "72e3f68872b5aba093ab8255ebf90a105fcf1c7648b282636b6174d007c1009a",
+      "requirements": [
+        "stanns.market_comparables"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:4d9c6a8dbb1b61dc",
+      "source_fingerprint": "0f221940fd8d910b15dbf41995f66ab28710b0ca9cf060fbb21ffbb3e8c33589",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:3f56cced0759f736",
+      "source_fingerprint": "292f4980dff1ebc74a33c3053be92adf6e7d7086d94dbadef32dcf926b1dad56",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:75259f6cffe5e294",
+      "source_fingerprint": "4d5e117593ad1cc2cb5c23e5691e8f376bb1f93d6043094f5a34dff27eb0b11e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:41faa37527e473b9",
+      "source_fingerprint": "e7e1d6e4e2525fa73d764051f6b223835d777908729a66766e28e027a19bb719",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:2e24f8c48f8ee7b7",
+      "source_fingerprint": "1abf26af02f3f9dfe63a5991d76ed9ad7a294b55c61e62e10a32708a10116b28",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:4a44b5946d37d82c",
+      "source_fingerprint": "295dd5be6f3e7f7b32bc2b28b5c37eed7eec8a274f638c610309607e2d3cd9a3",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:092aaabd88e556ea",
+      "source_fingerprint": "a3b48ceea780808e4b01133077261f75fbdce33fdcc7c43195183b6ae1e8d86f",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:85099873c3a7f189",
+      "source_fingerprint": "9ca196c53b4d7ff28368f5cb6e5db6b12ac24e72f1245a6a60ccab45a3213a0f",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:ac81132a0d51f1cd",
+      "source_fingerprint": "529ba4bb31b7cb42937e65acba04346730e45b6155f0df69d9dc36a2a755cc89",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:172a6e8842d5851f",
+      "source_fingerprint": "d4b5b62ee94dacfe5b146853ea5ab21244ebab1d6e2328df68910f97d0c31550",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_rfp:413f41a5bc1f9665",
+      "source_fingerprint": "81c8ad1c5ff8e90f468bee4d045cda2c7b6db99c2f07ab8389f5ac26d10b63cd",
+      "requirements": [
+        "stanns.marketing_plan"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_rfp:272106f91d12d7d4",
+      "source_fingerprint": "335a149fa93e87d1ad8b312c762ec9a534fdddf53a4b7d22731855c19bbbebba",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q1",
+      "source_fingerprint": "4eec0a726d232a0cd8f6fe2df27c409f04aec09fe44b589951754b86f954b09a",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q2",
+      "source_fingerprint": "b6da558cb2f80d31feb03adbbb8685588e74ac3dd63429419c572f852a83e9c1",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q3",
+      "source_fingerprint": "7f9f9bc77168aaaef812fd687bbc8a20c163e99df66126e4d3053f2620c66d1e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q4",
+      "source_fingerprint": "e803c458e9a1b6f265c52f17b2231180b117afb16ab68dbcf6a10e18473e09cf",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q5",
+      "source_fingerprint": "2a27c7084932ca9f9864156bce69bec8aa3188db8795a5b4244470f8ab83deda",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q6",
+      "source_fingerprint": "3b9b66d6f10bad1f6e4ad049354ab3528b74adae2a0bc1a2718548a3a568325c",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q7",
+      "source_fingerprint": "7055d646f40aaa5794b41a504d80f3f0aaa6e54016064ca884208f8296e0efb5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q8",
+      "source_fingerprint": "85a9e2309803500438c5c7f6e449401d856812acf2b82bfac9aa6fac4716cae0",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q9",
+      "source_fingerprint": "501dea66c94c1300624d73971a54eff9f73f4c87cbb1b57c070ed666019569fe",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q10",
+      "source_fingerprint": "e7b4f2ef2fbfcbd0969b75b59461905c656a7bef6cff0dbbea26581efcd7303d",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q11",
+      "source_fingerprint": "68e3df3abe66844d34ec87b0a5ba734927b2e0602961d7baa3663ad8ee7a9d8d",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q12",
+      "source_fingerprint": "1e56eef301e351c51f8f29720950df075a1906224b65d20e046931240d573f08",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q13",
+      "source_fingerprint": "86967f30f966d51953dedb5d7d0c3cc6cc2ae9a787436bca9416da61723db491",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q14",
+      "source_fingerprint": "70935d3a77588500f662759d3e1e8d1c23cc0f0682f054fcd601f756911606c8",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q15",
+      "source_fingerprint": "6fab5e6990dd0a68b284ec051e91749033b086864264899a04fc5b4dba545ca7",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q16",
+      "source_fingerprint": "9e99a5360a2510488694a060715e9f0bc1d58920e69f089e541221541515e9f8",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q17",
+      "source_fingerprint": "0a39ba06075b9d994d47c6e6616e9cc2b60f9c98fc595edf646509d4f9035937",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q18",
+      "source_fingerprint": "1ea05ba9dedf6369c7ba243ec63cb593a4a3b99bbd313a1c42f6bad621f90296",
+      "requirements": [
+        "stanns.multiple_site_submissions"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_add1:Q19",
+      "source_fingerprint": "3357ff5f860f19558dd1cf2c681bfc49f3c7fc2bee8f0958eeaaf9594cf3b3c2",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add1:Q20",
+      "source_fingerprint": "e04a899df8714f645c58105839a3ea87e00fb522589d4db74ea8519d81c7a92c",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q1",
+      "source_fingerprint": "f880dffe93adb490052f37fb8544d5b6fd56b9413cea0c820e1504e0bff93c2d",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q2",
+      "source_fingerprint": "047955ac13dcc987ee6795aa78f8b1813ec347928d5c60eb2d3069267e0f1ac1",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q3",
+      "source_fingerprint": "a22d61c05391bf9cd2538355d44e1148574ebc6f8c6f905037fb0af97acb85d5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q4",
+      "source_fingerprint": "be9a04d840b64c94b52d174564c5615afa1f3fcb1dbf21359532b34590d89e6e",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q5",
+      "source_fingerprint": "bab226b0340642e996c4a3d5a9eb7620465c6048cb5e2cc5088613ea14885eb7",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q6",
+      "source_fingerprint": "b07b055d52ce965f894e81726b1053639b14a68427717d874038a2cb062b4b53",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q7",
+      "source_fingerprint": "c0dc43d61689443d4acf8b65c4b9075afec7839022a4700963b5d1fa60f414db",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q8",
+      "source_fingerprint": "0936ca62dfc6d18191ee5bd5c9dbf2b7d6350f8e1932b2c62a7dc0c3879619a5",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q9",
+      "source_fingerprint": "f14a0e81e4359167f07cba758c6a51e17f40b80ec1ef45a084309d48e52444ae",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q10",
+      "source_fingerprint": "80cd10d33510acdd077faf7036db14bbc0ff0acc081bc69eb56e7e4343960b92",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q11",
+      "source_fingerprint": "9bf0f67ee8a1c80c0a044d7c56cb7b39a1afe2734d2c3a8f7b81e9dcc572c9bf",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q12",
+      "source_fingerprint": "374aa83298c74dd01a7c5c5db8303b41c83b0cb43407fa662e4ded243d0863b4",
+      "requirements": [
+        "stanns.gc_identified"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    },
+    {
+      "anchor": "stanns_add2:Q13",
+      "source_fingerprint": "71307034bb1aef673112726c967852aad4aa7b7f96863c2ee8e2960de55a9a5a",
+      "requirements": [],
+      "expansion": "needs_review",
+      "review_status": "pending",
+      "reason": "Unexpanded source unit retained in review queue."
+    },
+    {
+      "anchor": "stanns_add2:Q14",
+      "source_fingerprint": "76d1377d1c61519bb76328608c6c554b3d5bc53f59b7014fd283f6b972cceab5",
+      "requirements": [
+        "stanns.green_certificate"
+      ],
+      "expansion": "authored_partial",
+      "review_status": "pending",
+      "reason": "Scoped artifacts mapped; nested obligations remain to review."
+    }
+  ],
+  "limits": [
+    "Initial authored mapping, not complete semantic expansion.",
+    "Nested clauses, per-principal cardinality, signatures, formula correctness, dates and referenced appendices require substantive review.",
+    "All addendum Q/A text anchors enumerated, but cross-page continuation and graphics are not fully expanded.",
+    "Not a blind analyst benchmark, real submitted proposal or expert accepted inventory."
+  ]
+}

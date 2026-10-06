@@ -1,0 +1,1592 @@
+{
+  "scope": {
+    "west169": {
+      "submission": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    "stanns": {
+      "submission": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  },
+  "limits": [
+    "Text segments are review units, not necessarily atomic requirements.",
+    "Question continuations across pages and referenced appendices require separate review."
+  ],
+  "units": [
+    {
+      "id": "west169_rfp:6456dd1f816844d1",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Form A-1. Completeness Checklist",
+      "kind": "submission_segment",
+      "tab": "A",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:dc19c04780a9b9aa",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Form A-2. Respondent\u2019s Letter, printed on Respondent\u2019s letterhead and signed by an authorized representative.",
+      "kind": "submission_segment",
+      "tab": "A",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:5233491338ed1a26",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Project Narrative must introduce and provide an overview of the Submission, including the elements that distinguish the proposed Project, the qualifications of the Respondent and the Development Team.",
+      "kind": "submission_segment",
+      "tab": "B",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:1f1acfbf5331117c",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Form B. The Project Summary must provide a synopsis of the Submission\u2019s major elements, including the development program, financing program, and architecture and urban design.",
+      "kind": "submission_segment",
+      "tab": "B",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:bc2cf889e4b136b4",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "The Project Narrative and Project Summary must be concise and introduce all aspects of the Submission.",
+      "kind": "submission_segment",
+      "tab": "B",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:5fa491deb3b3dab9",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Form D-1. Development Team Information and Respondent Questionnaire, signed by Principal (if joint venture, principal of each entity must sign).",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:5f89af35c180cfb8",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Form D-2. (Non-profit corporation team members only).",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:427a3ffa55ea4fe4",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Organizational Structure. Chart or diagram of structure of partnership or joint venture, including percentages of ownership and investment, with a brief description of the type of entity or joint- venture and the roles and responsibilities of each party.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:bd6a08b0b69a3f31",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Brief narrative describing the roles of each entity of the Development Team during construction and throughout the life of the Project. Any Submissions from a CLT must provide an organizational model that meets the requirements of the RFP.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:590b491df4b5531a",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Project Staffing and Governance Plan, with a brief narrative of any project management methods or tools that will be used to ensure an effective and collaborative public/private partnership.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": true
+    },
+    {
+      "id": "west169_rfp:1b51a1253b5726ee",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 26,
+      "quote": "Organizational charts, schedules, and project budgets demonstrating project management approach and capacity to manage complex development projects within a public/private partnership.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": true
+    },
+    {
+      "id": "west169_rfp:6f72e6721656bc01",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Form E-1. Residential Development Experience and Current Workload (include on flash drive)",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:d27f2221bf19b7f1",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Form E-2. Residential Management Experience and Current Workload (include on flash drive)",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:939787b807f4e3f8",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Form E-3. Management Questionnaire (include on flash drive)",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:9395f7a586fb9466",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Form E-4. Commercial Management Experience, if applicable (include on flash drive)",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:6de710f08c6a0c7c",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Brief narrative describing: o Experience that makes the Development Team uniquely suited to overcoming the challenges posed by the Site o Experience developing and managing high-quality mixed-use urban projects o Experience managing commercial and/or community facility spaces in mixed-use urban projects o Experience with community economic development, such as investments in community programs or services",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:73c55e9b091a95dd",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Note. A separate form must be provided for each Principal with residential management experience. Provide complete and accurate information about references.",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:896ec6e68ead5d0f",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Note. A separate form must be provided for a Principal or managing agent proposed to manage the Development.",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:141cfe2fb0d50f43",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Submit marketing materials, narrative statements, and/or portfolio list in graphic format that clearly describes relevant experience and work on similar projects completed within the last ten (10) years. Also, provide resumes highlighting experience of key principals and staff that will be working on the proposed Project. o Architect and Engineer, other members of the Design Team, if applicable (e.g. artist, landscape architect, urban designer, etc.) o Construction Manager o Real Estate Attorney and Land-Use Attorney o Environmental Planner and Environmental Engineer, if applicable o Community Service or Program Provider, if applicable o Marketing and Leasing/Sales Agent, if known",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:09e1eda1c49ec4b9",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Capacity. Affirmative Capacity Statement regarding the Development Team\u2019s ability to develop, finance, construct, manage, and complete the Project within the proposed Schedule, including, but not limited to, the Developer Obligations, as well as the Terms, Conditions, and Limitations and Conflicts of Interest, included in this Request.",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:21abeaf75421fba7",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Development schedule and phasing plan listing and scheduling industry standard activities, including, at a minimum: a. Community planning b. Concept, Schematic, Design Development, Bidding and Construction documents c. Governmental planning approvals and construction/building permits d. Site due diligence and preparation e. Bidding f. Financing and financial closing/Site disposition g. Construction commencement, completion, and close-out h. Marketing and lease-up i. Occupancy j. Development Phasing Plan, if applicable",
+      "kind": "submission_segment",
+      "tab": "F",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:5df0ac04350551ec",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 27,
+      "quote": "Schedules are to assume the following key benchmarks: o Predevelopment commencement within 30 days of the date of HPD issuance of the Negotiation Letter. o Schematic Design phase and HPD approval of plans and drawings within 6 months of the Negotiation Letter. o Construction commencement within 18-36 months from the date of the Negotiation Letter.",
+      "kind": "submission_segment",
+      "tab": "F",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:be65a680975e96c6",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Form G: Financing Scenario. (Submit in both hard copy and on flash drive in Excel format). If elements of the Project are separately financed, the Submission must provide separate financial scenarios for each portion. If Project elements are financially inter-related, a comprehensive Financing Scenario showing the financing for the whole Project, with each element delineated, may also be submitted.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:78cd0a50c080e391",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Rents and AMIs. All Submissions must reflect the rent price affordability calculations (based on AMIs), and utility allowances described in the Form. In addition to the affordability requirements described throughout this Submission, any subsidy programs that are utilized will determine any additional affordability requirements, as applicable. For units supported by Project-Based Section 8 Vouchers (PBV), assume rental assistance at 100% of the 2019 FMR.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:5eb8745247dfc46b",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Superintendent\u2019s Unit. Specific information about the superintendent\u2019s unit(s) shall be included, as applicable. If the superintendent unit is not located onsite, a letter explaining alternative provisions for onsite janitorial services that satisfy the Housing Maintenance Code must be included.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:19c3654b8602379c",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Project Budgets. Provide Hard Cost calculations (including, but not limited to estimated construction costs, overhead, profit, insurance, contingency) with cost/sf estimates for both gross and net square footage. Please identify the entity that provided hard cost estimations and provide qualifications of this entity, if not already included in other parts of this proposal. Provide Soft Cost calculations, including assumptions for all fees for professional services, financing, and other industry standard and HPD allowable costs. Provide a percentage of Total Development Cost (TDC) for each line item.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:0d9019318c1342e6",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Tax Exemption Programs. Submissions must indicate which tax exemption program(s) the Project plans to utilize, if any.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:ebeb435e0ba638bb",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Financing Narrative. The Financial Scenario must clearly explain the financing structure of the Project, and explicitly identify proposed subsidy/financing programs. If the financing scenario proposes competitive financing sources, the financing narrative should explain the feasibility of obtaining the proposed sources and/or describe the respondents\u2019 history of successfully applying for the proposed sources.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:f9af522d29dc76eb",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Financing Senior, Homeless, and/or Supportive Housing. Submissions that include homeless, supportive, and/or senior housing components may include competitive financing sources in their Primary Financing Scenarios.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:9f6d1c660e6f1f92",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Regulatory Term. Units must remain in the rent stabilization system for the duration of the Project, but in no case less than thirty (30) years. The Developer may propose a strategy to extend the affordability period for an additional number of years in this Tab. Submissions must explain any future financial and other resources needed from the City to extend affordability beyond the regulatory period and indicate how the Submission budgets for future capital needs.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:ff668e62c5fa5cdd",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 28,
+      "quote": "Social Services for Tenants. The SARA program requires on-site tenant services. Service funding options include the Senior Affordable Rental Apartment Tenant Services RFP and the Provision of Congregate Supportive Housing RFP (also known as NYC 15/15) administered by the NYC Human Resources Administration, and other service funding opportunities for which the project would be eligible. Respondents should identify their proposed service funding source, service provider, and describe the services that will be offered to tenants. A social services budget should not be included in submissions.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:9b1755e58d4546d1",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 29,
+      "quote": "Financing Letters of Interest \uf0b7 Private Financing If private financing is proposed, a letter, or letters of interest, from a private lender or lenders must be included. Letters must be dated no earlier than two (2) months from the date of submission of the Developer\u2019s proposal. Applicants may use different private lenders for construction and permanent financing. The letters must be provided on the lender's letterhead, signed by a representative of the lender, and must state the amount and terms of the financing. The letter(s) must indicate a willingness to provide construction and permanent financing in amounts and with terms consistent with the proposal, and must include the following: o Construction Loan \uf0a7 The amount of financing that the lender would consider based on the lender\u2019s preliminary determination of feasibility, based on expected development costs, operating income/expenses, and associated residential rent levels; and \uf0a7 The interest rate (fixed or variable), the equity requirement, applicable fees, and other terms under which the lender would provide construction financing. o Permanent Loan \uf0a7 The amount of financing that the lender would consider based on the lender\u2019s preliminary determination of feasibility, based on expected development costs, operating income/expenses, and associated residential rent levels; and \uf0a7 The interest rate (fixed or variable), the equity requirement, applicable fees, and other terms under which the lender would provide permanent financing; and \uf0a7 The maximum loan to value ratio and other underwriting criteria, including treatment of rental income, minimum maintenance and operating expenses, and debt service coverage requirements. o LIHTC Syndication \uf0a7 If LIHTC financing is proposed, a syndication letter of interest is required. If LIHTC financing is proposed, the experience of the development team with tax credits must be described in the financing narrative. \uf0b7 Public Financing o If HDC bond financing is proposed, a letter of interest from HDC is NOT required.",
+      "kind": "submission_segment",
+      "tab": "H",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:9ce3412b4fef8a9e",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 29,
+      "quote": "Historical Financing Letters of Interest/Award Letters (for similar projects financed within the past 7 years, if applicable) \uf0b7 Competitive Sources o Any Proposal that includes funding or financing that is awarded on a separate competitive basis must submit historical letters of interest or award letters for similar projects financed within the past 7 years, if applicable.",
+      "kind": "submission_segment",
+      "tab": "H",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:4a3332a1eeaf6dab",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 29,
+      "quote": "Assets Statement and References \uf0b7 Each Principal of the Respondent must submit audited or reviewed financial statements detailing the Principal\u2019s financial status in the two most recent years preceding the Submission Due Date for this Request. Publically-owned companies must submit the latest annual report and Form 10K, as well as any Form 10Q submitted after such Form 10K. As an alternative, the Assets Statement in Form K may be used. Provide sufficient information necessary to evaluate the Respondent\u2019s current financial commitments and track record to meet the financial obligations of the proposed Project.",
+      "kind": "submission_segment",
+      "tab": "I",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:51d164e348e87e6f",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 30,
+      "quote": "Development Program. Narrative describing a comprehensive perspective of the various components of the development program, including residential, commercial/ community facility, open space, and other land uses for the Site.",
+      "kind": "submission_segment",
+      "tab": "J",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:c258e1ef292e683e",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 30,
+      "quote": "Narrative describing a comprehensive approach to the various components of the community development program, including; \uf0b7 Community Engagement Plan that provides meaningful opportunities for community outreach, input, feedback, or participation in certain elements (design and programming) of the Project after Developer selection. \uf0b7 Hiring and Procurement Plan for achieving (or summary of having achieved) compliance with the following required City and HPD programs: o HireNYC o M/WBE Build-Up Program, a component of HPD\u2019s Building Opportunity Initiative \uf0b7 Public Approvals Outreach Plan providing a strategy for complying with the ULURP certification and public approvals process.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:d49f17746da58e8f",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 30,
+      "quote": "Design narrative that provides a clear and comprehensive description of the preliminary design and succinctly articulates the design approach to achieving the Project vision and goals. Narrative must cite all elements submitted in Tab L: Architectural and Urban Design Plans, as described below:",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:667c70643a92b259",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Photos: Images of the Site and the Site\u2019s relation to surrounding buildings, streets, sidewalks, and open spaces, at least 3\u201d x 5\u201d in size. Photos must be keyed on the area plan outlined below. The photos must be clear enough to be reproducible. Submissions must include photos of other neighborhood and community characteristics and conditions that informed the designs.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:e4ab85153ae8eb02",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Neighborhood Area Plan: A neighborhood context plan(s) indicating circulation patterns, significant land uses, transportation networks, landmarks, and other neighborhood infrastructure and community amenities.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:fe9771ff57bd5d8b",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Zoning Analysis: Zoning map for the Site, and a detailed zoning computation with an analysis to demonstrate compliance with the assumed zoning. The analysis must cite pertinent sections of the zoning resolution. The analysis must include, at a minimum, the assumed zoning and uses; and the proposed and allowable/required (1) unit density; (2) FAR and ZFA (total and by use); (3) lot coverage; (4) height and setbacks; (5) streetwall requirements; (6) yard requirements; and (7)vehicle and bicycle parking, etc.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:53be8a17066e5c51",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Site Zoning Study: Site plan detailing adjacent street widths, setbacks, encroachments, easements, lot size, tax lot and zoning lot boundaries, and other relevant zoning and Site conditions and features.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:3f4144cf766b8014",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Square Footage Analysis: chart(s) with detailed breakdown of residential, community facility, parking, open space, and other components of the development program. The chart must include gross square footage, deductions and zoning square footage (floor area) by building and floor.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:ec6df670e36dd36c",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Building Zoning Study: Massing diagram detailing building(s) uses, size, height, and other relevant zoning and Site conditions and features.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:25f7074c01854eab",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Site Plan: Site plan indicating all components of the development program.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:800d4950f2a26c87",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Site Connectivity Plan: Site plan illustrating the connection of the Site to the broader neighborhood infrastructure and community amenities, within one block of the Site, at a minimum.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:de10c0f6cef5cfb7",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Circulation and Open Space Plan: Site plan with walkways, sidewalks, garage and parking areas, curb cuts, building entrance/egress points, streetscape improvements, landscapes, lighting, easements, and encroachments.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:bf2f14dd8489bec2",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Floor Plans: Ground level concept plans clearly indicating distribution of the development program and circulation patterns.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:c04697df08001414",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Typical Dwelling Unit Plans: Typical unit floor plans that provide residential unit uses and separation of spaces, circulation and entrance/exit, key dimensions and square footage, access to light and air, and unique features and amenities.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:52a11a9e1b3a8be6",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Elevation Drawings: Elevations clearly indicating proposed fenestration and materials, ceiling heights, floor elevations, and total building height.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:ae79b58b5b701b17",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 31,
+      "quote": "Site Section Drawings: Site section indicating proposed building and other land uses in contextual relation to other Site improvements, including adjacent buildings and Sites.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:c82ec8508120ff79",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 32,
+      "quote": "Building Section Drawings: Building section indicating building to grade relationship and floor-to- floor and floor-to-ceiling height; and, key wall, floor, and roof section indicating envelope materials, fenestration, and approach to sustainable development.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_rfp:9d81c69d69e4edc6",
+      "case": "west169",
+      "source_id": "west169_rfp",
+      "pdf_page": 32,
+      "quote": "Illustrative Drawings: Conceptual diagram and/or sketch illustrating the intent and approach to the design and development of the Site. Simple visualization to communicate design aesthetic, scale and relationship of the Project components, and a general sense of space from the pedestrian perspective/ experience. (Physical models will not be accepted. Photo-realistic renderings or other expensive drawings are not required or encouraged.)",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q1",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 2,
+      "quote": "Q1: Can HPD provide a survey given the topography of the Site is so challenging? A1: HPD cannot provide a survey of the Site. Given the topography of the Site, additional information on elevation and site boundaries is provided in part B of this Addendum.",
+      "kind": "addendum_question",
+      "question": 1,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q2",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 2,
+      "quote": "Q2: The most important information is topological information because of the extreme elevation changes and rock outcroppings. It\u2019s difficult to plan a responsive building without knowing more about the topo information. A2: Given the topography of the Site, additional information on elevation and site boundaries is provided in part B of this Addendum. The contour maps in part B of this Addendum were made using a planimetric basemap layer containing citywide 2-foot contour line features and is hosted on the NYC Open Data website at this link: https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e. The New York City Department of Finance (DOF) Digital Tax Map is available at this link: http://maps.nyc.gov/taxmap/. This map, along with information from DOF Automated City Register Information System (ACRIS) (https://acrisweb.csc.nycnet/cp/) for Bronx Block 2519, Lots 27 and 32 and surrounding tax parcels provides information about the boundaries of the Development Site. th",
+      "kind": "addendum_question",
+      "question": 2,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q3",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 2,
+      "quote": "Q3: Will HPD arrange to open the gate at the 97 West 169 Street site on a preannounced date, say some day next week, to allow surveyors onto the site? The depth and northern and eastern location of the rock cannot be ascertained without actual entry to the site. Site slope north to south also requires access for accurate measurements. A3: HPD will provide access to the Development Site on Tuesday, February 26, 2019 at 10 AM. Interested respondents that wish to see the Site must RSVP to 97west169stRFP@hpd.nyc.gov by Monday, February 25, 2019 at 4:00 PM. Only two representatives per organization can attend the site visit and no equipment or survey instruments will be allowed.",
+      "kind": "addendum_question",
+      "question": 3,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q4",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 2,
+      "quote": "Q4: Pooling resources could be a way for respondents to make the cost of the survey less expensive. Is there a way for respondents to share contact information? th A4: Contact information is provided for attendees of the 97 West 169 Street RFP Pre-submission conference that wished share their information in Part C of this addendum.",
+      "kind": "addendum_question",
+      "question": 4,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q5",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 2,
+      "quote": "Q5: Can you describe the post-selection process, who is doing it, and how long will it take? A5: The Site is City-owned property and it will have to go through the Uniform Land Use Review Procedure (ULURP) process that gives the City the authority to dispose of the property. After a selection is made, HPD will work with the selected development team to prepare for ULURP and put together the ULURP package. Pre-ULURP, or the preparation period before ULURP begins, includes working with the architect, doing an environmental study, working with HPD\u2019s Bronx Planning, Building and Land Development Services (BLDS), and Special Needs Housing units, and with the New York City Department of City Planning (DCP). Pre-ULURP may take up to a year or more. At the point at which the application is considered complete and satisfactory to DCP, the application gets submitted to DCP and is certified. Certification is the official start of ULURP. ULURP itself will take approximately seven months. HPD will be the applicant on the ULURP. HPD will be responsible for most of the write up of the application and will ask the development team to provide drawings, a zoning analysis, and other required exhibits. The Community Board will hold a hearing to",
+      "kind": "addendum_question",
+      "question": 5,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q6",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q6: What is the status of the park that is planned on the north side of the block? A6: The New York City Department of Parks and Recreation (DPR) hosted a scoping for the design of Corporal Fischer Park in January 2019 with the community. DPR is now developing the design of the park and construction is anticipated to begin in 2021.",
+      "kind": "addendum_question",
+      "question": 6,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q7",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q7: Is the park fully funded? A7: Yes, Corporal Fischer Park is fully funded.",
+      "kind": "addendum_question",
+      "question": 7,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q8",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q8: Given where the park is at in the planning process, will the park be available for construction staging for the housing development? A8: If all proposed staging activity terminates by spring 2021, DPR is open to reviewing proposals to use the park for construction staging.",
+      "kind": "addendum_question",
+      "question": 8,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q9",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q9: What is HPD\u2019s policy on reaching out to City Council or community boards? A9: Respondents are open to engaging with stakeholders as they see fit. HPD will assess and score only on the submissions.",
+      "kind": "addendum_question",
+      "question": 9,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q10",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q10: Given the City\u2019s recent stance on modular construction, which has been really positive, are there any special considerations here for a team that uses modular construction? A10: There is no scoring preference for using modular construction.",
+      "kind": "addendum_question",
+      "question": 10,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q11",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q11: Will the sign-in sheet from the pre-submission conference be posted? th A11: Yes, the sign-in sheet from the 97 West 169 Street RFP Pre-submission conference is included in th Part C of this addendum and will be available on the 97 West 169 Street RFP page on HPD\u2019s website (https://www1.nyc.gov/site/hpd/developers/request-for-proposals/97-west-169th-street-rfp.page). Submission Requirements",
+      "kind": "addendum_question",
+      "question": 11,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q12",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q12: The RFP notes that the consultant team must have experience with a rail overbuild. Is that applicable to this RFP? A12: No.",
+      "kind": "addendum_question",
+      "question": 12,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q13",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q13: The criteria refer to a construction manager to be part of the team. Does this refer to the general contractor? A13: Yes.",
+      "kind": "addendum_question",
+      "question": 13,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q14",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 3,
+      "quote": "Q14: Is there a Service-Disabled Veteran-Owned Small Business (SDVOSB) requirement? A14: No, there is no requirement for SDVOSB enterprises.",
+      "kind": "addendum_question",
+      "question": 14,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q15",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q15: When is the 2019 SARA Term Sheet coming out? A15: Respondents to the RFP should adhere to the SARA term sheet that is dated November 13, 2014 and is currently on HPD\u2019s website. Note that a subsidy amount of up to $125,000 per unit is allowed for proposals assuming 9% Low Income Housing Tax Credits and up to $75,000 per unit is allowed for proposals assuming 4% credits. HPD will provide further instructions if a new SARA term sheet is th released before the April 4 submission deadline.",
+      "kind": "addendum_question",
+      "question": 15,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q16",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q16: If the new SARA term sheet comes out on April 2 and submissions are due on April 4, what version of the term sheet should respondents use? A16: Respondents to the RFP should adhere to the SARA term sheet that is dated November 13, 2014 and is currently on HPD\u2019s website. Note that a subsidy amount of up to $125,000 per unit is allowed for proposals assuming 9% Low Income Housing Tax Credits and up to $75,000 per unit is allowed for proposals assuming 4% credits. HPD will provide further instructions if a new SARA term sheet is th released before the April 4 submission deadline.",
+      "kind": "addendum_question",
+      "question": 16,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q17",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q17: If using NYC 15/15 rental subsidy, does the rental subsidy apply to only the homeless units or could the rental subsidy apply to all the units and NYC 15/15 operating support only apply for the homeless services? A17: Respondents may replace the SARA program\u2019s 30% general population homeless set-aside requirement with a 30% supportive housing set-aside. Such projects may assume service and rental assistance funding through the New York City 15/15 Supportive Housing Initiative or other available funding sources. Rental assistance associated with NYC 15/15 or other supportive housing operating funding should only be applied to the supportive units. Non-supportive units would receive project based Section 8 vouchers.",
+      "kind": "addendum_question",
+      "question": 17,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q18",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q18: Should proposals assume prevailing wage? A18: Yes, the SARA term sheet assumes that project based Section 8 vouchers will be used, which triggers Davis-Bacon prevailing wage requirements.",
+      "kind": "addendum_question",
+      "question": 18,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q19",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q19: Does the supportive set aside have to be senior supportive or any supportive population? A19: For the purposes of the RFP, assume units are restricted to residents 62 years and older.",
+      "kind": "addendum_question",
+      "question": 19,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q20",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q20: Do the age restricted units have to be restricted to 55 or 62? A20: For the purposes of the RFP, assume units are restricted to residents 62 years and older. Design",
+      "kind": "addendum_question",
+      "question": 20,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q21",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q21: Are there any ADA requirements for the units? A21: Submissions must comply with the accessibility requirements laid out in HPD\u2019s Design Guidelines for Multifamily New Construction and Senior Housing, which may include the Americans with Disabilities Act.",
+      "kind": "addendum_question",
+      "question": 21,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add1:Q22",
+      "case": "west169",
+      "source_id": "west169_add1",
+      "pdf_page": 4,
+      "quote": "Q22: How will special inspections be handled for this project? How are they handled on other HPD projects? A22: Special inspections are conducted during construction to verify that work was performed in accordance with approved plans and specifications, and they must be performed by special inspectors on behalf of a registered special inspection agency. Special inspections will not happen prior to construction",
+      "kind": "addendum_question",
+      "question": 22,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add2:Q1",
+      "case": "west169",
+      "source_id": "west169_add2",
+      "pdf_page": 2,
+      "quote": "Q1: Should RFP respondents assume either 4% bond financing or 9% competitive tax credit financing? Is there a preference for one over the other? A1: Respondents may assume either 4% or 9% Low Income Housing Tax Credits (LIHTC), so long as they are able to show that it is realistic and feasible for the proposed project. If proposing to use 9% tax credits, submissions must submit historical letters of interest or award letters for similar projects financed within the past seven years. There is no preference for using either type of tax credit program.",
+      "kind": "addendum_question",
+      "question": 1,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add2:Q2",
+      "case": "west169",
+      "source_id": "west169_add2",
+      "pdf_page": 2,
+      "quote": "Q2: Can we obtain the contour dwg files or any other digital data available? A2: The contour map was made using shapefiles of a planimetric basemap layer containing citywide 2- foot contour line features and is hosted on the NYC Open Data website at this link: https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e. A dwg file is not available of the contour lines.",
+      "kind": "addendum_question",
+      "question": 2,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add3:Q1",
+      "case": "west169",
+      "source_id": "west169_add3",
+      "pdf_page": 2,
+      "quote": "Q1: Is there a particular reason why our real estate attorney must have condominium experience (see page 19 of the RFP)? We don\u2019t plan on having any condo retail/community facility space. Are we missing condominium space as a requirement? A1: The proposed project may include a condominium, but it is not required. The development team\u2019s real estate attorney should have experience with elements that are in the proposed project.",
+      "kind": "addendum_question",
+      "question": 1,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add3:Q2",
+      "case": "west169",
+      "source_id": "west169_add3",
+      "pdf_page": 2,
+      "quote": "Q2: The RFP references an E-4 excel sheet for Commercial Management Experience, if applicable. Where can we find that form? A2: There is no Form e-4 included with the RFP. Commercial management experience can be listed in the format you prefer.",
+      "kind": "addendum_question",
+      "question": 2,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "west169_add3:Q3",
+      "case": "west169",
+      "source_id": "west169_add3",
+      "pdf_page": 2,
+      "quote": "Q3: Will any of the questions submitted by applicants and their answers be posted on the HPD RFP website? th A3: Yes, question that were asked at the 97 West 169 Street RFP pre-submission conference and th questions sent to the 97 West 169 Street RFP e-mail address, along with responses to all questions, are th posted on the webpage for the 97 West 169 Street RFP. Here is a link to the page: https://www1.nyc.gov/site/hpd/developers/request-for-proposals/97-west-169th-street-rfp.page.",
+      "kind": "addendum_question",
+      "question": 3,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:6c841ca9ab13316b",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 22,
+      "quote": "TAB A \u2013 Completeness Checklist and Applicant\u2019s Letter Each Applicant must submit a Completeness Checklist (Form A-1) and Applicant\u2019s Letter (Form A-2). The letter must be printed on the Applicant\u2019s letterhead and signed by an authorized representative of the Applicant.",
+      "kind": "submission_segment",
+      "tab": "A",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:9ad9f22a04959615",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB B \u2013 Proposal Summary and Project Narrative Applicants must complete the Proposal Summary (Form B). The Proposal Summary must be consistent with the rest of the Proposal (e.g. Financing Proposal and Design Narrative).",
+      "kind": "submission_segment",
+      "tab": "B",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:4f6a81d1eb31c1d8",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "In addition, Applicants must include a narrative of one or more pages that describes the Proposal. The narrative must include, at a minimum, the size of the Project, proposed uses, a breakdown of all residential units by type and affordability, the income and rent levels contemplated, the sources and amounts of financing, including any tax exemption assumptions, and a brief description of the most relevant development experience of at least the Principal(s) who would manage the Project.",
+      "kind": "submission_segment",
+      "tab": "B",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:3fc59ce6d740bec8",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB C \u2013 Applicant Description All Applicants must complete the Development Team Information and Applicant Questionnaire (Forms C-1). Applicants that include a not-for-profit organization as a member of the Development Team must also complete the not-for-profit section of the Applicant Description (Form C-2).",
+      "kind": "submission_segment",
+      "tab": "C",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:7447ddafb912fbd8",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "If the Applicant is a joint venture, the Principals of each entity that makes up the joint venture must be identified, and a Principal of each entity must sign the Form.",
+      "kind": "submission_segment",
+      "tab": "C",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:650d17c9afab3469",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "Applicants must include a chart or diagram explaining the intended form and structure of any proposed partnership or joint venture. The structure and percentages of ownership and investment must be included.",
+      "kind": "submission_segment",
+      "tab": "C",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:4621c26f0506c03e",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "Applicants are encouraged to provide resumes describing key members of the Development Team and/or brochures describing the Applicant and any similar projects in which the Applicant has been involved. This information may include information regarding projects that the Applicant has developed in the vicinity of the Development Site or clarification of information provided in the forms included in the Proposal. Provide a staffing plan indicating which Principals and staff members would have primary responsibilities for implementing the Project and their roles in day-to-day management of the Project.",
+      "kind": "submission_segment",
+      "tab": "C",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:47553fcb3ef97ddf",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB D \u2013 Development Experience, Management Experience and Current Workload Each Principal of the Applicant must complete Forms D-1 through D-3. If an individual has no experience, this shall be indicated by including a form marked \u201cNone\u201d. Forms D-1 and D-2 should be submitted as Excel files in original formatting on the flash drive.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:26060af53d687cb1",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "A separate form shall be provided for each Principal with residential management experience. Care should be taken to provide accurate information about references. In addition, a separate form shall be provided for a Principal or managing agent proposed to manage the Development.",
+      "kind": "submission_segment",
+      "tab": "D",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:79d3b0499c2c5f50",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB E \u2013 Assets Statement Each Principal of the Applicant must submit audited or reviewed financial statements describing in detail the Principal\u2019s financial status in the two (2) most recent fiscal years preceding the deadline for the submission of Proposals in response to this RFP. Publicly-owned companies must submit the latest annual report and Form 10K as well as any Form 10Q submitted after such Form 10K. As an alternative, the Assets Statement in Form E may be used.",
+      "kind": "submission_segment",
+      "tab": "E",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:2268070dd4768cfa",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB F \u2013 Development Schedule Applicants must provide a development schedule and phasing plan (if applicable), including benchmarks for commencement and completion of plans and drawings, New York City Department of Buildings plan approval, site preparation, construction commencement and completion, marketing, and occupancy of the Project. In order to complete the timeline, assume at least one (1) year for HPD approvals for pre-development work and ULURP certification.",
+      "kind": "submission_segment",
+      "tab": "F",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:80d31146098e6db2",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 23,
+      "quote": "TAB G \u2013 Design Team Experience & Narrative Applicants must submit design team\u2019s resume, focused on projects in the last ten (10) years, and qualifications detailing applicable residential and mixed-use development experience.",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:70bf98f707258f88",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 24,
+      "quote": "Applicants must provide a detailed narrative description outlining the proposed concept and methodology of the Project and include, among other things, the Applicant\u2019s approach to the Project, critical Project issues and problem solving techniques, primary design objectives of the Project intended to meet the standard of design and construction described throughout this RFP for both the core and shell and the residential units, level of engagement anticipated by the Applicant, and specific high performance and sustainable design opportunities appropriate for this Project. This description should identify:",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:285dbab78febe0f5",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 24,
+      "quote": "\uf0b7 A rationale for the design concept chosen for the Project that includes circulation (private and public), new building configuration and lot coverage, heights, orientation and relationship to surroundings, primary building materials, major architectural features, and sustainable design elements. \uf0b7 Type, location, and total Project square footage (gross and saleable or rentable, including basement(s), if applicable), as well as total square footage breakdown for each use. \uf0b7 Type, number, and characteristics of the residential units, including unit distribution, number of bedrooms, approximate square footages and amenities. \uf0b7 Detailed description of construction methods, foundation type(s), and building systems for all new buildings. \uf0b7 Description and location of all mandatory infrastructure and other public improvements, including public and private open spaces, landscaping, and parking. \uf0b7 If applicable, a general discussion of the rationale for the proposed phasing of the development and how this phasing plan is impacted by the requirements for providing infrastructure and other public improvements. \uf0b7 Description of how development complies with all zoning and other legal requirements..",
+      "kind": "submission_segment",
+      "tab": "G",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:e8d15ebdb8af1dc5",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 24,
+      "quote": "TAB H \u2013 Architectural Submission All plans must be prepared by a Registered Architect or Professional Engineer. All materials must be on paper size of 11\u201d by 17\u201d or smaller and must be easily reproducible. The following must be included:",
+      "kind": "submission_segment",
+      "tab": "H",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:77a8d9115e70bf6c",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 24,
+      "quote": "\uf0b7 Photographs: Photos of the Development Site and the Development Site\u2019s relation to surrounding buildings, streets and open spaces, at least 3\u201d x 5\u201d in size. Photos must be keyed on the area plan outlined below. The photos should be clear enough to be reproducible. \uf0b7 Area Plan: A copy of the most recent Sanborn map of the area; indicate vehicular traffic directions and locations of bus stops in a two-block radius. \uf0b7 Zoning / Unit Distribution: a zoning map for the Development Site, a detailed zoning computation and analysis to demonstrate compliance with existing zoning, and Building Code information indicating occupancy group and construction classification. Also include apartment count and distribution, retail space, community facility space. \uf0b7 Development Site Plan: Clearly legible site plan indicating all components of the Project and other development within one block of the Development Site. It must include walkways, sidewalks, parking, driveways, building access points, tree locations, plant materials, fences, gates, lighting, easements, and encroachments, with dimensions. \uf0b7 Typical and Atypical Floor Plans: It is not required that design and architectural documents submitted include full apartment layouts for the floor plans. Submissions, however, must show blocked out units and clearly indicate all dimensions and total square footages. Community spaces (laundry room, play room, etc.) should be indicated in the floor plans. Unit plans must be 1/8\u201d=1\u20190\u201d. Unit and bedroom dimensions should be computed to the inside of finished surfaces of walls, excluding columns, pipe chases, kitchens, kitchenettes, entryways, and closets. Plans should include a North arrow, actual scale and graphic scale. \uf0b7 Elevations: All elevations of the buildings at the same scale as the plans. Finishes, construction materials, ceiling heights, and floor elevations (level) must be shown and labeled on drawings. Perspective drawings/renderings are optional; however, they must not replace required elevations. Color renderings and/or elevations are appreciated but not required.",
+      "kind": "submission_segment",
+      "tab": "H",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:20754a7c3bc0bdf6",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "\uf0b7 Any other architectural drawings such as axonometric, street frontage elevations, perspective or sectional drawings or computer generated modeling, if they provide a better understanding of the development concept.",
+      "kind": "submission_segment",
+      "tab": "H",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:a66390fa151882cd",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "TAB I\u2013 Sustainability Applicants should provide a concise narrative describing sustainability, active design, and resiliency elements included in their proposal. Applicants should also complete and include the 2011 Enterprise Green Communities Criteria Certification Overlay for NYC HPD Projects (found in Appendix D) in this tab. Applicants should clearly indicate which of the elements are included in their proposal.",
+      "kind": "submission_segment",
+      "tab": "I",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:cc2370c294c856ff",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "TAB J \u2013 Environmental Proposal Applicants must submit a proposal for environmental testing and/or remediation, if applicable. The Developer should select a reputable environmental planning consultant with experience in the preparation of CEQR documents for rezonings (for the St. Ann\u2019s Avenue/East 142nd Street Site).",
+      "kind": "submission_segment",
+      "tab": "J",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:3216f78f820fb098",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "TAB K \u2013 Financing Proposal Applicants must submit a completed Financing Proposal (Form K) in both hard copy and Excel format. Electronic copies of the forms can be downloaded from the HPD website. If portions of the Project are separately financed, the Applicant should provide separate proposals for each portion.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:04967bfb0ae33336",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "All proposals must reflect the rent price affordability calculations, and utility allowances described in Form K. In addition to the minimum affordability requirements described throughout this RFP, any subsidy programs that are utilized will determine additional, if any, required affordability levels.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:f4fd07558f20f885",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "Specific information about the superintendent\u2019s unit(s) should be included, as appropriate, in Form K. If the superintendent is not located onsite, a letter explaining alternative provisions for janitorial services that satisfy the Housing Maintenance Code must be included in this tab.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:9d5e3221764d3bb7",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "In addition to Form K, a narrative description that clearly explains the financing structure of the Project should be included. The narrative must explicitly identify proposed subsidy/financing programs. All proposals must include a primary financing scenario that does not rely on competitive financing sources from Federal, State or City Governments, including but not limited to HDC or HPD 9% Low Income Housing Tax Credits or any other competitive programs offered by HFA, HCR or HPD. The narrative may also include an alternative financing scenario for proposals that incorporate the use of competitively allocated funds, such as 9% Low Income Housing Tax Credits and NYS Housing Trust Fund subsidies, among others.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:f5b2622c5a428d93",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "Units must remain in the rent regulation system for the duration of the Project, but in no case less than thirty (30) years. The Developer may submit a proposal to extend the affordability period for an additional number of years in this Tab. Preference will be given to Proposals with a feasible plan.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:89e2ff9197715e75",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "Market comparables, in the form of detailed rental listings of at least three properties/projects within less than a mile of the Site and with similar operations, must be provided. Applicants must provide detailed market comparable for all underwritten income assumptions.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:4d9c6a8dbb1b61dc",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "The plans and costs for ongoing maintenance of open space(s) must be included in the narrative and budget.",
+      "kind": "submission_segment",
+      "tab": "K",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:3f56cced0759f736",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 25,
+      "quote": "TAB L \u2013 Financing Letters of Interest Private and Public Funds Private Financing \u2013 If private financing is proposed, a letter or letters of interest from a private lender or lenders must be included. Letters must be dated no earlier than two (2) months from the date of submission of the Developer\u2019s proposal. The letter(s) must indicate a willingness to provide construction and permanent financing in amounts and with terms consistent with the proposal, and must include the following:",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:75259f6cffe5e294",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "\uf0b7 The amount of financing that the lender would consider based on the lender\u2019s preliminary determination of feasibility, based on expected development costs, and rent levels; and \uf0b7 The interest rate (fixed or variable), the equity requirement, applicable fees, and other terms under which the lender would provide construction financing.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:41faa37527e473b9",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "Permanent Loan \uf0b7 The amount of financing that the lender would consider based on the lender\u2019s preliminary determination of feasibility, based on expected development costs and rent levels; and \uf0b7 The interest rate (fixed or variable), the equity requirement, applicable fees, and other terms under which the lender would provide permanent financing; and \uf0b7 The maximum loan to value ratio and other underwriting criteria, including treatment of rental income, minimum maintenance and operating expenses, and debt service coverage requirements.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:2e24f8c48f8ee7b7",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "The letters must be provided on the lender's letterhead, signed by a representative of the lender, and must state the amount and terms of the financing. Applicants may use different private lenders for construction and permanent financing.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:4a44b5946d37d82c",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "Public Financing If HDC bond financing is proposed, a letter of interest from HDC is NOT required. However, a letter of interest from a credit enhancer acceptable to HDC must be provided and must include underlying credit terms including, as applicable, the amount of the proposed letter of credit, the terms of agreement, applicable fees and any other conditions.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:092aaabd88e556ea",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "If the use of public funds from sources other than HPD or HDC is proposed, a written indication of interest (e.g. a letter of interest, a commitment letter or an award letter) dated no earlier than two (2) months from the date of submission of the Developer\u2019s proposal, must be included. Each letter must be on the organization\u2019s letterhead and signed by a representative of that organization.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:85099873c3a7f189",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "Competitive Sources Any Proposal that includes funding or financing that is awarded on a separate competitive basis must submit an alternative scenario using non-competitively awarded sources and must provide appropriate letters of interest from those sources.",
+      "kind": "submission_segment",
+      "tab": "L",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:ac81132a0d51f1cd",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "TAB M \u2013 Commercial/Retail and Community Facility Plan & Experience (if applicable) Proposals must provide a Plan for Commercial use and Community Facility use, if applicable. Site planning, building arrangement, building systems, interior layouts, building materials, amenities, and streetscape treatment will be considered. All Proposals must include a narrative that describes, at a minimum, the business attraction and retention strategy and the management/operations plan, which is feasible and responsive to the community\u2019s needs. The Plan must specify use and services to be provided, staffing and/or partners who will provide the services, operating budget and funding sources. A letter or letters of interest from prospective Commercial or Community Facility tenants must be provided. If private financing is proposed, a letter or letters of interest from a private lender or lenders must be included. Developers should also describe their prior experience operating projects with Commercial or Community Facility Uses in comparable markets. Identify the neighborhoods, square footage, and key highlights of the tenant mix.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:172a6e8842d5851f",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "Market comparables, in the form of detailed rental listings of at least three retail spaces within less than a mile of the Site or a comparable retail location with similar retailer types, must be provided. If the Proposal includes a retailer not currently found in the area, provide estimated rents that can be feasibly achieved at the Site.",
+      "kind": "submission_segment",
+      "tab": "M",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:413f41a5bc1f9665",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 26,
+      "quote": "TAB N \u2013 Marketing Plan Applicants must provide a marketing plan for the lease-up and/or sales of all affordable housing units. The marketing plan should include information about the anticipated target markets of the Project; pricing structures and amenities; community outreach strategy; and other relevant information. The strength of the marketing plan to affirmatively further fair housing will be evaluated.",
+      "kind": "submission_segment",
+      "tab": "N",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_rfp:272106f91d12d7d4",
+      "case": "stanns",
+      "source_id": "stanns_rfp",
+      "pdf_page": 27,
+      "quote": "See http://portal.hud.gov/hudportal/HUD?src=/program_offices/fair_housing_equal_opp/promotingfh for more information. The marketing plan must comply with the HPD-HDC Marketing Guidelines (Appendix E).",
+      "kind": "submission_segment",
+      "tab": "N",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q1",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q1: Will HPD consider proposals with a homeownership component? A1: HPD is open to reviewing proposals that include a homeownership component. They should include a primary financing scenario that does not rely on competitive sources. HPD is open to looking at creative solutions if there is a feasible way to finance the development. We do acknowledge that our term sheets are geared towards rental programs.",
+      "kind": "addendum_question",
+      "question": 1,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q2",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q2: Would HPD permit micro units on the site? A2: No, micro units are not permitted on the site. The unit mix should serve the residents of the neighborhood, including the families.",
+      "kind": "addendum_question",
+      "question": 2,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q3",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q3: Will HPD consider proposals with supportive housing? A3: Yes, HPD is open to reviewing proposals that include a supportive housing component. They should include a primary financing scenario that does not rely on competitive sources.",
+      "kind": "addendum_question",
+      "question": 3,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q4",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q4: If the developer acquires the adjacent lots 21 and 22, what is the expected AMI mix? A4: HPD expects the proposed project to be 100% affordable. The development needs to be consistent with the neighborhood and its needs, and conform to HPD/HDC term sheets. Land Use/Environment",
+      "kind": "addendum_question",
+      "question": 4,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q5",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q5: How long does the ULURP process take? A5: The ULURP process takes approximately 7 months. Prior to the start of ULURP, the designated developer works with HPD to prepare the submission. The pre-ULURP process can take several months.",
+      "kind": "addendum_question",
+      "question": 5,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q6",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q6: Why is the site being rezoned to R7A and not, for example, R9? A6: The area is mostly in an R6 district. There are some R7 zones in the area. We want to add density that is consistent with the area and R9 is out of context for the neighborhood.",
+      "kind": "addendum_question",
+      "question": 6,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q7",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q7: Is the change to R7A just for the block front or the whole block? Does the R7A only affect St. Ann\u2019s Avenue or does it wrap around the corner? A7: The rezoning is most likely for the block front and not the full block. For the purposes of the RFP submission, assume that the rezoning district wraps around the corner for all the city- owned lots.",
+      "kind": "addendum_question",
+      "question": 7,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q8",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 2,
+      "quote": "Q8: Do you have soil borings for the site? A8: No, we do not have soil borings. The selected developer conducts the testing and environmental work after designation.",
+      "kind": "addendum_question",
+      "question": 8,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q9",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q9: What was the former use on the site? Was any environmental work done? A9: We are not sure of the original use. It was not an urban renewal site. No environmental work has been conducted by the city.",
+      "kind": "addendum_question",
+      "question": 9,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q10",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q10: What is the building across the street from the site? A10: 350 St. Ann\u2019s Avenue is an eight-story building with 191units built in 1985 using the Federal Section 8 program.",
+      "kind": "addendum_question",
+      "question": 10,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q11",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q11: Who owns the adjacent lots 21 and 22? A11: Those lots are privately owned. According to NYC records, the owner of Lot 21 is E. Hancok Realty Corp. and the owner of Lot 22 is 1432 St. Nicholas Avenue, LLC.",
+      "kind": "addendum_question",
+      "question": 11,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q12",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q12: Do you encourage developers to acquire lots 21 and 22 for a larger development? A12: HPD will review proposals that include private assemblages. Our goal is to maximize affordable housing.",
+      "kind": "addendum_question",
+      "question": 12,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q13",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q13: What are the dimensions of the site? A13: The area of the development site is approximately 24,146 square feet. The length fronting St. Ann\u2019s Avenue is approximately 200 feet and the length fronting E. 142nd Street is approximately 140 square feet. The lot line adjacent to the church is approximately 100 feet in length.",
+      "kind": "addendum_question",
+      "question": 13,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q14",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q14: Is commercial space and a commercial plan required or a preference? A14: Commercial and community facility space on the ground floor is not required, but it is preferred. Development Experience",
+      "kind": "addendum_question",
+      "question": 14,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q15",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q15: The RFP indicates that Applicants must have experience with at least one new construction development with a minimum of 70 units. Are you flexible on the minimum number of units? A15: We would like to see teams that are capable and experienced and have the track record that we can rely on to know that these units will be developed. To that end, if you have experience that does not exactly match the criteria, you may put together a summary of your experience and justify that you are an experienced team. Design",
+      "kind": "addendum_question",
+      "question": 15,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q16",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 3,
+      "quote": "Q16: What is the minimum ceiling height for the ground floor? A16: HPD is currently working with the Design Trust for Public Space to develop Design Guidelines for Neighborhood Retail. Since those guidelines have not yet been released, HPD encourages developers to use a slightly revised version of the Livonia Phase II guidelines. The minimum ground floor-to-floor height should be 14\u2019 6\u201d and the minimum floor-to-finished ceiling height should be 12\u2019.",
+      "kind": "addendum_question",
+      "question": 16,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q17",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 4,
+      "quote": "Q17: Has the community board and have public officials weighed in on the income levels and ground-floor uses? A17: The community board and elected officials have been briefed on the RFP. Income levels should reflect the neighborhood and its needs. Community boards in the South Bronx have typically said what they do not want for ground floor uses (e.g. additional donut shops, nail salons, etc.). The community board wants to preserve existing mom and pop stores, while upgrading the neighborhood with larger, more diverse stores.",
+      "kind": "addendum_question",
+      "question": 17,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q18",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 4,
+      "quote": "Q18: On page 21 of the RFP it references the need for a financing proposal for each design? Do I need to make multiple submissions? A18: Please disregard. This is from a former multi-site RFP.",
+      "kind": "addendum_question",
+      "question": 18,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q19",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 4,
+      "quote": "Q19: Is the pre-submission conference mandatory? A19: No, attending the pre-submission conference is not mandatory to submit a proposal.",
+      "kind": "addendum_question",
+      "question": 19,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add1:Q20",
+      "case": "stanns",
+      "source_id": "stanns_add1",
+      "pdf_page": 4,
+      "quote": "Q20: Is it a requirement that the project have hard debt? There was mention of having to include LOIs from potential lenders, but it wasn\u2019t exactly clear if that meant a potential project had to have hard debt as part of its financing? A20: No, it is not a requirement that a project have hard debt (ie. permanent first mortgage).",
+      "kind": "addendum_question",
+      "question": 20,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q1",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q1: Can I include the 80% AMI units in the units that receive $65,000/du in subsidy from HPD and HDC in the ELLA term sheets? A1: Yes, the 80% AMI units are eligible for subsidy.",
+      "kind": "addendum_question",
+      "question": 1,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q2",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q2: Is the developer's fee calculated on the entire project or only on the portion that is being financed by tax credits? A2: In regards to HPD's Mix & Match program, the developer\u2019s fee can be calculated on the entire project or it may be sized based on the tax credit units.",
+      "kind": "addendum_question",
+      "question": 2,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q3",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q3: If we propose HDC's M2 financing, which includes a 2nd mortgage subsidy in addition to HPD's Mix and Match 2nd mortgage subsidy, is the total amount of subsidy for each program based on the total number of units in a proposed project or will it be split 50/50 along HDC/HPD program financing? A3: The M2 program and Mix/Match program are separate financing programs and cannot be combined. M2 is both an HPD and HDC program, as is Mix/Match. The amount of subsidy in the Term Sheet is per unit and the same for HPD and HDC. For example, if a term sheet says $85k per du max, then it's $85k max per DU from HDC, as well as $85k max per DU from HPD across all units. However, projects do not automatically receive the maximum. Subsidy assumptions are a competitive factor in the RFP selection process.",
+      "kind": "addendum_question",
+      "question": 3,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q4",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q4: Does HPD expect the project to be constructed on a prevailing wage basis or not? A4: If funding sources trigger prevailing wage (such as Davis Bacon), then prevailing wage should be assumed. Otherwise, HPD is not assuming prevailing wage for this project.",
+      "kind": "addendum_question",
+      "question": 4,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q5",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q5: HUD recently released the 2015 LIHTC Income and Rent Limits which are effective 3/6/2015. This new guidance reflects NYC AMI for a family of 4 to be $86,300 instead of $83,900. Should the final underwriting for the project reflect this change or should we keep using the 2014 income and rent limits? A5: Please use the 2015 Income and Rent limits found at the end of this Addendum.",
+      "kind": "addendum_question",
+      "question": 5,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q6",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 2,
+      "quote": "Q6: Is it possible to propose a modified LAMP structure by letting rents for 20% of the units float or rise to 80% as the units become available after year 15? Please advise. A6: No, please use the recent ELLA term sheet available on our website. The LAMP program does not exist anymore.",
+      "kind": "addendum_question",
+      "question": 6,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q7",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q7: The addendum notes that the city will consider proposals with supportive units but that the primary financing should not consider competitive sources. Can you clarify what this means as it pertains to supportive housing? Are contracts from OMH, DOHMH, etc. considered competitive sources? A7: Service contracts for supportive housing are not considered competitive funding sources.",
+      "kind": "addendum_question",
+      "question": 7,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q8",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q8: This question is regarding the developer\u2019s fee allowed under HDC's Mixed Middle financing. Since the project we are proposing has only 25% LIHTC units, is the fee based on the total project or only on that portion that is LIHTC? Does the same apply to the deferred developer's fee paid out of cash flow during permanent financing? A8: For HDC\u2019s M2 program, the developer fee can be calculated on the entire project or it may be sized based on the tax credit units. However, the developer fee will need to be paid by a source other than HDC or HPD financing.",
+      "kind": "addendum_question",
+      "question": 8,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q9",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q9: Does the 10% equity required under HDC's Mixed Middle financing program include equity raised from LIHTC or does this represent the developer's cash equity only? A9: The 10% equity requirement can include the equity raised from LIHTCs.",
+      "kind": "addendum_question",
+      "question": 9,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q10",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q10: We are putting in an application on St. Ann\u2019s and have been approached by another developer to be on their application as the Management company of the development. Is this allowed? A10: Yes, as long your organization has an ownership stake in only one submitted proposal.",
+      "kind": "addendum_question",
+      "question": 10,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q11",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q11: I\u2019m aware that the preference is for a managing agent to have managed at least 70 units in NYC within the last seven years. My company manages over 10K units in other parts of the country and expects to be managing a project in the city prior to construction completion of the St. Ann\u2019s project if chosen. As we\u2019d have NYC management experience before lease up (though not before submission of a proposal) might there be some flexibility around this requirement? A11: There is no flexibility around this requirement. HPD will only evaluate information that is current at the time of submission.",
+      "kind": "addendum_question",
+      "question": 11,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q12",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q12: The RFP states that the selected developer is responsible for assembling a team including a GC. Is having a GC identified necessary for the proposal? A12: Yes, having a General Contractor identified is necessary for the proposal.",
+      "kind": "addendum_question",
+      "question": 12,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q13",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 3,
+      "quote": "Q13: Do we need to actually bind the documents together or would a 3 ring binder be sufficient as we did in the past for other proposals? A13: A 3-ring binder is preferred.",
+      "kind": "addendum_question",
+      "question": 13,
+      "tab": "",
+      "optional_context": false
+    },
+    {
+      "id": "stanns_add2:Q14",
+      "case": "stanns",
+      "source_id": "stanns_add2",
+      "pdf_page": 4,
+      "quote": "Q14: Will Enterprise Green Communities certification be required as part of the application or once the developer is selected? A14: The Enterprise Green Communities certification is required once the developer is selected. The Submission in the RFP (Tab I) is to give HPD an understanding of how the team will achieve the certification.",
+      "kind": "addendum_question",
+      "question": 14,
+      "tab": "",
+      "optional_context": false
+    }
+  ]
+}
