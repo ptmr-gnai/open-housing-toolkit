@@ -1,0 +1,30 @@
+{
+  "page_id": "page_ea60ca13bcf881918aa9ae2eb4b6b73d",
+  "url": "https://chatgpt.com/space/page_ea60ca13bcf881918aa9ae2eb4b6b73d",
+  "bundle": {
+    "page_id": "page_ea60ca13bcf881918aa9ae2eb4b6b73d",
+    "reference": "library-file:fde1_bGliZmlsZV9CX2VNd3cxc3I3TjdJVmJnWERfNDBR_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+    "file_name": "housing-assumptions-review-and-backtest-5141b17e4aef4c01a6a47bec96ac5be3.zip",
+    "mime_type": "application/zip",
+    "byte_size": 2756229,
+    "sha256": "cf76d8a400a51e9e7988e892a8ac5e2af00a4e0a8473092c5720f87d4da09476",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[Assumptions review sources and backtest preparation](library-file:fde1_bGliZmlsZV9CX2VNd3cxc3I3TjdJVmJnWERfNDBR_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  },
+  "agent_review": {
+    "page_id": "page_ea60ca13bcf881918aa9ae2eb4b6b73d",
+    "reference": "library-file:fde1_bGliZmlsZV92dHdUd1UwNXNIYXlaT0ZseUNpb2Rn_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+    "file_name": "agent-assumptions-review-307cdeda49e44f4d9d200291d06b0dd3.md",
+    "mime_type": "text/markdown",
+    "byte_size": 17663,
+    "sha256": "11596871038c22ce7f808bcd1864b0614c24f1a1a02723dce370a8eaac525b98",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[Full fresh agent assumptions review](library-file:fde1_bGliZmlsZV92dHdUd1UwNXNIYXlaT0ZseUNpb2Rn_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  }
+}

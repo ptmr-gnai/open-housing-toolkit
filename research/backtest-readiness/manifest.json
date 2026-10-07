@@ -1,0 +1,32 @@
+{
+  "files": {
+    "cache/dob_bis_2028710002.body": "02b874a59e8e922e37518130c0c58f7ae9291dcf5b0a99f4802723c051b0724b",
+    "cache/dob_bis_2028710002.source.json": "9f2d30c5e869e59d65256c05a40e324343349d713505b14d8969c8c707e916fe",
+    "research/backtest-readiness/README.md": "c06cdcdebb3a6df4977982a5290ea5a681ee05e69cb22d0670f272f5b5180748",
+    "research/backtest-readiness/cache/cpc_425_map.pdf": "5799e2eefb49aad92a8840a5a15caff964af90c1965ba4d211b7ed5aa023f970",
+    "research/backtest-readiness/cache/cpc_425_map.pdfinfo": "0ef95985e5b73d401499a7832254b060656fce99a1b4dc09af0e5c34f631e4e1",
+    "research/backtest-readiness/cache/cpc_425_map.text": "556d88df8bcc4e99bc3924f938bc97e289c190bcb33da072e32bda382b0b9f7e",
+    "research/backtest-readiness/cache/cpc_425_text.pdf": "85bd2504d4b40d4b0b180e09911a71c429854207e20c45b93f3699df057bcaf6",
+    "research/backtest-readiness/cache/cpc_425_text.pdfinfo": "df68f0b78783e18e7364bd1cb32af0bc50ff1f768d097b70e19cd47e94e3ec9f",
+    "research/backtest-readiness/cache/cpc_425_text.text": "28ba370e2e6408d100236d53b22b0dab33492d8d19990244ae88598c279fc65d",
+    "research/backtest-readiness/cache/hdc_425_opening.body": "39c5c24bd4ee0a4cfb535363a819ed00455cf71dab5cb0c4c23b7a53a4e5ff37",
+    "research/backtest-readiness/cache/hdc_425_opening.text": "b7eca18d1b06c5cbdaa32c36576a6f74133d419894e89c93ca87b6f161711e63",
+    "research/backtest-readiness/cache/hpd_425_selection.body": "46e59469116b6a580c89d8c07b1b9061ce70190ee969b98fd5a573e26bdfec9e",
+    "research/backtest-readiness/cache/hpd_425_selection.text": "182e8cbd25588ad9833b6eb419b3f3a4ad50c7a874e0eb8d04c96ee96c848ca0",
+    "research/backtest-readiness/cache/nyserda_425.body": "18d4b4a436519e564771e6f839eaca4e841d19e39e98de6c16000c34e25eb3a4",
+    "research/backtest-readiness/cache/nyserda_425.text": "c9d1d2d701491a57bd41874f2c0c4e6c6e06a19fc988f5d0d0c4f05e3dcc190f",
+    "research/backtest-readiness/cache/uli_425_case_page.body": "8d57973cea63d783d3b6b1bbbaa7f744a81c149ab698273645d52284c19b7caa",
+    "research/backtest-readiness/cache/uli_425_case_page.text": "5ef73430e9c4e25d5ddc44cd47dbf86dec4d24327be164d1eac6efb9ee1acac8",
+    "research/backtest-readiness/cache/uli_425_publisher.body": "ae2a050cd21c60b644667ad65e095af76408f0ec819e7c491426a3dec3ac8b85",
+    "research/backtest-readiness/cache/uli_425_publisher.text": "252b1e63528391cf06adf82d69ca70572d7966e6865316fb822fc4e0a7fa1ed3",
+    "research/backtest-readiness/cache/wsfssh_fischer.body": "2bc9ca21a13c27e52944cbd3f5ed50258c8bb20cbf86dc495d8aa2dd6231765f",
+    "research/backtest-readiness/cache/wsfssh_fischer.text": "b123a63964c9c0ce9333e9dd17ab3d788bb0a8707d1bef2cdd2ed7fcb689c300",
+    "research/backtest-readiness/receipts.json": "1bf381eba0c852a9530ff2164b4d530646622608b7bcc39faedb6773b5747bca",
+    "research/backtest-readiness/report.md": "cd1d68e77fc46fd73a2750876d27394519d743bd1b420c67107e7d0bcd982f3d",
+    "research/backtest-readiness/review-disposition.json": "1475828d7085513c85d0b0625821ffde4a35fc5a6b75fa96744bf318b37d650f",
+    "research/backtest-readiness/validate.py": "e1a642d5f9031286eb13d13d47879250ad86aa5a7e27c828bc4c5a84e2ee9587",
+    "research/conclusion-probe/outputs/baseline.json": "f47a3ebd98a8f3736df1c71e94ad3aafd3b0a071c335ff64a326e4436386aff4",
+    "research/conclusion-probe/reviews/agent-assumptions-review.md": "11596871038c22ce7f808bcd1864b0614c24f1a1a02723dce370a8eaac525b98"
+  },
+  "scope": "review and later reference evidence; not a blind backtest"
+}

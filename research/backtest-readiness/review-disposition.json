@@ -1,0 +1,65 @@
+{
+  "review_kind": "fresh-context AI; not human expert acceptance",
+  "reviewed_packet_basis": "b8ffcb5015f72249c14e61a2a78897d4c8a88c4a113e3dc563c167a51e5302ab",
+  "disposition": "revise before using as a preferred-action or capacity/finance benchmark",
+  "frozen_outputs": "preserved",
+  "findings": [
+    {
+      "id": "omitted_historical_housing_signal",
+      "status": "verified in cached source; current lawful use unresolved",
+      "evidence": {
+        "file": "cache/dob_bis_2028710002.body",
+        "sha256": "02b874a59e8e922e37518130c0c58f7ae9291dcf5b0a99f4802723c051b0724b",
+        "row": 7,
+        "exact_record": {
+          "job__": "200774199",
+          "doc__": "02",
+          "job_type": "A2",
+          "job_status_descrp": "SIGNED OFF",
+          "pre__filing_date": "02/13/2003",
+          "latest_action_date": "10/18/2004",
+          "signoff_date": "10/18/2004",
+          "proposed_dwelling_units": "9",
+          "job_description": "HEREWITH FILING FOR MODIFICATIONS TO PLU  MBING AND MECHANICAL SYSTEMS A INDICATED ON PLANS.  NO CHANGE IN USE, E  GRESS, OR OCCUPANCY.",
+          "block": "02871",
+          "lot": "00002",
+          "bin__": "2008638",
+          "bbl": "2028710002",
+          "house__": "1240",
+          "street_name": "EDWARD L GRANT HIGHWAY",
+          "owner_s_business_name": "1240-50 PARKING LLC"
+        }
+      },
+      "interpretation": "Historical proposed units differ semantically from recorded current units; reconcile without overwriting either."
+    },
+    {
+      "id": "unfunded_baseline_capital",
+      "status": "verified arithmetic; capital commitments absent",
+      "calculation": {
+        "baseline_non_debt_capital": 45965346.7,
+        "additional_non_debt_capital": 45651124.19742605,
+        "total_non_debt_capital_under_fixed_assumed_loan_and_rent": 91616470.89742605,
+        "formula": "ex_land_cost - illustrative_loan + additional_non_debt_capital"
+      },
+      "inputs": [
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.additional_non_debt_capital"
+      ],
+      "interpretation": "The extra-gap Boolean cannot mean full finance closure."
+    },
+    {
+      "id": "priority_not_compared",
+      "status": "verified implementation; superiority untested",
+      "interpretation": "Occupancy-first is pinned author policy; no cost/time/value-of-information comparison establishes best first task."
+    },
+    {
+      "id": "geometry_not_fit",
+      "status": "acknowledged modeling boundary",
+      "interpretation": "Recorded FAR and area allocation do not fit a legal/physical envelope, unit mix, or retained community/commercial use."
+    }
+  ],
+  "next_case": "425 Grand Concourse as openly known reference/calibration case; not an untouched blind holdout",
+  "backtest_executed_in_this_slice": false,
+  "human_review": "pending"
+}

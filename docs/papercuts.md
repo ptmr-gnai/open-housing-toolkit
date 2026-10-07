@@ -185,3 +185,20 @@ expected responses are observed. These counts establish scoped software behavior
 not completeness, site-selection quality, feasibility or practitioner utility.
 Contradiction handling requires already-linked structured assertions. Exact quotes
 and reproducibility still do not prove semantic entailment or professional judgment.
+
+## Fresh agent assumptions review and real-project reference — 7 October 2026
+
+| Papercut | Actual evidence | Response |
+| --- | --- | --- |
+| Selected passages omit a real housing signal | Cached DOB row 7 reports nine proposed units in a 2003 filing, signed off 2004 | Record as heterogeneous historical evidence; reconcile job/CO/use history without replacing PLUTO zero |
+| Graph connection mistaken for a decision influence | Occupancy-first policy remains fixed when finance changes | Compare action cost/time/stop conditions; distinguish dependencies from an evaluated priority policy |
+| Additional capital displayed without baseline contribution | Baseline non-debt $45.965m plus extra $45.651m | Expose $91.616m modeled total non-debt need; no full finance-closure interpretation |
+| Same project has changing plan counts | 425 Grand Concourse 241 at selection, 277 at opening | Compare dated stages; do not reward matching delivered counts |
+| Cost figures appear contradictory | NYSERDA Project Cost $121.943m vs HDC development $178m | Reconcile cost scope/dollar year before grading or calibration |
+| Case endpoint returns login shell with HTTP 200 | ULI Knowledge Finder redirect/sign-in content | Mark no substantive case retrieval; do not promote finance table from shell |
+| Public PDF retrieval fails | Government-hosted ULI mirror returns 403 | Retain failure; complete verified sources-and-uses remains unknown |
+| AI replay counted as independent professional review | Fresh-context AI performs replay and critique in shared environment | Separate useful agent criticism from pending unfamiliar-human/professional acceptance |
+
+Original experiment and known-control results are preserved. New primary references
+are later reveal/calibration material, not historical analyst inputs. No new blind
+backtest, private underwriting reconstruction or practitioner acceptance occurred.
