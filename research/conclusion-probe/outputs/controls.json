@@ -1,0 +1,356 @@
+[
+  {
+    "diff": {
+      "after_disposition": "investigate_current_uses_and_leases",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [],
+      "dependent_claims_requiring_recheck": [],
+      "prior_judgment_basis": "matches"
+    },
+    "disposition": "investigate_current_uses_and_leases",
+    "expected": "investigate_current_uses_and_leases",
+    "expected_response_observed": true,
+    "id": "baseline",
+    "metrics": {
+      "additional_non_debt_capital": 45651124.19742605,
+      "debt_support_rent_month": 3869.141969914323,
+      "ex_land_cost": 131329562.00000003,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": true,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": false
+  },
+  {
+    "diff": {
+      "after_disposition": "investigate_current_uses_and_leases",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "assumption.hard_cost_per_gsf",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.target_noi"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "assumption.hard_cost_per_gsf",
+        "conclusion.next_step",
+        "finance.model_gap",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.target_noi"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "investigate_current_uses_and_leases",
+    "expected": "finance_recomputes_occupancy_stays_open",
+    "expected_response_observed": true,
+    "id": "higher_cost",
+    "metrics": {
+      "additional_non_debt_capital": 88333231.84742603,
+      "debt_support_rent_month": 5803.712954871483,
+      "ex_land_cost": 196994343.0,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": true,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "investigate_current_uses_and_leases",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "assumption.hard_cost_per_gsf",
+        "finance.model_gap",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.target_noi"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "assumption.hard_cost_per_gsf",
+        "conclusion.next_step",
+        "finance.model_gap",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.target_noi"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "investigate_current_uses_and_leases",
+    "expected": "finance_gap_closes_occupancy_stays_open",
+    "expected_response_observed": true,
+    "id": "lower_cost",
+    "metrics": {
+      "additional_non_debt_capital": 0,
+      "debt_support_rent_month": 1547.656787965729,
+      "ex_land_cost": 52531824.800000004,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": true,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "investigate_current_uses_and_leases",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "lot.2028710002.lotarea",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.gross_sf",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.net_sf",
+        "scenario.2028710002.A.rent_supported_debt",
+        "scenario.2028710002.A.rent_test_noi",
+        "scenario.2028710002.A.target_noi",
+        "scenario.2028710002.A.units",
+        "scenario.2028710002.A.zoning_area_proxy_sf"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "conclusion.next_step",
+        "finance.model_gap",
+        "lot.2028710002.lotarea",
+        "scenario.2028710002.A.additional_non_debt_capital",
+        "scenario.2028710002.A.annual_debt_service",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.gross_sf",
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.net_sf",
+        "scenario.2028710002.A.rent_supported_debt",
+        "scenario.2028710002.A.rent_test_noi",
+        "scenario.2028710002.A.target_noi",
+        "scenario.2028710002.A.units",
+        "scenario.2028710002.A.zoning_area_proxy_sf"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "investigate_current_uses_and_leases",
+    "expected": "geometry_recomputes_judgment_stales",
+    "expected_response_observed": true,
+    "id": "smaller_lot",
+    "metrics": {
+      "additional_non_debt_capital": 36491590.80362158,
+      "debt_support_rent_month": 3865.575940448964,
+      "ex_land_cost": 105063649.60000001,
+      "gross_sf": 230909.12,
+      "units": 217
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": true,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "reassess_resident_impacts_before_design",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "reassess_resident_impacts_before_design",
+    "expected": "resident_impacts_reassessment",
+    "expected_response_observed": true,
+    "id": "positive_units",
+    "metrics": {
+      "additional_non_debt_capital": 45651124.19742605,
+      "debt_support_rent_month": 3869.141969914323,
+      "ex_land_cost": 131329562.00000003,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": true,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "hold_for_source_reconciliation",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "hold_for_source_reconciliation",
+    "expected": "hold_for_source_reconciliation",
+    "expected_response_observed": true,
+    "id": "contradictory_units",
+    "metrics": {
+      "additional_non_debt_capital": 45651124.19742605,
+      "debt_support_rent_month": 3869.141969914323,
+      "ex_land_cost": 131329562.00000003,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": false,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "hold_for_temporal_reconciliation",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "conclusion.next_step",
+        "lot.2028710002.unitsres",
+        "resident.recorded_units"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "hold_for_temporal_reconciliation",
+    "expected": "hold_for_temporal_reconciliation",
+    "expected_response_observed": true,
+    "id": "different_vintage_units",
+    "metrics": {
+      "additional_non_debt_capital": 45651124.19742605,
+      "debt_support_rent_month": 3869.141969914323,
+      "ex_land_cost": 131329562.00000003,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": false,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "error": "Required gate inventory differs from pinned policy",
+    "expected": "reject_missing_decisive_requirement",
+    "expected_response_observed": true,
+    "id": "missing_occupancy_gate",
+    "status": "rejected",
+    "synthetic_control": true
+  },
+  {
+    "error": "Required gate inventory differs from pinned policy",
+    "expected": "reject_missing_decisive_requirement",
+    "expected_response_observed": true,
+    "id": "missing_finance_gate",
+    "status": "rejected",
+    "synthetic_control": true
+  },
+  {
+    "diff": {
+      "after_disposition": "hold_for_missing_evidence",
+      "before_disposition": "investigate_current_uses_and_leases",
+      "changed_values_or_states": [
+        "conclusion.next_step",
+        "history.3.job_description"
+      ],
+      "dependent_claims_requiring_recheck": [
+        "conclusion.next_step",
+        "history.3.job_description",
+        "judgment.investigation_priority"
+      ],
+      "prior_judgment_basis": "stale"
+    },
+    "disposition": "hold_for_missing_evidence",
+    "expected": "hold_for_missing_evidence",
+    "expected_response_observed": true,
+    "id": "missing_historical_passage",
+    "metrics": {
+      "additional_non_debt_capital": 45651124.19742605,
+      "debt_support_rent_month": 3869.141969914323,
+      "ex_land_cost": 131329562.00000003,
+      "gross_sf": 288636.4,
+      "units": 271
+    },
+    "release": {
+      "acquisition_or_design_clearance": false,
+      "challenge_pack": true,
+      "investigation_conclusion": false,
+      "professional_review": "pending",
+      "unfamiliar_human_reproduction_and_challenge": "pending"
+    },
+    "status": "evaluated",
+    "synthetic_control": true
+  },
+  {
+    "error": "Source cache hash mismatch: cache/pluto_universe.body",
+    "expected": "reject_source_integrity",
+    "expected_response_observed": true,
+    "id": "unreceipted_source_change",
+    "status": "rejected",
+    "synthetic_control": true
+  }
+]

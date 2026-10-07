@@ -163,3 +163,25 @@ The original assessment and its fingerprints remain unchanged.
 independent semantic review was supplied. Original analyst and eligibility artifacts
 remain unchanged; the joined export delegates the old generic coverage placeholder
 to this component while retaining eligibility blockers.
+
+## One conclusion end to end — 7 October 2026
+
+| Papercut | Observed behavior | Engineering response |
+| --- | --- | --- |
+| BBL strings contain decimal formatting | Synthetic mutation initially could not locate PLUTO's BBL with literal string equality | Reuse explicit BBL normalization; require unique fixed-site match |
+| Environmental flags are actual Booleans | Numeric equality logic initially rejected true air/noise flags | Preserve Boolean facts; reject Boolean numerical assumptions separately |
+| Hash checks alone do not describe semantic impact | A properly receipted revision can change the analysis basis | Show dependent claim changes and stale judgment fingerprint; preserve old snapshot |
+| Failed-status receipt can bypass a successful-source hash branch | Controlled failed-status variant | Require successful status and matching digest for all four decisive source inputs |
+| New receipt could masquerade as a real refresh | Synthetic revision with updated content hash | Require explicit synthetic lineage in this probe; reject actual relabeling |
+| Different vintage treated as direct contradiction | Synthetic competing unit records with 26v2 versus 25v1 | Separate temporal reconciliation from same-context conflicting values; neither clears facts |
+| Caller deletes a requirement and its graph edge | Occupancy/finance omission controls | Check independently pinned authored inventory, including graph reachability; no automatic unknown-requirement discovery claim |
+| Model finance improvement overstates site readiness | $140/sf control closes modeled additional debt-support gap | Keep occupancy and all professional checks unknown; design/acquisition export exits 2 |
+| Changed assumptions retain an old filename locator | A copied config differs from repository probe.json | Bind assumptions to the embedded config and its fingerprint |
+| Self-replay mistaken for unfamiliar review | Clean extraction is performed by the same author | Publish reproduction/challenge protocol and pending reviewer form; independent human test remains open |
+
+The experiment uses one fixed site, four source families and a 73-claim dependency
+closure. Eleven precommitted cases include baseline and ten known controls; all
+expected responses are observed. These counts establish scoped software behavior,
+not completeness, site-selection quality, feasibility or practitioner utility.
+Contradiction handling requires already-linked structured assertions. Exact quotes
+and reproducibility still do not prove semantic entailment or professional judgment.

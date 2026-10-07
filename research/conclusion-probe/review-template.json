@@ -1,0 +1,17 @@
+{
+  "status": "pending",
+  "reviewer_name": null,
+  "expertise": null,
+  "did_not_build_this_experiment": null,
+  "reviewed_at": null,
+  "baseline_basis_fingerprint": null,
+  "first_judgment_before_control_outcomes": null,
+  "reproduction": {"environment": null, "commands": [], "result": "not_performed", "failures": []},
+  "traced_claims": [],
+  "assumption_change": {"key": null, "old_value": null, "new_value": null, "rationale": null, "recomputed_result": null, "interpretation": null},
+  "missing_decisive_constraints": [],
+  "substantive_disagreements": [],
+  "disposition": null,
+  "identity_authentication": "not_provided",
+  "site_professional_clearance": "not_requested"
+}

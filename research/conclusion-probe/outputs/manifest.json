@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "pipeline.py": "0a0c415b28f3aff3c6455871a8346265244753fd8fcda8f85817019ffe381cc2",
+    "probe.json": "19c28d73da29c118217925115c448789b5409c285a389eb4eec233eb7e26e928",
+    "research/conclusion-probe/conclusion_engine.py": "a7a111fe3e12626b7730a33df2a11e8af2bafd1950716e30049f54d1b35cd165",
+    "research/conclusion-probe/controls.py": "88f6c1d2181250507b1f472f502bb6bb37e5caa8a43566434a6f00d05eec4a79",
+    "research/conclusion-probe/inspect_conclusion.py": "cd90582a52a6ea34d92b50638ab8faf1e09597bcce0ad10af296efd0b43df491",
+    "research/conclusion-probe/precommit.json": "a8a93fe5b01bd6964a00a83e3ad0912dd9fa8dc70a5c974d9a4cdad3d13887e1",
+    "research/conclusion-probe/run_probe.py": "512a6541bd6b19a76c1c80d8276ff7a30cb41c2014cac6171dc1ea92f4d0862d",
+    "research/conclusion-probe/spec.json": "6291effe46caaf06b0f6f476472590f924385a3f4d6f770919481885aa5ad191",
+    "research/conclusion-probe/tests/test_conclusion.py": "abee7104fd972b01c94d3aa2149a2f0a7daccc81abe8f3bfa5028334e3259bbb",
+    "research/conclusion-probe/validate_probe.py": "63b3cd02c651236ce3d607ddc5dae2b2f5d5074e38f8fce9e162008626a7cb23"
+  },
+  "outputs": {
+    "baseline.json": "f47a3ebd98a8f3736df1c71e94ad3aafd3b0a071c335ff64a326e4436386aff4",
+    "baseline.md": "7a8c33074eb358431b03f2f3058dc09c7636cb0b24d27c4df803522da6e8db67",
+    "conclusion.md": "7a8c33074eb358431b03f2f3058dc09c7636cb0b24d27c4df803522da6e8db67",
+    "contradictory_units.json": "dfe48f55eda6a5468281504115d4ad21d134fc24f4c42683159010fb90541bb1",
+    "contradictory_units.md": "5701501231f0bd2a129846e6ac20e54ba04ef6f7071e95f4b559b569cf77493f",
+    "controls.json": "6be41d5eed6ae1ccdd6e2703a035e16b9d4366dbd057ad5f2491c845ebb38069",
+    "different_vintage_units.json": "11ed1ad101ba98fb67a755c52b38bfb9baccd1023b72d3d7bea32ae14dd41087",
+    "different_vintage_units.md": "fe547b5288522a65c53de73a379c5f7f5203774517cc93ecd74aad73b8e12835",
+    "higher_cost.json": "b547f9c570b94a958452ea7e90c9ea92d6f90ac582fc558c58f588a15ef90124",
+    "higher_cost.md": "447024878ab4921e943211a37393ce5531f341ba1ad46c10b50b66335060315f",
+    "lower_cost.json": "9dfe9c9954e8ecc739fff36970290c38784ea3413f94239191588cb6069cdd96",
+    "lower_cost.md": "c8c45f6795323a1ef6f4c3c46e2410460e4f51af8cc2b5167bd5bbb2b2bae78b",
+    "missing_historical_passage.json": "9a9e60962c00b480402ee6b915c0593880278affa694fefe9b3a87117a4f47d0",
+    "missing_historical_passage.md": "83d691cf7d0b409370f19e3e2a07e94578f77a6c1b05faa28b6d5f5ab874a6b2",
+    "positive_units.json": "cb8a6e31fd0ce1292e7f3bbcbb011147d9da8ed959c975e5639e401452856ac6",
+    "positive_units.md": "fde5bec85456ca3aa44a5c941d95caf97342bc680bc8d4f094e47171b305b780",
+    "smaller_lot.json": "b5c73fb87660a11535c56c8cc14305f0d2fc6d3df6ea6f395568068db1bf4667",
+    "smaller_lot.md": "99268385c6bc337b24a5ae203babfcd67cffb204b3a3eebe95dbeb9134a402b7",
+    "summary.json": "5448929a77ad2be68ccbf8177f8dc357e7c441531e7e5ac46fed451a30589e83",
+    "trace.md": "8dd00035bb945aad6dbee2715061ca59763dc69c5e025e64a3b92e8532255b0f"
+  },
+  "source_inputs": "Every original cache file and receipt is bound by precommit.json"
+}

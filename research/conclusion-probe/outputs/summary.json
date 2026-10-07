@@ -1,0 +1,19 @@
+{
+  "baseline_disposition": "investigate_current_uses_and_leases",
+  "baseline_metrics": {
+    "additional_non_debt_capital": 45651124.19742605,
+    "debt_support_rent_month": 3869.141969914323,
+    "ex_land_cost": 131329562.00000003,
+    "gross_sf": 288636.4,
+    "units": 271
+  },
+  "claims_in_one_conclusion": 73,
+  "controls_including_baseline": 11,
+  "current_site_facts": "not_verified",
+  "expected_responses_observed": 11,
+  "practitioner_utility": "not_tested",
+  "professional_review": "pending",
+  "selection_quality": "not_tested",
+  "source_families": 4,
+  "unfamiliar_human_reproduction_and_challenge": "pending"
+}

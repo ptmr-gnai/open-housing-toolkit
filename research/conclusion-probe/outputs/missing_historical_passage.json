@@ -1,0 +1,1722 @@
+{
+  "affected_by_conflict": [],
+  "basis_fingerprint": "1b0a5345921e24180b816b24fd4f2ddc3db82df78e8add31f2f3d1ae9e49a368",
+  "bbl": "2028710002",
+  "claims": {
+    "assumption.amortization_years": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/amortization_years/value",
+      "config_path": "embedded_config",
+      "id": "assumption.amortization_years",
+      "kind": "assumption",
+      "rationale": "Hypothetical permanent debt amortization.",
+      "state": "supported_in_snapshot",
+      "unit": "years",
+      "value": 30
+    },
+    "assumption.annual_interest": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/annual_interest/value",
+      "config_path": "embedded_config",
+      "id": "assumption.annual_interest",
+      "kind": "assumption",
+      "rationale": "Hypothetical permanent debt rate.",
+      "state": "supported_in_snapshot",
+      "unit": "annual decimal rate",
+      "value": 0.065
+    },
+    "assumption.avg_net_unit_sf": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/avg_net_unit_sf/value",
+      "config_path": "embedded_config",
+      "id": "assumption.avg_net_unit_sf",
+      "kind": "assumption",
+      "rationale": "Family oriented average size; no verified unit mix.",
+      "state": "supported_in_snapshot",
+      "unit": "square feet per unit",
+      "value": 850
+    },
+    "assumption.debt_ltc": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/debt_ltc/value",
+      "config_path": "embedded_config",
+      "id": "assumption.debt_ltc",
+      "kind": "assumption",
+      "rationale": "Illustrative financing; not lender terms.",
+      "state": "supported_in_snapshot",
+      "unit": "share modeled ex-land cost",
+      "value": 0.65
+    },
+    "assumption.dscr": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/dscr/value",
+      "config_path": "embedded_config",
+      "id": "assumption.dscr",
+      "kind": "assumption",
+      "rationale": "Illustrative underwriting target.",
+      "state": "supported_in_snapshot",
+      "unit": "NOI / debt service",
+      "value": 1.2
+    },
+    "assumption.gross_per_zoning_sf": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/gross_per_zoning_sf/value",
+      "config_path": "embedded_config",
+      "id": "assumption.gross_per_zoning_sf",
+      "kind": "assumption",
+      "rationale": "Simplification for probe arithmetic. Zoning floor area exemptions and actual gross building area conversion are unverified.",
+      "state": "supported_in_snapshot",
+      "unit": "gross sf per zoning area proxy sf",
+      "value": 1.0
+    },
+    "assumption.hard_cost_per_gsf": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/hard_cost_per_gsf/value",
+      "config_path": "embedded_config",
+      "id": "assumption.hard_cost_per_gsf",
+      "kind": "assumption",
+      "rationale": "Stress-test input, not a Bronx contractor estimate.",
+      "state": "supported_in_snapshot",
+      "unit": "USD per gross square foot",
+      "value": 350
+    },
+    "assumption.monthly_rent_test": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/monthly_rent_test/value",
+      "config_path": "embedded_config",
+      "id": "assumption.monthly_rent_test",
+      "kind": "assumption",
+      "rationale": "Hypothetical all-unit collectible rents; not market rents or official AMI rents.",
+      "state": "supported_in_snapshot",
+      "unit": "USD per unit per month",
+      "value": 1800
+    },
+    "assumption.net_efficiency": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/net_efficiency/value",
+      "config_path": "embedded_config",
+      "id": "assumption.net_efficiency",
+      "kind": "assumption",
+      "rationale": "Illustrative allowance for circulation and support space; not architectural design.",
+      "state": "supported_in_snapshot",
+      "unit": "share gross area",
+      "value": 0.8
+    },
+    "assumption.opex_share_egi": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/opex_share_egi/value",
+      "config_path": "embedded_config",
+      "id": "assumption.opex_share_egi",
+      "kind": "assumption",
+      "rationale": "Illustrative operating expense including assumed taxes; no verified tax program.",
+      "state": "supported_in_snapshot",
+      "unit": "share effective gross income",
+      "value": 0.35
+    },
+    "assumption.soft_contingency_share": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/soft_contingency_share/value",
+      "config_path": "embedded_config",
+      "id": "assumption.soft_contingency_share",
+      "kind": "assumption",
+      "rationale": "Illustrative combined allowance; excludes financing carry and site acquisition.",
+      "state": "supported_in_snapshot",
+      "unit": "share hard cost",
+      "value": 0.3
+    },
+    "assumption.vacancy_share": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/assumptions/vacancy_share/value",
+      "config_path": "embedded_config",
+      "id": "assumption.vacancy_share",
+      "kind": "assumption",
+      "rationale": "Illustrative stabilized operations.",
+      "state": "supported_in_snapshot",
+      "unit": "share gross rent",
+      "value": 0.05
+    },
+    "conclusion.next_step": {
+      "actor": "explicit authored policy evaluated by conclusion_engine.py",
+      "id": "conclusion.next_step",
+      "inputs": [
+        "judgment.investigation_priority",
+        "resident.recorded_units",
+        "finance.model_gap",
+        "station.Station ID",
+        "station.Stop Name",
+        "station.Daytime Routes",
+        "lot.2028710002.address",
+        "lot.2028710002.bbl",
+        "lot.2028710002.version",
+        "lot.2028710002.ownername",
+        "lot.2028710002.bldgclass",
+        "lot.2028710002.zonedist1",
+        "lot.2028710002.edesignum",
+        "lot.2028710002.distance_m",
+        "scenario.2028710002.A.gross_sf",
+        "scenario.2028710002.A.units",
+        "scenario.2028710002.A.ex_land_cost",
+        "scenario.2028710002.A.debt_support_rent_month",
+        "environment.0.hazmat_code",
+        "environment.0.air_code",
+        "environment.0.noise_code",
+        "environment.0.description",
+        "gate.legal_entitlement",
+        "gate.current_occupancy_and_leases",
+        "gate.owner_willingness_and_title",
+        "gate.environment_and_geotechnical",
+        "gate.current_development_pipeline",
+        "gate.full_cost_and_financing",
+        "gate.official_affordability_schedule",
+        "gate.pedestrian_and_job_access"
+      ],
+      "kind": "judgment",
+      "professional_acceptance": "pending",
+      "rule": {
+        "actor": "project author; independent professional review pending",
+        "conflict": "hold_for_source_reconciliation",
+        "missing_material_basis": "hold_for_missing_evidence",
+        "positive_recorded_units": "reassess_resident_impacts_before_design",
+        "priority_rationale": "Occupancy and lease facts precede design spending in this bounded research workflow; independent practitioner acceptance pending.",
+        "zero_recorded_units": "investigate_current_uses_and_leases"
+      },
+      "scope": "Fixed-site reasoning test; does not validate site selection, usable transit access, legal entitlement or economic feasibility.",
+      "state": "withheld",
+      "unit": null,
+      "value": "hold_for_missing_evidence"
+    },
+    "environment.0.air_code": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": true,
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "air_code",
+          "row": 0
+        },
+        "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+        "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5",
+        "source_id": "e_designation_2028710002"
+      },
+      "id": "environment.0.air_code",
+      "kind": "observed",
+      "limitation": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+      "locator": {
+        "field": "air_code",
+        "row": 0
+      },
+      "source_id": "e_designation_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": true
+    },
+    "environment.0.description": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "Air Quality - HVAC fuel limited to natural gas;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "description",
+          "row": 0
+        },
+        "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+        "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5",
+        "source_id": "e_designation_2028710002"
+      },
+      "id": "environment.0.description",
+      "kind": "observed",
+      "limitation": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+      "locator": {
+        "field": "description",
+        "row": 0
+      },
+      "source_id": "e_designation_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "Air Quality - HVAC fuel limited to natural gas;Exhaust stack location limitations;Hazardous Materials* Phase I and Phase II Testing Protocol;Window Wall Attenuation & Alternate Ventilation"
+    },
+    "environment.0.hazmat_code": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": true,
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "hazmat_code",
+          "row": 0
+        },
+        "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+        "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5",
+        "source_id": "e_designation_2028710002"
+      },
+      "id": "environment.0.hazmat_code",
+      "kind": "observed",
+      "limitation": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+      "locator": {
+        "field": "hazmat_code",
+        "row": 0
+      },
+      "source_id": "e_designation_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": true
+    },
+    "environment.0.noise_code": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": true,
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "noise_code",
+          "row": 0
+        },
+        "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+        "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5",
+        "source_id": "e_designation_2028710002"
+      },
+      "id": "environment.0.noise_code",
+      "kind": "observed",
+      "limitation": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+      "locator": {
+        "field": "noise_code",
+        "row": 0
+      },
+      "source_id": "e_designation_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": true
+    },
+    "finance.model_gap": {
+      "code": "pipeline.py",
+      "formula": "additional_non_debt_capital > 0; conditional debt support, not total feasibility",
+      "id": "finance.model_gap",
+      "inputs": [
+        "scenario.2028710002.A.additional_non_debt_capital"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "boolean",
+      "value": true
+    },
+    "gate.current_development_pipeline": {
+      "id": "gate.current_development_pipeline",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/4",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.current_occupancy_and_leases": {
+      "id": "gate.current_occupancy_and_leases",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/1",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.environment_and_geotechnical": {
+      "id": "gate.environment_and_geotechnical",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/3",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.full_cost_and_financing": {
+      "id": "gate.full_cost_and_financing",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/5",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.legal_entitlement": {
+      "id": "gate.legal_entitlement",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/0",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.official_affordability_schedule": {
+      "id": "gate.official_affordability_schedule",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/6",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.owner_willingness_and_title": {
+      "id": "gate.owner_willingness_and_title",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/2",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "gate.pedestrian_and_job_access": {
+      "id": "gate.pedestrian_and_job_access",
+      "kind": "unknown",
+      "policy_locator": "/required_gates/7",
+      "reason": "No current verification supplied; required by the pinned authored investigation policy.",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "history.1.doc__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "01",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "doc__",
+          "row": 1
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.1.doc__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "doc__",
+        "row": 1
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "01"
+    },
+    "history.1.job__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "240116815",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job__",
+          "row": 1
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.1.job__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job__",
+        "row": 1
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "240116815"
+    },
+    "history.1.job_description": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "FILING TO CONVERT SCHOOL TO HALL. NO CHANGE IN USE, EGRESS AND OCCUPANCY.",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job_description",
+          "row": 1
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.1.job_description",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job_description",
+        "row": 1
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "FILING TO CONVERT SCHOOL TO HALL. NO CHANGE IN USE, EGRESS AND OCCUPANCY."
+    },
+    "history.1.pre__filing_date": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "10/02/2015",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "pre__filing_date",
+          "row": 1
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.1.pre__filing_date",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "pre__filing_date",
+        "row": 1
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "10/02/2015"
+    },
+    "history.11.doc__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "01",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "doc__",
+          "row": 11
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.11.doc__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "doc__",
+        "row": 11
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "01"
+    },
+    "history.11.job__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "200853843",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job__",
+          "row": 11
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.11.job__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job__",
+        "row": 11
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "200853843"
+    },
+    "history.11.job_description": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "NON-ILLUMINATED NON ADVERTISISNG ACCESSO RY AWNING READING- COLUMBUS MEDICAL.  NO CHANGE IN USE,EGRE SS OR OCCUPANCY",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job_description",
+          "row": 11
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.11.job_description",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job_description",
+        "row": 11
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "NON-ILLUMINATED NON ADVERTISISNG ACCESSO RY AWNING READING- COLUMBUS MEDICAL.  NO CHANGE IN USE,EGRE SS OR OCCUPANCY"
+    },
+    "history.11.pre__filing_date": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "05/03/2004",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "pre__filing_date",
+          "row": 11
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.11.pre__filing_date",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "pre__filing_date",
+        "row": 11
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "05/03/2004"
+    },
+    "history.3.doc__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "01",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "doc__",
+          "row": 3
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.3.doc__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "doc__",
+        "row": 3
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "01"
+    },
+    "history.3.job__": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "200711453",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job__",
+          "row": 3
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.3.job__",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job__",
+        "row": 3
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "200711453"
+    },
+    "history.3.job_description": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": null,
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "job_description",
+          "row": 3
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.3.job_description",
+      "kind": "unknown",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "job_description",
+        "row": 3
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "unknown",
+      "unit": null,
+      "value": null
+    },
+    "history.3.pre__filing_date": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "01/24/2002",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "pre__filing_date",
+          "row": 3
+        },
+        "retrieved_at": null,
+        "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+        "source_id": "dob_bis_2028710002"
+      },
+      "id": "history.3.pre__filing_date",
+      "kind": "observed",
+      "limitation": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "locator": {
+        "field": "pre__filing_date",
+        "row": 3
+      },
+      "source_id": "dob_bis_2028710002",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "01/24/2002"
+    },
+    "judgment.investigation_priority": {
+      "actor": "project author; independent professional review pending",
+      "id": "judgment.investigation_priority",
+      "inputs": [
+        "history.1.job_description",
+        "history.1.pre__filing_date",
+        "history.1.job__",
+        "history.1.doc__",
+        "history.3.job_description",
+        "history.3.pre__filing_date",
+        "history.3.job__",
+        "history.3.doc__",
+        "history.11.job_description",
+        "history.11.pre__filing_date",
+        "history.11.job__",
+        "history.11.doc__",
+        "lot.2028710002.retailarea",
+        "gate.current_occupancy_and_leases"
+      ],
+      "kind": "judgment",
+      "professional_acceptance": "pending",
+      "state": "unreviewed_judgment",
+      "unit": null,
+      "value": "Occupancy and lease facts precede design spending in this bounded research workflow; independent practitioner acceptance pending."
+    },
+    "lot.2028710002.address": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "1240 EDWARD L GRANT HWY",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "address",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.address",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "address",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "1240 EDWARD L GRANT HWY"
+    },
+    "lot.2028710002.bbl": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "2028710002.00000000",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "bbl",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.bbl",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "bbl",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "2028710002.00000000"
+    },
+    "lot.2028710002.bldgclass": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "K1",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "bldgclass",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.bldgclass",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "bldgclass",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "K1"
+    },
+    "lot.2028710002.distance_m": {
+      "code": "pipeline.py",
+      "formula": "haversine; earth_radius_m=6371000",
+      "id": "lot.2028710002.distance_m",
+      "inputs": [
+        "lot.2028710002.latitude",
+        "lot.2028710002.longitude",
+        "station.GTFS Latitude",
+        "station.GTFS Longitude"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "metres straight line",
+      "value": 434.07933676398704
+    },
+    "lot.2028710002.edesignum": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "E-442",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "edesignum",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.edesignum",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "edesignum",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "E-442"
+    },
+    "lot.2028710002.latitude": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "40.8376295",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "latitude",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.latitude",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "latitude",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "degrees",
+      "value": 40.8376295
+    },
+    "lot.2028710002.longitude": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "-73.9218130",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "longitude",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.longitude",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "longitude",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "degrees",
+      "value": -73.921813
+    },
+    "lot.2028710002.lotarea": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "59050",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "lotarea",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.lotarea",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "lotarea",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "sf",
+      "value": 59050.0
+    },
+    "lot.2028710002.ownername": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "1240 EDWARD GRANT LLC",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "ownername",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.ownername",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "ownername",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "1240 EDWARD GRANT LLC"
+    },
+    "lot.2028710002.residfar": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "7.52000000000",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "residfar",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.residfar",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "residfar",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "FAR",
+      "value": 7.52
+    },
+    "lot.2028710002.retailarea": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "26000",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "retailarea",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.retailarea",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "retailarea",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "sf",
+      "value": 26000.0
+    },
+    "lot.2028710002.unitsres": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "0",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "unitsres",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.unitsres",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "unitsres",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": "units",
+      "value": 0.0
+    },
+    "lot.2028710002.version": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "26v2",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "version",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.version",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "version",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "26v2"
+    },
+    "lot.2028710002.zonedist1": {
+      "evidence": {
+        "dataset_version": "26v2",
+        "exact_value": "R9A",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "field": "zonedist1",
+          "row": 1940
+        },
+        "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+        "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+        "source_id": "pluto_universe"
+      },
+      "id": "lot.2028710002.zonedist1",
+      "kind": "observed",
+      "limitation": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "locator": {
+        "field": "zonedist1",
+        "row": 1940
+      },
+      "source_id": "pluto_universe",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "R9A"
+    },
+    "resident.recorded_units": {
+      "code": "pipeline.py",
+      "formula": "recorded units > 0 changes the investigation lens; neither value establishes present occupancy",
+      "id": "resident.recorded_units",
+      "inputs": [
+        "lot.2028710002.unitsres",
+        "lot.2028710002.version"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "recorded_zero_does_not_establish_vacancy"
+    },
+    "scenario.2028710002.A.additional_non_debt_capital": {
+      "code": "pipeline.py",
+      "formula": "max(0, illustrative_loan - rent_supported_debt); additional to baseline non-debt capital, not a public subsidy estimate",
+      "id": "scenario.2028710002.A.additional_non_debt_capital",
+      "inputs": [
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.rent_supported_debt"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD",
+      "value": 45651124.19742605
+    },
+    "scenario.2028710002.A.annual_debt_constant": {
+      "code": "pipeline.py",
+      "formula": "12 * monthly_rate / (1 - (1 + monthly_rate)^(-months))",
+      "id": "scenario.2028710002.A.annual_debt_constant",
+      "inputs": [
+        "assumption.annual_interest",
+        "assumption.amortization_years"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "annual fraction",
+      "value": 0.07584816281915584
+    },
+    "scenario.2028710002.A.annual_debt_service": {
+      "code": "pipeline.py",
+      "formula": "illustrative_loan * annual_debt_constant",
+      "id": "scenario.2028710002.A.annual_debt_service",
+      "inputs": [
+        "scenario.2028710002.A.illustrative_loan",
+        "scenario.2028710002.A.annual_debt_constant"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD/year",
+      "value": 6474718.901003876
+    },
+    "scenario.2028710002.A.debt_support_rent_month": {
+      "code": "pipeline.py",
+      "formula": "target_noi / (units * 12 * (1-vacancy) * (1-opex)); debt coverage only, excludes equity return",
+      "id": "scenario.2028710002.A.debt_support_rent_month",
+      "inputs": [
+        "scenario.2028710002.A.target_noi",
+        "scenario.2028710002.A.units",
+        "assumption.vacancy_share",
+        "assumption.opex_share_egi"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD/unit/month",
+      "value": 3869.141969914323
+    },
+    "scenario.2028710002.A.ex_land_cost": {
+      "code": "pipeline.py",
+      "formula": "gross_sf * hard_cost_per_gsf * (1 + soft_contingency_share); excludes land, relocation, remediation, demolition, financing carry",
+      "id": "scenario.2028710002.A.ex_land_cost",
+      "inputs": [
+        "scenario.2028710002.A.gross_sf",
+        "assumption.hard_cost_per_gsf",
+        "assumption.soft_contingency_share"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD",
+      "value": 131329562.00000003
+    },
+    "scenario.2028710002.A.far_share": {
+      "config_fingerprint": "4e0e7f261791220f2e9bfe9023da8986f824f2e52b71de6f47f43cd877504b01",
+      "config_locator": "/scenarios/0/far_share",
+      "config_path": "embedded_config",
+      "id": "scenario.2028710002.A.far_share",
+      "kind": "assumption",
+      "rationale": "Illustrative geometry; not certified zoning or architectural capacity.",
+      "state": "supported_in_snapshot",
+      "unit": "fraction",
+      "value": 0.65
+    },
+    "scenario.2028710002.A.gross_sf": {
+      "code": "pipeline.py",
+      "formula": "zoning_area_proxy_sf * gross_per_zoning_sf; simplified conversion, no verified zoning exclusions",
+      "id": "scenario.2028710002.A.gross_sf",
+      "inputs": [
+        "scenario.2028710002.A.zoning_area_proxy_sf",
+        "assumption.gross_per_zoning_sf"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "sf",
+      "value": 288636.4
+    },
+    "scenario.2028710002.A.illustrative_loan": {
+      "code": "pipeline.py",
+      "formula": "ex_land_cost * debt_ltc",
+      "id": "scenario.2028710002.A.illustrative_loan",
+      "inputs": [
+        "scenario.2028710002.A.ex_land_cost",
+        "assumption.debt_ltc"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD",
+      "value": 85364215.30000003
+    },
+    "scenario.2028710002.A.net_sf": {
+      "code": "pipeline.py",
+      "formula": "gross_sf * net_efficiency",
+      "id": "scenario.2028710002.A.net_sf",
+      "inputs": [
+        "scenario.2028710002.A.gross_sf",
+        "assumption.net_efficiency"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "sf",
+      "value": 230909.12000000002
+    },
+    "scenario.2028710002.A.rent_supported_debt": {
+      "code": "pipeline.py",
+      "formula": "rent_test_noi / (dscr * annual_debt_constant)",
+      "id": "scenario.2028710002.A.rent_supported_debt",
+      "inputs": [
+        "scenario.2028710002.A.rent_test_noi",
+        "assumption.dscr",
+        "scenario.2028710002.A.annual_debt_constant"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD",
+      "value": 39713091.102573976
+    },
+    "scenario.2028710002.A.rent_test_noi": {
+      "code": "pipeline.py",
+      "formula": "units * 12 * monthly_rent_test * (1-vacancy) * (1-opex)",
+      "id": "scenario.2028710002.A.rent_test_noi",
+      "inputs": [
+        "scenario.2028710002.A.units",
+        "assumption.monthly_rent_test",
+        "assumption.vacancy_share",
+        "assumption.opex_share_egi"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD/year",
+      "value": 3614598.0
+    },
+    "scenario.2028710002.A.target_noi": {
+      "code": "pipeline.py",
+      "formula": "annual_debt_service * dscr",
+      "id": "scenario.2028710002.A.target_noi",
+      "inputs": [
+        "scenario.2028710002.A.annual_debt_service",
+        "assumption.dscr"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "USD/year",
+      "value": 7769662.681204651
+    },
+    "scenario.2028710002.A.units": {
+      "code": "pipeline.py",
+      "formula": "floor(net_sf / average_net_unit_sf)",
+      "id": "scenario.2028710002.A.units",
+      "inputs": [
+        "scenario.2028710002.A.net_sf",
+        "assumption.avg_net_unit_sf"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "units",
+      "value": 271
+    },
+    "scenario.2028710002.A.zoning_area_proxy_sf": {
+      "code": "pipeline.py",
+      "formula": "lotarea * recorded residfar * far_share; reference area only",
+      "id": "scenario.2028710002.A.zoning_area_proxy_sf",
+      "inputs": [
+        "lot.2028710002.lotarea",
+        "lot.2028710002.residfar",
+        "scenario.2028710002.A.far_share"
+      ],
+      "kind": "derived",
+      "state": "supported_in_snapshot",
+      "unit": "sf",
+      "value": 288636.4
+    },
+    "station.Daytime Routes": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "4",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "column": "Daytime Routes",
+          "row": 387
+        },
+        "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+        "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+        "source_id": "mta_stations_official"
+      },
+      "id": "station.Daytime Routes",
+      "kind": "observed",
+      "limitation": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "locator": {
+        "column": "Daytime Routes",
+        "row": 387
+      },
+      "source_id": "mta_stations_official",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "4"
+    },
+    "station.GTFS Latitude": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "40.840075",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "column": "GTFS Latitude",
+          "row": 387
+        },
+        "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+        "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+        "source_id": "mta_stations_official"
+      },
+      "id": "station.GTFS Latitude",
+      "kind": "observed",
+      "limitation": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "locator": {
+        "column": "GTFS Latitude",
+        "row": 387
+      },
+      "source_id": "mta_stations_official",
+      "state": "supported_in_snapshot",
+      "unit": "degrees",
+      "value": 40.840075
+    },
+    "station.GTFS Longitude": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "-73.917791",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "column": "GTFS Longitude",
+          "row": 387
+        },
+        "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+        "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+        "source_id": "mta_stations_official"
+      },
+      "id": "station.GTFS Longitude",
+      "kind": "observed",
+      "limitation": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "locator": {
+        "column": "GTFS Longitude",
+        "row": 387
+      },
+      "source_id": "mta_stations_official",
+      "state": "supported_in_snapshot",
+      "unit": "degrees",
+      "value": -73.917791
+    },
+    "station.Station ID": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "387",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "column": "Station ID",
+          "row": 387
+        },
+        "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+        "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+        "source_id": "mta_stations_official"
+      },
+      "id": "station.Station ID",
+      "kind": "observed",
+      "limitation": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "locator": {
+        "column": "Station ID",
+        "row": 387
+      },
+      "source_id": "mta_stations_official",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "387"
+    },
+    "station.Stop Name": {
+      "evidence": {
+        "dataset_version": null,
+        "exact_value": "170 St",
+        "limitation": "Dataset version/retrieval date do not certify current field validity or current occupancy.",
+        "locator": {
+          "column": "Stop Name",
+          "row": 387
+        },
+        "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+        "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+        "source_id": "mta_stations_official"
+      },
+      "id": "station.Stop Name",
+      "kind": "observed",
+      "limitation": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "locator": {
+        "column": "Stop Name",
+        "row": 387
+      },
+      "source_id": "mta_stations_official",
+      "state": "supported_in_snapshot",
+      "unit": null,
+      "value": "170 St"
+    }
+  },
+  "config": {
+    "assumptions": {
+      "affordable_income_lens": {
+        "rationale": "Research objective only. Official household-size schedule, utility allowance and income bands remain unknown; not used to infer legal rent.",
+        "unit": "percent AMI",
+        "value": 60
+      },
+      "amortization_years": {
+        "rationale": "Hypothetical permanent debt amortization.",
+        "unit": "years",
+        "value": 30
+      },
+      "annual_interest": {
+        "range": [
+          0.05,
+          0.065,
+          0.08
+        ],
+        "rationale": "Hypothetical permanent debt rate.",
+        "unit": "annual decimal rate",
+        "value": 0.065
+      },
+      "avg_net_unit_sf": {
+        "rationale": "Family oriented average size; no verified unit mix.",
+        "unit": "square feet per unit",
+        "value": 850
+      },
+      "debt_ltc": {
+        "rationale": "Illustrative financing; not lender terms.",
+        "unit": "share modeled ex-land cost",
+        "value": 0.65
+      },
+      "dscr": {
+        "rationale": "Illustrative underwriting target.",
+        "unit": "NOI / debt service",
+        "value": 1.2
+      },
+      "floor_height_ft": {
+        "rationale": "Concept diagram only; ground floor and actual structure unresolved.",
+        "unit": "feet per floor",
+        "value": 10
+      },
+      "gross_per_zoning_sf": {
+        "rationale": "Simplification for probe arithmetic. Zoning floor area exemptions and actual gross building area conversion are unverified.",
+        "unit": "gross sf per zoning area proxy sf",
+        "value": 1.0
+      },
+      "hard_cost_per_gsf": {
+        "range": [
+          275,
+          350,
+          450
+        ],
+        "rationale": "Stress-test input, not a Bronx contractor estimate.",
+        "unit": "USD per gross square foot",
+        "value": 350
+      },
+      "monthly_rent_test": {
+        "range": [
+          1500,
+          1800,
+          2200
+        ],
+        "rationale": "Hypothetical all-unit collectible rents; not market rents or official AMI rents.",
+        "unit": "USD per unit per month",
+        "value": 1800
+      },
+      "net_efficiency": {
+        "rationale": "Illustrative allowance for circulation and support space; not architectural design.",
+        "unit": "share gross area",
+        "value": 0.8
+      },
+      "opex_share_egi": {
+        "rationale": "Illustrative operating expense including assumed taxes; no verified tax program.",
+        "unit": "share effective gross income",
+        "value": 0.35
+      },
+      "soft_contingency_share": {
+        "rationale": "Illustrative combined allowance; excludes financing carry and site acquisition.",
+        "unit": "share hard cost",
+        "value": 0.3
+      },
+      "vacancy_share": {
+        "rationale": "Illustrative stabilized operations.",
+        "unit": "share gross rent",
+        "value": 0.05
+      }
+    },
+    "candidate_reviews": {
+      "2024890077": {
+        "disposition": "Exclude from ordinary private redevelopment shortlist",
+        "inputs": [
+          "lot.2024890077.ownername",
+          "lot.2024890077.address",
+          "check.2024890077.dob_now.row.1.job_description",
+          "check.2024890077.dob_now.row.0.job_description",
+          "check.2024890077.dob_now.row.1.house_no",
+          "check.2024890077.dob_now.row.1.street_name"
+        ],
+        "rationale": "PLUTO records Police Department ownership; DOB NOW filings describe underground gasoline storage tank replacement and associated excavation work. Housing use requires a public-service replacement or co-location decision and environmental diligence. PLUTO and DOB use different street addresses on the same BBL; preserve the alias rather than treating it as another lot."
+      },
+      "2028430040": {
+        "disposition": "Exclude from ordinary private redevelopment shortlist",
+        "inputs": [
+          "lot.2028430040.ownername",
+          "lot.2028430040.bldgclass",
+          "check.2028430040.dob_now.row.1.job_description",
+          "check.2028430040.dob_now.row.1.filing_date",
+          "check.2028430040.dob_bis.row.0.job_description"
+        ],
+        "rationale": "PLUTO records Education Department ownership and a school building class. DOB filings describe PS64 school improvements, including filings in 2026. A public-facility co-location proposal would be a different mission and would require an agency-led service plan; unused FAR alone does not justify housing redevelopment."
+      },
+      "2028710002": {
+        "disposition": "Investigate current uses and leases before design",
+        "inputs": [
+          "lot.2028710002.ownername",
+          "lot.2028710002.bldgclass",
+          "lot.2028710002.retailarea",
+          "lot.2028710002.edesignum",
+          "check.2028710002.dob_bis.row.3.job_description",
+          "check.2028710002.dob_bis.row.1.job_description",
+          "check.2028710002.dob_bis.row.11.job_description",
+          "check.2028710002.dob_now.records",
+          "check.2028710002.e_designation.row.0.hazmat_code",
+          "check.2028710002.e_designation.row.0.air_code",
+          "check.2028710002.e_designation.row.0.noise_code",
+          "check.2028710002.e_designation.row.0.description"
+        ],
+        "rationale": "Private ownership label and large area proxy justify a lead, but historical DOB filings describe a laundromat, medical signs and church/school/hall activity. PLUTO records retail use and E-442. Zero recorded homes does not imply an empty site. No new building rows observed in the exact-BBL queries; broader pipeline check remains unresolved. The E-designation source records hazardous-materials, air and noise requirements, including Phase I/II testing, HVAC fuel/stack limits and window attenuation or alternate ventilation; satisfaction status is not established."
+      }
+    },
+    "dsl_version": "0.1",
+    "exports": {
+      "expert_pack": "allowed_with_unknowns",
+      "media_draft": "research_process_only",
+      "public_site_claims": "blocked_until_required_gates_reviewed"
+    },
+    "lead_decision": {
+      "bbl": "2028710002",
+      "inputs": [
+        "review.2028710002",
+        "review.2028430040",
+        "review.2024890077",
+        "lot.2028710002.capacity_gap_sf",
+        "lot.2028710002.distance_m"
+      ],
+      "rationale": "Use the top private commercial parcel as an occupancy-first investigation lead. The other two tested parcels are recorded public facilities. This is not a recommendation to acquire or redevelop."
+    },
+    "project": "Bronx open housing opportunity probe",
+    "required_gates": [
+      "legal_entitlement",
+      "current_occupancy_and_leases",
+      "owner_willingness_and_title",
+      "environment_and_geotechnical",
+      "current_development_pipeline",
+      "full_cost_and_financing",
+      "official_affordability_schedule",
+      "pedestrian_and_job_access"
+    ],
+    "scenarios": [
+      {
+        "coverage": 0.55,
+        "far_share": 0.65,
+        "id": "A",
+        "label": "Lower intensity illustrative concept"
+      },
+      {
+        "coverage": 0.55,
+        "far_share": 0.9,
+        "id": "B",
+        "label": "Higher intensity illustrative concept"
+      }
+    ],
+    "scope": {
+      "bbox_padding_lat": 0.008,
+      "bbox_padding_lon": 0.01,
+      "radius_m": {
+        "rationale": "Bounded first probe; proximity proxy, not walked access.",
+        "status": "assumption",
+        "unit": "metres straight line",
+        "value": 650
+      },
+      "route": "4",
+      "station_id": "387",
+      "station_name": "170 St",
+      "station_source": "mta_stations_official"
+    },
+    "screen": {
+      "capacity_formula": "max(0, lotarea * residfar - bldgarea)",
+      "investigate_count": 3,
+      "max_lotarea_sf": 60000,
+      "min_capacity_gap_sf": 5000,
+      "min_lotarea_sf": 2500,
+      "missing_policy": "exclude_from_numeric_rank_and_record_unknown",
+      "ranking": "no_recorded_residential_first_then_capacity_gap_desc_bbl_asc",
+      "selection_rationale": "Favor a lower recorded residential displacement burden while leaving commercial occupancy unresolved. This is a research preference, not a welfare ranking.",
+      "shortlist_count": 10
+    }
+  },
+  "conflicts": [],
+  "control_id": "missing_historical_passage",
+  "disposition": "hold_for_missing_evidence",
+  "missing_material_passages": [
+    "history.3.job_description"
+  ],
+  "prior_judgment_basis": "stale",
+  "release": {
+    "acquisition_or_design_clearance": false,
+    "challenge_pack": true,
+    "investigation_conclusion": false,
+    "professional_review": "pending",
+    "unfamiliar_human_reproduction_and_challenge": "pending"
+  },
+  "required_gates": [
+    "legal_entitlement",
+    "current_occupancy_and_leases",
+    "owner_willingness_and_title",
+    "environment_and_geotechnical",
+    "current_development_pipeline",
+    "full_cost_and_financing",
+    "official_affordability_schedule",
+    "pedestrian_and_job_access"
+  ],
+  "snapshot_scope": "2026-10-03 cached snapshot; not a current site determination",
+  "sources": {
+    "dob_bis_2028710002": {
+      "bytes": 11552,
+      "cache_path": "cache/dob_bis_2028710002.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "SYNTHETIC fault control on a copied cached snapshot; not new site evidence.",
+      "dataset_metadata_receipt": {
+        "bytes": 141763,
+        "cache_path": "cache/dob_jobs_metadata.body",
+        "content_type": "application/json; charset=utf-8",
+        "coverage_limits": "Legacy DOB BIS job filings; not complete coverage of DOB NOW or proof of completion.",
+        "dataset_name": "DOB Job Application Filings",
+        "http_status": 200,
+        "id": "dob_jobs_metadata",
+        "last_modified": null,
+        "publisher": "NYC Department of Buildings",
+        "retrieved_at": "2026-10-03T14:30:46.870943+00:00",
+        "sha256": "418902414e113ed71d5e52471b39402b21bd7281e7269b9147f2ca30a6244195",
+        "source_updated_at": 1790977449,
+        "status": "ok",
+        "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+        "url": "https://data.cityofnewyork.us/api/views/ic3t-wcy2.json"
+      },
+      "dataset_update_timestamp": 1790977449,
+      "http_status": 200,
+      "id": "dob_bis_2028710002",
+      "kind": "synthetic",
+      "last_modified": "Fri, 02 Oct 2026 21:30:47 GMT",
+      "metadata_source_id": "dob_jobs_metadata",
+      "mutation": "missing_historical_passage",
+      "parent_retrieved_at": "2026-10-03T14:45:19.405160+00:00",
+      "parent_sha256": "02b874a59e8e922e37518130c0c58f7ae9291dcf5b0a99f4802723c051b0724b",
+      "parent_url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bbl%3D%272028710002%27&%24limit=10000&%24select=job__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cproposed_dwelling_units%2Cexisting_dwelling_units%2Cjob_description%2Cblock%2Clot%2Cbin__%2Cbbl%2Chouse__%2Cstreet_name%2Cowner_s_business_name",
+      "publisher": "NYC Department of Buildings",
+      "retrieved_at": null,
+      "sha256": "94c023544864dabf0cc3dbb661a1f00497a2f84009af7fea2bbacc0adaca3024",
+      "source_updated_at": null,
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "update_timestamp_limitation": "Dataset update timestamp; not validity date of this parcel field.",
+      "url": "fixture://conclusion-probe/missing_historical_passage"
+    },
+    "e_designation_2028710002": {
+      "bytes": 450,
+      "cache_path": "cache/e_designation_2028710002.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "Exact BBL E designation rows; obligations and satisfaction status require OER and professional verification. Empty results would not clear the designation.",
+      "dataset_metadata_receipt": {
+        "bytes": 28675,
+        "cache_path": "cache/e_designation_metadata.body",
+        "content_type": "application/json; charset=utf-8",
+        "coverage_limits": "E designation dataset metadata; field definitions do not clear environmental obligations.",
+        "dataset_name": "E-Designations",
+        "http_status": 200,
+        "id": "e_designation_metadata",
+        "last_modified": null,
+        "publisher": "NYC Department of City Planning",
+        "retrieved_at": "2026-10-03T14:48:58.699397+00:00",
+        "sha256": "a7b9b8499ebd3daadba3864bbe340ec46ffcf0a8b15ab57ab351257f54127ac9",
+        "source_updated_at": 1786545441,
+        "status": "ok",
+        "terms_url": null,
+        "url": "https://data.cityofnewyork.us/api/views/hxm3-23vy.json"
+      },
+      "dataset_update_timestamp": 1786545441,
+      "http_status": 200,
+      "id": "e_designation_2028710002",
+      "last_modified": "Wed, 12 Aug 2026 14:37:19 GMT",
+      "metadata_source_id": "e_designation_metadata",
+      "publisher": "NYC Department of City Planning",
+      "retrieved_at": "2026-10-03T15:02:55.347452+00:00",
+      "sha256": "f49c4abc0883e617af17c351191ce343f42b92b3bdc345bed2a99213a398e3e5",
+      "source_updated_at": null,
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "update_timestamp_limitation": "Dataset update timestamp; not validity date of this parcel field.",
+      "url": "https://data.cityofnewyork.us/resource/hxm3-23vy.json?%24where=bbl%3D2028710002&%24limit=1000"
+    },
+    "mta_stations_official": {
+      "bytes": 55242,
+      "cache_path": "cache/mta_stations_official.body",
+      "content_type": "text/plain",
+      "coverage_limits": "Station coordinates and published route labels. Current timetables and reliability not measured.",
+      "http_status": 200,
+      "id": "mta_stations_official",
+      "last_modified": "Tue, 15 Sep 2026 17:33:02 GMT",
+      "publisher": "MTA New York City Transit",
+      "retrieved_at": "2026-10-03T14:31:31.602120+00:00",
+      "sha256": "bde0f55c4eb3065a6a4e9019d9fc541e5a4acb343f1b9bfa2688bb0fcae2483d",
+      "source_updated_at": null,
+      "status": "ok",
+      "terms_url": "https://www.mta.info/developers",
+      "url": "https://web.mta.info/developers/data/nyct/subway/Stations.csv"
+    },
+    "pluto_universe": {
+      "bytes": 3413541,
+      "cache_path": "cache/pluto_universe.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "Bounded PLUTO point-coordinate window around MTA station 387. Point filter is not a pedestrian catchment. Parcel fields may lag underlying changes.",
+      "dataset_metadata_receipt": {
+        "bytes": 202683,
+        "cache_path": "cache/pluto_metadata.body",
+        "content_type": "application/json; charset=utf-8",
+        "coverage_limits": "Live dataset metadata. Source update timestamps are not field-level validity dates.",
+        "dataset_name": "Primary Land Use Tax Lot Output (PLUTO)",
+        "http_status": 200,
+        "id": "pluto_metadata",
+        "last_modified": null,
+        "publisher": "NYC Department of City Planning",
+        "retrieved_at": "2026-10-03T14:30:46.869644+00:00",
+        "sha256": "b546d567fc79d14c6b55a37ab09212f715291f37020642c409e93df8b69b42be",
+        "source_updated_at": 1787604531,
+        "status": "ok",
+        "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+        "url": "https://data.cityofnewyork.us/api/views/64uk-42ks.json"
+      },
+      "dataset_update_timestamp": 1787604531,
+      "http_status": 200,
+      "id": "pluto_universe",
+      "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+      "metadata_source_id": "pluto_metadata",
+      "publisher": "NYC Department of City Planning",
+      "retrieved_at": "2026-10-03T14:33:37.416191+00:00",
+      "sha256": "030804cead3b87d6e764459d9e53661bf2df148ce0512b9204d8a71618db442e",
+      "source_updated_at": null,
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "update_timestamp_limitation": "Dataset update timestamp; not validity date of this parcel field.",
+      "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=borough%3D'BX'%20AND%20latitude%20between%2040.832075%20and%2040.848075%20AND%20longitude%20between%20-73.927791%20and%20-73.907791&%24limit=10000&%24order=bbl"
+    }
+  },
+  "synthetic_input": true,
+  "target": "Investigate current uses and leases before committing to a housing design; recorded capacity and model finance remain conditional.",
+  "temporal_reconciliation": [],
+  "version": "0.1"
+}
