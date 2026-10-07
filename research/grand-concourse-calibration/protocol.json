@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "case": "425 Grand Concourse",
+  "experiment": "known-case document reconstruction and assumption challenge",
+  "curator_exposure": "2016 selection, 2017 CPC reports and 2022 opening outcomes already known before this protocol; not a blind holdout",
+  "hypothesis": "A source-grounded early pursuit assessment can identify material program, entitlement, physical and funding conditions without presenting a unit illustration as a feasible building or a funding gap as a funded project.",
+  "input_boundary": "2015 HPD solicitation and both addenda from the retained official ZIP; decision cutoff to be read from the final addendum. Current hosted bytes do not certify historical byte equivalence.",
+  "reference_boundary": "Later HPD selection, CPC reports, HDC opening and NYSERDA case description are comparison evidence only.",
+  "actor": "Prospective affordable-housing developer; credentials, cash budget and diligence time unknown",
+  "criteria": [
+    {"id": "program", "question": "Identify affordable-housing and nonresidential program requirements, distinguishing required from optional."},
+    {"id": "entitlement", "question": "Distinguish existing zoning from a conditional rezoning pathway and required approvals."},
+    {"id": "physical", "question": "Identify site-specific physical constraints; avoid claiming a validated envelope or unit fit."},
+    {"id": "finance", "question": "Identify affordable-housing capital categories and missing commitments; avoid generic commercial debt as underwriting."},
+    {"id": "eligibility", "question": "Identify applicant eligibility and submission obligations, including addendum changes."},
+    {"id": "action", "question": "Compare bounded diligence actions and stop conditions; do not assert an optimal priority without cost, timing and actor evidence."},
+    {"id": "quantity", "question": "Keep proposed and opened unit counts, area definitions and cost scopes separate; do not tune to the outcome."}
+  ],
+  "scoring": "For each criterion report supported, partial, failure or untestable with evidence. Unknown is not a pass. No aggregate utility score; document completeness and practitioner usefulness remain unproven.",
+  "failure_conditions": ["Unsupported legal or financing clearance", "Outcome leakage into cited input facts", "Material discovered requirement omitted from early assessment", "Conditioned area mislabeled apartment net area", "Unreconciled cost scopes compared as like-for-like", "An illustrative unit count presented as physically feasible"],
+  "procedure": ["Commit this protocol before reading the detailed 2015 packet", "Extract and register sources with original PDF page quotes", "Commit input-only assessment before writing comparison", "Compare later evidence; preserve missed constraints and unexplained differences", "Validate quote resolution, packet boundaries, hashes and interpretation controls", "Save limitations and papercuts"]
+}
