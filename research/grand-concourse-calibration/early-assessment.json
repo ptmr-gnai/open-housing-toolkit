@@ -1,0 +1,303 @@
+{
+  "case": "425 Grand Concourse",
+  "kind": "author-authored source-bounded assessment, not automated discovery",
+  "decision_cutoff": "2015-09-28T16:00:00-04:00",
+  "knowledge_boundary": "Citations and facts use only the 2015 packet; author already exposed to later outcomes. No blind or independent forecast claim.",
+  "facts": [
+    {
+      "id": "site",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 5,
+      "quote": "425 Grand Concourse corresponds to Block 2346, Lot 1, and comprises approximately 30,049 square feet",
+      "interpretation": "City-owned site, approximately 30,049 sf; BBL 2023460001 constructed from borough/block/lot, not surveyed area."
+    },
+    {
+      "id": "zoning",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 8,
+      "quote": "The Site is currently zoned C4-4.",
+      "interpretation": "As described in the RFP, existing zoning is C4-4, not the proposed C6-3."
+    },
+    {
+      "id": "proposal_zoning",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 8,
+      "quote": "Proposals should assume a C6-3 district.",
+      "interpretation": "Proposal assumption contingent on rezoning and disposition; not an entitlement clearance."
+    },
+    {
+      "id": "approvals",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 13,
+      "quote": "The Project will also require City Council and Mayoral approval.",
+      "interpretation": "HPD ULURP applicant; map change, disposition and UDAAP anticipated; environmental review also required."
+    },
+    {
+      "id": "timeline",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 14,
+      "quote": "may take at least one (1) year from commencement.",
+      "interpretation": "At least one year for HPD design approval and ULURP including certification; not total delivery time."
+    },
+    {
+      "id": "mixed_income",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 10,
+      "quote": "Proposals must have mixed-income, affordable housing units.",
+      "interpretation": "Required residential program; exact affordability schedule still to be designed."
+    },
+    {
+      "id": "mix",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 10,
+      "quote": "minimum of 15% three-bedroom units and a maximum of 15% studio units.",
+      "interpretation": "Base unit mix rule, with Addendum 1 supportive-housing flexibility; not an unconditional final-building compliance test."
+    },
+    {
+      "id": "mix_exception",
+      "type": "extracted_fact",
+      "source": "addendum1",
+      "pdf_page": 2,
+      "quote": "HPD is open to seeing more than 15% studio apartments if necessary to serve the special needs population identified.",
+      "interpretation": "Supportive-housing branch requires evidence; no generic exemption assumed."
+    },
+    {
+      "id": "affordability_ambiguity",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 10,
+      "quote": "in no case less than thirty (35) years.",
+      "interpretation": "Source has conflicting word and numeral. Request clarification; do not silently normalize to 30 or 35."
+    },
+    {
+      "id": "active_uses",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 10,
+      "quote": "The Project should include ground-floor retail or a mix of retail and community facility use",
+      "interpretation": "Program direction/preference, not a named committed tenant. A detailed feasible use/operations plan is required."
+    },
+    {
+      "id": "heritage",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 10,
+      "quote": "must be incorporated into the interior design of the building to commemorate the former P.S. 31",
+      "interpretation": "Architectural elements must be reincorporated and transported by developer."
+    },
+    {
+      "id": "walkway",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 14,
+      "quote": "The Developer will be responsible for the improvement and maintenance of the pedestrian walkway",
+      "interpretation": "Walkway improvement and maintenance required; playground funding is a competitive preference, not assumed required rehabilitation."
+    },
+    {
+      "id": "egress",
+      "type": "extracted_fact",
+      "source": "addendum2",
+      "pdf_page": 1,
+      "quote": "any primary or secondary egress into the walkway is not permitted.",
+      "interpretation": "A door can be permitted but cannot supply required primary or secondary egress; architect must test circulation."
+    },
+    {
+      "id": "transit_uncertainty",
+      "type": "extracted_fact",
+      "source": "addendum2",
+      "pdf_page": 2,
+      "quote": "HPD does not have any additional information regarding the route of the train.",
+      "interpretation": "Subway route relative to site unresolved; conditional MTA coordination, not confirmed tunnel geometry."
+    },
+    {
+      "id": "survey",
+      "type": "extracted_fact",
+      "source": "addendum1",
+      "pdf_page": 3,
+      "quote": "HPD does not provide surveys for its RFP sites. This is the responsibility of the developer.",
+      "interpretation": "No supplied survey/borings confirmed by these answers; commission site-specific survey/geotechnical diligence."
+    },
+    {
+      "id": "tower_cost",
+      "type": "extracted_fact",
+      "source": "addendum2",
+      "pdf_page": 1,
+      "quote": "We are aware that construction costs may be higher in taller structures",
+      "interpretation": "Density and construction cost interact; no assumed low-rise cost for maximized FAR."
+    },
+    {
+      "id": "environment",
+      "type": "extracted_fact",
+      "source": "addendum1",
+      "pdf_page": 8,
+      "quote": "This assessment has revealed no evidence of recognized environmental conditions in connection with the Site.",
+      "interpretation": "Phase I executive summary reports no REC and three HRECs; no warranty of clean ground or geotechnical suitability."
+    },
+    {
+      "id": "environment_limits",
+      "type": "extracted_fact",
+      "source": "addendum1",
+      "pdf_page": 8,
+      "quote": "Only the report in its entirety should be relied upon",
+      "interpretation": "Executive summary restricts reliance and is not a substitute for full report."
+    },
+    {
+      "id": "environment_risk",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 13,
+      "quote": "The Developer will be solely responsible for any mitigation measures identified as a result of the CEQR review.",
+      "interpretation": "Budget studies and mitigation; do not convert no REC into an environmental clearance."
+    },
+    {
+      "id": "demolition",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 14,
+      "quote": "completing demolition of the exterior wall and bringing the Site fully to street level.",
+      "interpretation": "Developer residual demolition and grading obligation remains after City school demolition."
+    },
+    {
+      "id": "noncompetitive",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 15,
+      "quote": "As-of-right 4% tax credits are not considered competitive.",
+      "interpretation": "Primary scenario excludes competitive government sources such as 9% LIHTC. 4% branch allowed, not committed."
+    },
+    {
+      "id": "finance",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 15,
+      "quote": "Proposals that assume HDC bond financing (and subsidy financing, if applicable) must comply with all terms of the applicable HDC term sheet.",
+      "interpretation": "Separate bond-related debt, subsidies, tax-credit equity and developer equity; historical term sheets not recovered."
+    },
+    {
+      "id": "land",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 15,
+      "quote": "will pay a nominal disposition price of $1.00 per lot and will deliver an enforcement note and mortgage",
+      "interpretation": "Nominal cash land price does not erase enforcement note, financing conditions, taxes or mitigation."
+    },
+    {
+      "id": "eligibility_development",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 19,
+      "quote": "at least seventy (70) residential units within the past seven years.",
+      "interpretation": "At least one applicant principal must meet the defined new-construction development experience; actual credentials unknown."
+    },
+    {
+      "id": "eligibility_management",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 19,
+      "quote": "at least seventy (70) residential units in New York City within the past seven (7) years.",
+      "interpretation": "Comparable management requirement for principal or proposed managing agent; actual credentials unknown."
+    },
+    {
+      "id": "submission",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 23,
+      "quote": "no later than 4:00 p.m. on Monday, September 28, 2015",
+      "interpretation": "Source cutoff September 28, 2015 16:00 America/New_York; last retained addendum September 4, no extension found in packet. Completeness of historical addendum set uncertified."
+    },
+    {
+      "id": "format",
+      "type": "extracted_fact",
+      "source": "rfp",
+      "pdf_page": 23,
+      "quote": "one (1) bound original, one (1) bound copy and one (1) flash drive",
+      "interpretation": "Physical and electronic submission; D-1, D-2 and K original-format Excel required."
+    },
+    {
+      "id": "ownership_refinement",
+      "type": "extracted_fact",
+      "source": "addendum2",
+      "pdf_page": 1,
+      "quote": "they are in physically separate buildings.",
+      "interpretation": "Addendum 2 refines rental/homeownership mixing preference; do not treat Addendum 1 permissiveness as final instruction."
+    },
+    {
+      "id": "green_refinement",
+      "type": "extracted_fact",
+      "source": "addendum2",
+      "pdf_page": 2,
+      "quote": "HPD will accept 2011 Overlays for the purposes of RFP review.",
+      "interpretation": "2011 Green Communities overlay accepted for proposal review; not necessarily later construction requirements."
+    }
+  ],
+  "unknowns": [
+    "Applicant eligibility and cash capacity",
+    "Historical term-sheet versions and committed funding amounts",
+    "Survey, borings, subway geometry and engineering budget",
+    "Validated floor plans, allowable FAR by use and bulk envelope",
+    "Full Phase I report and current remediation scope",
+    "Final legal effective dates, closing documents and approvals",
+    "Complete historical addendum set and byte equivalence"
+  ],
+  "conclusion": {
+    "type": "professional_judgment_pending",
+    "status": "conditional_pursuit_only",
+    "text": "Run a bounded eligibility/finance/architect-engineer screen before committing to a proposal or claiming capacity. Project potential is supported; eligibility, feasibility and a funded capital stack are not established."
+  },
+  "actions": [
+    {
+      "id": "credentials",
+      "basis": [
+        "eligibility_development",
+        "eligibility_management"
+      ],
+      "question": "Can this team meet the 70-unit/7-year thresholds?",
+      "stop": "Do not submit this team as eligible without evidence or an explicitly accepted structure.",
+      "cost_time": "unknown; documentary check likely limited but not measured"
+    },
+    {
+      "id": "entitlement_envelope",
+      "basis": [
+        "proposal_zoning",
+        "approvals",
+        "egress",
+        "tower_cost"
+      ],
+      "question": "Can an architect fit a viable mixed-use scheme under the proposed branch, with legal egress and costed high-rise construction?",
+      "stop": "Do not state a unit capacity until envelope, layouts and rule applicability are demonstrated.",
+      "cost_time": "unknown; paid architect/legal input needed"
+    },
+    {
+      "id": "ground_transit",
+      "basis": [
+        "transit_uncertainty",
+        "survey",
+        "environment_limits",
+        "demolition"
+      ],
+      "question": "What surveys, tunnel protection and ground conditions change scope/cost?",
+      "stop": "Do not clear excavation risk from this document packet.",
+      "cost_time": "unknown; survey/engineer/MTA work needed"
+    },
+    {
+      "id": "capital",
+      "basis": [
+        "finance",
+        "noncompetitive",
+        "land"
+      ],
+      "question": "Can lenders/investors and public programs support the proposed affordability and complete sources and uses?",
+      "stop": "Do not claim funded feasibility without eligible sources, amounts, terms, timing and commitments.",
+      "cost_time": "unknown; lender/program engagement needed"
+    }
+  ],
+  "priority": "Eligibility is a proposed inexpensive screen, not an empirically optimal order. Finance and engineering should be scoped together; actor budget and task costs absent.",
+  "completeness": "29 selected source claims, not an exhaustive RFP compliance inventory; appendices and spreadsheet formulas not independently audited."
+}

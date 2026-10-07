@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rfp",
+    "role": "input",
+    "document_date": "2015-06-29",
+    "pdf": "cache/input-02.pdf",
+    "text": "cache/input-02.text",
+    "archive_member": "425-grand-concourse-rfp/425-Grand-Concourse-RFP.pdf",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/zip/425-grand-concourse-rfp.zip",
+    "retrieved_at": "2026-10-04T16:47:01.397021+00:00",
+    "historical_bytes_certified": false,
+    "transform": "pdftotext -layout; normalized whitespace only for quote matching"
+  },
+  {
+    "id": "addendum1",
+    "role": "input",
+    "document_date": "2015-08-13",
+    "pdf": "cache/input-00.pdf",
+    "text": "cache/input-00.text",
+    "archive_member": "425-grand-concourse-rfp/425-Addendum1.pdf",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/zip/425-grand-concourse-rfp.zip",
+    "retrieved_at": "2026-10-04T16:47:01.397021+00:00",
+    "historical_bytes_certified": false,
+    "transform": "pdftotext -layout; normalized whitespace only for quote matching"
+  },
+  {
+    "id": "addendum2",
+    "role": "input",
+    "document_date": "2015-09-04",
+    "pdf": "cache/input-01.pdf",
+    "text": "cache/input-01.text",
+    "archive_member": "425-grand-concourse-rfp/425-Addendum-2.pdf",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/zip/425-grand-concourse-rfp.zip",
+    "retrieved_at": "2026-10-04T16:47:01.397021+00:00",
+    "historical_bytes_certified": false,
+    "transform": "pdftotext -layout; normalized whitespace only for quote matching"
+  }
+]

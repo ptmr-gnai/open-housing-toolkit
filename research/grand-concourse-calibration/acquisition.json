@@ -1,0 +1,16 @@
+{
+  "id": "candidate_1_inputs",
+  "publisher": "NYC HPD",
+  "purpose": "425 Grand Concourse RFP: inputs; outcome documents excluded from future analyst inputs",
+  "url": "https://www.nyc.gov/assets/hpd/downloads/zip/425-grand-concourse-rfp.zip",
+  "retrieved_at": "2026-10-04T16:47:01.397021+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.nyc.gov/assets/hpd/downloads/zip/425-grand-concourse-rfp.zip",
+  "content_type": "application/zip",
+  "last_modified": "Mon, 30 Dec 2019 17:03:03 GMT",
+  "bytes": 8547010,
+  "sha256": "99856ddba079b48a5b026068a43f949afdfec5bc1900b3a08f90495ec932a141",
+  "cache_path": "cache/candidate_1_inputs.body",
+  "parsed": "other"
+}
