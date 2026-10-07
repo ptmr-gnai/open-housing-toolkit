@@ -1,0 +1,286 @@
+{
+  "claims": [
+    {
+      "id": "selected_units",
+      "type": "extracted_fact",
+      "source": "selection",
+      "pdf_page": null,
+      "quote": "241"
+    },
+    {
+      "id": "planned_2017",
+      "type": "extracted_fact",
+      "source": "udaap",
+      "pdf_page": 2,
+      "quote": "with 277 affordable dwelling units"
+    },
+    {
+      "id": "text_needed",
+      "type": "extracted_fact",
+      "source": "udaap",
+      "pdf_page": 5,
+      "quote": "by allowing the additional height that the R9-1 district would provide"
+    },
+    {
+      "id": "residential_far",
+      "type": "extracted_fact",
+      "source": "udaap",
+      "pdf_page": 5,
+      "quote": "residential FAR of 9.0 and a maximum height of 285"
+    },
+    {
+      "id": "later_area",
+      "type": "extracted_fact",
+      "source": "udaap",
+      "pdf_page": 2,
+      "quote": "29,161-square-foot"
+    },
+    {
+      "id": "opening_units",
+      "type": "extracted_fact",
+      "source": "opening",
+      "pdf_page": null,
+      "quote": "with 45 studio units, 92 one-bedroom units, 94 two-bedroom units, and 46 three-bedroom units"
+    },
+    {
+      "id": "opening_cost",
+      "type": "extracted_fact",
+      "source": "opening",
+      "pdf_page": null,
+      "quote": "This $178 million development"
+    },
+    {
+      "id": "capital_categories",
+      "type": "extracted_fact",
+      "source": "opening",
+      "pdf_page": null,
+      "quote": "HDC issued the tax-exempt bonds and HPD and HDC both provided subsidies."
+    },
+    {
+      "id": "equity",
+      "type": "extracted_fact",
+      "source": "opening",
+      "pdf_page": null,
+      "quote": "TD Bank is both the Low Income Housing Tax Credit and conventional non-LIHTC equity investor."
+    },
+    {
+      "id": "site_cost",
+      "type": "extracted_fact",
+      "source": "energy",
+      "pdf_page": null,
+      "quote": "These conditions require rock excavation, transit authority-related engineering, vibration monitoring, and railroad insurance"
+    },
+    {
+      "id": "gross_area",
+      "type": "extracted_fact",
+      "source": "energy",
+      "pdf_page": null,
+      "quote": "310,758 sq. ft."
+    },
+    {
+      "id": "cost_scope",
+      "type": "extracted_fact",
+      "source": "energy",
+      "pdf_page": null,
+      "quote": "$121,942,998"
+    },
+    {
+      "id": "conditioned_area",
+      "type": "extracted_fact",
+      "source": "energy",
+      "pdf_page": null,
+      "quote": "246,198 SF (79%)"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "program",
+      "status": "supported",
+      "early": [
+        "mixed_income",
+        "active_uses",
+        "heritage",
+        "mix",
+        "mix_exception"
+      ],
+      "reference": [
+        "opening_units"
+      ],
+      "finding": "Mixed-income housing and active nonresidential uses agree at category level. Named tenants and exact mix evolved; no tenant forecast claimed."
+    },
+    {
+      "id": "entitlement",
+      "status": "partial",
+      "early": [
+        "zoning",
+        "proposal_zoning",
+        "approvals"
+      ],
+      "reference": [
+        "text_needed",
+        "residential_far"
+      ],
+      "finding": "Map/disposition/approval dependency captured, but specific R9-1/MIH text amendment and narrow-lot bulk mechanism not reconstructed. Later pathway, not proved foreseeable from this packet."
+    },
+    {
+      "id": "physical",
+      "status": "partial",
+      "early": [
+        "survey",
+        "transit_uncertainty",
+        "tower_cost",
+        "egress",
+        "demolition"
+      ],
+      "reference": [
+        "site_cost",
+        "later_area"
+      ],
+      "finding": "Engineering and tower-cost risk captured. Rock, vibration monitoring, railroad insurance and quantified scope not recovered in early assessment; no borings or survey. Approximate lot areas differ by 888 sf; cause unresolved."
+    },
+    {
+      "id": "finance",
+      "status": "partial",
+      "early": [
+        "finance",
+        "noncompetitive",
+        "land"
+      ],
+      "reference": [
+        "capital_categories",
+        "equity",
+        "opening_cost",
+        "cost_scope"
+      ],
+      "finding": "Affordable capital categories align with opening report. Amounts, interest, tax treatment, commitments and complete sources/uses are absent, so financial feasibility and prediction are untestable."
+    },
+    {
+      "id": "eligibility",
+      "status": "partial",
+      "early": [
+        "eligibility_development",
+        "eligibility_management",
+        "submission",
+        "format",
+        "green_refinement",
+        "ownership_refinement"
+      ],
+      "reference": [],
+      "finding": "Defined 70-unit/7-year thresholds and selected addendum changes recovered. Actual selected-team qualifications and full compliance inventory not checked; no demonstrated eligibility clearance."
+    },
+    {
+      "id": "action",
+      "status": "untestable",
+      "early": [
+        "eligibility_development",
+        "survey",
+        "finance"
+      ],
+      "reference": [
+        "text_needed",
+        "site_cost"
+      ],
+      "finding": "Proposed diligence questions map to later material conditions. Best sequence, task costs and practitioner time saved cannot be established from announcements."
+    },
+    {
+      "id": "quantity",
+      "status": "partial",
+      "early": [
+        "mix",
+        "mix_exception",
+        "site",
+        "affordability_ambiguity"
+      ],
+      "reference": [
+        "selected_units",
+        "planned_2017",
+        "opening_units",
+        "gross_area",
+        "conditioned_area",
+        "cost_scope",
+        "opening_cost"
+      ],
+      "finding": "Versions and incompatible definitions preserved. No early unit or cost prediction was produced; count accuracy and geometric feasibility untestable."
+    }
+  ],
+  "calculations": [
+    {
+      "id": "unit_mix_sum",
+      "type": "calculation",
+      "inputs": [
+        "opening_units"
+      ],
+      "expression": "45+92+94+46",
+      "value": 277
+    },
+    {
+      "id": "studio_share_percent",
+      "type": "calculation",
+      "inputs": [
+        "opening_units"
+      ],
+      "expression": "45/277*100",
+      "value": 16.24548736462094,
+      "decision": "needs approved-program/exception evidence; not a noncompliance finding"
+    },
+    {
+      "id": "three_bed_share_percent",
+      "type": "calculation",
+      "inputs": [
+        "opening_units"
+      ],
+      "expression": "46/277*100",
+      "value": 16.60649819494585
+    },
+    {
+      "id": "selected_to_opened_change",
+      "type": "calculation",
+      "inputs": [
+        "selected_units",
+        "opening_units"
+      ],
+      "expression": "277-241",
+      "value": 36,
+      "interpretation": "Program version change, not model prediction error"
+    },
+    {
+      "id": "lot_area_difference",
+      "type": "calculation",
+      "inputs": [
+        "site",
+        "later_area"
+      ],
+      "expression": "30049-29161",
+      "value": 888,
+      "interpretation": "Approximate dated source figures, unresolved cause"
+    },
+    {
+      "id": "cost_per_gross_sf",
+      "type": "calculation",
+      "inputs": [
+        "cost_scope",
+        "gross_area"
+      ],
+      "expression": "121942998/310758",
+      "value": 392.4050161218698,
+      "scope": "NYSERDA Project Cost label; not verified total development or hard cost"
+    },
+    {
+      "id": "non_debt_illustration",
+      "type": "calculation",
+      "inputs": [
+        "prior_review"
+      ],
+      "baseline": 45965346.7,
+      "additional": 45651124.197426,
+      "total": 91616470.897426,
+      "scope": "Prior Edward L Grant generic model, not 425 underwriting"
+    }
+  ],
+  "verdict": "Useful conditions recovered, specific entitlement and physical scope incompletely reconstructed; no predictive accuracy or practitioner benefit established.",
+  "protocol_deviations": [
+    "Later reference documents were already known, and were re-read before the source-bounded assessment was committed. The assessment has input-only citations but was not temporally isolated from reference knowledge. Its Git freeze protects subsequent edits, not independence."
+  ],
+  "professional_review": "pending",
+  "automation": "Manual source selection and author interpretation; deterministic validation does not discover omitted requirements."
+}

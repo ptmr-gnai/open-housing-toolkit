@@ -1,0 +1,34 @@
+{
+  "page_id": "page_7f332d582bdc8191b57fb1b078d1c065",
+  "url": "https://chatgpt.com/space/page_7f332d582bdc8191b57fb1b078d1c065",
+  "attachments": [
+    {
+      "page_id": "page_7f332d582bdc8191b57fb1b078d1c065",
+      "reference": "library-file:fde1_bGliZmlsZV9oMW1INnZGRGtpZjlsZzVidkw2WmR3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+      "file_name": "housing-grand-concourse-inputs-6d69475dc0ca48078b95d13b5c0b384f.zip",
+      "mime_type": "application/zip",
+      "byte_size": 8405680,
+      "sha256": "683dc2258a0b826fa30d0ed9920e054d7dba3350420785b4e56f0aa26dd175b0",
+      "file_access_confirmed": true,
+      "is_image": false,
+      "markdown": "[2015 Grand Concourse source PDFs](library-file:fde1_bGliZmlsZV9oMW1INnZGRGtpZjlsZzVidkw2WmR3_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+      "inserted": false,
+      "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+    },
+    {
+      "page_id": "page_7f332d582bdc8191b57fb1b078d1c065",
+      "reference": "library-file:fde1_bGliZmlsZV9OWDBYTWZOaTdjUk5kMkFDdTJYWVdn_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470",
+      "file_name": "housing-grand-concourse-analysis-47f8c00f74c04d52917be9f0befa5ab1.zip",
+      "mime_type": "application/zip",
+      "byte_size": 2430705,
+      "sha256": "16a071133a025a3e3e83151e27ffd5f0bf62262a41ab6a2ecf85b5a46031dcaa",
+      "file_access_confirmed": true,
+      "is_image": false,
+      "markdown": "[Grand Concourse reproducible analysis](library-file:fde1_bGliZmlsZV9OWDBYTWZOaTdjUk5kMkFDdTJYWVdn_FileDrive_f44d5d87fd9c81918a1c1010e3a0a470)",
+      "inserted": false,
+      "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+    }
+  ],
+  "readback_verified": true,
+  "rendered_preview_verified": false
+}

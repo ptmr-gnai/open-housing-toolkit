@@ -34,5 +34,55 @@
     "retrieved_at": "2026-10-04T16:47:01.397021+00:00",
     "historical_bytes_certified": false,
     "transform": "pdftotext -layout; normalized whitespace only for quote matching"
+  },
+  {
+    "id": "selection",
+    "role": "reference",
+    "document_date": "2016-04-28",
+    "text": "cache/hpd_425_selection.text",
+    "raw": "cache/hpd_425_selection.body",
+    "url": "https://www.nyc.gov/site/hpd/news/015-16/mayor-de-blasio-hpd-commissioner-been-hdc-president-rodney-development-team-will",
+    "historical_bytes_certified": false,
+    "retrieval_receipt": "reference-receipts.json"
+  },
+  {
+    "id": "map",
+    "role": "reference",
+    "document_date": "2017-11-29",
+    "text": "cache/cpc_425_map.text",
+    "raw": "cache/cpc_425_map.pdf",
+    "url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/180031.pdf",
+    "historical_bytes_certified": false,
+    "retrieval_receipt": "reference-receipts.json"
+  },
+  {
+    "id": "opening",
+    "role": "reference",
+    "document_date": "2022-11-02",
+    "text": "cache/hdc_425_opening.text",
+    "raw": "cache/hdc_425_opening.body",
+    "url": "https://www.nychdc.com/newsroom/cutting-edge-425-grand-concourse-building-brings-277-affordable-apartments-and-holistic",
+    "historical_bytes_certified": false,
+    "retrieval_receipt": "reference-receipts.json"
+  },
+  {
+    "id": "energy",
+    "role": "reference",
+    "document_date": null,
+    "text": "cache/nyserda_425.text",
+    "raw": "cache/nyserda_425.body",
+    "url": "https://www.nyserda.ny.gov/About/Publications/Featured-Case-Studies/Buildings-of-Excellence-425-Grand-Concourse",
+    "historical_bytes_certified": false,
+    "retrieval_receipt": "reference-receipts.json"
+  },
+  {
+    "id": "udaap",
+    "role": "reference",
+    "document_date": "2017-11-29",
+    "text": "cache/cpc_425_udaap.text",
+    "raw": "cache/cpc_425_udaap.pdf",
+    "url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/180032.pdf",
+    "historical_bytes_certified": false,
+    "retrieval_receipt": "udaap-receipt.json"
   }
 ]

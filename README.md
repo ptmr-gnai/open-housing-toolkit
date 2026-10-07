@@ -118,3 +118,5 @@ unresolved. This is an internal playbook control, not a request to send or publi
 Technical validation cannot substitute for professional feasibility review.
 
 See docs/papercuts.md for observed failures, causes, controls and remaining gaps.
+
+The [425 Grand Concourse calibration](research/grand-concourse-calibration/report.md) compares 2015 solicitation conditions with later public project evidence. It preserves 42 quoted facts, unresolved definitions, a missed specific zoning mechanism and seven interpretation checks. This is an openly known case, not a blind prediction benchmark. Run its offline validator and tests using the instructions in that folder.

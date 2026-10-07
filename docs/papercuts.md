@@ -202,3 +202,17 @@ and reproducibility still do not prove semantic entailment or professional judgm
 Original experiment and known-control results are preserved. New primary references
 are later reveal/calibration material, not historical analyst inputs. No new blind
 backtest, private underwriting reconstruction or practitioner acceptance occurred.
+
+## 425 Grand Concourse calibration on 7 October 2026
+
+| Papercut | Observed failure or cost | Deterministic control and state |
+| --- | --- | --- |
+| Reference exposure undermines independence | Known outcomes were re-read before the early assessment commit | Explicit protocol deviation; this run is calibration only. Next withheld-case execution needs separate input and reference access. Git alone cannot prevent cognitive leakage. |
+| PDF extraction emits an optional-content syntax warning | Addendum PDF still produced text, but warning could indicate missing visual content | Original PDF retained; text quotes checked. Image/map coverage and complete visual review remain pending. |
+| PDF line-wrap hyphen changes quote matching | A selected east-west quotation failed exact normalized resolution | Shortened to an intact exact passage; validator rejects unresolved quotations rather than silently rewriting text. |
+| Word and numeral disagree | RFP says thirty (35) years | Preserve contradictory literal wording and require clarification; never silently choose a value. |
+| Same report has conflicting approximate areas | CPC reports 275,711 and 275,771 sf; use areas sum to 276,071 sf | Preserve source versions and scope; no fit or cost denominator clearance from these figures. |
+| Outcome appears to violate base mix rule | Opening studio share is 16.25%; base cap is 15% | Exception-aware check returns needs-program-evidence. Approved final program is still missing. |
+| Financial costs have unreconciled scope | HDC reports $178m; NYSERDA labels $121.943m Project Cost | Scope, price year and area definition required for comparison. Missing terms cannot generate an accuracy score. |
+| Manual assessment can pass integrity while incomplete | 29 selected early claims do not audit all 157 RFP pages and forms | Explicit selected-claim scope; professional coverage acceptance remains pending. No automatic completeness pass. |
+| Page attachment size ceiling | Complete calibration ZIP was 10,836,363 bytes, exceeding the 10 MiB upload limit | Split into source-PDF and analysis archives, each below the limit; combined extraction independently validates. |
