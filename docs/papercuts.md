@@ -7,6 +7,12 @@ The root README now distinguishes executable prototypes, manual calibration and
 unverified professional claims. A pattern scan of tracked files and reachable Git
 history found no recognizable credentials; that scan is not a comprehensive audit.
 
+The publication clean-checkout test caught an absolute-path dependency in the
+frozen retrospective validator. A separate portable validator now binds the exact
+recorded input root to the current checkout and checks the same bytes, rubric,
+quotes and frozen outputs. Traversal, nested paths and matching basenames outside
+the original boundary are rejected. The old code and access log remain unchanged.
+
 Maintain this as work proceeds. A failure should become an executable check where
 possible. Keep observations separate from proposed controls. This log records
 failures encountered during probe one, not hypothetical advisor feedback.

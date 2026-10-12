@@ -8,7 +8,7 @@ VALIDATORS = [
     'research/source-audit/validate.py',
     'research/jerome-brief/validate.py',
     'research/benchmark-case-search/validate_inputs.py',
-    'research/retrospective-run/validate.py',
+    'scripts/validate_retrospective_portable.py',
     'research/eligibility-gates/validate.py',
     'research/requirement-coverage/validate_coverage.py',
     'research/conclusion-probe/validate_probe.py',
@@ -16,6 +16,7 @@ VALIDATORS = [
     'research/grand-concourse-calibration/validate.py',
 ]
 TEST_DIRS = [
+    'scripts/tests',
     'research/jerome-brief/tests',
     'research/benchmark-case-search/tests',
     'research/retrospective-run/tests',

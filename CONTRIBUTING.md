@@ -14,6 +14,11 @@ separate operation; preserve an old snapshot and its receipts before refreshing
 it. Do not overwrite a frozen experiment or regenerate a baseline merely to make
 a failed test pass.
 
+The frozen first retrospective validator records absolute paths from its original
+workspace. `make research-check` uses a separate portable validator to map that
+exact historical input root to the current checkout while preserving file hashes,
+quotes, the rubric and frozen outputs. Its old access log remains a self-report.
+
 Useful issues identify a concrete claim, source passage, assumption, omitted
 requirement or practitioner task. Include the artifact path, relevant source
 version, why the issue changes the conclusion, and how a correction could be
