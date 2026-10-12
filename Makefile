@@ -1,4 +1,4 @@
-.PHONY: build check release-check
+.PHONY: build check research-check release-check
 
 build:
 	python pipeline.py
@@ -14,3 +14,6 @@ release-check: check
 	python pipeline.py
 	python validate.py
 	python replay_check.py
+
+research-check:
+	python scripts/check_research.py

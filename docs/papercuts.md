@@ -1,5 +1,12 @@
 # Papercut log
 
+GitHub publication preparation on 12 October 2026: the local checks previously
+had no CI entry point for the retained research experiments. `make research-check`
+and GitHub Actions now run those checks without live collection or model calls.
+The root README now distinguishes executable prototypes, manual calibration and
+unverified professional claims. A pattern scan of tracked files and reachable Git
+history found no recognizable credentials; that scan is not a comprehensive audit.
+
 Maintain this as work proceeds. A failure should become an executable check where
 possible. Keep observations separate from proposed controls. This log records
 failures encountered during probe one, not hypothetical advisor feedback.

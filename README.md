@@ -1,12 +1,46 @@
-# Open Housing Opportunity Playbook
+# Open Housing Toolkit
 
-Probe one: 170 Street on the 4 line, Bronx. A local open source prototype for
-finding a site lead, challenging it, simulating conditional concepts, and preparing
-material for two independent expert reviewers.
+The Open Housing Opportunity Playbook research project.
 
-Start with outputs/advisor-brief.md, then open outputs/advisor-explorer.html in a
-browser. The complete report is outputs/probe-report.md. The proposal is
-docs/proposal.md. Both expert reviews remain outstanding.
+An open source research project for investigating affordable housing opportunities:
+find a site lead, challenge it, explore conditional scenarios, and assemble an
+evidence pack that another person can reproduce and question. Facts, calculations,
+assumptions, judgments and unknowns should stay distinguishable throughout the
+pipeline. Agents can work with the files and executable checks.
+
+**Status: early research prototype, open for feedback.** It is ready to share and
+improve in public. It does not establish that a lot is available, a design fits,
+a project is financed, or a proposal is ready to submit. Human housing expert
+acceptance and practitioner usefulness remain untested. The components below are
+separate experiments; they are not yet one integrated product.
+
+## Start here
+
+- [Project proposal](docs/proposal.md): the intended user, probe and open source approach.
+- [425 Grand Concourse calibration](research/grand-concourse-calibration/report.md):
+  a real project challenges our zoning, physical and financing assumptions. This is
+  an openly known case, not a blind prediction benchmark.
+- [Fresh AI assumptions review](research/conclusion-probe/reviews/agent-assumptions-review.md):
+  material omissions and modeling problems found despite passing engineering checks.
+- [Source audit](research/source-audit/report.md): a bounded inventory of public
+  data sources and agency workflows.
+- [Papercut log](docs/papercuts.md): observed failures, fixes and remaining gaps.
+
+The original executable parcel probe is centered on 170 Street on the 4 line in
+the Bronx. Read [its advisor brief](outputs/advisor-brief.md) and open
+`outputs/advisor-explorer.html` locally. Its reports preserve the original model;
+the later review calls for revisions to housing evidence, geometry, capital needs
+and diligence priorities. Do not treat the original lead or scenarios as validated.
+
+## Experiments
+
+| Component | What works | What remains open |
+| --- | --- | --- |
+| [Parcel probe](probe.json) | Cached public data, conditional scenarios, typed claims and offline replay | Legal and physical feasibility, current occupancy, complete economics |
+| [Applicant eligibility](research/eligibility-gates/README.md) | Source-bound rules and scoped unknown/pass/fail states | Actual credentials and professional interpretation |
+| [Requirement coverage](research/requirement-coverage/README.md) | Known omissions and addendum changes can block premature exports | Complete semantic coverage and unfamiliar-user testing |
+| [One conclusion](research/conclusion-probe/README.md) | Source changes, stale judgments and conflicts propagate through a bounded graph | Discovery of omitted evidence and justification of the best next action |
+| [Real project calibration](research/grand-concourse-calibration/README.md) | Dated quotations and comparison boundaries are reproducible | Independent forecast accuracy, complete underwriting and practitioner benefit |
 
 ## Reproduce without network or models
 
@@ -99,9 +133,19 @@ estimate. Official AMI rents, transit job access, title, availability, and progr
 financing have not been verified. No site recommendation or causal econometric
 finding follows from this probe.
 
-MIT licensed code; original documentation CC BY 4.0. Upstream terms and attribution
-remain separate; see DATA-LICENSES.md. A local Git repository records this work;
-there is no public remote repository yet.
+MIT licensed code; original documentation CC BY 4.0. Public agency source
+snapshots retain their publishers' terms; see [DATA-LICENSES.md](DATA-LICENSES.md).
+The project license does not relicense those sources. Snapshot dates and source
+URLs are part of the research record; later retrieval does not certify historical
+byte equivalence.
+
+## Contribute and continue
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for reproducing a result, challenging an
+interpretation, and proposing a change. The next priorities are integrating the
+review corrections into a versioned IR, testing a withheld real project, and
+measuring usefulness with housing practitioners. Preserve failed experiments and
+their assumptions so improvements can be assessed.
 
 ## Deterministic backpressure and papercuts
 
@@ -118,5 +162,10 @@ unresolved. This is an internal playbook control, not a request to send or publi
 Technical validation cannot substitute for professional feasibility review.
 
 See docs/papercuts.md for observed failures, causes, controls and remaining gaps.
+
+`make research-check` runs the retained research validators and test suites.
+GitHub Actions runs `make check` and `make research-check` on pushes and pull
+requests. Browser checks remain a separate optional local release check. Passing
+CI verifies the implemented technical checks, not professional correctness.
 
 The [425 Grand Concourse calibration](research/grand-concourse-calibration/report.md) compares 2015 solicitation conditions with later public project evidence. It preserves 42 quoted facts, unresolved definitions, a missed specific zoning mechanism and seven interpretation checks. This is an openly known case, not a blind prediction benchmark. Run its offline validator and tests using the instructions in that folder.
