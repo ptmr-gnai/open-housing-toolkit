@@ -41,6 +41,7 @@ and diligence priorities. Do not treat the original lead or scenarios as validat
 | [Requirement coverage](research/requirement-coverage/README.md) | Known omissions and addendum changes can block premature exports | Complete semantic coverage and unfamiliar-user testing |
 | [One conclusion](research/conclusion-probe/README.md) | Source changes, stale judgments and conflicts propagate through a bounded graph | Discovery of omitted evidence and justification of the best next action |
 | [Real project calibration](research/grand-concourse-calibration/README.md) | Dated quotations and comparison boundaries are reproducible | Independent forecast accuracy, complete underwriting and practitioner benefit |
+| [Parcel evidence](runs/README.md) | Bounded ACRIS/DOF/PLUTO ownership and transaction evidence per BBL, with budget, provenance, conflicts and unknowns | Grantor/grantee roles, current ownership, pre-1966 and Staten Island coverage, native document images |
 
 ## Reproduce without network or models
 

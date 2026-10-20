@@ -4,9 +4,13 @@ import argparse, concurrent.futures, datetime, hashlib, json, pathlib, urllib.re
 
 ROOT = pathlib.Path(__file__).resolve().parent
 
-def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
-    """Save body unchanged. Failures are records, never empty successful datasets."""
-    base = ROOT / 'cache'
+def fetch(source_id, url, publisher, limits, terms=None, refresh=False, root=None):
+    """Save body unchanged. Failures are records, never empty successful datasets.
+
+    root: optional alternate root directory (default: repository root). New
+    collection runs pass their own run directory so existing cache evidence is
+    never touched."""
+    base = (root or ROOT) / 'cache'
     base.mkdir(exist_ok=True)
     record_path=base/(source_id+'.source.json')
     if record_path.exists():
@@ -14,14 +18,14 @@ def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
         if previous.get('status')=='ok' and not refresh:
             if previous['url']!=url:
                 raise ValueError('Source ID already binds a different URL; use a new ID or explicit --refresh: '+source_id)
-            if hashlib.sha256((ROOT/previous['cache_path']).read_bytes()).hexdigest()!=previous['sha256']:
+            if hashlib.sha256(((root or ROOT)/previous['cache_path']).read_bytes()).hexdigest()!=previous['sha256']:
                 raise ValueError('Changed cached source: '+source_id)
             return previous
         history=base/'history'/source_id
         history.mkdir(parents=True,exist_ok=True)
         stamp=previous['retrieved_at'].replace(':','_')
         if previous.get('status')=='ok':
-            body=(ROOT/previous['cache_path']).read_bytes()
+            body=((root or ROOT)/previous['cache_path']).read_bytes()
             old_path=history/(previous['sha256']+'.body')
             old_path.write_bytes(body)
             previous['cache_path']=str(old_path.relative_to(ROOT))
@@ -39,7 +43,7 @@ def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
                           last_modified=response.headers.get('Last-Modified'))
         path = base / (source_id + '.body')
         path.write_bytes(body)
-        record.update(cache_path=str(path.relative_to(ROOT)), bytes=len(body),
+        record.update(cache_path=str(path.relative_to(root or ROOT)), bytes=len(body),
                       sha256=hashlib.sha256(body).hexdigest())
         try:
             data = json.loads(body)

@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.venv/
 outputs/ir.json
 outputs/exclusions.json
 outputs/dossiers.json
