@@ -37,7 +37,6 @@ USER_AGENT = 'OpenHousingToolkit/0.2 (public research)'
 PER_REQUEST_BYTE_CAP = 10 * 1024 * 1024
 MAX_RETRIES = 2
 RETRYABLE_STATUS = {429, 500, 502, 503, 504}
-RETRY_AFTER_CAP_SECONDS = 30
 BACKOFF_CAP_SECONDS = 10
 HTTP_TIMEOUT_SECONDS = 55
 CLASS_FAMILY = {
@@ -65,6 +64,8 @@ NON_CLAIMS = [
     'Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.',
     'Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.',
     'doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record.',
+    'ACRIS legals are queried by exact BBL; documents in which this parcel appears only as a secondary legal are not collected. other_parcels reflects only documents collected in this run.',
+    'DOF sales rows for condo buildings are unit-level sales associated with the condo billing/map BBL; their block/lot identify the unit lot, not the mapped parcel lot, and they are not whole-property sales.',
 ]
 
 
@@ -161,12 +162,14 @@ class SessionBudget:
             raise BudgetExceeded('session time')
 
     def charge(self, label, requests=0, nbytes=0):
+        # Mutate, append the durable per-attempt entry, persist, THEN check.
+        # If the check raises, the file already holds the truthful accounting.
         self.requests += int(requests)
         self.bytes += int(nbytes)
-        self.check()
         self.entries.append({'label': label, 'requests': int(requests), 'bytes': int(nbytes),
                              'at': datetime.datetime.now(datetime.timezone.utc).isoformat()})
         self._save()
+        self.check()
 
     def _save(self):
         self.path.parent.mkdir(parents=True, exist_ok=True)
@@ -238,58 +241,99 @@ def plan_phase2(bbl, document_ids):
     ]
 
 
-class ResponseTooLarge(Exception):
-    pass
+class BoundedReader:
+    """Reads a stream in chunks, charging each received chunk to the run
+    budget and enforcing the per-request cap plus the remaining run/session
+    byte and time allowances DURING the read (not after a full response).
+    When any allowance is exhausted it stops reading and returns the partial
+    body received so far with a stop reason; received bytes are never lost."""
+
+    def __init__(self, stream, byte_cap, budget, session=None):
+        self.stream, self.byte_cap = stream, byte_cap
+        self.budget, self.session = budget, session
+        self.total = 0
+        self.stop = None  # None | 'cap' | 'budget' | 'time'
+
+    def read_all(self):
+        chunks = []
+        while self.stop is None:
+            remaining = self.byte_cap - self.total
+            if self.budget is not None:
+                remaining = min(remaining, self.budget.max_bytes - self.budget.bytes)
+                if self.budget.elapsed() > self.budget.max_seconds:
+                    self.stop = 'time'
+                    break
+            if self.session is not None:
+                # Session bytes are charged per attempt (after the read), so
+                # subtract this attempt's in-flight bytes from the allowance.
+                remaining = min(remaining, self.session.max_bytes - self.session.bytes - self.total)
+                if self.session.elapsed() > self.session.max_seconds:
+                    self.stop = 'time'
+                    break
+            if remaining <= 0:
+                self.stop = 'budget'
+                break
+            chunk = self.stream.read(min(65536, remaining))
+            if not chunk:
+                break
+            self.total += len(chunk)
+            chunks.append(chunk)
+            try:
+                if self.budget is not None:
+                    self.budget.charge_bytes(len(chunk))
+            except BudgetExceeded as exc:
+                self.stop = 'time' if exc.which == 'time' else 'budget'
+                break
+            if self.total >= self.byte_cap:
+                self.stop = 'cap'
+        return b''.join(chunks)
 
 
-def _read_capped(stream, byte_cap):
-    chunks, total = [], 0
-    while True:
-        chunk = stream.read(65536)
-        if not chunk:
-            break
-        total += len(chunk)
-        if total > byte_cap:
-            raise ResponseTooLarge('response exceeds per-request byte cap of %d bytes' % byte_cap)
-        chunks.append(chunk)
-    return b''.join(chunks)
-
-
-def transport_urllib(url, timeout=HTTP_TIMEOUT_SECONDS, byte_cap=PER_REQUEST_BYTE_CAP):
-    """Default transport. Returns (status, headers, body). HTTP error responses
-    are returned (not raised) so the retry logic can see status and body;
-    network/timeout errors raise. Reads are bounded by byte_cap."""
+def transport_urllib(url, timeout=HTTP_TIMEOUT_SECONDS, byte_cap=PER_REQUEST_BYTE_CAP,
+                     budget=None, session=None):
+    """Default transport. Returns (status, headers, body, stop). HTTP error
+    responses are returned (not raised) so the retry logic can see status and
+    body; network/timeout errors raise. Reads are bounded per chunk by
+    byte_cap and by the remaining run/session byte and time allowances;
+    partial bodies are retained, never discarded. The socket timeout is capped
+    by the remaining run/session time so a slow stream cannot overshoot the
+    wall-clock budget."""
+    if budget is not None and budget.started_at is not None:
+        timeout = min(timeout, max(budget.max_seconds - budget.elapsed(), 1.0))
+    if session is not None:
+        timeout = min(timeout, max(session.max_seconds - session.elapsed(), 1.0))
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     try:
         response = urllib.request.urlopen(req, timeout=timeout)
     except urllib.error.HTTPError as exc:
-        try:
-            body = _read_capped(exc, byte_cap)
-        except (OSError, ResponseTooLarge):
-            body = b''
-        return exc.code, dict(exc.headers or {}), body
+        reader = BoundedReader(exc, byte_cap, budget, session)
+        body = reader.read_all()
+        return exc.code, dict(exc.headers or {}), body, reader.stop
     with response:
-        body = _read_capped(response, byte_cap)
-        return response.status, dict(response.headers or {}), body
+        reader = BoundedReader(response, byte_cap, budget, session)
+        body = reader.read_all()
+        return response.status, dict(response.headers or {}), body, reader.stop
 
 
 def _retry_delay(headers, attempt):
-    """Retry-After (seconds or HTTP date, capped) or exponential backoff."""
+    """Full server Retry-After (numeric seconds or HTTP-date), never shortened.
+    Falls back to capped exponential backoff when absent or unparseable."""
     raw = headers.get('Retry-After') or headers.get('retry-after')
     if raw:
         try:
-            return min(float(raw), RETRY_AFTER_CAP_SECONDS)
+            return max(float(raw), 0.0)
         except ValueError:
             try:
                 when = email.utils.parsedate_to_datetime(raw)
-                return min(max((when - datetime.datetime.now(datetime.timezone.utc)).total_seconds(), 0.0),
-                           RETRY_AFTER_CAP_SECONDS)
+                if when.tzinfo is None:
+                    when = when.replace(tzinfo=datetime.timezone.utc)
+                return max((when - datetime.datetime.now(datetime.timezone.utc)).total_seconds(), 0.0)
             except (TypeError, ValueError):
                 pass
     return min(2.0 ** (attempt - 1), BACKOFF_CAP_SECONDS)
 
 
-def _write_record(source, root, body, headers, status_code, error=None):
+def _write_record(source, root, body, headers, status_code, error=None, attempt=None):
     root = pathlib.Path(root)
     cache_dir = root / 'cache'
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -297,7 +341,7 @@ def _write_record(source, root, body, headers, status_code, error=None):
     record = {'id': source_id, 'url': source['url'], 'publisher': source['publisher'],
               'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
               'coverage_limits': source['limits'], 'terms_url': source.get('terms'),
-              'source_updated_at': None}
+              'source_updated_at': None, 'attempt': attempt}
     if error is None:
         path = cache_dir / (source_id + '.body')
         path.write_bytes(body)
@@ -316,7 +360,9 @@ def _write_record(source, root, body, headers, status_code, error=None):
     else:
         record.update(status='failed', http_status=status_code, error=error)
         if body:
-            err_path = cache_dir / (source_id + '.error')
+            # Unique per-attempt path so earlier error/partial bodies are never overwritten.
+            suffix = '.attempt-%d.error' % attempt if attempt else '.error'
+            err_path = cache_dir / (source_id + suffix)
             err_path.write_bytes(body)
             record.update(error_body_path=str(err_path.relative_to(root)),
                           error_bytes=len(body), error_sha256=hashlib.sha256(body).hexdigest())
@@ -331,48 +377,72 @@ def bounded_fetch(source, budget, root, session=None, transport=transport_urllib
                   byte_cap=PER_REQUEST_BYTE_CAP, sleep=time.sleep):
     """Fetch one source with bounded reads, bounded retries and full receipts.
 
-    Every attempt (including retries) charges one request; every received body
-    (including error responses) charges bytes. Retries only on network errors
-    and 429/5xx, honoring Retry-After. Failures are records, never exceptions.
+    Every attempt (including retries) charges one request to the run and
+    session budgets. Received bytes are charged per chunk by the transport's
+    BoundedReader (run budget) and once per attempt to the session ledger;
+    error and partial bodies are charged and retained, never lost. Retries
+    only on network errors and 429/5xx, honoring the server's full
+    Retry-After; if the full delay cannot fit in the remaining run/session
+    time the fetch stops instead of retrying late. Failures are records,
+    never exceptions. Cached ok receipts are reused only after hash
+    verification; a changed cached body fails closed and is re-fetched.
     """
     root = pathlib.Path(root)
     record_path = root / 'cache' / (source['source_id'] + '.source.json')
     if record_path.exists():
         existing = json.loads(record_path.read_text())
         if existing.get('status') == 'ok' and existing.get('url') == source['url']:
-            return existing
+            body_path = root / existing.get('cache_path', '')
+            try:
+                if hashlib.sha256(body_path.read_bytes()).hexdigest() == existing.get('sha256'):
+                    return existing
+            except (OSError, TypeError):
+                pass
+            # tampered or missing cached body: fail closed, re-fetch below
     attempt = 0
     while True:
         attempt += 1
         budget.charge_request()
         if session:
             session.charge(source['source_id'] + ' attempt %d' % attempt, requests=1)
-        error, status_code, body, headers = None, None, b'', {}
+        error, status_code, body, headers, stop = None, None, b'', {}, None
+        bytes_before = budget.bytes
         try:
-            status_code, headers, body = transport(source['url'], timeout=timeout, byte_cap=byte_cap)
-        except ResponseTooLarge as exc:
-            error = str(exc)
+            status_code, headers, body, stop = transport(source['url'], timeout=timeout,
+                                                         byte_cap=byte_cap, budget=budget,
+                                                         session=session)
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             error = '%s: %s' % (type(exc).__name__, exc)
-        if error is None:
-            budget.charge_bytes(len(body))
-            if session:
-                session.charge(source['source_id'] + ' attempt %d' % attempt, nbytes=len(body))
-        if error is None and status_code == 200:
-            return _write_record(source, root, body, headers, status_code)
-        if error is None:
+        # Reconcile: the transport's BoundedReader charges received bytes per
+        # chunk; guarantee the full received body is charged even if a custom
+        # transport did not charge.
+        if budget.bytes - bytes_before < len(body):
+            budget.charge_bytes(len(body) - (budget.bytes - bytes_before))
+        if stop is not None:
+            error = 'read stopped: %s (%d bytes received and retained)' % (stop, len(body))
+        elif error is None and status_code != 200:
             error = 'HTTP %s' % status_code
-        _write_record(source, root, body, headers, status_code, error=error)
+        if session and body:
+            try:
+                session.charge(source['source_id'] + ' attempt %d bytes' % attempt, nbytes=len(body))
+            except BudgetExceeded:
+                pass  # session exhausted; the record below is still written, then we stop
+        record = _write_record(source, root, body, headers, status_code, error=error, attempt=attempt)
+        if error is None:
+            return record
         if error.startswith('HTTP'):
             retryable = status_code in RETRYABLE_STATUS
         else:
-            retryable = 'exceeds per-request byte cap' not in error  # network/timeout errors retry; oversized bodies do not
+            # network/timeout errors retry; cap/budget/time stops do not
+            retryable = stop is None
         if not retryable or attempt > max_retries:
-            return json.loads(record_path.read_text())
+            return record
         delay = _retry_delay(headers, attempt)
-        budget.check_time()
+        remaining = budget.max_seconds - budget.elapsed()
         if session:
-            session.check()
+            remaining = min(remaining, session.max_seconds - session.elapsed())
+        if delay > remaining:
+            return record  # cannot honor the full Retry-After within the deadline; stop
         sleep(delay)
 
 
@@ -460,6 +530,8 @@ def _load_rows(run_dir, source_id):
     if record.get('status') != 'ok':
         return record, None
     body = (run_dir / record['cache_path']).read_bytes()
+    if hashlib.sha256(body).hexdigest() != record.get('sha256'):
+        raise ValueError('Changed cached source body for %s; refusing to use unverified evidence' % source_id)
     return record, json.loads(body)
 
 
@@ -637,18 +709,33 @@ def build_package(run_dir):
     pluto_record, pluto_rows = _load_rows(run_dir, 'pluto_%s' % bbl)
     pluto_row = pluto_rows[0] if pluto_rows else None
     if pluto_row is None:
-        add_unknown('pluto_missing', 'No PLUTO row for BBL %s in this run.' % bbl)
+        if pluto_rows is not None:
+            add_unknown('pluto_empty',
+                        'PLUTO returned an empty successful result for BBL %s in this run; absence is not proof '
+                        'the parcel is unmapped.' % bbl)
+        else:
+            add_unknown('pluto_missing',
+                        'No usable PLUTO source for BBL %s in this run (not fetched or failed); parcel identity '
+                        'is not established.' % bbl)
     else:
+        pluto_fields = ('bbl', 'bin', 'address', 'ownername', 'zonedist1', 'lotarea',
+                        'appbbl', 'condono', 'unitsres', 'numfloors', 'bldgclass')
         records.append({'record_id': 'pluto:%s' % bbl, 'kind': 'parcel_identity',
-                        'fields': {k: pluto_row.get(k) for k in
-                                   ('bbl', 'bin', 'address', 'owner1', 'owner2', 'lotarea', 'zoningdist')},
-                        'locators': [_locator('pluto_%s' % bbl, 0, ['bbl', 'owner1', 'lotarea'])]})
+                        'fields': {k: pluto_row.get(k) for k in pluto_fields},
+                        'owner_label_note': ('ownername is a tax-roll label from the current PLUTO extract; it is '
+                                             'not legal ownership and not a current-owner conclusion.'),
+                        'locators': [_locator('pluto_%s' % bbl, 0, list(pluto_fields))]})
 
     legal_record, legal_rows = _load_rows(run_dir, 'acris_legal_%s' % bbl)
-    legal_rows = legal_rows or []
-    if not legal_rows:
-        add_unknown('acris_empty', 'No ACRIS legal rows for BBL %s in the dataset window '
-                                   '(1966 onward, Staten Island excluded); absence is not proof of no records.' % bbl)
+    if legal_rows is None:
+        # Source failed or was not fetched; source_failed/source_missing
+        # unknowns are already recorded. Unavailable evidence is not an empty
+        # successful result.
+        legal_rows = []
+    elif not legal_rows:
+        add_unknown('acris_empty', 'ACRIS legals returned an empty successful result for BBL %s in the dataset '
+                                   'window (1966 onward, Staten Island excluded); absence is not proof of no '
+                                   'records.' % bbl)
     master_record, master_rows = _load_rows(run_dir, 'acris_master_%s' % bbl)
     master_by_id = {row.get('document_id'): (i, row) for i, row in enumerate(master_rows or [])}
     parties_record, parties_rows = _load_rows(run_dir, 'acris_parties_%s' % bbl)
@@ -772,22 +859,51 @@ def build_package(run_dir):
                                                 if e['role'] and 'GRANTEE' in e['role'].upper()), None)
 
     sales_record, sales_rows = _load_rows(run_dir, 'dof_sales_%s' % bbl)
+    unit_sales = 0
     for i, srow in enumerate(sales_rows or []):
+        raw_bbl = None
+        if srow.get('borough') and srow.get('block') and srow.get('lot'):
+            try:
+                raw_bbl = bbl_from_parts(srow.get('borough'), srow.get('block'), srow.get('lot'))
+            except ValueError:
+                raw_bbl = None
+        unit = srow.get('apartment_number')
+        scope = 'unit' if (unit or (raw_bbl is not None and raw_bbl != bbl)) else 'parcel'
+        if scope == 'unit':
+            unit_sales += 1
         records.append({'record_id': 'dof_sales:%s:%d' % (bbl, i), 'kind': 'sale',
-                        'fields': {k: srow.get(k) for k in ('bbl', 'bin', 'address', 'sale_date', 'sale_price')},
-                        'locators': [_locator('dof_sales_%s' % bbl, i, ['bbl', 'sale_date', 'sale_price'])]})
+                        'scope': scope,
+                        'unit': unit,
+                        'raw_bbl': raw_bbl,
+                        'raw': srow,
+                        'fields': {k: srow.get(k) for k in
+                                   ('bbl', 'bin', 'borough', 'block', 'lot', 'apartment_number', 'address',
+                                    'sale_date', 'sale_price', 'building_class_category')},
+                        'sale_price_note': ('Reported sale price for the scoped unit/parcel; a reported price, '
+                                            'never an instrument amount.'),
+                        'locators': [_locator('dof_sales_%s' % bbl, i, sorted(srow.keys()))]})
+    if unit_sales:
+        add_unknown('unit_sales_scope',
+                    '%d of %d DOF sales rows are unit-level (condo) sales: their block/lot identify the unit lot, '
+                    'not the mapped parcel lot %s. They are associated with the condo billing/map BBL %s and are '
+                    'not whole-property sales of the mapped parcel; they are not aggregated or corroborated as '
+                    'whole-property sales.' % (unit_sales, len(sales_rows or []), lot, bbl),
+                    key='unit_sales_scope')
     if sales_rows is not None and not sales_rows:
-        add_unknown('sales_empty', 'No DOF sales rows for BBL %s in the dataset window; absence is not proof of no sale.' % bbl)
+        add_unknown('sales_empty', 'DOF sales returned an empty successful result for BBL %s in the dataset '
+                                   'window; absence is not proof of no sale.' % bbl)
 
     if pluto_row and latest_deed and latest_deed.get('_grantee'):
-        pluto_owner = _norm_name(pluto_row.get('owner1'))
+        pluto_owner = _norm_name(pluto_row.get('ownername'))
         grantee = _norm_name(latest_deed.get('_grantee'))
         if pluto_owner and grantee and pluto_owner != grantee:
             conflicts.append({'id': 'conflict.owner_label', 'kind': 'owner_label_mismatch',
-                              'description': 'PLUTO owner label %r differs from recorded grantee of latest deed (%s) %r. '
-                                             'Tax-roll label and deed party are not reconciled; neither establishes current ownership.'
-                                             % (pluto_row.get('owner1'), latest_deed.get('_doc_id'), latest_deed.get('_grantee')),
-                              'evidence': [_locator('pluto_%s' % bbl, 0, ['owner1']),
+                              'description': 'PLUTO tax-roll owner label %r differs from recorded grantee of latest '
+                                             'deed (%s) %r. Tax-roll label and deed party are not reconciled; neither '
+                                             'establishes current ownership.'
+                                             % (pluto_row.get('ownername'), latest_deed.get('_doc_id'),
+                                                latest_deed.get('_grantee')),
+                              'evidence': [_locator('pluto_%s' % bbl, 0, ['ownername']),
                                            _locator('acris_master_%s' % bbl,
                                                     master_by_id.get(latest_deed['_doc_id'], (None, None))[0],
                                                     ['document_date'])]})
@@ -826,7 +942,7 @@ def build_package(run_dir):
         }
 
     records.sort(key=lambda r: r['record_id'])
-    package = {'package_version': '0.2', 'parcel': {'bbl': bbl, 'borough': borough, 'block': block, 'lot': lot},
+    package = {'package_version': '0.3', 'parcel': {'bbl': bbl, 'borough': borough, 'block': block, 'lot': lot},
                'run_id': run['run_id'], 'run_status': run['status'], 'budget': run['budget'],
                'sources': sources, 'records': records,
                'other_parcels': [other_parcels[k] for k in sorted(other_parcels)],

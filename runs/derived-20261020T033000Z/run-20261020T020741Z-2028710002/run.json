@@ -1,0 +1,49 @@
+{
+  "bbl": "2028710002",
+  "budget": {
+    "bytes": 60765,
+    "elapsed_seconds": 2.963,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 5
+  },
+  "ended_at": "2026-10-20T02:07:44.956722+00:00",
+  "errors": [],
+  "requests": [
+    {
+      "bytes": 1555,
+      "error": null,
+      "source_id": "pluto_2028710002",
+      "status": "ok"
+    },
+    {
+      "bytes": 13571,
+      "error": null,
+      "source_id": "acris_legal_2028710002",
+      "status": "ok"
+    },
+    {
+      "bytes": 694,
+      "error": null,
+      "source_id": "dof_sales_2028710002",
+      "status": "ok"
+    },
+    {
+      "bytes": 17304,
+      "error": null,
+      "source_id": "acris_master_2028710002",
+      "status": "ok"
+    },
+    {
+      "bytes": 27641,
+      "error": null,
+      "source_id": "acris_parties_2028710002",
+      "status": "ok"
+    }
+  ],
+  "run_id": "run-20261020T020741Z-2028710002",
+  "started_at": "2026-10-20T02:07:41.993245+00:00",
+  "status": "complete"
+}

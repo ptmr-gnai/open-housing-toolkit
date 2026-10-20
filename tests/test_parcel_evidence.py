@@ -11,8 +11,9 @@ OTHER_BBL = '2012340057'
 
 BODIES = {
     'pluto_%s' % BBL: [{'bbl': BBL, 'bin': '2012345', 'address': '123 MAIN ST',
-                        'owner1': 'ACME HOLDINGS LLC', 'owner2': None, 'lotarea': 5000,
-                        'zoningdist': 'R8A'}],
+                        'ownername': 'ACME HOLDINGS LLC', 'zonedist1': 'R8A',
+                        'lotarea': 5000, 'appbbl': BBL, 'condono': None,
+                        'unitsres': 0, 'numfloors': 3, 'bldgclass': 'V1'}],
     'acris_legal_%s' % BBL: [
         {'document_id': 'D1', 'record_type': 'L', 'borough': '2', 'block': '01234', 'lot': '56',
          'street_number': '123', 'street_name': 'MAIN ST', 'good_through_date': '2020-01-31T00:00:00.000'},
@@ -42,8 +43,10 @@ BODIES = {
         {'document_id': 'D3', 'party_type': '1', 'name': 'SOME PARTY'},
     ],
     'dof_sales_%s' % BBL: [
-        {'bbl': BBL, 'bin': '2012345', 'address': '123 MAIN ST', 'sale_date': '2020-01-15',
-         'sale_price': '500000'},
+        {'bbl': BBL, 'bin': '2012345', 'address': '123 MAIN ST',
+         'borough': '2', 'block': '01234', 'lot': '0056', 'apartment_number': None,
+         'sale_date': '2020-01-15', 'sale_price': '500000',
+         'building_class_category': '01 ONE FAMILY DWELLINGS'},
     ],
     'acris_doc_codes': [
         {'record_type': 'D', 'doc__type': 'DEED', 'doc__type_description': 'DEED',
@@ -300,7 +303,7 @@ class CollectionTests(unittest.TestCase):
 
     def test_conflict_owner_label(self):
         bodies = copy.deepcopy(BODIES)
-        bodies['pluto_%s' % BBL][0]['owner1'] = 'DIFFERENT OWNER LLC'
+        bodies['pluto_%s' % BBL][0]['ownername'] = 'DIFFERENT OWNER LLC'
         with run_ctx(bodies=bodies) as (_, _, package):
             kinds = [c['kind'] for c in package['conflicts']]
             self.assertIn('owner_label_mismatch', kinds)
@@ -408,16 +411,32 @@ class CollectionTests(unittest.TestCase):
 def make_transport(script):
     """Fake transport. Script entries: ('ok', body) | ('http', status, headers, body)
     | ('raise', exception). Repeats the last entry when exhausted. Returns
-    (transport, calls)."""
+    (transport, calls). Mimics the real transport: charges received bytes to
+    the run budget (as BoundedReader does) and returns
+    (status, headers, body, stop)."""
     calls = []
 
-    def transport(url, timeout=55, byte_cap=10 * 1024 * 1024):
+    def transport(url, timeout=55, byte_cap=10 * 1024 * 1024, budget=None, session=None):
         calls.append(url)
         outcome = script[min(len(calls) - 1, len(script) - 1)]
         if outcome[0] == 'ok':
-            return 200, {'Content-Type': 'application/json'}, outcome[1]
+            body = outcome[1]
+            stop = None
+            if budget is not None:
+                try:
+                    budget.charge_bytes(len(body))
+                except pe.BudgetExceeded:
+                    stop = 'budget'
+            return 200, {'Content-Type': 'application/json'}, body, stop
         if outcome[0] == 'http':
-            return outcome[1], outcome[2], outcome[3]
+            body = outcome[3]
+            stop = None
+            if budget is not None:
+                try:
+                    budget.charge_bytes(len(body))
+                except pe.BudgetExceeded:
+                    stop = 'budget'
+            return outcome[1], outcome[2], body, stop
         raise outcome[1]
     return transport, calls
 
@@ -428,13 +447,15 @@ BODY = b'[{"x": 1}]'
 
 
 class BoundedFetchTests(unittest.TestCase):
-    def _fetch(self, script, max_requests=150, max_bytes=50 * 1024 * 1024, byte_cap=None):
+    def _fetch(self, script, max_requests=150, max_bytes=50 * 1024 * 1024,
+               max_seconds=90 * 60, byte_cap=None):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = pathlib.Path(tmp.name)
         transport, calls = make_transport(script)
         sleeps = []
-        budget = pe.Budget(max_requests=max_requests, max_bytes=max_bytes)
+        budget = pe.Budget(max_requests=max_requests, max_bytes=max_bytes,
+                           max_seconds=max_seconds)
         budget.start()
         kwargs = {'transport': transport, 'sleep': sleeps.append}
         if byte_cap is not None:
@@ -455,7 +476,7 @@ class BoundedFetchTests(unittest.TestCase):
         self.assertEqual(budget.requests, 3)          # retries count as requests
         self.assertEqual(len(calls), 3)
         self.assertEqual(sleeps, [1.0, 2.0])          # Retry-After honored
-        self.assertTrue((root / 'cache' / 't.error').exists())  # error bodies retained
+        self.assertTrue((root / 'cache' / 't.attempt-1.error').exists())  # error bodies retained per attempt
         self.assertEqual(json.loads((root / 'cache' / 't.source.json').read_text())['status'], 'ok')
 
     def test_retry_exhausted_gives_failed_record(self):
@@ -465,7 +486,8 @@ class BoundedFetchTests(unittest.TestCase):
         self.assertEqual(budget.requests, 3)          # 1 + 2 retries, then stop
         self.assertEqual(len(calls), 3)
         self.assertIn('HTTP 429', record['error'])
-        self.assertTrue((root / 'cache' / 't.error').exists())
+        self.assertTrue((root / 'cache' / 't.attempt-1.error').exists())
+        self.assertTrue((root / 'cache' / 't.attempt-3.error').exists())
 
     def test_no_retry_on_404(self):
         root, record, budget, calls, sleeps = self._fetch([('http', 404, {}, b'not found')])
@@ -485,8 +507,8 @@ class BoundedFetchTests(unittest.TestCase):
         self.assertEqual(sleeps, [1.0, 2.0])          # exponential backoff
 
     def test_oversized_response_no_retry(self):
-        def transport(url, timeout=55, byte_cap=100):
-            raise pe.ResponseTooLarge('response exceeds per-request byte cap of 100 bytes')
+        def transport(url, timeout=55, byte_cap=100, budget=None, session=None):
+            return 200, {}, b'x' * 100, 'cap'
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = pathlib.Path(tmp.name)
@@ -495,15 +517,47 @@ class BoundedFetchTests(unittest.TestCase):
         sleeps = []
         record = pe.bounded_fetch(SOURCE, budget, root, transport=transport, sleep=sleeps.append)
         self.assertEqual(record['status'], 'failed')
+        self.assertIn('cap', record['error'])
         self.assertEqual(budget.requests, 1)
         self.assertEqual(sleeps, [])
 
     def test_error_bodies_charge_bytes(self):
         root, record, budget, calls, sleeps = self._fetch(
             [('http', 500, {}, b'x' * 100)], max_bytes=150)
-        self.assertIsNone(record)                     # BudgetExceeded on 3rd charge
-        self.assertEqual(budget.bytes, 200)           # error bodies counted
+        self.assertEqual(record['status'], 'failed')   # partial body retained, not lost
+        self.assertEqual(budget.bytes, 200)            # error bodies counted
         self.assertEqual(budget.requests, 2)
+        self.assertIn('budget', record['error'])
+        self.assertTrue((root / 'cache' / 't.attempt-2.error').exists())
+
+    def test_long_numeric_retry_after_honored_in_full(self):
+        root, record, budget, calls, sleeps = self._fetch([
+            ('http', 429, {'Retry-After': '120'}, b'rate limited'),
+            ('ok', BODY),
+        ])
+        self.assertEqual(record['status'], 'ok')
+        self.assertEqual(sleeps, [120.0])              # full 120s, never shortened
+
+    def test_retry_after_exceeding_deadline_stops(self):
+        # 90-second budget, 120-second Retry-After: cannot honor in full, so stop.
+        root, record, budget, calls, sleeps = self._fetch([
+            ('http', 429, {'Retry-After': '120'}, b'rate limited'),
+            ('ok', BODY),
+        ], max_seconds=90)
+        self.assertEqual(record['status'], 'failed')
+        self.assertEqual(len(calls), 1)
+        self.assertEqual(sleeps, [])
+
+    def test_http_date_retry_after_honored(self):
+        from datetime import datetime, timedelta, timezone
+        from email.utils import format_datetime
+        when = datetime.now(timezone.utc) + timedelta(seconds=90)
+        root, record, budget, calls, sleeps = self._fetch([
+            ('http', 429, {'Retry-After': format_datetime(when)}, b'rate limited'),
+            ('ok', BODY),
+        ])
+        self.assertEqual(record['status'], 'ok')
+        self.assertTrue(85 <= sleeps[0] <= 90)
 
     def test_request_cap_counts_retries(self):
         root, record, budget, calls, sleeps = self._fetch([
@@ -558,9 +612,23 @@ class SessionBudgetTests(unittest.TestCase):
             s2.charge('run', requests=3)
             with self.assertRaises(pe.BudgetExceeded):
                 s2.charge('more', requests=1)
+            # The rejected 6th charge is persisted before the check, so the
+            # ledger holds the truthful accounting of what was attempted.
             data = json.loads(path.read_text())
-            self.assertEqual(data['requests'], 5)
-            self.assertEqual(len(data['entries']), 2)
+            self.assertEqual(data['requests'], 6)
+            self.assertEqual(len(data['entries']), 3)
+
+    def test_exhausted_state_survives_reload(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp) / 'session.json'
+            s = pe.SessionBudget(path, max_requests=2)
+            s.charge('a', requests=2)
+            with self.assertRaises(pe.BudgetExceeded):
+                s.charge('b', requests=1)
+            s2 = pe.SessionBudget(path, max_requests=2)
+            self.assertEqual(s2.requests, 3)  # truthful: 3 attempts recorded
+            with self.assertRaises(pe.BudgetExceeded):
+                s2.charge('c', requests=1)
 
     def test_byte_limit(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -639,10 +707,173 @@ class UnitTests(unittest.TestCase):
 
     def test_retry_delay_parsing(self):
         self.assertEqual(pe._retry_delay({'Retry-After': '7'}, 1), 7.0)
-        self.assertEqual(pe._retry_delay({'Retry-After': '999'}, 1), pe.RETRY_AFTER_CAP_SECONDS)
+        self.assertEqual(pe._retry_delay({'Retry-After': '999'}, 1), 999.0)  # full, never shortened
         self.assertEqual(pe._retry_delay({}, 1), 1.0)
         self.assertEqual(pe._retry_delay({}, 4), 8.0)
         self.assertEqual(pe._retry_delay({}, 9), pe.BACKOFF_CAP_SECONDS)
+
+
+class BoundedReaderTests(unittest.TestCase):
+    """Real BoundedReader against fake streams: mid-read enforcement and
+    per-chunk charging, partial bodies retained."""
+
+    class FakeStream:
+        def __init__(self, data):
+            self.data, self.pos = data, 0
+
+        def read(self, n):
+            chunk = self.data[self.pos:self.pos + n]
+            self.pos += len(chunk)
+            return chunk
+
+    def test_reader_stops_at_per_request_cap(self):
+        budget = pe.Budget()
+        budget.start()
+        reader = pe.BoundedReader(self.FakeStream(b'x' * 300), 100, budget)
+        body = reader.read_all()
+        self.assertEqual(len(body), 100)
+        self.assertEqual(reader.stop, 'cap')
+        self.assertEqual(budget.bytes, 100)
+
+    def test_reader_stops_at_remaining_run_bytes(self):
+        budget = pe.Budget(max_bytes=150)
+        budget.start()
+        budget.charge_bytes(50)  # 100 bytes remaining
+        reader = pe.BoundedReader(self.FakeStream(b'x' * 300), 10 * 1024 * 1024, budget)
+        body = reader.read_all()
+        self.assertEqual(len(body), 100)
+        self.assertEqual(reader.stop, 'budget')
+        self.assertEqual(budget.bytes, 150)
+
+    def test_reader_stops_at_remaining_session_bytes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            session = pe.SessionBudget(pathlib.Path(tmp) / 's.json', max_bytes=150)
+            session.charge('prior', nbytes=50)
+            budget = pe.Budget()
+            budget.start()
+            reader = pe.BoundedReader(self.FakeStream(b'x' * 300), 10 * 1024 * 1024,
+                                      budget, session)
+            body = reader.read_all()
+            self.assertEqual(len(body), 100)
+            self.assertEqual(reader.stop, 'budget')
+
+    def test_reader_stops_on_time(self):
+        clock = [0.0]
+        budget = pe.Budget(max_seconds=10, clock=lambda: clock[0])
+        budget.start()
+        data = b'x' * 300
+        pos = [0]
+
+        class SlowStream:
+            def read(self, n):
+                chunk = data[pos[0]:pos[0] + min(n, 10)]
+                pos[0] += len(chunk)
+                clock[0] += 11  # each read overshoots the time budget
+                return chunk
+
+        reader = pe.BoundedReader(SlowStream(), 10 * 1024 * 1024, budget)
+        body = reader.read_all()
+        self.assertEqual(len(body), 10)  # one chunk read, then time exhausted
+        self.assertEqual(reader.stop, 'time')
+
+
+class TransportIntegrationTests(unittest.TestCase):
+    """Real transport_urllib + BoundedReader + shared SessionBudget, with
+    urlopen monkeypatched (no network)."""
+
+    def test_real_transport_charges_run_and_session(self):
+        import io
+        payload = b'["a"]' * 100  # 600 bytes
+
+        class FakeResp(io.BytesIO):
+            status = 200
+            headers = {'Content-Type': 'application/json'}
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                self.close()
+
+        with tempfile.TemporaryDirectory() as tmp:
+            session = pe.SessionBudget(pathlib.Path(tmp) / 's.json')
+            budget = pe.Budget()
+            budget.start()
+            orig = pe.urllib.request.urlopen
+            pe.urllib.request.urlopen = lambda req, timeout=None: FakeResp(payload)
+            try:
+                record = pe.bounded_fetch(SOURCE, budget, pathlib.Path(tmp) / 'run',
+                                          session=session, sleep=lambda s: None)
+            finally:
+                pe.urllib.request.urlopen = orig
+            self.assertEqual(record['status'], 'ok')
+            self.assertEqual(budget.bytes, len(payload))
+            self.assertEqual(session.bytes, len(payload))
+            self.assertEqual(session.requests, 1)
+
+    def test_real_transport_error_body_retained_and_charged(self):
+        import io
+        import urllib.error
+
+        with tempfile.TemporaryDirectory() as tmp:
+            session = pe.SessionBudget(pathlib.Path(tmp) / 's.json')
+            budget = pe.Budget()
+            budget.start()
+            orig = pe.urllib.request.urlopen
+            err = urllib.error.HTTPError('https://example.invalid/x.json', 503, 'unavailable',
+                                         {'Retry-After': '1'}, io.BytesIO(b'server busy'))
+
+            def raise_err(req, timeout=None):
+                raise err
+
+            pe.urllib.request.urlopen = raise_err
+            try:
+                status, headers, body, stop = pe.transport_urllib(
+                    'https://example.invalid/x.json', budget=budget, session=session)
+            finally:
+                pe.urllib.request.urlopen = orig
+            self.assertEqual(status, 503)
+            self.assertEqual(body, b'server busy')
+            self.assertEqual(budget.bytes, len(b'server busy'))
+
+
+class RetainedReceiptRegressionTests(unittest.TestCase):
+    """Regression fixtures based on the retained raw receipts from the live
+    run for BBL 1012127503 (150 West 82nd Street, a 38-unit elevator condo
+    property per the raw PLUTO/DOF receipts)."""
+    RUN3 = pathlib.Path(__file__).resolve().parents[1] / 'runs' / 'run-20261020T031148Z-1012127503'
+
+    def test_run3_pluto_ownername_and_zoning(self):
+        row = json.loads((self.RUN3 / 'cache' / 'pluto_1012127503.body').read_text())[0]
+        self.assertEqual(row['ownername'], '150 WEST 82ND STREET OWNER, LLC')
+        self.assertEqual(row['zonedist1'], 'R8B')
+        self.assertEqual(row['unitsres'], '38')
+        self.assertEqual(row['condono'], '3124')
+
+    def test_run3_dof_rows_are_unit_level(self):
+        rows = json.loads((self.RUN3 / 'cache' / 'dof_sales_1012127503.body').read_text())
+        self.assertGreater(len(rows), 0)
+        for row in rows:
+            self.assertEqual(row['bbl'], '1012127503')
+            self.assertEqual(row['building_class_category'], '13 CONDOS - ELEVATOR APARTMENTS')
+            self.assertTrue(row.get('apartment_number'))
+            self.assertNotEqual(row['lot'], '7503')  # unit lot, not the mapped parcel lot
+
+    def test_derived_run3_package_flags_unit_scope(self):
+        derived = self.RUN3.parent / 'derived-20261020T033000Z' / 'run-20261020T031148Z-1012127503'
+        package = json.loads((derived / 'package.json').read_text())
+        self.assertEqual(package['package_version'], '0.3')
+        kinds = {u['kind'] for u in package['unknowns']}
+        self.assertIn('unit_sales_scope', kinds)
+        pluto = [r for r in package['records'] if r['kind'] == 'parcel_identity'][0]
+        self.assertEqual(pluto['fields']['ownername'], '150 WEST 82ND STREET OWNER, LLC')
+        self.assertEqual(pluto['fields']['zonedist1'], 'R8B')
+        self.assertIn('tax-roll label', pluto['owner_label_note'])
+        sales = [r for r in package['records'] if r['kind'] == 'sale']
+        self.assertTrue(all(s['scope'] == 'unit' for s in sales))
+        self.assertTrue(all('raw' in s for s in sales))
+        lineage = json.loads((derived / 'lineage.json').read_text())
+        self.assertEqual(lineage['original_run_id'], 'run-20261020T031148Z-1012127503')
 
 
 if __name__ == '__main__':
