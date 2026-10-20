@@ -1,0 +1,16 @@
+{
+  "address": "212 WEST 82ND STREET",
+  "borough": "1",
+  "budget": {
+    "bytes": 3,
+    "elapsed_seconds": 0.329,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 1
+  },
+  "candidates": [],
+  "receipt_source_id": "pluto_discover_1_212_82",
+  "status": "ok"
+}

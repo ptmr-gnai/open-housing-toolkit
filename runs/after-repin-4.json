@@ -1,0 +1,14 @@
+{
+ "outputs/advisor-brief.md": "cc62459fba21e4ec026241909e4021110cbbad12ced95dce0ea8c2a7278279f3",
+ "outputs/advisor-explorer.html": "8d2ac629135d44f390c61e3e34fe53434919a34e3397b7246aaba36414e42fdf",
+ "outputs/dossiers.json": "d5ed63511dc6472fed72a6c71b42ebef8f7682cb743d6be47fc585111d390d7c",
+ "outputs/exclusions.json": "857c000c4ba2961d3e7821577c4009ef330a278dc2dc45c2e369083a1da2a041",
+ "outputs/ir.json": "a5ff17429fa2af9973a30bcbb16fce9d9ac91400529e2b84172d667f4c7b6f6d",
+ "outputs/manifest.json": "185b0e6864252f022ad2ff860a9285169970c2b182f8f4b995fed1a4f30add86",
+ "outputs/media-draft.md": "b1e35b987713f5bb62269266bc97aa71b048d9fafdf6968799ab205bafae07a4",
+ "outputs/preview-desktop.png": "f0b4dfb737e34c9744d90b28394f78b88eb96ca2cba2a7252df45f159d7264a1",
+ "outputs/preview-mobile.png": "3dd0ffc5c1cc881e9668f4a4e5221118e1523cbdb6083ba4631d1b70d6eb7797",
+ "outputs/probe-report.md": "2d5caabbd3d62eb7171cebb6aa13f13c397fda1b708f1757e4430d7fd804a4f7",
+ "outputs/shortlist.csv": "c5e5cbadcb59327d40d62be71ee90ee7c5462b9a466d8e676cdc775e677d2662",
+ "outputs/validation.json": "2ab815a2b63569c27b732b24cd18723baee012310aa2929a9cbc322b5a76e7b4"
+}

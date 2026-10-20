@@ -1,0 +1,85 @@
+{
+  "budget": {
+    "bytes": 112731,
+    "elapsed_seconds": 5.101,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 5
+  },
+  "fetched_at": "2026-10-20T03:08:17.517633+00:00",
+  "mapping_evidence": {
+    "doc_type": {
+      "dataset_name": "ACRIS - Real Property Master",
+      "dataset_vintage": 1791490155,
+      "field": "doc_type",
+      "mapping_dataset": "7isb-wh4c (ACRIS - Document Control Codes)",
+      "official_description": "Specific type of instrument "
+    },
+    "party_role": {
+      "dataset_name": "ACRIS - Real Property Parties",
+      "dataset_vintage": 1791490087,
+      "field": "party_type",
+      "mapping_dataset": "7isb-wh4c (ACRIS - Document Control Codes)",
+      "official_description": "Party type code"
+    }
+  },
+  "receipts": [
+    {
+      "bytes": 24004,
+      "dataset_name": null,
+      "error": null,
+      "retrieved_at": "2026-10-20T03:08:12.856055+00:00",
+      "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625",
+      "source_id": "acris_doc_codes",
+      "source_updated_at": null,
+      "status": "ok",
+      "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000"
+    },
+    {
+      "bytes": 13406,
+      "dataset_name": "ACRIS - Document Control Codes",
+      "error": null,
+      "retrieved_at": "2026-10-20T03:08:16.852648+00:00",
+      "sha256": "ed212ca41106cab08f4f63abde8146fc8c0c30b2e580ea903d7b26e4b4e4e729",
+      "source_id": "acris_doc_codes_metadata",
+      "source_updated_at": 1785937797,
+      "status": "ok",
+      "url": "https://data.cityofnewyork.us/api/views/7isb-wh4c.json"
+    },
+    {
+      "bytes": 29293,
+      "dataset_name": "ACRIS - Real Property Master",
+      "error": null,
+      "retrieved_at": "2026-10-20T03:08:17.060770+00:00",
+      "sha256": "ad04bbb01695639474d7c6dcb9d32cd225480d4e9c120035b72cf3acb84534a3",
+      "source_id": "acris_master_metadata",
+      "source_updated_at": 1791490155,
+      "status": "ok",
+      "url": "https://data.cityofnewyork.us/api/views/bnx9-e6tj.json"
+    },
+    {
+      "bytes": 22808,
+      "dataset_name": "ACRIS - Real Property Parties",
+      "error": null,
+      "retrieved_at": "2026-10-20T03:08:17.287712+00:00",
+      "sha256": "da6cb20a43ae084c968590ff131c8ba152bd5cbac60e035d3e129ac5e3aba031",
+      "source_id": "acris_parties_metadata",
+      "source_updated_at": 1791490087,
+      "status": "ok",
+      "url": "https://data.cityofnewyork.us/api/views/636b-3b5g.json"
+    },
+    {
+      "bytes": 23220,
+      "dataset_name": "ACRIS - Real Property Legals",
+      "error": null,
+      "retrieved_at": "2026-10-20T03:08:17.515460+00:00",
+      "sha256": "9cddbfe944e65e4da76fdb9b57a66e9d9d7f3214f1417d0da64b2609620b79da",
+      "source_id": "acris_legals_metadata",
+      "source_updated_at": 1791490061,
+      "status": "ok",
+      "url": "https://data.cityofnewyork.us/api/views/8h5j-fqxa.json"
+    }
+  ]
+}

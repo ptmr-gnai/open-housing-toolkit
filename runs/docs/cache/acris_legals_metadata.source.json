@@ -1,0 +1,17 @@
+{
+  "id": "acris_legals_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/8h5j-fqxa.json",
+  "publisher": "NYC Open Data (Socrata dataset metadata)",
+  "retrieved_at": "2026-10-20T03:08:17.515460+00:00",
+  "coverage_limits": "Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1791490061,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/acris_legals_metadata.body",
+  "bytes": 23220,
+  "sha256": "9cddbfe944e65e4da76fdb9b57a66e9d9d7f3214f1417d0da64b2609620b79da",
+  "dataset_name": "ACRIS - Real Property Legals"
+}

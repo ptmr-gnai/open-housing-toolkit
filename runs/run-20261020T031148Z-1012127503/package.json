@@ -1,0 +1,1074 @@
+{
+  "budget": {
+    "bytes": 51619,
+    "elapsed_seconds": 2.999,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 4
+  },
+  "conflicts": [],
+  "date_bounds": {
+    "dataset_last_modified": {
+      "acris_doc_codes": "Wed, 05 Aug 2026 13:49:57 GMT",
+      "acris_legal_1012127503": "Thu, 08 Oct 2026 20:07:34 GMT",
+      "dof_sales_1012127503": "Tue, 09 Jun 2026 18:31:52 GMT",
+      "pluto_1012127503": "Mon, 24 Aug 2026 20:20:51 GMT"
+    },
+    "earliest_document_date": null,
+    "latest_document_date": null,
+    "retrieved_at_range": [
+      "2026-10-20T03:11:48.681216+00:00",
+      "2026-10-20T03:11:51.059983+00:00"
+    ]
+  },
+  "limitations": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.",
+    "Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.",
+    "doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record."
+  ],
+  "mapping_provenance": {
+    "class_family_derivation": {
+      "DEEDS AND OTHER CONVEYANCES": "deed",
+      "MORTGAGES & INSTRUMENTS": "mortgage",
+      "OTHER DOCUMENTS": "other",
+      "UCC AND FEDERAL LIENS": "lien"
+    },
+    "fields": {
+      "doc_type": "doc__type -> doc__type_description, class_code_description",
+      "party_role": "parties.party_type N -> partyN_type of the doc__type row"
+    },
+    "mapping_source": "NYC Open Data: ACRIS - Document Control Codes (7isb-wh4c), published by NYC DOF",
+    "receipt": "cache/acris_doc_codes.body",
+    "retrieved_at": "2026-10-20T03:11:51.059983+00:00",
+    "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625",
+    "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000"
+  },
+  "non_claims": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.",
+    "Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.",
+    "doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record."
+  ],
+  "other_parcels": [],
+  "ownership_evidence": {
+    "current_owner": {
+      "reason": "A defensible current-owner conclusion requires a complete chain of title from the latest recorded conveyance to the present, including unrecorded interests, liens, corrections and any post-recording transfers. This package contains index rows only and does not perform that research; the recorded grantee evidence above is not a current-owner conclusion.",
+      "status": "unknown"
+    },
+    "recorded_grantees": []
+  },
+  "package_version": "0.2",
+  "parcel": {
+    "bbl": "1012127503",
+    "block": "01212",
+    "borough": "1",
+    "lot": "7503"
+  },
+  "records": [
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 4D",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-05-20T00:00:00.000",
+        "sale_price": "2050000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 0,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:0"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 1K",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-05-23T00:00:00.000",
+        "sale_price": "3750000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 1,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:1"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8C",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-07-28T00:00:00.000",
+        "sale_price": "1350000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 10,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:10"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 3D",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-08-02T00:00:00.000",
+        "sale_price": "4952000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 11,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:11"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 3F",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-08-02T00:00:00.000",
+        "sale_price": "4952000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 12,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:12"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 3J",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-08-02T00:00:00.000",
+        "sale_price": "4952000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 13,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:13"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 9G",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-08-18T00:00:00.000",
+        "sale_price": "1650000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 14,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:14"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 4E",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-08-29T00:00:00.000",
+        "sale_price": "835000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 15,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:15"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 2H",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-09-02T00:00:00.000",
+        "sale_price": "2650000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 16,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:16"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 5J",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-10-14T00:00:00.000",
+        "sale_price": "3675000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 17,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:17"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 6B",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-11-15T00:00:00.000",
+        "sale_price": "1475000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 18,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:18"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, PHS",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-11-30T00:00:00.000",
+        "sale_price": "6750000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 19,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:19"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 7A",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-05-25T00:00:00.000",
+        "sale_price": "2425000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 2,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:2"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, PHN",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-12-30T00:00:00.000",
+        "sale_price": "6900000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 20,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:20"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 2J",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2023-03-30T00:00:00.000",
+        "sale_price": "3250000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 21,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:21"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 3K",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2023-04-07T00:00:00.000",
+        "sale_price": "3900000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 22,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:22"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 2C",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2023-06-20T00:00:00.000",
+        "sale_price": "1970000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 23,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:23"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 1E",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2023-12-20T00:00:00.000",
+        "sale_price": "2014794"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 24,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:24"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 1A",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2023-12-20T00:00:00.000",
+        "sale_price": "2014794"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 25,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:25"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 7K",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2024-04-15T00:00:00.000",
+        "sale_price": "4050000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 26,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:26"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 1A",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2024-05-14T00:00:00.000",
+        "sale_price": "0"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 27,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:27"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 6J",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2024-06-20T00:00:00.000",
+        "sale_price": "3400000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 28,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:28"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8F",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 29,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:29"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 5H",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-06-02T00:00:00.000",
+        "sale_price": "2875000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 3,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:3"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8G",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 30,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:30"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 4A",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 31,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:31"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 2B",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 32,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:32"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 4F",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 33,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:33"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 6C",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 34,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:34"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 6D",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 35,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:35"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 6G",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 36,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:36"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 7E",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 37,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:37"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8B",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-01-27T00:00:00.000",
+        "sale_price": "2952251"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 38,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:38"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8J",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2025-07-16T00:00:00.000",
+        "sale_price": "3400000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 39,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:39"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 7H",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-06-09T00:00:00.000",
+        "sale_price": "3025000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 4,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:4"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 4K",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-06-22T00:00:00.000",
+        "sale_price": "4250000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 5,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:5"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 8D",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-07-13T00:00:00.000",
+        "sale_price": "2396638"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 6,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:6"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET, 1D",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-07-22T00:00:00.000",
+        "sale_price": "1950000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 7,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:7"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND ST, 9H",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-07-22T00:00:00.000",
+        "sale_price": "3100000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 8,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:8"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND ST, 5K",
+        "bbl": "1012127503",
+        "bin": "1032037",
+        "sale_date": "2022-07-25T00:00:00.000",
+        "sale_price": "4300000"
+      },
+      "kind": "sale",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "sale_date",
+            "sale_price"
+          ],
+          "row": 9,
+          "source_id": "dof_sales_1012127503"
+        }
+      ],
+      "record_id": "dof_sales:1012127503:9"
+    },
+    {
+      "fields": {
+        "address": "150 WEST 82ND STREET",
+        "bbl": "1012127503.00000000",
+        "bin": null,
+        "lotarea": "7662",
+        "owner1": null,
+        "owner2": null,
+        "zoningdist": null
+      },
+      "kind": "parcel_identity",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "lotarea",
+            "owner1"
+          ],
+          "row": 0,
+          "source_id": "pluto_1012127503"
+        }
+      ],
+      "record_id": "pluto:1012127503"
+    }
+  ],
+  "run_id": "run-20261020T031148Z-1012127503",
+  "run_status": "complete",
+  "sources": [
+    {
+      "bytes": 1542,
+      "cache_path": "cache/pluto_1012127503.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "PLUTO row for exact BBL. Tax-roll attributes; owner label is not legal ownership. Parcel fields may lag underlying changes.",
+      "error": null,
+      "http_status": 200,
+      "id": "pluto_1012127503",
+      "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+      "limit": 10,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of City Planning",
+      "retrieved_at": "2026-10-20T03:11:48.681216+00:00",
+      "row_count": 1,
+      "sha256": "870e436dfaf49fb99926c18096ba50ebe5c42b167f8dc9b67a111192d4825571",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D%271012127503%27&%24limit=10"
+    },
+    {
+      "bytes": 3,
+      "cache_path": "cache/acris_legal_1012127503.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "ACRIS real property records for exact borough/block/lot or document_id. NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary. Index rows are not native document images and not a current title opinion.",
+      "error": null,
+      "http_status": 200,
+      "id": "acris_legal_1012127503",
+      "last_modified": "Thu, 08 Oct 2026 20:07:34 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance (ACRIS)",
+      "retrieved_at": "2026-10-20T03:11:50.191613+00:00",
+      "row_count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D%271%27+AND+block+in+%28%2701212%27%2C%271212%27%29+AND+lot+in+%28%277503%27%29&%24limit=10000&%24order=document_id"
+    },
+    {
+      "bytes": 26070,
+      "cache_path": "cache/dof_sales_1012127503.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "DOF sales rows for exact BBL from the NYC Citywide Annualized Calendar Sales Update. Annualized update feed; absence of a row is not proof of no sale.",
+      "error": null,
+      "http_status": 200,
+      "id": "dof_sales_1012127503",
+      "last_modified": "Tue, 09 Jun 2026 18:31:52 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance",
+      "retrieved_at": "2026-10-20T03:11:50.644942+00:00",
+      "row_count": 40,
+      "sha256": "7b35f76439520755abc615bd2532680f66507837450bc35f654037eb49cc847b",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/w2pb-icbu.json?%24where=bbl%3D%271012127503%27&%24limit=10000&%24order=sale_date"
+    },
+    {
+      "bytes": 24004,
+      "cache_path": "cache/acris_doc_codes.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "ACRIS Document Type and Class Code mappings for codes in the ACRIS Real and Personal Property Master Datasets (NYC Open Data 7isb-wh4c, published by NYC DOF). Mapping reference data; vintage per dataset update, not per recording.",
+      "error": null,
+      "http_status": 200,
+      "id": "acris_doc_codes",
+      "last_modified": "Wed, 05 Aug 2026 13:49:57 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance (ACRIS Document Control Codes)",
+      "retrieved_at": "2026-10-20T03:11:51.059983+00:00",
+      "row_count": 126,
+      "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000"
+    }
+  ],
+  "unknowns": [
+    {
+      "description": "No source record for acris_master_1012127503; it was not fetched in this run.",
+      "id": "unknown.source_missing.0",
+      "kind": "source_missing"
+    },
+    {
+      "description": "No ACRIS legal rows for BBL 1012127503 in the dataset window (1966 onward, Staten Island excluded); absence is not proof of no records.",
+      "id": "unknown.acris_empty.0",
+      "kind": "acris_empty"
+    }
+  ]
+}

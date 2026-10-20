@@ -1,0 +1,525 @@
+{
+  "id" : "7isb-wh4c",
+  "name" : "ACRIS - Document Control Codes",
+  "assetType" : "dataset",
+  "attribution" : "Department of Finance (DOF)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1379355192,
+  "description" : "ACRIS Document Type and Class Code mappings for Codes in the ACRIS Real and Personal Property Master Datasets",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 72638,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40256333,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1702067610,
+  "publicationGroup" : 1153926,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1785937797,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 19392019,
+  "totalTimesRated" : 0,
+  "viewCount" : 24863,
+  "viewLastModified" : 1791487223,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1565293686,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 5983074,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1565293686,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 586433460,
+    "name" : "RECORD TYPE",
+    "dataTypeName" : "text",
+    "description" : "‘D’ for Document control type record",
+    "fieldName" : "record_type",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235593,
+    "width" : 75,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "D",
+      "null" : "0",
+      "top" : [ {
+        "item" : "D",
+        "count" : "126"
+      } ],
+      "smallest" : "D",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433461,
+    "name" : "DOC. TYPE",
+    "dataTypeName" : "text",
+    "description" : "Doc_type code",
+    "fieldName" : "doc__type",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235595,
+    "width" : 71,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "ZONE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "RPTT",
+        "count" : "1"
+      }, {
+        "item" : "AIRRIGHT",
+        "count" : "1"
+      }, {
+        "item" : "MLEA",
+        "count" : "1"
+      }, {
+        "item" : "TERM",
+        "count" : "1"
+      }, {
+        "item" : "DECL",
+        "count" : "1"
+      }, {
+        "item" : "TORREN",
+        "count" : "1"
+      }, {
+        "item" : "CONS",
+        "count" : "1"
+      }, {
+        "item" : "MTGE",
+        "count" : "1"
+      }, {
+        "item" : "INIC",
+        "count" : "1"
+      }, {
+        "item" : "WFL",
+        "count" : "1"
+      }, {
+        "item" : "TODD",
+        "count" : "1"
+      }, {
+        "item" : "SMTG",
+        "count" : "1"
+      }, {
+        "item" : "AMND",
+        "count" : "1"
+      }, {
+        "item" : "CONT",
+        "count" : "1"
+      }, {
+        "item" : "DEED, TS",
+        "count" : "1"
+      }, {
+        "item" : "AMTX",
+        "count" : "1"
+      }, {
+        "item" : "XXXX",
+        "count" : "1"
+      }, {
+        "item" : "WSAT",
+        "count" : "1"
+      }, {
+        "item" : "RTOD",
+        "count" : "1"
+      }, {
+        "item" : "MMTG",
+        "count" : "1"
+      } ],
+      "smallest" : "AALR",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433462,
+    "name" : "DOC. TYPE DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "Document type description ",
+    "fieldName" : "doc__type_description",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235596,
+    "width" : 203,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "ZONING LOT DESCRIPTION",
+      "null" : "0",
+      "top" : [ {
+        "item" : "LIEN OF COMMON CHARGES",
+        "count" : "1"
+      }, {
+        "item" : "APPRT BREAKDWN OFFICE USE ONLY",
+        "count" : "1"
+      }, {
+        "item" : "DECLARATION",
+        "count" : "1"
+      }, {
+        "item" : "PARTIAL RELEASE OF MORTGAGE",
+        "count" : "1"
+      }, {
+        "item" : "DEVELOPMENT RIGHTS",
+        "count" : "1"
+      }, {
+        "item" : "ASGN OF ASGN OF L&R",
+        "count" : "1"
+      }, {
+        "item" : "COURT ORDER",
+        "count" : "1"
+      }, {
+        "item" : "NOTICE OF  ESTATE TAX LIEN",
+        "count" : "1"
+      }, {
+        "item" : "IN REM DEED",
+        "count" : "1"
+      }, {
+        "item" : "TORREN",
+        "count" : "1"
+      }, {
+        "item" : "MORTGAGE AND CONSOLIDATION",
+        "count" : "1"
+      }, {
+        "item" : "NYS REAL ESTATE TRANSFER TAX",
+        "count" : "1"
+      }, {
+        "item" : "RELEASE OF FEDERAL TAX LIEN",
+        "count" : "1"
+      }, {
+        "item" : "ASSIGNMENT OF LEASES AND RENTS",
+        "count" : "1"
+      }, {
+        "item" : "INITIAL UCC1",
+        "count" : "1"
+      }, {
+        "item" : "REVOCATION OF CERTIF. OF RFL",
+        "count" : "1"
+      }, {
+        "item" : "TERMINATION OF ASSIGN OF L&R",
+        "count" : "1"
+      }, {
+        "item" : "CORRECTION DEED",
+        "count" : "1"
+      }, {
+        "item" : "CORRECTION MORTGAGE",
+        "count" : "1"
+      }, {
+        "item" : "MEMORANDUM OF LEASE",
+        "count" : "1"
+      } ],
+      "smallest" : "ADDITIONAL MORTGAGE TAX",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433463,
+    "name" : "CLASS CODE DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "Document class description",
+    "fieldName" : "class_code_description",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235597,
+    "width" : 240,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "UCC AND FEDERAL LIENS",
+      "null" : "0",
+      "top" : [ {
+        "item" : "OTHER DOCUMENTS",
+        "count" : "40"
+      }, {
+        "item" : "DEEDS AND OTHER CONVEYANCES",
+        "count" : "34"
+      }, {
+        "item" : "UCC AND FEDERAL LIENS",
+        "count" : "29"
+      }, {
+        "item" : "MORTGAGES & INSTRUMENTS",
+        "count" : "23"
+      } ],
+      "smallest" : "DEEDS AND OTHER CONVEYANCES",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433464,
+    "name" : "PARTY1 TYPE",
+    "dataTypeName" : "text",
+    "description" : "Party type 1 name for this document type",
+    "fieldName" : "party1_type",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235598,
+    "width" : 154,
+    "cachedContents" : {
+      "non_null" : "126",
+      "largest" : "TRANSFEROR",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PARTY 1",
+        "count" : "32"
+      }, {
+        "item" : "DEBTOR",
+        "count" : "25"
+      }, {
+        "item" : "GRANTOR/SELLER",
+        "count" : "18"
+      }, {
+        "item" : "PARTY ONE",
+        "count" : "18"
+      }, {
+        "item" : "MORTGAGER/BORROWER",
+        "count" : "8"
+      }, {
+        "item" : "MORTGAGOR",
+        "count" : "4"
+      }, {
+        "item" : "GRANTOR",
+        "count" : "3"
+      }, {
+        "item" : "TRANSFEROR",
+        "count" : "2"
+      }, {
+        "item" : "LESSOR",
+        "count" : "2"
+      }, {
+        "item" : "MORTGAGOR/BORROWER",
+        "count" : "2"
+      }, {
+        "item" : "ASSIGNOR",
+        "count" : "2"
+      }, {
+        "item" : "MORTGAGEE/LENDER",
+        "count" : "1"
+      }, {
+        "item" : "PAYER",
+        "count" : "1"
+      }, {
+        "item" : "PARTY 1/GRANTOR",
+        "count" : "1"
+      }, {
+        "item" : "PARTY  1",
+        "count" : "1"
+      }, {
+        "item" : "LESSOR/LANDLORD",
+        "count" : "1"
+      }, {
+        "item" : "PARTY ONE/DEBTOR",
+        "count" : "1"
+      }, {
+        "item" : "PARTY ONE/MORTGAGOR",
+        "count" : "1"
+      }, {
+        "item" : "ASSIGNOR/OLD LENDER",
+        "count" : "1"
+      }, {
+        "item" : "DECEDENT",
+        "count" : "1"
+      } ],
+      "smallest" : "ASSIGNOR",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433465,
+    "name" : "PARTY2 TYPE",
+    "dataTypeName" : "text",
+    "description" : "Party type 2 name for this document type",
+    "fieldName" : "party2_type",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235599,
+    "width" : 161,
+    "cachedContents" : {
+      "non_null" : "115",
+      "largest" : "SECURED PARTY",
+      "null" : "11",
+      "top" : [ {
+        "item" : "PARTY 2",
+        "count" : "26"
+      }, {
+        "item" : "SECURED PARTY",
+        "count" : "25"
+      }, {
+        "item" : "GRANTEE/BUYER",
+        "count" : "18"
+      }, {
+        "item" : "PARTY TWO",
+        "count" : "16"
+      }, {
+        "item" : "MORTGAGEE/LENDER",
+        "count" : "10"
+      }, {
+        "item" : "GRANTEE",
+        "count" : "3"
+      }, {
+        "item" : "MORTGAGEE",
+        "count" : "3"
+      }, {
+        "item" : "ASSIGNEE",
+        "count" : "2"
+      }, {
+        "item" : "LESSEE",
+        "count" : "2"
+      }, {
+        "item" : "DESGNTD BENEFICIARY",
+        "count" : "2"
+      }, {
+        "item" : "LESSEE/TENANT",
+        "count" : "1"
+      }, {
+        "item" : "PARTY 2/GRANTEE",
+        "count" : "1"
+      }, {
+        "item" : "PARTY TWO/SECURED PA",
+        "count" : "1"
+      }, {
+        "item" : "PARTY  2",
+        "count" : "1"
+      }, {
+        "item" : "IRS",
+        "count" : "1"
+      }, {
+        "item" : "NYC",
+        "count" : "1"
+      }, {
+        "item" : "ASSIGNEE/NEW LENDER",
+        "count" : "1"
+      }, {
+        "item" : "PARTY TWO/MORTGAGEE",
+        "count" : "1"
+      } ],
+      "smallest" : "ASSIGNEE",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  }, {
+    "id" : 586433466,
+    "name" : "PARTY3 TYPE",
+    "dataTypeName" : "text",
+    "description" : "Party type 3 name for this document type",
+    "fieldName" : "party3_type",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 14235600,
+    "width" : 192,
+    "cachedContents" : {
+      "non_null" : "8",
+      "largest" : "PARTY 3",
+      "null" : "118",
+      "top" : [ {
+        "item" : "ASSIGNEE",
+        "count" : "3"
+      }, {
+        "item" : "LIFE ESTATE RETAINED",
+        "count" : "2"
+      }, {
+        "item" : "PARTY 3",
+        "count" : "2"
+      }, {
+        "item" : "NEW SECURED PARTY",
+        "count" : "1"
+      } ],
+      "smallest" : "ASSIGNEE",
+      "count" : "126",
+      "cardinality" : "126"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "attachments" : [ {
+      "filename" : "NYC_OpenData_ACRIS_Datasets.doc",
+      "assetId" : "",
+      "blobId" : "FEBD88D1-42B5-4D38-8753-EE9E73E1C2F9",
+      "name" : "NYC_OpenData_ACRIS_Datasets.doc"
+    }, {
+      "filename" : "ACRIS_-_Document_Control_Codes_Data_Dictionary.xlsx",
+      "assetId" : "7b4582a5-e32c-4fff-88f7-9abe3817400e",
+      "name" : "ACRIS_-_Document_Control_Codes_Data_Dictionary.xlsx"
+    }, {
+      "filename" : "ACRIS_Public_OpenData_Guide.doc",
+      "assetId" : "d1825560-807e-43a6-a9a6-4c3139c17fdf",
+      "name" : "ACRIS_Public_OpenData_Guide.doc"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "9/23/2013",
+        "Update Frequency" : "Monthly"
+      },
+      "Legislative Compliance" : {
+        "Geo-coding Attached?" : ""
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Finance (DOF)"
+      }
+    },
+    "rowLabel" : "Document Type and Class Code for ACRIS Real and Personal Property Documents",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dof", "acris land records" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

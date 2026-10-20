@@ -2,17 +2,27 @@
 """Parcel evidence module: bounded public ownership/transaction evidence.
 
 For one BBL, collects ACRIS real-property records (deeds, mortgages and other
-recorded instruments), DOF sales rows and the PLUTO parcel row into a separate
-run directory, then assembles a structured evidence package with exact claim
-locators, conflicts and unknowns.
+recorded instruments), DOF sales rows, the PLUTO parcel row and the ACRIS
+Document Control Codes mapping dataset into a separate run directory, then
+assembles a structured evidence package with exact claim locators, conflicts
+and unknowns.
 
-Collection budget: 150 requests, 50 MiB, 90 minutes (configurable).
-This module does not establish beneficial ownership or complete title research.
+Document-type and party-role mappings are data-driven from the NYC Open Data
+"ACRIS - Document Control Codes" dataset (7isb-wh4c, published by NYC DOF);
+the raw mapping rows are retained in the run with receipts. Where the mapping
+dataset is absent (older runs), a keyword fallback is used and flagged.
+
+Collection budget: 150 requests, 50 MiB, 90 minutes (configurable), at most
+2 retries per request, sequential (1 concurrent), bounded per-request reads,
+Retry-After honored. Retries and error-response bytes count against the
+budget. A run is 'complete' only if every planned source returned ok.
+
+This module does not establish beneficial ownership or complete title
+research. Recorded grantee evidence is not a current-owner conclusion.
+Instrument amounts are recorded instrument amounts, never sale prices.
 Stdlib only. MIT.
 """
-import argparse, datetime, hashlib, json, pathlib, re, time, urllib.parse
-
-import collect
+import argparse, datetime, email.utils, hashlib, json, pathlib, re, time, urllib.error, urllib.parse, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
 BUDGET_DEFAULTS = {'max_requests': 150, 'max_bytes': 50 * 1024 * 1024, 'max_seconds': 90 * 60}
@@ -21,7 +31,22 @@ ACRIS_MASTER = 'bnx9-e6tj'
 ACRIS_PARTIES = '636b-3b5g'
 DOF_SALES = 'w2pb-icbu'
 PLUTO = '64uk-42ks'
+DOC_CODES = '7isb-wh4c'
 TERMS = 'https://opendata.cityofnewyork.us/overview/#termsofuse'
+USER_AGENT = 'OpenHousingToolkit/0.2 (public research)'
+PER_REQUEST_BYTE_CAP = 10 * 1024 * 1024
+MAX_RETRIES = 2
+RETRYABLE_STATUS = {429, 500, 502, 503, 504}
+RETRY_AFTER_CAP_SECONDS = 30
+BACKOFF_CAP_SECONDS = 10
+HTTP_TIMEOUT_SECONDS = 55
+CLASS_FAMILY = {
+    'DEEDS AND OTHER CONVEYANCES': 'deed',
+    'MORTGAGES & INSTRUMENTS': 'mortgage',
+    'UCC AND FEDERAL LIENS': 'lien',
+    'OTHER DOCUMENTS': 'other',
+}
+PARTY_PLACEHOLDERS = {'PARTY 1', 'PARTY 2', 'PARTY 3', 'PARTY ONE', 'PARTY TWO', 'PARTY THREE'}
 LIMITS_ACRIS = ('ACRIS real property records for exact borough/block/lot or document_id. '
                 'NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary. '
                 'Index rows are not native document images and not a current title opinion.')
@@ -29,12 +54,17 @@ LIMITS_SALES = ('DOF sales rows for exact BBL from the NYC Citywide Annualized C
                 'Annualized update feed; absence of a row is not proof of no sale.')
 LIMITS_PLUTO = ('PLUTO row for exact BBL. Tax-roll attributes; owner label is not legal ownership. '
                 'Parcel fields may lag underlying changes.')
+LIMITS_DOC_CODES = ('ACRIS Document Type and Class Code mappings for codes in the ACRIS Real and '
+                    'Personal Property Master Datasets (NYC Open Data 7isb-wh4c, published by NYC DOF). '
+                    'Mapping reference data; vintage per dataset update, not per recording.')
 NON_CLAIMS = [
     'This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.',
     'ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.',
     'DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.',
     'PLUTO owner label is a tax-roll label, not legal ownership.',
-    'doc_type classification is a keyword-based triage aid, not legal interpretation of the instrument.',
+    'Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.',
+    'Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.',
+    'doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record.',
 ]
 
 
@@ -94,6 +124,68 @@ class Budget:
                 'exhausted': self.exhausted()}
 
 
+class SessionBudget:
+    """Cumulative budget shared across documentation, discovery and collection
+    in one session. File-backed so separate CLI invocations share the ledger.
+    Wall-clock based (monotonic clocks do not compare across processes)."""
+
+    def __init__(self, path, max_requests=BUDGET_DEFAULTS['max_requests'],
+                 max_bytes=BUDGET_DEFAULTS['max_bytes'], max_seconds=BUDGET_DEFAULTS['max_seconds']):
+        self.path = pathlib.Path(path)
+        self.max_requests, self.max_bytes, self.max_seconds = max_requests, max_bytes, max_seconds
+        self.entries = []
+        if self.path.exists():
+            data = json.loads(self.path.read_text())
+            self.max_requests = data.get('max_requests', self.max_requests)
+            self.max_bytes = data.get('max_bytes', self.max_bytes)
+            self.max_seconds = data.get('max_seconds', self.max_seconds)
+            self.requests = data.get('requests', 0)
+            self.bytes = data.get('bytes', 0)
+            self.started_at_epoch = data.get('started_at_epoch', time.time())
+            self.entries = data.get('entries', [])
+        else:
+            self.requests = 0
+            self.bytes = 0
+            self.started_at_epoch = time.time()
+            self._save()
+
+    def elapsed(self):
+        return time.time() - self.started_at_epoch
+
+    def check(self):
+        if self.requests > self.max_requests:
+            raise BudgetExceeded('session requests')
+        if self.bytes > self.max_bytes:
+            raise BudgetExceeded('session bytes')
+        if self.elapsed() > self.max_seconds:
+            raise BudgetExceeded('session time')
+
+    def charge(self, label, requests=0, nbytes=0):
+        self.requests += int(requests)
+        self.bytes += int(nbytes)
+        self.check()
+        self.entries.append({'label': label, 'requests': int(requests), 'bytes': int(nbytes),
+                             'at': datetime.datetime.now(datetime.timezone.utc).isoformat()})
+        self._save()
+
+    def _save(self):
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        self.path.write_text(json.dumps({
+            'max_requests': self.max_requests, 'max_bytes': self.max_bytes,
+            'max_seconds': self.max_seconds,
+            'started_at': datetime.datetime.fromtimestamp(self.started_at_epoch, datetime.timezone.utc).isoformat(),
+            'started_at_epoch': self.started_at_epoch,
+            'requests': self.requests, 'bytes': self.bytes,
+            'elapsed_seconds': round(self.elapsed(), 3), 'entries': self.entries},
+            indent=2, sort_keys=True) + '\n')
+
+    def snapshot(self):
+        return {'max_requests': self.max_requests, 'max_bytes': self.max_bytes,
+                'max_seconds': self.max_seconds, 'requests': self.requests,
+                'bytes': self.bytes, 'elapsed_seconds': round(self.elapsed(), 3),
+                'entries': self.entries}
+
+
 def parse_bbl(bbl):
     """10-digit BBL -> (borough, block, lot) as zero-padded strings. Raises ValueError."""
     if not re.fullmatch(r'[1-5][0-9]{9}', bbl or ''):
@@ -128,6 +220,9 @@ def plan_phase1(bbl):
          'publisher': 'NYC Department of Finance (ACRIS)', 'limits': LIMITS_ACRIS, 'terms': TERMS},
         {'source_id': 'dof_sales_%s' % bbl, 'url': soql_url(DOF_SALES, "bbl='%s'" % bbl, order='sale_date'),
          'publisher': 'NYC Department of Finance', 'limits': LIMITS_SALES, 'terms': TERMS},
+        {'source_id': 'acris_doc_codes', 'url': soql_url(DOC_CODES, "record_type='D'", limit=10000),
+         'publisher': 'NYC Department of Finance (ACRIS Document Control Codes)',
+         'limits': LIMITS_DOC_CODES, 'terms': TERMS},
     ]
 
 
@@ -143,14 +238,148 @@ def plan_phase2(bbl, document_ids):
     ]
 
 
-def real_fetch(source, budget, root):
-    budget.charge_request()
-    record = collect.fetch(source['source_id'], source['url'], source['publisher'],
-                           source['limits'], source.get('terms'), root=root)
-    if record.get('status') == 'ok':
-        budget.charge_bytes(record.get('bytes', 0))
-    budget.check_time()
+class ResponseTooLarge(Exception):
+    pass
+
+
+def _read_capped(stream, byte_cap):
+    chunks, total = [], 0
+    while True:
+        chunk = stream.read(65536)
+        if not chunk:
+            break
+        total += len(chunk)
+        if total > byte_cap:
+            raise ResponseTooLarge('response exceeds per-request byte cap of %d bytes' % byte_cap)
+        chunks.append(chunk)
+    return b''.join(chunks)
+
+
+def transport_urllib(url, timeout=HTTP_TIMEOUT_SECONDS, byte_cap=PER_REQUEST_BYTE_CAP):
+    """Default transport. Returns (status, headers, body). HTTP error responses
+    are returned (not raised) so the retry logic can see status and body;
+    network/timeout errors raise. Reads are bounded by byte_cap."""
+    req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+    try:
+        response = urllib.request.urlopen(req, timeout=timeout)
+    except urllib.error.HTTPError as exc:
+        try:
+            body = _read_capped(exc, byte_cap)
+        except (OSError, ResponseTooLarge):
+            body = b''
+        return exc.code, dict(exc.headers or {}), body
+    with response:
+        body = _read_capped(response, byte_cap)
+        return response.status, dict(response.headers or {}), body
+
+
+def _retry_delay(headers, attempt):
+    """Retry-After (seconds or HTTP date, capped) or exponential backoff."""
+    raw = headers.get('Retry-After') or headers.get('retry-after')
+    if raw:
+        try:
+            return min(float(raw), RETRY_AFTER_CAP_SECONDS)
+        except ValueError:
+            try:
+                when = email.utils.parsedate_to_datetime(raw)
+                return min(max((when - datetime.datetime.now(datetime.timezone.utc)).total_seconds(), 0.0),
+                           RETRY_AFTER_CAP_SECONDS)
+            except (TypeError, ValueError):
+                pass
+    return min(2.0 ** (attempt - 1), BACKOFF_CAP_SECONDS)
+
+
+def _write_record(source, root, body, headers, status_code, error=None):
+    root = pathlib.Path(root)
+    cache_dir = root / 'cache'
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    source_id = source['source_id']
+    record = {'id': source_id, 'url': source['url'], 'publisher': source['publisher'],
+              'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'coverage_limits': source['limits'], 'terms_url': source.get('terms'),
+              'source_updated_at': None}
+    if error is None:
+        path = cache_dir / (source_id + '.body')
+        path.write_bytes(body)
+        record.update(status='ok', http_status=status_code,
+                      content_type=headers.get('Content-Type') or headers.get('content-type'),
+                      last_modified=headers.get('Last-Modified') or headers.get('last-modified'),
+                      cache_path=str(path.relative_to(root)), bytes=len(body),
+                      sha256=hashlib.sha256(body).hexdigest())
+        try:
+            data = json.loads(body)
+            if isinstance(data, dict):
+                record['source_updated_at'] = data.get('rowsUpdatedAt') or data.get('viewLastModified')
+                record['dataset_name'] = data.get('name')
+        except (ValueError, UnicodeDecodeError):
+            pass
+    else:
+        record.update(status='failed', http_status=status_code, error=error)
+        if body:
+            err_path = cache_dir / (source_id + '.error')
+            err_path.write_bytes(body)
+            record.update(error_body_path=str(err_path.relative_to(root)),
+                          error_bytes=len(body), error_sha256=hashlib.sha256(body).hexdigest())
+    (cache_dir / (source_id + '.source.json')).write_text(json.dumps(record, indent=2) + '\n')
+    with (cache_dir / 'collection-attempts.jsonl').open('a') as ledger:
+        ledger.write(json.dumps(record, sort_keys=True) + '\n')
     return record
+
+
+def bounded_fetch(source, budget, root, session=None, transport=transport_urllib,
+                  max_retries=MAX_RETRIES, timeout=HTTP_TIMEOUT_SECONDS,
+                  byte_cap=PER_REQUEST_BYTE_CAP, sleep=time.sleep):
+    """Fetch one source with bounded reads, bounded retries and full receipts.
+
+    Every attempt (including retries) charges one request; every received body
+    (including error responses) charges bytes. Retries only on network errors
+    and 429/5xx, honoring Retry-After. Failures are records, never exceptions.
+    """
+    root = pathlib.Path(root)
+    record_path = root / 'cache' / (source['source_id'] + '.source.json')
+    if record_path.exists():
+        existing = json.loads(record_path.read_text())
+        if existing.get('status') == 'ok' and existing.get('url') == source['url']:
+            return existing
+    attempt = 0
+    while True:
+        attempt += 1
+        budget.charge_request()
+        if session:
+            session.charge(source['source_id'] + ' attempt %d' % attempt, requests=1)
+        error, status_code, body, headers = None, None, b'', {}
+        try:
+            status_code, headers, body = transport(source['url'], timeout=timeout, byte_cap=byte_cap)
+        except ResponseTooLarge as exc:
+            error = str(exc)
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            error = '%s: %s' % (type(exc).__name__, exc)
+        if error is None:
+            budget.charge_bytes(len(body))
+            if session:
+                session.charge(source['source_id'] + ' attempt %d' % attempt, nbytes=len(body))
+        if error is None and status_code == 200:
+            return _write_record(source, root, body, headers, status_code)
+        if error is None:
+            error = 'HTTP %s' % status_code
+        _write_record(source, root, body, headers, status_code, error=error)
+        if error.startswith('HTTP'):
+            retryable = status_code in RETRYABLE_STATUS
+        else:
+            retryable = 'exceeds per-request byte cap' not in error  # network/timeout errors retry; oversized bodies do not
+        if not retryable or attempt > max_retries:
+            return json.loads(record_path.read_text())
+        delay = _retry_delay(headers, attempt)
+        budget.check_time()
+        if session:
+            session.check()
+        sleep(delay)
+
+
+def make_fetcher(session=None, **kwargs):
+    def fetcher(source, budget, run_dir):
+        return bounded_fetch(source, budget, run_dir, session=session, **kwargs)
+    return fetcher
 
 
 def run_collection(bbl, run_dir, budget=None, fetcher=None):
@@ -158,22 +387,24 @@ def run_collection(bbl, run_dir, budget=None, fetcher=None):
 
     Returns (run_record, budget). Stops cleanly on BudgetExceeded or fetch
     failure; whatever was fetched is still packaged by build_package.
+    Status is 'complete' only if every planned source returned ok; otherwise
+    'partial' (some ok), 'failed' (none ok) or 'budget_exhausted'.
     """
     run_dir = pathlib.Path(run_dir)
     (run_dir / 'cache').mkdir(parents=True, exist_ok=True)
     budget = budget or Budget()
-    fetcher = fetcher or real_fetch
+    fetcher = fetcher or make_fetcher()
     budget.start()
     started = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    requests, status, errors = [], 'complete', []
-    document_ids = []
+    requests, errors, document_ids = [], [], []
+    budget_exhausted = False
     for phase in (plan_phase1(bbl), None):
         sources = phase if phase is not None else plan_phase2(bbl, document_ids)
         for source in sources:
             try:
                 record = fetcher(source, budget, run_dir)
             except BudgetExceeded as exc:
-                status = 'budget_exhausted'
+                budget_exhausted = True
                 errors.append(str(exc))
                 break
             except Exception as exc:
@@ -184,8 +415,20 @@ def run_collection(bbl, run_dir, budget=None, fetcher=None):
             if record.get('status') == 'ok' and source['source_id'].startswith('acris_legal_'):
                 body = json.loads((run_dir / record['cache_path']).read_text())
                 document_ids = sorted({row.get('document_id') for row in body if row.get('document_id')})
-        if status == 'budget_exhausted':
+        if budget_exhausted:
             break
+    planned = [s['source_id'] for s in plan_phase1(bbl)]
+    if document_ids:
+        planned += [s['source_id'] for s in plan_phase2(bbl, document_ids)]
+    ok_ids = {r['source_id'] for r in requests if r['status'] == 'ok'}
+    if budget_exhausted:
+        status = 'budget_exhausted'
+    elif ok_ids == set(planned) and len(requests) == len(planned):
+        status = 'complete'
+    elif ok_ids:
+        status = 'partial'
+    else:
+        status = 'failed'
     run = {'run_id': run_dir.name, 'bbl': bbl, 'started_at': started,
            'ended_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
            'status': status, 'budget': budget.snapshot(), 'requests': requests, 'errors': errors}
@@ -194,7 +437,9 @@ def run_collection(bbl, run_dir, budget=None, fetcher=None):
 
 
 def classify_doc_type(code):
-    """Keyword-based triage of ACRIS doc_type codes. Not legal interpretation."""
+    """Keyword-based fallback triage of ACRIS doc_type codes. Used only when
+    the ACRIS Document Control Codes source is unavailable; flagged as
+    classification_basis='keyword_fallback'. Not legal interpretation."""
     if not code:
         return 'unclassified'
     c = str(code).strip().upper()
@@ -226,6 +471,119 @@ def _norm_name(name):
     return re.sub(r'\s+', ' ', (name or '').upper()).strip()
 
 
+def _query_limit(url):
+    try:
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(url or '').query)
+        if '$limit' in q:
+            return int(q['$limit'][0])
+    except (ValueError, IndexError):
+        pass
+    return None
+
+
+DOC_SOURCES = [
+    {'source_id': 'acris_doc_codes', 'url': soql_url(DOC_CODES, "record_type='D'", limit=10000),
+     'publisher': 'NYC Department of Finance (ACRIS Document Control Codes)',
+     'limits': LIMITS_DOC_CODES, 'terms': TERMS},
+    {'source_id': 'acris_doc_codes_metadata',
+     'url': 'https://data.cityofnewyork.us/api/views/%s.json' % DOC_CODES,
+     'publisher': 'NYC Open Data (Socrata dataset metadata)',
+     'limits': 'Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.',
+     'terms': TERMS},
+    {'source_id': 'acris_master_metadata',
+     'url': 'https://data.cityofnewyork.us/api/views/%s.json' % ACRIS_MASTER,
+     'publisher': 'NYC Open Data (Socrata dataset metadata)',
+     'limits': 'Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.',
+     'terms': TERMS},
+    {'source_id': 'acris_parties_metadata',
+     'url': 'https://data.cityofnewyork.us/api/views/%s.json' % ACRIS_PARTIES,
+     'publisher': 'NYC Open Data (Socrata dataset metadata)',
+     'limits': 'Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.',
+     'terms': TERMS},
+    {'source_id': 'acris_legals_metadata',
+     'url': 'https://data.cityofnewyork.us/api/views/%s.json' % ACRIS_LEGALS,
+     'publisher': 'NYC Open Data (Socrata dataset metadata)',
+     'limits': 'Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.',
+     'terms': TERMS},
+]
+
+
+def collect_documentation(docs_dir, session=None, budget=None, fetcher=None):
+    """Fetch the authoritative mapping documentation into docs_dir with
+    receipts (raw bodies, source records, attempt ledger). Writes docs.json
+    summarizing receipts and field-level mapping evidence."""
+    docs_dir = pathlib.Path(docs_dir)
+    (docs_dir / 'cache').mkdir(parents=True, exist_ok=True)
+    budget = budget or Budget()
+    fetcher = fetcher or make_fetcher(session=session)
+    budget.start()
+    receipts = []
+    for source in DOC_SOURCES:
+        try:
+            record = fetcher(source, budget, docs_dir)
+        except BudgetExceeded as exc:
+            receipts.append({'source_id': source['source_id'], 'status': 'budget_exhausted',
+                             'error': str(exc)})
+            break
+        except Exception as exc:
+            receipts.append({'source_id': source['source_id'], 'status': 'failed',
+                             'error': '%s: %s' % (type(exc).__name__, exc)})
+            continue
+        receipts.append({'source_id': record.get('id'), 'status': record.get('status'),
+                         'url': record.get('url'), 'retrieved_at': record.get('retrieved_at'),
+                         'sha256': record.get('sha256'), 'bytes': record.get('bytes'),
+                         'source_updated_at': record.get('source_updated_at'),
+                         'dataset_name': record.get('dataset_name'), 'error': record.get('error')})
+    mapping_evidence = {}
+    for field, source_id, field_name in (('doc_type', 'acris_master_metadata', 'doc_type'),
+                                         ('party_role', 'acris_parties_metadata', 'party_type')):
+        rec_path = docs_dir / 'cache' / (source_id + '.source.json')
+        if not rec_path.exists():
+            continue
+        rec = json.loads(rec_path.read_text())
+        if rec.get('status') != 'ok':
+            continue
+        meta = json.loads((docs_dir / rec['cache_path']).read_text())
+        col = next((c for c in meta.get('columns', []) if c.get('fieldName') == field_name), None)
+        mapping_evidence[field] = {
+            'field': field_name,
+            'official_description': col.get('description') if col else None,
+            'dataset_name': meta.get('name'),
+            'dataset_vintage': rec.get('source_updated_at'),
+            'mapping_dataset': '7isb-wh4c (ACRIS - Document Control Codes)',
+        }
+    docs = {'fetched_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            'receipts': receipts, 'mapping_evidence': mapping_evidence,
+            'budget': budget.snapshot()}
+    (docs_dir / 'docs.json').write_text(json.dumps(docs, indent=2, sort_keys=True) + '\n')
+    return docs
+
+
+def discover_address(borough, address, out_dir, session=None, budget=None, fetcher=None):
+    """PLUTO address lookup for parcel selection. Writes a receipt and a
+    discovery JSON with candidate BBLs. Charged to the session budget."""
+    slug = re.sub(r'[^a-z0-9]+', '_', '%s_%s' % (borough, address)).strip('_')
+    source = {'source_id': 'pluto_discover_%s' % slug,
+              'url': soql_url(PLUTO, "borocode='%s' AND address like '%s%%'" % (borough, address), limit=20),
+              'publisher': 'NYC Department of City Planning', 'limits': LIMITS_PLUTO, 'terms': TERMS}
+    out_dir = pathlib.Path(out_dir)
+    (out_dir / 'cache').mkdir(parents=True, exist_ok=True)
+    budget = budget or Budget()
+    fetcher = fetcher or make_fetcher(session=session)
+    budget.start()
+    record = fetcher(source, budget, out_dir)
+    rows = []
+    if record.get('status') == 'ok':
+        rows = json.loads((out_dir / record['cache_path']).read_text())
+    candidates = [{'bbl': r.get('bbl'), 'address': r.get('address'), 'owner1': r.get('owner1'),
+                   'lotarea': r.get('lotarea'), 'zoningdist': r.get('zoningdist')} for r in rows]
+    result = {'borough': borough, 'address': address, 'status': record.get('status'),
+              'candidates': candidates, 'budget': budget.snapshot(),
+              'receipt_source_id': source['source_id']}
+    (out_dir / ('discovery-%s.json' % slug)).write_text(json.dumps(result, indent=2, sort_keys=True) + '\n')
+    return result
+
+
 def build_package(run_dir):
     """Assemble the evidence package from a run directory. Pure and deterministic."""
     run_dir = pathlib.Path(run_dir)
@@ -233,24 +591,48 @@ def build_package(run_dir):
     bbl = run['bbl']
     borough, block, lot = parse_bbl(bbl)
     sources, records, unknowns, conflicts = [], [], [], []
+    unknown_keys = set()
 
-    def add_unknown(kind, description):
+    def add_unknown(kind, description, key=None):
+        key = key or kind
+        if key in unknown_keys:
+            return
+        unknown_keys.add(key)
         n = len([u for u in unknowns if u['kind'] == kind])
         unknowns.append({'id': 'unknown.%s.%d' % (kind, n), 'kind': kind, 'description': description})
 
     for source_id in ('pluto_%s' % bbl, 'acris_legal_%s' % bbl, 'acris_master_%s' % bbl,
-                      'acris_parties_%s' % bbl, 'dof_sales_%s' % bbl):
+                      'acris_parties_%s' % bbl, 'dof_sales_%s' % bbl, 'acris_doc_codes'):
         record, rows = _load_rows(run_dir, source_id)
         if record is None:
             add_unknown('source_missing', 'No source record for %s; it was not fetched in this run.' % source_id)
             continue
-        sources.append({k: record.get(k) for k in
-                        ('id', 'url', 'publisher', 'retrieved_at', 'status', 'http_status',
-                         'content_type', 'last_modified', 'cache_path', 'bytes', 'sha256',
-                         'coverage_limits', 'terms_url', 'error')})
+        entry = {k: record.get(k) for k in
+                 ('id', 'url', 'publisher', 'retrieved_at', 'status', 'http_status',
+                  'content_type', 'last_modified', 'cache_path', 'bytes', 'sha256',
+                  'coverage_limits', 'terms_url', 'error')}
+        if rows is not None:
+            limit = _query_limit(record.get('url'))
+            entry['row_count'] = len(rows)
+            entry['limit'] = limit
+            entry['possibly_truncated'] = bool(limit is not None and len(rows) >= limit)
+        sources.append(entry)
         if rows is None:
             add_unknown('source_failed', 'Source %s did not return ok status: %s'
                         % (source_id, record.get('error') or record.get('status')))
+
+    codes_record, codes_rows = _load_rows(run_dir, 'acris_doc_codes')
+    code_map = {}
+    if codes_rows:
+        for i, row in enumerate(codes_rows):
+            code = (row.get('doc__type') or '').strip().upper()
+            if code:
+                code_map.setdefault(code, (i, row))
+    mapping_available = bool(codes_rows)
+    if not mapping_available:
+        add_unknown('doc_codes_missing',
+                    'ACRIS Document Control Codes source not ok in this run; instrument families use the '
+                    'flagged keyword fallback and party roles are not identified.')
 
     pluto_record, pluto_rows = _load_rows(run_dir, 'pluto_%s' % bbl)
     pluto_row = pluto_rows[0] if pluto_rows else None
@@ -277,21 +659,42 @@ def build_package(run_dir):
     other_parcels = {}
     latest_deed = None
     latest_doc = None
-    parties_role_unrecognized = False
+    doc_dates = []
+    recorded_grantees = []
+
     for i, lrow in enumerate(legal_rows):
         doc_id = lrow.get('document_id')
         m_idx, mrow = master_by_id.get(doc_id, (None, None))
         p_rows = parties_by_id.get(doc_id, [])
-        family = classify_doc_type(mrow.get('doc_type')) if mrow else 'unclassified'
+        code_idx, crow = (None, None)
+        if mrow is not None:
+            code_idx, crow = code_map.get((mrow.get('doc_type') or '').strip().upper(), (None, None))
         if mrow is None:
-            add_unknown('master_missing', 'ACRIS legal row for document_id %s has no master row in this run.' % doc_id)
-        elif family == 'unclassified':
-            add_unknown('doc_type_unclassified', 'Unrecognized ACRIS doc_type code %r for document_id %s.'
-                        % (mrow.get('doc_type'), doc_id))
+            family, basis = 'unclassified', None
+            add_unknown('master_missing',
+                        'ACRIS legal row for document_id %s has no master row in this run.' % doc_id,
+                        key='master_missing:%s' % doc_id)
+        elif mapping_available and crow is None:
+            family, basis = 'unclassified', 'acris_control_codes'
+            add_unknown('doc_type_unmapped',
+                        'ACRIS doc_type code %r for document_id %s is not in the Document Control Codes '
+                        'dataset in this run.' % (mrow.get('doc_type'), doc_id),
+                        key='doc_type_unmapped:%s' % doc_id)
+        elif mapping_available:
+            family = CLASS_FAMILY.get((crow.get('class_code_description') or '').strip(), 'other')
+            basis = 'acris_control_codes'
+        else:
+            family, basis = classify_doc_type(mrow.get('doc_type')), 'keyword_fallback'
+        party_roles = {}
+        if crow is not None:
+            for n in (1, 2, 3):
+                role = (crow.get('party%d_type' % n) or '').strip()
+                if role and role.upper() not in PARTY_PLACEHOLDERS:
+                    party_roles[str(n)] = role
         if not p_rows:
-            add_unknown('parties_missing', 'No ACRIS parties rows for document_id %s in this run.' % doc_id)
-        elif not any(any('role' in k.lower() for k in row.keys()) for _, row in p_rows):
-            parties_role_unrecognized = True
+            add_unknown('parties_missing',
+                        'No ACRIS parties rows for document_id %s in this run.' % doc_id,
+                        key='parties_missing:%s' % doc_id)
         dates = {}
         if mrow:
             dates = {'document_date': mrow.get('document_date'), 'recorded_datetime': mrow.get('recorded_datetime')}
@@ -314,22 +717,59 @@ def build_package(run_dir):
             locators.append(_locator('acris_master_%s' % bbl, m_idx,
                                      ['document_id', 'doc_type', 'document_date', 'document_amt', 'recorded_datetime']))
             raw['master'] = mrow
+        if crow is not None:
+            locators.append(_locator('acris_doc_codes', code_idx,
+                                     [f for f in ('doc__type', 'doc__type_description', 'class_code_description') if f in crow]))
+        party_entries = []
+        for i2, prow in p_rows:
+            pt = str(prow.get('party_type') or '').strip()
+            role = party_roles.get(pt)
+            if role is None:
+                if pt in ('1', '2', '3'):
+                    add_unknown('party_role_unspecified',
+                                'Document %s: control-codes party slot %s has no specific role (placeholder or '
+                                'absent); party name preserved without a role.' % (doc_id, pt),
+                                key='party_role_unspecified:%s:%s' % (doc_id, pt))
+                else:
+                    add_unknown('party_role_unmapped',
+                                'Document %s: parties row party_type code %r is not a 1-3 slot; role not identified.'
+                                % (doc_id, pt),
+                                key='party_role_unmapped:%s:%s' % (doc_id, pt))
+            entry = {'name': prow.get('name'), 'party_type': pt, 'role': role,
+                     'locator': _locator('acris_parties_%s' % bbl, i2, list(prow.keys()))}
+            party_entries.append(entry)
+            locators.append(entry['locator'])
+            if family == 'deed' and role and 'GRANTEE' in role.upper() and prow.get('name'):
+                recorded_grantees.append({'name': prow.get('name'), 'document_id': doc_id,
+                                          'document_date': mrow.get('document_date') if mrow else None,
+                                          'role': role,
+                                          'locators': [entry['locator'],
+                                                       _locator('acris_doc_codes', code_idx,
+                                                                [f for f in ('doc__type', 'party1_type',
+                                                                             'party2_type', 'party3_type') if f in crow])]})
         if p_rows:
             raw['parties'] = [row for _, row in p_rows]
-            locators.extend(_locator('acris_parties_%s' % bbl, i2, list(row.keys())) for i2, row in p_rows)
         record = {'record_id': 'acris:%s' % doc_id, 'kind': 'recorded_instrument',
-                  'instrument_family': family, 'doc_type_raw': mrow.get('doc_type') if mrow else None,
-                  'dates': dates, 'amount': mrow.get('document_amt') if mrow else None,
-                  'parcels': parcels, 'locators': locators, 'raw': raw}
+                  'instrument_family': family, 'classification_basis': basis,
+                  'doc_type_raw': mrow.get('doc_type') if mrow else None,
+                  'doc_type_description': crow.get('doc__type_description') if crow else None,
+                  'doc_class': crow.get('class_code_description') if crow else None,
+                  'dates': dates,
+                  'instrument_amount': mrow.get('document_amt') if mrow else None,
+                  'instrument_amount_note': ('Recorded instrument amount from ACRIS master; not a sale price.'
+                                             if mrow else None),
+                  'parties': party_entries, 'parcels': parcels, 'locators': locators, 'raw': raw}
         records.append(record)
         if mrow and mrow.get('document_date'):
+            doc_dates.append(mrow['document_date'])
             if latest_doc is None or mrow['document_date'] > latest_doc:
                 latest_doc = mrow['document_date']
         if family == 'deed' and mrow and mrow.get('document_date'):
             if latest_deed is None or mrow['document_date'] > latest_deed['document_date']:
                 latest_deed = mrow
                 latest_deed['_doc_id'] = doc_id
-                latest_deed['_grantor_grantee'] = _party_names(p_rows)
+                latest_deed['_grantee'] = next((e['name'] for e in party_entries
+                                                if e['role'] and 'GRANTEE' in e['role'].upper()), None)
 
     sales_record, sales_rows = _load_rows(run_dir, 'dof_sales_%s' % bbl)
     for i, srow in enumerate(sales_rows or []):
@@ -339,48 +779,62 @@ def build_package(run_dir):
     if sales_rows is not None and not sales_rows:
         add_unknown('sales_empty', 'No DOF sales rows for BBL %s in the dataset window; absence is not proof of no sale.' % bbl)
 
-    if pluto_row and latest_deed:
+    if pluto_row and latest_deed and latest_deed.get('_grantee'):
         pluto_owner = _norm_name(pluto_row.get('owner1'))
-        grantee = _norm_name(latest_deed.get('_grantor_grantee'))
+        grantee = _norm_name(latest_deed.get('_grantee'))
         if pluto_owner and grantee and pluto_owner != grantee:
             conflicts.append({'id': 'conflict.owner_label', 'kind': 'owner_label_mismatch',
-                              'description': 'PLUTO owner label %r differs from grantee of latest deed (%s) %r. '
+                              'description': 'PLUTO owner label %r differs from recorded grantee of latest deed (%s) %r. '
                                              'Tax-roll label and deed party are not reconciled; neither establishes current ownership.'
-                                             % (pluto_row.get('owner1'), latest_deed.get('_doc_id'), latest_deed.get('_grantor_grantee')),
+                                             % (pluto_row.get('owner1'), latest_deed.get('_doc_id'), latest_deed.get('_grantee')),
                               'evidence': [_locator('pluto_%s' % bbl, 0, ['owner1']),
                                            _locator('acris_master_%s' % bbl,
                                                     master_by_id.get(latest_deed['_doc_id'], (None, None))[0],
                                                     ['document_date'])]})
-    if parties_role_unrecognized:
-        unknowns.append({'id': 'unknown.party_role', 'kind': 'party_role',
-                         'description': 'ACRIS parties rows in this run carry party_type codes (e.g. 1, 2) but no '
-                                        'verified role field; grantor/grantee roles are not identified. Party names are '
-                                        'preserved in record raw data with locators.'})
     if latest_doc:
-        unknowns.append({'id': 'unknown.coverage', 'kind': 'coverage',
-                         'description': 'Latest ACRIS document date in this run is %s; no evidence of instruments '
-                                        'recorded after that date, and good_through dates vary by record.'
-                                        % latest_doc})
+        add_unknown('coverage',
+                    'Latest ACRIS document date in this run is %s; no evidence of instruments recorded after '
+                    'that date, and good_through dates vary by record.' % latest_doc)
+
+    retrieved = sorted(s.get('retrieved_at') for s in sources if s.get('retrieved_at'))
+    date_bounds = {
+        'earliest_document_date': min(doc_dates) if doc_dates else None,
+        'latest_document_date': max(doc_dates) if doc_dates else None,
+        'retrieved_at_range': [retrieved[0], retrieved[-1]] if retrieved else None,
+        'dataset_last_modified': {s['id']: s['last_modified'] for s in sources if s.get('last_modified')},
+    }
+    ownership_evidence = {
+        'recorded_grantees': recorded_grantees,
+        'current_owner': {'status': 'unknown',
+                          'reason': ('A defensible current-owner conclusion requires a complete chain of title from '
+                                     'the latest recorded conveyance to the present, including unrecorded interests, '
+                                     'liens, corrections and any post-recording transfers. This package contains '
+                                     'index rows only and does not perform that research; the recorded grantee '
+                                     'evidence above is not a current-owner conclusion.')},
+    }
+    mapping_provenance = None
+    if codes_record is not None:
+        mapping_provenance = {
+            'mapping_source': 'NYC Open Data: ACRIS - Document Control Codes (7isb-wh4c), published by NYC DOF',
+            'receipt': codes_record.get('cache_path'),
+            'url': codes_record.get('url'),
+            'retrieved_at': codes_record.get('retrieved_at'),
+            'sha256': codes_record.get('sha256'),
+            'fields': {'doc_type': 'doc__type -> doc__type_description, class_code_description',
+                       'party_role': 'parties.party_type N -> partyN_type of the doc__type row'},
+            'class_family_derivation': CLASS_FAMILY,
+        }
 
     records.sort(key=lambda r: r['record_id'])
-    package = {'package_version': '0.1', 'parcel': {'bbl': bbl, 'borough': borough, 'block': block, 'lot': lot},
+    package = {'package_version': '0.2', 'parcel': {'bbl': bbl, 'borough': borough, 'block': block, 'lot': lot},
                'run_id': run['run_id'], 'run_status': run['status'], 'budget': run['budget'],
                'sources': sources, 'records': records,
                'other_parcels': [other_parcels[k] for k in sorted(other_parcels)],
                'conflicts': conflicts, 'unknowns': unknowns,
+               'ownership_evidence': ownership_evidence, 'date_bounds': date_bounds,
+               'mapping_provenance': mapping_provenance,
                'limitations': list(NON_CLAIMS), 'non_claims': list(NON_CLAIMS)}
     return package
-
-
-def _party_names(p_rows):
-    """Best-effort grantee name from parties rows; role matched by keyword."""
-    for _, row in p_rows:
-        for key, value in row.items():
-            if 'role' in key.lower() and isinstance(value, str) and 'GRANTEE' in value.upper():
-                for name_key, name_value in row.items():
-                    if 'name' in name_key.lower() and name_value:
-                        return name_value
-    return None
 
 
 def write_package(run_dir):
@@ -393,20 +847,46 @@ def write_package(run_dir):
 def main(argv=None):
     parser = argparse.ArgumentParser(description='Collect bounded parcel ownership/transaction evidence.')
     parser.add_argument('--bbl', help='10-digit BBL to collect')
-    parser.add_argument('--replay', help='Run directory to rebuild package.json from (no requests)')
+    parser.add_argument('--replay', help='Rebuild the package from an existing run (no requests, no writes)')
+    parser.add_argument('--collect-docs', action='store_true',
+                        help='Fetch ACRIS mapping documentation receipts into <out>/docs')
+    parser.add_argument('--discover-address', help='PLUTO address lookup for parcel selection')
+    parser.add_argument('--borough', default='2', help='Borough for --discover-address (1-5)')
     parser.add_argument('--out', default=str(ROOT / 'runs'), help='Runs root directory')
     parser.add_argument('--run-id', help='Run directory name (default: timestamped)')
+    parser.add_argument('--session-budget',
+                        help='Path to a shared session budget file (documentation + discovery + runs)')
     parser.add_argument('--budget-requests', type=int, default=BUDGET_DEFAULTS['max_requests'])
     parser.add_argument('--budget-bytes', type=int, default=BUDGET_DEFAULTS['max_bytes'])
     parser.add_argument('--budget-seconds', type=int, default=BUDGET_DEFAULTS['max_seconds'])
     args = parser.parse_args(argv)
     if args.replay:
-        package = write_package(args.replay)
-        print(json.dumps({'run_id': package['run_id'], 'records': len(package['records']),
-                          'conflicts': len(package['conflicts']), 'unknowns': len(package['unknowns'])}))
+        package = build_package(pathlib.Path(args.replay))
+        print(json.dumps({'run_id': package['run_id'], 'run_status': package['run_status'],
+                          'records': len(package['records']), 'conflicts': len(package['conflicts']),
+                          'unknowns': len(package['unknowns'])}))
+        return 0
+    session = None
+    if args.session_budget:
+        session = SessionBudget(args.session_budget, args.budget_requests, args.budget_bytes,
+                                args.budget_seconds)
+    if args.collect_docs:
+        docs_dir = pathlib.Path(args.out) / 'docs'
+        budget = Budget(args.budget_requests, args.budget_bytes, args.budget_seconds)
+        docs = collect_documentation(docs_dir, session=session, budget=budget)
+        print(json.dumps({'docs_dir': str(docs_dir),
+                          'receipts': sum(1 for r in docs['receipts'] if r.get('status') == 'ok'),
+                          'failed': sum(1 for r in docs['receipts'] if r.get('status') != 'ok'),
+                          'session': session.snapshot() if session else None}))
+        return 0
+    if args.discover_address:
+        out_dir = pathlib.Path(args.out) / 'discovery'
+        budget = Budget(args.budget_requests, args.budget_bytes, args.budget_seconds)
+        result = discover_address(args.borough, args.discover_address, out_dir, session=session, budget=budget)
+        print(json.dumps(result))
         return 0
     if not args.bbl:
-        parser.error('one of --bbl or --replay is required')
+        parser.error('one of --bbl, --replay, --collect-docs or --discover-address is required')
     parse_bbl(args.bbl)
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
     run_id = args.run_id or ('run-%s-%s' % (stamp, args.bbl))
@@ -414,9 +894,11 @@ def main(argv=None):
     if run_dir.exists():
         raise SystemExit('run directory already exists: %s' % run_dir)
     budget = Budget(args.budget_requests, args.budget_bytes, args.budget_seconds)
-    run, _ = run_collection(args.bbl, run_dir, budget=budget)
+    fetcher = make_fetcher(session=session)
+    run, _ = run_collection(args.bbl, run_dir, budget=budget, fetcher=fetcher)
     package = write_package(run_dir)
     print(json.dumps({'run_id': run_id, 'status': run['status'], 'budget': run['budget'],
+                      'session': session.snapshot() if session else None,
                       'records': len(package['records']), 'other_parcels': len(package['other_parcels']),
                       'conflicts': len(package['conflicts']), 'unknowns': len(package['unknowns'])}))
     return 0
