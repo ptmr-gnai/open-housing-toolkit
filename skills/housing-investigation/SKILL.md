@@ -9,6 +9,18 @@ This is an evolving open playbook, not a complete housing-agency process. The cu
 
 ## Get a result first
 
+The agent needs a writable execution environment with Python and HTTPS access
+for setup/live collection. If it has only chat or read-only browsing, explain
+that limitation rather than pretending to run the workflow. No model-specific
+SDK, MCP server or authentication secret is needed.
+
+If the repository is not checked out, obtain the public code first:
+
+```sh
+git clone https://github.com/ptmr-gnai/open-housing-toolkit.git
+cd open-housing-toolkit
+```
+
 From the repository root, Python 3.11+ recommended; no pip install or API key is needed:
 
 ```sh

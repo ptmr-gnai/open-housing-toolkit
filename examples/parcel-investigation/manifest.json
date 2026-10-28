@@ -25,7 +25,7 @@
     "housing_workflow/router.py": "872ee4d144875bdf255fcc05199cfbb68ef71fc8dfbab368d11b1b1282aeba7d",
     "housing_workflow/sources.json": "eb8cf6954bef5a7f727daf40f77f61d71d22f1fbd8cbb973b0bba42c7f48fa75",
     "skills/collect-parcel-evidence/SKILL.md": "374249143192a6caa33c0116235eaaa5d07d29d7f5cead2daab4d66cf62673d0",
-    "skills/housing-investigation/SKILL.md": "c00a0d2535d8859ea1ddcb28cd432d67e628048de882c1c4edb60ae9ef1b2112",
+    "skills/housing-investigation/SKILL.md": "f00841007230138a1d2d77eeb14b8a1aaa72ccb13dd9f09a6a8f0f2ed6a0525e",
     "skills/model-parcel-scenario/SKILL.md": "888273f0d51504ba0f295e361961256b4ace144127e018f66636b9d6e8715227",
     "skills/publish-evidence-packet/SKILL.md": "213c476e2b73c773ab98611b9b0ba1e65f3be80534c3d4363385ae96ae35b4cf",
     "workflows/parcel-investigation.json": "f1fedaab65f2a4fd326b3ae18d3386f445d73c82169312d3460e2aeec9068dbd"
