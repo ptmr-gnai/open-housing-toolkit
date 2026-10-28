@@ -1,0 +1,5 @@
+claim_id,kind,value,unit,formula,inputs,rationale
+pluto.returned_rows,calculation,1,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+dob_bis.returned_rows,calculation,0,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+dob_now.returned_rows,calculation,0,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+hpd_violations.returned_rows,calculation,0,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.

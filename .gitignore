@@ -9,3 +9,6 @@ replay-output/
 sensitivity-output/
 *.zip
 .DS_Store
+
+# Mutable integrated-workflow runs; worked examples are committed separately.
+runs/

@@ -11,8 +11,30 @@ pipeline. Agents can work with the files and executable checks.
 **Status: early research prototype, open for feedback.** It is ready to share and
 improve in public. It does not establish that a lot is available, a design fits,
 a project is financed, or a proposal is ready to submit. Human housing expert
-acceptance and practitioner usefulness remain untested. The components below are
-separate experiments; they are not yet one integrated product.
+acceptance and practitioner usefulness remain untested. The older components below remain
+separate experiments. The new bounded workflow integrates one path; it is not a
+complete professional process.
+
+## Try the first integrated workflow
+
+Give an agent [the housing investigation skill](skills/housing-investigation/SKILL.md),
+or run this from a checkout with Python 3.11+:
+
+```sh
+python -m housing_workflow demo --out runs/first-demo
+```
+
+Open `runs/first-demo/packet.html` locally. No API key, model account, network or
+pip install is needed for the worked example. For live collection, the skill asks
+for one Bronx site and a question, routes public API requests, builds typed claims
+and optional area arithmetic, and exports the packet, IR, raw data and image-prompt
+JSON. The image brief permits a diagram only; physical geometry is not verified.
+
+Read [the workflow guide](housing_workflow/README.md) and the
+[real-source example packet](examples/parcel-investigation/packet.md).
+**The full housing process remains unknown and will develop over time.** The
+workflow records uncovered stages explicitly. A notebook/workbook and an optional
+hosted data proxy are future extensions.
 
 ## Start here
 

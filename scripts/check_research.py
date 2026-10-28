@@ -16,6 +16,7 @@ VALIDATORS = [
     'research/grand-concourse-calibration/validate.py',
 ]
 TEST_DIRS = [
+    'housing_workflow/tests',
     'scripts/tests',
     'research/jerome-brief/tests',
     'research/benchmark-case-search/tests',

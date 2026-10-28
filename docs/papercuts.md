@@ -229,3 +229,16 @@ backtest, private underwriting reconstruction or practitioner acceptance occurre
 | Financial costs have unreconciled scope | HDC reports $178m; NYSERDA labels $121.943m Project Cost | Scope, price year and area definition required for comparison. Missing terms cannot generate an accuracy score. |
 | Manual assessment can pass integrity while incomplete | 29 selected early claims do not audit all 157 RFP pages and forms | Explicit selected-claim scope; professional coverage acceptance remains pending. No automatic completeness pass. |
 | Page attachment size ceiling | Complete calibration ZIP was 10,836,363 bytes, exceeding the 10 MiB upload limit | Split into source-PDF and analysis archives, each below the limit; combined extraction independently validates. |
+
+## First integrated workflow on 28 October 2026
+
+| Papercut | Observed failure or cost | Control and remaining boundary |
+| --- | --- | --- |
+| Repo entry point did not match an external user's expectations | An external tester reported trying the repo without getting it to work | One entry skill and `python -m housing_workflow demo --out runs/first-demo`, with a real-source example and explicit instructions to open local HTML. An external successful retry remains untested. |
+| Workflow coverage was easy to confuse with a complete process | Earlier prototypes exposed many separate components | Versioned discrete workflow declares partial process status and uncovered stages in every IR/packet. This does not discover all missing professional steps. |
+| Original housing signal was omitted | Historical proposed dwelling units were missed in earlier research | New model preserves every selected source field and surfaces all positive historical unit signals; actual live replay includes the nine-unit field without equating it to present housing. |
+| Source address spelling differs | Initial 1337 Jerome Avenue lookup returned zero after normalizing AVENUE to AVE | Resolver queries explicit original/contracted/expanded forms and requires a unique result. Broader alias and address-history support remains absent; request BBL on ambiguity. |
+| CSV line endings broke deterministic export verification | csv.writer used CRLF while read_text normalized it | Explicit LF line endings; byte-identical offline replay test passes. |
+| Re-serializing an unchanged request changed model bindings | Request whitespace changed its SHA and downstream prompt hash | Exact request bytes are copied on unchanged replay; changed assumptions create a new request and model binding. |
+| A documentation file accidentally entered a sample packet inventory | A README inside the run directory was not part of replay inputs | Example guide moved outside generated run packages; manifest/replay inventories now match. |
+| Professional model depth remains thin | Current arithmetic is a user-stated area budget, not a design or underwriting model | Formula/dependency CSV and typed IR expose the limitation; legal/physical/finance stages remain unknown, and image output is restricted to a diagram brief. |

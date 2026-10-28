@@ -1,0 +1,13 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema","title":"Parcel evidence IR 0.2.0","type":"object","additionalProperties":false,
+ "required":["version","workflow","process_status","resolved_bbl","question","scenario_name","request_sha256","claims","sources","housing_signal_claims","interpretation_review","scope"],
+ "properties":{
+  "version":{"const":"0.2.0"},"workflow":{"const":"parcel-investigation"},"process_status":{"const":"partial_playbook_under_development"},"resolved_bbl":{"type":"string","pattern":"^2[0-9]{9}$"},"question":{"type":"string"},"scenario_name":{"type":["string","null"]},"request_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"interpretation_review":{"const":"pending"},"scope":{"type":"string"},
+  "housing_signal_claims":{"type":"array","items":{"type":"string"}},"sources":{"type":"array","items":{"type":"object"}},
+  "claims":{"type":"array","items":{"$ref":"#/$defs/claim"}}
+ },
+ "$defs":{"claim":{"type":"object","additionalProperties":false,"required":["id","kind","label","value","unit","inputs","references","formula","rationale"],"properties":{
+  "id":{"type":"string","minLength":1},"kind":{"enum":["fact","assumption","calculation","judgment","unknown"]},"label":{"type":"string"},"value":{"type":["string","number","object","array","boolean","null"]},"unit":{"type":"string"},"inputs":{"type":"array","items":{"type":"string"}},"references":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["source_id","pointer","sha256"],"properties":{"source_id":{"type":"string"},"pointer":{"type":"string"},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"}}}},"formula":{"type":["string","null"]},"rationale":{"type":["string","null"]}},
+  "allOf":[{"if":{"properties":{"kind":{"const":"unknown"}}},"then":{"properties":{"value":{"type":"null"},"rationale":{"type":"string","minLength":1}}}},{"if":{"properties":{"kind":{"const":"fact"}}},"then":{"properties":{"references":{"minItems":1}}}},{"if":{"properties":{"kind":{"const":"assumption"}}},"then":{"properties":{"rationale":{"type":"string","minLength":1}}}}]
+ }}
+}

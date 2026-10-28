@@ -1,0 +1,596 @@
+{
+  "claims": [
+    {
+      "formula": "len_source_array",
+      "id": "pluto.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "pluto returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 1
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.address",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 address",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/address",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1337 JEROME AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bbl",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028560051.00000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgarea",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "6250"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgclass",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgclass",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgclass",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "O1"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.block",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 block",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/block",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2856"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.borough",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 borough",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/borough",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "BX"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.builtfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 builtfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/builtfar",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "0.96000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.irrlotcode",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 irrlotcode",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/irrlotcode",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": true
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.landuse",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 landuse",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/landuse",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "5"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.latitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 latitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/latitude",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "40.8389423"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.longitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 longitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/longitude",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "-73.9190648"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lot",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lot",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lot",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "51"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lotarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lotarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lotarea",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "6516"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.numfloors",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 numfloors",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/numfloors",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1.0000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.overlay1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 overlay1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/overlay1",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "C2-4"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.residfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 residfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/residfar",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "6.02000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.spdist1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 spdist1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/spdist1",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "J"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitsres",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitsres",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitsres",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "0"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitstotal",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitstotal",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitstotal",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "1"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.version",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 version",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/version",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "26v2"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.zonedist1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 zonedist1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/zonedist1",
+          "sha256": "249e3d933782fc75356441aed36ecc3aa2b48f1861bb6016dd55d836744a1624",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "R8A"
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_bis.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_bis returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_now.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_now returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "dob_now"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": "len_source_array",
+      "id": "hpd_violations.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "hpd_violations returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "hpd_violations"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": null,
+      "id": "scenario.unspecified",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "No development scenario supplied",
+      "rationale": "Evidence gathering is useful without inventing a building program.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.current_use",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "current_use",
+      "rationale": "Current occupancy, leases, lawful use and displacement implications are not established by these records.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.title",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "title",
+      "rationale": "Title, site control and owner willingness have not been investigated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.entitlement",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "entitlement",
+      "rationale": "Applicable zoning text, special districts, amendments, approvals and legal capacity are not determined.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.physical_fit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "physical_fit",
+      "rationale": "Survey, envelope, access, egress, layouts and geotechnical fit are not validated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.environment",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "environment",
+      "rationale": "Environmental requirements, studies and satisfaction status have not been reconciled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.finance",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "finance",
+      "rationale": "Complete development cost, affordability program, capital sources and commitments are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.transit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "transit",
+      "rationale": "Walked access, service reliability, accessibility and job access are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.process_coverage",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "process_coverage",
+      "rationale": "This is a partial playbook. The complete practitioner process and all material requirements are not known.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "review.next_diligence",
+      "inputs": [
+        "unknown.current_use",
+        "unknown.entitlement",
+        "unknown.physical_fit",
+        "unknown.finance"
+      ],
+      "kind": "judgment",
+      "label": "Questions for practitioner review",
+      "rationale": "A checklist for discussion. Task cost, timing, actor resources and best ordering are not evaluated.",
+      "references": [],
+      "unit": "unreviewed author policy",
+      "value": "Review current-use evidence, entitlement pathway, physical constraints and capital structure."
+    }
+  ],
+  "housing_signal_claims": [],
+  "interpretation_review": "pending",
+  "process_status": "partial_playbook_under_development",
+  "question": "What do these public records establish about this different Bronx parcel, and what questions remain?",
+  "request_sha256": "10af4bddd956d399327f771d9670683b7796e69b9ad78038321d0803fc49dc19",
+  "resolved_bbl": "2028560051",
+  "scenario_name": null,
+  "scope": "Current retrieved records, exact tax-lot match; no complete historical reconstruction or professional clearance.",
+  "sources": [
+    {
+      "limits": "Tax-lot attributes may lag actual conditions. Zoning fields are recorded descriptors, not a legal entitlement analysis. Zero recorded residential units does not mean vacancy or no displacement.",
+      "retrieved_at": "2026-10-28T22:50:35.806255+00:00",
+      "returned_rows": 1,
+      "source": "address_resolution",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Tax-lot attributes may lag actual conditions. Zoning fields are recorded descriptors, not a legal entitlement analysis. Zero recorded residential units does not mean vacancy or no displacement.",
+      "retrieved_at": "2026-10-28T22:50:36.396392+00:00",
+      "returned_rows": 1,
+      "source": "pluto",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+      "retrieved_at": "2026-10-28T22:50:36.397202+00:00",
+      "returned_rows": 0,
+      "source": "dob_bis",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+      "retrieved_at": "2026-10-28T22:50:36.397753+00:00",
+      "returned_rows": 0,
+      "source": "dob_now",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Recorded housing violation rows, not occupancy, executed evictions, or a displacement measure. Empty results do not prove no housing, no violations, or a safe building.",
+      "retrieved_at": "2026-10-28T22:50:36.398357+00:00",
+      "returned_rows": 0,
+      "source": "hpd_violations",
+      "status": "ok",
+      "truncated": false
+    }
+  ],
+  "version": "0.2.0",
+  "workflow": "parcel-investigation"
+}
