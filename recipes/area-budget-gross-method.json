@@ -1,0 +1,103 @@
+{
+  "id": "parcel-area-budget",
+  "imports": [
+    {
+      "claim_id": "pluto.0.lotarea",
+      "type": "recorded_lot_sf"
+    }
+  ],
+  "name": "Sensitivity: gross area per home-equivalent",
+  "parameters": [
+    {
+      "id": "scenario.gross_area_sf",
+      "label": "gross_area_sf",
+      "rationale": "Demonstration input chosen to exercise the workflow; not derived from zoning or verified drawings.",
+      "type": "gross_sf",
+      "value": 40000
+    },
+    {
+      "id": "scenario.nonresidential_gross_sf",
+      "label": "nonresidential_gross_sf",
+      "rationale": "Demonstration allocation to nonresidential uses; not a tenant commitment or displacement assessment.",
+      "type": "gross_sf",
+      "value": 6000
+    },
+    {
+      "id": "scenario.residential_net_efficiency",
+      "label": "residential_net_efficiency",
+      "rationale": "Hypothetical net residential share after circulation/support; no layout verified.",
+      "type": "share",
+      "value": 0.8
+    },
+    {
+      "id": "recipe.average_gross_home_sf",
+      "label": "Average residential gross sf per home-equivalent",
+      "rationale": "Demonstration alternative method. Includes shared area; not a floor plan or verified unit mix.",
+      "type": "gross_sf_per_home",
+      "value": 1000
+    }
+  ],
+  "purpose": "Explicit area-budget arithmetic for a practitioner-led lot investigation; not design or entitlement.",
+  "review_gates": [
+    "unknown.current_use",
+    "unknown.title",
+    "unknown.entitlement",
+    "unknown.physical_fit",
+    "unknown.environment",
+    "unknown.finance",
+    "unknown.transit",
+    "unknown.process_coverage"
+  ],
+  "revision": "2-gross-method",
+  "steps": [
+    {
+      "id": "scenario.residential_gross_sf",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "scenario.nonresidential_gross_sf"
+      ],
+      "label": "Residential gross area allocation",
+      "method": "area.subtract@1",
+      "on_missing": "block",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "type": "gross_sf"
+    },
+    {
+      "id": "scenario.residential_net_sf",
+      "inputs": [
+        "scenario.residential_gross_sf",
+        "scenario.residential_net_efficiency"
+      ],
+      "label": "Residential net area allowance",
+      "method": "area.apply_efficiency@1",
+      "on_missing": "block",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "type": "net_sf"
+    },
+    {
+      "id": "scenario.home_equivalents",
+      "inputs": [
+        "scenario.residential_gross_sf",
+        "recipe.average_gross_home_sf"
+      ],
+      "label": "Area-budget home-equivalents",
+      "method": "homes.gross_quotient@1",
+      "on_missing": "block",
+      "rationale": "Alternative gross-area quotient; not net area divided by gross unit size.",
+      "type": "home_equivalents"
+    },
+    {
+      "id": "scenario.gross_to_recorded_lot_ratio",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "pluto.0.lotarea"
+      ],
+      "label": "Proposed gross area / recorded lot area",
+      "method": "area.recorded_lot_ratio@1",
+      "on_missing": "skip",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "type": "ratio"
+    }
+  ],
+  "version": "0.1.0"
+}

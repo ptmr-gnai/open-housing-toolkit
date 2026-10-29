@@ -1,0 +1,124 @@
+{
+  "imports": [
+    {
+      "claim_id": "pluto.0.lotarea",
+      "type": "recorded_lot_sf"
+    }
+  ],
+  "parameters": [
+    {
+      "id": "scenario.gross_area_sf",
+      "label": "gross_area_sf",
+      "rationale": "Demonstration input chosen to exercise the workflow; not derived from zoning or verified drawings.",
+      "type": "gross_sf",
+      "value": 40000
+    },
+    {
+      "id": "scenario.nonresidential_gross_sf",
+      "label": "nonresidential_gross_sf",
+      "rationale": "Demonstration allocation to nonresidential uses; not a tenant commitment or displacement assessment.",
+      "type": "gross_sf",
+      "value": 6000
+    },
+    {
+      "id": "scenario.residential_net_efficiency",
+      "label": "residential_net_efficiency",
+      "rationale": "Hypothetical net residential share after circulation/support; no layout verified.",
+      "type": "share",
+      "value": 0.8
+    },
+    {
+      "id": "recipe.average_gross_home_sf",
+      "label": "Average residential gross sf per home-equivalent",
+      "rationale": "Demonstration alternative method. Includes shared area; not a floor plan or verified unit mix.",
+      "type": "gross_sf_per_home",
+      "value": 1000
+    }
+  ],
+  "recipe": {
+    "id": "parcel-area-budget",
+    "review": "unreviewed; numerical recipe is not professional clearance",
+    "revision": "2-gross-method",
+    "sha256": "f9b4b2fcfced5d17a0d841b6d11a5d54008cc7bcbfe34e6c5127f790a05b0a68"
+  },
+  "review_gates": [
+    {
+      "claim_id": "unknown.current_use",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.title",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.entitlement",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.physical_fit",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.environment",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.finance",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.transit",
+      "status": "unknown"
+    },
+    {
+      "claim_id": "unknown.process_coverage",
+      "status": "unknown"
+    }
+  ],
+  "steps": [
+    {
+      "id": "scenario.residential_gross_sf",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "scenario.nonresidential_gross_sf"
+      ],
+      "method": "area.subtract@1",
+      "status": "calculated",
+      "type": "gross_sf",
+      "value": 34000.0
+    },
+    {
+      "id": "scenario.residential_net_sf",
+      "inputs": [
+        "scenario.residential_gross_sf",
+        "scenario.residential_net_efficiency"
+      ],
+      "method": "area.apply_efficiency@1",
+      "status": "calculated",
+      "type": "net_sf",
+      "value": 27200.0
+    },
+    {
+      "id": "scenario.home_equivalents",
+      "inputs": [
+        "scenario.residential_gross_sf",
+        "recipe.average_gross_home_sf"
+      ],
+      "method": "homes.gross_quotient@1",
+      "status": "calculated",
+      "type": "home_equivalents",
+      "value": 34.0
+    },
+    {
+      "id": "scenario.gross_to_recorded_lot_ratio",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "pluto.0.lotarea"
+      ],
+      "method": "area.recorded_lot_ratio@1",
+      "status": "calculated",
+      "type": "ratio",
+      "value": 0.6773920406435224
+    }
+  ]
+}

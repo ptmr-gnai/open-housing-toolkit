@@ -1,4 +1,4 @@
-.PHONY: build check research-check release-check demo workflow-check render-check
+.PHONY: build check research-check release-check demo workflow-check render-check recipe-check
 
 build:
 	python pipeline.py
@@ -30,3 +30,6 @@ render-check:
 	python -m housing_render verify --run examples/site-concept/with-analysis
 	python -m housing_render verify --run examples/site-concept/standalone
 	python -m unittest discover -s housing_render/tests -v
+
+recipe-check:
+	python -m unittest discover -s housing_recipe/tests -v

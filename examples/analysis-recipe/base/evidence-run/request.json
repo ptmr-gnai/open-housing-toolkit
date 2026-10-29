@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "bbl": "2028710002",
+  "question": "What do public records tell us about this Bronx lot, which housing signals need reconciliation, and what would the stated area budget imply?",
+  "scenario": {
+    "name": "Illustrative area budget, not a proposed or approved building",
+    "gross_area_sf": {"value": 40000, "rationale": "Demonstration input chosen to exercise the workflow; not derived from zoning or verified drawings."},
+    "nonresidential_gross_sf": {"value": 6000, "rationale": "Demonstration allocation to nonresidential uses; not a tenant commitment or displacement assessment."},
+    "residential_net_efficiency": {"value": 0.8, "rationale": "Hypothetical net residential share after circulation/support; no layout verified."},
+    "average_net_home_sf": {"value": 800, "rationale": "Hypothetical average home size; no unit mix or code compliance established."}
+  }
+}

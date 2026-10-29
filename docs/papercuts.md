@@ -254,3 +254,16 @@ backtest, private underwriting reconstruction or practitioner acceptance occurre
 | JSON key order changed compiled binding lists | Saving canonical inputs sorted keys and initial verify differed from preparation | Compile parameter bindings in sorted order; brief recomputation is deterministic. |
 | Six-story caption could masquerade as a floor-count test | Recessed top is partly cropped in the generated example | Visual review leaves exact story count and geometry unverified. Caption presence is assessed separately. |
 | Reusing an output could erase the experiment | A second attach could otherwise overwrite the first illustration | Existing generation is immutable through CLI; create a new run for revisions. |
+
+## Editable analysis recipe slice, 29 October 2026
+
+| Papercut | Observed failure or cost | Control and remaining boundary |
+| --- | --- | --- |
+| Scenario methods were hardcoded inside source modeling | Inserting a modeling step required editing the parcel model | Separate numerical recipe declares assumptions, versioned methods, types, dependencies and review gates; original evidence module and frozen research remain unchanged. |
+| Same numerical answer can hide a different model | Net-area and gross-area quotients both produce 34 in this example | Method definitions and dependencies participate in impact analysis even when values match. |
+| Square feet alone do not distinguish meaning | A gross-area denominator could be substituted into a net-area calculation | Semantic types distinguish gross area, net area and their per-home denominators; incompatible substitutions block. Method appropriateness still requires professional judgment. |
+| Source-linked judgments could survive a replaced scenario | A judgment might depend on a scenario claim the recipe replaces | Such a source packet blocks pending explicit reconciliation. No automatic rewriting of authored judgments. |
+| Optional source data can disappear | Recorded lot area may be unavailable | Optional ratio gets an explicit skipped trace; required outputs cannot silently skip. Unsupported source/type imports block. |
+| Parameter edits can leave attractive stale packets | Recipe may be edited without regeneration | Completed run hashes and full recomputation reject stale outputs; impact command previews dependency changes. No automatic file watcher or incremental cache is claimed. |
+| Relative citations break when the new packet moves outside its source package | Original renderer expects sources/ next to packet | Retain full original evidence-run and duplicate exact source bytes next to the new packet; verifier checks both. This costs disk space. |
+| Known passing calculations could be mistaken for agency validation | Recipe tests reproduce existing area arithmetic | Numerical thin slice only. Practitioner acceptance, complete process coverage and geometry are still unverified. Comparison harness and geometry work explicitly deferred. |

@@ -37,6 +37,23 @@ Read [the workflow guide](housing_workflow/README.md) and the
 workflow records uncovered stages explicitly. A notebook/workbook and an optional
 hosted data proxy are future extensions.
 
+## Edit the analysis recipe
+
+For a practitioner investigating a known lot, the numerical modeling stage can
+now be edited independently of evidence collection and packet publication:
+
+```sh
+python -m housing_recipe build --from-run examples/parcel-investigation --recipe recipes/area-budget.json --out runs/recipe-base
+python -m housing_recipe impact --run runs/recipe-base --recipe recipes/area-budget-with-reserve.json
+```
+
+[Recipe guide](housing_recipe/README.md) · [Agent skill](skills/run-analysis-recipe/SKILL.md) ·
+[Worked packet](examples/analysis-recipe/base/packet.md).
+The examples reproduce the current area model, insert a reserve step, and replace
+the home-equivalent method. Typed method signatures, dependency checks and
+required review gates provide engineering checks; professional acceptance remains
+pending. The comparison harness and geometry work are deferred.
+
 ## Use the rendering module independently
 
 Bring a photo and an explicit visual scenario, with an optional analysis IR:

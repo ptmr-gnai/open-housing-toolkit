@@ -1,0 +1,36 @@
+{
+  "files": {
+    "calculation-steps.csv": "6894794fd9329b87a08f9aefdc3f6605b3c1b5c4cd07b0938dc32da3489aa5dc",
+    "image-prompts.json": "067140f7aac4b4080ab70eeb92826852028f77a9c9c3a6b135e78a52a362bd76",
+    "ir.json": "003094637d7eae88f99409db48c0b29bf203177b8152fd59a98fc8b15a2f8499",
+    "packet.html": "3636f58facd537c760ed0ebbeb706117b643eaa417bc642fa85c8bb77454a546",
+    "packet.md": "95ab390c4e5fc943b06fbf46911c49a949c00f5951f57a1b13126c93a104558e",
+    "receipts.json": "0d06c04550a89b778ef663b18fb6d2d865e38d795ec6a9553c39a7a744ec07b3",
+    "request.json": "4e84252627bacba331e019dd5daa79fc499bf08731d13d120078f67bd306e336",
+    "sources/dob_bis.json": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+    "sources/dob_now.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "sources/hpd_violations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "sources/pluto.json": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+    "workflow.json": "8e2fd8264b1702d57c1cfd58ebff668fc917135cb04d4933dd452aac117e1e3b"
+  },
+  "implementation": {
+    "housing_workflow/__init__.py": "f81c6bf93a4995936e32a61e6af00a8ea3934e1165caa129e7c3f7f3248a0f87",
+    "housing_workflow/__main__.py": "4d7e7b6fbfd4c68080993551a84eed8e32c7aed2ea99c4ecaa198688105219ea",
+    "housing_workflow/contracts.py": "57b688a066502fb18b23c3dc3bb6d67812ca3df97b39c4cf603684323f49200b",
+    "housing_workflow/engine.py": "d336df154432245f2e04cb76afb7dadbdbc87439dd8639924c5dbe02831ae9c2",
+    "housing_workflow/ir.schema.json": "be60d032d39e1780fd4d0e497548d59f15023a9db5dfc4c20b724f2fac45e9f4",
+    "housing_workflow/model.py": "2edf42fdded76680c762e2f459307896d939ef929d1caebcd1fc02d1d0d92bb0",
+    "housing_workflow/packet.py": "72984abd00137834c2851864c67389db3a8fcd4df1aaa2fc492cf23d206acb4f",
+    "housing_workflow/request.schema.json": "a2ecd85ee0025868094f3a5192961297c842ad9e8932af211a2b45dee22460ca",
+    "housing_workflow/router.py": "872ee4d144875bdf255fcc05199cfbb68ef71fc8dfbab368d11b1b1282aeba7d",
+    "housing_workflow/sources.json": "eb8cf6954bef5a7f727daf40f77f61d71d22f1fbd8cbb973b0bba42c7f48fa75",
+    "skills/collect-parcel-evidence/SKILL.md": "374249143192a6caa33c0116235eaaa5d07d29d7f5cead2daab4d66cf62673d0",
+    "skills/housing-investigation/SKILL.md": "f00841007230138a1d2d77eeb14b8a1aaa72ccb13dd9f09a6a8f0f2ed6a0525e",
+    "skills/model-parcel-scenario/SKILL.md": "888273f0d51504ba0f295e361961256b4ace144127e018f66636b9d6e8715227",
+    "skills/publish-evidence-packet/SKILL.md": "213c476e2b73c773ab98611b9b0ba1e65f3be80534c3d4363385ae96ae35b4cf",
+    "workflows/parcel-investigation.json": "f1fedaab65f2a4fd326b3ae18d3386f445d73c82169312d3460e2aeec9068dbd"
+  },
+  "resolved_bbl": "2028710002",
+  "validation_scope": "Byte bindings, typed claims, dependency arithmetic and deterministic exports; not semantic completeness or professional acceptance.",
+  "version": "0.2.0"
+}

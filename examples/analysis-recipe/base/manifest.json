@@ -1,0 +1,41 @@
+{
+  "files": {
+    "calculation-steps.csv": "6894794fd9329b87a08f9aefdc3f6605b3c1b5c4cd07b0938dc32da3489aa5dc",
+    "evidence-run/calculation-steps.csv": "6894794fd9329b87a08f9aefdc3f6605b3c1b5c4cd07b0938dc32da3489aa5dc",
+    "evidence-run/image-prompts.json": "067140f7aac4b4080ab70eeb92826852028f77a9c9c3a6b135e78a52a362bd76",
+    "evidence-run/ir.json": "003094637d7eae88f99409db48c0b29bf203177b8152fd59a98fc8b15a2f8499",
+    "evidence-run/manifest.json": "fd16fddb05714f45b299f7468073cc68421b92ee06696804f53eb329bd26faab",
+    "evidence-run/packet.html": "3636f58facd537c760ed0ebbeb706117b643eaa417bc642fa85c8bb77454a546",
+    "evidence-run/packet.md": "95ab390c4e5fc943b06fbf46911c49a949c00f5951f57a1b13126c93a104558e",
+    "evidence-run/receipts.json": "0d06c04550a89b778ef663b18fb6d2d865e38d795ec6a9553c39a7a744ec07b3",
+    "evidence-run/request.json": "4e84252627bacba331e019dd5daa79fc499bf08731d13d120078f67bd306e336",
+    "evidence-run/sources/dob_bis.json": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+    "evidence-run/sources/dob_now.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "evidence-run/sources/hpd_violations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "evidence-run/sources/pluto.json": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+    "evidence-run/workflow.json": "8e2fd8264b1702d57c1cfd58ebff668fc917135cb04d4933dd452aac117e1e3b",
+    "image-prompts.json": "5260687c2120bbfb8acbf9404262341ae4ede6e5fade24877ec17c7211f1b260",
+    "ir.json": "95d339d015994ab13b1b723f6e36ababccb0c83d1c5826e87c5ddd1784d8bee9",
+    "origin.json": "951f4d37915ce2f51049bc44cdefba382ef32d872c192405bf664c2a0d742daa",
+    "packet.html": "6e4d67e39964b26f92831f96642134b80b8a54705f01189e4ae5adb944245200",
+    "packet.md": "c9af48cc0a7c1fceb73cca54706d1b6d6dac1040aa1a996d623b85e8b1b3f5c7",
+    "recipe.json": "8cc4172c9301ad5338676689152412ab3bb22bcb49ff21fa363e430396c90e5a",
+    "sources/dob_bis.json": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+    "sources/dob_now.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "sources/hpd_violations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "sources/pluto.json": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+    "trace.json": "263a23c9d565b822df0a2384b5833d5608676a91961cbf757001470a37feea84"
+  },
+  "implementation": {
+    "housing_recipe/__init__.py": "ccbc5ac84febb7e46374ec1347911e793f16283d41f4265b2b12a18953329122",
+    "housing_recipe/__main__.py": "20452aac79a97f82661e64e771b4c6bbb98aa5d982d953b3ad08295160e38191",
+    "housing_recipe/engine.py": "5363cb8300189aa84a7e0eb50e990e7063593fcba0b99f73eb6a6e12cb5f9463",
+    "housing_recipe/methods.py": "9a04ce30ee54ebf7bf95b61f6eaee81418595b1e58259e2ea25b94dc9100b966",
+    "housing_recipe/recipe.py": "bee48cca2c0a5b2be392147d7b7d31f3f95b5b606c7bd4f086a0ac476da41f78",
+    "housing_recipe/recipe.schema.json": "5b9891d97da5472d73cc07702746170e40c7b3f2b94515ca899ba1b3af761ff7",
+    "skills/run-analysis-recipe/SKILL.md": "e0d649402eb13d91cf5512fcc9a8a0ee39481163aa559614f098baa8971240d5"
+  },
+  "module": "analysis-recipe",
+  "validation_scope": "Typed arithmetic, retained evidence, recipe bindings and deterministic exports. Not professional interpretation or completeness.",
+  "version": "0.1.0"
+}

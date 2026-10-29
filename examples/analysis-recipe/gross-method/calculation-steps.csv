@@ -1,0 +1,13 @@
+claim_id,kind,value,unit,formula,inputs,rationale
+pluto.returned_rows,calculation,1,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+dob_bis.returned_rows,calculation,27,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+dob_now.returned_rows,calculation,0,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+hpd_violations.returned_rows,calculation,0,returned rows; not projects or total population,len_source_array,,Bounded query; see truncation and source limits.
+scenario.gross_area_sf,assumption,40000,gross sf,,,Demonstration input chosen to exercise the workflow; not derived from zoning or verified drawings.
+scenario.nonresidential_gross_sf,assumption,6000,gross sf,,,Demonstration allocation to nonresidential uses; not a tenant commitment or displacement assessment.
+scenario.residential_net_efficiency,assumption,0.8,share,,,Hypothetical net residential share after circulation/support; no layout verified.
+recipe.average_gross_home_sf,assumption,1000,gross sf per home-equivalent,,,Demonstration alternative method. Includes shared area; not a floor plan or verified unit mix.
+scenario.residential_gross_sf,calculation,34000.0,gross sf,subtract,"scenario.gross_area_sf,scenario.nonresidential_gross_sf",User-stated area budget; not a verified design or entitlement.
+scenario.residential_net_sf,calculation,27200.0,net sf,multiply,"scenario.residential_gross_sf,scenario.residential_net_efficiency",User-stated area budget; not a verified design or entitlement.
+scenario.home_equivalents,calculation,34.0,home-equivalents; not a feasible unit count,divide,"scenario.residential_gross_sf,recipe.average_gross_home_sf",Alternative gross-area quotient; not net area divided by gross unit size.
+scenario.gross_to_recorded_lot_ratio,calculation,0.6773920406435224,gross-to-lot ratio; NOT zoning FAR,divide,"scenario.gross_area_sf,pluto.0.lotarea",User-stated area budget; not a verified design or entitlement.

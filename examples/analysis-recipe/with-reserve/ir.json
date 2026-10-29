@@ -1,0 +1,5943 @@
+{
+  "analysis_recipe": {
+    "id": "parcel-area-budget",
+    "review": "unreviewed; numerical recipe is not professional clearance",
+    "revision": "2-reserve",
+    "sha256": "ae4e94da69551dd87993f1a3331db8235f1275934c88d7388f9ad90d4b230941"
+  },
+  "claims": [
+    {
+      "formula": "len_source_array",
+      "id": "pluto.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "pluto returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 1
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.address",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 address",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/address",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240 EDWARD L GRANT HWY"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bbl",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002.00000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgarea",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "26000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgclass",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgclass",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgclass",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "K1"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.block",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 block",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/block",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2871"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.borough",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 borough",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/borough",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "BX"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.builtfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 builtfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/builtfar",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "0.44000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.edesignum",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 edesignum",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/edesignum",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "E-442"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.irrlotcode",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 irrlotcode",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/irrlotcode",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": true
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.landuse",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 landuse",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/landuse",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "5"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.latitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 latitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/latitude",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "40.8376295"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.longitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 longitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/longitude",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "-73.9218130"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lot",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lot",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lot",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lotarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lotarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lotarea",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "59050"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.numfloors",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 numfloors",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/numfloors",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1.0000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.overlay1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 overlay1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/overlay1",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "C2-4"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.residfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 residfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/residfar",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "7.52000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.spdist1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 spdist1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/spdist1",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "J"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitsres",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitsres",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitsres",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "0"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitstotal",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitstotal",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitstotal",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "4"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.version",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 version",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/version",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "26v2"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.zonedist1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 zonedist1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/zonedist1",
+          "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "R9A"
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_bis.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_bis returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 27
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200077120"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "INSTALL SPRINKLER SYSTEM FILED IN CONJU- NCTION WITH APPLICATION #200077 39. NO CHANGE TO EGRESS OR OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/28/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/23/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200077139"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PARTITIONS, FLOORING, CEILING, STOREFRON  T STEEL, MASONRY AND ROOFING."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/13/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/23/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200077139"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "STRUCTUARAL PLANS FILED AS PART OF APPLICATION."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "APPLICATION PROCESSED - ENTIRE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/05/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/23/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200077139"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "APPLICATION PROCESSED - ENTIRE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/05/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/23/1990"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200116506"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "FILING TO CHANGE USE, ADD ADDITIONAL FL. AREA, &amp; OBTAIN NEW C.O."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/20/1991"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/03/1991"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200276780"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CONVERT AUTO SHOWROOM TO COMMUNITY ROOM AND ACCESSORY INDOOR PLAY AREA, OUTDOOR PLAY AREA AND PUBLIC PARKING LOT  FOR 50 CARS"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03/16/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/07/1993"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03/16/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200651311"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "TO INSTALL (6) MODINE HEATERS.  NO CHANGE IN USE, EGRESS, OR OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/24/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/18/2000"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/24/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1250"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200711453"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "Interior construction of laundromat. Install washing machines, dryers, plumbing fixtures, partitions, hung ceiling , boilers,  HVAC roof top units, and relocate existing sprinkler heads. No change to use egress or occupancy."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/24/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01/24/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/24/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200723823"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIZE:  7\"-0\" (H) X 71'-10\"(W) + 10'-6\"(H ) X 21'-0\"(W) PROJECTION:  3'-0 WORDING: \"CLEAN CITY\" \"SUPER LAUNDROMAT\""
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/22/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/02/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/22/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.8.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 8 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/8/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200725037"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "7'-0: (H) X 75'-5\" (W) X 3'-0\" (PROJECTI ON) WORDING: \"CLEAN CITY\" \"SUPE  LAUNDROMAT\""
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/22/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/09/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/22/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.9.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 9 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/9/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200750393"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "TO INSTALL (2) FIRE ALARM SYSTEM.  NO CH  ANGE IN USE, EGRESS, OR OCCUPA Y."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/30/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/04/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/30/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.10.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 10 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/10/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200774199"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "HEREWITH FILING FOR INTERIOR PARTITON MO DIFICATIONS AS INDICATED ON PLA S.  NO CHANGE IN USE, EGRESS OR OCCUPANC Y."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/18/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/13/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/18/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.11.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 11 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/11/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200774199"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "HEREWITH FILING FOR MODIFICATIONS TO PLU  MBING AND MECHANICAL SYSTEMS A INDICATED ON PLANS.  NO CHANGE IN USE, E  GRESS, OR OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/18/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/13/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.proposed_dwelling_units",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 proposed_dwelling_units",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/proposed_dwelling_units",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "9"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/18/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.12.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 12 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/12/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200797361"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "COMPLETED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PA"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03/22/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/15/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03/22/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.13.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 13 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/13/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200827141"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "HEREWITH FILING FOR THE INSTALLATION OF A NEW RAMP.  NO CHANGE IN USE,EG RESS OR OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/23/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.14.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 14 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/14/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853843"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON-ILLUMINATED NON ADVERTISISNG ACCESSO RY AWNING READING- COLUMBUS MEDICAL.  NO CHANGE IN USE,EGRE SS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/02/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.15.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 15 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/15/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853852"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING          READING- COLUMBUS MEDICAL       NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/06/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.16.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 16 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/16/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853861"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING        READING- COLUMBUS MEDICAL       NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/06/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.17.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 17 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/17/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853870"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING          READING- COLUMBUS MEDICAL           NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/06/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.18.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 18 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/18/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853889"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING            READING- 1240 EDWARD L GRANT HIGHWAY        NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/02/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.19.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 19 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/19/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853898"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING           READING- COLUMBUS MEDICAL         NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/02/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.20.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 20 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/20/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200853941"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NON ILLUMINATED NON ADVERTISING ACCESSORY AWNING           READING- COLUMBUS MEDICAL          NO CHANGE TO USE, EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A3"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "07/06/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/03/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.21.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 21 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/21/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200858161"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "TO INSTALL FIRE ALARM SYSTEM.  NO CHANGE IN USE,EGRESS OR OCCUPANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "SIGNED OFF"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/29/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/19/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.signoff_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 signoff_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/signoff_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/29/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.22.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 22 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/22/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200872608"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "HEREWITH FILING FOR THE INSTALLATION OF NEW RAMP NO CHANGE IN USE,EGRESS OR OCCUPAANCY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/21/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/02/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.23.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 23 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/23/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200922369"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "TO INSTALL FIRE SUPPRESSION SYSTEM.  NO CHANGE IN USE, EGRESS OR OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - PARTIAL JOB"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/07/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/01/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.24.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 24 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/24/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "220464423"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "APPLICATION IS FILED FOR THE INSTALLATION OF HVAC UNIT ON THE ROOF AND ALSO OBTAIN EQUIPMENT USE PERMIT CARDS AFTER SIGN/OFF. NO CHANGE IN USE, EGRESS OR OCCUPANCY DUE TO SCOPE OF WORK."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - APPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/19/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "06/18/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.25.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 25 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/25/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD GRANT HIGHWAY"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/bbl",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028710002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/bin__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008638"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/doc__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/house__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1240"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/job__",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "240116815"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/job_description",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "FILING TO CONVERT SCHOOL TO HALL. NO CHANGE IN USE, EGRESS AND OCCUPANCY."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/job_status_descrp",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "APPLICATION PROCESSED - ENTIRE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/job_type",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/latest_action_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/02/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/pre__filing_date",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "10/02/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.26.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 26 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/26/street_name",
+          "sha256": "6eabf3fdc65c337a84bf42236095688938c8990395831efab7873b1adbcec565",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EDWARD L GRANT HWY"
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_now.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_now returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "dob_now"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": "len_source_array",
+      "id": "hpd_violations.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "hpd_violations returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "hpd_violations"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": null,
+      "id": "unknown.current_use",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "current_use",
+      "rationale": "Current occupancy, leases, lawful use and displacement implications are not established by these records.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.title",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "title",
+      "rationale": "Title, site control and owner willingness have not been investigated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.entitlement",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "entitlement",
+      "rationale": "Applicable zoning text, special districts, amendments, approvals and legal capacity are not determined.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.physical_fit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "physical_fit",
+      "rationale": "Survey, envelope, access, egress, layouts and geotechnical fit are not validated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.environment",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "environment",
+      "rationale": "Environmental requirements, studies and satisfaction status have not been reconciled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.finance",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "finance",
+      "rationale": "Complete development cost, affordability program, capital sources and commitments are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.transit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "transit",
+      "rationale": "Walked access, service reliability, accessibility and job access are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.process_coverage",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "process_coverage",
+      "rationale": "This is a partial playbook. The complete practitioner process and all material requirements are not known.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "review.housing_signals",
+      "inputs": [
+        "dob_bis.12.proposed_dwelling_units",
+        "pluto.0.unitsres"
+      ],
+      "kind": "judgment",
+      "label": "Reconcile heterogeneous housing evidence",
+      "rationale": "DOB historical existing/proposed units and PLUTO recorded units are different observations. Preserve all positive signals; obtain approved plans, certificates and current-use evidence before concluding occupancy or displacement. No units are summed across filings.",
+      "references": [],
+      "unit": "unreviewed author policy",
+      "value": "reconciliation_needed"
+    },
+    {
+      "formula": null,
+      "id": "review.next_diligence",
+      "inputs": [
+        "unknown.current_use",
+        "unknown.entitlement",
+        "unknown.physical_fit",
+        "unknown.finance"
+      ],
+      "kind": "judgment",
+      "label": "Questions for practitioner review",
+      "rationale": "A checklist for discussion. Task cost, timing, actor resources and best ordering are not evaluated.",
+      "references": [],
+      "unit": "unreviewed author policy",
+      "value": "Review current-use evidence, entitlement pathway, physical constraints and capital structure."
+    },
+    {
+      "formula": null,
+      "id": "scenario.gross_area_sf",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "gross_area_sf",
+      "rationale": "Demonstration input chosen to exercise the workflow; not derived from zoning or verified drawings.",
+      "references": [],
+      "unit": "gross sf",
+      "value": 40000
+    },
+    {
+      "formula": null,
+      "id": "scenario.nonresidential_gross_sf",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "nonresidential_gross_sf",
+      "rationale": "Demonstration allocation to nonresidential uses; not a tenant commitment or displacement assessment.",
+      "references": [],
+      "unit": "gross sf",
+      "value": 6000
+    },
+    {
+      "formula": null,
+      "id": "scenario.residential_net_efficiency",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "residential_net_efficiency",
+      "rationale": "Hypothetical net residential share after circulation/support; no layout verified.",
+      "references": [],
+      "unit": "share",
+      "value": 0.8
+    },
+    {
+      "formula": null,
+      "id": "scenario.average_net_home_sf",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "average_net_home_sf",
+      "rationale": "Hypothetical average home size; no unit mix or code compliance established.",
+      "references": [],
+      "unit": "net sf per home-equivalent",
+      "value": 800
+    },
+    {
+      "formula": null,
+      "id": "recipe.reserve_sf",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Additional residential gross-area reserve",
+      "rationale": "Demonstration sensitivity only; not an architect estimate. Applied before net efficiency; practitioners must check for double counting.",
+      "references": [],
+      "unit": "gross sf",
+      "value": 4000
+    },
+    {
+      "formula": "subtract",
+      "id": "scenario.residential_gross_sf",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "scenario.nonresidential_gross_sf"
+      ],
+      "kind": "calculation",
+      "label": "Residential gross area allocation",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "references": [],
+      "unit": "gross sf",
+      "value": 34000.0
+    },
+    {
+      "formula": "subtract",
+      "id": "recipe.after_reserve_sf",
+      "inputs": [
+        "scenario.residential_gross_sf",
+        "recipe.reserve_sf"
+      ],
+      "kind": "calculation",
+      "label": "Residential gross area after additional reserve",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "references": [],
+      "unit": "gross sf",
+      "value": 30000.0
+    },
+    {
+      "formula": "multiply",
+      "id": "scenario.residential_net_sf",
+      "inputs": [
+        "recipe.after_reserve_sf",
+        "scenario.residential_net_efficiency"
+      ],
+      "kind": "calculation",
+      "label": "Residential net area allowance",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "references": [],
+      "unit": "net sf",
+      "value": 24000.0
+    },
+    {
+      "formula": "divide",
+      "id": "scenario.home_equivalents",
+      "inputs": [
+        "scenario.residential_net_sf",
+        "scenario.average_net_home_sf"
+      ],
+      "kind": "calculation",
+      "label": "Area-budget home-equivalents",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "references": [],
+      "unit": "home-equivalents; not a feasible unit count",
+      "value": 30.0
+    },
+    {
+      "formula": "divide",
+      "id": "scenario.gross_to_recorded_lot_ratio",
+      "inputs": [
+        "scenario.gross_area_sf",
+        "pluto.0.lotarea"
+      ],
+      "kind": "calculation",
+      "label": "Proposed gross area / recorded lot area",
+      "rationale": "User-stated area budget; not a verified design or entitlement.",
+      "references": [],
+      "unit": "gross-to-lot ratio; NOT zoning FAR",
+      "value": 0.6773920406435224
+    }
+  ],
+  "housing_signal_claims": [
+    "dob_bis.12.proposed_dwelling_units"
+  ],
+  "interpretation_review": "pending",
+  "process_status": "partial_playbook_under_development",
+  "question": "What do public records tell us about this Bronx lot, which housing signals need reconciliation, and what would the stated area budget imply?",
+  "request_sha256": "4e84252627bacba331e019dd5daa79fc499bf08731d13d120078f67bd306e336",
+  "resolved_bbl": "2028710002",
+  "scenario_name": "Sensitivity: explicit gross-area reserve",
+  "scope": "Current retrieved records, exact tax-lot match; no complete historical reconstruction or professional clearance.",
+  "sources": [
+    {
+      "limits": "Tax-lot attributes may lag actual conditions. Zoning fields are recorded descriptors, not a legal entitlement analysis. Zero recorded residential units does not mean vacancy or no displacement.",
+      "retrieved_at": "2026-10-28T22:47:29.591267+00:00",
+      "returned_rows": 1,
+      "source": "pluto",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+      "retrieved_at": "2026-10-28T22:47:29.592160+00:00",
+      "returned_rows": 27,
+      "source": "dob_bis",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+      "retrieved_at": "2026-10-28T22:47:29.592722+00:00",
+      "returned_rows": 0,
+      "source": "dob_now",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Recorded housing violation rows, not occupancy, executed evictions, or a displacement measure. Empty results do not prove no housing, no violations, or a safe building.",
+      "retrieved_at": "2026-10-28T22:47:29.593277+00:00",
+      "returned_rows": 0,
+      "source": "hpd_violations",
+      "status": "ok",
+      "truncated": false
+    }
+  ],
+  "version": "0.2.0",
+  "workflow": "parcel-investigation"
+}
