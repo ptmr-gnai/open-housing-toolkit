@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "id": "design_identity",
+      "note": "Buff brick, dark frames, taller glazed ground floor and recessed upper volume recognizable.",
+      "status": "broadly_consistent_by_inspection"
+    },
+    {
+      "id": "complete_building_and_floor_count",
+      "note": "Roof/top partly cropped; caption does not establish full six-floor or total-height fidelity.",
+      "status": "issue_observed"
+    },
+    {
+      "id": "street_context_preservation",
+      "note": "Cars/details redrawn and new planting introduced. Not a pixel-preserving composite.",
+      "status": "issue_observed"
+    },
+    {
+      "id": "camera_and_placement",
+      "note": "Approximate visual placement, no camera or facade registration; original modeled centroid placement is not established in this photo.",
+      "status": "not_verified"
+    },
+    {
+      "id": "metric_geometry_and_recesses",
+      "note": "Exact dimensions, recess depth, projected scale and boundary relationship unmeasured.",
+      "status": "not_verified"
+    },
+    {
+      "id": "caption_and_credit",
+      "note": "Caveats and Google Street View source credit visible.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "professional_review",
+      "note": "No legal, physical or financial feasibility acceptance.",
+      "status": "not_verified"
+    }
+  ],
+  "image_sha256": "d6b02cf7bd7fd55232176f2c3816b814390c8e236caeb469a39258ef6c09f57b",
+  "overall": "illustrative_with_observed_fidelity_issues",
+  "reviewer_kind": "assistant_visual_inspection",
+  "version": "0.1.0"
+}

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "README.md": "4a3245297de6396d0dbbdbb4c8eba6bf8aeaf9e5b2ae7323fb3435bbb74b897a",
+    "invocation.json": "2d19f2c2029886bd79cb580d25dda346cf37833e6c4a0eb9adcabd456375218f",
+    "prompt.txt": "232676418d9d44c1fa812960cb65507e0e67396bab9201b5e7b05f1c1ea0ead3",
+    "render.png": "d6b02cf7bd7fd55232176f2c3816b814390c8e236caeb469a39258ef6c09f57b",
+    "review.json": "d0b92ffd450a9adee8ddaef16e6261337f96f58138cd5b790961919e7f0ff6cd",
+    "verify.py": "5300ab44e4853ab0f99ea14da17475fa1e0eee5c5017aaef772e0600416ab558"
+  },
+  "module": "street-placement-image-experiment",
+  "version": "0.1.0"
+}

@@ -40,3 +40,5 @@ cannot consume this handoff yet. A diagnostic view remains available even when t
 positive handoff is blocked.
 
 A subsequent [actual image-generation experiment](../geometry-render/README.md) used rasterized views of the allocation-sensitivity run, with saved prompt, output and a limited visual review. The original geometry packets remain unchanged.
+
+A [street-scene photomontage](../street-placement/README.md) subsequently used that building render and the user's reattached photograph. Approximate placement, cropping and context redraws remain explicit limitations.

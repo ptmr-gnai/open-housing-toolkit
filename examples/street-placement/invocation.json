@@ -1,0 +1,27 @@
+{
+  "design_source_bindings": {
+    "examples/geometry-render/brief.json": "304e78fa16318d38605a6f544aa9530de35647d035e83fa956a6372073b3e5f5",
+    "examples/geometry-render/manifest.json": "7134497b640c536295c5c4672040ee6932299c2ae5fb67c7c3221de156788832",
+    "examples/geometry-render/render.png": "1c7260a9435ec21f81d83abf626a4ca98ca3c689684445e7b641e913c80fdd02",
+    "examples/grounded-massing/allocation-sensitivity/geometry.json": "15af2c9ce7629d0b6fe517b4ce2c3763c5b35c9788afbf96a92abd173771edc5"
+  },
+  "executed_at": "2026-10-29T21:02:35.284502+00:00",
+  "execution_attestation": "Agent-recorded invocation, not provider-signed proof.",
+  "output_sha256": "d6b02cf7bd7fd55232176f2c3816b814390c8e236caeb469a39258ef6c09f57b",
+  "parameters": {
+    "num_last_images_to_include": 2,
+    "transparent_background": false
+  },
+  "photo_reference": {
+    "delivery": "conversation_attachment",
+    "id": "user-reattached-google-streetview-june2026",
+    "sha256": null,
+    "site_match": "user_asserted_not_independently_geolocated"
+  },
+  "placement_assumption": "Approximate replacement at the photographed existing frontage. Not registered to modeled centroid placement, surveyed coordinates or a calibrated camera.",
+  "prompt_sha256": "232676418d9d44c1fa812960cb65507e0e67396bab9201b5e7b05f1c1ea0ead3",
+  "provider": "image_gen.imagegen",
+  "reference_delivery_note": "The two latest images were the reattached Street View screenshot and the saved geometry-reference render displayed with view_image. No original screenshot file is available locally.",
+  "source_photo_byte_bound": false,
+  "version": "0.1.0"
+}

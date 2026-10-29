@@ -287,3 +287,7 @@ Raw ArcGIS layer metadata contains CRLF and trailing spaces. Preserve those sour
 ## Geometry-reference image experiment
 
 ImageMagick SVG conversion failed because its rsvg-convert delegate was unavailable. Switched to CairoSVG 2.8.2 and preserved the original SVGs, rasterized references and hashes. Actual image generation received the two local views only. Visual review records visible floor bands and recess ledges separately from unverified dimensions, projected proportions, camera registration and parcel-vertex fidelity. This is a recorded bridge experiment, not a general rendering adapter.
+
+## Street-scene placement experiment
+
+The original photo had to be reattached: it was absent from local files and outside the image tool's recent-reference window. The new invocation used exactly the reattached screenshot and displayed geometry-reference render; photo-byte provenance remains unavailable. The photomontage crops the roof, redraws context and adds planting. Retain these failures and mark camera registration, metric fit and the relation to modeled centroid placement unverified; do not call this a geometry-fidelity pass.
