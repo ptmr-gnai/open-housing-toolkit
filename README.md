@@ -86,6 +86,9 @@ to reproduce a source-byte-bound run. Collection and modeling are not required.
 
 ## Start here
 
+- [Community-benefit research](research/community-benefit/report.md): agency frameworks,
+  housing/transit evidence, candidate metrics and the boundaries between context,
+  scenario arithmetic, causal effects and community priorities.
 - [Project proposal](docs/proposal.md): the intended user, probe and open source approach.
 - [425 Grand Concourse calibration](research/grand-concourse-calibration/report.md):
   a real project challenges our zoning, physical and financing assumptions. This is

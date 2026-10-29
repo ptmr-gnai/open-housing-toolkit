@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "nyc-rer-guide",
+    "requested_url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a",
+    "retrieved_at_utc": "2026-10-29T21:18:09.179338+00:00",
+    "public_source_bytes": "not bundled; external copyright/terms apply",
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a",
+    "bytes": 523284,
+    "sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+    "content_type": "application/pdf"
+  },
+  {
+    "source_id": "nyc-ceqr-socioeconomic",
+    "requested_url": "https://www.nyc.gov/assets/oec/technical-manual/05_Socioeconomic_Conditions_2025.pdf",
+    "retrieved_at_utc": "2026-10-29T21:18:09.180132+00:00",
+    "public_source_bytes": "not bundled; external copyright/terms apply",
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/assets/oec/technical-manual/05_Socioeconomic_Conditions_2025.pdf",
+    "bytes": 512022,
+    "sha256": "61ed8a26cf4e6854741890f380423c8b939937e8a3ddae7129c6a33b14183d32",
+    "content_type": "application/pdf"
+  },
+  {
+    "source_id": "nyc-ceqr-transport",
+    "requested_url": "https://www.nyc.gov/assets/oec/technical-manual/16_Transportation_2025.pdf",
+    "retrieved_at_utc": "2026-10-29T21:18:09.180589+00:00",
+    "public_source_bytes": "not bundled; external copyright/terms apply",
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/assets/oec/technical-manual/16_Transportation_2025.pdf",
+    "bytes": 2728266,
+    "sha256": "949aaa82108eb355773d977d4c37600edebf8cf0f90d06580b92bd3ad99265aa",
+    "content_type": "application/pdf"
+  },
+  {
+    "source_id": "urban-tod-kpis",
+    "requested_url": "https://www.urban.org/sites/default/files/2025-12/Tracking%20Transit-Oriented%20Development%2020251209.pdf",
+    "retrieved_at_utc": "2026-10-29T21:18:09.180956+00:00",
+    "public_source_bytes": "not bundled; external copyright/terms apply",
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://www.urban.org/sites/default/files/2025-12/Tracking%20Transit-Oriented%20Development%2020251209.pdf",
+    "bytes": 226875,
+    "sha256": "5f38a6e2d070c34ac902b1c1b208dd436b9e969f5c26f1b3c824f8194419ef8c",
+    "content_type": "application/pdf"
+  },
+  {
+    "source_id": "hpd-ami",
+    "requested_url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+    "retrieved_at_utc": "2026-10-29T21:18:09.181710+00:00",
+    "public_source_bytes": "not bundled; external copyright/terms apply",
+    "status": "retrieved",
+    "http_status": 200,
+    "final_url": "https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page",
+    "bytes": 35997,
+    "sha256": "cdc205170f488bd9ad6ce552be3ef3fb0f87e8628c2eb4d5e338da0fc0b58ad4",
+    "content_type": "text/html;charset=UTF-8"
+  }
+]

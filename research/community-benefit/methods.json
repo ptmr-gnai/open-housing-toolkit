@@ -1,0 +1,271 @@
+{
+  "version": "0.1.0",
+  "status": "researched_backlog_not_an_executable_recipe",
+  "proposed_impact_record_fields": [
+    "metric_id_and_definition",
+    "claim_kind",
+    "evidence_interpretation",
+    "population_and_denominator",
+    "geography_and_source_vintage",
+    "scenario_and_no_action_baseline",
+    "time_horizon_and_price_year",
+    "method_id_and_version",
+    "source_references",
+    "assumptions_and_professional_judgments",
+    "uncertainty_and_missingness",
+    "commitment_or_delivery_status",
+    "distribution_of_benefits_and_harms",
+    "review_status",
+    "optional_attributed_policy_weight"
+  ],
+  "methods": [
+    {
+      "id": "affordability-program",
+      "title": "Program/household affordability comparison",
+      "evidence_interpretation": "conditional_scenario_arithmetic",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Explicit unit mix by bedroom/tenure",
+        "Gross rent and tenant utility treatment",
+        "Household income/size and source year",
+        "Program rules and restriction duration",
+        "Existing and future no-action housing programs"
+      ],
+      "candidate_outputs": [
+        "Homes/rents by income and household category",
+        "Rent-to-income diagnostic with stated definition",
+        "Restriction duration and commitment status"
+      ],
+      "blocked_interpretations": [
+        "Actual delivery or tenant assignment",
+        "Market-wide rent change",
+        "A verified unit mix inferred by rounding home-equivalents"
+      ],
+      "source_ids": [
+        "nyc-rer-guide",
+        "hpd-ami",
+        "nychvs-2023",
+        "hpd-ncf"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "direct-loss-ledger",
+      "title": "Existing-community/direct-loss inventory",
+      "evidence_interpretation": "observed_context_and_scenario_inventory",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Current occupancy and lawful-use investigation",
+        "Housing protections and unit/service inventory",
+        "Proposed demolitions/relocation/return provisions",
+        "Business/service users and commitment instruments"
+      ],
+      "candidate_outputs": [
+        "Known direct removals and preserved/replaced services",
+        "Coverage status and unresolved occupancy questions"
+      ],
+      "blocked_interpretations": [
+        "Zero displacement from missing records",
+        "Project-caused indirect displacement inferred from neighborhood index"
+      ],
+      "source_ids": [
+        "nyc-ceqr-socioeconomic",
+        "nyc-displacement-index",
+        "anhd-principles"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "scheduled-opportunity-access",
+      "title": "Network-based opportunity access",
+      "evidence_interpretation": "descriptive_network_model",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Pinned GTFS feeds and service dates",
+        "OSM walking network and entrances",
+        "Origin/destination and opportunity definitions",
+        "Departure windows, walk/transfer/time-budget settings",
+        "Accessibility/fare limits and missing-data rules"
+      ],
+      "candidate_outputs": [
+        "Jobs/services reachable by time budget and departure window",
+        "Sensitivity and feed/route/accessibility coverage"
+      ],
+      "blocked_interpretations": [
+        "Jobs obtained",
+        "Experienced reliability or capacity",
+        "Benefits caused by adding housing to an unchanged network"
+      ],
+      "source_ids": [
+        "urban-tod-kpis",
+        "epa-smart-location",
+        "mta-developer",
+        "r5py",
+        "otp-accessibility"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "program-access-comparison",
+      "title": "Housing offer at an accessible location",
+      "evidence_interpretation": "joint_reporting_not_causal",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Explicit housing program",
+        "Scheduled-access output",
+        "Future no-action baseline",
+        "Restriction durations and delivery assumptions"
+      ],
+      "candidate_outputs": [
+        "Additional homes by affordability category beside location access measures",
+        "Separate gains/risks by affected population"
+      ],
+      "blocked_interpretations": [
+        "Homes \u00d7 reachable jobs labeled new jobs",
+        "Improved existing-resident travel times without a network change"
+      ],
+      "source_ids": [
+        "nyc-rer-guide",
+        "urban-tod-kpis",
+        "epa-smart-location"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "household-budget",
+      "title": "Housing-plus-transport budget sensitivity",
+      "evidence_interpretation": "conditional_household_model",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Defined household profiles/income",
+        "Rent/utilities/vehicle/fare assumptions",
+        "Alternative locations and travel behavior",
+        "Price year and service conditions"
+      ],
+      "candidate_outputs": [
+        "Budget ranges and break-even comparisons",
+        "Distribution by household profile"
+      ],
+      "blocked_interpretations": [
+        "Current measured costs from historical LAI estimates",
+        "Actual behavioral change without evidence"
+      ],
+      "source_ids": [
+        "hud-lai",
+        "usdot-bca",
+        "urban-tod-kpis"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "resource-delivery-account",
+      "title": "Public-resource and delivery account",
+      "evidence_interpretation": "resource_accounting_and_commitment_tracking",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Public loans/grants/tax expenditures/repayments",
+        "Land alternative-use assumptions",
+        "Ongoing support and discount assumptions",
+        "Project milestones and instruments"
+      ],
+      "candidate_outputs": [
+        "Public resource profile distinct from private finance and societal welfare",
+        "Proposed/secured/financed/delivered/observed status"
+      ],
+      "blocked_interpretations": [
+        "Loan face value treated as net public subsidy",
+        "Approved capacity treated as delivered homes",
+        "Property uplift plus capitalized benefits double counted"
+      ],
+      "source_ids": [
+        "hpd-ncf",
+        "mhclg-appraisal",
+        "usdot-bca"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "environment-health",
+      "title": "Environmental and health scenario assessment",
+      "evidence_interpretation": "requires_additional_models",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Exposure/safety/heat/flood context",
+        "Building lifecycle and operations assumptions",
+        "Travel activity and alternative-location counterfactual",
+        "Validated emissions/health methods and populations"
+      ],
+      "candidate_outputs": [
+        "Separately scoped exposure and modeled lifecycle/transport effects"
+      ],
+      "blocked_interpretations": [
+        "Lower emissions inferred solely from station proximity",
+        "Regional benefit presumed to be a local health improvement"
+      ],
+      "source_ids": [
+        "urban-tod-kpis",
+        "nyc-ceqr-transport",
+        "mhclg-appraisal"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "causal-evaluation",
+      "title": "Intervention-specific causal evaluation",
+      "evidence_interpretation": "future_evaluation_not_parcel_default",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Defined treatment/estimand/population and horizon",
+        "Comparable longitudinal outcomes and controls",
+        "Selection/parallel-trends/spillover assumptions",
+        "Mover follow-up and transportability review"
+      ],
+      "candidate_outputs": [
+        "Identified effect estimates and uncertainty under explicit design"
+      ],
+      "blocked_interpretations": [
+        "Portable Bronx parcel coefficients from unrelated studies",
+        "Upzoning permission conflated with completed housing",
+        "Neighborhood composition treated as original-resident welfare"
+      ],
+      "source_ids": [
+        "asquith-mast-reed",
+        "mast-moving-chains",
+        "freemark-upzoning",
+        "mto",
+        "hud-choice",
+        "padeiro-review"
+      ],
+      "professional_review": "pending"
+    },
+    {
+      "id": "decision-tradeoffs",
+      "title": "Attributed objectives and tradeoff comparison",
+      "evidence_interpretation": "normative_decision_support",
+      "implementation_status": "not_implemented",
+      "required_inputs": [
+        "Comparable alternatives and scoped metrics",
+        "Attributed community/practitioner objectives",
+        "Professional interpretation and uncertainty",
+        "Optional transparent weights/constraints and sensitivity"
+      ],
+      "candidate_outputs": [
+        "Benefits/harms by group",
+        "Nondominated alternatives on declared dimensions",
+        "Ranking sensitivity if explicitly requested"
+      ],
+      "blocked_interpretations": [
+        "Unattributed universal community-benefit optimum",
+        "Missing harm data assigned zero cost",
+        "Rendering quality counted as analytical benefit"
+      ],
+      "source_ids": [
+        "anhd-principles",
+        "mhclg-appraisal",
+        "urban-tod-kpis",
+        "mtc-toc"
+      ],
+      "professional_review": "pending"
+    }
+  ]
+}

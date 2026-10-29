@@ -291,3 +291,7 @@ ImageMagick SVG conversion failed because its rsvg-convert delegate was unavaila
 ## Street-scene placement experiment
 
 The original photo had to be reattached: it was absent from local files and outside the image tool's recent-reference window. The new invocation used exactly the reattached screenshot and displayed geometry-reference render; photo-byte provenance remains unavailable. The photomontage crops the roof, redraws context and adds planting. Retain these failures and mark camera registration, metric fit and the relation to modeled centroid placement unverified; do not call this a geometry-fidelity pass.
+
+## Community-benefit research
+
+An area budget and appealing render do not estimate community benefit. Broad research found existing NYC reporting frameworks, while keeping all nine candidate benefit methods explicitly unimplemented. HPD's live page mixes a 2026 income heading with a 2025 rent heading; preserve table-level vintage. Static transit feeds have date/route/change coverage limits, and historical EPA/LAI estimates are not current parcel observations. Keep neighborhood vulnerability separate from project-caused displacement, zoning permission separate from delivered homes, and a numerical consistency check separate from professional acceptance. Research reference validation checks metadata only.
