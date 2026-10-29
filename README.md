@@ -2,11 +2,17 @@
 
 The Open Housing Opportunity Playbook research project.
 
-An open source research project for investigating affordable housing opportunities:
-find a site lead, challenge it, explore conditional scenarios, and assemble an
-evidence pack that another person can reproduce and question. Facts, calculations,
-assumptions, judgments and unknowns should stay distinguishable throughout the
-pipeline. Agents can work with the files and executable checks.
+An open source, modular toolkit for housing practitioners and the agents working
+on their behalf. It brings existing data, housing resources and analytical methods
+into workflows for research, scenario modeling and proposal materials. Sources,
+assumptions and professional judgments stay visible so people can inspect, adapt
+and correct the work.
+
+We are learning the housing process in public. Our contribution is tooling that
+helps people use established resources together; domain experts guide method
+selection and interpretation. Read the [project tenets](docs/tenets.md) and the
+[community-benefit proposal](docs/specs/community-benefit.md) for how we apply that
+approach and what remains to be built and validated.
 
 **Status: early research prototype, open for feedback.** It is ready to share and
 improve in public. It does not establish that a lot is available, a design fits,
@@ -52,7 +58,8 @@ python -m housing_recipe impact --run runs/recipe-base --recipe recipes/area-bud
 The examples reproduce the current area model, insert a reserve step, and replace
 the home-equivalent method. Typed method signatures, dependency checks and
 required review gates provide engineering checks; professional acceptance remains
-pending. The comparison harness and geometry work are deferred.
+pending. The comparison harness remains deferred; the separate exploratory geometry
+module is described below.
 
 ## Ground a scenario in explicit geometry
 
@@ -86,10 +93,15 @@ to reproduce a source-byte-bound run. Collection and modeling are not required.
 
 ## Start here
 
+- [Project tenets](docs/tenets.md): trust domain expertise, reuse established resources,
+  empower practitioners and their agents, and keep the work inspectable.
+- [Community-benefit proposal](docs/specs/community-benefit.md): a bounded plan for
+  applying existing resources to a practitioner-led scenario comparison.
 - [Community-benefit research](research/community-benefit/report.md): agency frameworks,
   housing/transit evidence, candidate metrics and the boundaries between context,
   scenario arithmetic, causal effects and community priorities.
-- [Project proposal](docs/proposal.md): the intended user, probe and open source approach.
+- [Original probe proposal](docs/proposal.md): the initial experiment and open source
+  approach, retained as project history. Current direction is set out above.
 - [425 Grand Concourse calibration](research/grand-concourse-calibration/report.md):
   a real project challenges our zoning, physical and financing assumptions. This is
   an openly known case, not a blind prediction benchmark.

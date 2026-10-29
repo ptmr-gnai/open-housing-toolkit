@@ -295,3 +295,7 @@ The original photo had to be reattached: it was absent from local files and outs
 ## Community-benefit research
 
 An area budget and appealing render do not estimate community benefit. Broad research found existing NYC reporting frameworks, while keeping all nine candidate benefit methods explicitly unimplemented. HPD's live page mixes a 2026 income heading with a 2025 rent heading; preserve table-level vintage. Static transit feeds have date/route/change coverage limits, and historical EPA/LAI estimates are not current parcel observations. Keep neighborhood vulnerability separate from project-caused displacement, zoning permission separate from delivered homes, and a numerical consistency check separate from professional acceptance. Research reference validation checks metadata only.
+
+## Project tenets and community-benefit proposal
+
+The README still described geometry work as deferred after the exploratory geometry slice had shipped. Corrected that status and linked the current tenets and proposal near the entry point; retain the original probe proposal as history. The new proposal explicitly separates established resources, our implementation choices and pending professional validation, so a citation cannot masquerade as expert endorsement.

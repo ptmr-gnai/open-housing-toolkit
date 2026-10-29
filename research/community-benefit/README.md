@@ -21,3 +21,7 @@ reporting structure. Keep descriptive context, conditional program arithmetic,
 behavioral projections, causal evidence, commitments and value judgments distinct.
 No automatic maximal-benefit score is justified. No housing, transit-routing,
 econometric or image-generation model was executed in this research slice.
+
+The subsequent [implementation proposal](../../docs/specs/community-benefit.md)
+turns this research into a bounded plan under the [project tenets](../../docs/tenets.md).
+It remains proposed; the research catalogue is not an implemented benefit engine.
