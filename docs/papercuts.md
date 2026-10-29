@@ -299,3 +299,17 @@ An area budget and appealing render do not estimate community benefit. Broad res
 ## Project tenets and community-benefit proposal
 
 The README still described geometry work as deferred after the exploratory geometry slice had shipped. Corrected that status and linked the current tenets and proposal near the entry point; retain the original probe proposal as history. The new proposal explicitly separates established resources, our implementation choices and pending professional validation, so a citation cannot masquerade as expert endorsement.
+
+## Conditional housing-program comparison
+
+| Papercut | Observed risk or failure | Control and remaining boundary |
+| --- | --- | --- |
+| A sourced income threshold could look like a measured household | Historical AMI row used to define a hypothetical profile | Separate cited table fact from the hypothetical profile assumption and preserve both in the graph. |
+| Affordability shorthand could imply eligibility or a secured benefit | Cost-only test ignores program income caps, selection, availability and delivery | Explicit cost-and-exact-bedroom diagnostic; no eligibility or availability claim, proposed restrictions and unknown delivery throughout. |
+| Live reference tables have different years | HPD live page mixes income/rent vintages | Demo uses coherent historical 2025 RER table excerpts; metadata/request year mismatches block, with no silent inflation override. |
+| Decimal rounding could change a boundary decision | One cent above the profile budget must fail even if a display rounds close to 30% | Decimal strings and exact annual-cost inequality before display rounding; boundary tests pass. |
+| Source byte identity is not offline verification of an external PDF | Full source PDF is not bundled | Preparation checks actual PDF retrieval hash, page/header/columns and selected rows; excerpt and extraction receipt retained. Offline replay scope explicitly stops at those excerpts. |
+| Home-equivalents could be rounded into real homes | Prior area model has a quotient, not a verified unit mix | Explicit integer offer bins required, totals reconciled, unknown fields/fractional/boolean counts rejected. |
+| Changed restriction duration could incorrectly change cost tests | Duration matters without implying fixed rent or achieved household-years | Duration remains an assumption/table dimension; impact marks the row and exports, not unrelated cost counts. |
+| CSV text could be interpreted as a spreadsheet formula | User-supplied rationale may begin with formula syntax | Neutralize such CSV text while preserving original typed IR and full source references. |
+| Old research status could misdescribe the new capability | Research catalogue intentionally records unimplemented candidates | Add current module links and exact implemented-scope status; preserve the original research snapshot. |

@@ -1,0 +1,195 @@
+claim_id,kind,value,unit,method,inputs,rationale,references
+site.bbl,fact,2028710002,status,,,,"[
+  {
+    ""file"": ""analysis-run/ir.json"",
+    ""pointer"": ""/resolved_bbl"",
+    ""sha256"": ""95d339d015994ab13b1b723f6e36ababccb0c83d1c5826e87c5ddd1784d8bee9""
+  }
+]"
+reference.ami30_income_one,fact,34000.00,USD per year,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""30% AMI $34,000 $48,600 $850 $1,090"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami30_income_four,fact,48600.00,USD per year,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""30% AMI $34,000 $48,600 $850 $1,090"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami30_rent_studio,fact,850.00,USD per month,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""30% AMI $34,000 $48,600 $850 $1,090"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami30_rent_two,fact,1090.00,USD per month,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""30% AMI $34,000 $48,600 $850 $1,090"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami60_income_one,fact,68000.00,USD per year,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""60% AMI $68,000 $97,200 $1,700 $2,190"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami60_income_four,fact,97200.00,USD per year,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""60% AMI $68,000 $97,200 $1,700 $2,190"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami60_rent_studio,fact,1700.00,USD per month,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""60% AMI $68,000 $97,200 $1,700 $2,190"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+reference.ami60_rent_two,fact,2190.00,USD per month,,,,"[
+  {
+    ""excerpt_file"": ""reference-source/passages.txt"",
+    ""excerpt_sha256"": ""ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4"",
+    ""extraction_method"": ""nyc-rer-table3-selected-rows@1"",
+    ""page"": 6,
+    ""quote"": ""60% AMI $68,000 $97,200 $1,700 $2,190"",
+    ""source_pdf_sha256"": ""d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1"",
+    ""table"": ""3"",
+    ""url"": ""https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a""
+  }
+]"
+policy.cost_threshold_percent,assumption,30.00,percent,,,"Illustrative housing-cost-burden convention, not eligibility or a sufficient measure of household welfare.",[]
+review.no_action,unknown,,status,,,Future no-action development has not been established. Program differences are not net additions or causal benefits.,[]
+review.occupancy,unknown,,status,,,"Existing occupants, businesses, protections and direct losses remain unresolved. Recorded zero homes cannot clear displacement.","[
+  {
+    ""file"": ""analysis-run/ir.json"",
+    ""sha256"": ""95d339d015994ab13b1b723f6e36ababccb0c83d1c5826e87c5ddd1784d8bee9"",
+    ""upstream_claim"": ""unknown.current_use""
+  }
+]"
+review.access,unknown,,status,,,No network-access result imported or calculated in this slice. Station proximity is not job access.,[]
+profile.lower_income.annual_income_usd,assumption,48600.00,USD per year,,reference.ami30_income_four,"Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding.",[]
+profile.lower_income.bedrooms,assumption,2,bedrooms,,,"Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding.",[]
+profile.lower_income.monthly_budget,calculation,1215.00,USD per month,housing.monthly_budget@1,"profile.lower_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+profile.higher_income.annual_income_usd,assumption,97200.00,USD per year,,reference.ami60_income_four,"Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding.",[]
+profile.higher_income.bedrooms,assumption,2,bedrooms,,,"Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding.",[]
+profile.higher_income.monthly_budget,calculation,2430.00,USD per month,housing.monthly_budget@1,"profile.higher_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.declared_homes,assumption,24,homes,,,Sum of explicit illustrative offer bins; not a feasible or approved unit count.,[]
+program.program_a.delivery,unknown,,status,,,"Illustrative program only; no finance, construction or delivery evidence.",[]
+program.program_a.commitment,assumption,proposed,status,,,Only an illustrative proposed offer. No binding legal instrument or achieved affordability certified.,[]
+program.program_a.lower_rent.homes,assumption,16,homes,,,"Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",[]
+program.program_a.lower_rent.monthly_rent_usd,assumption,1000.00,USD per month,,,Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.,[]
+program.program_a.lower_rent.tenant_utilities_usd,assumption,100.00,USD per month,,,"Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",[]
+program.program_a.lower_rent.restriction_years,assumption,60,years,,,"Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",[]
+program.program_a.lower_rent.bedrooms,assumption,2,bedrooms,,,"Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",[]
+program.program_a.lower_rent.gross_monthly_cost,calculation,1100.00,USD per month,housing.gross_monthly_cost@1,"program.program_a.lower_rent.monthly_rent_usd,program.program_a.lower_rent.tenant_utilities_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.annual_cost,calculation,13200.00,USD per year,housing.annualize@1,program.program_a.lower_rent.gross_monthly_cost,Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_lower_income.burden_percent,calculation,27.160494,percent,housing.cost_burden_percent@1,"program.program_a.lower_rent.annual_cost,profile.lower_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_lower_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_a.lower_rent.annual_cost,profile.lower_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_lower_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_a.lower_rent.bedrooms,profile.lower_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_lower_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_a.lower_rent.for_lower_income.cost_test,program.program_a.lower_rent.for_lower_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_higher_income.burden_percent,calculation,13.580247,percent,housing.cost_burden_percent@1,"program.program_a.lower_rent.annual_cost,profile.higher_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_higher_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_a.lower_rent.annual_cost,profile.higher_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_higher_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_a.lower_rent.bedrooms,profile.higher_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.lower_rent.for_higher_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_a.lower_rent.for_higher_income.cost_test,program.program_a.lower_rent.for_higher_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.homes,assumption,8,homes,,,"Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",[]
+program.program_a.higher_rent.monthly_rent_usd,assumption,1800.00,USD per month,,,Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.,[]
+program.program_a.higher_rent.tenant_utilities_usd,assumption,100.00,USD per month,,,"Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",[]
+program.program_a.higher_rent.restriction_years,assumption,30,years,,,"Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",[]
+program.program_a.higher_rent.bedrooms,assumption,2,bedrooms,,,"Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",[]
+program.program_a.higher_rent.gross_monthly_cost,calculation,1900.00,USD per month,housing.gross_monthly_cost@1,"program.program_a.higher_rent.monthly_rent_usd,program.program_a.higher_rent.tenant_utilities_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.annual_cost,calculation,22800.00,USD per year,housing.annualize@1,program.program_a.higher_rent.gross_monthly_cost,Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_lower_income.burden_percent,calculation,46.913580,percent,housing.cost_burden_percent@1,"program.program_a.higher_rent.annual_cost,profile.lower_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_lower_income.cost_test,calculation,False,boolean,housing.within_threshold@1,"program.program_a.higher_rent.annual_cost,profile.lower_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_lower_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_a.higher_rent.bedrooms,profile.lower_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_lower_income.cost_and_bedroom_test,calculation,False,boolean,housing.cost_and_bedroom_match@1,"program.program_a.higher_rent.for_lower_income.cost_test,program.program_a.higher_rent.for_lower_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_higher_income.burden_percent,calculation,23.456790,percent,housing.cost_burden_percent@1,"program.program_a.higher_rent.annual_cost,profile.higher_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_higher_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_a.higher_rent.annual_cost,profile.higher_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_higher_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_a.higher_rent.bedrooms,profile.higher_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.higher_rent.for_higher_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_a.higher_rent.for_higher_income.cost_test,program.program_a.higher_rent.for_higher_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.sum_homes,calculation,24,homes,housing.sum_homes@1,"program.program_a.lower_rent.homes,program.program_a.higher_rent.homes",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.for_lower_income.cost_test_homes,calculation,16,homes,housing.selected_homes@1,"program.program_a.lower_rent.homes,program.program_a.lower_rent.for_lower_income.cost_and_bedroom_test,program.program_a.higher_rent.homes,program.program_a.higher_rent.for_lower_income.cost_and_bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_a.for_higher_income.cost_test_homes,calculation,24,homes,housing.selected_homes@1,"program.program_a.lower_rent.homes,program.program_a.lower_rent.for_higher_income.cost_and_bedroom_test,program.program_a.higher_rent.homes,program.program_a.higher_rent.for_higher_income.cost_and_bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.declared_homes,assumption,36,homes,,,Sum of explicit illustrative offer bins; not a feasible or approved unit count.,[]
+program.program_b.delivery,unknown,,status,,,"Illustrative program only; no finance, construction or delivery evidence.",[]
+program.program_b.commitment,assumption,proposed,status,,,Only an illustrative proposed offer. No binding legal instrument or achieved affordability certified.,[]
+program.program_b.lower_rent.homes,assumption,8,homes,,,"Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",[]
+program.program_b.lower_rent.monthly_rent_usd,assumption,1000.00,USD per month,,,Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.,[]
+program.program_b.lower_rent.tenant_utilities_usd,assumption,100.00,USD per month,,,"Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",[]
+program.program_b.lower_rent.restriction_years,assumption,30,years,,,"Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",[]
+program.program_b.lower_rent.bedrooms,assumption,2,bedrooms,,,"Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",[]
+program.program_b.lower_rent.gross_monthly_cost,calculation,1100.00,USD per month,housing.gross_monthly_cost@1,"program.program_b.lower_rent.monthly_rent_usd,program.program_b.lower_rent.tenant_utilities_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.annual_cost,calculation,13200.00,USD per year,housing.annualize@1,program.program_b.lower_rent.gross_monthly_cost,Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_lower_income.burden_percent,calculation,27.160494,percent,housing.cost_burden_percent@1,"program.program_b.lower_rent.annual_cost,profile.lower_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_lower_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_b.lower_rent.annual_cost,profile.lower_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_lower_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_b.lower_rent.bedrooms,profile.lower_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_lower_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_b.lower_rent.for_lower_income.cost_test,program.program_b.lower_rent.for_lower_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_higher_income.burden_percent,calculation,13.580247,percent,housing.cost_burden_percent@1,"program.program_b.lower_rent.annual_cost,profile.higher_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_higher_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_b.lower_rent.annual_cost,profile.higher_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_higher_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_b.lower_rent.bedrooms,profile.higher_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.lower_rent.for_higher_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_b.lower_rent.for_higher_income.cost_test,program.program_b.lower_rent.for_higher_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.homes,assumption,28,homes,,,"Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",[]
+program.program_b.higher_rent.monthly_rent_usd,assumption,1800.00,USD per month,,,Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.,[]
+program.program_b.higher_rent.tenant_utilities_usd,assumption,100.00,USD per month,,,"Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",[]
+program.program_b.higher_rent.restriction_years,assumption,30,years,,,"Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",[]
+program.program_b.higher_rent.bedrooms,assumption,2,bedrooms,,,"Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",[]
+program.program_b.higher_rent.gross_monthly_cost,calculation,1900.00,USD per month,housing.gross_monthly_cost@1,"program.program_b.higher_rent.monthly_rent_usd,program.program_b.higher_rent.tenant_utilities_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.annual_cost,calculation,22800.00,USD per year,housing.annualize@1,program.program_b.higher_rent.gross_monthly_cost,Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_lower_income.burden_percent,calculation,46.913580,percent,housing.cost_burden_percent@1,"program.program_b.higher_rent.annual_cost,profile.lower_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_lower_income.cost_test,calculation,False,boolean,housing.within_threshold@1,"program.program_b.higher_rent.annual_cost,profile.lower_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_lower_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_b.higher_rent.bedrooms,profile.lower_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_lower_income.cost_and_bedroom_test,calculation,False,boolean,housing.cost_and_bedroom_match@1,"program.program_b.higher_rent.for_lower_income.cost_test,program.program_b.higher_rent.for_lower_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_higher_income.burden_percent,calculation,23.456790,percent,housing.cost_burden_percent@1,"program.program_b.higher_rent.annual_cost,profile.higher_income.annual_income_usd",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_higher_income.cost_test,calculation,True,boolean,housing.within_threshold@1,"program.program_b.higher_rent.annual_cost,profile.higher_income.annual_income_usd,policy.cost_threshold_percent",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_higher_income.bedroom_test,calculation,True,boolean,housing.bedroom_match@1,"program.program_b.higher_rent.bedrooms,profile.higher_income.bedrooms",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.higher_rent.for_higher_income.cost_and_bedroom_test,calculation,True,boolean,housing.cost_and_bedroom_match@1,"program.program_b.higher_rent.for_higher_income.cost_test,program.program_b.higher_rent.for_higher_income.bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.sum_homes,calculation,36,homes,housing.sum_homes@1,"program.program_b.lower_rent.homes,program.program_b.higher_rent.homes",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.for_lower_income.cost_test_homes,calculation,8,homes,housing.selected_homes@1,"program.program_b.lower_rent.homes,program.program_b.lower_rent.for_lower_income.cost_and_bedroom_test,program.program_b.higher_rent.homes,program.program_b.higher_rent.for_lower_income.cost_and_bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+program.program_b.for_higher_income.cost_test_homes,calculation,36,homes,housing.selected_homes@1,"program.program_b.lower_rent.homes,program.program_b.lower_rent.for_higher_income.cost_and_bedroom_test,program.program_b.higher_rent.homes,program.program_b.higher_rent.for_higher_income.cost_and_bedroom_test",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+comparison.total_homes_difference,calculation,12,homes,housing.difference@1,"program.program_b.declared_homes,program.program_a.declared_homes",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+comparison.for_lower_income.cost_test_homes_difference,calculation,-8,homes,housing.difference@1,"program.program_b.for_lower_income.cost_test_homes,program.program_a.for_lower_income.cost_test_homes",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]
+comparison.for_higher_income.cost_test_homes_difference,calculation,12,homes,housing.difference@1,"program.program_b.for_higher_income.cost_test_homes,program.program_a.for_higher_income.cost_test_homes",Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.,[]

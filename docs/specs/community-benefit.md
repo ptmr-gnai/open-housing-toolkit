@@ -1,8 +1,11 @@
 # Proposal: practitioner-led housing and community-benefit comparison
 
-Status: proposed, 29 October 2026. No community-benefit model has been implemented
-or professionally validated. This proposal follows the [project tenets](../tenets.md)
-and the [community-benefit research](../../research/community-benefit/report.md).
+Status: broader proposal, 29 October 2026. A first bounded
+[conditional housing-cost comparison](../../housing_benefit/README.md) is now
+implemented with illustrative programs. It does not establish eligibility, delivery
+or causal community benefit. The broader scope below remains proposed and
+professional validation remains pending. This proposal follows the
+[project tenets](../tenets.md) and [research](../../research/community-benefit/report.md).
 
 ## Purpose and public description
 
@@ -137,7 +140,8 @@ convert an assumption into an observed fact.
 - Source, method, assumption and output bindings that identify what becomes stale
   when an input changes.
 
-These are proposed deliverables. This document adds no new executable commands.
+These describe the broader proposed outputs. The implemented subset and its commands
+are documented in the module guide linked above.
 
 ## Contracts, modularity and provenance
 
@@ -165,7 +169,9 @@ arithmetic signature. Its applicability, evidence and validation need their own 
 
 ## Acceptance experiments
 
-These checks are proposed; they have not been executed for a benefit module.
+The implemented housing-cost subset now exercises relevant checks below in its test
+suite; broader contextual inputs, binding commitments and professional acceptance
+remain pending. Consult the module guide for the exact supported scope.
 
 | Experiment | Expected behavior |
 | --- | --- |

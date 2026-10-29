@@ -19,6 +19,7 @@ VALIDATORS = [
     'research/grand-concourse-calibration/validate.py',
 ]
 TEST_DIRS = [
+    'housing_benefit/tests',
     'housing_geometry/tests',
     'housing_recipe/tests',
     'housing_render/tests',

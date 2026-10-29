@@ -61,6 +61,24 @@ required review gates provide engineering checks; professional acceptance remain
 pending. The comparison harness remains deferred; the separate exploratory geometry
 module is described below.
 
+## Compare explicit housing programs
+
+The first [conditional housing-cost module](housing_benefit/README.md) compares two
+illustrative rental offers for hypothetical households, with strict money/unit types,
+versioned methods, source-pinned historical references and a reviewable claim graph:
+
+```sh
+python -m housing_benefit demo --out runs/affordability-demo
+```
+
+[Base packet](examples/affordability-comparison/packet.md) ·
+[Utility sensitivity](examples/affordability-utilities/packet.md) ·
+[Agent skill](skills/compare-housing-programs/SKILL.md).
+The larger offer has more homes but fewer that meet the lower-income profile's
+cost-and-bedroom test. Eligibility, delivery, occupancy and the no-action baseline
+are not determined; no winner or causal benefit estimate is produced. This is a
+bounded implementation under the broader [community-benefit proposal](docs/specs/community-benefit.md).
+
 ## Ground a scenario in explicit geometry
 
 The [geometry specification](docs/specs/geometry-grounding.md) maps the evidence,

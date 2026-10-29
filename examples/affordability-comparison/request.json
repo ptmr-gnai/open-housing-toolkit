@@ -1,0 +1,154 @@
+{
+  "basis": "illustrative_program_comparison",
+  "cost_threshold_percent": {
+    "rationale": "Illustrative housing-cost-burden convention, not eligibility or a sufficient measure of household welfare.",
+    "value": "30.00"
+  },
+  "id": "illustrative_affordability_tradeoff",
+  "no_action": {
+    "rationale": "Future no-action development has not been established. Program differences are not net additions or causal benefits.",
+    "status": "unknown"
+  },
+  "objective": {
+    "author": "Open Housing Toolkit demonstration; unreviewed",
+    "text": "Expose total-home, household-cost and proposed-duration tradeoffs. No community preference or optimal project is inferred."
+  },
+  "occupancy": {
+    "rationale": "Existing occupants, businesses, protections and direct losses remain unresolved. Recorded zero homes cannot clear displacement.",
+    "status": "unknown"
+  },
+  "price_year": 2025,
+  "profiles": [
+    {
+      "bedrooms": 2,
+      "household_size": 4,
+      "id": "lower_income",
+      "income_reference_id": "ami30_income_four",
+      "label": "Hypothetical four-person household at 30% AMI reference",
+      "rationale": "Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding."
+    },
+    {
+      "bedrooms": 2,
+      "household_size": 4,
+      "id": "higher_income",
+      "income_reference_id": "ami60_income_four",
+      "label": "Hypothetical four-person household at 60% AMI reference",
+      "rationale": "Hypothetical annual income equal to the rounded historical published threshold, not an observed household or eligibility finding."
+    }
+  ],
+  "programs": [
+    {
+      "bins": [
+        {
+          "bedrooms": 2,
+          "homes": {
+            "rationale": "Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",
+            "value": 16
+          },
+          "id": "lower_rent",
+          "monthly_rent_usd": {
+            "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+            "value": "1000.00"
+          },
+          "restriction_years": {
+            "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+            "value": 60
+          },
+          "tenant_utilities_usd": {
+            "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+            "value": "100.00"
+          }
+        },
+        {
+          "bedrooms": 2,
+          "homes": {
+            "rationale": "Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",
+            "value": 8
+          },
+          "id": "higher_rent",
+          "monthly_rent_usd": {
+            "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+            "value": "1800.00"
+          },
+          "restriction_years": {
+            "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+            "value": 30
+          },
+          "tenant_utilities_usd": {
+            "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+            "value": "100.00"
+          }
+        }
+      ],
+      "commitment_status": "proposed",
+      "delivery": {
+        "rationale": "Illustrative program only; no finance, construction or delivery evidence.",
+        "status": "unknown"
+      },
+      "id": "program_a",
+      "label": "Program A — smaller, more lower-rent offers",
+      "total_homes": {
+        "rationale": "Sum of explicit illustrative offer bins; not a feasible or approved unit count.",
+        "value": 24
+      }
+    },
+    {
+      "bins": [
+        {
+          "bedrooms": 2,
+          "homes": {
+            "rationale": "Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",
+            "value": 8
+          },
+          "id": "lower_rent",
+          "monthly_rent_usd": {
+            "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+            "value": "1000.00"
+          },
+          "restriction_years": {
+            "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+            "value": 30
+          },
+          "tenant_utilities_usd": {
+            "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+            "value": "100.00"
+          }
+        },
+        {
+          "bedrooms": 2,
+          "homes": {
+            "rationale": "Illustrative explicit two-bedroom program count, not derived from area or a verified plan.",
+            "value": 28
+          },
+          "id": "higher_rent",
+          "monthly_rent_usd": {
+            "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+            "value": "1800.00"
+          },
+          "restriction_years": {
+            "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+            "value": 30
+          },
+          "tenant_utilities_usd": {
+            "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+            "value": "100.00"
+          }
+        }
+      ],
+      "commitment_status": "proposed",
+      "delivery": {
+        "rationale": "Illustrative program only; no finance, construction or delivery evidence.",
+        "status": "unknown"
+      },
+      "id": "program_b",
+      "label": "Program B — larger, fewer lower-rent offers",
+      "total_homes": {
+        "rationale": "Sum of explicit illustrative offer bins; not a feasible or approved unit count.",
+        "value": 36
+      }
+    }
+  ],
+  "question": "How do these two explicit rental offers differ for the stated hypothetical households, without choosing an overall winner?",
+  "site_bbl": "2028710002",
+  "version": "0.1.0"
+}

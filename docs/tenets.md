@@ -127,8 +127,9 @@ project matures.
 ## How we apply these tenets now
 
 The [community-benefit proposal](specs/community-benefit.md) uses NYC reporting
-resources and published housing/transit work as its foundation. Its benefit methods
-are proposed, not implemented or professionally validated. The current parcel,
+resources and published housing/transit work as its foundation. Its first bounded
+[housing-cost comparison](../housing_benefit/README.md) is implemented with illustrative
+programs; broader benefit methods and professional validation remain pending. The current parcel,
 recipe, geometry and image experiments show our work and its limitations.
 
 These tenets guide implementation choices and review. Changes to them should explain

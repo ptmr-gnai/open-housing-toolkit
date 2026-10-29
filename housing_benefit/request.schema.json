@@ -1,0 +1,343 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "basis": {
+      "const": "illustrative_program_comparison"
+    },
+    "cost_threshold_percent": {
+      "additionalProperties": false,
+      "properties": {
+        "rationale": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "value": {
+          "pattern": "^(0|[1-9][0-9]{0,8})(\\.[0-9]{1,2})?$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9_]{0,47}$",
+      "type": "string"
+    },
+    "no_action": {
+      "additionalProperties": false,
+      "properties": {
+        "rationale": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "const": "unknown"
+        }
+      },
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "objective": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "text"
+      ],
+      "type": "object"
+    },
+    "occupancy": {
+      "additionalProperties": false,
+      "properties": {
+        "rationale": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "const": "unknown"
+        }
+      },
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "price_year": {
+      "maximum": 2200,
+      "minimum": 1900,
+      "type": "integer"
+    },
+    "profiles": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bedrooms": {
+            "maximum": 5,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "household_size": {
+            "maximum": 8,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "income_reference_id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "label": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "rationale": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "household_size",
+          "bedrooms",
+          "income_reference_id",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "maxItems": 10,
+      "minItems": 1,
+      "type": "array"
+    },
+    "programs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bins": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "bedrooms": {
+                  "maximum": 5,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "homes": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "rationale": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "value": {
+                      "maximum": 100000,
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "id": {
+                  "pattern": "^[a-z][a-z0-9_]{0,47}$",
+                  "type": "string"
+                },
+                "monthly_rent_usd": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "rationale": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "value": {
+                      "pattern": "^(0|[1-9][0-9]{0,8})(\\.[0-9]{1,2})?$",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "restriction_years": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "rationale": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "value": {
+                      "maximum": 999,
+                      "minimum": 1,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "rationale"
+                  ],
+                  "type": "object"
+                },
+                "tenant_utilities_usd": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "rationale": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "value": {
+                      "pattern": "^(0|[1-9][0-9]{0,8})(\\.[0-9]{1,2})?$",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "rationale"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "bedrooms",
+                "homes",
+                "monthly_rent_usd",
+                "tenant_utilities_usd",
+                "restriction_years"
+              ],
+              "type": "object"
+            },
+            "maxItems": 30,
+            "minItems": 1,
+            "type": "array"
+          },
+          "commitment_status": {
+            "const": "proposed"
+          },
+          "delivery": {
+            "additionalProperties": false,
+            "properties": {
+              "rationale": {
+                "maxLength": 4000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "status": {
+                "const": "unknown"
+              }
+            },
+            "required": [
+              "status",
+              "rationale"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "label": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "total_homes": {
+            "additionalProperties": false,
+            "properties": {
+              "rationale": {
+                "maxLength": 4000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "maximum": 100000,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "value",
+              "rationale"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "total_homes",
+          "delivery",
+          "commitment_status",
+          "bins"
+        ],
+        "type": "object"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "question": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "site_bbl": {
+      "pattern": "^2[0-9]{9}$",
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "site_bbl",
+    "question",
+    "objective",
+    "price_year",
+    "basis",
+    "cost_threshold_percent",
+    "profiles",
+    "programs",
+    "no_action",
+    "occupancy"
+  ],
+  "title": "Housing-program comparison request 0.1.0; runtime additionally checks sums, IDs, reference compatibility and threshold range",
+  "type": "object"
+}
