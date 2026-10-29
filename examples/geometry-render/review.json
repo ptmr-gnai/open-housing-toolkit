@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "id": "floor_count",
+      "note": "One taller glazed ground floor and five upper window bands visible; caption not used as sole evidence.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "footprint_changes",
+      "note": "Larger ground plate and upper-floor recess ledges visible. Exact 5-ft distances unverified.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "camera_and_placement",
+      "note": "Axonometric view and placement within elongated parcel resemble source. No camera registration or projected-scale measurement; proportional drift possible.",
+      "status": "broadly_similar_by_inspection"
+    },
+    {
+      "id": "parcel_boundary_fidelity",
+      "note": "Parcel outline is generatively redrawn; no vertex registration or metric fidelity test.",
+      "status": "not_verified"
+    },
+    {
+      "id": "width_depth_height",
+      "note": "No measurement establishes 75×100 ft, 65×100 ft or 64-ft height in the generated image.",
+      "status": "not_verified"
+    },
+    {
+      "id": "caption_and_context",
+      "note": "Required caveats visible. No invented street, neighbors, tenant names or approval claim observed.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "professional_acceptance",
+      "note": "No professional review, legal envelope or physical/financial feasibility established.",
+      "status": "not_verified"
+    }
+  ],
+  "image_sha256": "1c7260a9435ec21f81d83abf626a4ca98ca3c689684445e7b641e913c80fdd02",
+  "overall": "illustrative_only_not_metric_validation",
+  "reviewer_kind": "assistant_visual_inspection",
+  "version": "0.1.0"
+}

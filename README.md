@@ -65,8 +65,9 @@ analysis. It exports a plan, massing view, OBJ mesh, floor schedule and visual h
 The [worked examples](examples/grounded-massing/README.md) show why a total-area
 match alone is insufficient: one matches 40,000 gross sf but disagrees on program
 allocation. The second changes an explicit use-allocation assumption. Neither
-establishes zoning, layouts, physical fit or financing. No AI image is generated,
-and the current photo renderer does not yet consume this geometry handoff.
+establishes zoning, layouts, physical fit or financing. The geometry engine generates no AI image. A subsequent
+[recorded image-generation experiment](examples/geometry-render/README.md) uses its
+rasterized views; the existing photo renderer still does not consume this handoff.
 
 ## Use the rendering module independently
 

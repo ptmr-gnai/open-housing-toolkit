@@ -1,0 +1,17 @@
+{
+  "brief_sha256": "304e78fa16318d38605a6f544aa9530de35647d035e83fa956a6372073b3e5f5",
+  "executed_at": "2026-10-29T20:53:01.761569+00:00",
+  "execution_attestation": "Agent-recorded tool invocation, not provider-signed proof.",
+  "output_file": "render.png",
+  "output_sha256": "1c7260a9435ec21f81d83abf626a4ca98ca3c689684445e7b641e913c80fdd02",
+  "parameters": {
+    "referenced_image_paths": [
+      "massing-reference.png",
+      "plan-reference.png"
+    ],
+    "transparent_background": false
+  },
+  "prompt_sha256": "57e8283852983e656480d855a92c7371d880d9326334084ef7f66abc4f46e058",
+  "provider": "image_gen.imagegen",
+  "reference_delivery": "Two local raster views of the verified geometry; no conversation image history, original photo or prior AI concepts included."
+}

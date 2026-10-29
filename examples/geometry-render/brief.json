@@ -1,0 +1,38 @@
+{
+  "limitations": [
+    "Image provider receives raster views, not OBJ or enforceable geometric constraints.",
+    "No original Street View image or previous AI concept supplied.",
+    "Visual review cannot certify metric fidelity, zoning or physical feasibility."
+  ],
+  "module": "geometry-reference-image-experiment",
+  "new_design_assumptions": [
+    "buff brick facades",
+    "dark-framed regular windows",
+    "glazed ground floor",
+    "soft daylight materials"
+  ],
+  "prompt_sha256": "57e8283852983e656480d855a92c7371d880d9326334084ef7f66abc4f46e058",
+  "rasterization": {
+    "operation": "SVG to PNG; no scene modifications",
+    "sources": [
+      "massing.svg",
+      "plan.svg"
+    ],
+    "tool": "CairoSVG",
+    "version": "2.8.2"
+  },
+  "references": {
+    "massing-reference.png": "0087b6274262d82c6f9229ce1fdb0483db0834b07b42d00098b02c02ec73b791",
+    "plan-reference.png": "9ba90066d20305fb31be1667ba487747f0b391bc4d7d4e324e5be1282b1b03ab"
+  },
+  "source_bindings": {
+    "geometry.json": "15af2c9ce7629d0b6fe517b4ce2c3763c5b35c9788afbf96a92abd173771edc5",
+    "manifest.json": "f2bac714d007199b7b9cab261093390d505f00ad6f059b0e51b4fd8c338c4818",
+    "massing.obj": "49d034a84f4d8a7cae1cf4bc532db26ded6cc91ab0303cc60d4af09a18a3d6db",
+    "massing.svg": "d0ad8fab8ea1f884d66cf1e1e12316c47811a0ca4e624059504e2701ea5f3b81",
+    "plan.svg": "42438b921121fae0b91b024e7e0071e8cffa9fb6824ce54627981931dc1f5a44",
+    "visual-handoff.json": "6b5c0c1cd0b651c9f99e25273330bd0775e2903871a2611a3300a9bec93b6714"
+  },
+  "source_run": "examples/grounded-massing/allocation-sensitivity",
+  "version": "0.1.0"
+}

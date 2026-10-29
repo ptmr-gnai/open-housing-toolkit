@@ -5,6 +5,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 VALIDATORS = [
+    'examples/geometry-render/verify.py',
     'research/source-audit/validate.py',
     'research/jerome-brief/validate.py',
     'research/benchmark-case-search/validate_inputs.py',

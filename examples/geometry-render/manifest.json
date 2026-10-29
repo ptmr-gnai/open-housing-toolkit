@@ -1,0 +1,15 @@
+{
+  "files": {
+    "README.md": "f07ba00f65a34542b9e68b28bdf9b78fb47757c429b5d96ca4efd4c729e17250",
+    "brief.json": "304e78fa16318d38605a6f544aa9530de35647d035e83fa956a6372073b3e5f5",
+    "invocation.json": "ea944519fd2a643413195bc1ef4ab291d46ac89b43c96a3309cc1d2aee61c589",
+    "massing-reference.png": "0087b6274262d82c6f9229ce1fdb0483db0834b07b42d00098b02c02ec73b791",
+    "plan-reference.png": "9ba90066d20305fb31be1667ba487747f0b391bc4d7d4e324e5be1282b1b03ab",
+    "prompt.txt": "57e8283852983e656480d855a92c7371d880d9326334084ef7f66abc4f46e058",
+    "render.png": "1c7260a9435ec21f81d83abf626a4ca98ca3c689684445e7b641e913c80fdd02",
+    "review.json": "f2ab0b30b3bbf682cddacac6f65b6645dfff5d476f94a21da1e86230e3b707fd",
+    "verify.py": "daff92d8ddb09e58733df93c88605836a08045142b9cc016dd5db48dce10f0a7"
+  },
+  "module": "geometry-reference-image-experiment",
+  "version": "0.1.0"
+}

@@ -283,3 +283,7 @@ backtest, private underwriting reconstruction or practitioner acceptance occurre
 | A context-free building could look site-registered | New massing uses an arbitrary schematic camera and assumed placement near parcel centroid | Mark absent context, assumed flat datum and no photo registration. Original source photo is not used or copied. |
 
 Raw ArcGIS layer metadata contains CRLF and trailing spaces. Preserve those source bytes with targeted Git attributes rather than normalizing away receipt hashes; authored code and exports remain subject to whitespace checks.
+
+## Geometry-reference image experiment
+
+ImageMagick SVG conversion failed because its rsvg-convert delegate was unavailable. Switched to CairoSVG 2.8.2 and preserved the original SVGs, rasterized references and hashes. Actual image generation received the two local views only. Visual review records visible floor bands and recess ledges separately from unverified dimensions, projected proportions, camera registration and parcel-vertex fidelity. This is a recorded bridge experiment, not a general rendering adapter.

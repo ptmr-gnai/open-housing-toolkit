@@ -38,3 +38,5 @@ No survey, legal envelope, existing surroundings, photo camera, layouts, structu
 fit, financing or professional acceptance is established. The current photo renderer
 cannot consume this handoff yet. A diagnostic view remains available even when the
 positive handoff is blocked.
+
+A subsequent [actual image-generation experiment](../geometry-render/README.md) used rasterized views of the allocation-sensitivity run, with saved prompt, output and a limited visual review. The original geometry packets remain unchanged.
