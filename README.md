@@ -54,6 +54,20 @@ the home-equivalent method. Typed method signatures, dependency checks and
 required review gates provide engineering checks; professional acceptance remains
 pending. The comparison harness and geometry work are deferred.
 
+## Ground a scenario in explicit geometry
+
+The [geometry specification](docs/specs/geometry-grounding.md) maps the evidence,
+assumptions and professional interpretation needed to connect a real site to a
+visual asset. The first [geometry module](housing_geometry/README.md) builds an
+assumed massing on a sourced parcel polygon and checks its areas against a verified
+analysis. It exports a plan, massing view, OBJ mesh, floor schedule and visual handoff.
+
+The [worked examples](examples/grounded-massing/README.md) show why a total-area
+match alone is insufficient: one matches 40,000 gross sf but disagrees on program
+allocation. The second changes an explicit use-allocation assumption. Neither
+establishes zoning, layouts, physical fit or financing. No AI image is generated,
+and the current photo renderer does not yet consume this geometry handoff.
+
 ## Use the rendering module independently
 
 Bring a photo and an explicit visual scenario, with an optional analysis IR:

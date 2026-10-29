@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="820" viewBox="0 0 700 820">
+<rect width="700" height="820" fill="#f5f4ef"/>
+<text x="30" y="35" font-size="22" font-family="sans-serif">Schematic axonometric — arbitrary camera</text>
+<text x="30" y="65" font-size="15" font-family="sans-serif">BBL 2028710002 · assumed replacement massing</text>
+<polygon points="275.312,312.209 250.618,327.373 230.058,340.859 226.258,343.694 210.428,355.504 191.900,370.440 175.182,385.348 157.441,401.971 139.344,419.794 129.244,431.058 121.338,440.548 119.517,442.748 111.712,452.725 104.574,462.409 99.973,469.466 97.848,472.814 55.000,540.707 277.002,577.357 645.000,105.825 621.290,100.000 275.312,312.209" fill="#e0e7da" stroke="#536448" stroke-width="2"/>
+<path d="M 338.220,304.485 L 225.798,368.968 L 231.419,372.192 L 343.841,307.709 L 338.220,304.485 Z" fill="#d89165" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_1 exposed roof</title></path>
+<path d="M 422.537,371.080 L 310.114,435.563 L 310.114,417.330 L 422.537,352.847 Z" fill="#d89165" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_1</title></path>
+<path d="M 343.841,242.591 L 416.915,284.505 L 304.493,348.988 L 231.419,307.074 L 343.841,242.591 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_6 exposed roof</title></path>
+<path d="M 416.915,349.623 L 304.493,414.106 L 304.493,401.082 L 416.915,336.599 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_2</title></path>
+<path d="M 310.114,435.563 L 225.798,387.201 L 225.798,368.968 L 310.114,417.330 Z" fill="#d89165" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_1</title></path>
+<path d="M 310.114,417.330 L 422.537,352.847 L 416.915,349.623 L 304.493,414.106 L 310.114,417.330 Z" fill="#d89165" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_1 exposed roof</title></path>
+<path d="M 416.915,336.599 L 304.493,401.082 L 304.493,388.059 L 416.915,323.576 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_3</title></path>
+<path d="M 304.493,414.106 L 231.419,372.192 L 231.419,359.168 L 304.493,401.082 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_2</title></path>
+<path d="M 416.915,323.576 L 304.493,388.059 L 304.493,375.035 L 416.915,310.552 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_4</title></path>
+<path d="M 304.493,401.082 L 231.419,359.168 L 231.419,346.145 L 304.493,388.059 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_3</title></path>
+<path d="M 416.915,310.552 L 304.493,375.035 L 304.493,362.011 L 416.915,297.529 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_5</title></path>
+<path d="M 304.493,388.059 L 231.419,346.145 L 231.419,333.121 L 304.493,375.035 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_4</title></path>
+<path d="M 416.915,297.529 L 304.493,362.011 L 304.493,348.988 L 416.915,284.505 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_6</title></path>
+<path d="M 304.493,375.035 L 231.419,333.121 L 231.419,320.097 L 304.493,362.011 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_5</title></path>
+<path d="M 304.493,362.011 L 231.419,320.097 L 231.419,307.074 L 304.493,348.988 Z" fill="#8db1cb" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_6</title></path>
+<text x="30" y="775" font-size="14" font-family="sans-serif">Not photo-aligned · terrain and neighbors absent</text>
+<text x="30" y="804" font-size="14" font-family="sans-serif">Exploratory assumptions · zoning and building fit unverified</text></svg>

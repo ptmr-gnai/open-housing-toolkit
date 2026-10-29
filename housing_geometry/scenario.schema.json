@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "floors": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "footprint": {
+            "additionalProperties": false,
+            "properties": {
+              "rationale": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "vertices_ft": {
+                "items": {
+                  "items": {
+                    "type": "number"
+                  },
+                  "maxItems": 2,
+                  "minItems": 2,
+                  "type": "array"
+                },
+                "maxItems": 2000,
+                "minItems": 4,
+                "type": "array"
+              }
+            },
+            "required": [
+              "vertices_ft",
+              "rationale"
+            ],
+            "type": "object"
+          },
+          "height_ft": {
+            "additionalProperties": false,
+            "properties": {
+              "rationale": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "maximum": 30,
+                "minimum": 5,
+                "type": "number"
+              }
+            },
+            "required": [
+              "value",
+              "rationale"
+            ],
+            "type": "object"
+          },
+          "id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "nonresidential_share": {
+            "additionalProperties": false,
+            "properties": {
+              "rationale": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "value": {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              }
+            },
+            "required": [
+              "value",
+              "rationale"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "footprint",
+          "height_ft",
+          "nonresidential_share"
+        ],
+        "type": "object"
+      },
+      "maxItems": 30,
+      "minItems": 1,
+      "type": "array"
+    },
+    "id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "origin": {
+      "const": "exploratory_assumptions"
+    },
+    "parcel_geometry_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "purpose": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reconciliation": {
+      "additionalProperties": false,
+      "properties": {
+        "absolute_tolerance_sf": {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        "rationale": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "absolute_tolerance_sf",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "site_bbl": {
+      "pattern": "^2[0-9]{9}$",
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "site_bbl",
+    "parcel_geometry_sha256",
+    "origin",
+    "purpose",
+    "floors",
+    "reconciliation"
+  ],
+  "title": "Exploratory geometry scenario 0.1.0; spatial and provenance constraints additionally require runtime validation",
+  "type": "object"
+}

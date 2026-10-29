@@ -1,0 +1,4 @@
+# Preserve geometry source snapshots byte-for-byte, including upstream CRLF.
+**/parcel-source/*.json -text
+# ArcGIS pretty metadata includes trailing spaces; retain raw bytes, not a text diff.
+**/parcel-source/layer.json -diff

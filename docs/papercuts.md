@@ -267,3 +267,19 @@ backtest, private underwriting reconstruction or practitioner acceptance occurre
 | Parameter edits can leave attractive stale packets | Recipe may be edited without regeneration | Completed run hashes and full recomputation reject stale outputs; impact command previews dependency changes. No automatic file watcher or incremental cache is claimed. |
 | Relative citations break when the new packet moves outside its source package | Original renderer expects sources/ next to packet | Retain full original evidence-run and duplicate exact source bytes next to the new packet; verifier checks both. This costs disk space. |
 | Known passing calculations could be mistaken for agency validation | Recipe tests reproduce existing area arithmetic | Numerical thin slice only. Practitioner acceptance, complete process coverage and geometry are still unverified. Comparison harness and geometry work explicitly deferred. |
+
+## First geometry grounding slice, 29 October 2026
+
+| Papercut | Observed failure or cost | Control and remaining boundary |
+| --- | --- | --- |
+| An official-looking endpoint may be stale | Gazetteer MapPLUTO metadata describes 2018 source inputs | Chose DCP_GIS feature service with returned 26v2 feature and retained layer/item metadata. Equal release labels still do not certify full snapshot equivalence. |
+| Geometry and recorded lot area disagree | Polygon computes about 59,891.25 sf; record says 59,050 sf | Preserve both and the 841.25-sf difference as unreconciled observations. No fabricated correction or precision claim. |
+| Planar feet have different definitions | EPSG:2263 uses US survey feet; scenario dimensions use international feet | Explicit reversible transform, raw CRS check and recorded scale factor; never treat geographic degrees as feet. |
+| Total-area agreement can hide program mismatch | Six-floor 40,000-sf example has 7,500 nonresidential sf versus modeled 6,000 | Separate total and program-allocation comparisons; mismatch blocks a positive visual handoff. |
+| Tuning a demo could masquerade as validation | Dimensions and alternate allocation were selected algebraically to match the area budget | Mark both as constructed consistency experiments, not independent design derivation or professional acceptance. |
+| General polygon handling is easy to fake | Dropping extra rings would erase holes/multipart features; arbitrary fan triangulation fails for concave plates | Established Shapely validity/containment operations; unsupported parcel forms and nonconvex floor plates block. |
+| Triangle mesh edges distracted from floor shape | First schematic exposed internal face diagonals and floor interfaces | Keep full triangulated interchange mesh but render visible wall quads and exposed roof surfaces for the schematic. Mesh volume checked independently against floor area × height. |
+| Existing photo renderer cannot consume this geometry | Its contract accepts design assumptions, not a mesh/camera package | Separate versioned handoff explicitly declares incompatibility; no claim of geometry-conditioned image generation yet. |
+| A context-free building could look site-registered | New massing uses an arbitrary schematic camera and assumed placement near parcel centroid | Mark absent context, assumed flat datum and no photo registration. Original source photo is not used or copied. |
+
+Raw ArcGIS layer metadata contains CRLF and trailing spaces. Preserve those source bytes with targeted Git attributes rather than normalizing away receipt hashes; authored code and exports remain subject to whitespace checks.

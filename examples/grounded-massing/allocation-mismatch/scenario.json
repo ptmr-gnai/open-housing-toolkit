@@ -1,0 +1,230 @@
+{
+  "floors": [
+    {
+      "footprint": {
+        "rationale": "Exploratory 75 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            46.8,
+            304.62
+          ],
+          [
+            121.8,
+            304.62
+          ],
+          [
+            121.8,
+            404.62
+          ],
+          [
+            46.8,
+            404.62
+          ],
+          [
+            46.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 14
+      },
+      "id": "floor_1",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Exploratory 65 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            51.8,
+            304.62
+          ],
+          [
+            116.8,
+            304.62
+          ],
+          [
+            116.8,
+            404.62
+          ],
+          [
+            51.8,
+            404.62
+          ],
+          [
+            51.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 10
+      },
+      "id": "floor_2",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 0
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Exploratory 65 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            51.8,
+            304.62
+          ],
+          [
+            116.8,
+            304.62
+          ],
+          [
+            116.8,
+            404.62
+          ],
+          [
+            51.8,
+            404.62
+          ],
+          [
+            51.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 10
+      },
+      "id": "floor_3",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 0
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Exploratory 65 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            51.8,
+            304.62
+          ],
+          [
+            116.8,
+            304.62
+          ],
+          [
+            116.8,
+            404.62
+          ],
+          [
+            51.8,
+            404.62
+          ],
+          [
+            51.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 10
+      },
+      "id": "floor_4",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 0
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Exploratory 65 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            51.8,
+            304.62
+          ],
+          [
+            116.8,
+            304.62
+          ],
+          [
+            116.8,
+            404.62
+          ],
+          [
+            51.8,
+            404.62
+          ],
+          [
+            51.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 10
+      },
+      "id": "floor_5",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 0
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Exploratory 65 × 100-ft rectangular plate. Located near mapped parcel centroid by author choice; upper floors assume 5-ft east/west recesses. Not street-front setbacks or code-derived dimensions.",
+        "vertices_ft": [
+          [
+            51.8,
+            304.62
+          ],
+          [
+            116.8,
+            304.62
+          ],
+          [
+            116.8,
+            404.62
+          ],
+          [
+            51.8,
+            404.62
+          ],
+          [
+            51.8,
+            304.62
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Assumed floor-to-floor height for a schematic replacement volume; not from a survey or approved design.",
+        "value": 10
+      },
+      "id": "floor_6",
+      "nonresidential_share": {
+        "rationale": "Exploratory all-nonresidential ground floor and residential upper floors. Fractional use labels are not layouts or egress plans.",
+        "value": 0
+      }
+    }
+  ],
+  "id": "six-floors-all-nonresidential-ground",
+  "origin": "exploratory_assumptions",
+  "parcel_geometry_sha256": "656f01a48294614819ac6f1983f8bbfd6872c671870c336aab7b5b4ce052ffa1",
+  "purpose": "Construct a gross-area consistency example while exposing a program-allocation mismatch; not an independently derived feasible design.",
+  "reconciliation": {
+    "absolute_tolerance_sf": 1,
+    "rationale": "Author-selected numerical tolerance for gross polygon-area proxy comparison. Not a professional acceptance threshold."
+  },
+  "site_bbl": "2028710002",
+  "version": "0.1.0"
+}

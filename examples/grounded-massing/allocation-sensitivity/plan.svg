@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="820" viewBox="0 0 700 820">
+<rect width="700" height="820" fill="#f5f4ef"/>
+<text x="30" y="35" font-size="22" font-family="sans-serif">Site plan — north up</text>
+<text x="30" y="65" font-size="15" font-family="sans-serif">BBL 2028710002 · assumed replacement massing</text>
+<polygon points="66.036,384.518 66.838,361.004 68.195,340.736 68.721,336.716 70.910,319.967 74.364,299.471 78.629,279.830 83.798,258.344 89.765,235.732 94.152,222.056 98.125,210.811 99.052,208.210 103.461,196.621 107.943,185.574 111.485,177.801 113.193,174.139 147.922,100.000 279.400,172.709 70.574,720.000 55.000,713.767 66.036,384.518" fill="#e0e7da" stroke="#536448" stroke-width="2"/>
+<path d="M 103.391,405.022 L 180.942,405.022 L 180.942,301.622 L 103.391,301.622 L 103.391,405.022 Z" fill="#c66c39" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_1</title></path>
+<path d="M 108.561,405.022 L 175.772,405.022 L 175.772,301.622 L 108.561,301.622 L 108.561,405.022 Z" fill="#568cb3" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_2</title></path>
+<path d="M 108.561,405.022 L 175.772,405.022 L 175.772,301.622 L 108.561,301.622 L 108.561,405.022 Z" fill="#568cb3" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_3</title></path>
+<path d="M 108.561,405.022 L 175.772,405.022 L 175.772,301.622 L 108.561,301.622 L 108.561,405.022 Z" fill="#568cb3" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_4</title></path>
+<path d="M 108.561,405.022 L 175.772,405.022 L 175.772,301.622 L 108.561,301.622 L 108.561,405.022 Z" fill="#568cb3" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_5</title></path>
+<path d="M 108.561,405.022 L 175.772,405.022 L 175.772,301.622 L 108.561,301.622 L 108.561,405.022 Z" fill="#568cb3" fill-rule="evenodd" stroke="#32485a" stroke-width="0.7"><title>floor_6</title></path>
+<path d="M 40 750 h 51.700" stroke="#233542" stroke-width="3"/>
+<text x="40" y="775" font-size="14" font-family="sans-serif">50 international feet · mapped boundary, not a survey</text>
+<text x="30" y="804" font-size="14" font-family="sans-serif">Exploratory assumptions · zoning and building fit unverified</text></svg>

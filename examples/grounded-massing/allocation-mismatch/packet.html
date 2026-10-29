@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grounded exploratory massing</title><style>body{font:17px/1.5 system-ui;max-width:1150px;margin:32px auto;padding:20px;color:#223542}img{width:49%;vertical-align:top}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #ccd3d8;padding:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 system-ui}@media(max-width:700px){img{width:100%}}</style><h1>Grounded exploratory massing: 2028710002</h1><p><strong>blocked_area_mismatch</strong> · assumed design; all professional review gates unknown.</p><table><tr><th>Quantity</th><th>Geometry proxy sf</th><th>Analysis sf</th><th>Difference sf</th><th>Status</th></tr><tr><td>gross</td><td>40000.0</td><td>40000</td><td>0.0</td><td>consistent_within_tolerance</td></tr><tr><td>nonresidential</td><td>7500.0</td><td>6000</td><td>1500.0</td><td>mismatch</td></tr><tr><td>residential</td><td>32500.0</td><td>34000.0</td><td>-1500.0</td><td>mismatch</td></tr></table><img src="plan.svg" alt="Mapped parcel with assumed floor plates"><img src="massing.svg" alt="Schematic assumed building massing"><h2>Evidence, assumptions and limits</h2><pre># Grounded exploratory massing: 2028710002
+
+**blocked_area_mismatch**. Design assumptions, not a zoning envelope or professionally validated design.
+
+## Geometry and analysis agreement
+
+| Quantity | Geometry proxy sf | Analysis sf | Difference sf | Status |
+| --- | --- | --- | --- | --- |
+| gross | 40000.00 | 40000.00 | 0.00 | consistent_within_tolerance |
+| nonresidential | 7500.00 | 6000.00 | 1500.00 | mismatch |
+| residential | 32500.00 | 34000.00 | -1500.00 | mismatch |
+
+## Source and assumptions
+
+Mapped source: NYC DCP MapPLUTO 26v2. BBL matches the verified analysis. Original bytes, exact query, metadata and retrieval receipts are in parcel-source/.
+
+Mapped polygon area: 59891.25 sf. Source recorded lot area: 59050.00 sf. Difference: 841.25 sf; unreconciled observations, not a correction.
+
+Assumed floor count: 6. Assumed total height: 64 international feet. Coordinates and rationales are in scenario.json. No height or footprint was inferred from the source photo.
+
+The 40,000-sf example dimensions were selected to match the area budget algebraically. A match is a consistency test, not independent validation. Gross polygon area and fractional use allocation are simplified proxies, not code-compliant measured areas or architectural layouts.
+
+All review gates remain unknown: zoning, survey, access_egress_layout, structural_geotechnical, finance, existing_context, photo_camera, professional_review.
+
+## Inspect the outputs
+
+![Mapped parcel and assumed plates](plan.svg)
+
+![Schematic massing](massing.svg)
+
+[Floor schedule](floor-schedule.csv) · [Geometry IR](geometry.json) · [Mesh](massing.obj) · [Visual handoff](visual-handoff.json)
+
+analysis-run/ retains the complete original verified analysis. This geometry module has not changed its assumptions, calculated homes or review gates. No photorealistic image was generated.
+</pre><p><a href="geometry.json">Geometry IR</a> · <a href="massing.obj">OBJ mesh</a> · <a href="floor-schedule.csv">Floor schedule</a> · <a href="visual-handoff.json">Visual handoff</a> · <a href="scenario.json">Scenario assumptions</a></p></html>

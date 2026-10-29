@@ -1,0 +1,35 @@
+{
+  "analysis_sha256": "95d339d015994ab13b1b723f6e36ababccb0c83d1c5826e87c5ddd1784d8bee9",
+  "blockers": [
+    "nonresidential area mismatch",
+    "residential area mismatch"
+  ],
+  "camera": "Fixed schematic axonometric; no photo registration",
+  "eligible_as_schematic_reference": false,
+  "existing_photo_renderer_compatible": false,
+  "generation_executed": false,
+  "geometry_file": "geometry.json",
+  "geometry_ir_sha256": "baed43508bd2e6de95402638b88a7da61b30da1db46c12493a13f88d6270a1e4",
+  "mesh_file": "massing.obj",
+  "mesh_sha256": "49d034a84f4d8a7cae1cf4bc532db26ded6cc91ab0303cc60d4af09a18a3d6db",
+  "module": "geometry-visual-handoff",
+  "prompt": null,
+  "reference_views": [
+    "plan.svg",
+    "massing.svg"
+  ],
+  "required_review": "Inspect generated silhouette, floor count, footprint changes and viewpoint against the mesh; no fidelity acceptance exists yet.",
+  "site_bbl": "2028710002",
+  "status": "blocked_area_mismatch",
+  "unverified": [
+    "zoning",
+    "survey",
+    "access_egress_layout",
+    "structural_geotechnical",
+    "finance",
+    "existing_context",
+    "photo_camera",
+    "professional_review"
+  ],
+  "version": "0.1.0"
+}
