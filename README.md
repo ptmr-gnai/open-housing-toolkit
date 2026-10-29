@@ -79,6 +79,25 @@ cost-and-bedroom test. Eligibility, delivery, occupancy and the no-action baseli
 are not determined; no winner or causal benefit estimate is produced. This is a
 bounded implementation under the broader [community-benefit proposal](docs/specs/community-benefit.md).
 
+## Prepare a guide-mapped RER draft
+
+The [RER preparation module](housing_rer/README.md) maps 50 scoped instruction slots
+from the pinned City guide, form and criteria. It produces a separate five-section
+draft for each illustrative program, with populated, illustrative, missing,
+interpretation-needed and conditional not-applicable states.
+
+```sh
+python -m housing_rer demo --out runs/rer-draft
+```
+
+[Start with the worked packet](examples/rer-preparation/packet.md) ·
+[Instruction map](examples/rer-preparation/coverage.md) ·
+[Agent skill](skills/prepare-rer-draft/SKILL.md).
+The cost diagnostic stays in a supplemental appendix. AMI classifications,
+program eligibility, ZSF, community data, applicability and applicant interpretation
+are not inferred from it. These are incomplete preparation drafts, not official
+forms or compliance findings. A guide/form instruction divergence remains explicit.
+
 ## Ground a scenario in explicit geometry
 
 The [geometry specification](docs/specs/geometry-grounding.md) maps the evidence,

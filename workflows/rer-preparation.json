@@ -1,0 +1,13 @@
+{
+  "id":"rer-preparation",
+  "version":"0.1.0",
+  "scope":"Manually mapped pinned instruction slots; not a legal or semantic completeness claim",
+  "steps":[
+    {"id":"verify-comparison","input":"complete housing_benefit package","output":"verified inputs"},
+    {"id":"map-guide","input":"pinned guide/form/criteria catalogue and scoped instruction inventory","output":"typed slots with statuses, citations and bindings"},
+    {"id":"prepare-drafts","input":"one program per report","output":"five-section documents plus separate diagnostic appendix"},
+    {"id":"expose-gaps","input":"missing material, semantic mismatches and source divergence","output":"coverage map; submission readiness remains false"}
+  ],
+  "skill":"skills/prepare-rer-draft/SKILL.md",
+  "not_covered":["Official PDF population or filing","Applicability determination","Validated AMI mix and eligibility","EDDE export ingestion","Professional applicant narrative","Semantic completeness certification"]
+}

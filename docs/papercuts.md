@@ -313,3 +313,15 @@ The README still described geometry work as deferred after the exploratory geome
 | Changed restriction duration could incorrectly change cost tests | Duration matters without implying fixed rent or achieved household-years | Duration remains an assumption/table dimension; impact marks the row and exports, not unrelated cost counts. |
 | CSV text could be interpreted as a spreadsheet formula | User-supplied rationale may begin with formula syntax | Neutralize such CSV text while preserving original typed IR and full source references. |
 | Old research status could misdescribe the new capability | Research catalogue intentionally records unimplemented candidates | Add current module links and exact implemented-scope status; preserve the original research snapshot. |
+
+## Guide-mapped RER preparation
+
+| Papercut | Observed gap or failure mode | Control and remaining boundary |
+| --- | --- | --- |
+| RER-informed arithmetic could look standards-compliant | Prior cost test used a small part of the guide | Separate instruction map and five-section drafts; original diagnostic is supplemental, with no eligibility or compliance promotion. |
+| Official form and guide disagree | 2023 form skips nonresidential section without known tenants; 2025 guide retains area reporting | Preserve both source/page hashes, flag divergence, retain area placeholders and suppress speculative jobs pending interpretation. |
+| Template defaults could become data | Official form extraction displays empty-field totals as zeros | Do not import default zeros. Missing official fields are null and explicitly unpopulated. |
+| Hypothetical income and gross area have different meanings from official fields | Parent has household profiles and an earlier gross-area scenario | Candidate-only bindings; no automatic eligibility, AMI allocation, ZSF or construction-job calculation. |
+| Reporting vintages and document stages differ | Historical 2025 inputs, 2026 draft, older form and undated criteria placeholder | Preserve dates and source hashes; require applicability/interpretation review. Engineering reruns are not asserted to be a legal update requirement. |
+| Narrative examples could become invented legal tests | Guide discusses six fair-housing goals with examples | Mark as professional narrative prompts, not six independent pass/fail requirements. |
+| Counting covered slots could masquerade as completeness | Inventory is manually curated | Independent minimum inventory detects known removed slots; no percentage score, semantic completeness claim or submission-readiness switch. |

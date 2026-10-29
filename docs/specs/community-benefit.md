@@ -4,7 +4,10 @@ Status: broader proposal, 29 October 2026. A first bounded
 [conditional housing-cost comparison](../../housing_benefit/README.md) is now
 implemented with illustrative programs. It does not establish eligibility, delivery
 or causal community benefit. The broader scope below remains proposed and
-professional validation remains pending. This proposal follows the
+professional validation remains pending. The subsequent
+[RER preparation module](../../housing_rer/README.md) maps pinned instructions into
+incomplete five-section drafts, keeping non-equivalent data and missing material
+explicit. It does not establish RER compliance. This proposal follows the
 [project tenets](../tenets.md) and [research](../../research/community-benefit/report.md).
 
 ## Purpose and public description

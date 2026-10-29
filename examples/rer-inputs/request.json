@@ -1,0 +1,19 @@
+{
+  "application": {
+    "rationale": "No qualifying land-use action, application scope or legal applicability determination has been supplied.",
+    "status": "unknown"
+  },
+  "contact": {
+    "rationale": "No actual applicant/contact supplied for these illustrative programs.",
+    "status": "unknown"
+  },
+  "id": "guide_mapped_illustrative_drafts",
+  "nonresidential_tenants": {
+    "attribution": "Open Housing Toolkit demonstration; unreviewed",
+    "rationale": "No proposed commercial tenant or sector is established for either program. Existing-site tenancy is a different question.",
+    "status": "unknown"
+  },
+  "prepared_by": "Open Housing Toolkit demonstration; not an applicant submission",
+  "prepared_on": "2026-10-29",
+  "version": "0.1.0"
+}

@@ -1,4 +1,4 @@
-.PHONY: build check research-check release-check demo workflow-check render-check recipe-check geometry-check benefit-check
+.PHONY: build check research-check release-check demo workflow-check render-check recipe-check geometry-check benefit-check rer-check
 
 build:
 	python pipeline.py
@@ -39,3 +39,6 @@ geometry-check:
 
 benefit-check:
 	python -m unittest discover -s housing_benefit/tests -v
+
+rer-check:
+	python -m unittest discover -s housing_rer/tests -v
