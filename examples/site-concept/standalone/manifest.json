@@ -1,0 +1,21 @@
+{
+  "files": {
+    "brief.md": "433896f4cba6826ab4d9158fbe4670b268b4463d93c8042cdb15cc702d7b1cdc",
+    "inputs/scenario.json": "5c9a475d69d04a4e6e9ba864dc346e5d289bbec64b33d6c839f33eb14f7bb266",
+    "inputs/scene.json": "d39105a9ed2cd42808b5eab4deb220594ffa4ff5d6322c081b139091c310a20b",
+    "prompt.txt": "c40ba8beb523bee80dd4273e59c10bbbd3f732bddd9dc929301e2b44510febc9",
+    "render-brief.json": "0b613968e48826c20ba8595df1c9d53922c5e1b62fdb474ac48bcccea6d74dfd",
+    "workflow.json": "5ae81bb9daa5df8c7972737bc2a3ce14d58c67b878ddfc595f185baf95dd03d3"
+  },
+  "implementation": {
+    "housing_render/__init__.py": "eed71e8b0697fd42415bfa79dfffcca57a597a06fc9f98815a0b912302fc7d8a",
+    "housing_render/__main__.py": "9e3f4d6a5613dd86ce0ef7d3a583879321039338ec09796b67587e7073688a76",
+    "housing_render/brief.py": "8f2949127a6853b554049d626ae5cbfd1a77ef55472e6a51a597ff79a3a76930",
+    "housing_render/contracts.py": "a0a1c7bab4f5cb53dcbf8994fd0878419e1c12ed5803bc03f7ac3f047d292b35",
+    "housing_render/engine.py": "1aa14d38e3f89acb371af39eb61ce9dbdc7ffdd51d75eade6b79ee978dcb772a",
+    "skills/prepare-render-brief/SKILL.md": "e5585c73f3619bcbb295b0ec14977db8edcf5f4bb04c4e2811c508f54eadfd9c",
+    "skills/render-site-concept/SKILL.md": "62c365483b9bcf3e086405a1f173c15082247a0097562f25f5cc84f9e78e4d81",
+    "workflows/site-concept.json": "727d0fcbfe3508db00312e73359c2d580057ba38fada2ebc3ebf07b1a11f2f88"
+  },
+  "version": "0.1.0"
+}

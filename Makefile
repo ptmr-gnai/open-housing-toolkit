@@ -1,4 +1,4 @@
-.PHONY: build check research-check release-check demo workflow-check
+.PHONY: build check research-check release-check demo workflow-check render-check
 
 build:
 	python pipeline.py
@@ -25,3 +25,8 @@ demo:
 workflow-check:
 	python -m housing_workflow verify --run examples/parcel-investigation
 	python -m unittest discover -s housing_workflow/tests -v
+
+render-check:
+	python -m housing_render verify --run examples/site-concept/with-analysis
+	python -m housing_render verify --run examples/site-concept/standalone
+	python -m unittest discover -s housing_render/tests -v

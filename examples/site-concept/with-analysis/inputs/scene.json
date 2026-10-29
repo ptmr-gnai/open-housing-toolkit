@@ -1,0 +1,15 @@
+{
+  "reference": {
+    "attribution": "Base image: user-supplied Google Street View, June 2026. Google attribution remains with the visual. Source image rights are not relicensed by the toolkit.",
+    "availability": "conversation_attachment",
+    "capture_date": "June 2026",
+    "capture_date_basis": "Date visible in the user-supplied screenshot; no API metadata independently recovered.",
+    "id": "user-streetview-edward-grant-june-2026",
+    "origin": "user_supplied",
+    "provider": "Google Street View"
+  },
+  "site_bbl": "2028710002",
+  "site_match": "user_asserted",
+  "version": "0.1.0",
+  "viewpoint": "Use the original street-level view showing the white-and-blue single-story commercial structure. Preserve the street slope, parked cars, center pole, trees, adjacent structures and fence as closely as possible. Camera pose and parcel boundaries are not measured."
+}

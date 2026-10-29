@@ -242,3 +242,15 @@ backtest, private underwriting reconstruction or practitioner acceptance occurre
 | Re-serializing an unchanged request changed model bindings | Request whitespace changed its SHA and downstream prompt hash | Exact request bytes are copied on unchanged replay; changed assumptions create a new request and model binding. |
 | A documentation file accidentally entered a sample packet inventory | A README inside the run directory was not part of replay inputs | Example guide moved outside generated run packages; manifest/replay inventories now match. |
 | Professional model depth remains thin | Current arithmetic is a user-stated area budget, not a design or underwriting model | Formula/dependency CSV and typed IR expose the limitation; legal/physical/finance stages remain unknown, and image output is restricted to a diagram brief. |
+
+## Modular photo-concept slice
+
+| Papercut | Observed failure or cost | Control and remaining boundary |
+| --- | --- | --- |
+| Attractive image had no model-to-prompt link | Earlier photo edit used manually chosen six-story/program/style instructions outside the executable workflow | Canonical scene/scenario → compiled prompt → actual invocation → image/review receipt. The new visual parameters remain explicit assumptions. |
+| Global skill hashes coupled unrelated modules | Adding a rendering skill would stale every parcel packet | Parcel implementation bindings now follow only its own declared workflow skills. Renderer binds its own package/workflow/skills. Isolated-install and unrelated-skill tests pass. |
+| Source screenshot unavailable as local bytes | Image tool can see the chat attachment, but no original source file exists in the workspace | External conversation reference is explicit and source byte binding is false. Local photo inputs are copied and hashed. The example cannot claim fully source-byte-reproducible conditioning. |
+| Prior concepts also entered image context | Original photo required including three recent conversation images | Actual selector recorded; original-only conditioning is not independently verified. No assertion of source-pixel fidelity. |
+| JSON key order changed compiled binding lists | Saving canonical inputs sorted keys and initial verify differed from preparation | Compile parameter bindings in sorted order; brief recomputation is deterministic. |
+| Six-story caption could masquerade as a floor-count test | Recessed top is partly cropped in the generated example | Visual review leaves exact story count and geometry unverified. Caption presence is assessed separately. |
+| Reusing an output could erase the experiment | A second attach could otherwise overwrite the first illustration | Existing generation is immutable through CLI; create a new run for revisions. |

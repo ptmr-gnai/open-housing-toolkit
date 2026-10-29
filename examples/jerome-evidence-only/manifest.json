@@ -18,7 +18,7 @@
     "housing_workflow/__init__.py": "f81c6bf93a4995936e32a61e6af00a8ea3934e1165caa129e7c3f7f3248a0f87",
     "housing_workflow/__main__.py": "4d7e7b6fbfd4c68080993551a84eed8e32c7aed2ea99c4ecaa198688105219ea",
     "housing_workflow/contracts.py": "57b688a066502fb18b23c3dc3bb6d67812ca3df97b39c4cf603684323f49200b",
-    "housing_workflow/engine.py": "9debaf0c1b110e1fb38fc47704731c75c9d00c2e22219980b545c6315cf625af",
+    "housing_workflow/engine.py": "d336df154432245f2e04cb76afb7dadbdbc87439dd8639924c5dbe02831ae9c2",
     "housing_workflow/ir.schema.json": "be60d032d39e1780fd4d0e497548d59f15023a9db5dfc4c20b724f2fac45e9f4",
     "housing_workflow/model.py": "2edf42fdded76680c762e2f459307896d939ef929d1caebcd1fc02d1d0d92bb0",
     "housing_workflow/packet.py": "72984abd00137834c2851864c67389db3a8fcd4df1aaa2fc492cf23d206acb4f",

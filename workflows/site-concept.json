@@ -1,0 +1,11 @@
+{
+  "id": "site-concept", "version": "0.1.0", "process_status": "partial_playbook_under_development",
+  "steps": [
+    {"id":"prepare","skill":"skills/prepare-render-brief/SKILL.md","inputs":["scene.json","scenario.json","optional analysis.json","optional local photo"],"outputs":["render-brief.json","prompt.txt","brief.md","manifest.json"]},
+    {"id":"generate","skill":"skills/render-site-concept/SKILL.md","inputs":["render-brief.json","reference assets"],"outputs":["provider image","invocation.json"]},
+    {"id":"attach_review","skill":"skills/render-site-concept/SKILL.md","inputs":["image","invocation.json","review.json"],"outputs":["render-receipt.json","packet.md","manifest.json"]}
+  ],
+  "scope":"Photo-referenced illustrative building concept; no measured geometry or professional clearance is inferred.",
+  "not_covered":["Automatic imagery acquisition","Measured massing or city-twin integration","Agency document conversion","Automatic geometric or story-count verification","Legal or financial feasibility"],
+  "optional_providers":["User photo","A separately authorized imagery service","Future GIS/city-twin scene adapter","Any image provider accepting the canonical prompt and declared references"]
+}

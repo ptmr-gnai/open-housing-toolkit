@@ -1,0 +1,13 @@
+{
+  "brief_sha256": "a3eb219197c2ba7c2069602c64b8f60d33f8e9d0ba6a88cad5756bcd58554c06",
+  "executed_at": "2026-10-29T16:44:26.506507+00:00",
+  "execution_note": "Agent submits the compiled prompt unchanged to image_gen.imagegen with the three most recent images to include the original user-supplied screenshot. This is an agent-recorded execution, not a provider-signed receipt.",
+  "parameters": {
+    "num_last_images_to_include": 3,
+    "transparent_background": false
+  },
+  "prompt_sha256": "0c803967cb90842f0861128a7d6203cd86dc082ce991ae3f80fa8372895f4793",
+  "provider": "image_gen.imagegen",
+  "reference_delivery": "conversation_attachment",
+  "reference_id": "user-streetview-edward-grant-june-2026"
+}

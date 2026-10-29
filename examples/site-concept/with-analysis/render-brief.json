@@ -1,0 +1,147 @@
+{
+  "analysis": {
+    "acceptance": "imported context values checked; analysis semantics not certified by renderer",
+    "available": true,
+    "context_bindings": [
+      {
+        "claim_id": "pluto.0.address",
+        "references": [
+          {
+            "pointer": "/0/address",
+            "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+            "source_id": "pluto"
+          }
+        ],
+        "unit": "source value",
+        "use": "site_context_only_not_geometric_constraint",
+        "value": "1240 EDWARD L GRANT HWY"
+      },
+      {
+        "claim_id": "pluto.0.lotarea",
+        "references": [
+          {
+            "pointer": "/0/lotarea",
+            "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+            "source_id": "pluto"
+          }
+        ],
+        "unit": "square feet as recorded",
+        "use": "site_context_only_not_geometric_constraint",
+        "value": "59050"
+      },
+      {
+        "claim_id": "pluto.0.unitsres",
+        "references": [
+          {
+            "pointer": "/0/unitsres",
+            "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+            "source_id": "pluto"
+          }
+        ],
+        "unit": "units as recorded; source definition applies",
+        "use": "site_context_only_not_geometric_constraint",
+        "value": "0"
+      },
+      {
+        "claim_id": "pluto.0.zonedist1",
+        "references": [
+          {
+            "pointer": "/0/zonedist1",
+            "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+            "source_id": "pluto"
+          }
+        ],
+        "unit": "source value",
+        "use": "site_context_only_not_geometric_constraint",
+        "value": "R9A"
+      },
+      {
+        "claim_id": "pluto.0.spdist1",
+        "references": [
+          {
+            "pointer": "/0/spdist1",
+            "sha256": "1ab74f2aecfbc62c5b9332b0c15960de316480140d344777be6374b445cb2179",
+            "source_id": "pluto"
+          }
+        ],
+        "unit": "source value",
+        "use": "site_context_only_not_geometric_constraint",
+        "value": "J"
+      }
+    ],
+    "geometry_or_area_budget_reconciled": false,
+    "sha256": "003094637d7eae88f99409db48c0b29bf203177b8152fd59a98fc8b15a2f8499"
+  },
+  "derived_visual_instructions": [
+    {
+      "formula": "total_stories - 1",
+      "id": "upper_floor_count",
+      "inputs": [
+        "total_stories"
+      ],
+      "value": 5
+    }
+  ],
+  "execution_requirements": {
+    "image_generation": "external provider; stochastic output, not byte-reproducible",
+    "reference_resolution": "agent must resolve declared reference before generation",
+    "review": "visual inspection required; no automatic geometry certification"
+  },
+  "mode": "photo_referenced_illustrative_concept",
+  "module": "site-concept",
+  "prompt": "Use the user-supplied original street photograph as the visual reference for an architectural concept edit. If several recent conversation images are supplied, identify the ORIGINAL white-and-blue single-story commercial building photograph; prior generated concepts are not evidence of existing conditions. The user associates this reference with NYC tax lot 2028710002; that match is user_asserted, not independently geolocated by this module. Viewpoint instructions: Use the original street-level view showing the white-and-blue single-story commercial structure. Preserve the street slope, parked cars, center pole, trees, adjacent structures and fence as closely as possible. Camera pose and parcel boundaries are not measured. Illustrate a hypothetical replacement building with exactly 6 stories TOTAL: one taller ground floor for flexible commercial/community space, and 5 upper floors for residential use. Architectural treatment: Contemporary Bronx infill character: warm buff brick with restrained terracotta accents, regular generous windows, an identifiable residential entrance, glazed ground-floor frontage, modest planted upper-floor setback, and durable detailing. Daylight should match the source photograph. Use approximately the visible existing building location as a visual cue only. No surveyed footprint, parcel boundary, setback distance or total floor area has been supplied. Preserve the photographed street perspective and surrounding context as closely as possible. Do not redesign neighboring properties. This is a replacement concept; do not imply that extra floors can be supported by the existing structure. Do not invent street numbers, tenant names, approved unit counts, affordability commitments or official approval. Remove large navigation UI controls while retaining source watermark/attribution. Include a readable bottom caption with these lines: \"ILLUSTRATIVE CONCEPT — ASSUMED 6 STORIES\" and \"Zoning, parcel boundaries and building fit unverified.\" Credit: \"Base image: user-supplied Google Street View, June 2026.\" A separate area-budget analysis, if present in the packet, is context only and has not been reconciled to this massing. Generate a photorealistic illustrative streetscape, not an assertion of feasible or approved development.",
+  "reference": {
+    "attribution": "Base image: user-supplied Google Street View, June 2026. Google attribution remains with the visual. Source image rights are not relicensed by the toolkit.",
+    "availability": "conversation_attachment",
+    "capture_date": "June 2026",
+    "capture_date_basis": "Date visible in the user-supplied screenshot; no API metadata independently recovered.",
+    "id": "user-streetview-edward-grant-june-2026",
+    "origin": "user_supplied",
+    "path": null,
+    "provider": "Google Street View",
+    "sha256": null,
+    "site_match": "user_asserted",
+    "storage": "conversation_attachment"
+  },
+  "required_caption": "ILLUSTRATIVE CONCEPT — ASSUMED 6 STORIES",
+  "scenario_bindings": [
+    {
+      "kind": "design_preference",
+      "parameter": "architectural_treatment",
+      "rationale": "Author-selected visual treatment for discussion, not an agency or community-approved design.",
+      "value": "Contemporary Bronx infill character: warm buff brick with restrained terracotta accents, regular generous windows, an identifiable residential entrance, glazed ground-floor frontage, modest planted upper-floor setback, and durable detailing. Daylight should match the source photograph."
+    },
+    {
+      "kind": "assumption",
+      "parameter": "ground_floor_use",
+      "rationale": "Proposed visual program only; no tenant, service provider or retention commitment is established.",
+      "value": "flexible commercial/community space"
+    },
+    {
+      "kind": "assumption",
+      "parameter": "total_stories",
+      "rationale": "Illustrative design choice, not inferred from PLUTO FAR or the earlier area-budget model.",
+      "value": 6
+    },
+    {
+      "kind": "assumption",
+      "parameter": "upper_floor_use",
+      "rationale": "Hypothetical housing program; unit count, mix, affordability and layouts are not established.",
+      "value": "residential use"
+    }
+  ],
+  "scenario_id": "six-story-photo-concept",
+  "site_bbl": "2028710002",
+  "unverified": [
+    "photo-to-parcel match unless separately attested",
+    "surveyed footprint",
+    "height in feet",
+    "setbacks",
+    "total floor area",
+    "building fit",
+    "zoning entitlement",
+    "current occupancy",
+    "finance"
+  ],
+  "version": "0.1.0"
+}

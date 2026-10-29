@@ -20,3 +20,9 @@ It does not claim that an MIT license grants rights to every upstream dataset.
 Before redistributing a larger collection or publishing a service, review the
 current upstream terms and attribution requirements. No private records, account
 credentials, or advisor identities are included.
+
+Photo-based generated illustrations and third-party reference imagery are excluded
+from the blanket MIT/CC documentation licenses. The site-concept example includes
+Google-attributed source imagery; attribution and source availability are recorded
+in its scene and receipt. This repository does not grant rights to upstream imagery.
+The source screenshot itself is not redistributed.

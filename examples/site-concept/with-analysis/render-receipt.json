@@ -1,0 +1,33 @@
+{
+  "analysis_sha256": "003094637d7eae88f99409db48c0b29bf203177b8152fd59a98fc8b15a2f8499",
+  "brief_sha256": "a3eb219197c2ba7c2069602c64b8f60d33f8e9d0ba6a88cad5756bcd58554c06",
+  "geometry_verified": false,
+  "image_path": "render.png",
+  "image_sha256": "be9c8394e0a32c562f70a619fca482ee77f80d236143c64bb92135bae42be6d7",
+  "invocation_sha256": "6bb061a33dd6da112c52ec2586aea059b1fae648b53677f0e1f5ae214e4bece2",
+  "professional_acceptance": "pending",
+  "prompt_sha256": "0c803967cb90842f0861128a7d6203cd86dc082ce991ae3f80fa8372895f4793",
+  "provider": "image_gen.imagegen",
+  "reference": {
+    "attribution": "Base image: user-supplied Google Street View, June 2026. Google attribution remains with the visual. Source image rights are not relicensed by the toolkit.",
+    "availability": "conversation_attachment",
+    "capture_date": "June 2026",
+    "capture_date_basis": "Date visible in the user-supplied screenshot; no API metadata independently recovered.",
+    "id": "user-streetview-edward-grant-june-2026",
+    "origin": "user_supplied",
+    "path": null,
+    "provider": "Google Street View",
+    "sha256": null,
+    "site_match": "user_asserted",
+    "storage": "conversation_attachment"
+  },
+  "reproduction": "Prompt and bytes bound; image provider stochastic. External conversation reference bytes unavailable locally.",
+  "review_sha256": "092ba51df1983c09a01fd9621cd617d5d3d87221768bbad9bf5ba4d43714a3c0",
+  "reviewer_kind": "assistant_visual_inspection",
+  "scenario_id": "six-story-photo-concept",
+  "scenario_sha256": "5c9a475d69d04a4e6e9ba864dc346e5d289bbec64b33d6c839f33eb14f7bb266",
+  "scene_sha256": "d39105a9ed2cd42808b5eab4deb220594ffa4ff5d6322c081b139091c310a20b",
+  "site_bbl": "2028710002",
+  "version": "0.1.0",
+  "visual_review_status": "inspected_with_limits"
+}

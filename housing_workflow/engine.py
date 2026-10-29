@@ -9,7 +9,7 @@ WORKFLOW = ROOT / 'workflows/parcel-investigation.json'
 
 def implementation():
     files = sorted((ROOT/'housing_workflow').glob('*.py')) + sorted((ROOT/'housing_workflow').glob('*.json')) + [WORKFLOW]
-    files += sorted((ROOT/'skills').glob('*/SKILL.md'))
+    files += [ROOT/name for name in sorted({s['skill'] for s in load(WORKFLOW)['steps']})]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
 def safe(root, name):

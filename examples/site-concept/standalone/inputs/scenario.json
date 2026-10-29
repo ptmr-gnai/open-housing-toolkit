@@ -1,0 +1,30 @@
+{
+  "analysis_reconciliation": "not_reconciled_to_area_budget",
+  "geometry_status": "unverified",
+  "id": "six-story-photo-concept",
+  "label": "Explicitly assumed six-story replacement concept",
+  "parameters": {
+    "architectural_treatment": {
+      "kind": "design_preference",
+      "rationale": "Author-selected visual treatment for discussion, not an agency or community-approved design.",
+      "value": "Contemporary Bronx infill character: warm buff brick with restrained terracotta accents, regular generous windows, an identifiable residential entrance, glazed ground-floor frontage, modest planted upper-floor setback, and durable detailing. Daylight should match the source photograph."
+    },
+    "ground_floor_use": {
+      "kind": "assumption",
+      "rationale": "Proposed visual program only; no tenant, service provider or retention commitment is established.",
+      "value": "flexible commercial/community space"
+    },
+    "total_stories": {
+      "kind": "assumption",
+      "rationale": "Illustrative design choice, not inferred from PLUTO FAR or the earlier area-budget model.",
+      "value": 6
+    },
+    "upper_floor_use": {
+      "kind": "assumption",
+      "rationale": "Hypothetical housing program; unit count, mix, affordability and layouts are not established.",
+      "value": "residential use"
+    }
+  },
+  "site_bbl": "2028710002",
+  "version": "0.1.0"
+}

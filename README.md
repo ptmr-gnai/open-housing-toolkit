@@ -28,13 +28,29 @@ Open `runs/first-demo/packet.html` locally. No API key, model account, network o
 pip install is needed for the worked example. For live collection, the skill asks
 for one Bronx site and a question, routes public API requests, builds typed claims
 and optional area arithmetic, and exports the packet, IR, raw data and image-prompt
-JSON. The image brief permits a diagram only; physical geometry is not verified.
+JSON. The parcel module’s image brief permits a diagram only; the separate photo-concept
+module below accepts explicit design assumptions. Physical geometry is unverified.
 
 Read [the workflow guide](housing_workflow/README.md) and the
 [real-source example packet](examples/parcel-investigation/packet.md).
 **The full housing process remains unknown and will develop over time.** The
 workflow records uncovered stages explicitly. A notebook/workbook and an optional
 hosted data proxy are future extensions.
+
+## Use the rendering module independently
+
+Bring a photo and an explicit visual scenario, with an optional analysis IR:
+
+```sh
+python -m housing_render prepare --scene examples/site-concept/scene.json --scenario examples/site-concept/scenario.json --out runs/my-concept
+```
+
+This prepares a provider-independent brief. An agent then calls an image provider
+and attaches the output with an invocation and visual-review receipt. See the
+[rendering guide](housing_render/README.md), [rendering skill](skills/render-site-concept/SKILL.md),
+and [actual generated example](examples/site-concept/with-analysis/packet.md).
+The example reference is an external chat attachment; supply your own local photo
+to reproduce a source-byte-bound run. Collection and modeling are not required.
 
 ## Start here
 

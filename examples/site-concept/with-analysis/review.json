@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "id": "reference_setting",
+      "note": "Approximate parked-car arrangement, central pole, trees, adjacent fence and camera view resemble the supplied setting; they are generatively redrawn, not measured or pixel-locked.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "story_count",
+      "note": "Visible levels broadly suggest the requested scale, but the recessed upper portion is partly cropped. The six-story caption is an instruction label, not a verified floor count.",
+      "status": "not_verified"
+    },
+    {
+      "id": "caption",
+      "note": "Caption labels an assumed six-story illustrative concept and states that zoning, boundaries and fit are unverified; Google attribution and source credit are visible.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "invented_site_details",
+      "note": "No new street number, named tenant, unit count or approval claim is visible. The architecture, planting and detailed facade remain invented design features.",
+      "status": "consistent_by_inspection"
+    },
+    {
+      "id": "geometry_fidelity",
+      "note": "No surveyed footprint, height, setbacks, area allocation, geolocated camera or matching parcel polygon was supplied.",
+      "status": "not_verified"
+    }
+  ],
+  "reviewer_kind": "assistant_visual_inspection",
+  "summary": "The generated asset follows the compiled illustrative brief in broad architectural treatment and visible street context. It has no visible invented street number or tenant sign. This inspection does not establish source-pixel fidelity, an exact story count, geometry, site identity or feasibility. Multiple recent conversation images, including prior concepts, were available to the provider; original-only conditioning is not independently auditable."
+}
