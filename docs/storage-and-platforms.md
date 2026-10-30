@@ -55,7 +55,7 @@ not something the operating system alone guarantees.
 | Platform | Evidence / present recommendation |
 | --- | --- |
 | Linux | Exercised locally and in GitHub CI, including the composed walkthrough. |
-| macOS | Expected to work; a macOS Python 3.11 walkthrough CI job has been added. Consult that job's actual result before claiming validation. This does not test the Codex/Claude UI or optional branches. |
+| macOS | The macOS Python 3.11 offline walkthrough and onboarding-link check passed in [GitHub CI](https://github.com/ptmr-gnai/open-housing-toolkit/actions/runs/40980198211/job/123818053996). This checks the core composed path without optional dependencies, not the Codex/Claude UI, live APIs or visual branches. |
 | Native Windows | Not supported as verified today. Exact-byte provenance can be broken by Git checkout newline conversion, default text encoding and platform-translated output newlines. |
 | Windows via WSL | Recommended path to the Linux environment; use a checkout created inside WSL with Python 3.11+. Not yet separately exercised on a Windows/WSL machine. |
 
