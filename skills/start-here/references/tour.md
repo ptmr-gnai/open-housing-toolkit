@@ -1,15 +1,15 @@
 # Offline first-result tour
 
-Use only when the user wants a general introduction. No housing inputs, pip
-packages, API keys, image provider or network are needed after cloning. Work from
-the repository root with Python 3.11+. If the checkout is missing:
+Use only when the user wants a general introduction. Complete [editable setup](../../../docs/guides/setup.md)
+first. After setup, replay needs no housing inputs, API keys, image provider or
+network. Work from the repository root with Python 3.11+. If the checkout is missing:
 
 ```sh
 git clone https://github.com/ptmr-gnai/open-housing-toolkit.git
 cd open-housing-toolkit
 ```
 
-Run the [shared script](../../../scripts/first_run.py):
+After following setup in that checkout, run the [shared script](../../../scripts/first_run.py):
 
 ```sh
 python scripts/first_run.py --out runs/my-first-run

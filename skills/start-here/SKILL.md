@@ -5,12 +5,12 @@ description: Route a housing practitioner or coding agent to the right toolkit m
 
 # Start here
 
-Read [AGENTS.md](../../AGENTS.md). Work from a writable checkout with Python 3.11+.
+Read [AGENTS.md](../../AGENTS.md). Work from an editable checkout with Python 3.11+; read [setup](../../docs/guides/setup.md) if not installed.
 Choose the user's task first; an independent module does not require the full tour.
 Default to a local user run: no shipped-data regeneration and no commits, pushes
 or uploads. Setup does not require development builds/checks. Use fresh ignored
-outputs and follow [the local-only policy](../../docs/local-only.md).
-For a live known-lot workflow, read [Investigate a lot](../../docs/investigate-a-lot.md).
+outputs and follow [the local-only policy](../../docs/guides/local-only.md).
+For a live known-lot workflow, read [Investigate a lot](../../docs/guides/investigate-a-lot.md).
 It collects the inputs and sequences existing modules. Return the linked cover-note
 template as a reviewer-authored handoff; do not claim it is automatically verified.
 
@@ -30,6 +30,6 @@ For a first-time tour, read [the offline walkthrough](references/tour.md), then 
 [the shared script](../../scripts/first_run.py) in a new directory. Do not preload
 all leaf skills before a tour; the script enforces its fixed sequence.
 
-For output locations and Mac/Windows status, read [storage and platforms](../../docs/storage-and-platforms.md).
+For output locations and Mac/Windows status, read [storage and platforms](../../docs/guides/storage-and-platforms.md).
 The [active catalogue](../catalog.json) distinguishes current playbooks from frozen
 historical instructions. Native host-menu installation is not implemented.

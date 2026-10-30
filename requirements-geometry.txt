@@ -1,2 +1,0 @@
-# Optional geometry module; established polygon validity/containment operations.
-shapely==2.2.0

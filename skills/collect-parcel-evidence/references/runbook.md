@@ -6,14 +6,14 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_workflow/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
-- [Request contract](../../../housing_workflow/request.schema.json): read before constructing new input.
+- [Module guide](../../../src/housing_workflow/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
+- [Request contract](../../../src/housing_workflow/request.schema.json): read before constructing new input.
 
 ## Detailed procedure and boundaries
 # Collect parcel evidence
 
-Read `housing_workflow/sources.json` for the four supported APIs, field selections, publishers and limits. `housing_workflow/router.py` is a local adapter router, not a hosted proxy. It accepts no user-supplied API URL. Public access can still fail or throttle.
+Read `src/housing_workflow/sources.json` for the four supported APIs, field selections, publishers and limits. `housing_workflow/router.py` is a local adapter router, not a hosted proxy. It accepts no user-supplied API URL. Public access can still fail or throttle.
 
 ```sh
 python -m housing_workflow collect --input request.json --out runs/my-investigation

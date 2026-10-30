@@ -6,15 +6,15 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_render/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_render/__main__.py): existing executable entry point; run from the checkout root.
+- [Module guide](../../../src/housing_render/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_render/__main__.py): existing executable entry point; run from the checkout root.
 - [Scene example](../../../examples/site-concept/scene.json) and [scenario example](../../../examples/site-concept/scenario.json): formats only; not facts about a new site.
 - [Actual invocation example](../../../examples/site-concept/with-analysis/invocation.json) and [review example](../../../examples/site-concept/with-analysis/review.json): record actual execution, never copy invented facts.
 
 ## Detailed procedure and boundaries
 # Prepare a site-concept render brief
 
-Use `housing_render` independently from the parcel-analysis workflow. Read `workflows/site-concept.json`. Requires Python 3.11+ recommended, no pip dependencies. See `examples/site-concept/scene.json` and `scenario.json` for the strict canonical contracts; validation rejects missing or extra fields. The current visual parameters are explicit assumptions/preferences, not inferred legal capacity.
+Use `housing_render` independently from the parcel-analysis workflow. Read `config/workflows/site-concept.json`. Requires Python 3.11+ recommended, no pip dependencies. See `examples/site-concept/scene.json` and `scenario.json` for the strict canonical contracts; validation rejects missing or extra fields. The current visual parameters are explicit assumptions/preferences, not inferred legal capacity.
 
 ```sh
 python -m housing_render prepare --scene scene.json --scenario scenario.json --out runs/concept

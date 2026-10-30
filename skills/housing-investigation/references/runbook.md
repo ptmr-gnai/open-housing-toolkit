@@ -6,14 +6,14 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_workflow/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
-- [Request contract](../../../housing_workflow/request.schema.json): read before constructing new input.
+- [Module guide](../../../src/housing_workflow/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
+- [Request contract](../../../src/housing_workflow/request.schema.json): read before constructing new input.
 
 ## Detailed procedure and boundaries
 # One parcel investigation
 
-This is an evolving open playbook, not a complete housing-agency process. The current workflow is `workflows/parcel-investigation.json`. Read it before choosing steps. Today it supports one Bronx tax lot and optional area arithmetic. Title, actual occupancy, zoning interpretation, physical feasibility, environmental clearance, finance and transit-access analysis remain unresolved.
+This is an evolving open playbook, not a complete housing-agency process. The current workflow is `config/workflows/parcel-investigation.json`. Read it before choosing steps. Today it supports one Bronx tax lot and optional area arithmetic. Title, actual occupancy, zoning interpretation, physical feasibility, environmental clearance, finance and transit-access analysis remain unresolved.
 
 ## Get a result first
 
@@ -43,7 +43,7 @@ Ask for the Bronx tax-lot BBL or exact street address and the decision/question 
 
 Offer an optional area-budget scenario: total gross area, nonresidential gross allocation, residential net efficiency and average net home size. Every value needs a rationale and must be identified as user-supplied or hypothetical. Do not invent a scenario because a field is missing. The evidence-only path is useful.
 
-Create a new request JSON following `housing_workflow/request.schema.json`; use `examples/parcel-investigation/request.json` as a format example, never as facts about another site. `python -m housing_workflow init --out runs/my-inputs/request.json` is the interactive human alternative; agents should gather answers in chat and write the JSON directly.
+Create a new request JSON following `src/housing_workflow/request.schema.json`; use `examples/parcel-investigation/request.json` as a format example, never as facts about another site. `python -m housing_workflow init --out runs/my-inputs/request.json` is the interactive human alternative; agents should gather answers in chat and write the JSON directly.
 
 ## Execute the workflow
 

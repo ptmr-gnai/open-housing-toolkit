@@ -6,17 +6,17 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_recipe/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_recipe/__main__.py): existing executable entry point; run from the checkout root.
+- [Module guide](../../../src/housing_recipe/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_recipe/__main__.py): existing executable entry point; run from the checkout root.
 
 ## Detailed procedure and boundaries
 Use for a housing practitioner investigating a known lot. Begin with a verified
 `housing_workflow` run. Preserve that evidence and its original packet.
 
-1. Copy `recipes/area-budget.json` and explain all edited assumptions. Methods are
+1. Copy `config/recipes/area-budget.json` and explain all edited assumptions. Methods are
    allowlisted and versioned; never substitute a net-area denominator into a gross-area method.
-2. Build with `python -m housing_recipe build --from-run examples/parcel-investigation --recipe recipes/area-budget.json --out runs/recipe-base`.
-3. Before changing a recipe, run `python -m housing_recipe impact --run runs/recipe-base --recipe recipes/area-budget-with-reserve.json`.
+2. Build with `python -m housing_recipe build --from-run examples/parcel-investigation --recipe config/recipes/area-budget.json --out runs/recipe-base`.
+3. Before changing a recipe, run `python -m housing_recipe impact --run runs/recipe-base --recipe config/recipes/area-budget-with-reserve.json`.
 4. Build the changed recipe into a new directory. Inspect `trace.json`, `ir.json`,
    `calculation-steps.csv`, and `packet.html`. Verify with `python -m housing_recipe verify --run runs/recipe-base`.
 

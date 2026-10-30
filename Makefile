@@ -1,7 +1,7 @@
 .PHONY: build check research-check release-check demo workflow-check render-check recipe-check geometry-check benefit-check rer-check onboarding-check first-run
 
 build:
-	python pipeline.py
+	python research/legacy-probe/pipeline.py
 
 check:
 	python scripts/check_project.py check
@@ -18,24 +18,24 @@ demo:
 
 workflow-check:
 	python -m housing_workflow verify --run examples/parcel-investigation
-	python -m unittest discover -s housing_workflow/tests -v
+	python -m unittest discover -s tests/housing_workflow -v
 
 render-check:
 	python -m housing_render verify --run examples/site-concept/with-analysis
 	python -m housing_render verify --run examples/site-concept/standalone
-	python -m unittest discover -s housing_render/tests -v
+	python -m unittest discover -s tests/housing_render -v
 
 recipe-check:
-	python -m unittest discover -s housing_recipe/tests -v
+	python -m unittest discover -s tests/housing_recipe -v
 
 geometry-check:
-	python -m unittest discover -s housing_geometry/tests -v
+	python -m unittest discover -s tests/housing_geometry -v
 
 benefit-check:
-	python -m unittest discover -s housing_benefit/tests -v
+	python -m unittest discover -s tests/housing_benefit -v
 
 rer-check:
-	python -m unittest discover -s housing_rer/tests -v
+	python -m unittest discover -s tests/housing_rer -v
 
 # Fast onboarding checks; no optional packages.
 onboarding-check:

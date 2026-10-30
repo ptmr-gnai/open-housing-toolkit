@@ -5,7 +5,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from local_outputs import checkout_snapshot,assert_checkout_unchanged
+from housing_common.local_outputs import checkout_snapshot,assert_checkout_unchanged
 VALIDATORS = [
     'scripts/check_onboarding.py',
     'examples/live-lot-trial/verify.py',
@@ -19,17 +19,17 @@ VALIDATORS = [
     'research/eligibility-gates/validate.py',
     'research/requirement-coverage/validate_coverage.py',
     'scripts/validate_conclusion_portable.py',
-    'research/backtest-readiness/validate.py',
+    'scripts/validate_backtest_portable.py',
     'research/grand-concourse-calibration/validate.py',
 ]
 TEST_DIRS = [
-    'housing_rer/tests',
-    'housing_benefit/tests',
-    'housing_geometry/tests',
-    'housing_recipe/tests',
-    'housing_render/tests',
-    'housing_workflow/tests',
-    'scripts/tests',
+    'tests/housing_rer',
+    'tests/housing_benefit',
+    'tests/housing_geometry',
+    'tests/housing_recipe',
+    'tests/housing_render',
+    'tests/housing_workflow',
+    'tests/scripts',
     'research/jerome-brief/tests',
     'research/benchmark-case-search/tests',
     'research/retrospective-run/tests',

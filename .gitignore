@@ -19,3 +19,8 @@ runs/
 .venv/
 .pytest_cache/
 node_modules/
+
+# Editable-install and build metadata are local, never user-run commits.
+*.egg-info/
+/build/
+/dist/

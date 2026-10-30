@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,subprocess,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from housing_workflow.contracts import digest,save
-from local_outputs import destination
+from housing_common.local_outputs import destination
 from housing_benefit.contracts import read_json
 
 

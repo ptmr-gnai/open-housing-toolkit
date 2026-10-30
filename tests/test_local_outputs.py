@@ -1,7 +1,10 @@
 """Regression: user runs and development checks must not overwrite shipped files. MIT."""
 import pathlib,tempfile,unittest
 from unittest.mock import patch
-import local_outputs
+from housing_common import local_outputs
+import sys
+ROOT=local_outputs.ROOT
+sys.path.insert(0,str(ROOT/'research/legacy-probe'))
 import pipeline
 from housing_workflow import engine as evidence
 from housing_render import engine as renderer
@@ -26,27 +29,27 @@ class LocalOutputSafety(unittest.TestCase):
     def test_build_and_collection_reject_shipped_examples_before_io(self):
         with patch.object(evidence.router,'collect',side_effect=AssertionError('Must not contact source')):
             with self.assertRaisesRegex(ValueError,'read-only'):evidence.collect({'version':'0.2.0','bbl':'2028710002','question':'test'},pipeline.ROOT/'cache')
-        with self.assertRaisesRegex(ValueError,'read-only'):evidence.build(pipeline.ROOT/'examples/parcel-investigation')
-        with self.assertRaisesRegex(ValueError,'read-only'):evidence.fresh(pipeline.ROOT/'examples/new-should-never-exist')
+        with self.assertRaisesRegex(ValueError,'read-only'):evidence.build(ROOT/'examples/parcel-investigation')
+        with self.assertRaisesRegex(ValueError,'read-only'):evidence.fresh(ROOT/'examples/new-should-never-exist')
 
     def test_research_validators_leave_shipped_results_untouched(self):
         import subprocess,sys
         before=local_outputs.checkout_snapshot()
         for script in ['research/jerome-brief/validate.py','research/benchmark-case-search/validate_inputs.py','research/retrospective-run/validate.py']:
-            result=subprocess.run([sys.executable,script],cwd=pipeline.ROOT,capture_output=True,text=True)
+            result=subprocess.run([sys.executable,script],cwd=ROOT,capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
         local_outputs.assert_checkout_unchanged(before)
 
     def test_browser_writer_rejects_shipped_output_before_launch(self):
         import subprocess,shutil
         if not shutil.which('node'):self.skipTest('Optional browser command needs Node')
-        result=subprocess.run(['node','tests/check_explorer.cjs','outputs'],cwd=pipeline.ROOT,capture_output=True,text=True)
+        result=subprocess.run(['node','research/legacy-probe/tests/check_explorer.cjs',str(pipeline.ROOT/'outputs')],cwd=ROOT,capture_output=True,text=True)
         self.assertNotEqual(result.returncode,0)
         self.assertIn('read-only',result.stderr)
 
     def test_check_never_reports_success_before_checkout_guard(self):
         import importlib.util,io,subprocess,sys
-        spec=importlib.util.spec_from_file_location('local_project_check',pipeline.ROOT/'scripts/check_project.py')
+        spec=importlib.util.spec_from_file_location('local_project_check',ROOT/'scripts/check_project.py')
         check=importlib.util.module_from_spec(spec);spec.loader.exec_module(check)
         with tempfile.TemporaryDirectory() as d:
             stdout=io.StringIO()

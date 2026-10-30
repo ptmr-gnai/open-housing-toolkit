@@ -3,7 +3,9 @@ import argparse,json,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from local_outputs import new_run,checkout_snapshot,assert_checkout_unchanged
+from housing_common.local_outputs import new_run,checkout_snapshot,assert_checkout_unchanged
+LEGACY=ROOT/'research/legacy-probe'
+sys.path.insert(0,str(LEGACY))
 import pipeline
 
 
@@ -12,13 +14,14 @@ def main():
     before=checkout_snapshot();run=new_run(args.mode);out=run/'core';steps=[]
     print('Local check workspace: '+str(run),flush=True)
     try:
-        pipeline.export(pipeline.build(ROOT/'probe.json'),out,ROOT/'probe.json')
-        commands=[[sys.executable,'lint.py','--run',str(out)],
+        pipeline.export(pipeline.build(LEGACY/'probe.json'),out,LEGACY/'probe.json')
+        commands=[[sys.executable,'research/legacy-probe/lint.py','--run',str(out)],
                   [sys.executable,'-m','unittest','discover','-s','tests','-v'],
-                  [sys.executable,'schema_check.py','--run',str(out)],
-                  [sys.executable,'validate.py',str(out)],
-                  [sys.executable,'replay_check.py','--run',str(out)]]
-        if args.mode=='release':commands += [['node','tests/check_explorer.cjs',str(out)]]
+                  [sys.executable,'-m','unittest','discover','-s','research/legacy-probe/tests','-v'],
+                  [sys.executable,'research/legacy-probe/schema_check.py','--run',str(out)],
+                  [sys.executable,'research/legacy-probe/validate.py',str(out)],
+                  [sys.executable,'research/legacy-probe/replay_check.py','--run',str(out)]]
+        if args.mode=='release':commands += [['node','research/legacy-probe/tests/check_explorer.cjs',str(out)]]
         for i,command in enumerate(commands,1):
             result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True)
             log=f'{i:02d}.log';(run/log).write_text(result.stdout+result.stderr)

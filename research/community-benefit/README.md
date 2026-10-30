@@ -22,10 +22,10 @@ behavioral projections, causal evidence, commitments and value judgments distinc
 No automatic maximal-benefit score is justified. No housing, transit-routing,
 econometric or image-generation model was executed in this research slice.
 
-The subsequent [implementation proposal](../../docs/specs/community-benefit.md)
-turns this research into a bounded plan under the [project tenets](../../docs/tenets.md).
+The subsequent [implementation proposal](../../docs/reference/specs/community-benefit.md)
+turns this research into a bounded plan under the [project tenets](../../docs/reference/tenets.md).
 It remains proposed; the research catalogue is not an implemented benefit engine.
 
-A later [conditional housing-cost slice](../../housing_benefit/README.md) implements
+A later [conditional housing-cost slice](../../src/housing_benefit/README.md) implements
 a bounded subset of the proposal. The research catalogue records its original
 unimplemented backlog and is not the current capability index.

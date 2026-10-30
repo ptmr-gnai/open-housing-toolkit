@@ -22,7 +22,7 @@ def run(out: Path) -> None:
         ['housing_workflow', 'demo', '--out', str(out / 'parcel')],
         ['housing_workflow', 'verify', '--run', str(out / 'parcel')],
         ['housing_recipe', 'build', '--from-run', str(out / 'parcel'), '--recipe',
-         str(ROOT / 'recipes/area-budget.json'), '--out', str(out / 'recipe')],
+         str(ROOT / 'config/recipes/area-budget.json'), '--out', str(out / 'recipe')],
         ['housing_recipe', 'verify', '--run', str(out / 'recipe')],
         ['housing_benefit', 'build', '--analysis', str(out / 'recipe'), '--references',
          str(ROOT / 'examples/affordability-inputs/reference-source'), '--input',

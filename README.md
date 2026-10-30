@@ -9,7 +9,10 @@ professional usefulness, feasibility and submission readiness remain unvalidated
 
 ## Start here
 
-**Have a lot?** Open [Investigate a lot](docs/investigate-a-lot.md). Give your Codex
+[Set up the checkout once](docs/guides/setup.md). The editable install makes the
+modules in src/ available to the existing Python commands; it does not rebuild data.
+
+**Have a lot?** Open [Investigate a lot](docs/guides/investigate-a-lot.md). Give your Codex
 or Claude Code agent a Bronx address or tax-lot identifier (BBL) and your question.
 That guide covers the inputs, sequence, stopping points and final handoff.
 
@@ -20,11 +23,11 @@ python scripts/first_run.py --out runs/my-first-run
 ```
 
 Open `runs/my-first-run/README.md`. The tour uses saved public records and needs
-no API key, pip packages or image tool. [Setup and troubleshooting](docs/first-run.md).
+no API key, optional dependencies or image tool after setup. [Setup and troubleshooting](docs/guides/first-run.md).
 
 New runs stay local. Shipped examples and source snapshots are read-only; setup
 needs no development rebuild. Nothing is automatically committed, pushed or uploaded.
-[Local-only execution and checks](docs/local-only.md).
+[Local-only execution and checks](docs/guides/local-only.md).
 
 ## What you get
 
@@ -40,12 +43,14 @@ The supplied offers are not derived from site capacity or established as fitting
 
 ## Use the parts you need
 
-The [module catalogue](docs/module-catalog.md) covers parcel collection, editable
+The [module catalogue](docs/reference/module-catalog.md) covers parcel collection, editable
 area recipes, offer comparisons, RER preparation, assumed geometry and rendering.
 They can be used independently. Codex uses its image tool when available; the
 current Claude Code path prepares/exports the render brief.
 
 For agents: [AGENTS.md](AGENTS.md) → [start-here](skills/start-here/SKILL.md).
-For project principles and methods: [tenets](docs/tenets.md) ·
-[community-benefit proposal](docs/specs/community-benefit.md).
-For output storage and operating-system support: [storage and platforms](docs/storage-and-platforms.md).
+For project principles and methods: [tenets](docs/reference/tenets.md) ·
+[community-benefit proposal](docs/reference/specs/community-benefit.md).
+For output storage and operating-system support: [storage and platforms](docs/guides/storage-and-platforms.md).
+
+Repository map: [code, configuration, research and local runs](docs/reference/repository-layout.md).

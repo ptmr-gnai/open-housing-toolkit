@@ -4,7 +4,7 @@ Start by reproducing the result you want to challenge. Python 3.11 or later is
 recommended for the complete set of experiments.
 
 ```sh
-python -m pip install -r requirements-dev.txt
+python -m pip install -e ".[dev]"
 make check
 make research-check
 ```

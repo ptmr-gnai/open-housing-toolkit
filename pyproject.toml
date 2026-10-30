@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-housing-toolkit"
+version = "0.1.0"
+description = "Checkout-based, provenance-preserving housing investigation tools"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+geometry = ["shapely==2.2.0"]
+dev = ["jsonschema>=4.23,<5", "shapely==2.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["housing_*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json"]

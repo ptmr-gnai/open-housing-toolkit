@@ -1,5 +1,0 @@
-# Only needed for schema validation, not offline pipeline replay.
-jsonschema>=4.23,<5
-
-# Geometry slice tests and retained mesh verification.
--r requirements-geometry.txt

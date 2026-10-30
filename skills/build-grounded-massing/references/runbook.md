@@ -6,12 +6,12 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_geometry/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_geometry/__main__.py): existing executable entry point; run from the checkout root.
+- [Module guide](../../../src/housing_geometry/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_geometry/__main__.py): existing executable entry point; run from the checkout root.
 
 ## Detailed procedure and boundaries
-Read docs/specs/geometry-grounding.md and housing_geometry/README.md. Install the
-optional geometry dependency with `python -m pip install -r requirements-geometry.txt`.
+Read docs/specs/geometry-grounding.md and src/housing_geometry/README.md. Install the
+optional geometry dependency with `python -m pip install -e ".[geometry]"`.
 Keep mapped boundaries, exploratory design choices and professional judgments distinct.
 
 Use a verified housing_recipe or housing_workflow run with canonical gross-area

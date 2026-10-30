@@ -6,9 +6,9 @@ the user's actual paths/inputs. Read the relevant section below before execution
 
 ## Canonical resources (read only as needed)
 
-- [Module guide](../../../housing_workflow/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
-- [Request contract](../../../housing_workflow/request.schema.json): read before constructing new input.
+- [Module guide](../../../src/housing_workflow/README.md): commands, outputs and supported scope.
+- [CLI implementation](../../../src/housing_workflow/__main__.py): existing executable entry point; run from the checkout root.
+- [Request contract](../../../src/housing_workflow/request.schema.json): read before constructing new input.
 
 ## Detailed procedure and boundaries
 # Prepare an information packet

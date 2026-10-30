@@ -5,14 +5,14 @@ Use fresh output directories and the user's actual paths and canonical inputs.
 
 ## Canonical resources
 
-- [Module guide](../../../housing_benefit/README.md).
-- [CLI implementation](../../../housing_benefit/__main__.py).
-- [Request contract](../../../housing_benefit/request.schema.json).
+- [Module guide](../../../src/housing_benefit/README.md).
+- [CLI implementation](../../../src/housing_benefit/__main__.py).
+- [Request contract](../../../src/housing_benefit/request.schema.json).
 - [Input/reference examples](../../../examples/affordability-inputs/README.md) and [reference preparation script](../../../scripts/prepare_benefit_reference.py).
 
 ## Detailed procedure and limits
 
-Read housing_benefit/README.md and docs/tenets.md. The first slice is a conditional
+Read src/housing_benefit/README.md and docs/tenets.md. The first slice is a conditional
 housing-cost comparison, not a community-benefit forecast or eligibility assessment.
 
 ```sh

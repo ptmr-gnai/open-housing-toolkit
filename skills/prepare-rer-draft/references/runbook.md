@@ -5,15 +5,15 @@ Use fresh output directories and the user's actual paths and canonical inputs.
 
 ## Canonical resources
 
-- [Module guide](../../../housing_rer/README.md).
-- [CLI implementation](../../../housing_rer/__main__.py).
-- [Request contract](../../../housing_rer/request.schema.json).
-- [Pinned guidance](../../../housing_rer/guidance.json), [instruction map](../../../housing_rer/requirements.json) and [source-preparation script](../../../scripts/prepare_rer_guidance.py). Source preparation is separate from ordinary offline runtime.
+- [Module guide](../../../src/housing_rer/README.md).
+- [CLI implementation](../../../src/housing_rer/__main__.py).
+- [Request contract](../../../src/housing_rer/request.schema.json).
+- [Pinned guidance](../../../src/housing_rer/guidance.json), [instruction map](../../../src/housing_rer/requirements.json) and [source-preparation script](../../../scripts/prepare_rer_guidance.py). Source preparation is separate from ordinary offline runtime.
 
 ## Detailed procedure and limits
 
 Use for a practitioner reviewing how a housing-program comparison maps to NYC's
-pinned RER guide and form. Read housing_rer/README.md and docs/tenets.md first.
+pinned RER guide and form. Read src/housing_rer/README.md and docs/tenets.md first.
 
 ```sh
 python -m housing_rer demo --out runs/rer-draft

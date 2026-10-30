@@ -1,0 +1,83 @@
+# Skill design review and next revision
+
+Reviewed 2026-10-30 against the sources below. This is an authoring review, not
+confirmation that our skills work in every host. Existing bound leaf skills and
+historical experiment receipts have not been rewritten.
+
+## Guidance inspected
+
+- [Anthropic: skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices):
+  concise instructions, clear sequential checklists, validation before continuing,
+  feedback loops, shallow reference links, declared dependencies and real-use testing.
+- [OpenAI: build skills](https://learn.chatgpt.com/docs/build-skills):
+  skills load progressively; descriptions should identify the task and its boundaries.
+  Instructions, optional scripts and references form a reusable workflow.
+- [OpenAI: plugin skill authoring](https://developers.openai.com/plugins/build/skills):
+  focused user goals, explicit tool sequences and decision points; evaluate direct,
+  indirect, incomplete, irrelevant and unsupported requests, including output quality.
+- [Agent Skills specification](https://agentskills.io/specification):
+  required name/description metadata, optional compatibility metadata, scripts,
+  references and assets; reference files directly instead of long link chains.
+- [Claude Code: skills](https://code.claude.com/docs/en/skills):
+  project skill discovery uses `.claude/skills/`; root `skills/` is also a plugin
+  layout. Our checkout currently uses explicit AGENTS.md/CLAUDE.md routing. Reading
+  files through that route is not proof of native skill-menu discovery.
+
+These are inspected documentation sections, not a comprehensive survey. They do
+not prescribe a universal automatic chain-of-skills protocol. The following
+architecture is our engineering recommendation.
+
+## Proposed sequence contract
+
+Keep one coordinator for intake and routing. Load a leaf skill only when its task
+is selected; do not require reading every skill or running every module first.
+Each leaf should expose this compact contract:
+
+| Field | Required content |
+| --- | --- |
+| Trigger / scope | User goal and unsupported cases |
+| Preflight | Execution capability, dependencies, real inputs, fresh output path |
+| Inputs | Exact schemas, units, upstream package and verification command |
+| Steps | Commands or tool actions in order, with explicit decision points |
+| Outputs | Named files, actual absolute location, stage/status |
+| Gate | Validator to run before the next consumer; no invented defaults |
+| Recovery | What remains usable after failure; how to revise into a new run |
+| Handoff | Next eligible skill and required artifacts; optional branches |
+| Limits | Engineering validation versus professional interpretation |
+
+Enforce fixed, fragile steps in code. Keep practitioner choices and explanation in
+the skill. Our first-run runner already sequences verified packages and stops on
+failure, but its fixed tour is not a general workflow engine. Its ledger and logs
+are execution diagnostics; module manifests bind analytical inputs and outputs.
+
+Resume from a verified package, not from an agent's recollection that a prior step
+succeeded. A missing image tool yields a completed brief and deferred generation;
+it must not produce fabricated invocation/review records. Missing program facts
+remain missing rather than becoming inferred official fields.
+
+## Implemented first revision
+
+Current operational playbooks now live under `skills/`, selected through
+[the active catalogue](../../skills/catalog.json). Each has a short entry contract and
+an on-demand execution reference with canonical commands, schemas and examples.
+The coordinator loads only the selected task; its tour uses the deterministic
+runner without preloading all leaf instructions. Original leaf bytes and their original executable verifiers
+are retained under archive/skill-layout-v0; historical example manifests are unchanged. The onboarding checker covers active
+resource links, current routes, a local 100-line entry budget and historical hashes.
+This is a repository-based revision, not a verified native skill installation.
+
+## Remaining work before describing skills as polished
+
+1. Exercise the revised leaf contracts and examples on real practitioner tasks.
+2. Make model-to-visual, optional geometry and report handoffs explicit in the
+   coordinator; retain unsupported adapters as unsupported.
+3. Package/discover skills in actual Codex and Claude Code hosts without duplicating
+   canonical instructions. Decide checkout dependency versus portable bundles.
+4. Test activation, branching, incomplete input, failure and resume in each host.
+   A fresh AI walkthrough of the fixed tour does not cover these cases.
+5. Declare and test platform support. See [storage and platforms](../guides/storage-and-platforms.md).
+
+Changing active leaf skills or references stales current-version runs. Rebuild
+explicitly into fresh directories rather than patching receipt hashes. The original
+examples are verified through their archived original runtime after the layout
+migration; that mechanism does not implement the remaining host-usability work.
