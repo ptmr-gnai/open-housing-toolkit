@@ -533,3 +533,21 @@ validation; immutable manifests and experiment outputs are not rewritten. Any
 old ignored local artifacts are retained under ignored runs/, never staged as
 research data. Dependency declarations are consolidated in pyproject extras;
 historical pinned dependency files remain in their original code archives.
+
+## Whole-flow routing
+
+A live request for 1337 Jerome Avenue to “do the whole flow” reached a verified
+parcel packet but stopped with missing inputs instead of asking the practitioner
+and guiding later branches. The entry now routes broad requests through a resumable
+stage ledger and focused intake, while preserving evidence-only and independent
+module paths. This is agent guidance, not a new orchestration engine; text/link
+checks cannot establish agent behavior or professional completeness.
+
+
+## Practitioner conversation
+
+The full-flow route could still present module inputs without teaching a novice what
+the toolkit can do or how to choose. The coordinator now guides new and returning
+practitioners through outcomes, capability-aware preflight, one or two decisions at
+a time and a resumable local ledger. This remains agent guidance, not automatic
+conversation state or a guarantee of professional completeness.

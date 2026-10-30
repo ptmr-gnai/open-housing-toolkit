@@ -41,7 +41,9 @@ Tell the user where `packet.html`, `packet.md`, `ir.json`, `image-prompts.json` 
 
 Ask for the Bronx tax-lot BBL or exact street address and the decision/question this investigation should support. If an address is ambiguous or absent from PLUTO, ask for a BBL. Do not silently choose a parcel or broaden the jurisdiction.
 
-Offer an optional area-budget scenario: total gross area, nonresidential gross allocation, residential net efficiency and average net home size. Every value needs a rationale and must be identified as user-supplied or hypothetical. Do not invent a scenario because a field is missing. The evidence-only path is useful.
+Offer an optional area-budget scenario: total gross area, nonresidential gross allocation, residential net efficiency and average net home size. Every value needs a rationale and must be identified as user-supplied or hypothetical. Do not invent a scenario because a field is missing. The evidence-only path is useful
+for a narrow request; for whole-flow intent, follow the
+[full-flow route](../../start-here/references/full-flow.md) after the parcel gate.
 
 Create a new request JSON following `src/housing_workflow/request.schema.json`; use `examples/parcel-investigation/request.json` as a format example, never as facts about another site. `python -m housing_workflow init --out runs/my-inputs/request.json` is the interactive human alternative; agents should gather answers in chat and write the JSON directly.
 

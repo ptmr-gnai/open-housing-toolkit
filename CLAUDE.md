@@ -1,7 +1,9 @@
 # Open Housing Toolkit — Claude Code
 
 Read [AGENTS.md](AGENTS.md), then [the start-here skill](skills/start-here/SKILL.md).
-Use the shared repository skills and Python commands; no separate Claude plugin
+For first-time, uncertain, broad or whole-flow requests follow the
+[practitioner guide](skills/start-here/SKILL.md#practitioner-guide), including
+conversational intake and resumable stage status. Use the shared repository skills and Python commands; no separate Claude plugin
 installation is required for this checkout-based workflow.
 
 For this project's current Claude Code path, image generation is unavailable.

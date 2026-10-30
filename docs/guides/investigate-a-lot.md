@@ -3,7 +3,9 @@
 Give this guide to Codex or Claude Code with your Bronx address or tax-lot BBL and
 a question. BBL is the ten-digit tax-lot identifier. The agent gathers your inputs, writes the existing module requests,
 runs the supported steps, and returns a short cover note with linked packets.
-This guide coordinates the existing tools; there is no new one-command live runner
+For a whole-flow or full-exploration request, follow the
+[start-here full-flow route](../../skills/start-here/SKILL.md#full-flow-requests),
+which guides intake and records resumable stage status. This guide coordinates the existing tools; there is no new one-command live runner
 or automatic converter for arbitrary agency documents.
 
 No development build or regeneration is needed to use the checkout. Keep requests,
@@ -22,7 +24,7 @@ Copy this request and fill in the first two lines:
 >
 > Follow docs/investigate-a-lot.md. Collect live public records, preserve source
 > dates and unknowns, and return a short cover note with links to the evidence.
-> Ask for optional modeling inputs only if my question needs them. Keep working
+> Ask for modeling inputs when needed for my question; for a whole-flow request, guide me through applicable stages. Keep working
 > files under a fresh runs/ directory. Do not invent a building, program or photo.
 
 A site and question are enough to start. No area or rental program is required.
@@ -34,7 +36,7 @@ need before evaluating a housing scenario.
 | Step | Inputs you supply | If absent |
 | --- | --- | --- |
 | Evidence | Address or BBL, question | Ask for them; resolve ambiguous addresses before collecting other data |
-| Area model | Gross area, nonresidential allocation, net efficiency, average net home size, with rationales | Return evidence without inventing a home count |
+| Area model | Gross area, nonresidential allocation, net efficiency, average net home size, with rationales | For a narrow evidence request, return evidence; for whole-flow intent, ask or propose labeled assumptions for approval without inventing a home count |
 | Rental offers | Unit mix, bedrooms, rents, utilities, proposed restriction durations, household profiles and price/reference year | Defer comparison; do not turn home-equivalents into units |
 | NYC Racial Equity Report (RER) preparation | Verified comparison and preparer/date; identify missing professional evidence | Return incomplete drafts and missing-data states |
 | Site image | Actual reference photo and explicit visual assumptions | Return available diagram/brief materials and name missing inputs; do not invent a site rendering |
@@ -83,7 +85,7 @@ passage or verified packet. Label interpretation as an attributed judgment.
 
 The note must connect the recorded site context to the scenarios: what came from
 public records, what was supplied as an assumption, and what remains unreconciled.
-State which stages completed, were not requested or were blocked. Do not present
+For a whole-flow request, use the full-flow stage states and record how to resume. For a narrower request, state which stages completed, were not requested or were blocked. Do not present
 missing RER fields as a completed report, or an illustration as proof of fit.
 The narrative cover note is not automatically verified by the module verifiers.
 

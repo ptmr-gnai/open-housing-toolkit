@@ -33,8 +33,10 @@ and their prompt/reference/review records in the local run; do not publish them.
    Missing assets require supplied assets; do not substitute an unrelated example.
 6. Route by the agent runtime. In Codex, confirm the image tool is actually exposed
    and supports the required references. In Claude Code, take the export path.
-   If the Codex tool is unexpectedly unavailable, use the same export fallback
-   and explain the missing capability. Do not request credentials to compensate.
+   If the Codex tool is unexpectedly unavailable, explicitly tell the user that
+   image generation is unavailable here and offer the export fallback when its inputs
+   exist. If no photo was supplied, ask for a real site photo or a supplied Street
+   View screenshot and the intended concept; do not invent a design or a prepared brief. Do not request credentials to compensate.
 
 Before running, state the selected task, prerequisites found/missing, route and
 expected output. This is an agent-observed preflight, not an implemented automatic

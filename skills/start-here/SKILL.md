@@ -10,7 +10,10 @@ Choose the user's task first; an independent module does not require the full to
 Default to a local user run: no shipped-data regeneration and no commits, pushes
 or uploads. Setup does not require development builds/checks. Use fresh ignored
 outputs and follow [the local-only policy](../../docs/guides/local-only.md).
-For a live known-lot workflow, read [Investigate a lot](../../docs/guides/investigate-a-lot.md).
+A site-only address or BBL without an outcome needs the guided outcome menu, not
+the narrow evidence shortcut. For first-time, site-only, uncertain, broad and
+full-flow requests, follow [the practitioner guide](references/full-flow.md) and
+keep its stage ledger. For an explicitly narrower live known-lot workflow, read [Investigate a lot](../../docs/guides/investigate-a-lot.md).
 It collects the inputs and sequences existing modules. Return the linked cover-note
 template as a reviewer-authored handoff; do not claim it is automatically verified.
 
@@ -33,3 +36,15 @@ all leaf skills before a tour; the script enforces its fixed sequence.
 For output locations and Mac/Windows status, read [storage and platforms](../../docs/guides/storage-and-platforms.md).
 The [active catalogue](../catalog.json) distinguishes current playbooks from frozen
 historical instructions. Native host-menu installation is not implemented.
+
+## Practitioner guide
+
+For a first-time, uncertain or broad request, read and follow the
+[practitioner guide](references/full-flow.md). Welcome and teach in plain language,
+use supplied information and guide the next decisions without repeating intake.
+For a whole flow, continue beyond evidence, and record and resume applicable stages.
+Independent and evidence-only requests keep their own scope.
+
+## Full-flow requests
+
+The [practitioner guide](references/full-flow.md) is the canonical full-flow route.

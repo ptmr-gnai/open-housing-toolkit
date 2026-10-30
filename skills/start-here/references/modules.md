@@ -5,6 +5,7 @@ linked skill for input collection, execution and verification.
 
 | Need | Skill | Contracts / implementation / references |
 | --- | --- | --- |
+| Guide a first-time, uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
 | Investigate a Bronx lot | [housing-investigation](../../housing-investigation/SKILL.md) | [workflow guide](../../../src/housing_workflow/README.md), [request schema](../../../src/housing_workflow/request.schema.json), [workflow](../../../config/workflows/parcel-investigation.json) |
 | Edit area arithmetic | [run-analysis-recipe](../../run-analysis-recipe/SKILL.md) | [recipe guide](../../../src/housing_recipe/README.md), [base recipe](../../../config/recipes/area-budget.json) |
 | Compare explicit housing offers | [compare-housing-programs](../../compare-housing-programs/SKILL.md) | [guide](../../../src/housing_benefit/README.md), [request schema](../../../src/housing_benefit/request.schema.json), [example inputs and reference pack](../../../examples/affordability-inputs/README.md) |

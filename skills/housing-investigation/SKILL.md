@@ -5,7 +5,10 @@ description: Investigate one Bronx parcel using public records, explicit scenari
 
 # Housing investigation
 
-Investigate one supported Bronx parcel; use evidence-only output unless an area scenario was explicitly supplied.
+Investigate one supported Bronx parcel. Use evidence-only output for this module when
+no area scenario is supplied; for a whole-flow request, return to the
+[start-here full-flow route](../start-here/SKILL.md#full-flow-requests) and continue
+intake and independent branches instead of ending the overall task.
 
 ## Inputs and preflight
 

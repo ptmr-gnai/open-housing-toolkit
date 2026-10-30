@@ -9,7 +9,17 @@ Codex uses its included image tool when exposed; Claude Code currently prepares
 and exports the render package. Neither route requires a separately configured
 image API key. Claude Code also has [CLAUDE.md](CLAUDE.md) as its entry point.
 
-For a live known-lot request, follow [Investigate a lot](docs/guides/investigate-a-lot.md):
+For a bare address or BBL with no requested outcome, offer an early short menu of
+possible outputs, including “unsure, help me choose”; do not ask for the site again.
+Follow the practitioner guide for this and other first-time, uncertain, broad or
+whole-flow requests. An explicit evidence-only or other specific request stays narrow.
+
+For these guided requests, follow the
+[practitioner guide](skills/start-here/SKILL.md#practitioner-guide) in start-here.
+Use information already supplied, and do not silently finish after evidence when
+later stages need input. Direct expert and evidence-only requests keep their scope.
+
+For an explicitly narrower live known-lot request, follow [Investigate a lot](docs/guides/investigate-a-lot.md):
 collect only needed inputs, verify stage outputs, and return a short cited cover
 note connecting the site's recorded conditions to the supplied assumptions.
 
