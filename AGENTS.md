@@ -9,6 +9,10 @@ Codex uses its included image tool when exposed; Claude Code currently prepares
 and exports the render package. Neither route requires a separately configured
 image API key. Claude Code also has [CLAUDE.md](CLAUDE.md) as its entry point.
 
+For a live known-lot request, follow [Investigate a lot](docs/investigate-a-lot.md):
+collect only needed inputs, verify stage outputs, and return a short cited cover
+note connecting the site's recorded conditions to the supplied assumptions.
+
 ## Ground rules
 
 - Read [the tenets](docs/tenets.md). Practitioners choose questions and interpret

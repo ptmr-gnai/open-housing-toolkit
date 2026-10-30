@@ -466,3 +466,19 @@ No photo, surveyed massing, image-provider execution or complete official report
 was tested. The README now gives two primary paths: try the example or investigate
 a lot. Full expert validation, community data and supported geometric/visual
 handoffs remain separate work.
+
+
+## One live-workflow entry and final handoff
+
+The README had two Start here headings and interleaved the hero path with long
+module/research instructions. Reduced it to one entry with two clear paths and
+moved detailed existing material to an on-demand catalogue. Added a live-lot guide
+with minimum/optional inputs, staged skill links, verification gates, supported
+income-reference limits and explicit visual stopping rules. The agent still
+translates a brief into existing contracts; no automatic live-run adapter is claimed.
+
+Added a short reviewer-authored cover-note template linking site context,
+independent scenarios, missing evidence and stage status. It is not an automatically
+validated projection. The clarity pass changes navigation and handoff instructions,
+not analytical contracts or frozen run artifacts. Local review reports/outputs are
+not copied into the repository.

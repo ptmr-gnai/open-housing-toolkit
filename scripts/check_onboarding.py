@@ -56,7 +56,9 @@ def check(root=ROOT):
             if not runbook.exists() or runbook.read_text().splitlines()[0] != '# '+skill.parent.name+': execution reference':
                 problems.append(f'{skill}: execution reference belongs to the wrong skill')
         resources.extend(refs)
-    docs = [root / 'AGENTS.md', root / 'CLAUDE.md', root / 'docs/first-run.md',
+    docs = [root / 'README.md', root / 'AGENTS.md', root / 'CLAUDE.md', root / 'docs/first-run.md',
+            root / 'docs/investigate-a-lot.md', root / 'docs/module-catalog.md',
+            root / 'templates/review-cover-note.md',
             root / 'skills/README.md', *skills, *resources]
     for doc in docs:
         if not doc.exists():
