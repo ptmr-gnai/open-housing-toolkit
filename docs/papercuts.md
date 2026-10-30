@@ -358,3 +358,18 @@ agent responsibilities, not implemented CLI features. A prepared external-refere
 brief can verify while its original photo is unavailable; generation needs a
 separate asset check. Existing bound leaf skills and historical receipts are
 preserved; this routing documentation is not a tested Claude Code session.
+
+
+## Skill authoring and platform review
+
+Official skill guidance favors concise, progressively loaded instructions,
+sequential checklists and validation/recovery gates. Our fixed runner is tested,
+but per-host activation and general skill chaining remain untested. Root skills/
+plus instruction-file routing is not native skill discovery. Recorded a sourced
+[design review](skill-design-review.md), with pending leaf-contract revisions.
+
+Platform inspection found default text encoding/newline writes alongside exact
+byte verification; native Windows cannot yet be promised. Git newline conversion
+can also alter bound checkout bytes. Documented local versus hosted output storage,
+whole-package handoff and WSL recommendation; added a macOS walkthrough smoke job.
+Do not rewrite raw sources or silently regenerate hashes to claim portability.

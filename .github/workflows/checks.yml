@@ -23,3 +23,15 @@ jobs:
         run: python scripts/first_run.py --out "$RUNNER_TEMP/housing-first-run"
       - name: Validate retained research experiments
         run: make research-check
+
+  macos-walkthrough:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check onboarding links
+        run: python scripts/check_onboarding.py
+      - name: Exercise offline walkthrough without optional dependencies
+        run: python scripts/first_run.py --out runs/macos-first-run

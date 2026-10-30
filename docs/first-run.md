@@ -42,6 +42,9 @@ Follow [task-specific preflight and the render branches](../skills/start-here/re
 There is no automatic runtime detector; the agent checks its exposed tools and
 required inputs. Image generation is not a prerequisite for the other modules.
 
+For exact output locations, hosted-workspace behavior and current Mac/Windows
+support, read [storage and platforms](storage-and-platforms.md).
+
 ## Reading the replay
 
 Start with the short final RER index and coverage, then follow specific source or

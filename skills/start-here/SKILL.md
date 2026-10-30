@@ -77,6 +77,11 @@ Read the selected leaf skill, its linked module README and canonical contracts.
 Preserve unknowns and unsupported handoffs. Geometry and image generation are
 optional branches: do not run them just because the investigation succeeded.
 
+Read [storage and platforms](../../docs/storage-and-platforms.md) when explaining
+where files are saved or choosing a platform. Linux is exercised; native Windows
+is not yet verified. macOS has a dedicated CI smoke check. Do not infer local disk
+storage from a path produced in a hosted agent workspace.
+
 ## 4. Return a useful handoff
 
 Report the actual commands executed, paths to readable packets and typed IR,
