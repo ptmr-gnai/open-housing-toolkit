@@ -10,6 +10,8 @@ ROOT=Path(__file__).resolve().parents[1]
 def implementation():
     paths=sorted((ROOT/'housing_recipe').glob('*.py'))+sorted((ROOT/'housing_recipe').glob('*.json'))
     paths += [ROOT/'skills/run-analysis-recipe/SKILL.md']
+    paths += [ROOT/'housing_runtime.py']
+    paths += [ref for skill in list(paths) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in paths}
 
 
@@ -41,7 +43,9 @@ def inventory(folder):
 def verify(folder):
     m=load(folder/'manifest.json')
     if m.get('module')!='analysis-recipe':raise ValueError('Not a recipe run')
-    if m['implementation']!=implementation():raise ValueError('Recipe implementation changed; versioned rebuild required')
+    if m['implementation']!=implementation():
+        from housing_runtime import verify_historical
+        return verify_historical('housing_recipe', folder)
     if m['files']!=inventory(folder):raise ValueError('Recipe run inventory or artifact hash changed')
     for name,value in compiled(folder).items():
         if (folder/name).read_bytes()!=value.encode():raise ValueError('Recipe projection differs: '+name)

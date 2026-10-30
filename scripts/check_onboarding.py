@@ -16,13 +16,16 @@ LEAVES = {
 def check(root=ROOT):
     problems = []
     catalog = json.loads((root / 'skills/catalog.json').read_text())
-    expected = {'skills/start-here/SKILL.md'} | {f'skills/current/{n}/SKILL.md' for n in LEAVES}
+    expected = {'skills/start-here/SKILL.md'} | {f'skills/{n}/SKILL.md' for n in LEAVES}
     if catalog.get('version') != '1.0' or catalog.get('entry') != 'skills/start-here/SKILL.md':
         raise ValueError('Unsupported skill catalogue or coordinator')
     if set(catalog['active']) != expected or len(catalog['active']) != len(expected):
         raise ValueError('Active skill catalogue coverage differs')
+    discovered = {str(p.relative_to(root)) for p in (root/'skills').glob('*/SKILL.md')}
+    if discovered != expected or (root/'skills/current').exists():
+        raise ValueError('Active skills must be directly under skills/<skill-name>/')
     historical = catalog['historical_bound']
-    if {h['path'] for h in historical} != {f'skills/{n}/SKILL.md' for n in LEAVES} or len(historical) != len(LEAVES):
+    if {h['path'] for h in historical} != {f'archive/skill-layout-v0/skills/{n}/SKILL.md' for n in LEAVES} or len(historical) != len(LEAVES):
         raise ValueError('Historical skill inventory differs')
     for item in historical:
         path = root / item['path']
@@ -66,7 +69,7 @@ def check(root=ROOT):
     text = mapping.read_text()
     for name in ['housing-investigation', 'run-analysis-recipe', 'compare-housing-programs',
                  'prepare-rer-draft', 'build-grounded-massing', 'prepare-render-brief', 'render-site-concept']:
-        if f'../../current/{name}/SKILL.md' not in text:
+        if f'../../{name}/SKILL.md' not in text:
             problems.append(f'Coordinator missing current route: {name}')
     if '../../scripts/first_run.py' not in (root / 'skills/start-here/SKILL.md').read_text():
         problems.append('Coordinator missing shared walkthrough script')

@@ -1,0 +1,26 @@
+{
+  "pluto": {
+    "dataset": "64uk-42ks", "bbl_type": "number", "publisher": "NYC Department of City Planning",
+    "fields": ["bbl", "address", "borough", "block", "lot", "lotarea", "bldgarea", "unitsres", "unitstotal", "bldgclass", "landuse", "zonedist1", "zonedist2", "overlay1", "spdist1", "spdist2", "irrlotcode", "residfar", "builtfar", "numfloors", "edesignum", "latitude", "longitude", "version"],
+    "order": "bbl", "catalog": "https://data.cityofnewyork.us/d/64uk-42ks",
+    "limits": "Tax-lot attributes may lag actual conditions. Zoning fields are recorded descriptors, not a legal entitlement analysis. Zero recorded residential units does not mean vacancy or no displacement."
+  },
+  "dob_bis": {
+    "dataset": "ic3t-wcy2", "bbl_type": "text", "publisher": "NYC Department of Buildings",
+    "fields": ["bbl", "job__", "doc__", "job_type", "job_status_descrp", "pre__filing_date", "latest_action_date", "signoff_date", "existing_dwelling_units", "proposed_dwelling_units", "job_description", "bin__", "house__", "street_name"],
+    "order": "job__,doc__", "catalog": "https://data.cityofnewyork.us/d/ic3t-wcy2",
+    "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes."
+  },
+  "dob_now": {
+    "dataset": "w9ak-ipjd", "bbl_type": "text", "publisher": "NYC Department of Buildings",
+    "fields": ["bbl", "job_filing_number", "job_type", "filing_status", "filing_date", "current_status_date", "existing_dwelling_units", "proposed_dwelling_units", "job_description", "bin", "house_no", "street_name"],
+    "order": "job_filing_number", "catalog": "https://data.cityofnewyork.us/d/w9ak-ipjd",
+    "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity."
+  },
+  "hpd_violations": {
+    "dataset": "wvxf-dwi5", "bbl_type": "text", "publisher": "NYC Housing Preservation and Development",
+    "fields": ["bbl", "violationid", "inspectiondate", "class", "violationstatus", "currentstatus", "novdescription", "bin"],
+    "order": "violationid", "catalog": "https://data.cityofnewyork.us/d/wvxf-dwi5",
+    "limits": "Recorded housing violation rows, not occupancy, executed evictions, or a displacement measure. Empty results do not prove no housing, no violations, or a safe building."
+  }
+}

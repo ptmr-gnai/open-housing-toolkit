@@ -1,22 +1,21 @@
 # Repository skills
 
-Start with [start-here](start-here/SKILL.md). Current operational leaf playbooks
-live under `current/`; each has a short SKILL.md and an on-demand execution reference.
-The [catalogue](catalog.json) identifies active entries and byte-bound historical
-skill files. There is one coordinator and ten active leaf skills.
+Start with [start-here](start-here/SKILL.md). Each active skill lives directly under
+`skills/<skill-name>/`, with a short SKILL.md and on-demand references. Scripts
+remain canonical in their Python modules or shared scripts directory and are linked
+by those references. No extra current/ layer or duplicate script wrappers are used.
 
-Root-level leaf directories are frozen instructions retained for existing module
-implementation hashes and worked experiments. Their original bytes are preserved;
-they are not the recommended current entry points. Older workflow snapshots still
-identify those historical instructions. The current catalogue describes agent
-routing, not a replacement analytical workflow contract.
+The [catalogue](catalog.json) lists one coordinator and ten leaf skills. This is
+checkout-based use through AGENTS.md/CLAUDE.md; native host-menu discovery and a
+portable installer remain separate work.
 
-Scripts remain canonical in their Python modules or shared scripts directory and
-are linked by the execution references. No duplicate script copies or wrappers are
-needed. This remains checkout-based, explicitly routed use through AGENTS.md and
-CLAUDE.md; native host-menu discovery and portable skill installation remain pending.
+Historical instructions and their original executable verifiers are frozen in
+[archive/skill-layout-v0](../archive/skill-layout-v0/README.md). Retained examples
+keep their original manifests and provider records. On an implementation mismatch,
+the current verifier checks the archive and runs that original verifier in an
+separate Python process. Unknown implementations or changed artifacts still fail;
+we do not regenerate hashes to make historical packages pass.
 
-Module manifests still bind their original analytical implementation and historical
-workflow skills. The new operational catalogue is not automatically copied into
-runs, and host activation of a current playbook is not yet recorded as an execution
-receipt. Do not claim that current-skill invocation provenance is implemented.
+New builds bind the current skill entry and its local execution references, plus
+the shared runtime helper. Host skill activation itself is not automatically
+recorded as an agent-execution receipt.

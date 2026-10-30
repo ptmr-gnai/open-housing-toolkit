@@ -98,9 +98,10 @@ class RenderTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)
             shutil.copytree(engine.ROOT/'housing_render',root/'housing_render',ignore=shutil.ignore_patterns('__pycache__','tests'))
+            shutil.copyfile(engine.ROOT/'housing_runtime.py',root/'housing_runtime.py')
             (root/'workflows').mkdir();shutil.copyfile(engine.WORKFLOW,root/'workflows/site-concept.json')
             for name in ['prepare-render-brief','render-site-concept']:
-                dest=root/'skills'/name;dest.mkdir(parents=True);shutil.copyfile(engine.ROOT/'skills'/name/'SKILL.md',dest/'SKILL.md')
+                shutil.copytree(engine.ROOT/'skills'/name,root/'skills'/name)
             c.save(root/'scene.json',SCENE);c.save(root/'scenario.json',SCENARIO)
             r=subprocess.run([sys.executable,'-m','housing_render','prepare','--scene','scene.json','--scenario','scenario.json','--out','run'],cwd=root,capture_output=True,text=True)
             self.assertEqual(r.returncode,0,r.stderr)

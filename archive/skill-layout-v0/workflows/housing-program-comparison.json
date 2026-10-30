@@ -1,0 +1,12 @@
+{
+  "id": "housing-program-comparison",
+  "version": "0.1.0",
+  "status": "conditional_housing_cost_slice_not_causal_community_benefit",
+  "steps": [
+    {"id": "intake", "input": "verified site analysis, explicit illustrative programs and household profiles", "output": "request.json"},
+    {"id": "references", "input": "source-pinned selected historical guidance passages", "output": "typed source rows with table vintages and original-document identifiers"},
+    {"id": "compare", "input": "validated money, homes, bedrooms, durations and price year", "output": "typed graph, cost comparisons, separate tradeoff dimensions"},
+    {"id": "publish", "input": "same IR and unresolved review gates", "output": "packet, CSV and inventory"}
+  ],
+  "not_covered": ["Income or housing eligibility determination", "Binding restriction certification", "Current occupancy or direct losses", "Future no-action baseline", "Delivery forecasts", "Transit access", "Causal outcomes", "Aggregate benefit ranking", "Professional acceptance"]
+}

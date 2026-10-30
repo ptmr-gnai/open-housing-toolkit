@@ -1,0 +1,12 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Parcel investigation request 0.2.0",
+ "type":"object","additionalProperties":false,"required":["version","question"],
+ "oneOf":[{"required":["bbl"],"not":{"required":["address"]}},{"required":["address"],"not":{"required":["bbl"]}}],
+ "properties":{
+  "version":{"const":"0.2.0"},"bbl":{"type":"string","pattern":"^2[0-9]{9}$"},
+  "address":{"type":"string","minLength":3,"maxLength":160},"question":{"type":"string","minLength":1,"maxLength":2000},
+  "scenario":{"oneOf":[{"type":"null"},{"type":"object","additionalProperties":false,"required":["name","gross_area_sf","nonresidential_gross_sf","residential_net_efficiency","average_net_home_sf"],"properties":{"name":{"type":"string","minLength":1},"gross_area_sf":{"$ref":"#/$defs/input"},"nonresidential_gross_sf":{"$ref":"#/$defs/input"},"residential_net_efficiency":{"$ref":"#/$defs/input"},"average_net_home_sf":{"$ref":"#/$defs/input"}}}]}
+ },
+ "$defs":{"input":{"type":"object","additionalProperties":false,"required":["value","rationale"],"properties":{"value":{"type":"number"},"rationale":{"type":"string","minLength":1}}}}
+}

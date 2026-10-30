@@ -39,7 +39,7 @@ requested local preparation or generation.
 
 ## Render branch: common preparation
 
-Read [prepare-render-brief](../../current/prepare-render-brief/SKILL.md). Supply the scene
+Read [prepare-render-brief](../../prepare-render-brief/SKILL.md). Supply the scene
 and explicit scenario; analysis context is optional. Prepare into a fresh directory
 and run `python -m housing_render verify --run YOUR_RUN`. Inspect `brief.md`,
 `prompt.txt` and `render-brief.json`. A valid brief can exist without an accessible
@@ -47,7 +47,7 @@ conversation photo; verify that asset separately before promising generation.
 
 ## Codex: generate when requested
 
-Read [render-site-concept](../../current/render-site-concept/SKILL.md) and the current host
+Read [render-site-concept](../../render-site-concept/SKILL.md) and the current host
 image-tool instructions. Use the exact compiled prompt and declared reference,
 inspect an unseen local image first, and use the host-supported reference mechanism.
 Do not assume a particular tool name or argument schema exists in every Codex host.

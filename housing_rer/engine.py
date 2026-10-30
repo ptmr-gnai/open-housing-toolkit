@@ -15,6 +15,8 @@ ROOT=Path(__file__).resolve().parents[1]
 def implementation():
     paths=sorted((ROOT/'housing_rer').glob('*.py'))+sorted((ROOT/'housing_rer').glob('*.json'))
     paths += [ROOT/'workflows/rer-preparation.json',ROOT/'skills/prepare-rer-draft/SKILL.md',ROOT/'scripts/prepare_rer_guidance.py']
+    paths += [ROOT/'housing_runtime.py']
+    paths += [ref for skill in list(paths) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in paths}
 
 
@@ -51,7 +53,9 @@ def inventory(folder):
 def verify(folder):
     m=load(folder/'manifest.json')
     if m.get('module')!='rer-preparation' or m.get('version')!='0.1.0':raise ValueError('Unsupported RER preparation manifest')
-    if m['implementation']!=implementation():raise ValueError('RER implementation/guidance map changed; versioned rebuild required')
+    if m['implementation']!=implementation():
+        from housing_runtime import verify_historical
+        return verify_historical('housing_rer', folder)
     if m['files']!=inventory(folder):raise ValueError('RER inventory or artifact hash changed')
     for name,text in outputs(folder).items():
         if (folder/name).read_bytes()!=text.encode():raise ValueError('RER output differs from retained inputs: '+name)

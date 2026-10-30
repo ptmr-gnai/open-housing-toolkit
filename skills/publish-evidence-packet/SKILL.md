@@ -3,18 +3,30 @@ name: publish-evidence-packet
 description: Verify and present a portable information packet and its machine-readable image brief without upgrading evidence to professional clearance.
 ---
 
-# Prepare an information packet
+# Publish evidence packet
 
-The model build produces `packet.md`, self-contained `packet.html`, `ir.json`, `image-prompts.json`, `calculation-steps.csv`, source responses, receipts, request and a workflow snapshot. No hosted application or model service is required.
+Verify and present an existing parcel packet and its machine-readable outputs.
 
-Before presenting:
+## Inputs and preflight
 
-```sh
-python -m housing_workflow verify --run runs/my-investigation
-```
+A built parcel run containing inputs, sources, IR and packet exports. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-Verification checks byte bindings, packet inventory, parcel/query identity, source pointers, calculation dependencies and regenerated projections. It cannot establish semantic completeness or professional acceptance. Identify failed sources, uncovered stages, unreviewed judgments and hypothetical assumptions alongside relevant conclusions.
+## Execute
 
-Deliver a short summary and paths to the readable packet and JSON. The image brief binds displayed values to claims and the model hash; it permits a labeled area diagram/evidence card only. Geometry is unverified, so a photorealistic site design is not grounded by this output. Proposal writing and later image generation can consume the packet but must preserve its conditions and unresolved constraints.
+Read the runbook, run verify and inspect material assumptions, failed sources and unknowns.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
 
-This step writes local artifacts. It does not send email, submit a proposal, deploy a website or publish a claim to others. Public communication requires a separately authorized action and appropriate evidence for the specific claims.
+## Validate and hand off
+
+Return actual absolute paths, source vintage, limitations and next questions. The diagram brief is optional.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+Eligible next steps: [run-analysis-recipe](../run-analysis-recipe/SKILL.md) (optional explicit area-method revision). Load only the requested branch.
+
+## Limits
+
+Presentation of local outputs is not email, public publishing or submission; a verified graph is not professional acceptance.

@@ -10,6 +10,8 @@ WORKFLOW = ROOT / 'workflows/parcel-investigation.json'
 def implementation():
     files = sorted((ROOT/'housing_workflow').glob('*.py')) + sorted((ROOT/'housing_workflow').glob('*.json')) + [WORKFLOW]
     files += [ROOT/name for name in sorted({s['skill'] for s in load(WORKFLOW)['steps']})]
+    files += [ROOT/'housing_runtime.py']
+    files += [ref for skill in list(files) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
 def safe(root, name):
@@ -97,7 +99,9 @@ def build(folder):
 
 def verify(folder):
     m=load(folder/'manifest.json')
-    if m['implementation']!=implementation():raise ValueError('Implementation changed; this packet needs a versioned rebuild')
+    if m['implementation']!=implementation():
+        from housing_runtime import verify_historical
+        return verify_historical('housing_workflow', folder)
     actual={str(p.relative_to(folder)) for p in folder.rglob('*') if p.is_file()}
     if actual!=set(m['files'])|{'manifest.json'}:raise ValueError('Packet inventory changed')
     for name,h in m['files'].items():

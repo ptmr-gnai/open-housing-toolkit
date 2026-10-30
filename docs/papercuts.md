@@ -396,3 +396,46 @@ run receipts. Module manifests continue to bind their original implementation an
 historical workflow instructions; typed requests still retain supplied analytical
 inputs. Capturing the actual current skill/reference versions used by the agent
 needs a separate orchestration receipt, rather than silently relabelling old hashes.
+
+
+## Standard active skill layout
+
+The extra skills/current/ layer was unnecessary and impeded conventional packaging.
+Active skills now live directly at skills/<name>/, each with SKILL.md and references/.
+The layout checker rejects a recreated current/ layer or uncatalogued skill folders.
+
+Old skill paths were coupled to analytical implementation hashes. Instead of
+retaining duplicate live skills or rewriting historical manifests, archived their
+original source and original verifiers under archive/skill-layout-v0. A shared
+runtime helper validates that snapshot and invokes the original verifier in an
+isolated Python process on an implementation mismatch. Unknown implementations,
+changed archive files and rehashed output tampering are rejected. Original example
+manifests and image-provider records remain unchanged. New manifests bind current
+skill entries, their execution references and the shared helper.
+
+This is one explicit historical runtime, not a generic version solver. It adds a
+subprocess cost when verifying retained old packages. Packaging a renderer outside
+the checkout now includes the shared runtime helper; historical verification also
+needs the archive. Fresh renderer preparation still runs without the analysis
+module. Actual host skill activation remains outside the execution receipt.
+
+
+The resumed full check exposed an optional-dependency issue in the archive helper:
+Python -I hid user-installed Shapely even though the calling interpreter could
+import it. Changed the child to -E/-P (ignore Python environment overrides and
+exclude the caller directory), with the archive explicitly first in sys.path.
+User-installed optional packages remain available; the original geometry verifier
+still checks recorded Shapely/GEOS versions. This is a separate verification
+process, not an OS security sandbox.
+
+
+## Minimal-context worker trial
+
+A new worker with no conversation history received only an isolated repo copy and
+an instruction to figure it out and try it. It found the entry route, completed the
+eight-step offline walkthrough without extra setup, explained the quantities and
+limits, and confirmed overwrite protection/source preservation. It independently
+flagged README sprawl, long registers and replay wording. The copy lacked .git,
+which is fixture friction rather than clone behavior. See the uncoached
+[worker report](reviews/minimal-context-worker.md). Live APIs, geometry, imagery,
+native skill activation and professional usefulness remain untested by this trial.

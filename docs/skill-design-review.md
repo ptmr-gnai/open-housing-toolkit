@@ -57,12 +57,12 @@ remain missing rather than becoming inferred official fields.
 
 ## Implemented first revision
 
-Current operational playbooks now live under `skills/current/`, selected through
+Current operational playbooks now live under `skills/`, selected through
 [the active catalogue](../skills/catalog.json). Each has a short entry contract and
 an on-demand execution reference with canonical commands, schemas and examples.
 The coordinator loads only the selected task; its tour uses the deterministic
-runner without preloading all leaf instructions. Original root-level leaf bytes
-remain frozen for existing module manifests. The onboarding checker covers active
+runner without preloading all leaf instructions. Original leaf bytes and their original executable verifiers
+are retained under archive/skill-layout-v0; historical example manifests are unchanged. The onboarding checker covers active
 resource links, current routes, a local 100-line entry budget and historical hashes.
 This is a repository-based revision, not a verified native skill installation.
 
@@ -77,6 +77,7 @@ This is a repository-based revision, not a verified native skill installation.
    A fresh AI walkthrough of the fixed tour does not cover these cases.
 5. Declare and test platform support. See [storage and platforms](storage-and-platforms.md).
 
-Changing existing leaf skills can invalidate module-bound examples. Apply revisions
-with explicit rebuild/review rather than patching receipt hashes. This review is
-not an implementation of those five improvements.
+Changing active leaf skills or references stales current-version runs. Rebuild
+explicitly into fresh directories rather than patching receipt hashes. The original
+examples are verified through their archived original runtime after the layout
+migration; that mechanism does not implement the remaining host-usability work.

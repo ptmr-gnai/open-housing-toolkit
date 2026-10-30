@@ -5,14 +5,28 @@ description: Fetch bounded public parcel records with source receipts, exact ide
 
 # Collect parcel evidence
 
-Read `housing_workflow/sources.json` for the four supported APIs, field selections, publishers and limits. `housing_workflow/router.py` is a local adapter router, not a hosted proxy. It accepts no user-supplied API URL. Public access can still fail or throttle.
+Collect public records for an identified Bronx parcel with source receipts and raw bytes.
 
-```sh
-python -m housing_workflow collect --input request.json --out runs/my-investigation
-```
+## Inputs and preflight
 
-Intake requires a BBL or unique exact PLUTO Bronx address. Address abbreviation normalization is limited; ask for the BBL on failure rather than guessing. Four exact-BBL queries fetch PLUTO, DOB BIS, DOB NOW and HPD violations. Responses are capped at 501 rows; more than 500 is flagged as truncated. Missing historical lot linkage remains unresolved even below the cap. These are filing/document/violation rows, not deduplicated projects.
+A request matching the parcel schema, a fresh run directory and HTTPS access for live queries. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-Inspect `receipts.json`: status, requested parcel, exact URL, retrieval date, body path, SHA256, returned rows, truncation and source limitations. Raw bodies stay in `sources/`. HTTP 200 alone is insufficient; structured error objects and mismatched parcels are rejected. Failed calls remain failed evidence, not empty successful datasets. Review surviving source coverage before continuing; a packet can be partial.
+## Execute
 
-Do not refresh a previous run in place. The saved snapshots support offline replay and later contradiction analysis. Live retrieval does not recreate a historical decision-date packet. Upstream source terms are separate from the toolkit license.
+Read the runbook before live collection. Run the collection command; inspect identity, adapter status, truncation and receipt bindings.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
+
+## Validate and hand off
+
+Pass the saved request, receipts and source directory to model-parcel-scenario. Preserve failed-source states.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+Eligible next steps: [model-parcel-scenario](../model-parcel-scenario/SKILL.md) (consume the retained collection). Load only the requested branch.
+
+## Limits
+
+No returned rows does not establish no activity; HTTP success alone does not establish valid evidence.

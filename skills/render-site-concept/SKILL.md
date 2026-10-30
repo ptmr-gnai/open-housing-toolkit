@@ -1,23 +1,32 @@
 ---
 name: render-site-concept
-description: Generate an illustrative building concept from a prepared render brief, then attach the image and an explicit visual-review receipt using any compatible image provider.
+description: Generate and review a concept image from a verified brief using Codex image access, then attach actual execution records. With the current Claude Code setup, export the prepared brief instead.
 ---
 
-# Render and inspect a site concept
+# Render site concept
 
-Start with an existing `housing_render` run; data collection is not required. Run `python -m housing_render verify --run runs/concept` and read its `render-brief.json`. Resolve the declared reference image. A conversation attachment is usable by a conversation image tool but cannot be claimed locally byte-bound.
+Generate, inspect and attach a concept image from an existing verified render brief.
 
-Give the image provider exactly the brief's `prompt`. For the image_gen tool use `referenced_image_paths` for a local photo. For conversation-only images use the smallest `num_last_images_to_include` that includes the original supplied photograph; extra recent generated images are not source evidence. Inspect an unseen local image before editing it. Preserve attribution. Do not invent street numbers or upgrade assumptions to verified geometry.
+## Inputs and preflight
 
-Record the actual provider, parameter object, execution time, reference selection, prompt SHA256 and render-brief SHA256 in an invocation JSON. Do not print base64 image data. Save the provider output as a file. Do not claim that a stochastic generator can reproduce identical pixels from a prompt.
+Prepared run, actual reference assets and Codex image-tool access. Claude Code currently exports the brief and defers generation. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-Visually inspect the generated image and write a review JSON covering exactly: reference_setting, story_count, caption, invented_site_details, geometry_fidelity. Each check has id, status (consistent_by_inspection, issue_observed, not_verified) and note. Identify reviewer_kind as assistant_visual_inspection or human_visual_inspection. Geometry fidelity stays not_verified. A caption saying six stories does not prove six floors were rendered; describe visible evidence and ambiguity.
+## Execute
 
-```sh
-python -m housing_render attach --run runs/concept --image output.png --invocation invocation.json --review review.json
-python -m housing_render verify --run runs/concept
-```
+Read the runbook for invocation and review contracts before generating. Use the exact prompt and declared references; inspect the result.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
 
-This copies the generated asset and binds it to the brief, scenario, scene, optional imported analysis, actual invocation and review. A review is an attributed attestation, not cryptographic proof of execution or professional acceptance. Preserve outputs with issues; create a new run for a revision rather than rewriting the earlier result.
+Read [runtime branches](../start-here/references/agent-runtimes.md) when selecting Codex generation versus Claude Code export.
 
-Local artifact creation does not authorize sending emails or submitting proposals. Rendering an assumed concept does not clear site availability, occupancy, zoning, building fit or finance.
+## Validate and hand off
+
+Attach the actual image, invocation and review, then verify. Return packet/image paths and inspection limits.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+## Limits
+
+If the tool fails or is unavailable, preserve/export the prepared package. Never fabricate execution records or claim metric geometry fidelity.

@@ -26,10 +26,10 @@ image API key. Claude Code also has [CLAUDE.md](CLAUDE.md) as its entry point.
 
 ## Modules and changes
 
-The [active catalogue](skills/catalog.json) routes to `skills/current/` leaf skills.
+The [active catalogue](skills/catalog.json) routes to `skills/` leaf skills.
 Each short SKILL.md loads its execution reference only when needed; those references
-link canonical contracts, scripts and examples. Root-level historical leaf skills
-remain frozen for existing experiment hashes. See [the skill layout](skills/README.md). These are repository playbooks, not an installed agent plugin.
+link canonical contracts, scripts and examples. Historical skills and original verifiers are archived outside the active skill
+directory; retained example manifests stay unchanged. See [the skill layout](skills/README.md). These are repository playbooks, not an installed agent plugin.
 Read the applicable leaf skill before executing its module. The top-level skill
 routes work; independent entry points remain supported.
 
@@ -40,6 +40,8 @@ Run `python scripts/first_run.py --out runs/my-first-run` to exercise the compos
 path. `python scripts/check_onboarding.py` checks skill/resource links and routing.
 Log observed friction in [docs/papercuts.md](docs/papercuts.md).
 
-Some module implementation hashes include their skill and workflow files. Editing
-those invalidates bound examples: rebuild explicitly into fresh directories and
-review the result. Do not casually rewrite historical experiment packages.
+Module implementation hashes include their active skill and reference files. Editing
+those stales current-version runs: rebuild explicitly into fresh directories. The
+one archived runtime verifies original examples against their unchanged original
+implementation; it does not accept arbitrary older versions. Never rewrite
+historical manifests or provider records to make a migration pass.

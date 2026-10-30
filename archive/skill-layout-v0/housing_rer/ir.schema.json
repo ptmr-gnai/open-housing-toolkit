@@ -1,0 +1,442 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "comparison_claims": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "comparison_claims_base": {
+      "const": "comparison-run/"
+    },
+    "comparison_profiles": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "comparison_programs": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "comparison_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "guide_inventory_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "limitations": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "module": {
+      "const": "rer-preparation"
+    },
+    "prepared_by": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "prepared_on": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "reports": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "applicability": {
+            "const": "not_determined"
+          },
+          "interpretation": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "official_submission_ready": {
+            "const": false
+          },
+          "professional_review": {
+            "const": "pending"
+          },
+          "program_id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "program_label": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "report_status": {
+            "const": "incomplete_illustrative_draft"
+          },
+          "site_bbl": {
+            "pattern": "^2[0-9]{9}$",
+            "type": "string"
+          },
+          "slots": {
+            "items": {
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "missing",
+                          "needs_interpretation",
+                          "not_applicable"
+                        ]
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "value": {
+                        "type": "null"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if": {
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "filled",
+                          "illustrative"
+                        ]
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "value": {
+                        "type": [
+                          "string",
+                          "integer"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "properties": {
+                "bindings": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "claim_id": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "file": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "kind": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "pointer": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "sha256": {
+                        "pattern": "^[0-9a-f]{64}$",
+                        "type": "string"
+                      },
+                      "unit": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "use": {
+                        "enum": [
+                          "input_for_slot",
+                          "candidate_only_not_populated"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "string",
+                          "number",
+                          "boolean",
+                          "null"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "file",
+                      "sha256",
+                      "pointer",
+                      "kind",
+                      "value",
+                      "use"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "label": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "reason": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "requirement_id": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "section": {
+                  "maximum": 5,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                "sources": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "document": {
+                        "enum": [
+                          "guide",
+                          "form",
+                          "criteria"
+                        ]
+                      },
+                      "document_sha256": {
+                        "pattern": "^[0-9a-f]{64}$",
+                        "type": "string"
+                      },
+                      "page_sha256": {
+                        "pattern": "^[0-9a-f]{64}$",
+                        "type": "string"
+                      },
+                      "pdf_page": {
+                        "minimum": 1,
+                        "type": "integer"
+                      },
+                      "subsection": {
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "url": {
+                        "format": "uri",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "document",
+                      "pdf_page",
+                      "subsection",
+                      "url",
+                      "document_sha256",
+                      "page_sha256"
+                    ],
+                    "type": "object"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "status": {
+                  "enum": [
+                    "filled",
+                    "illustrative",
+                    "missing",
+                    "needs_interpretation",
+                    "not_applicable"
+                  ]
+                },
+                "value": {
+                  "type": [
+                    "string",
+                    "integer",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "requirement_id",
+                "section",
+                "label",
+                "status",
+                "value",
+                "reason",
+                "bindings",
+                "sources"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "status_counts": {
+            "additionalProperties": false,
+            "properties": {
+              "filled": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "illustrative": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "missing": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "needs_interpretation": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "not_applicable": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "filled",
+              "illustrative",
+              "missing",
+              "needs_interpretation",
+              "not_applicable"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "program_id",
+          "program_label",
+          "site_bbl",
+          "report_status",
+          "official_submission_ready",
+          "applicability",
+          "professional_review",
+          "slots",
+          "status_counts",
+          "interpretation"
+        ],
+        "type": "object"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "request_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "scope": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "source_documents": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bytes": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "id": {
+            "enum": [
+              "guide",
+              "form",
+              "criteria"
+            ]
+          },
+          "pages": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "normalized_text_sha256": {
+                  "pattern": "^[0-9a-f]{64}$",
+                  "type": "string"
+                },
+                "pdf_page": {
+                  "minimum": 1,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "pdf_page",
+                "normalized_text_sha256"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "retrieved_at_utc": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          },
+          "source_pdf_availability": {
+            "const": "external_not_bundled"
+          },
+          "status": {
+            "const": "retrieved"
+          },
+          "url": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "version_stamp": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "url",
+          "sha256",
+          "bytes",
+          "retrieved_at_utc",
+          "status",
+          "version_stamp",
+          "source_pdf_availability",
+          "pages"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "source_verification_scope": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "module",
+    "prepared_on",
+    "prepared_by",
+    "request_sha256",
+    "comparison_sha256",
+    "guide_inventory_sha256",
+    "scope",
+    "source_documents",
+    "source_verification_scope",
+    "reports",
+    "comparison_programs",
+    "comparison_profiles",
+    "comparison_claims",
+    "comparison_claims_base",
+    "limitations"
+  ],
+  "title": "Incomplete RER draft and scoped instruction coverage 0.1.0; upstream comparison schema/verification remains authoritative",
+  "type": "object"
+}

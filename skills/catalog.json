@@ -3,57 +3,58 @@
   "entry": "skills/start-here/SKILL.md",
   "active": [
     "skills/start-here/SKILL.md",
-    "skills/current/build-grounded-massing/SKILL.md",
-    "skills/current/collect-parcel-evidence/SKILL.md",
-    "skills/current/compare-housing-programs/SKILL.md",
-    "skills/current/housing-investigation/SKILL.md",
-    "skills/current/model-parcel-scenario/SKILL.md",
-    "skills/current/prepare-render-brief/SKILL.md",
-    "skills/current/prepare-rer-draft/SKILL.md",
-    "skills/current/publish-evidence-packet/SKILL.md",
-    "skills/current/render-site-concept/SKILL.md",
-    "skills/current/run-analysis-recipe/SKILL.md"
+    "skills/build-grounded-massing/SKILL.md",
+    "skills/collect-parcel-evidence/SKILL.md",
+    "skills/compare-housing-programs/SKILL.md",
+    "skills/housing-investigation/SKILL.md",
+    "skills/model-parcel-scenario/SKILL.md",
+    "skills/prepare-render-brief/SKILL.md",
+    "skills/prepare-rer-draft/SKILL.md",
+    "skills/publish-evidence-packet/SKILL.md",
+    "skills/render-site-concept/SKILL.md",
+    "skills/run-analysis-recipe/SKILL.md"
   ],
   "historical_bound": [
     {
-      "path": "skills/build-grounded-massing/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/build-grounded-massing/SKILL.md",
       "sha256": "4625a3379478da75d287e2a349c50f443e657871b8033309a087a455c15b33de"
     },
     {
-      "path": "skills/collect-parcel-evidence/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/collect-parcel-evidence/SKILL.md",
       "sha256": "374249143192a6caa33c0116235eaaa5d07d29d7f5cead2daab4d66cf62673d0"
     },
     {
-      "path": "skills/compare-housing-programs/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/compare-housing-programs/SKILL.md",
       "sha256": "67fe09da1071923250c6468ed6861da540e81b7da691fd1fd6c681a15303e524"
     },
     {
-      "path": "skills/housing-investigation/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/housing-investigation/SKILL.md",
       "sha256": "f00841007230138a1d2d77eeb14b8a1aaa72ccb13dd9f09a6a8f0f2ed6a0525e"
     },
     {
-      "path": "skills/model-parcel-scenario/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/model-parcel-scenario/SKILL.md",
       "sha256": "888273f0d51504ba0f295e361961256b4ace144127e018f66636b9d6e8715227"
     },
     {
-      "path": "skills/prepare-render-brief/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/prepare-render-brief/SKILL.md",
       "sha256": "e5585c73f3619bcbb295b0ec14977db8edcf5f4bb04c4e2811c508f54eadfd9c"
     },
     {
-      "path": "skills/prepare-rer-draft/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/prepare-rer-draft/SKILL.md",
       "sha256": "4bf401be597410dfb3a9b7a9fb8d5215b30f7635991451cee04cb706495158ce"
     },
     {
-      "path": "skills/publish-evidence-packet/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/publish-evidence-packet/SKILL.md",
       "sha256": "213c476e2b73c773ab98611b9b0ba1e65f3be80534c3d4363385ae96ae35b4cf"
     },
     {
-      "path": "skills/render-site-concept/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/render-site-concept/SKILL.md",
       "sha256": "62c365483b9bcf3e086405a1f173c15082247a0097562f25f5cc84f9e78e4d81"
     },
     {
-      "path": "skills/run-analysis-recipe/SKILL.md",
+      "path": "archive/skill-layout-v0/skills/run-analysis-recipe/SKILL.md",
       "sha256": "e0d649402eb13d91cf5512fcc9a8a0ee39481163aa559614f098baa8971240d5"
     }
-  ]
+  ],
+  "historical_runtime": "archive/skill-layout-v0/snapshot.json"
 }

@@ -5,12 +5,12 @@ linked skill for input collection, execution and verification.
 
 | Need | Skill | Contracts / implementation / references |
 | --- | --- | --- |
-| Investigate a Bronx lot | [housing-investigation](../../current/housing-investigation/SKILL.md) | [workflow guide](../../../housing_workflow/README.md), [request schema](../../../housing_workflow/request.schema.json), [workflow](../../../workflows/parcel-investigation.json) |
-| Edit area arithmetic | [run-analysis-recipe](../../current/run-analysis-recipe/SKILL.md) | [recipe guide](../../../housing_recipe/README.md), [base recipe](../../../recipes/area-budget.json) |
-| Compare explicit housing offers | [compare-housing-programs](../../current/compare-housing-programs/SKILL.md) | [guide](../../../housing_benefit/README.md), [request schema](../../../housing_benefit/request.schema.json), [example inputs and reference pack](../../../examples/affordability-inputs/README.md) |
-| Prepare RER drafts | [prepare-rer-draft](../../current/prepare-rer-draft/SKILL.md) | [guide](../../../housing_rer/README.md), [request schema](../../../housing_rer/request.schema.json), [pinned sources](../../../housing_rer/guidance.json), [instruction map](../../../housing_rer/requirements.json), [source-preparation script](../../../scripts/prepare_rer_guidance.py) |
-| Build assumed geometry | [build-grounded-massing](../../current/build-grounded-massing/SKILL.md) | [guide](../../../housing_geometry/README.md), [spec](../../../docs/specs/geometry-grounding.md) |
-| Bring a photo and visual assumptions | [prepare-render-brief](../../current/prepare-render-brief/SKILL.md), then [render-site-concept](../../current/render-site-concept/SKILL.md) | [render guide](../../../housing_render/README.md), [examples](../../../examples/site-concept/README.md) |
+| Investigate a Bronx lot | [housing-investigation](../../housing-investigation/SKILL.md) | [workflow guide](../../../housing_workflow/README.md), [request schema](../../../housing_workflow/request.schema.json), [workflow](../../../workflows/parcel-investigation.json) |
+| Edit area arithmetic | [run-analysis-recipe](../../run-analysis-recipe/SKILL.md) | [recipe guide](../../../housing_recipe/README.md), [base recipe](../../../recipes/area-budget.json) |
+| Compare explicit housing offers | [compare-housing-programs](../../compare-housing-programs/SKILL.md) | [guide](../../../housing_benefit/README.md), [request schema](../../../housing_benefit/request.schema.json), [example inputs and reference pack](../../../examples/affordability-inputs/README.md) |
+| Prepare RER drafts | [prepare-rer-draft](../../prepare-rer-draft/SKILL.md) | [guide](../../../housing_rer/README.md), [request schema](../../../housing_rer/request.schema.json), [pinned sources](../../../housing_rer/guidance.json), [instruction map](../../../housing_rer/requirements.json), [source-preparation script](../../../scripts/prepare_rer_guidance.py) |
+| Build assumed geometry | [build-grounded-massing](../../build-grounded-massing/SKILL.md) | [guide](../../../housing_geometry/README.md), [spec](../../../docs/specs/geometry-grounding.md) |
+| Bring a photo and visual assumptions | [prepare-render-brief](../../prepare-render-brief/SKILL.md), then [render-site-concept](../../render-site-concept/SKILL.md) | [render guide](../../../housing_render/README.md), [examples](../../../examples/site-concept/README.md) |
 
 For the supported Codex image-tool and Claude Code export paths, follow
 [runtime routing and preflight](agent-runtimes.md) before the visual leaf skills.

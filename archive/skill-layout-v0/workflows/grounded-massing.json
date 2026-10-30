@@ -1,0 +1,13 @@
+{
+  "id": "grounded-massing",
+  "version": "0.1.0",
+  "process_status": "exploratory_geometry_not_professional_feasibility",
+  "steps": [
+    {"id": "collect", "input": "Bronx BBL", "output": "parcel-source/ with DCP geometry and receipts"},
+    {"id": "model", "input": "verified analysis + retained geometry + explicit assumed scenario", "output": "geometry.json and floor schedule"},
+    {"id": "reconcile", "input": "gross-floor proxy areas and source model targets", "output": "independent total and use-allocation comparisons"},
+    {"id": "publish", "input": "bound geometry and comparisons", "output": "schematic views, OBJ, packet and conditional visual handoff"}
+  ],
+  "skill": "skills/build-grounded-massing/SKILL.md",
+  "not_covered": ["Survey", "Zoning interpretation", "Layouts or code compliance", "Physical or financial feasibility", "Existing context", "Photo camera registration", "Image generation or fidelity acceptance"]
+}

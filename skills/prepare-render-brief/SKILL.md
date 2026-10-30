@@ -3,16 +3,32 @@ name: prepare-render-brief
 description: Convert an explicit visual scenario and supplied reference scene into a provider-independent building-render brief. Analysis is optional; collection and modeling modules are not required.
 ---
 
-# Prepare a site-concept render brief
+# Prepare render brief
 
-Use `housing_render` independently from the parcel-analysis workflow. Read `workflows/site-concept.json`. Requires Python 3.11+ recommended, no pip dependencies. See `examples/site-concept/scene.json` and `scenario.json` for the strict canonical contracts; validation rejects missing or extra fields. The current visual parameters are explicit assumptions/preferences, not inferred legal capacity.
+Prepare a provider-independent concept brief from a scene, reference asset and explicit visual assumptions.
 
-```sh
-python -m housing_render prepare --scene scene.json --scenario scenario.json --out runs/concept
-```
+## Inputs and preflight
 
-For a local photo set reference availability to `local_file` and add `--photo /path/to/site.jpg`. The module copies and hashes the image. For a reference available only in the conversation, declare `conversation_attachment`; its original bytes are unavailable to the executable module and no source hash may be invented. Before generating, the agent must actually resolve the declared attachment. Ask for it again only if it is no longer available.
+Supported scene/scenario inputs, fresh output and a resolved reference image for actual generation. Analysis is optional. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-Optionally add `--analysis /path/to/ir.json`. The adapter reads canonical claim IDs and references for site context and requires the same parcel. This does not certify the imported analysis, and it does not reconcile its area budget with an assumed story count/footprint. Existing analysis can be skipped completely. Automated agency-document conversion is future work.
+## Execute
 
-Inspect `render-brief.json`, `prompt.txt`, and `brief.md`. The prompt is compiled from scene/scenario fields; do not add unrecorded design instructions at generation time. To change a scenario, save a new input and prepare a new run. The versioned workflow is partial and records missing geometry, approvals, occupancy and funding.
+Read the runbook for local-photo and conversation-reference paths. Prepare and verify the exact brief/prompt.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
+
+Read [runtime branches](../start-here/references/agent-runtimes.md) when selecting Codex generation versus Claude Code export.
+
+## Validate and hand off
+
+Codex with an exposed image tool can continue to render-site-concept when requested. Claude Code exports the complete brief package.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+Eligible next steps: [render-site-concept](../render-site-concept/SKILL.md) (only when image generation is requested and available). Load only the requested branch.
+
+## Limits
+
+No separate image API key is needed for either supported path. A prepared brief does not prove its external photo is available or geometry is reconciled.

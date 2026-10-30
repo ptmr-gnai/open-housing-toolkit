@@ -3,16 +3,30 @@ name: model-parcel-scenario
 description: Build typed evidence claims and optional area-budget calculations from a saved parcel collection.
 ---
 
-# Model a parcel scenario
+# Model parcel scenario
 
-```sh
-python -m housing_workflow build --run runs/my-investigation
-```
+Build typed claims and optional area arithmetic from a saved parcel collection.
 
-The typed IR distinguishes facts, assumptions, calculations, unknowns and unreviewed judgments. All selected fields in successful returned records become facts with source IDs, JSON pointers and version hashes. Historical positive existing/proposed dwelling-unit signals remain visible beside PLUTO; the model does not reconcile lawful or current occupancy automatically.
+## Inputs and preflight
 
-Optional scenario inputs are declared assumptions with rationales. Named deterministic operations calculate residential gross allocation, net area and home-equivalents. The proposed gross-area/recorded-lot-area quotient is explicitly NOT zoning FAR. No calculation infers permitted capacity, floor plans, rent, affordability, construction cost or financed viability.
+Saved source responses and receipts; scenario values only if supplied with rationales. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-No scenario is a supported path: produce evidence and unknowns without invented values. Source failures and truncated coverage stay visible. The model's diligence checklist is authored, unreviewed policy, not proof of the best next task. Complete practitioner process coverage remains unknown.
+## Execute
 
-To change a supplied input, create a new request and use `replay --from-run ... --input ... --out ...`; the same-parcel evidence is retained. Code or adapter changes stale old packet validation and require an explicit versioned rebuild. Notebook/workbook interactivity is deferred; `calculation-steps.csv` and the dependency graph already expose calculation inputs and operations.
+Read the runbook and build the model. Keep historical dwelling-unit signals and source gaps visible. No supplied scenario means evidence-only output.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
+
+## Validate and hand off
+
+Hand the run to publish-evidence-packet for final verification and presentation.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+Eligible next steps: [publish-evidence-packet](../publish-evidence-packet/SKILL.md) (verify and present the built package). Load only the requested branch.
+
+## Limits
+
+Home-equivalents are an area quotient, not permitted or feasible homes. No automatic occupancy reconciliation.

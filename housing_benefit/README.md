@@ -19,7 +19,7 @@ python -m housing_benefit verify --run runs/affordability-utilities
 Open `packet.html`. The offline demo uses the same real lot identity and verified
 upstream source packet, with two **illustrative** programs. It does not derive those
 programs from the area's zoning or the massing. No API key, network or AI model is
-required. For an agent, use [the comparison skill](../skills/current/compare-housing-programs/SKILL.md).
+required. For an agent, use [the comparison skill](../skills/compare-housing-programs/SKILL.md).
 
 To build from explicit inputs:
 

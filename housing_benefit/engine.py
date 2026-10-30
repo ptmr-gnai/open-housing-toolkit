@@ -18,6 +18,8 @@ from .contracts import read_json as load
 def implementation():
     files=sorted((ROOT/'housing_benefit').glob('*.py'))+sorted((ROOT/'housing_benefit').glob('*.json'))
     files += [ROOT/'workflows/housing-program-comparison.json',ROOT/'skills/compare-housing-programs/SKILL.md',ROOT/'scripts/prepare_benefit_reference.py']
+    files += [ROOT/'housing_runtime.py']
+    files += [ref for skill in list(files) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
 
@@ -57,7 +59,9 @@ def inventory(folder):
 def verify(folder):
     m=load(folder/'manifest.json')
     if m.get('module')!='housing-program-comparison' or m.get('version')!='0.1.0':raise ValueError('Unsupported comparison manifest')
-    if m['implementation']!=implementation():raise ValueError('Comparison implementation changed; rebuild in a new directory')
+    if m['implementation']!=implementation():
+        from housing_runtime import verify_historical
+        return verify_historical('housing_benefit', folder)
     if m['files']!=inventory(folder):raise ValueError('Comparison inventory or artifact hash changed')
     for name,value in outputs(folder).items():
         if (folder/name).read_bytes()!=value.encode():raise ValueError('Comparison differs from retained inputs: '+name)

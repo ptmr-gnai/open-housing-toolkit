@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "application": {
+      "additionalProperties": false,
+      "properties": {
+        "rationale": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "const": "unknown"
+        }
+      },
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "contact": {
+      "additionalProperties": false,
+      "properties": {
+        "rationale": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "const": "unknown"
+        }
+      },
+      "required": [
+        "status",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9_]{0,47}$",
+      "type": "string"
+    },
+    "nonresidential_tenants": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "rationale": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "unknown",
+            "none_identified"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "rationale",
+        "attribution"
+      ],
+      "type": "object"
+    },
+    "prepared_by": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "prepared_on": {
+      "format": "date",
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "prepared_by",
+    "prepared_on",
+    "application",
+    "contact",
+    "nonresidential_tenants"
+  ],
+  "title": "RER preparation request 0.1.0; interpretation/adapters intentionally bounded",
+  "type": "object"
+}

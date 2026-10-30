@@ -3,30 +3,30 @@ name: compare-housing-programs
 description: Compare two explicitly supplied housing offers for hypothetical households, preserving source versions, assumptions and unknowns.
 ---
 
-Read housing_benefit/README.md and docs/tenets.md. The first slice is a conditional
-housing-cost comparison, not a community-benefit forecast or eligibility assessment.
+# Compare housing programs
 
-```sh
-python -m housing_benefit demo --out runs/affordability-demo
-python -m housing_benefit verify --run runs/affordability-demo
-```
+Compare explicitly supplied housing offers against hypothetical household cost-and-bedroom tests.
 
-Collect explicit integer unit mixes, rents, tenant-paid utilities, restriction
-durations and hypothetical household profiles. Never round home-equivalents into
-units. Every program value needs its rationale. Reuse the input contract; arbitrary
-spreadsheets, program rulebooks and legally secured commitments need later adapters.
+## Inputs and preflight
 
-Historical reference year must match the request price year. Do not mix current
-income data with old rent tables. The demo uses selected 2025 guidance values and
-is labeled historical. The source PDF is external, with hash, printed page and
-selected passages; normal offline replay does not independently re-extract it.
+Verified site analysis, coherent-year reference pack, explicit integer mixes, rents, utilities, durations and profiles. Use Python 3.11+ from the repository root. Preserve prior runs.
 
-Before an edit, preview `impact --run ... --input ...`. Rebuild with `replay
---from-run ... --input ... --out ...` into a new directory. Inspect separate total
-homes, profile cost tests and restriction durations, with delivery, occupancy and
-future no-action baseline unresolved. A missing input stays unknown. Read all
-limitations before turning results into proposal prose or outreach assets.
+## Execute
 
-Keep practitioner judgments attributable. The module does not choose a winner,
-infer community priorities or clear professional review. Transit and image
-modules are not called by this workflow.
+Read the runbook and canonical request before building. For revisions, preview impact and replay into a new run.
+Read [the execution reference](references/runbook.md) only when performing this task;
+it contains commands, examples, contract links and recovery details. Use the existing
+module CLI instead of reimplementing it in prose or adding a wrapper.
+
+## Validate and hand off
+
+Verify, then present overlapping profile tests separately. Optional next step: prepare-rer-draft with a supported draft request.
+Report what executed, actual output paths and unresolved inputs. If validation fails,
+stop downstream execution, preserve evidence and diagnostics, correct inputs and
+rebuild into a fresh run. Never bypass a gate or silently edit completed artifacts.
+
+Eligible next steps: [prepare-rer-draft](../prepare-rer-draft/SKILL.md) (optional report preparation). Load only the requested branch.
+
+## Limits
+
+Offers are independent assumptions, not derived unit capacity. No eligibility, availability, delivery, winner or causal benefit is established.

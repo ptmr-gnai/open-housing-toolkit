@@ -10,6 +10,8 @@ WORKFLOW=ROOT/'workflows/site-concept.json'
 def implementation():
     files=sorted((ROOT/'housing_render').glob('*.py'))+sorted((ROOT/'housing_render').glob('*.json'))+[WORKFLOW]
     files += [ROOT/s['skill'] for s in load(WORKFLOW)['steps']]
+    files += [ROOT/'housing_runtime.py']
+    files += [ref for skill in list(files) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
 def safe(root,name):
@@ -75,7 +77,9 @@ def expected_brief(root):
 
 def verify(root):
     manifest=load(root/'manifest.json')
-    if manifest['implementation']!=implementation():raise ValueError('Render implementation changed; prepare a new versioned run')
+    if manifest['implementation']!=implementation():
+        from housing_runtime import verify_historical
+        return verify_historical('housing_render', root)
     if manifest['files']!=files_manifest(root):raise ValueError('Render package inventory or bytes changed')
     for name in manifest['files']:safe(root,name)
     brief=expected_brief(root)
