@@ -1,47 +1,44 @@
-# build-grounded-massing: execution reference
+# compare-housing-programs: execution reference
 
-Working directory: repository root. This skill requires the checkout; it is not
-a standalone installed bundle. Treat all example commands as examples; substitute
-the user's actual paths/inputs. Read the relevant section below before execution.
+Working directory: repository root. Read this reference when performing this task.
+Use fresh output directories and the user's actual paths and canonical inputs.
 
-## Canonical resources (read only as needed)
+## Canonical resources
 
-- [Module guide](../../../housing_geometry/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_geometry/__main__.py): existing executable entry point; run from the checkout root.
+- [Module guide](../../../housing_benefit/README.md).
+- [CLI implementation](../../../housing_benefit/__main__.py).
+- [Request contract](../../../housing_benefit/request.schema.json).
+- [Input/reference examples](../../../examples/affordability-inputs/README.md) and [reference preparation script](../../../scripts/prepare_benefit_reference.py).
 
-## Detailed procedure and boundaries
-Read docs/specs/geometry-grounding.md and housing_geometry/README.md. Install the
-optional geometry dependency with `python -m pip install -r requirements-geometry.txt`.
-Keep mapped boundaries, exploratory design choices and professional judgments distinct.
+## Detailed procedure and limits
 
-Use a verified housing_recipe or housing_workflow run with canonical gross-area
-claims. Collect a Bronx parcel using `python -m housing_geometry collect --bbl 2028710002 --out runs/parcel-source`, or replay the retained example sources.
-
-Supply a scenario JSON following the examples. Coordinates are local international
-feet in the source-bound frame; never treat latitude/longitude as planar feet.
-Footprints, heights and floor-use fractions must have explicit rationales. Do not
-infer dimensions or a legal envelope from a street photograph.
-
-Build into a new directory, verify, and inspect the total-area AND program-allocation
-comparisons. A total match can coexist with a program mismatch. Read all unknown
-review gates. Diagnostic SVG views can be inspected when mismatched; visual handoff
-must stay blocked. A consistent result is eligible only as a schematic reference.
-
-Do not invoke the current photo renderer as though it consumes this geometry contract.
-No automatic geometry-conditioned image-generation adapter or fidelity review exists.
-Preserve mesh, source bytes, assumptions, model bindings and the original analysis.
-
-## Explicit build and verify example
-
-Using the retained parcel source and a deliberately assumed scenario:
+Read housing_benefit/README.md and docs/tenets.md. The first slice is a conditional
+housing-cost comparison, not a community-benefit forecast or eligibility assessment.
 
 ```sh
-python -m housing_geometry build --analysis examples/analysis-recipe/base --parcel-source examples/geometry-inputs/parcel-source --scenario examples/geometry-inputs/mixed-ground.json --out runs/my-massing
-python -m housing_geometry verify --run runs/my-massing
+python -m housing_benefit demo --out runs/affordability-demo
+python -m housing_benefit verify --run runs/affordability-demo
 ```
 
-Confirm the scenario filename against the examples before execution; the module
-guide describes the supported inputs and allocation mismatch demonstration.
+Collect explicit integer unit mixes, rents, tenant-paid utilities, restriction
+durations and hypothetical household profiles. Never round home-equivalents into
+units. Every program value needs its rationale. Reuse the input contract; arbitrary
+spreadsheets, program rulebooks and legally secured commitments need later adapters.
+
+Historical reference year must match the request price year. Do not mix current
+income data with old rent tables. The demo uses selected 2025 guidance values and
+is labeled historical. The source PDF is external, with hash, printed page and
+selected passages; normal offline replay does not independently re-extract it.
+
+Before an edit, preview `impact --run ... --input ...`. Rebuild with `replay
+--from-run ... --input ... --out ...` into a new directory. Inspect separate total
+homes, profile cost tests and restriction durations, with delivery, occupancy and
+future no-action baseline unresolved. A missing input stays unknown. Read all
+limitations before turning results into proposal prose or outreach assets.
+
+Keep practitioner judgments attributable. The module does not choose a winner,
+infer community priorities or clear professional review. Transit and image
+modules are not called by this workflow.
 
 ## Build with supplied canonical inputs
 
@@ -50,6 +47,6 @@ python -m housing_benefit build --analysis runs/recipe-base --references example
 python -m housing_benefit verify --run runs/my-comparison
 ```
 
-The worked request is illustrative. For user work, copy and edit its supported
-fields with rationales. Preserve its reference-year constraint; do not relabel the
-historical reference pack as current-year rules.
+For real work supply the user's canonical request, keeping rents, utilities,
+restriction durations and household profiles attributed as assumptions. The
+historical reference year is not a current-year applicability finding.

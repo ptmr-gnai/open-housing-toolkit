@@ -1,58 +1,40 @@
-# build-grounded-massing: execution reference
+# prepare-rer-draft: execution reference
 
-Working directory: repository root. This skill requires the checkout; it is not
-a standalone installed bundle. Treat all example commands as examples; substitute
-the user's actual paths/inputs. Read the relevant section below before execution.
+Working directory: repository root. Read this reference when performing this task.
+Use fresh output directories and the user's actual paths and canonical inputs.
 
-## Canonical resources (read only as needed)
+## Canonical resources
 
-- [Module guide](../../../housing_geometry/README.md): commands, outputs and supported scope.
-- [CLI implementation](../../../housing_geometry/__main__.py): existing executable entry point; run from the checkout root.
+- [Module guide](../../../housing_rer/README.md).
+- [CLI implementation](../../../housing_rer/__main__.py).
+- [Request contract](../../../housing_rer/request.schema.json).
+- [Pinned guidance](../../../housing_rer/guidance.json), [instruction map](../../../housing_rer/requirements.json) and [source-preparation script](../../../scripts/prepare_rer_guidance.py). Source preparation is separate from ordinary offline runtime.
 
-## Detailed procedure and boundaries
-Read docs/specs/geometry-grounding.md and housing_geometry/README.md. Install the
-optional geometry dependency with `python -m pip install -r requirements-geometry.txt`.
-Keep mapped boundaries, exploratory design choices and professional judgments distinct.
+## Detailed procedure and limits
 
-Use a verified housing_recipe or housing_workflow run with canonical gross-area
-claims. Collect a Bronx parcel using `python -m housing_geometry collect --bbl 2028710002 --out runs/parcel-source`, or replay the retained example sources.
-
-Supply a scenario JSON following the examples. Coordinates are local international
-feet in the source-bound frame; never treat latitude/longitude as planar feet.
-Footprints, heights and floor-use fractions must have explicit rationales. Do not
-infer dimensions or a legal envelope from a street photograph.
-
-Build into a new directory, verify, and inspect the total-area AND program-allocation
-comparisons. A total match can coexist with a program mismatch. Read all unknown
-review gates. Diagnostic SVG views can be inspected when mismatched; visual handoff
-must stay blocked. A consistent result is eligible only as a schematic reference.
-
-Do not invoke the current photo renderer as though it consumes this geometry contract.
-No automatic geometry-conditioned image-generation adapter or fidelity review exists.
-Preserve mesh, source bytes, assumptions, model bindings and the original analysis.
-
-## Explicit build and verify example
-
-Using the retained parcel source and a deliberately assumed scenario:
+Use for a practitioner reviewing how a housing-program comparison maps to NYC's
+pinned RER guide and form. Read housing_rer/README.md and docs/tenets.md first.
 
 ```sh
-python -m housing_geometry build --analysis examples/analysis-recipe/base --parcel-source examples/geometry-inputs/parcel-source --scenario examples/geometry-inputs/mixed-ground.json --out runs/my-massing
-python -m housing_geometry verify --run runs/my-massing
+python -m housing_rer demo --out runs/rer-draft
+python -m housing_rer verify --run runs/rer-draft
 ```
 
-Confirm the scenario filename against the examples before execution; the module
-guide describes the supported inputs and allocation mismatch demonstration.
+Read packet.md, the two separate program drafts, and coverage.md. Keep official
+form fields distinct from the supplemental cost diagnostic. Never infer AMI mix
+from which hypothetical household can afford an offer. Never relabel gross area as
+ZSF or use an unrelated prior area scenario to invent jobs.
 
-## Build with supplied canonical inputs
+Application classification, EDDE geography/profile, program eligibility and the
+applicant narrative remain unresolved. Missing values stay null, not template zeroes.
+The guide/form nonresidential instruction divergence must remain visible. A declared
+none-identified tenant assumption can suppress job reporting; it is not a finding
+of no jobs or no businesses. Six narrative-goal prompts are not six legal pass/fail tests.
 
-```sh
-python -m housing_benefit build --analysis runs/recipe-base --references examples/affordability-inputs/reference-source --input examples/affordability-inputs/request.json --out runs/my-comparison
-python -m housing_benefit verify --run runs/my-comparison
-```
-
-The worked request is illustrative. For user work, copy and edit its supported
-fields with rationales. Preserve its reference-year constraint; do not relabel the
-historical reference pack as current-year rules.
+Use build with a complete verified housing_benefit run and the typed draft request.
+Create a new run for revisions. Cite source versions and exact review scope; technical
+verification is not a finding of compliance, submission readiness or professional
+endorsement. This module does not fill or submit the official City PDF.
 
 ## Build from the actual upstream package
 
@@ -61,7 +43,6 @@ python -m housing_rer build --comparison runs/my-comparison --input examples/rer
 python -m housing_rer verify --run runs/my-rer
 ```
 
-For the user's draft, supply their preparation request instead of treating sample
-metadata as actual preparer/date. Existing adapters do not ingest EDDE exports or
-certify program rules. Record unsupported professional inputs separately pending
-an explicit adapter; do not force them into unrelated fields.
+For user work supply the actual preparation metadata instead of the example date.
+EDDE exports, program certification and applicant narrative remain unsupported
+inputs requiring reviewed adapters or separate practitioner work.

@@ -1,0 +1,24 @@
+{
+  "bbl": "2028530012",
+  "question": "Investigate 1940 Jerome Avenue using current public data; preserve unknown occupancy, availability and legal developability. Support independent illustrative program comparison and practitioner review.",
+  "scenario": {
+    "average_net_home_sf": {
+      "rationale": "Practitioner brief test assumption, not measured capacity or a surveyed design.",
+      "value": 800
+    },
+    "gross_area_sf": {
+      "rationale": "Practitioner brief test assumption, not measured capacity or a surveyed design.",
+      "value": 15000
+    },
+    "name": "Illustrative area budget, not a proposed or approved building",
+    "nonresidential_gross_sf": {
+      "rationale": "Practitioner brief test assumption, not measured capacity or a surveyed design.",
+      "value": 1500
+    },
+    "residential_net_efficiency": {
+      "rationale": "Practitioner brief test assumption, not measured capacity or a surveyed design.",
+      "value": 0.8
+    }
+  },
+  "version": "0.2.0"
+}

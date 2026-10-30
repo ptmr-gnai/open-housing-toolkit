@@ -63,7 +63,7 @@ def compile_drafts(req,parent,parent_sha,site_analysis,site_sha,catalog,guidance
                 if cid in site:
                     i,c=site[cid];bindings=[{'file':'comparison-run/analysis-run/ir.json','sha256':site_sha,'pointer':'/claims/'+str(i)+'/value','claim_id':cid,'kind':c['kind'],'value':c['value'],'unit':c['unit'],'use':'candidate_only_not_populated'}]
                     status=S.INTERPRET
-                    reason=('An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this 24/36-home program. No conversion or construction-job estimate is made.' if mode!='construction_area' else 'An earlier gross-area assumption is available, but it is not established for this program. Do not manufacture construction employment from an unrelated scenario.')
+                    reason=(f'An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this {total}-home program. No conversion or construction-job estimate is made.' if mode!='construction_area' else 'An earlier gross-area assumption is available, but it is not established for this program. Do not manufacture construction employment from an unrelated scenario.')
             elif mode=='rent_mapping':
                 status=S.INTERPRET;bindings=[binding(b['claims']['monthly_rent_usd']) for b in p['bins']]
                 reason='Contract-rent assumptions are available. They are not verified AMI/program-based illustrative rent ranges. They appear as candidate inputs below, not as filled official rent cells.'

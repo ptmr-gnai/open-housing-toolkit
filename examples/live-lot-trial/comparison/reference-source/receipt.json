@@ -1,0 +1,29 @@
+{
+  "column_order": [
+    "ami_percent",
+    "one_person_income_usd",
+    "four_person_income_usd",
+    "studio_rent_usd",
+    "two_bedroom_rent_usd"
+  ],
+  "document_stamp": "7/1/25 | Subject to Change",
+  "extraction": {
+    "checked_against_pdf_at_preparation": true,
+    "command": "pdftotext -layout INPUT.pdf -; page 6; normalized selected row extraction",
+    "script_sha256": "27f89bcb43352d7eaa604d5c8b71bc37edf25445b88bc0f4b12e87c6863b444c",
+    "tool": "pdftotext version 25.03.0"
+  },
+  "income_year": 2025,
+  "method": "nyc-rer-table3-selected-rows@1",
+  "page": 6,
+  "passages_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+  "publisher": "NYC Department of City Planning",
+  "rent_year": 2025,
+  "retrieved_at_utc": "2026-10-29T21:18:09.179338+00:00",
+  "source_bytes": 523284,
+  "source_pdf_availability": "external_not_bundled",
+  "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+  "terms_url": "https://www.nyc.gov/home/terms-of-use.page",
+  "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a",
+  "version": "0.1.0"
+}

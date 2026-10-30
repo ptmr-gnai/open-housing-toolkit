@@ -49,9 +49,10 @@ support, read [storage and platforms](storage-and-platforms.md).
 
 Start with the short final RER index and coverage, then follow specific source or
 calculation links instead of reading the long evidence packet line by line. Earlier
-packet text such as "queried four NYC public datasets" describes the retained
-collection, not a network call during this walkthrough. Read source receipts for
-actual retrieval dates. The RER request retains its supplied sample preparation
+historical packet text such as "queried four NYC public datasets" describes the
+retained collection, not a network call during replay. Newly built parcel/recipe
+packets now state their execution mode and source dates in a short opening. Read
+source receipts for actual retrieval dates. The RER request retains its supplied sample preparation
 date (2026-10-29); it is not automatically replaced by today's date. For your own
 work, create a new request with your actual preparer/date and rebuild.
 

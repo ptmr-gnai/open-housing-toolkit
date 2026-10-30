@@ -21,43 +21,34 @@ acceptance and practitioner usefulness remain untested. The older components bel
 separate experiments. The new bounded workflow integrates one path; it is not a
 complete professional process.
 
-## First visit: start here
+## Start here
 
-Give your agent [AGENTS.md](AGENTS.md) and the [start-here skill](skills/start-here/SKILL.md).
-For a human walkthrough, read [First run](docs/first-run.md). From a checkout with
-Python 3.11+, one command builds and verifies four modules in sequence, offline:
+**Try the example.** Give your agent [AGENTS.md](AGENTS.md) and the
+[start-here skill](skills/start-here/SKILL.md), or run this from a checkout with
+Python 3.11+:
 
 ```sh
 python scripts/first_run.py --out runs/my-first-run
 ```
 
-Open `runs/my-first-run/README.md`, then its linked packets. No pip install, API
-key or image provider is needed. Cached parcel evidence flows into an area recipe,
-then an independently assumed housing-offer comparison, then incomplete RER drafts.
-The offer counts are not derived from site capacity; missing professional inputs
-stay missing. Geometry and image generation remain optional independent branches.
+Open `runs/my-first-run/README.md`, then its linked packets. This offline tour needs
+no pip install, API key or image provider. It chains cached evidence, an area recipe,
+independently assumed housing offers and incomplete RER drafts. Offer counts are
+not derived from site capacity. [First-run guide](docs/first-run.md).
 
-## Try the first integrated workflow
+**Investigate your lot.** Give your agent a Bronx address or BBL and the question
+you want answered, and use [the parcel investigation skill](skills/housing-investigation/SKILL.md).
+It can collect live public records without a development scenario. Supplied area
+assumptions remain explicit; absent inputs remain missing.
 
-Give an agent [the housing investigation skill](skills/housing-investigation/SKILL.md),
-or run this from a checkout with Python 3.11+:
+[See the actual live-lot worker trial](examples/live-lot-trial/README.md): a new
+worker collected records for a different property and ran evidence → area model →
+independent offer comparison → RER preparation. Its packet opens with source dates,
+recorded findings, assumptions and unresolved inputs. It is a workflow trial, not a
+feasibility finding. [How to read the opening](docs/packet-reading.md).
 
-```sh
-python -m housing_workflow demo --out runs/first-demo
-```
-
-Open `runs/first-demo/packet.html` locally. No API key, model account, network or
-pip install is needed for the worked example. For live collection, the skill asks
-for one Bronx site and a question, routes public API requests, builds typed claims
-and optional area arithmetic, and exports the packet, IR, raw data and image-prompt
-JSON. The parcel module’s image brief permits a diagram only; the separate photo-concept
-module below accepts explicit design assumptions. Physical geometry is unverified.
-
-Read [the workflow guide](housing_workflow/README.md) and the
-[real-source example packet](examples/parcel-investigation/packet.md).
-**The full housing process remains unknown and will develop over time.** The
-workflow records uncovered stages explicitly. A notebook/workbook and an optional
-hosted data proxy are future extensions.
+Modules below can also be used independently. Geometry and image generation are
+optional branches; the full professional housing process remains incomplete.
 
 ## Edit the analysis recipe
 

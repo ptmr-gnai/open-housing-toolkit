@@ -49,9 +49,13 @@ class Workflow(unittest.TestCase):
         jsonschema.validate(c.load(EXAMPLE/'ir.json'),c.load(engine.ROOT/'housing_workflow/ir.schema.json'))
     def test_replay_is_byte_identical_in_a_new_directory(self):
         with tempfile.TemporaryDirectory() as d:
-            root=Path(d)/'run';engine.replay(EXAMPLE,root)
-            for name in c.load(EXAMPLE/'manifest.json')['files']:
+            root=Path(d)/'run';second=Path(d)/'second'
+            engine.replay(EXAMPLE,root);engine.replay(EXAMPLE,second)
+            for name in c.load(root/'manifest.json')['files']:
+                self.assertEqual((root/name).read_bytes(),(second/name).read_bytes(),name)
+            for name in ['request.json','receipts.json','ir.json']:
                 self.assertEqual((root/name).read_bytes(),(EXAMPLE/name).read_bytes(),name)
+            self.assertIn('Cached replay', (root/'packet.md').read_text())
     def test_changed_assumption_recomputes_and_rebinds_prompt(self):
         req=copy.deepcopy(REQ);req['scenario']['average_net_home_sf']['value']=680
         req['scenario']['average_net_home_sf']['rationale']='Explicit sensitivity test.'

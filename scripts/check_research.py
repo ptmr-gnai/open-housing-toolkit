@@ -6,6 +6,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 VALIDATORS = [
     'scripts/check_onboarding.py',
+    'examples/live-lot-trial/verify.py',
     'research/community-benefit/validate.py',
     'examples/street-placement/verify.py',
     'examples/geometry-render/verify.py',

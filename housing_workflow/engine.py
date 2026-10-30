@@ -2,7 +2,7 @@
 from pathlib import Path
 import shutil
 from .contracts import digest, dumps, load, save, validate_request
-from . import model, packet, router
+from . import model, packet, router, context
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW = ROOT / 'workflows/parcel-investigation.json'
@@ -82,6 +82,8 @@ def validate_claims(ir, receipts, folder):
 
 def build(folder):
     req=load(folder/'request.json'); receipts=load(folder/'receipts.json')
+    if not (folder/'execution.json').exists():context.write(folder,context.EvidenceMode.UNKNOWN)
+    execution=context.validate_parcel(folder)
     parcel=validate_evidence(req,receipts,folder)
     ir=model.build(req,parcel,receipts,folder)
     validate_claims(ir,receipts,folder)
@@ -89,7 +91,7 @@ def build(folder):
     save(folder/'ir.json',ir)
     prompt=packet.prompts(ir); prompt['model_sha256']=digest((folder/'ir.json').read_bytes())
     save(folder/'image-prompts.json',prompt)
-    md,page,csv=packet.projections(ir,receipts)
+    md,page,csv=packet.projections(ir,receipts,execution)
     (folder/'packet.md').write_text(md)
     (folder/'packet.html').write_text(page)
     (folder/'calculation-steps.csv').write_text(csv)
@@ -106,18 +108,20 @@ def verify(folder):
     if actual!=set(m['files'])|{'manifest.json'}:raise ValueError('Packet inventory changed')
     for name,h in m['files'].items():
         if digest(safe(folder,name).read_bytes())!=h:raise ValueError('Artifact hash mismatch: '+name)
+    execution=context.validate_parcel(folder)
     req=load(folder/'request.json');receipts=load(folder/'receipts.json');parcel=validate_evidence(req,receipts,folder)
     ir=load(folder/'ir.json');validate_claims(ir,receipts,folder)
     if ir!=model.build(req,parcel,receipts,folder):raise ValueError('Model differs from inputs and implementation')
     if load(folder/'workflow.json')!=load(WORKFLOW):raise ValueError('Workflow snapshot changed')
     prompt=packet.prompts(ir);prompt['model_sha256']=digest((folder/'ir.json').read_bytes())
     if (folder/'image-prompts.json').read_text()!=dumps(prompt):raise ValueError('Image prompt bindings changed')
-    for name,text in zip(['packet.md','packet.html','calculation-steps.csv'],packet.projections(ir,receipts)):
+    for name,text in zip(['packet.md','packet.html','calculation-steps.csv'],packet.projections(ir,receipts,execution)):
         if (folder/name).read_text()!=text:raise ValueError('Packet projection changed: '+name)
     return {'status':'passed','bbl':parcel,'claims':len(ir['claims']),'sources':len(receipts),'professional_review':'pending','process_coverage':'partial','packet':str(folder/'packet.html')}
 
 def collect(req,folder):
     validate_request(req);fresh(folder);save(folder/'request.json',req)
+    context.write(folder,context.EvidenceMode.LIVE)
     parcel,receipts=router.collect(req,folder)
     validate_evidence(req,receipts,folder)
     return parcel
@@ -130,6 +134,8 @@ def replay(source,folder,req=None):
     chosen=req or load(source/'request.json');validate_request(chosen);fresh(folder)
     if req is None:shutil.copyfile(source/'request.json',folder/'request.json')
     else:save(folder/'request.json',chosen)
+    context.write(folder,context.EvidenceMode.REPLAY,source)
+    shutil.copyfile(source/'manifest.json',folder/'replay-source-manifest.json')
     shutil.copyfile(source/'receipts.json',folder/'receipts.json')
     shutil.copytree(source/'sources',folder/'sources')
     build(folder);return verify(folder)

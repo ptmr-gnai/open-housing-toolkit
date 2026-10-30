@@ -1,7 +1,7 @@
 """Immutable recipe runs, exact source preservation, deterministic exports. MIT."""
 from pathlib import Path
 import shutil
-from housing_workflow import engine as evidence, packet
+from housing_workflow import engine as evidence, packet, context
 from housing_workflow.contracts import digest, dumps, load, save
 from .recipe import compile_recipe, impact
 
@@ -15,8 +15,8 @@ def implementation():
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in paths}
 
 
-def projections(ir, receipts, recipe):
-    md,page,csv=packet.projections(ir,receipts)
+def projections(ir, receipts, recipe, execution):
+    md,page,csv=packet.projections(ir,receipts,execution)
     note='Analysis recipe: '+recipe['id']+' revision '+recipe['revision']+'; SHA256 '+ir['analysis_recipe']['sha256']+'. Professional review pending.'
     md += '\n## Analysis recipe\n\n'+note+'\n\nSee recipe.json and trace.json for assumptions, versioned methods, execution order and review gates. The retained evidence-run contains the original source packet; its prior scenario has been replaced in this packet.\n'
     import html
@@ -27,10 +27,12 @@ def projections(ir, receipts, recipe):
 
 def compiled(folder):
     evidence.verify(folder/'evidence-run')
+    execution=context.read(folder)
+    if execution.mode!=context.EvidenceMode.ANALYSIS or execution.source_manifest_sha256!=digest((folder/'evidence-run/manifest.json').read_bytes()):raise ValueError('Analysis execution context differs from retained evidence')
     r=load(folder/'recipe.json');ir,trace=compile_recipe(r,load(folder/'evidence-run/ir.json'))
     receipts=load(folder/'evidence-run/receipts.json')
     evidence.validate_claims(ir,receipts,folder/'evidence-run')
-    outputs={'ir.json':dumps(ir),'trace.json':dumps(trace),**projections(ir,receipts,r)}
+    outputs={'ir.json':dumps(ir),'trace.json':dumps(trace),**projections(ir,receipts,r,execution)}
     # Packets link sources/ relative to their own directory, not evidence-run/.
     return outputs
 
@@ -71,6 +73,7 @@ def build(source, recipe, folder):
     evidence.fresh(folder)
     shutil.copytree(base,folder/'evidence-run')
     shutil.copytree(base/'sources',folder/'sources')
+    context.write(folder,context.EvidenceMode.ANALYSIS,base)
     save(folder/'recipe.json',recipe)
     for name,value in compiled(folder).items():(folder/name).write_text(value)
     save(folder/'origin.json',{'source_manifest_sha256':digest((source/'manifest.json').read_bytes()),

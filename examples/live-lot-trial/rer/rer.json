@@ -1,0 +1,4276 @@
+{
+  "comparison_claims": [
+    {
+      "id": "site.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Site identity from verified upstream analysis",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "file": "analysis-run/ir.json",
+          "pointer": "/resolved_bbl",
+          "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727"
+        }
+      ],
+      "unit": "status",
+      "value": "2028530012"
+    },
+    {
+      "id": "reference.ami30_income_one",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded annual_income_usd at 30% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "30% AMI $34,000 $48,600 $850 $1,090",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per year",
+      "value": "34000.00"
+    },
+    {
+      "id": "reference.ami30_income_four",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded annual_income_usd at 30% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "30% AMI $34,000 $48,600 $850 $1,090",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per year",
+      "value": "48600.00"
+    },
+    {
+      "id": "reference.ami30_rent_studio",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded reference_monthly_rent_usd at 30% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "30% AMI $34,000 $48,600 $850 $1,090",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per month",
+      "value": "850.00"
+    },
+    {
+      "id": "reference.ami30_rent_two",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded reference_monthly_rent_usd at 30% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "30% AMI $34,000 $48,600 $850 $1,090",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per month",
+      "value": "1090.00"
+    },
+    {
+      "id": "reference.ami60_income_one",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded annual_income_usd at 60% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "60% AMI $68,000 $97,200 $1,700 $2,190",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per year",
+      "value": "68000.00"
+    },
+    {
+      "id": "reference.ami60_income_four",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded annual_income_usd at 60% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "60% AMI $68,000 $97,200 $1,700 $2,190",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per year",
+      "value": "97200.00"
+    },
+    {
+      "id": "reference.ami60_rent_studio",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded reference_monthly_rent_usd at 60% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "60% AMI $68,000 $97,200 $1,700 $2,190",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per month",
+      "value": "1700.00"
+    },
+    {
+      "id": "reference.ami60_rent_two",
+      "inputs": [],
+      "kind": "fact",
+      "label": "Historical rounded reference_monthly_rent_usd at 60% AMI",
+      "method": null,
+      "rationale": null,
+      "references": [
+        {
+          "excerpt_file": "reference-source/passages.txt",
+          "excerpt_sha256": "ec02efd171c803c2e1429868471b602739a4e68e7a448dec99cb3ef1230dcbc4",
+          "extraction_method": "nyc-rer-table3-selected-rows@1",
+          "page": 6,
+          "quote": "60% AMI $68,000 $97,200 $1,700 $2,190",
+          "source_pdf_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "table": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "unit": "USD per month",
+      "value": "2190.00"
+    },
+    {
+      "id": "policy.cost_threshold_percent",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Illustrative housing-cost threshold",
+      "method": null,
+      "rationale": "Illustrative housing-cost-burden convention, not eligibility or a sufficient measure of household welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "30.00"
+    },
+    {
+      "id": "review.no_action",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "Future without-intervention baseline",
+      "method": null,
+      "rationale": "Future no-action development has not been established. Program differences are not net additions or causal benefits.",
+      "references": [],
+      "unit": "status",
+      "value": null
+    },
+    {
+      "id": "review.occupancy",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "Existing occupancy and direct losses",
+      "method": null,
+      "rationale": "Existing occupants, businesses, protections and direct losses remain unresolved. Recorded zero homes cannot clear displacement.",
+      "references": [
+        {
+          "file": "analysis-run/ir.json",
+          "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+          "upstream_claim": "unknown.current_use"
+        }
+      ],
+      "unit": "status",
+      "value": null
+    },
+    {
+      "id": "review.access",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "Transit opportunity access",
+      "method": null,
+      "rationale": "No network-access result imported or calculated in this slice. Station proximity is not job access.",
+      "references": [],
+      "unit": "status",
+      "value": null
+    },
+    {
+      "id": "profile.lower_income.annual_income_usd",
+      "inputs": [
+        "reference.ami30_income_four"
+      ],
+      "kind": "assumption",
+      "label": "Hypothetical annual household income",
+      "method": null,
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "48600.00"
+    },
+    {
+      "id": "profile.lower_income.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Exact bedroom category for this comparison",
+      "method": null,
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "profile.lower_income.monthly_budget",
+      "inputs": [
+        "profile.lower_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative monthly housing-cost budget",
+      "method": "housing.monthly_budget@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1215.00"
+    },
+    {
+      "id": "profile.higher_income.annual_income_usd",
+      "inputs": [
+        "reference.ami60_income_four"
+      ],
+      "kind": "assumption",
+      "label": "Hypothetical annual household income",
+      "method": null,
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "97200.00"
+    },
+    {
+      "id": "profile.higher_income.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Exact bedroom category for this comparison",
+      "method": null,
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "profile.higher_income.monthly_budget",
+      "inputs": [
+        "profile.higher_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative monthly housing-cost budget",
+      "method": "housing.monthly_budget@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "2430.00"
+    },
+    {
+      "id": "program.program_a.declared_homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Explicit proposed program total",
+      "method": null,
+      "rationale": "Sum of explicit illustrative offer bins; not a feasible or approved unit count.",
+      "references": [],
+      "unit": "homes",
+      "value": 12
+    },
+    {
+      "id": "program.program_a.delivery",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "Program delivery and realization",
+      "method": null,
+      "rationale": "Illustrative program only; no finance, construction or delivery evidence.",
+      "references": [],
+      "unit": "status",
+      "value": null
+    },
+    {
+      "id": "program.program_a.commitment",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Restriction commitment status",
+      "method": null,
+      "rationale": "Only an illustrative proposed offer. No binding legal instrument or achieved affordability certified.",
+      "references": [],
+      "unit": "status",
+      "value": "proposed"
+    },
+    {
+      "id": "program.program_a.lower_rent.homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "homes",
+      "method": null,
+      "rationale": "Practitioner-supplied hypothetical offer count, independent of area-budget home-equivalents; reconciliation not established.",
+      "references": [],
+      "unit": "homes",
+      "value": 8
+    },
+    {
+      "id": "program.program_a.lower_rent.monthly_rent_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "monthly_rent_usd",
+      "method": null,
+      "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1000.00"
+    },
+    {
+      "id": "program.program_a.lower_rent.tenant_utilities_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "tenant_utilities_usd",
+      "method": null,
+      "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "100.00"
+    },
+    {
+      "id": "program.program_a.lower_rent.restriction_years",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "restriction_years",
+      "method": null,
+      "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+      "references": [],
+      "unit": "years",
+      "value": 60
+    },
+    {
+      "id": "program.program_a.lower_rent.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Proposed bedroom category",
+      "method": null,
+      "rationale": "Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "program.program_a.lower_rent.gross_monthly_cost",
+      "inputs": [
+        "program.program_a.lower_rent.monthly_rent_usd",
+        "program.program_a.lower_rent.tenant_utilities_usd"
+      ],
+      "kind": "calculation",
+      "label": "Rent plus assumed tenant-paid utilities",
+      "method": "housing.gross_monthly_cost@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1100.00"
+    },
+    {
+      "id": "program.program_a.lower_rent.annual_cost",
+      "inputs": [
+        "program.program_a.lower_rent.gross_monthly_cost"
+      ],
+      "kind": "calculation",
+      "label": "Annualized housing cost",
+      "method": "housing.annualize@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "13200.00"
+    },
+    {
+      "id": "program.program_a.lower_rent.for_lower_income.burden_percent",
+      "inputs": [
+        "program.program_a.lower_rent.annual_cost",
+        "profile.lower_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "27.160494"
+    },
+    {
+      "id": "program.program_a.lower_rent.for_lower_income.cost_test",
+      "inputs": [
+        "program.program_a.lower_rent.annual_cost",
+        "profile.lower_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.lower_rent.for_lower_income.bedroom_test",
+      "inputs": [
+        "program.program_a.lower_rent.bedrooms",
+        "profile.lower_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.lower_rent.for_lower_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_a.lower_rent.for_lower_income.cost_test",
+        "program.program_a.lower_rent.for_lower_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.lower_rent.for_higher_income.burden_percent",
+      "inputs": [
+        "program.program_a.lower_rent.annual_cost",
+        "profile.higher_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "13.580247"
+    },
+    {
+      "id": "program.program_a.lower_rent.for_higher_income.cost_test",
+      "inputs": [
+        "program.program_a.lower_rent.annual_cost",
+        "profile.higher_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.lower_rent.for_higher_income.bedroom_test",
+      "inputs": [
+        "program.program_a.lower_rent.bedrooms",
+        "profile.higher_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.lower_rent.for_higher_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_a.lower_rent.for_higher_income.cost_test",
+        "program.program_a.lower_rent.for_higher_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.higher_rent.homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "homes",
+      "method": null,
+      "rationale": "Practitioner-supplied hypothetical offer count, independent of area-budget home-equivalents; reconciliation not established.",
+      "references": [],
+      "unit": "homes",
+      "value": 4
+    },
+    {
+      "id": "program.program_a.higher_rent.monthly_rent_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "monthly_rent_usd",
+      "method": null,
+      "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1800.00"
+    },
+    {
+      "id": "program.program_a.higher_rent.tenant_utilities_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "tenant_utilities_usd",
+      "method": null,
+      "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "100.00"
+    },
+    {
+      "id": "program.program_a.higher_rent.restriction_years",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "restriction_years",
+      "method": null,
+      "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+      "references": [],
+      "unit": "years",
+      "value": 30
+    },
+    {
+      "id": "program.program_a.higher_rent.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Proposed bedroom category",
+      "method": null,
+      "rationale": "Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "program.program_a.higher_rent.gross_monthly_cost",
+      "inputs": [
+        "program.program_a.higher_rent.monthly_rent_usd",
+        "program.program_a.higher_rent.tenant_utilities_usd"
+      ],
+      "kind": "calculation",
+      "label": "Rent plus assumed tenant-paid utilities",
+      "method": "housing.gross_monthly_cost@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1900.00"
+    },
+    {
+      "id": "program.program_a.higher_rent.annual_cost",
+      "inputs": [
+        "program.program_a.higher_rent.gross_monthly_cost"
+      ],
+      "kind": "calculation",
+      "label": "Annualized housing cost",
+      "method": "housing.annualize@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "22800.00"
+    },
+    {
+      "id": "program.program_a.higher_rent.for_lower_income.burden_percent",
+      "inputs": [
+        "program.program_a.higher_rent.annual_cost",
+        "profile.lower_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "46.913580"
+    },
+    {
+      "id": "program.program_a.higher_rent.for_lower_income.cost_test",
+      "inputs": [
+        "program.program_a.higher_rent.annual_cost",
+        "profile.lower_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": false
+    },
+    {
+      "id": "program.program_a.higher_rent.for_lower_income.bedroom_test",
+      "inputs": [
+        "program.program_a.higher_rent.bedrooms",
+        "profile.lower_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.higher_rent.for_lower_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_a.higher_rent.for_lower_income.cost_test",
+        "program.program_a.higher_rent.for_lower_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": false
+    },
+    {
+      "id": "program.program_a.higher_rent.for_higher_income.burden_percent",
+      "inputs": [
+        "program.program_a.higher_rent.annual_cost",
+        "profile.higher_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "23.456790"
+    },
+    {
+      "id": "program.program_a.higher_rent.for_higher_income.cost_test",
+      "inputs": [
+        "program.program_a.higher_rent.annual_cost",
+        "profile.higher_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.higher_rent.for_higher_income.bedroom_test",
+      "inputs": [
+        "program.program_a.higher_rent.bedrooms",
+        "profile.higher_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.higher_rent.for_higher_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_a.higher_rent.for_higher_income.cost_test",
+        "program.program_a.higher_rent.for_higher_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_a.sum_homes",
+      "inputs": [
+        "program.program_a.lower_rent.homes",
+        "program.program_a.higher_rent.homes"
+      ],
+      "kind": "calculation",
+      "label": "Sum of explicit offer bins",
+      "method": "housing.sum_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 12
+    },
+    {
+      "id": "program.program_a.for_lower_income.cost_test_homes",
+      "inputs": [
+        "program.program_a.lower_rent.homes",
+        "program.program_a.lower_rent.for_lower_income.cost_and_bedroom_test",
+        "program.program_a.higher_rent.homes",
+        "program.program_a.higher_rent.for_lower_income.cost_and_bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Homes meeting cost threshold and exact bedroom category; not eligibility",
+      "method": "housing.selected_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 8
+    },
+    {
+      "id": "program.program_a.for_higher_income.cost_test_homes",
+      "inputs": [
+        "program.program_a.lower_rent.homes",
+        "program.program_a.lower_rent.for_higher_income.cost_and_bedroom_test",
+        "program.program_a.higher_rent.homes",
+        "program.program_a.higher_rent.for_higher_income.cost_and_bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Homes meeting cost threshold and exact bedroom category; not eligibility",
+      "method": "housing.selected_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 12
+    },
+    {
+      "id": "program.program_b.declared_homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Explicit proposed program total",
+      "method": null,
+      "rationale": "Sum of explicit illustrative offer bins; not a feasible or approved unit count.",
+      "references": [],
+      "unit": "homes",
+      "value": 18
+    },
+    {
+      "id": "program.program_b.delivery",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "Program delivery and realization",
+      "method": null,
+      "rationale": "Illustrative program only; no finance, construction or delivery evidence.",
+      "references": [],
+      "unit": "status",
+      "value": null
+    },
+    {
+      "id": "program.program_b.commitment",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Restriction commitment status",
+      "method": null,
+      "rationale": "Only an illustrative proposed offer. No binding legal instrument or achieved affordability certified.",
+      "references": [],
+      "unit": "status",
+      "value": "proposed"
+    },
+    {
+      "id": "program.program_b.lower_rent.homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "homes",
+      "method": null,
+      "rationale": "Practitioner-supplied hypothetical offer count, independent of area-budget home-equivalents; reconciliation not established.",
+      "references": [],
+      "unit": "homes",
+      "value": 4
+    },
+    {
+      "id": "program.program_b.lower_rent.monthly_rent_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "monthly_rent_usd",
+      "method": null,
+      "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1000.00"
+    },
+    {
+      "id": "program.program_b.lower_rent.tenant_utilities_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "tenant_utilities_usd",
+      "method": null,
+      "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "100.00"
+    },
+    {
+      "id": "program.program_b.lower_rent.restriction_years",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "restriction_years",
+      "method": null,
+      "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+      "references": [],
+      "unit": "years",
+      "value": 30
+    },
+    {
+      "id": "program.program_b.lower_rent.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Proposed bedroom category",
+      "method": null,
+      "rationale": "Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "program.program_b.lower_rent.gross_monthly_cost",
+      "inputs": [
+        "program.program_b.lower_rent.monthly_rent_usd",
+        "program.program_b.lower_rent.tenant_utilities_usd"
+      ],
+      "kind": "calculation",
+      "label": "Rent plus assumed tenant-paid utilities",
+      "method": "housing.gross_monthly_cost@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1100.00"
+    },
+    {
+      "id": "program.program_b.lower_rent.annual_cost",
+      "inputs": [
+        "program.program_b.lower_rent.gross_monthly_cost"
+      ],
+      "kind": "calculation",
+      "label": "Annualized housing cost",
+      "method": "housing.annualize@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "13200.00"
+    },
+    {
+      "id": "program.program_b.lower_rent.for_lower_income.burden_percent",
+      "inputs": [
+        "program.program_b.lower_rent.annual_cost",
+        "profile.lower_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "27.160494"
+    },
+    {
+      "id": "program.program_b.lower_rent.for_lower_income.cost_test",
+      "inputs": [
+        "program.program_b.lower_rent.annual_cost",
+        "profile.lower_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.lower_rent.for_lower_income.bedroom_test",
+      "inputs": [
+        "program.program_b.lower_rent.bedrooms",
+        "profile.lower_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.lower_rent.for_lower_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_b.lower_rent.for_lower_income.cost_test",
+        "program.program_b.lower_rent.for_lower_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.lower_rent.for_higher_income.burden_percent",
+      "inputs": [
+        "program.program_b.lower_rent.annual_cost",
+        "profile.higher_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "13.580247"
+    },
+    {
+      "id": "program.program_b.lower_rent.for_higher_income.cost_test",
+      "inputs": [
+        "program.program_b.lower_rent.annual_cost",
+        "profile.higher_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.lower_rent.for_higher_income.bedroom_test",
+      "inputs": [
+        "program.program_b.lower_rent.bedrooms",
+        "profile.higher_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.lower_rent.for_higher_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_b.lower_rent.for_higher_income.cost_test",
+        "program.program_b.lower_rent.for_higher_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.higher_rent.homes",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "homes",
+      "method": null,
+      "rationale": "Practitioner-supplied hypothetical offer count, independent of area-budget home-equivalents; reconciliation not established.",
+      "references": [],
+      "unit": "homes",
+      "value": 14
+    },
+    {
+      "id": "program.program_b.higher_rent.monthly_rent_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "monthly_rent_usd",
+      "method": null,
+      "rationale": "Assumed initial monthly contract rent in 2025 USD; no certified program income cap or rent ceiling.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1800.00"
+    },
+    {
+      "id": "program.program_b.higher_rent.tenant_utilities_usd",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "tenant_utilities_usd",
+      "method": null,
+      "rationale": "Assumed monthly tenant-paid utilities, not an official utility allowance or measured bill.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "100.00"
+    },
+    {
+      "id": "program.program_b.higher_rent.restriction_years",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "restriction_years",
+      "method": null,
+      "rationale": "Assumed proposed restriction duration; no binding instrument, rent trajectory or delivery established.",
+      "references": [],
+      "unit": "years",
+      "value": 30
+    },
+    {
+      "id": "program.program_b.higher_rent.bedrooms",
+      "inputs": [],
+      "kind": "assumption",
+      "label": "Proposed bedroom category",
+      "method": null,
+      "rationale": "Explicit illustrative offer category, not a reviewed floor plan or household-suitability determination.",
+      "references": [],
+      "unit": "bedrooms",
+      "value": 2
+    },
+    {
+      "id": "program.program_b.higher_rent.gross_monthly_cost",
+      "inputs": [
+        "program.program_b.higher_rent.monthly_rent_usd",
+        "program.program_b.higher_rent.tenant_utilities_usd"
+      ],
+      "kind": "calculation",
+      "label": "Rent plus assumed tenant-paid utilities",
+      "method": "housing.gross_monthly_cost@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per month",
+      "value": "1900.00"
+    },
+    {
+      "id": "program.program_b.higher_rent.annual_cost",
+      "inputs": [
+        "program.program_b.higher_rent.gross_monthly_cost"
+      ],
+      "kind": "calculation",
+      "label": "Annualized housing cost",
+      "method": "housing.annualize@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "USD per year",
+      "value": "22800.00"
+    },
+    {
+      "id": "program.program_b.higher_rent.for_lower_income.burden_percent",
+      "inputs": [
+        "program.program_b.higher_rent.annual_cost",
+        "profile.lower_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "46.913580"
+    },
+    {
+      "id": "program.program_b.higher_rent.for_lower_income.cost_test",
+      "inputs": [
+        "program.program_b.higher_rent.annual_cost",
+        "profile.lower_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": false
+    },
+    {
+      "id": "program.program_b.higher_rent.for_lower_income.bedroom_test",
+      "inputs": [
+        "program.program_b.higher_rent.bedrooms",
+        "profile.lower_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.higher_rent.for_lower_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_b.higher_rent.for_lower_income.cost_test",
+        "program.program_b.higher_rent.for_lower_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": false
+    },
+    {
+      "id": "program.program_b.higher_rent.for_higher_income.burden_percent",
+      "inputs": [
+        "program.program_b.higher_rent.annual_cost",
+        "profile.higher_income.annual_income_usd"
+      ],
+      "kind": "calculation",
+      "label": "Illustrative housing-cost burden",
+      "method": "housing.cost_burden_percent@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "percent",
+      "value": "23.456790"
+    },
+    {
+      "id": "program.program_b.higher_rent.for_higher_income.cost_test",
+      "inputs": [
+        "program.program_b.higher_rent.annual_cost",
+        "profile.higher_income.annual_income_usd",
+        "policy.cost_threshold_percent"
+      ],
+      "kind": "calculation",
+      "label": "Annual cost at or below stated income threshold",
+      "method": "housing.within_threshold@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.higher_rent.for_higher_income.bedroom_test",
+      "inputs": [
+        "program.program_b.higher_rent.bedrooms",
+        "profile.higher_income.bedrooms"
+      ],
+      "kind": "calculation",
+      "label": "Exact bedroom category matches",
+      "method": "housing.bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.higher_rent.for_higher_income.cost_and_bedroom_test",
+      "inputs": [
+        "program.program_b.higher_rent.for_higher_income.cost_test",
+        "program.program_b.higher_rent.for_higher_income.bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Both diagnostic conditions met; not eligibility",
+      "method": "housing.cost_and_bedroom_match@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "boolean",
+      "value": true
+    },
+    {
+      "id": "program.program_b.sum_homes",
+      "inputs": [
+        "program.program_b.lower_rent.homes",
+        "program.program_b.higher_rent.homes"
+      ],
+      "kind": "calculation",
+      "label": "Sum of explicit offer bins",
+      "method": "housing.sum_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 18
+    },
+    {
+      "id": "program.program_b.for_lower_income.cost_test_homes",
+      "inputs": [
+        "program.program_b.lower_rent.homes",
+        "program.program_b.lower_rent.for_lower_income.cost_and_bedroom_test",
+        "program.program_b.higher_rent.homes",
+        "program.program_b.higher_rent.for_lower_income.cost_and_bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Homes meeting cost threshold and exact bedroom category; not eligibility",
+      "method": "housing.selected_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 4
+    },
+    {
+      "id": "program.program_b.for_higher_income.cost_test_homes",
+      "inputs": [
+        "program.program_b.lower_rent.homes",
+        "program.program_b.lower_rent.for_higher_income.cost_and_bedroom_test",
+        "program.program_b.higher_rent.homes",
+        "program.program_b.higher_rent.for_higher_income.cost_and_bedroom_test"
+      ],
+      "kind": "calculation",
+      "label": "Homes meeting cost threshold and exact bedroom category; not eligibility",
+      "method": "housing.selected_homes@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 18
+    },
+    {
+      "id": "comparison.total_homes_difference",
+      "inputs": [
+        "program.program_b.declared_homes",
+        "program.program_a.declared_homes"
+      ],
+      "kind": "calculation",
+      "label": "Second program minus first: explicit total homes",
+      "method": "housing.difference@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 6
+    },
+    {
+      "id": "comparison.for_lower_income.cost_test_homes_difference",
+      "inputs": [
+        "program.program_b.for_lower_income.cost_test_homes",
+        "program.program_a.for_lower_income.cost_test_homes"
+      ],
+      "kind": "calculation",
+      "label": "Second minus first: homes meeting diagnostic conditions",
+      "method": "housing.difference@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": -4
+    },
+    {
+      "id": "comparison.for_higher_income.cost_test_homes_difference",
+      "inputs": [
+        "program.program_b.for_higher_income.cost_test_homes",
+        "program.program_a.for_higher_income.cost_test_homes"
+      ],
+      "kind": "calculation",
+      "label": "Second minus first: homes meeting diagnostic conditions",
+      "method": "housing.difference@1",
+      "rationale": "Conditional arithmetic for explicitly supplied profiles and offers; not eligibility or achieved welfare.",
+      "references": [],
+      "unit": "homes",
+      "value": 6
+    }
+  ],
+  "comparison_claims_base": "comparison-run/",
+  "comparison_profiles": [
+    {
+      "annual_income_claim": "profile.lower_income.annual_income_usd",
+      "bedroom_claim": "profile.lower_income.bedrooms",
+      "bedrooms": 2,
+      "household_size": 4,
+      "id": "lower_income",
+      "income_reference_id": "ami30_income_four",
+      "label": "Hypothetical four-person household with $48,600 annual income",
+      "monthly_budget_claim": "profile.lower_income.monthly_budget",
+      "population_status": "hypothetical_not_observed",
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding."
+    },
+    {
+      "annual_income_claim": "profile.higher_income.annual_income_usd",
+      "bedroom_claim": "profile.higher_income.bedrooms",
+      "bedrooms": 2,
+      "household_size": 4,
+      "id": "higher_income",
+      "income_reference_id": "ami60_income_four",
+      "label": "Hypothetical four-person household with $97,200 annual income",
+      "monthly_budget_claim": "profile.higher_income.monthly_budget",
+      "population_status": "hypothetical_not_observed",
+      "rationale": "Practitioner supplied hypothetical income, numerically equal to pinned historical 2025 reference; no eligibility finding."
+    }
+  ],
+  "comparison_programs": [
+    {
+      "bins": [
+        {
+          "assessments": [
+            {
+              "bedroom_test_claim": "program.program_a.lower_rent.for_lower_income.bedroom_test",
+              "burden_claim": "program.program_a.lower_rent.for_lower_income.burden_percent",
+              "combined_test_claim": "program.program_a.lower_rent.for_lower_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_a.lower_rent.for_lower_income.cost_test",
+              "profile_id": "lower_income"
+            },
+            {
+              "bedroom_test_claim": "program.program_a.lower_rent.for_higher_income.bedroom_test",
+              "burden_claim": "program.program_a.lower_rent.for_higher_income.burden_percent",
+              "combined_test_claim": "program.program_a.lower_rent.for_higher_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_a.lower_rent.for_higher_income.cost_test",
+              "profile_id": "higher_income"
+            }
+          ],
+          "claims": {
+            "annual_cost": "program.program_a.lower_rent.annual_cost",
+            "bedrooms": "program.program_a.lower_rent.bedrooms",
+            "gross_monthly": "program.program_a.lower_rent.gross_monthly_cost",
+            "homes": "program.program_a.lower_rent.homes",
+            "monthly_rent_usd": "program.program_a.lower_rent.monthly_rent_usd",
+            "restriction_years": "program.program_a.lower_rent.restriction_years",
+            "tenant_utilities_usd": "program.program_a.lower_rent.tenant_utilities_usd"
+          },
+          "id": "lower_rent"
+        },
+        {
+          "assessments": [
+            {
+              "bedroom_test_claim": "program.program_a.higher_rent.for_lower_income.bedroom_test",
+              "burden_claim": "program.program_a.higher_rent.for_lower_income.burden_percent",
+              "combined_test_claim": "program.program_a.higher_rent.for_lower_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_a.higher_rent.for_lower_income.cost_test",
+              "profile_id": "lower_income"
+            },
+            {
+              "bedroom_test_claim": "program.program_a.higher_rent.for_higher_income.bedroom_test",
+              "burden_claim": "program.program_a.higher_rent.for_higher_income.burden_percent",
+              "combined_test_claim": "program.program_a.higher_rent.for_higher_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_a.higher_rent.for_higher_income.cost_test",
+              "profile_id": "higher_income"
+            }
+          ],
+          "claims": {
+            "annual_cost": "program.program_a.higher_rent.annual_cost",
+            "bedrooms": "program.program_a.higher_rent.bedrooms",
+            "gross_monthly": "program.program_a.higher_rent.gross_monthly_cost",
+            "homes": "program.program_a.higher_rent.homes",
+            "monthly_rent_usd": "program.program_a.higher_rent.monthly_rent_usd",
+            "restriction_years": "program.program_a.higher_rent.restriction_years",
+            "tenant_utilities_usd": "program.program_a.higher_rent.tenant_utilities_usd"
+          },
+          "id": "higher_rent"
+        }
+      ],
+      "commitment_status": "proposed",
+      "delivery": "unknown",
+      "id": "program_a",
+      "label": "Program A — smaller, more lower-rent offers",
+      "profile_counts": [
+        {
+          "homes_claim": "program.program_a.for_lower_income.cost_test_homes",
+          "profile_id": "lower_income"
+        },
+        {
+          "homes_claim": "program.program_a.for_higher_income.cost_test_homes",
+          "profile_id": "higher_income"
+        }
+      ],
+      "total_claim": "program.program_a.declared_homes"
+    },
+    {
+      "bins": [
+        {
+          "assessments": [
+            {
+              "bedroom_test_claim": "program.program_b.lower_rent.for_lower_income.bedroom_test",
+              "burden_claim": "program.program_b.lower_rent.for_lower_income.burden_percent",
+              "combined_test_claim": "program.program_b.lower_rent.for_lower_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_b.lower_rent.for_lower_income.cost_test",
+              "profile_id": "lower_income"
+            },
+            {
+              "bedroom_test_claim": "program.program_b.lower_rent.for_higher_income.bedroom_test",
+              "burden_claim": "program.program_b.lower_rent.for_higher_income.burden_percent",
+              "combined_test_claim": "program.program_b.lower_rent.for_higher_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_b.lower_rent.for_higher_income.cost_test",
+              "profile_id": "higher_income"
+            }
+          ],
+          "claims": {
+            "annual_cost": "program.program_b.lower_rent.annual_cost",
+            "bedrooms": "program.program_b.lower_rent.bedrooms",
+            "gross_monthly": "program.program_b.lower_rent.gross_monthly_cost",
+            "homes": "program.program_b.lower_rent.homes",
+            "monthly_rent_usd": "program.program_b.lower_rent.monthly_rent_usd",
+            "restriction_years": "program.program_b.lower_rent.restriction_years",
+            "tenant_utilities_usd": "program.program_b.lower_rent.tenant_utilities_usd"
+          },
+          "id": "lower_rent"
+        },
+        {
+          "assessments": [
+            {
+              "bedroom_test_claim": "program.program_b.higher_rent.for_lower_income.bedroom_test",
+              "burden_claim": "program.program_b.higher_rent.for_lower_income.burden_percent",
+              "combined_test_claim": "program.program_b.higher_rent.for_lower_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_b.higher_rent.for_lower_income.cost_test",
+              "profile_id": "lower_income"
+            },
+            {
+              "bedroom_test_claim": "program.program_b.higher_rent.for_higher_income.bedroom_test",
+              "burden_claim": "program.program_b.higher_rent.for_higher_income.burden_percent",
+              "combined_test_claim": "program.program_b.higher_rent.for_higher_income.cost_and_bedroom_test",
+              "cost_test_claim": "program.program_b.higher_rent.for_higher_income.cost_test",
+              "profile_id": "higher_income"
+            }
+          ],
+          "claims": {
+            "annual_cost": "program.program_b.higher_rent.annual_cost",
+            "bedrooms": "program.program_b.higher_rent.bedrooms",
+            "gross_monthly": "program.program_b.higher_rent.gross_monthly_cost",
+            "homes": "program.program_b.higher_rent.homes",
+            "monthly_rent_usd": "program.program_b.higher_rent.monthly_rent_usd",
+            "restriction_years": "program.program_b.higher_rent.restriction_years",
+            "tenant_utilities_usd": "program.program_b.higher_rent.tenant_utilities_usd"
+          },
+          "id": "higher_rent"
+        }
+      ],
+      "commitment_status": "proposed",
+      "delivery": "unknown",
+      "id": "program_b",
+      "label": "Program B — larger, fewer lower-rent offers",
+      "profile_counts": [
+        {
+          "homes_claim": "program.program_b.for_lower_income.cost_test_homes",
+          "profile_id": "lower_income"
+        },
+        {
+          "homes_claim": "program.program_b.for_higher_income.cost_test_homes",
+          "profile_id": "higher_income"
+        }
+      ],
+      "total_claim": "program.program_b.declared_homes"
+    }
+  ],
+  "comparison_sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+  "guide_inventory_sha256": "4c4b5b6199b6829452725a8c59ed078ab83048da995e55295b9f7a475dddab4f",
+  "limitations": [
+    "This module prepares a draft and instruction map, not the official fillable PDF or an agency submission.",
+    "No EDDE export, displacement map or community geography has been validated/imported.",
+    "Applicant narrative and legal/program interpretation remain unresolved.",
+    "Parent household-cost diagnostics are supplemental and are not RER affordability classifications.",
+    "Manual scoped inventory; unrecognized omissions and professional correctness remain untested."
+  ],
+  "module": "rer-preparation",
+  "prepared_by": "independent usability trial",
+  "prepared_on": "2026-10-30",
+  "reports": [
+    {
+      "applicability": "not_determined",
+      "interpretation": "A populated slot is not proof of compliance; status counts are not a completeness percentage or benefit score.",
+      "official_submission_ready": false,
+      "professional_review": "pending",
+      "program_id": "program_a",
+      "program_label": "Program A — smaller, more lower-rent offers",
+      "report_status": "incomplete_illustrative_draft",
+      "site_bbl": "2028530012",
+      "slots": [
+        {
+          "bindings": [
+            {
+              "file": "comparison-run/ir.json",
+              "kind": "comparison_metadata",
+              "pointer": "/programs/0/label",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": "Program A — smaller, more lower-rent offers"
+            }
+          ],
+          "label": "Project name",
+          "reason": "Comparison label only; not an application project name.",
+          "requirement_id": "cover.name",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": "Program A — smaller, more lower-rent offers"
+        },
+        {
+          "bindings": [],
+          "label": "Applicant contact",
+          "reason": "No actual applicant/contact supplied for these illustrative programs.",
+          "requirement_id": "cover.contact",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "file": "request.json",
+              "kind": "supplied_metadata",
+              "pointer": "/prepared_by",
+              "sha256": "aecc1677988d0010bfa86ca8ee64aed6c1ac1f55bb9ab2e67ba6dfa811cef7be",
+              "use": "input_for_slot",
+              "value": "independent usability trial"
+            }
+          ],
+          "label": "Draft preparer",
+          "reason": "Supplied draft authorship metadata, not applicant authority or professional endorsement.",
+          "requirement_id": "cover.preparer",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "independent usability trial"
+        },
+        {
+          "bindings": [
+            {
+              "file": "request.json",
+              "kind": "supplied_metadata",
+              "pointer": "/prepared_on",
+              "sha256": "aecc1677988d0010bfa86ca8ee64aed6c1ac1f55bb9ab2e67ba6dfa811cef7be",
+              "use": "input_for_slot",
+              "value": "2026-10-30"
+            }
+          ],
+          "label": "Preparation date",
+          "reason": "Supplied preparation date; distinct from price/reference years.",
+          "requirement_id": "cover.date",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "2026-10-30"
+        },
+        {
+          "bindings": [],
+          "label": "Application applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "cover.application",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "application",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            },
+            {
+              "document": "criteria",
+              "document_sha256": "4317addef32c41f571bde8e04307399f821ef08968cb3a48cb32ba96b5400d50",
+              "page_sha256": "18f3cc5e47d36edd7e7c3a1e54597ea6221d71a9bbcc263ad9fd4d31454c672a",
+              "pdf_page": 3,
+              "subsection": "applicability",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-criteria.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Application consistency",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "cover.consistency",
+          "section": 0,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+              "pdf_page": 1,
+              "subsection": "consistency",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Application/report version",
+          "reason": "Application certification/adoption stage is unknown. Our immutable reruns track changed inputs; that engineering policy is not a statement that the City requires post-certification report updates.",
+          "requirement_id": "cover.version_stage",
+          "section": 0,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "666f5f3028c6c061d4bdcc38e51a66c2c3b33a3b64d5c92b3c79bdc7dff7e38c",
+              "pdf_page": 2,
+              "subsection": "update policy",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover note",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_a.declared_homes",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/19/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": 12
+            }
+          ],
+          "label": "Project summary",
+          "reason": "Uses an explicit assumption; not a verified development plan.",
+          "requirement_id": "summary.project",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "11cde6f39ed358c8a0a60ac9a35bcbcf0e6d26584de6ce652306e0bc7ba05436",
+              "pdf_page": 2,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": "An illustrative rental offer of 12 homes for the linked site. Community context and fair-housing interpretation remain incomplete."
+        },
+        {
+          "bindings": [],
+          "label": "Community statistics",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "summary.context",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Narrative summary",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "summary.narrative",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Residential applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.scope",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.residential_gross_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "calculation",
+              "pointer": "/claims/490/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 13500.0
+            }
+          ],
+          "label": "Residential zoning area",
+          "reason": "An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this 12-home program. No conversion or construction-job estimate is made.",
+          "requirement_id": "res.zsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_a.declared_homes",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/19/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": 12
+            }
+          ],
+          "label": "Anticipated homes",
+          "reason": "Anticipated quantity in a constructed program, not a permitted or verified count.",
+          "requirement_id": "res.total",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": 12
+        },
+        {
+          "bindings": [],
+          "label": "Restriction classification",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.classification",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Income-band counts",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.band_counts",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Income-band shares",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.band_shares",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "AMI bands",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.ami",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Affordability programs",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.programs",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "MIH applicability/options",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.mih",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "44a591edb3fef05f3154bd9b1aff2691aa95f2c2ed05e73215be908ab64755cc",
+              "pdf_page": 6,
+              "subsection": "Table 4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_a.lower_rent.monthly_rent_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/23/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "1000.00"
+            },
+            {
+              "claim_id": "program.program_a.higher_rent.monthly_rent_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/38/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "1800.00"
+            }
+          ],
+          "label": "Illustrative rent ranges",
+          "reason": "Contract-rent assumptions are available. They are not verified AMI/program-based illustrative rent ranges. They appear as candidate inputs below, not as filled official rent cells.",
+          "requirement_id": "res.rents",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "profile.lower_income.annual_income_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/13/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "48600.00"
+            },
+            {
+              "claim_id": "profile.higher_income.annual_income_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/16/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "97200.00"
+            }
+          ],
+          "label": "Eligible income ranges",
+          "reason": "Hypothetical household incomes are available. They are not program eligibility ranges; no inferred eligibility or AMI allocation is inserted.",
+          "requirement_id": "res.incomes",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Reference years/rounding",
+          "reason": "The input comparison uses 2025 references; this draft is prepared in 2026. Current reporting applicability and rounding conventions need review. No inflation or automatic year substitution.",
+          "requirement_id": "res.years",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Final-setting caveat",
+          "reason": "Reporting caveat from pinned guidance, not actual future limits or a certified schedule.",
+          "requirement_id": "res.timing",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "notes",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "Final rents use construction-time limits; qualifying incomes use marketing-time limits."
+        },
+        {
+          "bindings": [],
+          "label": "Market-rent method",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.market_method",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Nonresidential applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "nonres.scope",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Tenant-area instruction divergence",
+          "reason": "Pinned form (2023) says to skip the nonresidential section without a specific tenant; pinned guide (2025) still requests area information. Preserve both, keep area slots visible, suppress speculative job data, and request interpretation.",
+          "requirement_id": "nonres.area_conflict",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.nonresidential_gross_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/487/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 1500
+            }
+          ],
+          "label": "Nonresidential zoning area",
+          "reason": "An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this 12-home program. No conversion or construction-job estimate is made.",
+          "requirement_id": "nonres.zsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Unknown-tenant zoning area",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "nonres.unknown_area",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Known-tenant zoning area",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "nonres.known_area",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Known-tenant job counts",
+          "reason": "Tenant identification is unresolved. No job count, NAICS assignment, wage or workforce estimate is produced.",
+          "requirement_id": "nonres.jobs",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "61e9c1274d572b2d48970a33119e03e017ae512cb37cd9e53f11a79811ff8aa7",
+              "pdf_page": 9,
+              "subsection": "Table 9",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Sector workforce/wages",
+          "reason": "Tenant identification is unresolved. No job count, NAICS assignment, wage or workforce estimate is produced.",
+          "requirement_id": "nonres.workforce",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2de5b322f6a71362073a90dfc779f3289d81d4f1097f201516e9884d8d693cab",
+              "pdf_page": 18,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "a00f368f56fed9bbfac59484fd58ddcc0a343022a3a0c998041947af3bd1dbae",
+              "pdf_page": 19,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "b4b6d5e1d5379d4ebf6e008d287e14b15c0cab201732d3ece26484bd83dbd593",
+              "pdf_page": 20,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.gross_area_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/486/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 15000
+            }
+          ],
+          "label": "Construction gross area",
+          "reason": "An earlier gross-area assumption is available, but it is not established for this program. Do not manufacture construction employment from an unrelated scenario.",
+          "requirement_id": "construction.gsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Construction duration",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.duration",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Construction person-years",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.person_years",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+              "pdf_page": 7,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Average yearly workers",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.workers",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+              "pdf_page": 7,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Validated reporting geography",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.geography",
+          "section": 3,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+              "pdf_page": 8,
+              "subsection": "geography footnote",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "EDDE summary pages",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.summary",
+          "section": 3,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "c1e74e7a5c3bfeeb03a4732ca7076273a196e7c884fe8bc6bcd6391ae8da4bfa",
+              "pdf_page": 11,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+              "pdf_page": 8,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Displacement-risk context",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.displacement",
+          "section": 3,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+              "pdf_page": 1,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Applicant narrative",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.statement",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "75039ec99a8095cad139a86afdf91df918c28981790df99e46a14384d847308a",
+              "pdf_page": 12,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ac92c35c4630cfc989ba416cc57e19360837ca50371ba2abd1e1fc3e4b63fe27",
+              "pdf_page": 13,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "616e7cee8e35388da302206941ace6bf03412de45b64adf47c95d69c55211314",
+              "pdf_page": 9,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Equal housing access",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal1",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+              "pdf_page": 14,
+              "subsection": "Goal 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Housing/opportunity",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal2",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+              "pdf_page": 14,
+              "subsection": "Goal 2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Preservation/displacement",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal3",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Rental-assistance access",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal4",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Disability accommodations",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal5",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+              "pdf_page": 16,
+              "subsection": "Goal 5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Disinvestment/infrastructure",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal6",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+              "pdf_page": 16,
+              "subsection": "Goal 6",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Full-profile applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "appendix.scope",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Local profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.local",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+              "pdf_page": 11,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Borough profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.borough",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "City profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.city",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Complete indicator appendix",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.all_indicators",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+              "pdf_page": 11,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        }
+      ],
+      "status_counts": {
+        "filled": 3,
+        "illustrative": 3,
+        "missing": 15,
+        "needs_interpretation": 29,
+        "not_applicable": 0
+      }
+    },
+    {
+      "applicability": "not_determined",
+      "interpretation": "A populated slot is not proof of compliance; status counts are not a completeness percentage or benefit score.",
+      "official_submission_ready": false,
+      "professional_review": "pending",
+      "program_id": "program_b",
+      "program_label": "Program B — larger, fewer lower-rent offers",
+      "report_status": "incomplete_illustrative_draft",
+      "site_bbl": "2028530012",
+      "slots": [
+        {
+          "bindings": [
+            {
+              "file": "comparison-run/ir.json",
+              "kind": "comparison_metadata",
+              "pointer": "/programs/1/label",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": "Program B — larger, fewer lower-rent offers"
+            }
+          ],
+          "label": "Project name",
+          "reason": "Comparison label only; not an application project name.",
+          "requirement_id": "cover.name",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": "Program B — larger, fewer lower-rent offers"
+        },
+        {
+          "bindings": [],
+          "label": "Applicant contact",
+          "reason": "No actual applicant/contact supplied for these illustrative programs.",
+          "requirement_id": "cover.contact",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "file": "request.json",
+              "kind": "supplied_metadata",
+              "pointer": "/prepared_by",
+              "sha256": "aecc1677988d0010bfa86ca8ee64aed6c1ac1f55bb9ab2e67ba6dfa811cef7be",
+              "use": "input_for_slot",
+              "value": "independent usability trial"
+            }
+          ],
+          "label": "Draft preparer",
+          "reason": "Supplied draft authorship metadata, not applicant authority or professional endorsement.",
+          "requirement_id": "cover.preparer",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "independent usability trial"
+        },
+        {
+          "bindings": [
+            {
+              "file": "request.json",
+              "kind": "supplied_metadata",
+              "pointer": "/prepared_on",
+              "sha256": "aecc1677988d0010bfa86ca8ee64aed6c1ac1f55bb9ab2e67ba6dfa811cef7be",
+              "use": "input_for_slot",
+              "value": "2026-10-30"
+            }
+          ],
+          "label": "Preparation date",
+          "reason": "Supplied preparation date; distinct from price/reference years.",
+          "requirement_id": "cover.date",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "2026-10-30"
+        },
+        {
+          "bindings": [],
+          "label": "Application applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "cover.application",
+          "section": 0,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "application",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            },
+            {
+              "document": "criteria",
+              "document_sha256": "4317addef32c41f571bde8e04307399f821ef08968cb3a48cb32ba96b5400d50",
+              "page_sha256": "18f3cc5e47d36edd7e7c3a1e54597ea6221d71a9bbcc263ad9fd4d31454c672a",
+              "pdf_page": 3,
+              "subsection": "applicability",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-criteria.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Application consistency",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "cover.consistency",
+          "section": 0,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+              "pdf_page": 1,
+              "subsection": "consistency",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Application/report version",
+          "reason": "Application certification/adoption stage is unknown. Our immutable reruns track changed inputs; that engineering policy is not a statement that the City requires post-certification report updates.",
+          "requirement_id": "cover.version_stage",
+          "section": 0,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "666f5f3028c6c061d4bdcc38e51a66c2c3b33a3b64d5c92b3c79bdc7dff7e38c",
+              "pdf_page": 2,
+              "subsection": "update policy",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+              "pdf_page": 1,
+              "subsection": "cover note",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_b.declared_homes",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/55/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": 18
+            }
+          ],
+          "label": "Project summary",
+          "reason": "Uses an explicit assumption; not a verified development plan.",
+          "requirement_id": "summary.project",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "11cde6f39ed358c8a0a60ac9a35bcbcf0e6d26584de6ce652306e0bc7ba05436",
+              "pdf_page": 2,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": "An illustrative rental offer of 18 homes for the linked site. Community context and fair-housing interpretation remain incomplete."
+        },
+        {
+          "bindings": [],
+          "label": "Community statistics",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "summary.context",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Narrative summary",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "summary.narrative",
+          "section": 1,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+              "pdf_page": 3,
+              "subsection": "1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Residential applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.scope",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.residential_gross_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "calculation",
+              "pointer": "/claims/490/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 13500.0
+            }
+          ],
+          "label": "Residential zoning area",
+          "reason": "An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this 18-home program. No conversion or construction-job estimate is made.",
+          "requirement_id": "res.zsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_b.declared_homes",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/55/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "input_for_slot",
+              "value": 18
+            }
+          ],
+          "label": "Anticipated homes",
+          "reason": "Anticipated quantity in a constructed program, not a permitted or verified count.",
+          "requirement_id": "res.total",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "illustrative",
+          "value": 18
+        },
+        {
+          "bindings": [],
+          "label": "Restriction classification",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.classification",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Income-band counts",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.band_counts",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Income-band shares",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.band_shares",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "AMI bands",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.ami",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Affordability programs",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "res.programs",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "MIH applicability/options",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.mih",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "44a591edb3fef05f3154bd9b1aff2691aa95f2c2ed05e73215be908ab64755cc",
+              "pdf_page": 6,
+              "subsection": "Table 4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "program.program_b.lower_rent.monthly_rent_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/59/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "1000.00"
+            },
+            {
+              "claim_id": "program.program_b.higher_rent.monthly_rent_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/74/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "1800.00"
+            }
+          ],
+          "label": "Illustrative rent ranges",
+          "reason": "Contract-rent assumptions are available. They are not verified AMI/program-based illustrative rent ranges. They appear as candidate inputs below, not as filled official rent cells.",
+          "requirement_id": "res.rents",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "profile.lower_income.annual_income_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/13/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "48600.00"
+            },
+            {
+              "claim_id": "profile.higher_income.annual_income_usd",
+              "file": "comparison-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/16/value",
+              "sha256": "0a68e9e7d80e163435d65e30265046a6f3ec10033d572b08f6c2b8a885463230",
+              "use": "candidate_only_not_populated",
+              "value": "97200.00"
+            }
+          ],
+          "label": "Eligible income ranges",
+          "reason": "Hypothetical household incomes are available. They are not program eligibility ranges; no inferred eligibility or AMI allocation is inserted.",
+          "requirement_id": "res.incomes",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Reference years/rounding",
+          "reason": "The input comparison uses 2025 references; this draft is prepared in 2026. Current reporting applicability and rounding conventions need review. No inflation or automatic year substitution.",
+          "requirement_id": "res.years",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+              "pdf_page": 5,
+              "subsection": "Table 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Final-setting caveat",
+          "reason": "Reporting caveat from pinned guidance, not actual future limits or a certified schedule.",
+          "requirement_id": "res.timing",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+              "pdf_page": 3,
+              "subsection": "notes",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "filled",
+          "value": "Final rents use construction-time limits; qualifying incomes use marketing-time limits."
+        },
+        {
+          "bindings": [],
+          "label": "Market-rent method",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "res.market_method",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+              "pdf_page": 4,
+              "subsection": "2.1.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Nonresidential applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "nonres.scope",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Tenant-area instruction divergence",
+          "reason": "Pinned form (2023) says to skip the nonresidential section without a specific tenant; pinned guide (2025) still requests area information. Preserve both, keep area slots visible, suppress speculative job data, and request interpretation.",
+          "requirement_id": "nonres.area_conflict",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.nonresidential_gross_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/487/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 1500
+            }
+          ],
+          "label": "Nonresidential zoning area",
+          "reason": "An upstream gross-area assumption is available, but it is not zoning square feet and is not reconciled to this 18-home program. No conversion or construction-job estimate is made.",
+          "requirement_id": "nonres.zsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Unknown-tenant zoning area",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "nonres.unknown_area",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Known-tenant zoning area",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "nonres.known_area",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Known-tenant job counts",
+          "reason": "Tenant identification is unresolved. No job count, NAICS assignment, wage or workforce estimate is produced.",
+          "requirement_id": "nonres.jobs",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "61e9c1274d572b2d48970a33119e03e017ae512cb37cd9e53f11a79811ff8aa7",
+              "pdf_page": 9,
+              "subsection": "Table 9",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+              "pdf_page": 5,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Sector workforce/wages",
+          "reason": "Tenant identification is unresolved. No job count, NAICS assignment, wage or workforce estimate is produced.",
+          "requirement_id": "nonres.workforce",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+              "pdf_page": 8,
+              "subsection": "2.2.2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "2de5b322f6a71362073a90dfc779f3289d81d4f1097f201516e9884d8d693cab",
+              "pdf_page": 18,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "a00f368f56fed9bbfac59484fd58ddcc0a343022a3a0c998041947af3bd1dbae",
+              "pdf_page": 19,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "b4b6d5e1d5379d4ebf6e008d287e14b15c0cab201732d3ece26484bd83dbd593",
+              "pdf_page": 20,
+              "subsection": "Appendix A",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [
+            {
+              "claim_id": "scenario.gross_area_sf",
+              "file": "comparison-run/analysis-run/ir.json",
+              "kind": "assumption",
+              "pointer": "/claims/486/value",
+              "sha256": "0a1716cf5b970eb20ea5f4e5d5a932bb318baf452e3b05cf311244e18163f727",
+              "unit": "gross sf",
+              "use": "candidate_only_not_populated",
+              "value": 15000
+            }
+          ],
+          "label": "Construction gross area",
+          "reason": "An earlier gross-area assumption is available, but it is not established for this program. Do not manufacture construction employment from an unrelated scenario.",
+          "requirement_id": "construction.gsf",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Construction duration",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.duration",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Construction person-years",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.person_years",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+              "pdf_page": 7,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Average yearly workers",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "construction.workers",
+          "section": 2,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+              "pdf_page": 10,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+              "pdf_page": 7,
+              "subsection": "2.3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Validated reporting geography",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.geography",
+          "section": 3,
+          "sources": [
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+              "pdf_page": 8,
+              "subsection": "geography footnote",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "EDDE summary pages",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.summary",
+          "section": 3,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "c1e74e7a5c3bfeeb03a4732ca7076273a196e7c884fe8bc6bcd6391ae8da4bfa",
+              "pdf_page": 11,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+              "pdf_page": 8,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Displacement-risk context",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "community.displacement",
+          "section": 3,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+              "pdf_page": 1,
+              "subsection": "3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Applicant narrative",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.statement",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "75039ec99a8095cad139a86afdf91df918c28981790df99e46a14384d847308a",
+              "pdf_page": 12,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "ac92c35c4630cfc989ba416cc57e19360837ca50371ba2abd1e1fc3e4b63fe27",
+              "pdf_page": 13,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "616e7cee8e35388da302206941ace6bf03412de45b64adf47c95d69c55211314",
+              "pdf_page": 9,
+              "subsection": "4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Equal housing access",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal1",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+              "pdf_page": 14,
+              "subsection": "Goal 1",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Housing/opportunity",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal2",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+              "pdf_page": 14,
+              "subsection": "Goal 2",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Preservation/displacement",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal3",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 3",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Rental-assistance access",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal4",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+              "pdf_page": 15,
+              "subsection": "Goal 4",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Disability accommodations",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal5",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+              "pdf_page": 16,
+              "subsection": "Goal 5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Disinvestment/infrastructure",
+          "reason": "Program rules, community evidence and/or an attributed professional interpretation are missing. Cost-test results and tool objectives cannot substitute for this field.",
+          "requirement_id": "narrative.goal6",
+          "section": 4,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+              "pdf_page": 16,
+              "subsection": "Goal 6",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Full-profile applicability",
+          "reason": "No qualifying land-use action, application scope or legal applicability determination has been supplied. Conditional scope or exceptions need an identified land-use action and professional interpretation.",
+          "requirement_id": "appendix.scope",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "needs_interpretation",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Local profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.local",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+              "pdf_page": 11,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Borough profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.borough",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "City profile",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.city",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        },
+        {
+          "bindings": [],
+          "label": "Complete indicator appendix",
+          "reason": "Required material is not supplied by the current comparison. No placeholder zero or unsupported narrative has been inserted.",
+          "requirement_id": "appendix.all_indicators",
+          "section": 5,
+          "sources": [
+            {
+              "document": "guide",
+              "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+              "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+              "pdf_page": 17,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+            },
+            {
+              "document": "form",
+              "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+              "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+              "pdf_page": 11,
+              "subsection": "5",
+              "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+            }
+          ],
+          "status": "missing",
+          "value": null
+        }
+      ],
+      "status_counts": {
+        "filled": 3,
+        "illustrative": 3,
+        "missing": 15,
+        "needs_interpretation": 29,
+        "not_applicable": 0
+      }
+    }
+  ],
+  "request_sha256": "aecc1677988d0010bfa86ca8ee64aed6c1ac1f55bb9ab2e67ba6dfa811cef7be",
+  "scope": "Manual instruction-slot inventory for pinned guide/form/criteria; semantic completeness and applicability unreviewed. Goal examples are prompts, not six independent legal pass/fail tests.",
+  "source_documents": [
+    {
+      "bytes": 523284,
+      "id": "guide",
+      "pages": [
+        {
+          "normalized_text_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "666f5f3028c6c061d4bdcc38e51a66c2c3b33a3b64d5c92b3c79bdc7dff7e38c",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5
+        },
+        {
+          "normalized_text_sha256": "44a591edb3fef05f3154bd9b1aff2691aa95f2c2ed05e73215be908ab64755cc",
+          "pdf_page": 6
+        },
+        {
+          "normalized_text_sha256": "c76d17159f90bde52d827a06a3c6224243189caaaee520580839d360dda24c94",
+          "pdf_page": 7
+        },
+        {
+          "normalized_text_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8
+        },
+        {
+          "normalized_text_sha256": "61e9c1274d572b2d48970a33119e03e017ae512cb37cd9e53f11a79811ff8aa7",
+          "pdf_page": 9
+        },
+        {
+          "normalized_text_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10
+        },
+        {
+          "normalized_text_sha256": "c1e74e7a5c3bfeeb03a4732ca7076273a196e7c884fe8bc6bcd6391ae8da4bfa",
+          "pdf_page": 11
+        },
+        {
+          "normalized_text_sha256": "75039ec99a8095cad139a86afdf91df918c28981790df99e46a14384d847308a",
+          "pdf_page": 12
+        },
+        {
+          "normalized_text_sha256": "ac92c35c4630cfc989ba416cc57e19360837ca50371ba2abd1e1fc3e4b63fe27",
+          "pdf_page": 13
+        },
+        {
+          "normalized_text_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+          "pdf_page": 14
+        },
+        {
+          "normalized_text_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+          "pdf_page": 15
+        },
+        {
+          "normalized_text_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+          "pdf_page": 16
+        },
+        {
+          "normalized_text_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17
+        },
+        {
+          "normalized_text_sha256": "2de5b322f6a71362073a90dfc779f3289d81d4f1097f201516e9884d8d693cab",
+          "pdf_page": 18
+        },
+        {
+          "normalized_text_sha256": "a00f368f56fed9bbfac59484fd58ddcc0a343022a3a0c998041947af3bd1dbae",
+          "pdf_page": 19
+        },
+        {
+          "normalized_text_sha256": "b4b6d5e1d5379d4ebf6e008d287e14b15c0cab201732d3ece26484bd83dbd593",
+          "pdf_page": 20
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:50:02.850717+00:00",
+      "sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a",
+      "version_stamp": "7/1/25 | Subject to Change"
+    },
+    {
+      "bytes": 746853,
+      "id": "form",
+      "pages": [
+        {
+          "normalized_text_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "11cde6f39ed358c8a0a60ac9a35bcbcf0e6d26584de6ce652306e0bc7ba05436",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "7ba76e9400249dfdd478c5ff8dbd9149f941fe2b01ec41e36c2f93f77d84e990",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+          "pdf_page": 5
+        },
+        {
+          "normalized_text_sha256": "ed772f28efd99e6232e870057fdb669a8bebb4303ac9e9f750ed6f025700bca1",
+          "pdf_page": 6
+        },
+        {
+          "normalized_text_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+          "pdf_page": 7
+        },
+        {
+          "normalized_text_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+          "pdf_page": 8
+        },
+        {
+          "normalized_text_sha256": "616e7cee8e35388da302206941ace6bf03412de45b64adf47c95d69c55211314",
+          "pdf_page": 9
+        },
+        {
+          "normalized_text_sha256": "f38fad18e3ef96d0a2949e3e5d846c1b9aa8c6adf578e27c395cc3bc05df05a6",
+          "pdf_page": 10
+        },
+        {
+          "normalized_text_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+          "pdf_page": 11
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:46:29.861276+00:00",
+      "sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf",
+      "version_stamp": "06/09/23"
+    },
+    {
+      "bytes": 209819,
+      "id": "criteria",
+      "pages": [
+        {
+          "normalized_text_sha256": "0d71cc26933e5d9f9156cf8661f3588a745bd16c2e2415e6d6017593de7598f7",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "e369a88b12df693a5f682f8fc82af512ad334e4ba60291446342988faad8957d",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "18f3cc5e47d36edd7e7c3a1e54597ea6221d71a9bbcc263ad9fd4d31454c672a",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "0390de7b2e03ab75fb1a45291ed00668f3d672dc300a6d8e008517d147aef7a3",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "a4cc5455abc4ae4e8dba0e7d1f73416d7ed7fdf3f93c8235da129585404786e5",
+          "pdf_page": 5
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:46:30.174324+00:00",
+      "sha256": "4317addef32c41f571bde8e04307399f821ef08968cb3a48cb32ba96b5400d50",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-criteria.pdf",
+      "version_stamp": "Printed date unresolved: [Publish Date] placeholder"
+    }
+  ],
+  "source_verification_scope": "Actual PDFs checked during preparation; normal replay validates metadata/page bindings, not external source re-extraction or interpretation.",
+  "version": "0.1.0"
+}

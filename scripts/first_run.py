@@ -66,7 +66,8 @@ Each module retains typed IR, inputs and its own verifiable manifest. The compar
 retains the newly built recipe as context; its program assumptions are not derived
 from it. Historical 2025 affordability references are not current 2026 program rules.
 The sample RER preparation date remains its supplied 2026-10-29, not today's date.
-Earlier packet text describing queries refers to retained collection, not this run.
+Parcel/recipe openings disclose replay or retained-snapshot analysis. Older frozen
+examples can retain earlier query wording; inspect their source receipts.
 Geometry, image generation, live collection and expert review were not executed.
 Start with the short final index/coverage and follow individual claims into the
 longer evidence packets. See docs/first-run.md in the checkout for reading and

@@ -1,0 +1,19 @@
+{
+  "application": {
+    "rationale": "No qualifying land-use action, application scope or legal applicability determination has been supplied.",
+    "status": "unknown"
+  },
+  "contact": {
+    "rationale": "No actual applicant/contact supplied for these illustrative programs.",
+    "status": "unknown"
+  },
+  "id": "jerome_practitioner_review",
+  "nonresidential_tenants": {
+    "attribution": "independent usability trial",
+    "rationale": "No proposed commercial tenant or sector is established for either program. Existing-site tenancy is a different question.",
+    "status": "unknown"
+  },
+  "prepared_by": "independent usability trial",
+  "prepared_on": "2026-10-30",
+  "version": "0.1.0"
+}

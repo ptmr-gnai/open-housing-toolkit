@@ -43,6 +43,22 @@ class RER(unittest.TestCase):
         self.assertEqual(slots(a)['res.total']['value'],24);self.assertEqual(slots(b)['res.total']['value'],36)
         self.assertEqual(slots(a)['res.total']['status'],'illustrative')
         self.assertEqual(slots(a)['res.total']['bindings'][0]['kind'],'assumption')
+    def test_non_demo_program_sizes_are_used_in_area_explanations(self):
+        request=load(ROOT/'examples/affordability-inputs/request.json')
+        for program,counts in zip(request['programs'],[(8,4),(4,14)]):
+            program['total_homes']={'value':sum(counts),'rationale':'Explicit non-demo test total.'}
+            for offer,count in zip(program['bins'],counts):
+                offer['homes']={'value':count,'rationale':'Explicit non-demo test program.'}
+        with tempfile.TemporaryDirectory() as d:
+            parent=Path(d)/'comparison';out=Path(d)/'rer'
+            comparisons.replay(PARENT,parent,request)
+            engine.build(parent,copy.deepcopy(REQ),out)
+            for report,total in zip(load(out/'rer.json')['reports'],[12,18]):
+                reasons=[slot['reason'] for slot in report['slots']]
+                self.assertTrue(any('this '+str(total)+'-home program' in reason for reason in reasons))
+                self.assertFalse(any('24/36-home' in reason for reason in reasons))
+                self.assertFalse(report['official_submission_ready'])
+
     def test_hypothetical_income_is_not_eligibility_and_cost_bins_not_ami(self):
         s=slots(compiled()['reports'][0])
         for rid in ['res.incomes','res.classification','res.ami','res.band_counts','res.band_shares','res.programs']:

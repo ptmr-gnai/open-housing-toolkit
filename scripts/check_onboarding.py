@@ -51,6 +51,10 @@ def check(root=ROOT):
             problems.append(f'{skill}: execution references must link directly from SKILL.md')
         if len(text.splitlines()) > 100:
             problems.append(f'{skill}: exceeds our 100-line entry budget; move detail to references')
+        if skill.parent.name != 'start-here':
+            runbook=skill.parent/'references/runbook.md'
+            if not runbook.exists() or runbook.read_text().splitlines()[0] != '# '+skill.parent.name+': execution reference':
+                problems.append(f'{skill}: execution reference belongs to the wrong skill')
         resources.extend(refs)
     docs = [root / 'AGENTS.md', root / 'CLAUDE.md', root / 'docs/first-run.md',
             root / 'skills/README.md', *skills, *resources]

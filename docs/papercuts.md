@@ -439,3 +439,30 @@ flagged README sprawl, long registers and replay wording. The copy lacked .git,
 which is fixture friction rather than clone behavior. See the uncoached
 [worker report](reviews/minimal-context-worker.md). Live APIs, geometry, imagery,
 native skill activation and professional usefulness remain untested by this trial.
+
+
+## New packet opening and actual live-lot trial
+
+Detached parcel/recipe packets previously implied live queries during replay.
+Added typed, source-manifest-bound execution metadata and a short deterministic
+opening with retrieval dates/vintage, failed/truncated source flags, recorded
+facts, supplied assumptions and unresolved practitioner inputs. Unknown execution
+mode is explicit; source age never determines collection mode. Replay bytes stay
+bound to the retained manifest; recipe metadata says no new collection occurred.
+A rehashed mode-change test rejects relabelling a replay as live collection.
+
+A brand-new worker ran 1940 Jerome Avenue (BBL 2028530012) against live APIs through
+evidence, area arithmetic, independent offers and incomplete RER drafts. PLUTO
+records 115 residential units; this is not a vacant-site finding. The worker found
+copied geometry content in two skill references and a hardcoded 24/36-home RER
+explanation despite its 12/18 inputs. Corrected the references and derive each
+explanation's quantity from its own typed program total; added a non-demo-count
+regression and skill/reference-title check. These defects passed earlier checks:
+real task variation surfaced failures that successful demo replay did not.
+
+Original worker evidence/area packages are preserved. Corrected comparison/RER
+packages were rebuilt into fresh outputs; the first-pass report records defects.
+No photo, surveyed massing, image-provider execution or complete official report
+was tested. The README now gives two primary paths: try the example or investigate
+a lot. Full expert validation, community data and supported geometric/visual
+handoffs remain separate work.
