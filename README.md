@@ -21,6 +21,22 @@ acceptance and practitioner usefulness remain untested. The older components bel
 separate experiments. The new bounded workflow integrates one path; it is not a
 complete professional process.
 
+## First visit: start here
+
+Give your agent [AGENTS.md](AGENTS.md) and the [start-here skill](skills/start-here/SKILL.md).
+For a human walkthrough, read [First run](docs/first-run.md). From a checkout with
+Python 3.11+, one command builds and verifies four modules in sequence, offline:
+
+```sh
+python scripts/first_run.py --out runs/my-first-run
+```
+
+Open `runs/my-first-run/README.md`, then its linked packets. No pip install, API
+key or image provider is needed. Cached parcel evidence flows into an area recipe,
+then an independently assumed housing-offer comparison, then incomplete RER drafts.
+The offer counts are not derived from site capacity; missing professional inputs
+stay missing. Geometry and image generation remain optional independent branches.
+
 ## Try the first integrated workflow
 
 Give an agent [the housing investigation skill](skills/housing-investigation/SKILL.md),

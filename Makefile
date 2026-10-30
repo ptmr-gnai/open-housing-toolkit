@@ -1,4 +1,4 @@
-.PHONY: build check research-check release-check demo workflow-check render-check recipe-check geometry-check benefit-check rer-check
+.PHONY: build check research-check release-check demo workflow-check render-check recipe-check geometry-check benefit-check rer-check onboarding-check first-run
 
 build:
 	python pipeline.py
@@ -42,3 +42,10 @@ benefit-check:
 
 rer-check:
 	python -m unittest discover -s housing_rer/tests -v
+
+# Fast onboarding checks; no optional packages.
+onboarding-check:
+	python scripts/check_onboarding.py
+
+first-run:
+	python scripts/first_run.py --out runs/my-first-run

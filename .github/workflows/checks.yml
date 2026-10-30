@@ -19,5 +19,7 @@ jobs:
         run: python -m pip install -r requirements-dev.txt
       - name: Rebuild and check parcel probe
         run: make check
+      - name: Exercise offline first-run workflow
+        run: python scripts/first_run.py --out "$RUNNER_TEMP/housing-first-run"
       - name: Validate retained research experiments
         run: make research-check

@@ -325,3 +325,22 @@ The README still described geometry work as deferred after the exploratory geome
 | Reporting vintages and document stages differ | Historical 2025 inputs, 2026 draft, older form and undated criteria placeholder | Preserve dates and source hashes; require applicability/interpretation review. Engineering reruns are not asserted to be a legal update requirement. |
 | Narrative examples could become invented legal tests | Guide discusses six fair-housing goals with examples | Mark as professional narrative prompts, not six independent pass/fail requirements. |
 | Counting covered slots could masquerade as completeness | Inventory is manually curated | Independent minimum inventory detects known removed slots; no percentage score, semantic completeness claim or submission-readiness switch. |
+
+## First-time practitioner/agent onboarding
+
+| Papercut | Observed friction or risk | Control and remaining boundary |
+| --- | --- | --- |
+| No repository-wide agent entry point | README offered many separate experiments; housing-investigation stopped at the parcel packet | Add AGENTS.md, a start-here coordinator skill, a human first-run guide and one offline script. Independent modules remain available. |
+| Separate successful demos could suggest a connected workflow | Later demos replayed retained examples rather than outputs just built | First-run script passes newly verified packages downstream and stops on failure. Offer assumptions remain independent of the area recipe; typed context transfer does not establish program fit. |
+| Skills could drift from scripts or lose their references | Operational files, schemas and source catalogues live across modules | Coordinator links canonical resources; a checker validates frontmatter, local links and core routes. These checks do not prove instruction quality or complete professional coverage. |
+| Skill edits can invalidate immutable examples | Existing module hashes include their leaf skills | Add a coordinator without silently rewriting bound historical leaf skills; document explicit rebuild/review for future changes. Checkout-based skills are not yet portable installable bundles. |
+| A technical dry run can be mistaken for user acceptance | A fresh AI agent can execute commands and inspect packets | Record the agent's isolated-checkout findings, exact scope and remaining practitioner feedback separately. No claim of housing-method validation follows. |
+
+The isolated AI dry run found packet-local replay wording ("Queried"), long claim
+registers, fixed sample preparation dates and missing EDDE expansion/acquisition
+instructions. Entry docs, coordinator and generated index now explain these.
+Frozen leaf packets retain the wording and verbosity; the comparison also repeats
+an unlabelled delivery unknown. Those packet-local presentation fixes remain open.
+See [the full dry-run record](reviews/first-time-agent-dry-run.md), including the
+no-pip venv run and unchanged-output rerun check. Browser layout and practitioner
+acceptance were not tested.
