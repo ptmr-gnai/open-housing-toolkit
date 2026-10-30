@@ -19,7 +19,7 @@ def check(root=ROOT):
             problems.append(f'{skill}: duplicate skill name')
         else:
             names.add(header[1])
-    docs = [root / 'AGENTS.md', root / 'docs/first-run.md', *skills,
+    docs = [root / 'AGENTS.md', root / 'CLAUDE.md', root / 'docs/first-run.md', *skills,
             *sorted((root / 'skills/start-here/references').glob('*.md'))]
     for doc in docs:
         if not doc.exists():

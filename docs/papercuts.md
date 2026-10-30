@@ -344,3 +344,17 @@ an unlabelled delivery unknown. Those packet-local presentation fixes remain ope
 See [the full dry-run record](reviews/first-time-agent-dry-run.md), including the
 no-pip venv run and unchanged-output rerun check. Browser layout and practitioner
 acceptance were not tested.
+
+
+## Codex and Claude Code image capability routing
+
+The initial image skill assumed an available provider and exposed host-specific
+image parameters without a top-level fallback. Supported configurations are now
+explicit: Codex uses its included image tool; Claude Code prepares/exports only.
+A runtime reference provides task-specific preflight, real-reference checks,
+missing-tool/provider-failure fallback and an honest resume handoff. CLAUDE.md
+routes to the shared skills. Runtime detection and provider invocation remain
+agent responsibilities, not implemented CLI features. A prepared external-reference
+brief can verify while its original photo is unavailable; generation needs a
+separate asset check. Existing bound leaf skills and historical receipts are
+preserved; this routing documentation is not a tested Claude Code session.

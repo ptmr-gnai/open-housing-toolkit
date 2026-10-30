@@ -12,6 +12,9 @@ linked skill for input collection, execution and verification.
 | Build assumed geometry | [build-grounded-massing](../../build-grounded-massing/SKILL.md) | [guide](../../../housing_geometry/README.md), [spec](../../../docs/specs/geometry-grounding.md) |
 | Bring a photo and visual assumptions | [prepare-render-brief](../../prepare-render-brief/SKILL.md), then [render-site-concept](../../render-site-concept/SKILL.md) | [render guide](../../../housing_render/README.md), [examples](../../../examples/site-concept/README.md) |
 
+For the supported Codex image-tool and Claude Code export paths, follow
+[runtime routing and preflight](agent-runtimes.md) before the visual leaf skills.
+
 ## What actually connects
 
 The walkthrough passes the newly verified parcel output to the recipe; the new

@@ -29,6 +29,19 @@ packets as well as the final draft. The 24/36-home offers are not derived from t
 34-home-equivalent area budget. Historical affordability references are not current
 program rules. No feasibility, eligibility, optimal program or compliance is found.
 
+## Codex and Claude Code
+
+Both use the same modules and skills. Codex starts from AGENTS.md; Claude Code
+starts from [CLAUDE.md](../CLAUDE.md), which routes to the shared instructions.
+For optional images, Codex uses its included image tool when available. Claude
+Code currently prepares and exports a verified render brief without generating
+an image. Neither path requires a separately configured image API key. The offline
+walkthrough above needs no image tool in either environment.
+
+Follow [task-specific preflight and the render branches](../skills/start-here/references/agent-runtimes.md).
+There is no automatic runtime detector; the agent checks its exposed tools and
+required inputs. Image generation is not a prerequisite for the other modules.
+
 ## Reading the replay
 
 Start with the short final RER index and coverage, then follow specific source or

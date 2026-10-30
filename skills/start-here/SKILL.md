@@ -11,6 +11,12 @@ This skill is the coordinator; it does not replace the leaf skills or their chec
 
 ## 1. Establish execution capability
 
+Read [runtime routing and preflight](references/agent-runtimes.md). Supported paths:
+Codex with its image tool can generate when requested; Claude Code currently
+prepares/exports the same render brief without generation. No separate image API
+key is required. Check prerequisites for the chosen task; the offline tour is
+optional and is not a prerequisite for independent modules.
+
 Work from the repository root with Python 3.11+. If no checkout exists:
 
 ```sh
