@@ -373,3 +373,26 @@ byte verification; native Windows cannot yet be promised. Git newline conversion
 can also alter bound checkout bytes. Documented local versus hosted output storage,
 whole-package handoff and WSL recommendation; added a macOS walkthrough smoke job.
 Do not rewrite raw sources or silently regenerate hashes to claim portability.
+
+
+## Progressive-disclosure playbooks
+
+Direct edits to existing leaf skills would invalidate historical implementation
+hashes and nested experiment packages. Preserved those ten files byte-for-byte,
+added the operational revision under skills/current/, and made an explicit active
+catalogue. Each current leaf has a short input/execute/gate/limits entry plus an
+on-demand execution reference linking canonical CLI code, contracts and examples.
+The coordinator no longer asks an agent to read every leaf before the tour.
+
+The checker now distinguishes active skills from frozen instructions, checks direct
+resource links and an entry-length budget, and verifies the retained historical
+hashes. This avoids duplicate active names and hidden reference-chain loading.
+No copied script wrappers were added: modules and source-preparation scripts remain
+canonical. Native host discovery and per-host activation/branch/resume usability
+are still untested; passing these checks does not establish semantic skill quality.
+
+One boundary remains: current playbook activation is not automatically recorded in
+run receipts. Module manifests continue to bind their original implementation and
+historical workflow instructions; typed requests still retain supplied analytical
+inputs. Capturing the actual current skill/reference versions used by the agent
+needs a separate orchestration receipt, rather than silently relabelling old hashes.

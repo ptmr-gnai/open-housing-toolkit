@@ -12,9 +12,9 @@ python -m housing_workflow demo --out runs/first-demo
 
 Open `runs/first-demo/packet.html` in a browser, or read `packet.md`. This replays committed real source responses, including their original retrieval dates. It is not live data collection. GitHub displays HTML source; download the run directory or generate the example locally to use the portable HTML.
 
-An agent can start with [the entry skill](../skills/housing-investigation/SKILL.md). Example instruction:
+An agent can start with [the entry skill](../skills/current/housing-investigation/SKILL.md). Example instruction:
 
-> Read skills/housing-investigation/SKILL.md. Run the offline example first. Then ask me for a Bronx site and the question I want to investigate. Produce a cited information packet, keeping assumptions and unresolved professional questions visible.
+> Read skills/current/housing-investigation/SKILL.md. Run the offline example first. Then ask me for a Bronx site and the question I want to investigate. Produce a cited information packet, keeping assumptions and unresolved professional questions visible.
 
 ## Investigate another site
 

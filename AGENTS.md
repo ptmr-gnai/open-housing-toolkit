@@ -1,8 +1,7 @@
 # Working in Open Housing Toolkit
 
-Start with [the start-here skill](skills/start-here/SKILL.md). It routes a first
-visit through a verified offline walkthrough, then to the appropriate independent
-module. Python 3.11+ and a writable checkout are sufficient for that walkthrough;
+Start with [the start-here skill](skills/start-here/SKILL.md). It routes to the requested module; an optional verified offline walkthrough
+is available for a first visit. Python 3.11+ and a writable checkout are sufficient for that walkthrough;
 no pip packages, API keys, network calls or image provider are required.
 
 For image requests, read [runtime routing and preflight](skills/start-here/references/agent-runtimes.md):
@@ -27,8 +26,10 @@ image API key. Claude Code also has [CLAUDE.md](CLAUDE.md) as its entry point.
 
 ## Modules and changes
 
-Skills live under `skills/`; each SKILL.md links the relevant contracts, scripts
-and references. These are repository playbooks, not an installed agent plugin.
+The [active catalogue](skills/catalog.json) routes to `skills/current/` leaf skills.
+Each short SKILL.md loads its execution reference only when needed; those references
+link canonical contracts, scripts and examples. Root-level historical leaf skills
+remain frozen for existing experiment hashes. See [the skill layout](skills/README.md). These are repository playbooks, not an installed agent plugin.
 Read the applicable leaf skill before executing its module. The top-level skill
 routes work; independent entry points remain supported.
 

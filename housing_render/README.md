@@ -17,7 +17,7 @@ python -m housing_render prepare \
 
 This prepares a brief using the example's external conversation reference. To generate with your own photo, copy the scene/scenario JSON, identify the correct site and inputs, set reference availability to `local_file`, and add `--photo /path/to/site.jpg`. Local PNG/JPEG bytes are copied and hashed. An external conversation attachment must actually be available to the agent; this module cannot recover it from an address or pretend its bytes are locally bound.
 
-Read `render-brief.json`, `prompt.txt` and `brief.md`. Give the agent [prepare-render-brief](../skills/prepare-render-brief/SKILL.md) and [render-site-concept](../skills/render-site-concept/SKILL.md). The latter describes the image-tool invocation and explicit review contract.
+Read `render-brief.json`, `prompt.txt` and `brief.md`. Give the agent [prepare-render-brief](../skills/current/prepare-render-brief/SKILL.md) and [render-site-concept](../skills/current/render-site-concept/SKILL.md). The latter describes the image-tool invocation and explicit review contract.
 
 ## Add analysis context when useful
 
@@ -31,7 +31,7 @@ python -m housing_render prepare \
 
 The adapter accepts canonical analysis JSON and requires the same tax lot. It retains selected cited parcel facts as context; it does not infer geometry or legal capacity from them. The earlier 40,000-sf/34-home-equivalent area budget is **not reconciled** to the six-story visual assumption. Each design parameter states its kind and rationale. Automatic conversion of agency workbooks, PDFs or other formats is future work.
 
-An independent renderer installation needs only `housing_render/`, `workflows/site-concept.json` and the two rendering skills; a test runs it with `housing_workflow/` absent. Each module binds only its own workflow skills. Adding an unrelated skill no longer invalidates parcel-analysis packets.
+The renderer CLI can run without the analysis package; a test exercises it with `housing_workflow/` absent. Its implementation still binds its original workflow skills. Current operational playbooks under `skills/current/` link shared resources and require the repository checkout; they are not standalone portable bundles. Adding those playbooks does not rewrite historical skill bindings.
 
 ## Generate, inspect and attach
 

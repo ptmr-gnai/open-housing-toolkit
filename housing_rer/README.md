@@ -20,7 +20,7 @@ python -m housing_rer verify --run runs/rer-draft
 
 Open `packet.html`, then the per-program draft and coverage links. GitHub entry:
 [worked preparation packet](../examples/rer-preparation/packet.md).
-For an agent use [the skill](../skills/prepare-rer-draft/SKILL.md).
+For an agent use [the skill](../skills/current/prepare-rer-draft/SKILL.md).
 
 Explicit build:
 

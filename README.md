@@ -39,7 +39,7 @@ stay missing. Geometry and image generation remain optional independent branches
 
 ## Try the first integrated workflow
 
-Give an agent [the housing investigation skill](skills/housing-investigation/SKILL.md),
+Give an agent [the housing investigation skill](skills/current/housing-investigation/SKILL.md),
 or run this from a checkout with Python 3.11+:
 
 ```sh
@@ -69,7 +69,7 @@ python -m housing_recipe build --from-run examples/parcel-investigation --recipe
 python -m housing_recipe impact --run runs/recipe-base --recipe recipes/area-budget-with-reserve.json
 ```
 
-[Recipe guide](housing_recipe/README.md) · [Agent skill](skills/run-analysis-recipe/SKILL.md) ·
+[Recipe guide](housing_recipe/README.md) · [Agent skill](skills/current/run-analysis-recipe/SKILL.md) ·
 [Worked packet](examples/analysis-recipe/base/packet.md).
 The examples reproduce the current area model, insert a reserve step, and replace
 the home-equivalent method. Typed method signatures, dependency checks and
@@ -89,7 +89,7 @@ python -m housing_benefit demo --out runs/affordability-demo
 
 [Base packet](examples/affordability-comparison/packet.md) ·
 [Utility sensitivity](examples/affordability-utilities/packet.md) ·
-[Agent skill](skills/compare-housing-programs/SKILL.md).
+[Agent skill](skills/current/compare-housing-programs/SKILL.md).
 The larger offer has more homes but fewer that meet the lower-income profile's
 cost-and-bedroom test. Eligibility, delivery, occupancy and the no-action baseline
 are not determined; no winner or causal benefit estimate is produced. This is a
@@ -108,7 +108,7 @@ python -m housing_rer demo --out runs/rer-draft
 
 [Start with the worked packet](examples/rer-preparation/packet.md) ·
 [Instruction map](examples/rer-preparation/coverage.md) ·
-[Agent skill](skills/prepare-rer-draft/SKILL.md).
+[Agent skill](skills/current/prepare-rer-draft/SKILL.md).
 The cost diagnostic stays in a supplemental appendix. AMI classifications,
 program eligibility, ZSF, community data, applicability and applicant interpretation
 are not inferred from it. These are incomplete preparation drafts, not official
@@ -139,7 +139,7 @@ python -m housing_render prepare --scene examples/site-concept/scene.json --scen
 
 This prepares a provider-independent brief. An agent then calls an image provider
 and attaches the output with an invocation and visual-review receipt. See the
-[rendering guide](housing_render/README.md), [rendering skill](skills/render-site-concept/SKILL.md),
+[rendering guide](housing_render/README.md), [rendering skill](skills/current/render-site-concept/SKILL.md),
 and [actual generated example](examples/site-concept/with-analysis/packet.md).
 The example reference is an external chat attachment; supply your own local photo
 to reproduce a source-byte-bound run. Collection and modeling are not required.

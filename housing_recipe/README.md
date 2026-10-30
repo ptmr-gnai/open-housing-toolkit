@@ -22,7 +22,7 @@ python -m housing_recipe verify --run runs/recipe-reserve
 Open `runs/recipe-reserve/packet.html`. Each output directory must be new. A live
 lot can first be collected with `housing_workflow`; this module accepts its verified
 run instead of repeating collection. Give an agent
-[the recipe skill](../skills/run-analysis-recipe/SKILL.md).
+[the recipe skill](../skills/current/run-analysis-recipe/SKILL.md).
 
 ## What changes, and what stays visible
 

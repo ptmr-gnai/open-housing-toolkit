@@ -55,9 +55,20 @@ succeeded. A missing image tool yields a completed brief and deferred generation
 it must not produce fabricated invocation/review records. Missing program facts
 remain missing rather than becoming inferred official fields.
 
-## Gaps to address before describing skills as polished
+## Implemented first revision
 
-1. Standardize the leaf contracts and provide complete input/output examples.
+Current operational playbooks now live under `skills/current/`, selected through
+[the active catalogue](../skills/catalog.json). Each has a short entry contract and
+an on-demand execution reference with canonical commands, schemas and examples.
+The coordinator loads only the selected task; its tour uses the deterministic
+runner without preloading all leaf instructions. Original root-level leaf bytes
+remain frozen for existing module manifests. The onboarding checker covers active
+resource links, current routes, a local 100-line entry budget and historical hashes.
+This is a repository-based revision, not a verified native skill installation.
+
+## Remaining work before describing skills as polished
+
+1. Exercise the revised leaf contracts and examples on real practitioner tasks.
 2. Make model-to-visual, optional geometry and report handoffs explicit in the
    coordinator; retain unsupported adapters as unsupported.
 3. Package/discover skills in actual Codex and Claude Code hosts without duplicating
