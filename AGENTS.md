@@ -13,6 +13,24 @@ For a live known-lot request, follow [Investigate a lot](docs/investigate-a-lot.
 collect only needed inputs, verify stage outputs, and return a short cited cover
 note connecting the site's recorded conditions to the supplied assumptions.
 
+## User runs are local and read-only with respect to the checkout
+
+Running this toolkit does not authorize committing, pushing, uploading or publishing
+inputs, outputs or reviews. Do not infer that authorization from a Git remote or
+from the toolkit being open source. Keep new requests, data, packets and logs in a
+fresh ignored runs/ directory or an explicitly selected local folder outside the
+checkout. Never rebuild, refresh or patch shipped examples, cache/ or outputs/ as
+part of setup or a user's analysis. Use replay into a new run instead.
+
+Normal use needs no make build/check, research builders, source regeneration or
+Git actions. Those checks are contributor tools; supported checks now create local
+scratch and verify shipped files read-only. Do not run archived/frozen builder
+scripts as a user workflow. For details read [local-only execution](docs/local-only.md).
+Assume the primary user runs Codex locally on their Mac and can use its included
+image tool. Save generated images with the local run; no separate image API setup
+or hosted application is part of this workflow. Image generation does not authorize
+publication or a source-repository commit.
+
 ## Ground rules
 
 - Read [the tenets](docs/tenets.md). Practitioners choose questions and interpret
@@ -42,10 +60,12 @@ and `make research-check` cover the retained experiments; those developer checks
 need `python -m pip install -r requirements-dev.txt`. The quickstart itself does not.
 Run `python scripts/first_run.py --out runs/my-first-run` to exercise the composed
 path. `python scripts/check_onboarding.py` checks skill/resource links and routing.
-Log observed friction in [docs/papercuts.md](docs/papercuts.md).
+For an explicitly requested maintainer source change, log friction in
+[docs/papercuts.md](docs/papercuts.md). For ordinary user runs, keep review/friction
+notes inside that local run; do not edit tracked documentation.
 
 Module implementation hashes include their active skill and reference files. Editing
 those stales current-version runs: rebuild explicitly into fresh directories. The
-one archived runtime verifies original examples against their unchanged original
+archived runtimes verify retained examples against their unchanged original
 implementation; it does not accept arbitrary older versions. Never rewrite
 historical manifests or provider records to make a migration pass.

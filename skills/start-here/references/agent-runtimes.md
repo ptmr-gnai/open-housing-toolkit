@@ -13,6 +13,10 @@ Neither path needs a separately configured image-provider API key for the work
 supported here. The toolkit does not supply an image API client. Codex's tool is a
 host capability, not a Python dependency or a secret to discover in the environment.
 
+Primary workflow: Codex on the user's Mac with its included image tool. No
+separate image API setup or hosted application is required. Save generated images
+and their prompt/reference/review records in the local run; do not publish them.
+
 ## Task-specific preflight
 
 1. Identify the requested outcome. A rendering-only request does not require the

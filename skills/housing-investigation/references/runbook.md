@@ -43,7 +43,7 @@ Ask for the Bronx tax-lot BBL or exact street address and the decision/question 
 
 Offer an optional area-budget scenario: total gross area, nonresidential gross allocation, residential net efficiency and average net home size. Every value needs a rationale and must be identified as user-supplied or hypothetical. Do not invent a scenario because a field is missing. The evidence-only path is useful.
 
-Create a new request JSON following `housing_workflow/request.schema.json`; use `examples/parcel-investigation/request.json` as a format example, never as facts about another site. `python -m housing_workflow init --out request.json` is the interactive human alternative; agents should gather answers in chat and write the JSON directly.
+Create a new request JSON following `housing_workflow/request.schema.json`; use `examples/parcel-investigation/request.json` as a format example, never as facts about another site. `python -m housing_workflow init --out runs/my-inputs/request.json` is the interactive human alternative; agents should gather answers in chat and write the JSON directly.
 
 ## Execute the workflow
 
@@ -54,7 +54,7 @@ Create a new request JSON following `housing_workflow/request.schema.json`; use 
 The equivalent single command is:
 
 ```sh
-python -m housing_workflow run --input request.json --out runs/my-investigation
+python -m housing_workflow run --input runs/my-inputs/request.json --out runs/my-investigation
 ```
 
 This performs live network requests. Preserve every previous run; an output directory must be empty. Report failed adapters, truncation, gaps and missing scenario inputs. An API failure must not become zero records. A missing area scenario must not become a zero-home estimate.
@@ -66,7 +66,7 @@ Explain the actual question, selected source facts, historical housing signals, 
 For a changed assumption, save a new request and replay the same evidence to a new directory:
 
 ```sh
-python -m housing_workflow replay --from-run runs/my-investigation --input alternative.json --out runs/alternative
+python -m housing_workflow replay --from-run runs/my-investigation --input runs/my-inputs/alternative.json --out runs/alternative
 ```
 
 A different parcel requires new collection. Scenario arithmetic is an area budget, not building geometry, permitted FAR, a feasible unit count or affordable-housing underwriting. Image-prompt JSON currently permits a labeled diagram only. No external email, publishing or image-generation action is implied by creating a packet.

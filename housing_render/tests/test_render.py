@@ -99,11 +99,12 @@ class RenderTests(unittest.TestCase):
             root=Path(d)
             shutil.copytree(engine.ROOT/'housing_render',root/'housing_render',ignore=shutil.ignore_patterns('__pycache__','tests'))
             shutil.copyfile(engine.ROOT/'housing_runtime.py',root/'housing_runtime.py')
+            shutil.copyfile(engine.ROOT/'local_outputs.py',root/'local_outputs.py')
             (root/'workflows').mkdir();shutil.copyfile(engine.WORKFLOW,root/'workflows/site-concept.json')
             for name in ['prepare-render-brief','render-site-concept']:
                 shutil.copytree(engine.ROOT/'skills'/name,root/'skills'/name)
             c.save(root/'scene.json',SCENE);c.save(root/'scenario.json',SCENARIO)
-            r=subprocess.run([sys.executable,'-m','housing_render','prepare','--scene','scene.json','--scenario','scenario.json','--out','run'],cwd=root,capture_output=True,text=True)
+            r=subprocess.run([sys.executable,'-m','housing_render','prepare','--scene','scene.json','--scenario','scenario.json','--out','runs/render'],cwd=root,capture_output=True,text=True)
             self.assertEqual(r.returncode,0,r.stderr)
             self.assertFalse((root/'housing_workflow').exists())
     def test_unrelated_skills_do_not_stale_analysis(self):

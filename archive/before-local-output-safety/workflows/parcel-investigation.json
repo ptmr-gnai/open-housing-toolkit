@@ -1,0 +1,15 @@
+{
+  "id": "parcel-investigation",
+  "version": "0.2.0",
+  "process_status": "partial_playbook_under_development",
+  "entry_skill": "skills/housing-investigation/SKILL.md",
+  "steps": [
+    {"id": "intake", "skill": "skills/housing-investigation/SKILL.md", "output": "request.json"},
+    {"id": "collect", "skill": "skills/collect-parcel-evidence/SKILL.md", "output": "sources/ and receipts.json"},
+    {"id": "model", "skill": "skills/model-parcel-scenario/SKILL.md", "output": "ir.json"},
+    {"id": "packet", "skill": "skills/publish-evidence-packet/SKILL.md", "output": "packet.md, packet.html, image-prompts.json, manifest.json"}
+  ],
+  "supported_scope": "One Bronx tax lot; exact address resolution when unique in PLUTO; current source snapshots; optional user-stated area budget",
+  "not_covered": ["Complete housing agency workflow", "Historical reconstruction", "Title or owner willingness", "Lawful/current occupancy", "Zoning interpretation or approvals", "Building envelope or layout fit", "Environmental/geotechnical clearance", "Affordable housing underwriting", "Neighborhood development forecasting"],
+  "future_extensions": ["New source adapters and jurisdiction playbooks", "Reviewed professional judgment", "Step-through notebook/workbook", "Verified geometric inputs for image generation", "Optional network proxy using the same source contracts"]
+}

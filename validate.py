@@ -15,9 +15,9 @@ def validate(out):
         if pipeline.digest(out/path)!=expected:raise ValueError('Changed output: '+path)
     g=pipeline.Graph(ir['config'],pipeline.ROOT/'probe.json');g.claims=ir['claims'];g.validate()
     summary={'status':'passed','source_hashes_verified':sum(s['status']=='ok' for s in ir['sources'].values()),'claim_graph_verified':len(ir['claims']),'output_hashes_verified':len(manifest['output_sha256']),'professional_acceptance':'pending both advisor reviews'}
-    pipeline.write_json(out/'validation.json',summary)
     return summary
 
 if __name__=='__main__':
-    out=pathlib.Path(sys.argv[1]) if len(sys.argv)>1 else pipeline.ROOT/'outputs'
+    if len(sys.argv)!=2:raise SystemExit('Usage: python validate.py LOCAL_RUN_DIRECTORY (read-only)')
+    out=pathlib.Path(sys.argv[1])
     print(json.dumps(validate(out)))

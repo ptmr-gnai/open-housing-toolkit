@@ -1,5 +1,8 @@
 # Where outputs live and which platforms are supported
 
+Normal user runs never regenerate shipped reports, examples or source snapshots.
+The [local-only policy](local-only.md) covers both analysis and contributor checks.
+
 ## Local paths and storage
 
 Every module takes an explicit `--out` argument; nothing is automatically uploaded

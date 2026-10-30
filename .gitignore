@@ -12,3 +12,10 @@ sensitivity-output/
 
 # Mutable integrated-workflow runs; worked examples are committed separately.
 runs/
+
+# User/local development artifacts are never normal commit candidates.
+/outputs/
+/cache/
+.venv/
+.pytest_cache/
+node_modules/

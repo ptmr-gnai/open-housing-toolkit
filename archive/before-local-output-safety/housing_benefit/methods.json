@@ -1,0 +1,109 @@
+{
+  "methods": [
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.bedroom_match@1",
+      "input_units": [
+        "bedrooms",
+        "bedrooms"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "boolean",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.cost_and_bedroom_match@1",
+      "input_units": [
+        "boolean",
+        "boolean"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "boolean",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.gross_monthly_cost@1",
+      "input_units": [
+        "USD per month",
+        "USD per month"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "USD per month",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.annualize@1",
+      "input_units": [
+        "USD per month"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "USD per year",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.cost_burden_percent@1",
+      "input_units": [
+        "USD per year",
+        "USD per year"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "percent",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.within_threshold@1",
+      "input_units": [
+        "USD per year",
+        "USD per year",
+        "percent"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "boolean",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.monthly_budget@1",
+      "input_units": [
+        "USD per year",
+        "percent"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "USD per month",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.sum_homes@1",
+      "input_units": "zero or more homes",
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "homes",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.selected_homes@1",
+      "input_units": "repeated homes/boolean pairs",
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "homes",
+      "professional_review": "pending"
+    },
+    {
+      "basis": "Algebra over declared semantic quantities; bedroom equality and threshold comparison are explicit diagnostic conventions.",
+      "id": "housing.difference@1",
+      "input_units": [
+        "homes",
+        "homes"
+      ],
+      "limits": "Conditional offer arithmetic; not eligibility, binding program compliance or achieved community benefit.",
+      "output_unit": "homes",
+      "professional_review": "pending"
+    }
+  ],
+  "version": "0.1.0"
+}

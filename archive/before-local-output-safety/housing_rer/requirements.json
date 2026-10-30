@@ -1,0 +1,1064 @@
+{
+  "inventory_scope": "Manual instruction-slot inventory for pinned guide/form/criteria; semantic completeness and applicability unreviewed. Goal examples are prompts, not six independent legal pass/fail tests.",
+  "requirements": [
+    {
+      "adapter": "project_name",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "cover",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "cover.name",
+      "label": "Project name",
+      "section": 0
+    },
+    {
+      "adapter": "contact",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "cover",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "cover.contact",
+      "label": "Applicant contact",
+      "section": 0
+    },
+    {
+      "adapter": "preparer",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "cover",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "cover.preparer",
+      "label": "Draft preparer",
+      "section": 0
+    },
+    {
+      "adapter": "date",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "cover",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "cover.date",
+      "label": "Preparation date",
+      "section": 0
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "application",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        },
+        {
+          "document": "criteria",
+          "document_sha256": "4317addef32c41f571bde8e04307399f821ef08968cb3a48cb32ba96b5400d50",
+          "page_sha256": "18f3cc5e47d36edd7e7c3a1e54597ea6221d71a9bbcc263ad9fd4d31454c672a",
+          "pdf_page": 3,
+          "subsection": "applicability",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-criteria.pdf"
+        }
+      ],
+      "id": "cover.application",
+      "label": "Application applicability",
+      "section": 0
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+          "pdf_page": 1,
+          "subsection": "consistency",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "cover.consistency",
+      "label": "Application consistency",
+      "section": 0
+    },
+    {
+      "adapter": "version_stage",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "666f5f3028c6c061d4bdcc38e51a66c2c3b33a3b64d5c92b3c79bdc7dff7e38c",
+          "pdf_page": 2,
+          "subsection": "update policy",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1,
+          "subsection": "cover note",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "cover.version_stage",
+      "label": "Application/report version",
+      "section": 0
+    },
+    {
+      "adapter": "project_summary",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+          "pdf_page": 3,
+          "subsection": "1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "11cde6f39ed358c8a0a60ac9a35bcbcf0e6d26584de6ce652306e0bc7ba05436",
+          "pdf_page": 2,
+          "subsection": "1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "summary.project",
+      "label": "Project summary",
+      "section": 1
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+          "pdf_page": 3,
+          "subsection": "1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "summary.context",
+      "label": "Community statistics",
+      "section": 1
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+          "pdf_page": 3,
+          "subsection": "1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "summary.narrative",
+      "label": "Narrative summary",
+      "section": 1
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.scope",
+      "label": "Residential applicability",
+      "section": 2
+    },
+    {
+      "adapter": "res_zsf",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "2.1.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.zsf",
+      "label": "Residential zoning area",
+      "section": 2
+    },
+    {
+      "adapter": "total_homes",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.total",
+      "label": "Anticipated homes",
+      "section": 2
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5,
+          "subsection": "Table 1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.classification",
+      "label": "Restriction classification",
+      "section": 2
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5,
+          "subsection": "Table 1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.band_counts",
+      "label": "Income-band counts",
+      "section": 2
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5,
+          "subsection": "Table 1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.band_shares",
+      "label": "Income-band shares",
+      "section": 2
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.ami",
+      "label": "AMI bands",
+      "section": 2
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.programs",
+      "label": "Affordability programs",
+      "section": 2
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "44a591edb3fef05f3154bd9b1aff2691aa95f2c2ed05e73215be908ab64755cc",
+          "pdf_page": 6,
+          "subsection": "Table 4",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.mih",
+      "label": "MIH applicability/options",
+      "section": 2
+    },
+    {
+      "adapter": "rent_mapping",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.rents",
+      "label": "Illustrative rent ranges",
+      "section": 2
+    },
+    {
+      "adapter": "income_mapping",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.incomes",
+      "label": "Eligible income ranges",
+      "section": 2
+    },
+    {
+      "adapter": "reference_year",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5,
+          "subsection": "Table 1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.years",
+      "label": "Reference years/rounding",
+      "section": 2
+    },
+    {
+      "adapter": "timing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3,
+          "subsection": "notes",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "res.timing",
+      "label": "Final-setting caveat",
+      "section": 2
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4,
+          "subsection": "2.1.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "res.market_method",
+      "label": "Market-rent method",
+      "section": 2
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "nonres.scope",
+      "label": "Nonresidential applicability",
+      "section": 2
+    },
+    {
+      "adapter": "conflict",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+          "pdf_page": 5,
+          "subsection": "2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "nonres.area_conflict",
+      "label": "Tenant-area instruction divergence",
+      "section": 2
+    },
+    {
+      "adapter": "nonres_zsf",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+          "pdf_page": 5,
+          "subsection": "2.2.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "nonres.zsf",
+      "label": "Nonresidential zoning area",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "nonres.unknown_area",
+      "label": "Unknown-tenant zoning area",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2.1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "nonres.known_area",
+      "label": "Known-tenant zoning area",
+      "section": 2
+    },
+    {
+      "adapter": "jobs",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "61e9c1274d572b2d48970a33119e03e017ae512cb37cd9e53f11a79811ff8aa7",
+          "pdf_page": 9,
+          "subsection": "Table 9",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+          "pdf_page": 5,
+          "subsection": "2.2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "nonres.jobs",
+      "label": "Known-tenant job counts",
+      "section": 2
+    },
+    {
+      "adapter": "jobs",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8,
+          "subsection": "2.2.2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "2de5b322f6a71362073a90dfc779f3289d81d4f1097f201516e9884d8d693cab",
+          "pdf_page": 18,
+          "subsection": "Appendix A",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "a00f368f56fed9bbfac59484fd58ddcc0a343022a3a0c998041947af3bd1dbae",
+          "pdf_page": 19,
+          "subsection": "Appendix A",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "b4b6d5e1d5379d4ebf6e008d287e14b15c0cab201732d3ece26484bd83dbd593",
+          "pdf_page": 20,
+          "subsection": "Appendix A",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "nonres.workforce",
+      "label": "Sector workforce/wages",
+      "section": 2
+    },
+    {
+      "adapter": "construction_area",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "construction.gsf",
+      "label": "Construction gross area",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "construction.duration",
+      "label": "Construction duration",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+          "pdf_page": 7,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "construction.person_years",
+      "label": "Construction person-years",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+          "pdf_page": 7,
+          "subsection": "2.3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "construction.workers",
+      "label": "Average yearly workers",
+      "section": 2
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+          "pdf_page": 8,
+          "subsection": "geography footnote",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "community.geography",
+      "label": "Validated reporting geography",
+      "section": 3
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "c1e74e7a5c3bfeeb03a4732ca7076273a196e7c884fe8bc6bcd6391ae8da4bfa",
+          "pdf_page": 11,
+          "subsection": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+          "pdf_page": 8,
+          "subsection": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "community.summary",
+      "label": "EDDE summary pages",
+      "section": 3
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+          "pdf_page": 1,
+          "subsection": "3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+          "pdf_page": 15,
+          "subsection": "Goal 3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "community.displacement",
+      "label": "Displacement-risk context",
+      "section": 3
+    },
+    {
+      "adapter": "interpret",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "75039ec99a8095cad139a86afdf91df918c28981790df99e46a14384d847308a",
+          "pdf_page": 12,
+          "subsection": "4",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "ac92c35c4630cfc989ba416cc57e19360837ca50371ba2abd1e1fc3e4b63fe27",
+          "pdf_page": 13,
+          "subsection": "4",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "616e7cee8e35388da302206941ace6bf03412de45b64adf47c95d69c55211314",
+          "pdf_page": 9,
+          "subsection": "4",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "narrative.statement",
+      "label": "Applicant narrative",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+          "pdf_page": 14,
+          "subsection": "Goal 1",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal1",
+      "label": "Equal housing access",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+          "pdf_page": 14,
+          "subsection": "Goal 2",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal2",
+      "label": "Housing/opportunity",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+          "pdf_page": 15,
+          "subsection": "Goal 3",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal3",
+      "label": "Preservation/displacement",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+          "pdf_page": 15,
+          "subsection": "Goal 4",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal4",
+      "label": "Rental-assistance access",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+          "pdf_page": 16,
+          "subsection": "Goal 5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal5",
+      "label": "Disability accommodations",
+      "section": 4
+    },
+    {
+      "adapter": "interpret",
+      "category": "narrative_prompt",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+          "pdf_page": 16,
+          "subsection": "Goal 6",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "narrative.goal6",
+      "label": "Disinvestment/infrastructure",
+      "section": 4
+    },
+    {
+      "adapter": "application",
+      "category": "conditional_instruction",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "appendix.scope",
+      "label": "Full-profile applicability",
+      "section": 5
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+          "pdf_page": 11,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "appendix.local",
+      "label": "Local profile",
+      "section": 5
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "appendix.borough",
+      "label": "Borough profile",
+      "section": 5
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        }
+      ],
+      "id": "appendix.city",
+      "label": "City profile",
+      "section": 5
+    },
+    {
+      "adapter": "missing",
+      "category": "instruction_slot",
+      "citations": [
+        {
+          "document": "guide",
+          "document_sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+          "page_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a"
+        },
+        {
+          "document": "form",
+          "document_sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+          "page_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+          "pdf_page": 11,
+          "subsection": "5",
+          "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf"
+        }
+      ],
+      "id": "appendix.all_indicators",
+      "label": "Complete indicator appendix",
+      "section": 5
+    }
+  ],
+  "version": "0.1.0"
+}

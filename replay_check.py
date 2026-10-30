@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Offline byte-for-byte replay gate. MIT."""
-import json,pathlib,tempfile
+"""Offline deterministic replay into fresh local scratch; no shipped report writes. MIT."""
+import argparse,json,pathlib,tempfile
 import pipeline
 
+p=argparse.ArgumentParser();p.add_argument('--run',type=pathlib.Path);args=p.parse_args()
+files=['ir.json','shortlist.csv','dossiers.json','probe-report.md','advisor-brief.md','advisor-explorer.html','media-draft.md']
 with tempfile.TemporaryDirectory() as directory:
-    out=pathlib.Path(directory)
+    root=pathlib.Path(directory);first=args.run or root/'first';second=root/'second'
     ir=pipeline.build(pipeline.ROOT/'probe.json')
-    pipeline.export(ir,out,pipeline.ROOT/'probe.json')
-    files=['ir.json','shortlist.csv','dossiers.json','probe-report.md','advisor-brief.md','advisor-explorer.html','media-draft.md']
+    if not args.run:pipeline.export(ir,first,pipeline.ROOT/'probe.json')
+    pipeline.export(ir,second,pipeline.ROOT/'probe.json')
     for name in files:
-        if (out/name).read_bytes()!=(pipeline.ROOT/'outputs'/name).read_bytes():
-            raise ValueError('Offline replay differs: '+name)
-print(json.dumps({'status':'passed','byte_identical_outputs':len(files)}))
+        if (first/name).read_bytes()!=(second/name).read_bytes():raise ValueError('Offline replay differs: '+name)
+print(json.dumps({'status':'passed','byte_identical_outputs':len(files),'shipped_files_written':False}))

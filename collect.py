@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Public source collection with byte-level provenance; stdlib only. MIT."""
-import argparse, concurrent.futures, datetime, hashlib, json, pathlib, urllib.request
+import argparse, concurrent.futures, datetime, hashlib, json, pathlib, re, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
+from local_outputs import destination,new_run
 
-def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
+def fetch(source_id, url, publisher, limits, terms=None, refresh=False,out=None):
     """Save body unchanged. Failures are records, never empty successful datasets."""
-    base = ROOT / 'cache'
-    base.mkdir(exist_ok=True)
+    if not isinstance(source_id,str) or not re.fullmatch(r'[A-Za-z0-9_-]+',source_id):raise ValueError('Invalid source ID')
+    base = destination(out) if out is not None else new_run('collection')
+    base.mkdir(parents=True,exist_ok=True)
     record_path=base/(source_id+'.source.json')
     if record_path.exists():
         previous=json.loads(record_path.read_text())
@@ -24,7 +26,7 @@ def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
             body=(ROOT/previous['cache_path']).read_bytes()
             old_path=history/(previous['sha256']+'.body')
             old_path.write_bytes(body)
-            previous['cache_path']=str(old_path.relative_to(ROOT))
+            previous['cache_path']=str(old_path.relative_to(ROOT)) if old_path.is_relative_to(ROOT) else str(old_path)
         (history/(stamp+'.source.json')).write_text(json.dumps(previous,indent=2)+'\n')
     record = {'id': source_id, 'url': url, 'publisher': publisher,
               'retrieved_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
@@ -39,7 +41,7 @@ def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
                           last_modified=response.headers.get('Last-Modified'))
         path = base / (source_id + '.body')
         path.write_bytes(body)
-        record.update(cache_path=str(path.relative_to(ROOT)), bytes=len(body),
+        record.update(cache_path=str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path), bytes=len(body),
                       sha256=hashlib.sha256(body).hexdigest())
         try:
             data = json.loads(body)
@@ -58,10 +60,16 @@ def fetch(source_id, url, publisher, limits, terms=None, refresh=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('sources', help='JSON array of source request definitions')
-    parser.add_argument('--refresh',action='store_true',help='Explicitly replace current source bindings, archiving prior evidence')
+    parser.add_argument('--refresh',action='store_true',help='Compatibility flag; collection still requires a fresh local directory')
+    parser.add_argument('--out',type=pathlib.Path,help='New local collection directory; default runs/collection-*')
     args = parser.parse_args()
+    out=destination(args.out) if args.out else new_run('collection')
+    if args.out and out.exists() and any(out.iterdir()):raise ValueError('Collection needs a new local directory; existing snapshots are read-only')
+    print('Local collection: '+str(out))
     definitions = json.loads(pathlib.Path(args.sources).read_text())
+    ids=[record['source_id'] for record in definitions]
+    if len(ids)!=len(set(ids)):raise ValueError('Duplicate source IDs would overwrite local collection artifacts')
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        results = list(pool.map(lambda source: fetch(**source,refresh=args.refresh), definitions))
+        results = list(pool.map(lambda source: fetch(**source,refresh=args.refresh,out=out), definitions))
     for result in results:
         print(json.dumps({key: result.get(key) for key in ['id', 'status', 'bytes', 'dataset_name', 'error']}))

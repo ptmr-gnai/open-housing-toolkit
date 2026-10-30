@@ -1,3 +1,7 @@
+> Historical experiment. User setup/analysis must not run its build script or
+> regenerate this snapshot. Use the read-only validator for inspection; use the
+> current lot workflow for new work, with outputs in a fresh local runs/ folder.
+
 # 1337 Jerome Avenue review benchmark
 
 Start with brief.md and review-protocol.md. This reconstructs HPD's actual public

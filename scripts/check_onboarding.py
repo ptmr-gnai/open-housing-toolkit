@@ -58,7 +58,7 @@ def check(root=ROOT):
         resources.extend(refs)
     docs = [root / 'README.md', root / 'AGENTS.md', root / 'CLAUDE.md', root / 'docs/first-run.md',
             root / 'docs/investigate-a-lot.md', root / 'docs/module-catalog.md',
-            root / 'templates/review-cover-note.md',
+            root / 'templates/review-cover-note.md', root / 'docs/local-only.md',
             root / 'skills/README.md', *skills, *resources]
     for doc in docs:
         if not doc.exists():

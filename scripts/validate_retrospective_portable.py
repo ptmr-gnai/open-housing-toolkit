@@ -7,9 +7,12 @@ ROOT = Path(__file__).resolve().parents[1]
 CASE = ROOT / 'research/retrospective-run'
 OLD_INPUTS = PurePosixPath('/workspace/bronx-housing-probe/research/benchmark-case-search/inputs')
 INPUTS = ROOT / 'research/benchmark-case-search/inputs'
-spec = importlib.util.spec_from_file_location('frozen_retrospective_validator', CASE / 'validate.py')
+FROZEN_VALIDATOR=ROOT/'archive/historical-research/retrospective-validator.py'
+spec = importlib.util.spec_from_file_location('frozen_retrospective_validator', FROZEN_VALIDATOR)
 legacy = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(legacy)
+legacy.P=CASE
+legacy.I=INPUTS
 
 def recorded_input_name(recorded_path):
     # Bind to the exact recorded root, not any path sharing a basename or suffix.
@@ -40,7 +43,7 @@ def validate():
     freeze = json.loads((CASE / 'freeze.json').read_text())
     legacy.check_frozen(CASE, freeze['files'])
     for name, key in [('validate.py', 'validator_sha256'), ('freeze.py', 'freeze_code_sha256')]:
-        if legacy.digest(CASE / name) != freeze[key]:
+        if legacy.digest(FROZEN_VALIDATOR if name=='validate.py' else CASE / name) != freeze[key]:
             raise ValueError('Frozen validation code changed')
     result.update(technical_boundary='pass', historical_path_relocation='exact original input root mapped to current checkout; same bytes', access_enforcement='self-reported original reads, not OS sandbox', semantic_accuracy='requires evaluator review', practitioner_utility='not_tested', historical_certification='blocked')
     return result

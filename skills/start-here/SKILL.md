@@ -7,6 +7,9 @@ description: Route a housing practitioner or coding agent to the right toolkit m
 
 Read [AGENTS.md](../../AGENTS.md). Work from a writable checkout with Python 3.11+.
 Choose the user's task first; an independent module does not require the full tour.
+Default to a local user run: no shipped-data regeneration and no commits, pushes
+or uploads. Setup does not require development builds/checks. Use fresh ignored
+outputs and follow [the local-only policy](../../docs/local-only.md).
 For a live known-lot workflow, read [Investigate a lot](../../docs/investigate-a-lot.md).
 It collects the inputs and sequences existing modules. Return the linked cover-note
 template as a reviewer-authored handoff; do not claim it is automatically verified.

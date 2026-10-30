@@ -1,0 +1,659 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "analysis_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "basis": {
+      "const": "illustrative_program_comparison"
+    },
+    "claims": {
+      "items": {
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "unknown"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "rationale": {
+                  "maxLength": 4000,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "value": {
+                  "type": "null"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "fact"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "references": {
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "assumption"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "rationale": {
+                  "maxLength": 4000,
+                  "minLength": 1,
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "calculation"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "method": {
+                  "enum": [
+                    "housing.bedroom_match@1",
+                    "housing.cost_and_bedroom_match@1",
+                    "housing.gross_monthly_cost@1",
+                    "housing.annualize@1",
+                    "housing.cost_burden_percent@1",
+                    "housing.within_threshold@1",
+                    "housing.monthly_budget@1",
+                    "housing.sum_homes@1",
+                    "housing.selected_homes@1",
+                    "housing.difference@1"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "not": {
+                    "const": "unknown"
+                  }
+                },
+                "unit": {
+                  "enum": [
+                    "homes",
+                    "years",
+                    "bedrooms"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "not": {
+                    "const": "unknown"
+                  }
+                },
+                "unit": {
+                  "enum": [
+                    "boolean"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "not": {
+                    "const": "unknown"
+                  }
+                },
+                "unit": {
+                  "enum": [
+                    "USD per month",
+                    "USD per year"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "not": {
+                    "const": "unknown"
+                  }
+                },
+                "unit": {
+                  "enum": [
+                    "percent"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "value": {
+                  "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]{1,6})?$",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "properties": {
+          "id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "inputs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "kind": {
+            "enum": [
+              "fact",
+              "assumption",
+              "calculation",
+              "judgment",
+              "unknown"
+            ]
+          },
+          "label": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rationale": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "references": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "unit": {
+            "enum": [
+              "homes",
+              "bedrooms",
+              "USD per month",
+              "USD per year",
+              "years",
+              "percent",
+              "boolean",
+              "status"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "integer",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "label",
+          "value",
+          "unit",
+          "inputs",
+          "method",
+          "rationale",
+          "references"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "comparisons": {
+      "items": {
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "maxLength": 4000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "metric": {
+                "const": "explicit_total_homes"
+              }
+            },
+            "required": [
+              "metric",
+              "claim"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "maxLength": 4000,
+                "minLength": 1,
+                "type": "string"
+              },
+              "metric": {
+                "const": "cost_test_homes"
+              },
+              "profile_id": {
+                "pattern": "^[a-z][a-z0-9_]{0,47}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "metric",
+              "profile_id",
+              "claim"
+            ],
+            "type": "object"
+          }
+        ]
+      },
+      "type": "array"
+    },
+    "eligibility": {
+      "const": "not_determined"
+    },
+    "limitations": {
+      "items": {
+        "maxLength": 4000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "module": {
+      "const": "housing-program-comparison"
+    },
+    "objective": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 4000,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "text"
+      ],
+      "type": "object"
+    },
+    "overall_ranking": {
+      "type": "null"
+    },
+    "price_year": {
+      "maximum": 2200,
+      "minimum": 1900,
+      "type": "integer"
+    },
+    "professional_review": {
+      "const": "pending"
+    },
+    "profiles": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "annual_income_claim": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "bedroom_claim": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "bedrooms": {
+            "maximum": 5,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "household_size": {
+            "maximum": 8,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "income_reference_id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "label": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "monthly_budget_claim": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "population_status": {
+            "const": "hypothetical_not_observed"
+          },
+          "rationale": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "household_size",
+          "bedrooms",
+          "income_reference_id",
+          "rationale",
+          "annual_income_claim",
+          "bedroom_claim",
+          "monthly_budget_claim",
+          "population_status"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "programs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bins": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "assessments": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "bedroom_test_claim": {
+                        "maxLength": 4000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "burden_claim": {
+                        "maxLength": 4000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "combined_test_claim": {
+                        "maxLength": 4000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "cost_test_claim": {
+                        "maxLength": 4000,
+                        "minLength": 1,
+                        "type": "string"
+                      },
+                      "profile_id": {
+                        "maxLength": 4000,
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "profile_id",
+                      "burden_claim",
+                      "cost_test_claim",
+                      "bedroom_test_claim",
+                      "combined_test_claim"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "claims": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "annual_cost": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "bedrooms": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "gross_monthly": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "homes": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "monthly_rent_usd": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "restriction_years": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "tenant_utilities_usd": {
+                      "maxLength": 4000,
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "homes",
+                    "monthly_rent_usd",
+                    "tenant_utilities_usd",
+                    "restriction_years",
+                    "bedrooms",
+                    "gross_monthly",
+                    "annual_cost"
+                  ],
+                  "type": "object"
+                },
+                "id": {
+                  "pattern": "^[a-z][a-z0-9_]{0,47}$",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "claims",
+                "assessments"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "commitment_status": {
+            "const": "proposed"
+          },
+          "delivery": {
+            "const": "unknown"
+          },
+          "id": {
+            "pattern": "^[a-z][a-z0-9_]{0,47}$",
+            "type": "string"
+          },
+          "label": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "profile_counts": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "homes_claim": {
+                  "maxLength": 4000,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "profile_id": {
+                  "pattern": "^[a-z][a-z0-9_]{0,47}$",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "profile_id",
+                "homes_claim"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "total_claim": {
+            "maxLength": 4000,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "total_claim",
+          "bins",
+          "profile_counts",
+          "commitment_status",
+          "delivery"
+        ],
+        "type": "object"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "project_attributable_benefit": {
+      "const": "not_estimated"
+    },
+    "question": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "reference_bundle_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "reference_scope": {
+      "maxLength": 4000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "request_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "site_bbl": {
+      "pattern": "^2[0-9]{9}$",
+      "type": "string"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "module",
+    "site_bbl",
+    "question",
+    "objective",
+    "price_year",
+    "basis",
+    "request_sha256",
+    "analysis_sha256",
+    "reference_bundle_sha256",
+    "claims",
+    "profiles",
+    "programs",
+    "comparisons",
+    "overall_ranking",
+    "professional_review",
+    "project_attributable_benefit",
+    "eligibility",
+    "reference_scope",
+    "limitations"
+  ],
+  "title": "Conditional housing-program comparison IR 0.1.0",
+  "type": "object"
+}

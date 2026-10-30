@@ -22,6 +22,8 @@ def main():
     args=p.parse_args()
     try:
         if args.command=='init':
+            from local_outputs import destination
+            destination(args.out)
             if args.out.exists():raise ValueError('Request file already exists; use a new path.')
             site=input('Bronx BBL (10 digits), or exact street address: ').strip()
             question=input('What decision/question should this packet support? ').strip()

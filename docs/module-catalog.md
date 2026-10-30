@@ -126,63 +126,31 @@ and diligence priorities. Do not treat the original lead or scenarios as validat
 | [One conclusion](../research/conclusion-probe/README.md) | Source changes, stale judgments and conflicts propagate through a bounded graph | Discovery of omitted evidence and justification of the best next action |
 | [Real project calibration](../research/grand-concourse-calibration/README.md) | Dated quotations and comparison boundaries are reproducible | Independent forecast accuracy, complete underwriting and practitioner benefit |
 
-## Reproduce without network or models
+## Local development checks
 
-Requires Python 3.10 or later; the deterministic pipeline uses the standard library.
-
-```sh
-python pipeline.py
-python -m unittest discover -s tests -v
-python validate.py
-```
-
-This regenerates the IR, shortlist, three dossiers, report, brief, communication
-draft, explorer and output manifest from cached public sources. No account, API
-key, paid model, or network connection is needed for replay. It does not reproduce
-the advisory expert judgments because they have not yet occurred; researcher
-judgments are explicit in probe.json.
-
-To save a changed assumption, copy probe.json to a new JSON file, edit its value
-and rationale, and run:
+Normal user setup needs none of these commands. They are contributor checks,
+reading frozen inputs and writing any new artifacts into ignored local scratch:
 
 ```sh
-python pipeline.py --config alternative.json --out sensitivity-output
+make build
+make check
+make research-check
+make release-check
 ```
 
-Only version 0.1 supported formulas and ranking are executable. See
-schemas/playbook.schema.json and pipeline.validate_config. This is a small
-declarative DSL with named rules, not a general zoning compiler. Candidate review
-judgments are tied to the cached evidence; rerun human review if sources change.
+`make build` creates a new runs/core-* folder. `make check` creates a new runs/check-*
+folder and validates there; research validators return results without overwriting
+shipped validation records. The optional release check writes screenshots only in
+its new runs/release-* folder. See [local-only execution](local-only.md).
 
-## Collection and source freshness
+## Source snapshots and live collection
 
-The current run includes exact URLs and timestamps in cache/*.source.json and
-unchanged source bytes in cache/*.body. Source bodies are hashed before replay.
-Metadata timestamps describe dataset updates, not the age of every parcel field.
-The station CSV lacks an explicit vintage. PLUTO rows have version 26v2. The generic
-dictionary fetched from NYC is 22v1; it is retained as a documented vintage mismatch,
-not current zoning guidance.
-
-Live collection uses collect.py and the source_*.json request definitions. It
-requires network access. A successful cached source binding is reused by default;
-`--refresh` explicitly replaces it and archives the previous body and source record.
-A collection-attempt ledger records new requests. Commit reviewed snapshots before
-refreshing and repeat professional review if their supporting evidence changes. Run bootstrap and discovery, then universe, then challenge and
-environment source definitions in their documented order. Queries are generated
-from a fixed window and BBLs for this probe. For a new station, regenerate the
-window and candidate query definitions as well as changing the DSL; changing the
-station alone cannot create a new source universe. Mismatched scope is rejected
-by validation. Failed requests are recorded and cannot support observed claims.
-
-```sh
-python collect.py source_bootstrap.json
-python collect.py source_discovery.json
-python collect.py source_universe.json
-python collect.py source_challenge.json
-python collect.py source_rules.json
-python collect.py source_environment.json
-python collect.py source_environment_detail.json
-```
+Treat shipped cache/ and examples/ as read-only. They preserve source bytes,
+versions, interpretation limits and historical experiments. Use [Investigate a lot](investigate-a-lot.md)
+for current live collection into a fresh local run. Do not run historical research
+builders or refresh shipped snapshots as part of setup or an ordinary analysis.
+The legacy collect.py command also writes a new local runs/collection-* folder;
+it does not automatically rebind or update the frozen core analysis.
 
 ## Evidence and assumptions
 

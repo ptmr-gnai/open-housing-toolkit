@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "imports": {
+      "items": {
+        "const": {
+          "claim_id": "pluto.0.lotarea",
+          "type": "recorded_lot_sf"
+        }
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "name": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "parameters": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^(scenario|recipe)\\.[a-z][a-z0-9_]*$",
+            "type": "string"
+          },
+          "label": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "rationale": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "gross_sf",
+              "net_sf",
+              "share",
+              "net_sf_per_home",
+              "gross_sf_per_home",
+              "home_equivalents",
+              "recorded_lot_sf",
+              "ratio"
+            ]
+          },
+          "value": {
+            "minimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "type",
+          "value",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "purpose": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "review_gates": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "revision": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "steps": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "pattern": "^(scenario|recipe)\\.[a-z][a-z0-9_]*$",
+            "type": "string"
+          },
+          "inputs": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "label": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "method": {
+            "enum": [
+              "area.subtract@1",
+              "area.apply_efficiency@1",
+              "homes.net_quotient@1",
+              "homes.gross_quotient@1",
+              "area.recorded_lot_ratio@1"
+            ]
+          },
+          "on_missing": {
+            "enum": [
+              "block",
+              "skip"
+            ]
+          },
+          "rationale": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "gross_sf",
+              "net_sf",
+              "share",
+              "net_sf_per_home",
+              "gross_sf_per_home",
+              "home_equivalents",
+              "recorded_lot_sf",
+              "ratio"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "method",
+          "inputs",
+          "type",
+          "rationale",
+          "on_missing"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "revision",
+    "name",
+    "purpose",
+    "parameters",
+    "imports",
+    "steps",
+    "review_gates"
+  ],
+  "title": "Numerical analysis recipe 0.1.0; graph/type/coverage constraints also require runtime validation",
+  "type": "object"
+}

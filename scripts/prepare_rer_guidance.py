@@ -3,11 +3,13 @@ from pathlib import Path
 import argparse,subprocess,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from housing_workflow.contracts import digest,save
+from local_outputs import destination
 from housing_benefit.contracts import read_json
 
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--pdf-dir',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
+    destination(a.out)
     if a.out.exists():raise ValueError('Catalogue already exists')
     docs=[]
     for r in read_json(a.pdf_dir/'retrievals.json'):

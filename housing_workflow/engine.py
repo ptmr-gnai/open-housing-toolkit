@@ -1,5 +1,6 @@
 """Execute and verify one discrete, source-bound workflow. MIT."""
 from pathlib import Path
+from local_outputs import destination
 import shutil
 from .contracts import digest, dumps, load, save, validate_request
 from . import model, packet, router, context
@@ -10,7 +11,7 @@ WORKFLOW = ROOT / 'workflows/parcel-investigation.json'
 def implementation():
     files = sorted((ROOT/'housing_workflow').glob('*.py')) + sorted((ROOT/'housing_workflow').glob('*.json')) + [WORKFLOW]
     files += [ROOT/name for name in sorted({s['skill'] for s in load(WORKFLOW)['steps']})]
-    files += [ROOT/'housing_runtime.py']
+    files += [ROOT/'housing_runtime.py',ROOT/'local_outputs.py']
     files += [ref for skill in list(files) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
@@ -20,6 +21,7 @@ def safe(root, name):
     return p
 
 def fresh(folder):
+    destination(folder)
     if folder.exists() and any(folder.iterdir()):raise ValueError('Use a new empty output directory; previous evidence is preserved.')
     folder.mkdir(parents=True,exist_ok=True)
 
@@ -81,6 +83,8 @@ def validate_claims(ir, receipts, folder):
     for cid in by_id:visit(cid)
 
 def build(folder):
+    destination(folder)
+    if (folder/'manifest.json').exists():raise ValueError('Completed runs are read-only; replay into a fresh directory')
     req=load(folder/'request.json'); receipts=load(folder/'receipts.json')
     if not (folder/'execution.json').exists():context.write(folder,context.EvidenceMode.UNKNOWN)
     execution=context.validate_parcel(folder)

@@ -1,0 +1,7 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Execution context 0.1.0","type":"object","additionalProperties":false,
+ "required":["version","mode","source_manifest_sha256"],
+ "properties":{"version":{"const":"0.1.0"},"mode":{"enum":["live_collection","retained_snapshot_replay","retained_snapshot_analysis","not_recorded"]},"source_manifest_sha256":{"type":["string","null"],"pattern":"^[0-9a-f]{64}$"}},
+ "allOf":[{"if":{"properties":{"mode":{"enum":["retained_snapshot_replay","retained_snapshot_analysis"]}}},"then":{"properties":{"source_manifest_sha256":{"type":"string"}}},"else":{"properties":{"source_manifest_sha256":{"type":"null"}}}}]
+}

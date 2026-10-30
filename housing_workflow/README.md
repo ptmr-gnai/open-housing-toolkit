@@ -21,8 +21,8 @@ An agent can start with [the entry skill](../skills/housing-investigation/SKILL.
 Use the interactive intake or have an agent write the same structured request:
 
 ```sh
-python -m housing_workflow init --out request.json
-python -m housing_workflow run --input request.json --out runs/my-investigation
+python -m housing_workflow init --out runs/my-inputs/request.json
+python -m housing_workflow run --input runs/my-inputs/request.json --out runs/my-investigation
 ```
 
 A BBL is the most reliable identity input. Exact address resolution accepts limited street-suffix variants; ambiguous/unmatched addresses stop and request a BBL. Examples, including a different live-tested parcel, are in `examples/`.
@@ -59,10 +59,10 @@ The model preserves every selected field in successful returned records with a J
 
 The example assumes 40,000 gross sf, 6,000 nonresidential gross sf, 80% residential net efficiency, and 800 net sf per home-equivalent. The area budget is `(40,000 - 6,000) × 0.8 ÷ 800 = 34` home-equivalents. These are demonstration assumptions, not a proposed or physically verified building. The gross-area/recorded-lot-area quotient is not zoning FAR.
 
-Copy the request to `alternative.json`, change a value and explain why, then:
+Copy the request to `runs/alternative-input.json`, change a value and explain why, then:
 
 ```sh
-python -m housing_workflow replay --from-run runs/first-demo --input alternative.json --out runs/alternative
+python -m housing_workflow replay --from-run runs/first-demo --input runs/alternative-input.json --out runs/alternative
 ```
 
 The same evidence is retained and dependent calculations, packet text and image-brief values are recomputed. Changing the BBL requires new collection. New output directories preserve previous runs. Input/implementation changes stale old bindings rather than silently blessing old conclusions.

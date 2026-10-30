@@ -22,6 +22,10 @@ python scripts/first_run.py --out runs/my-first-run
 Open `runs/my-first-run/README.md`. The tour uses saved public records and needs
 no API key, pip packages or image tool. [Setup and troubleshooting](docs/first-run.md).
 
+New runs stay local. Shipped examples and source snapshots are read-only; setup
+needs no development rebuild. Nothing is automatically committed, pushed or uploaded.
+[Local-only execution and checks](docs/local-only.md).
+
 ## What you get
 
 A short cover note answering your question, linked evidence and calculations,

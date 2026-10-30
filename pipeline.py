@@ -2,6 +2,8 @@
 """An inspectable housing screening and scenario pipeline. MIT; Python stdlib."""
 import argparse, csv, hashlib, io, json, math, pathlib, urllib.parse
 
+from local_outputs import destination,new_run
+
 ROOT = pathlib.Path(__file__).resolve().parent
 
 def read_json(path):
@@ -290,6 +292,7 @@ def build(config_path):
     return {'ir_version':'0.1','config':c,'sources':g.sources,'claims':g.claims,'screen':result,'dossiers':dossiers,'lead_decision':lead or None,'limitations':['No legal zoning clearance','No verified current occupancy or availability','No verified AMI rent schedule','No actual pedestrian or job-access routing','No expert advisor review yet']}
 
 def export(ir,outdir,config_path):
+    outdir=destination(outdir)
     outdir.mkdir(parents=True,exist_ok=True)
     write_json(outdir/'ir.json',ir)
     fields=['rank','bbl','address','recorded_zoning','recorded_lotarea_sf','recorded_bldgarea_sf','recorded_unitsres','distance_m','capacity_gap_sf','selected_reason']
@@ -308,8 +311,11 @@ def export(ir,outdir,config_path):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--config',default=str(ROOT/'probe.json'))
-    parser.add_argument('--out',default=str(ROOT/'outputs'))
+    parser.add_argument('--out',help='Fresh local output directory; default is a new ignored runs/core-* directory')
     args=parser.parse_args()
     ir=build(args.config)
-    export(ir,pathlib.Path(args.out),args.config)
+    out=destination(args.out) if args.out else new_run('core')
+    if args.out and out.exists() and any(out.iterdir()):raise ValueError('Use a fresh local output directory')
+    export(ir,out,args.config)
+    print('Local outputs: '+str(out))
     print(json.dumps({'window_lots':ir['screen']['bounding_window_count'],'radius_lots':ir['screen']['within_radius_count'],'eligible':ir['screen']['eligible_count'],'investigated':ir['screen']['investigated_bbls'],'lead':ir['lead_decision']}))

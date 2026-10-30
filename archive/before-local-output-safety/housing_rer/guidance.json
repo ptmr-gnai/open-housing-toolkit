@@ -1,0 +1,189 @@
+{
+  "extraction_method": "pdftotext-layout-normalized-page-hashes@1",
+  "extraction_tool_version": "pdftotext version 25.03.0",
+  "preparation_script_sha256": "3f1ee5d10f11e591f05858327060977d0b46ce42532cb4bd9fb7d9ff49143eca",
+  "scope": "Actual PDFs checked during preparation; normal replay validates metadata/page bindings, not external source re-extraction or interpretation.",
+  "sources": [
+    {
+      "bytes": 523284,
+      "id": "guide",
+      "pages": [
+        {
+          "normalized_text_sha256": "ccdc6ca29cca0d4cec522e665795eb6178c0093534d5bbcafa565afadb34afbe",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "666f5f3028c6c061d4bdcc38e51a66c2c3b33a3b64d5c92b3c79bdc7dff7e38c",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "2e70ce9fda54923262d10ae491776457c7f525d2142c9f266bdf826e9472b15b",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "5df30745d95138027a1ed734f0c13fecbdeeb251aa21520fc0993a515bbd65af",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "ae5beb4f7a819d89aa03d69ea9f649e607bafca599e2b3622739485ca571cd91",
+          "pdf_page": 5
+        },
+        {
+          "normalized_text_sha256": "44a591edb3fef05f3154bd9b1aff2691aa95f2c2ed05e73215be908ab64755cc",
+          "pdf_page": 6
+        },
+        {
+          "normalized_text_sha256": "c76d17159f90bde52d827a06a3c6224243189caaaee520580839d360dda24c94",
+          "pdf_page": 7
+        },
+        {
+          "normalized_text_sha256": "257b91b16e7b16c3b8a530583d9dfb5b2f2dce9c451fa85b9f171657ccd0541f",
+          "pdf_page": 8
+        },
+        {
+          "normalized_text_sha256": "61e9c1274d572b2d48970a33119e03e017ae512cb37cd9e53f11a79811ff8aa7",
+          "pdf_page": 9
+        },
+        {
+          "normalized_text_sha256": "e38a572ad0887e9824156b0e6dca97c804296187e8e32109ba2d458511d72256",
+          "pdf_page": 10
+        },
+        {
+          "normalized_text_sha256": "c1e74e7a5c3bfeeb03a4732ca7076273a196e7c884fe8bc6bcd6391ae8da4bfa",
+          "pdf_page": 11
+        },
+        {
+          "normalized_text_sha256": "75039ec99a8095cad139a86afdf91df918c28981790df99e46a14384d847308a",
+          "pdf_page": 12
+        },
+        {
+          "normalized_text_sha256": "ac92c35c4630cfc989ba416cc57e19360837ca50371ba2abd1e1fc3e4b63fe27",
+          "pdf_page": 13
+        },
+        {
+          "normalized_text_sha256": "24b525cadf1a4ecb3028100295901f4b872a7f3611fb1f24961e47ba3cb2c614",
+          "pdf_page": 14
+        },
+        {
+          "normalized_text_sha256": "975e63f6a95a54a506fa23f73ba76328852e99c4ab4676a3ba3a680b49168a89",
+          "pdf_page": 15
+        },
+        {
+          "normalized_text_sha256": "70961ec773e082cdffbff429ed21bbae7186c9f9990e5753ddc554305e8de9a8",
+          "pdf_page": 16
+        },
+        {
+          "normalized_text_sha256": "bbd2744f37c41f2c55213fff990c6c71706ef323aafa95a2531b75c52917535f",
+          "pdf_page": 17
+        },
+        {
+          "normalized_text_sha256": "2de5b322f6a71362073a90dfc779f3289d81d4f1097f201516e9884d8d693cab",
+          "pdf_page": 18
+        },
+        {
+          "normalized_text_sha256": "a00f368f56fed9bbfac59484fd58ddcc0a343022a3a0c998041947af3bd1dbae",
+          "pdf_page": 19
+        },
+        {
+          "normalized_text_sha256": "b4b6d5e1d5379d4ebf6e008d287e14b15c0cab201732d3ece26484bd83dbd593",
+          "pdf_page": 20
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:50:02.850717+00:00",
+      "sha256": "d3cb09347c351a0a52993758018b1b79296adc29ff934e28053f5cd6a949faf1",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-instructions.pdf?r=1025a",
+      "version_stamp": "7/1/25 | Subject to Change"
+    },
+    {
+      "bytes": 746853,
+      "id": "form",
+      "pages": [
+        {
+          "normalized_text_sha256": "0e5b6dc93f199200fc075be51a48358fc5fdc8a827dedefe729f79bcad8e9baf",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "11cde6f39ed358c8a0a60ac9a35bcbcf0e6d26584de6ce652306e0bc7ba05436",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "f68583800c15e9712bcaac849ca73617e9854e2b587f785f17828a72938022de",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "7ba76e9400249dfdd478c5ff8dbd9149f941fe2b01ec41e36c2f93f77d84e990",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "09340013880b05724850cd9a16e3029cd727f83a8a3c2c79fceeca904db3d340",
+          "pdf_page": 5
+        },
+        {
+          "normalized_text_sha256": "ed772f28efd99e6232e870057fdb669a8bebb4303ac9e9f750ed6f025700bca1",
+          "pdf_page": 6
+        },
+        {
+          "normalized_text_sha256": "d0dca598d93ffb394d4dac07a13a04359214fce10c301e390be8ce68a7a8d405",
+          "pdf_page": 7
+        },
+        {
+          "normalized_text_sha256": "05d95464ff2828588cf29a76f73af47c2c2b50047f54296603837641d96cec1b",
+          "pdf_page": 8
+        },
+        {
+          "normalized_text_sha256": "616e7cee8e35388da302206941ace6bf03412de45b64adf47c95d69c55211314",
+          "pdf_page": 9
+        },
+        {
+          "normalized_text_sha256": "f38fad18e3ef96d0a2949e3e5d846c1b9aa8c6adf578e27c395cc3bc05df05a6",
+          "pdf_page": 10
+        },
+        {
+          "normalized_text_sha256": "326027f35345a900f524c4fc8def7b733f2fa7d97f2b44d2e12fac80c48108a0",
+          "pdf_page": 11
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:46:29.861276+00:00",
+      "sha256": "6d9af05e6202861c71358df5dcb056e0fbdbc86179b32625bdfbb5464466c2c9",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-form.pdf",
+      "version_stamp": "06/09/23"
+    },
+    {
+      "bytes": 209819,
+      "id": "criteria",
+      "pages": [
+        {
+          "normalized_text_sha256": "0d71cc26933e5d9f9156cf8661f3588a745bd16c2e2415e6d6017593de7598f7",
+          "pdf_page": 1
+        },
+        {
+          "normalized_text_sha256": "e369a88b12df693a5f682f8fc82af512ad334e4ba60291446342988faad8957d",
+          "pdf_page": 2
+        },
+        {
+          "normalized_text_sha256": "18f3cc5e47d36edd7e7c3a1e54597ea6221d71a9bbcc263ad9fd4d31454c672a",
+          "pdf_page": 3
+        },
+        {
+          "normalized_text_sha256": "0390de7b2e03ab75fb1a45291ed00668f3d672dc300a6d8e008517d147aef7a3",
+          "pdf_page": 4
+        },
+        {
+          "normalized_text_sha256": "a4cc5455abc4ae4e8dba0e7d1f73416d7ed7fdf3f93c8235da129585404786e5",
+          "pdf_page": 5
+        }
+      ],
+      "retrieved_at_utc": "2026-10-29T22:46:30.174324+00:00",
+      "sha256": "4317addef32c41f571bde8e04307399f821ef08968cb3a48cb32ba96b5400d50",
+      "source_pdf_availability": "external_not_bundled",
+      "status": "retrieved",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/applicants/preparing-application/rer-criteria.pdf",
+      "version_stamp": "Printed date unresolved: [Publish Date] placeholder"
+    }
+  ],
+  "version": "0.1.0"
+}

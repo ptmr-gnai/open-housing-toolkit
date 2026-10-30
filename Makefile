@@ -3,17 +3,11 @@
 build:
 	python pipeline.py
 
-check: build
-	python lint.py
-	python -m unittest discover -s tests -v
-	python schema_check.py
-	python validate.py
+check:
+	python scripts/check_project.py check
 
-release-check: check
-	node tests/check_explorer.cjs
-	python pipeline.py
-	python validate.py
-	python replay_check.py
+release-check:
+	python scripts/check_project.py release
 
 research-check:
 	python scripts/check_research.py

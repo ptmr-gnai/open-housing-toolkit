@@ -13,6 +13,8 @@ def eligibility(ir,purpose,bbl):
     return {'allowed':not unresolved,'purpose':purpose,'bbl':bbl,'blocking_gates':unresolved,'professional_clearance':False,'note':'Verification workflow not implemented in v0.1; all site gates remain unknown.'}
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('purpose');p.add_argument('--bbl',default='2028710002');args=p.parse_args()
-    result=eligibility(read_json(ROOT/'outputs/ir.json'),args.purpose,args.bbl)
+    p=argparse.ArgumentParser();p.add_argument('purpose');p.add_argument('--bbl',default='2028710002');p.add_argument('--run',type=pathlib.Path);args=p.parse_args()
+    import pipeline
+    ir=read_json(args.run/'ir.json') if args.run else pipeline.build(ROOT/'probe.json')
+    result=eligibility(ir,args.purpose,args.bbl)
     print(json.dumps(result,indent=2));raise SystemExit(0 if result['allowed'] else 2)

@@ -4,6 +4,8 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from local_outputs import checkout_snapshot,assert_checkout_unchanged
 VALIDATORS = [
     'scripts/check_onboarding.py',
     'examples/live-lot-trial/verify.py',
@@ -16,7 +18,7 @@ VALIDATORS = [
     'scripts/validate_retrospective_portable.py',
     'research/eligibility-gates/validate.py',
     'research/requirement-coverage/validate_coverage.py',
-    'research/conclusion-probe/validate_probe.py',
+    'scripts/validate_conclusion_portable.py',
     'research/backtest-readiness/validate.py',
     'research/grand-concourse-calibration/validate.py',
 ]
@@ -33,14 +35,17 @@ TEST_DIRS = [
     'research/retrospective-run/tests',
     'research/eligibility-gates/tests',
     'research/requirement-coverage/tests',
-    'research/conclusion-probe/tests',
     'research/grand-concourse-calibration/tests',
 ]
 
 if __name__ == '__main__':
-    for path in VALIDATORS:
-        print('Validate: ' + path, flush=True)
-        subprocess.run([sys.executable, path], cwd=ROOT, check=True)
-    for path in TEST_DIRS:
-        print('Test: ' + path, flush=True)
-        subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', path, '-v'], cwd=ROOT, check=True)
+    before=checkout_snapshot()
+    try:
+        for path in VALIDATORS:
+            print('Validate: ' + path, flush=True)
+            subprocess.run([sys.executable, path], cwd=ROOT, check=True)
+        for path in TEST_DIRS:
+            print('Test: ' + path, flush=True)
+            subprocess.run([sys.executable, '-m', 'unittest', 'discover', '-s', path, '-v'], cwd=ROOT, check=True)
+    finally:
+        assert_checkout_unchanged(before)

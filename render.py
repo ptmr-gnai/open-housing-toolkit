@@ -5,6 +5,8 @@ def fmt(v, decimals=0):
     return 'unknown' if v is None else f'{v:,.{decimals}f}'
 
 def render(ir, out):
+    from local_outputs import destination
+    out=destination(out)
     claims=ir['claims']
     value=lambda k:claims[k]['value']
     ref=lambda k:f'`{k}`'

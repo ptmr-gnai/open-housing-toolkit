@@ -482,3 +482,37 @@ independent scenarios, missing evidence and stage status. It is not an automatic
 validated projection. The clarity pass changes navigation and handoff instructions,
 not analytical contracts or frozen run artifacts. Local review reports/outputs are
 not copied into the repository.
+
+
+## Local-only outputs and read-only checks
+
+Development make targets rebuilt tracked reports/screen captures, and research
+validators rewrote committed validation JSON. Identical bytes could conceal those
+writes from git diff. That violated the user-run trust boundary. Legacy core builds
+now default to unique ignored runs/core-* folders; checks run in fresh local
+scratch. Validators return results without writing their recorded outputs. Browser
+checks require a local run and write screenshots only there. Replay/schema/gate
+consumers no longer depend on mutable outputs/ data.
+
+Active collection/build/render paths reject destinations inside shipped checkout
+content; completed parcel runs cannot be rebuilt in place. The legacy collector
+uses a new local directory rather than refreshing cache/. Checks compare shipped
+bytes AND modification times, including without Git metadata, and CI checks Git
+state too. User setup does not require developer builds; agent instructions now
+explicitly forbid inferred commits, pushes, uploads or source regeneration.
+
+Preserved the source bytes needed to verify already-shipped examples in a second
+code-only runtime snapshot. The original frozen retrospective validator is also
+archived byte-for-byte and reached through a read-only wrapper; freeze records and
+analysis outputs are unchanged. No user-run outputs are part of these source fixes.
+The supported primary workflow is local Codex on the user's Mac, including its
+image tool. Files remain in the local run; publication is a separate explicit task.
+The filesystem rule is not an OS sandbox or control over user-selected sync folders.
+
+
+The conclusion experiment pins the original core pipeline/gates code, so changing
+I/O defaults correctly invalidated direct checks against that old version. Retained
+those original source bytes and added a portable read-only check in a fresh local
+copy. It verifies existing experiment outputs and runs tests; it never invokes the
+historical output generator or rewrites its pins/manifests. This preserves the
+experiment instead of regenerating results to make new I/O code look compatible.

@@ -28,4 +28,4 @@ def validate():
     if not m['curator_exposed_to_outcomes'] or not m['analyst_requires_fresh_context']:raise ValueError('Discovery exposure cannot be hidden')
     return {'document_input_integrity':'pass','pdfs':len(m['input_sources']),'cutoff':m['cutoff'],'certified_historical_backtest':'blocked','reasons':['Exact historical byte equivalence not independently established','Historical zoning, market and parcel data not yet assembled'],'experiment':'not_run','expert_usefulness':'not_tested'}
 if __name__=='__main__':
-    result=validate();(P/'input-validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
+    result=validate();print(json.dumps(result,indent=2))

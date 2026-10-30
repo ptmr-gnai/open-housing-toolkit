@@ -6,6 +6,10 @@ runs the supported steps, and returns a short cover note with linked packets.
 This guide coordinates the existing tools; there is no new one-command live runner
 or automatic converter for arbitrary agency documents.
 
+No development build or regeneration is needed to use the checkout. Keep requests,
+outputs and reviews local; do not commit, push or upload them unless explicitly
+requested for this task. Shipped examples and source snapshots are read-only.
+
 ## Start with this
 
 Copy this request and fill in the first two lines:
@@ -82,8 +86,8 @@ missing RER fields as a completed report, or an illustration as proof of fit.
 The narrative cover note is not automatically verified by the module verifiers.
 
 Return its **absolute path** and paths to the underlying packets/IR. Working outputs
-stay local and are not automatically committed or published. Hosted-workspace files
-are not automatically on the user's computer; offer a complete download when needed.
+stay local and are not automatically committed or published. For the primary Codex-on-Mac workflow, return the actual local folder path and
+keep generated images with the same run. Offer a local ZIP if the user requests it.
 See [storage and platforms](storage-and-platforms.md).
 
 For a concrete case, the [1940 Jerome Avenue trial](../examples/live-lot-trial/README.md)

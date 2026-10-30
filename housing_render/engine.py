@@ -1,5 +1,6 @@
 """Prepare briefs and attach externally generated assets with review receipts. MIT."""
 from pathlib import Path
+from local_outputs import destination
 import shutil
 from .contracts import VERSION, digest, dumps, image_file, load, save, validate_review, validate_scene, validate_scenario
 from .brief import compile_brief
@@ -10,7 +11,7 @@ WORKFLOW=ROOT/'workflows/site-concept.json'
 def implementation():
     files=sorted((ROOT/'housing_render').glob('*.py'))+sorted((ROOT/'housing_render').glob('*.json'))+[WORKFLOW]
     files += [ROOT/s['skill'] for s in load(WORKFLOW)['steps']]
-    files += [ROOT/'housing_runtime.py']
+    files += [ROOT/'housing_runtime.py',ROOT/'local_outputs.py']
     files += [ref for skill in list(files) if skill.name=='SKILL.md' for ref in sorted((skill.parent/'references').glob('*.md'))]
     return {str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
 
@@ -42,6 +43,7 @@ def markdown(brief):
     return '\n'.join(lines)
 
 def prepare(scene,scenario,out,analysis=None,photo=None):
+    destination(out)
     validate_scene(scene);validate_scenario(scenario)
     if out.exists() and any(out.iterdir()):raise ValueError('Use a new empty render directory')
     if scene['site_bbl']!=scenario['site_bbl']:raise ValueError('Scene/scenario parcel mismatch')
@@ -115,6 +117,7 @@ def make_receipt(root,brief,invocation,review,image_path):
             'geometry_verified':False,'professional_acceptance':'pending','reproduction':'Prompt and bytes bound; image provider stochastic. External conversation reference bytes unavailable locally.' if brief['reference']['storage']=='conversation_attachment' else 'Inputs and output bytes bound; image generation remains stochastic.'}
 
 def attach(root,image,invocation,review):
+    destination(root)
     verify(root)
     if (root/'render-receipt.json').exists():raise ValueError('Generation already attached; preserve it and create a new run')
     brief=load(root/'render-brief.json');validate_invocation(invocation,brief,root);validate_review(review)

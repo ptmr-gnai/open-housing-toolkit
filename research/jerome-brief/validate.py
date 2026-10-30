@@ -80,7 +80,6 @@ def validate():
     for r in reviews:
         if r['status']!='pending':require(not review_errors(r,ir),'Malformed completed review: '+str(review_errors(r,ir)))
     result={'technical_status':'pass','packet_sha256':ir['packet_sha256'],'source_receipts':len(ir['sources']),'bound_claims':len(ir['claims']),'professional_requirements':len(ir['requirements']),'gates':gate}
-    (P/'validation.json').write_text(json.dumps(result,indent=2)+'\n')
     return result
 
 if __name__=='__main__':

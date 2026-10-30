@@ -11,3 +11,7 @@ an image integration, or invent a generation receipt. The other supported module
 work independently of image generation.
 
 See [runtime routing and preflight](skills/start-here/references/agent-runtimes.md).
+
+User-run inputs, outputs and reviews stay in fresh local runs/ folders or a chosen
+external local folder. Never regenerate shipped data/examples or commit/push/upload
+results unless the user explicitly requests that publication for this task.
