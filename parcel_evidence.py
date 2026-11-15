@@ -242,38 +242,79 @@ def plan_phase2(bbl, document_ids):
 
 
 class BoundedReader:
-    """Reads a stream in chunks, charging each received chunk to the run
-    budget and enforcing the per-request cap plus the remaining run/session
-    byte and time allowances DURING the read (not after a full response).
-    When any allowance is exhausted it stops reading and returns the partial
-    body received so far with a stop reason; received bytes are never lost."""
+    """Reads a stream in bounded single reads (read1 where available),
+    charging each received chunk to the run budget and enforcing the
+    per-request cap plus the remaining run/session byte and time allowances
+    DURING the read (not after a full response). The deadline is re-checked
+    before and after every chunk, and the underlying socket timeout is
+    refreshed to the remaining wall-clock allowance when the stream supports
+    it (http.client.HTTPResponse.settimeout).
+
+    When any allowance is exhausted, or the stream raises (timeout,
+    connection reset, ...), reading stops and the partial body received so
+    far is returned with a precise stop reason; received bytes are never
+    lost. Note: this cannot preempt a single in-flight OS-level read (a
+    stalled TCP segment or DNS lookup); the capped socket timeout is the OS
+    backstop, so no absolute slow-stream time guarantee is claimed."""
 
     def __init__(self, stream, byte_cap, budget, session=None):
         self.stream, self.byte_cap = stream, byte_cap
         self.budget, self.session = budget, session
         self.total = 0
-        self.stop = None  # None | 'cap' | 'budget' | 'time'
+        self.stop = None  # None | 'cap' | 'budget' | 'time' | 'read_error: ...'
+
+    def _deadline_ok(self):
+        if self.budget is not None and self.budget.elapsed() > self.budget.max_seconds:
+            return False
+        if self.session is not None and self.session.elapsed() > self.session.max_seconds:
+            return False
+        return True
+
+    def _remaining_seconds(self):
+        remaining = None
+        if self.budget is not None:
+            remaining = self.budget.max_seconds - self.budget.elapsed()
+        if self.session is not None:
+            r = self.session.max_seconds - self.session.elapsed()
+            remaining = r if remaining is None else min(remaining, r)
+        return remaining
+
+    def _refresh_socket_timeout(self):
+        settimeout = getattr(self.stream, 'settimeout', None)
+        if settimeout is None:
+            return
+        remaining = self._remaining_seconds()
+        if remaining is not None and remaining > 0:
+            try:
+                settimeout(remaining)
+            except (OSError, ValueError, AttributeError):
+                pass
 
     def read_all(self):
         chunks = []
+        read1 = getattr(self.stream, 'read1', None)
+        read = read1 if read1 is not None else self.stream.read
         while self.stop is None:
+            if not self._deadline_ok():
+                self.stop = 'time'
+                break
             remaining = self.byte_cap - self.total
             if self.budget is not None:
                 remaining = min(remaining, self.budget.max_bytes - self.budget.bytes)
-                if self.budget.elapsed() > self.budget.max_seconds:
-                    self.stop = 'time'
-                    break
             if self.session is not None:
                 # Session bytes are charged per attempt (after the read), so
                 # subtract this attempt's in-flight bytes from the allowance.
                 remaining = min(remaining, self.session.max_bytes - self.session.bytes - self.total)
-                if self.session.elapsed() > self.session.max_seconds:
-                    self.stop = 'time'
-                    break
             if remaining <= 0:
                 self.stop = 'budget'
                 break
-            chunk = self.stream.read(min(65536, remaining))
+            self._refresh_socket_timeout()
+            try:
+                chunk = read(min(65536, remaining))
+            except (TimeoutError, OSError) as exc:
+                # Keep every already-received chunk; report the precise error.
+                self.stop = 'read_error: %s: %s' % (type(exc).__name__, exc)
+                break
             if not chunk:
                 break
             self.total += len(chunk)
@@ -286,6 +327,9 @@ class BoundedReader:
                 break
             if self.total >= self.byte_cap:
                 self.stop = 'cap'
+            if not self._deadline_ok():
+                self.stop = 'time'
+                break
         return b''.join(chunks)
 
 
@@ -295,13 +339,25 @@ def transport_urllib(url, timeout=HTTP_TIMEOUT_SECONDS, byte_cap=PER_REQUEST_BYT
     responses are returned (not raised) so the retry logic can see status and
     body; network/timeout errors raise. Reads are bounded per chunk by
     byte_cap and by the remaining run/session byte and time allowances;
-    partial bodies are retained, never discarded. The socket timeout is capped
-    by the remaining run/session time so a slow stream cannot overshoot the
-    wall-clock budget."""
+    partial bodies are retained, never discarded.
+
+    The socket timeout is capped by the ACTUAL positive remaining
+    run/session wall-clock time (no floor), and dispatch is refused
+    (BudgetExceeded) when the deadline is already exhausted. The reader
+    refreshes the socket timeout to the remaining allowance before each
+    chunk. This cannot preempt a single in-flight OS-level read (stalled TCP
+    segment, DNS lookup); the capped socket timeout is the OS backstop, so
+    no absolute slow-stream time guarantee is claimed."""
     if budget is not None and budget.started_at is not None:
-        timeout = min(timeout, max(budget.max_seconds - budget.elapsed(), 1.0))
+        remaining = budget.max_seconds - budget.elapsed()
+        if remaining <= 0:
+            raise BudgetExceeded('time')
+        timeout = min(timeout, remaining)
     if session is not None:
-        timeout = min(timeout, max(session.max_seconds - session.elapsed(), 1.0))
+        remaining = session.max_seconds - session.elapsed()
+        if remaining <= 0:
+            raise BudgetExceeded('time')
+        timeout = min(timeout, remaining)
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     try:
         response = urllib.request.urlopen(req, timeout=timeout)

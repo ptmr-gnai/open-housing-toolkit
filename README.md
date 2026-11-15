@@ -24,6 +24,8 @@ separate experiments; they are not yet one integrated product.
   material omissions and modeling problems found despite passing engineering checks.
 - [Source audit](research/source-audit/report.md): a bounded inventory of public
   data sources and agency workflows.
+- [Source catalog](docs/source-catalog.md): canonical public sources by domain,
+  with wired-in vs. candidate status and ID verification notes.
 - [Papercut log](docs/papercuts.md): observed failures, fixes and remaining gaps.
 
 The original executable parcel probe is centered on 170 Street on the 4 line in
