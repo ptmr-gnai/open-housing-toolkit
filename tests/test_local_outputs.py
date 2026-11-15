@@ -13,7 +13,7 @@ from housing_render import engine as renderer
 class LocalOutputSafety(unittest.TestCase):
     def test_shipped_destinations_and_symlink_aliases_rejected(self):
         with tempfile.TemporaryDirectory() as d:
-            root=pathlib.Path(d);(root/'outputs').mkdir();(root/'runs').mkdir()
+            root=pathlib.Path(d).resolve();(root/'outputs').mkdir();(root/'runs').mkdir()
             for target in [root,root/'outputs',root/'examples/new',root/'cache/source.json']:
                 with self.assertRaisesRegex(ValueError,'read-only'):local_outputs.destination(target,root)
             self.assertEqual(local_outputs.destination(root/'runs/new',root),root/'runs/new')
@@ -67,7 +67,7 @@ class LocalOutputSafety(unittest.TestCase):
 
     def test_ignored_local_runs_do_not_count_as_shipped_changes(self):
         with tempfile.TemporaryDirectory() as d:
-            root=pathlib.Path(d);(root/'source.txt').write_text('fixed')
+            root=pathlib.Path(d).resolve();(root/'source.txt').write_text('fixed')
             before=local_outputs.checkout_snapshot(root)
             run=local_outputs.new_run('test',root);(run/'report.md').write_text('local')
             local_outputs.assert_checkout_unchanged(before,root)
