@@ -1,0 +1,14 @@
+[
+  {
+    "bbl": "2027350020",
+    "question": "Nonhousing discovery follow-up for 925 HUNTS POINT AVENUE (2027350020), general zoning path housing_permitted_by_general_use_rule: reconcile current operations, historical housing signals, zoning exceptions, site control and unresolved constraints. No development program or vacancy finding is supplied.",
+    "scenario": null,
+    "version": "0.2.0"
+  },
+  {
+    "bbl": "2027630335",
+    "question": "Nonhousing discovery follow-up for LAFAYETTE AVENUE (2027630335), general zoning path special_or_unresolved_review: reconcile current operations, historical housing signals, zoning exceptions, site control and unresolved constraints. No development program or vacancy finding is supplied.",
+    "scenario": null,
+    "version": "0.2.0"
+  }
+]

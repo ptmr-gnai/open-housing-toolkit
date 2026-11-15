@@ -1,0 +1,24 @@
+{
+  "allowed_implementations": [
+    {
+      "src/housing_common/local_outputs.py": "82fc4fc56b36b55754acb3e2943c78cc789e8970f608b4d05352a2df9bd0340e",
+      "src/housing_site_review/__init__.py": "86733f30196b9e6012b1f4f60cb2dfba1e8175b67ef639772a45eda01936dca9",
+      "src/housing_site_review/__main__.py": "e96c051da870d98c0f9f8ebecaebab575bf56da443380116b47447ae2bdb6b82",
+      "src/housing_site_review/engine.py": "37cb298cb2923dd4ee2ed12df518fab50e8e04c41c472cc169fe97a11bdda381",
+      "src/housing_site_review/packet.py": "0fc085a2264e6f6ba97cd3351f06c59988e4a597d1a54bbffa468c1be98e806f",
+      "src/housing_workflow/sources.json": "eb8cf6954bef5a7f727daf40f77f61d71d22f1fbd8cbb973b0bba42c7f48fa75"
+    },
+    {
+      "src/housing_common/local_outputs.py": "82fc4fc56b36b55754acb3e2943c78cc789e8970f608b4d05352a2df9bd0340e",
+      "src/housing_site_review/__init__.py": "86733f30196b9e6012b1f4f60cb2dfba1e8175b67ef639772a45eda01936dca9",
+      "src/housing_site_review/__main__.py": "445258f1948cc706414402527788316345c2924e3d54b7cd653ec43faa43ead5",
+      "src/housing_site_review/engine.py": "e4b07991415efdaf651d98d831ccb02367064fe930a34ebefa07c6b8ebbff620",
+      "src/housing_site_review/legacy-imports.json": "b89893657a79b6edb0a650e2136faa9293bb13cb46990285436850ea3ab9d814",
+      "src/housing_site_review/packet.py": "2e2187d93210920f9fbd842d904e88268250ca3152e7f4482da9ff548ae95747",
+      "src/housing_site_review/sources.json": "70d2fef62319144611746df8ad277ae106b1b0384524a71aa4bc972f56ca75d7",
+      "src/housing_workflow/sources.json": "eb8cf6954bef5a7f727daf40f77f61d71d22f1fbd8cbb973b0bba42c7f48fa75"
+    }
+  ],
+  "purpose": "Recognized original raw-capture implementations for explicit replay/import only; not an assertion that prior derived packets verify under current code.",
+  "version": "1.0"
+}

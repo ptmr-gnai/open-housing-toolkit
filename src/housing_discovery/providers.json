@@ -1,0 +1,6 @@
+{
+  "pluto": {"dataset":"64uk-42ks","fields":["bbl","borough","block","lot","address","ownername","ownertype","bldgclass","landuse","lotarea","bldgarea","numfloors","unitsres","unitstotal","residfar","affresfar","builtfar","lotfront","lotdepth","irrlotcode","zonedist1","zonedist2","spdist1","splitzone","landmark","histdist","edesignum","pfirm15_flag","transitzone","latitude","longitude","version"]},
+  "zap_bbl": {"dataset":"2iga-a6mk","fields":["project_id","bbl","validated","validated_date"]},
+  "zap_projects": {"dataset":"hgx4-8ukb","fields":["project_id","project_name","project_brief","project_status","public_status","actions","approval_date","completed_date","mih_flag"]},
+  "colp": {"dataset":"fn4k-qyk2","fields":["bbl","billbbl","address","agency","use_type","non_city_ownership","leased_properties","excatdesc"]}
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/0-buffalo-zoning.json",
+    "bytes": 24378,
+    "http_status": 200,
+    "id": "0",
+    "params": null,
+    "provider": "buffalo-zoning",
+    "retrieved_at": "2026-11-10T02:40:46.716055+00:00",
+    "sha256": "90adb18e879178124d063abd375d3e825170f68b39f54790d75782d4d05ccc7c",
+    "status": "ok",
+    "url": "https://data.buffalony.gov/api/views/5843-jknb.json"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/1-buffalo-zoning.json",
+    "bytes": 635,
+    "http_status": 200,
+    "id": "1",
+    "params": {
+      "$limit": "1"
+    },
+    "provider": "buffalo-zoning",
+    "retrieved_at": "2026-11-10T02:40:47.184920+00:00",
+    "sha256": "f6ef79f5d81501324067b80848ea0d6fcd2a9e8e3f307e4e64e329fcfa366a5b",
+    "status": "ok",
+    "url": "https://data.buffalony.gov/resource/5843-jknb.json?%24limit=1"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/2-rochester-inventory.json",
+    "bytes": 6115,
+    "http_status": 200,
+    "id": "2",
+    "params": null,
+    "provider": "rochester-inventory",
+    "retrieved_at": "2026-11-10T02:40:47.982391+00:00",
+    "sha256": "847d50e39fdd3b9820d5982cf2910330743bb54d49ea7a869307a20f0e615e88",
+    "status": "ok",
+    "url": "https://maps.cityofrochester.gov/server/rest/services/Open_Data/Housing_Inventory_Parcels_Open_Data/FeatureServer?f=json"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/3-rochester-inventory-layer.json",
+    "bytes": 11192,
+    "http_status": 200,
+    "id": "3",
+    "params": null,
+    "provider": "rochester-inventory-layer",
+    "retrieved_at": "2026-11-10T02:40:48.278448+00:00",
+    "sha256": "8365f1dd790b378642f8f4188ec224e592e0d62ab944bdd6a521320c1a63b6ce",
+    "status": "ok",
+    "url": "https://maps.cityofrochester.gov/server/rest/services/Open_Data/Housing_Inventory_Parcels_Open_Data/FeatureServer/0?f=json"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/4-rochester-inventory-layer.json",
+    "bytes": 3661,
+    "http_status": 200,
+    "id": "4",
+    "params": {
+      "f": "json",
+      "outFields": "*",
+      "resultRecordCount": "1",
+      "returnGeometry": "false",
+      "where": "1=1"
+    },
+    "provider": "rochester-inventory-layer",
+    "retrieved_at": "2026-11-10T02:40:49.155208+00:00",
+    "sha256": "d811e69cb92117bc29ac7088df356570f1ac8ecccace1ea2d9e951a94d42f4d9",
+    "status": "ok",
+    "url": "https://maps.cityofrochester.gov/server/rest/services/Open_Data/Housing_Inventory_Parcels_Open_Data/FeatureServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=1"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/5-syracuse-vacant.json",
+    "bytes": 3107,
+    "http_status": 200,
+    "id": "5",
+    "params": null,
+    "provider": "syracuse-vacant",
+    "retrieved_at": "2026-11-10T02:40:50.289409+00:00",
+    "sha256": "cf6976ac59eaef0c0c4f0b10ccfd70ead0fb4fae81c1819464c5faacef39f779",
+    "status": "ok",
+    "url": "https://services6.arcgis.com/bdPqSfflsdgFRVVM/arcgis/rest/services/Vacant_Properties/FeatureServer?f=json"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/6-syracuse-vacant-layer.json",
+    "bytes": 12654,
+    "http_status": 200,
+    "id": "6",
+    "params": null,
+    "provider": "syracuse-vacant-layer",
+    "retrieved_at": "2026-11-10T02:40:50.462804+00:00",
+    "sha256": "6bc28804cdff4d88abee8e04579bbd21cfef8da5d5f23d163cc1b99e89c73ce6",
+    "status": "ok",
+    "url": "https://services6.arcgis.com/bdPqSfflsdgFRVVM/arcgis/rest/services/Vacant_Properties/FeatureServer/0?f=json"
+  },
+  {
+    "attempts": [
+      {
+        "http_status": 200
+      }
+    ],
+    "body_path": "sources/7-syracuse-vacant-layer.json",
+    "bytes": 2790,
+    "http_status": 200,
+    "id": "7",
+    "params": {
+      "f": "json",
+      "outFields": "*",
+      "resultRecordCount": "1",
+      "returnGeometry": "false",
+      "where": "1=1"
+    },
+    "provider": "syracuse-vacant-layer",
+    "retrieved_at": "2026-11-10T02:40:51.432809+00:00",
+    "sha256": "49fa0e70fd846fa6b51fef1c7b3b65a3194fdf4b034465c2ed1edc0a4e64f8da",
+    "status": "ok",
+    "url": "https://services6.arcgis.com/bdPqSfflsdgFRVVM/arcgis/rest/services/Vacant_Properties/FeatureServer/0/query?f=json&where=1%3D1&outFields=%2A&returnGeometry=false&resultRecordCount=1"
+  }
+]

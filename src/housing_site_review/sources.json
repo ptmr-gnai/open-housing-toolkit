@@ -1,0 +1,105 @@
+{
+  "hpd_registrations": {
+    "dataset": "tesw-yqqr",
+    "publisher": "NYC Department of Housing Preservation and Development",
+    "join": "borough_block_lot",
+    "fields": [
+      "registrationid",
+      "buildingid",
+      "boroid",
+      "block",
+      "lot",
+      "bin",
+      "housenumber",
+      "streetname",
+      "lastregistrationdate",
+      "registrationenddate"
+    ],
+    "order": "boroid,block,lot,registrationid",
+    "signal_fields": [],
+    "presence_signal": true,
+    "limits": "Registration records cover specified multiple dwellings and some one/two-family rentals, not all housing. Expired/historical registration and exact lot identity do not establish current occupancy; no rows is not no housing."
+  },
+  "hpd_production": {
+    "dataset": "hg8x-zxpr",
+    "publisher": "NYC Department of Housing Preservation and Development",
+    "join": "bbl_number",
+    "fields": [
+      "bbl",
+      "project_id",
+      "project_name",
+      "building_id",
+      "project_start_date",
+      "project_completion_date",
+      "building_completion_date",
+      "reporting_construction_type",
+      "total_units",
+      "all_counted_units"
+    ],
+    "order": "bbl,project_id,building_id",
+    "signal_fields": [
+      "total_units",
+      "all_counted_units"
+    ],
+    "presence_signal": true,
+    "limits": "HPD affordable-production building/project records include program activity and dates, not all housing or proof of current occupancy/completion. A current BBL can differ from historical tax-lot identity."
+  },
+  "dob_now": {
+    "dataset": "w9ak-ipjd",
+    "bbl_type": "text",
+    "publisher": "NYC Department of Buildings",
+    "fields": [
+      "bbl",
+      "job_filing_number",
+      "job_type",
+      "filing_status",
+      "filing_date",
+      "current_status_date",
+      "existing_dwelling_units",
+      "proposed_dwelling_units",
+      "job_description",
+      "bin",
+      "house_no",
+      "street_name"
+    ],
+    "order": "job_filing_number",
+    "catalog": "https://data.cityofnewyork.us/d/w9ak-ipjd",
+    "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+    "join": "bbl_text",
+    "signal_fields": [
+      "existing_dwelling_units",
+      "proposed_dwelling_units"
+    ],
+    "presence_signal": false
+  },
+  "dob_bis": {
+    "dataset": "ic3t-wcy2",
+    "bbl_type": "text",
+    "publisher": "NYC Department of Buildings",
+    "fields": [
+      "bbl",
+      "job__",
+      "doc__",
+      "job_type",
+      "job_status_descrp",
+      "pre__filing_date",
+      "latest_action_date",
+      "signoff_date",
+      "existing_dwelling_units",
+      "proposed_dwelling_units",
+      "job_description",
+      "bin__",
+      "house__",
+      "street_name"
+    ],
+    "order": "job__,doc__",
+    "catalog": "https://data.cityofnewyork.us/d/ic3t-wcy2",
+    "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+    "join": "bbl_text",
+    "signal_fields": [
+      "existing_dwelling_units",
+      "proposed_dwelling_units"
+    ],
+    "presence_signal": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "id": "hunts-point-nonhousing",
+  "question": "Which recorded nonhousing sites could support housing, and which general zoning path and follow-up questions apply?",
+  "scope": {
+    "borough": "BX",
+    "bbox": [
+      -73.895,
+      40.81,
+      -73.879,
+      40.824
+    ]
+  },
+  "display_per_group": 3
+}

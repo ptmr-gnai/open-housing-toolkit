@@ -1,0 +1,151 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "question",
+    "scope",
+    "scenario",
+    "selection"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "borough",
+        "bbox"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "borough": {
+          "enum": [
+            "BX",
+            "BK",
+            "MN",
+            "QN",
+            "SI"
+          ]
+        },
+        "bbox": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "scenario": {
+      "type": "object",
+      "required": [
+        "label",
+        "proposed_residential_far",
+        "gross_per_zoning_sf",
+        "residential_share",
+        "net_efficiency",
+        "net_sf_per_home_equivalent",
+        "rationale"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposed_residential_far": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 20
+        },
+        "gross_per_zoning_sf": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "residential_share": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "net_efficiency": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "net_sf_per_home_equivalent": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 3000
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "min_lot_area_sf",
+        "max_lot_area_sf",
+        "min_additional_area_proxy_sf",
+        "max_recorded_residential_units",
+        "mission",
+        "hold_active_applications",
+        "top_n"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "min_lot_area_sf": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_lot_area_sf": {
+          "type": "number",
+          "minimum": 0
+        },
+        "min_additional_area_proxy_sf": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_recorded_residential_units": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "mission": {
+          "enum": [
+            "private_redevelopment",
+            "public_or_institutional_review",
+            "all_with_flags"
+          ]
+        },
+        "hold_active_applications": {
+          "type": "boolean"
+        },
+        "top_n": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Conditional discovery request; executable validator additionally checks bbox bounds/order/extent and area range order."
+}

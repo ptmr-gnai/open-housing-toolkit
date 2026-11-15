@@ -1,0 +1,1098 @@
+{
+  "interpretation": "Method correction on the same original universe; a later zoning supplement is retained separately. Counts are not viable sites.",
+  "new_counts": {
+    "by_current_use": {
+      "current_use_unresolved": 34,
+      "housing_recorded": 685,
+      "housing_signals_require_review": 12,
+      "recorded_nonhousing": 512
+    },
+    "inventory": 1243,
+    "nonhousing_by_review_lane": {
+      "infrastructure_review": 17,
+      "other_nonhousing_review": 430,
+      "park_or_recreation_review": 16,
+      "public_or_institutional_use_review": 49
+    },
+    "nonhousing_by_zoning_path": {
+      "housing_permitted_by_general_use_rule": 90,
+      "rezoning_path": 44,
+      "special_or_unresolved_review": 378
+    },
+    "recorded_nonhousing": 512
+  },
+  "new_nonhousing_previously_held": [
+    {
+      "address": "1120 LEGGETT AVENUE",
+      "bbl": "2026060230",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "904 TIFFANY STREET",
+      "bbl": "2027120009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "948 TIFFANY STREET",
+      "bbl": "2027140004",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "993 WESTCHESTER AVENUE",
+      "bbl": "2027150052",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "985 WESTCHESTER AVENUE",
+      "bbl": "2027150055",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "981 WESTCHESTER AVENUE",
+      "bbl": "2027150060",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "857 SOUTHERN BOULEVARD",
+      "bbl": "2027220018",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "884 TIFFANY STREET",
+      "bbl": "2027220035",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "877 SOUTHERN BOULEVARD",
+      "bbl": "2027220063",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "871 TIFFANY STREET",
+      "bbl": "2027220109",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "922 SIMPSON STREET",
+      "bbl": "2027230033",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SIMPSON STREET",
+      "bbl": "2027240042",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SIMPSON STREET",
+      "bbl": "2027240057",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SIMPSON STREET",
+      "bbl": "2027240115",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SIMPSON STREET",
+      "bbl": "2027240120",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SIMPSON STREET",
+      "bbl": "2027240129",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "947 SOUTHERN BOULEVARD",
+      "bbl": "2027240190",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "LONGWOOD AVENUE",
+      "bbl": "2027300098",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1077 LONGWOOD AVENUE",
+      "bbl": "2027310005",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2027310027",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2027310061",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2027310064",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "826 SOUTHERN BOULEVARD",
+      "bbl": "2027320012",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "854 SOUTHERN BOULEVARD",
+      "bbl": "2027320025",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "853 TIFFANY STREET",
+      "bbl": "2027320037",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2027330055",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "861 HUNTS POINT AVENUE",
+      "bbl": "2027340030",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "901 HUNTS POINT AVENUE",
+      "bbl": "2027340039",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "870 BARRETTO STREET",
+      "bbl": "2027340060",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "936 SOUTHERN BOULEVARD",
+      "bbl": "2027350017",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 5.0,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "938 SOUTHERN BOULEVARD",
+      "bbl": "2027350019",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 5.0,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "925 HUNTS POINT AVENUE",
+      "bbl": "2027350020",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 5.0,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "HUNTS POINT AVENUE",
+      "bbl": "2027350100",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 5.0,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "770 BARRY STREET",
+      "bbl": "2027360194",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1170 LONGWOOD AVENUE",
+      "bbl": "2027360277",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "BARRY STREET",
+      "bbl": "2027370041",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1127 LONGWOOD AVENUE",
+      "bbl": "2027370075",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "BARRETTO STREET",
+      "bbl": "2027380036",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1201 LAFAYETTE AVENUE",
+      "bbl": "2027390015",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "819 HUNTS POINT AVENUE",
+      "bbl": "2027400031",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "815 HUNTS POINT AVENUE",
+      "bbl": "2027400033",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "940 GARRISON AVENUE",
+      "bbl": "2027400075",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "833 MANIDA STREET",
+      "bbl": "2027400092",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "904 HUNTS POINT AVENUE",
+      "bbl": "2027410001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "FAILE STREET",
+      "bbl": "2027410066",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "EAST 163 STREET",
+      "bbl": "2027410200",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 5.0,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "952 SOUTHERN BOULEVARD",
+      "bbl": "2027420022",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1015 HOE AVENUE",
+      "bbl": "2027430045",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1005 HOE AVENUE",
+      "bbl": "2027430050",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "967 ALDUS STREET",
+      "bbl": "2027430052",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "958 HOE AVENUE",
+      "bbl": "2027460027",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "927 FAILE STREET",
+      "bbl": "2027460053",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "984 FAILE STREET",
+      "bbl": "2027470001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2027470050",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1011 FAILE STREET",
+      "bbl": "2027490056",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "979 ALDUS STREET",
+      "bbl": "2027490057",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "987 LONGFELLOW AVENUE",
+      "bbl": "2027550001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LONGFELLOW AVENUE",
+      "bbl": "2027550048",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LONGFELLOW AVENUE",
+      "bbl": "2027550051",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "950 LONGFELLOW AVENUE",
+      "bbl": "2027550125",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "LONGFELLOW AVENUE",
+      "bbl": "2027550133",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "GARRISON AVENUE",
+      "bbl": "2027590001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "EDGEWATER ROAD",
+      "bbl": "2027590070",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2027590101",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "SHERIDAN EXPRESSWAY",
+      "bbl": "2027590240",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2027590388",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2027590389",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1112 GARRISON AVENUE",
+      "bbl": "2027610022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRYANT AVENUE",
+      "bbl": "2027610097",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRYANT AVENUE",
+      "bbl": "2027610101",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRYANT AVENUE",
+      "bbl": "2027610102",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "901 EDGEWATER ROAD",
+      "bbl": "2027610233",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "830 HUNTS POINT AVENUE",
+      "bbl": "2027620007",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "836 HUNTS POINT AVENUE",
+      "bbl": "2027620012",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "829 FAILE STREET",
+      "bbl": "2027620019",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "823 FAILE STREET",
+      "bbl": "2027620020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1226 SENECA AVENUE",
+      "bbl": "2027620054",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "800 FAILE STREET",
+      "bbl": "2027620072",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "812 EDGEWATER ROAD",
+      "bbl": "2027620314",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1399 LAFAYETTE AVENUE",
+      "bbl": "2027620365",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "765 MANIDA STREET",
+      "bbl": "2027630001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "MANIDA STREET",
+      "bbl": "2027630029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1265 SPOFFORD AVENUE",
+      "bbl": "2027630105",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "740 MANIDA STREET",
+      "bbl": "2027630130",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1281 SPOFFORD AVENUE",
+      "bbl": "2027630166",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "710 COSTER STREET",
+      "bbl": "2027630170",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "HUNTS POINT AVENUE",
+      "bbl": "2027630206",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "770 HUNTS POINT AVENUE",
+      "bbl": "2027630212",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "718 BRYANT AVENUE",
+      "bbl": "2027630279",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "657 CASANOVA STREET",
+      "bbl": "2027650086",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "650 CASANOVA STREET",
+      "bbl": "2027650177",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "634 BARRETTO STREET",
+      "bbl": "2027650246",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "657 COSTER STREET",
+      "bbl": "2027650269",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1280 SPOFFORD AVENUE",
+      "bbl": "2027660001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1300 SPOFFORD AVENUE",
+      "bbl": "2027660061",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "670 HUNTS POINT AVENUE",
+      "bbl": "2027660167",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "647 WHITTIER STREET",
+      "bbl": "2027660196",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1390 SPOFFORD AVENUE",
+      "bbl": "2027660300",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1383 RANDALL AVENUE",
+      "bbl": "2027660320",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "610 BRYANT AVENUE",
+      "bbl": "2027660537",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "614 BRYANT AVENUE",
+      "bbl": "2027660539",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "527 FAILE STREET",
+      "bbl": "2027680352",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "OAK POINT AVENUE",
+      "bbl": "2027720170",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1400 STORY AVENUE",
+      "bbl": "2036210001",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2036210058",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2036210060",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "BRONX RIVER AVENUE",
+      "bbl": "2036210090",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "LAFAYETTE AVENUE",
+      "bbl": "2036210200",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1444 STORY AVENUE",
+      "bbl": "2036220016",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1410 STORY AVENUE",
+      "bbl": "2036220018",
+      "old_hold_reasons": [
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1007 EVERGREEN AVENUE",
+      "bbl": "2037110001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "BRUCKNER BOULEVARD",
+      "bbl": "2037110100",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 2.43,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    }
+  ],
+  "old_counts": {
+    "by_hold_reason": {
+      "different_mission_public_or_institutional_review": 106,
+      "existing_use_classification_missing": 32,
+      "insufficient_increment_under_declared_scenario": 316,
+      "missing_numeric_inputs:unitsres": 1,
+      "occupancy_review_before_zero_homes_screen_advances": 3,
+      "outside_declared_lot_size_range": 277,
+      "parkland_review_not_ordinary_redevelopment": 2,
+      "pipeline_review_before_advancement": 3,
+      "recorded_homes_exceed_declared_screen": 685
+    },
+    "held": 837,
+    "inventory": 1243,
+    "screen_pool": 406,
+    "shortlist": 10
+  }
+}

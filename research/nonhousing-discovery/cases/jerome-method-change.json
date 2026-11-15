@@ -1,0 +1,3572 @@
+{
+  "interpretation": "Method correction on the same original universe; a later zoning supplement is retained separately. Counts are not viable sites.",
+  "new_counts": {
+    "by_current_use": {
+      "current_use_unresolved": 14,
+      "housing_recorded": 1431,
+      "housing_signals_require_review": 19,
+      "recorded_nonhousing": 457
+    },
+    "inventory": 1921,
+    "nonhousing_by_review_lane": {
+      "infrastructure_review": 4,
+      "other_nonhousing_review": 288,
+      "park_or_recreation_review": 70,
+      "public_or_institutional_use_review": 95
+    },
+    "nonhousing_by_zoning_path": {
+      "housing_permitted_by_general_use_rule": 221,
+      "rezoning_path": 22,
+      "special_or_unresolved_review": 214
+    },
+    "recorded_nonhousing": 457
+  },
+  "new_nonhousing_previously_held": [
+    {
+      "address": "1280 TELLER AVENUE",
+      "bbl": "2024310020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1257 COLLEGE AVENUE",
+      "bbl": "2024390061",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1261 MORRIS AVENUE",
+      "bbl": "2024500040",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1257 MORRIS AVENUE",
+      "bbl": "2024500042",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "112 EAST 167 STREET",
+      "bbl": "2024630040",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1211 GRANDVIEW PLACE",
+      "bbl": "2024650050",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "116 EAST 169 STREET",
+      "bbl": "2024660011",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "120 EAST 169 STREET",
+      "bbl": "2024660019",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "128 EAST 169 STREET",
+      "bbl": "2024660022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1275 GRAND CONCOURSE",
+      "bbl": "2024660026",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "70 EAST 167 STREET",
+      "bbl": "2024790019",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "98 EAST 167 STREET",
+      "bbl": "2024790024",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1220 GERARD AVENUE",
+      "bbl": "2024800008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1275 WALTON AVENUE",
+      "bbl": "2024810023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "40 EAST 167 STREET",
+      "bbl": "2024880020",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "46 EAST 167 STREET",
+      "bbl": "2024880023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "50 EAST 167 STREET",
+      "bbl": "2024880025",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1210 JEROME AVENUE",
+      "bbl": "2024890001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1220 JEROME AVENUE",
+      "bbl": "2024890005",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1222 JEROME AVENUE",
+      "bbl": "2024890006",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1230 JEROME AVENUE",
+      "bbl": "2024890008",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1234 JEROME AVENUE",
+      "bbl": "2024890011",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1240 JEROME AVENUE",
+      "bbl": "2024890014",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1221 RIVER AVENUE",
+      "bbl": "2024890026",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "17 EAST 167 STREET",
+      "bbl": "2024890027",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "15 EAST 167 STREET",
+      "bbl": "2024890029",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "11 EAST 167 STREET",
+      "bbl": "2024890030",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "41 EAST 167 STREET",
+      "bbl": "2024890033",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1225 GERARD AVENUE",
+      "bbl": "2024890060",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1264 RIVER AVENUE",
+      "bbl": "2024890077",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1165 CROMWELL AVENUE",
+      "bbl": "2024950100",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "12 EAST 167 STREET",
+      "bbl": "2024960058",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "RIVER AVENUE",
+      "bbl": "2024960064",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1174 SHAKESPEARE AVENUE",
+      "bbl": "2025060005",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "EDWARD L GRANT HWY",
+      "bbl": "2025060040",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1250 SHAKESPEARE AVENUE",
+      "bbl": "2025060079",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1272 SHAKESPEARE AVENUE",
+      "bbl": "2025060087",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1276 SHAKESPEARE AVENUE",
+      "bbl": "2025060089",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1280 SHAKESPEARE AVENUE",
+      "bbl": "2025060091",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1349 EDWARD L GRANT HWY",
+      "bbl": "2025060129",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WOODYCREST AVENUE",
+      "bbl": "2025090044",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "WEST 167TH STREET",
+      "bbl": "2025090053",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "78 WEST 168 STREET",
+      "bbl": "2025100027",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1217 SHAKESPEARE AVENUE",
+      "bbl": "2025100038",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1074 NELSON AVENUE",
+      "bbl": "2025130007",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1076 NELSON AVENUE",
+      "bbl": "2025130008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1078 NELSON AVENUE",
+      "bbl": "2025130009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1082 NELSON AVENUE",
+      "bbl": "2025130010",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1083 WOODYCREST AVENUE",
+      "bbl": "2025130029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WOODYCREST AVENUE",
+      "bbl": "2025130030",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1077 WOODYCREST AVENUE",
+      "bbl": "2025130031",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1075 WOODYCREST AVENUE",
+      "bbl": "2025130032",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "91 WEST 166 STREET",
+      "bbl": "2025130038",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "WOODYCREST AVENUE",
+      "bbl": "2025130082",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1080 NELSON AVENUE",
+      "bbl": "2025130084",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WOODYCREST AVENUE",
+      "bbl": "2025130090",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1076 OGDEN AVENUE",
+      "bbl": "2025140008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1080 OGDEN AVENUE",
+      "bbl": "2025140009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1160 OGDEN AVENUE",
+      "bbl": "2025140056",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "130 WEST 167 STREET",
+      "bbl": "2025140060",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1135 NELSON AVENUE",
+      "bbl": "2025140070",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1127 NELSON AVENUE",
+      "bbl": "2025140072",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1125 NELSON AVENUE",
+      "bbl": "2025140073",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1170 NELSON AVENUE",
+      "bbl": "2025150001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1178 NELSON AVENUE",
+      "bbl": "2025150005",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1226 NELSON AVENUE",
+      "bbl": "2025150023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1209 WOODYCREST AVENUE",
+      "bbl": "2025150047",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1203 WOODYCREST AVENUE",
+      "bbl": "2025150049",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1187 WOODYCREST AVENUE",
+      "bbl": "2025150055",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1164 OGDEN AVENUE",
+      "bbl": "2025160001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1168 OGDEN AVENUE",
+      "bbl": "2025160003",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1170 OGDEN AVENUE",
+      "bbl": "2025160004",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1184 OGDEN AVENUE",
+      "bbl": "2025160009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1192 OGDEN AVENUE",
+      "bbl": "2025160012",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1218 OGDEN AVENUE",
+      "bbl": "2025160022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1181 NELSON AVENUE",
+      "bbl": "2025160051",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1171 NELSON AVENUE",
+      "bbl": "2025160061",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "75 WEST 168 STREET",
+      "bbl": "2025170001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1254 NELSON AVENUE",
+      "bbl": "2025170011",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1256 NELSON AVENUE",
+      "bbl": "2025170012",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1258 NELSON AVENUE",
+      "bbl": "2025170013",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1272 NELSON AVENUE",
+      "bbl": "2025170020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1278 NELSON AVENUE",
+      "bbl": "2025170021",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "96 WEST 169 STREET",
+      "bbl": "2025170026",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "94 WEST 169 STREET",
+      "bbl": "2025170027",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SHAKESPEARE AVENUE",
+      "bbl": "2025170100",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1270 OGDEN AVENUE",
+      "bbl": "2025180014",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1287 SHAKESPEARE AVENUE",
+      "bbl": "2025190025",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "79 WEST 170 STREET",
+      "bbl": "2025200012",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1340 NELSON AVENUE",
+      "bbl": "2025200019",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1384 NELSON AVENUE",
+      "bbl": "2025200032",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1380 PLIMPTON AVENUE",
+      "bbl": "2025210015",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1426 OGDEN AVENUE",
+      "bbl": "2025220068",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1472 OGDEN AVENUE",
+      "bbl": "2025220081",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1395 PLIMPTON AVENUE",
+      "bbl": "2025220105",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1387 PLIMPTON AVENUE",
+      "bbl": "2025220107",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1367 PLIMPTON AVENUE",
+      "bbl": "2025220115",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1363 PLIMPTON AVENUE",
+      "bbl": "2025220117",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "PLIMPTON AVENUE",
+      "bbl": "2025220122",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2025290001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "MERRIAM AVENUE",
+      "bbl": "2025290006",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1301 OGDEN AVENUE",
+      "bbl": "2025290081",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2025300064",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1243 UNIVERSITY AVENUE",
+      "bbl": "2025300065",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1231 UNIVERSITY AVENUE",
+      "bbl": "2025300066",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1359 OGDEN AVENUE",
+      "bbl": "2025310021",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "OGDEN AVENUE",
+      "bbl": "2025310029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1315 OGDEN AVENUE",
+      "bbl": "2025310035",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1309 UNIVERSITY AVENUE",
+      "bbl": "2025330001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1311 UNIVERSITY AVENUE",
+      "bbl": "2025330006",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1345 UNIVERSITY AVENUE",
+      "bbl": "2025330022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2025330107",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2025330111",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2025330116",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1339 UNIVERSITY AVENUE",
+      "bbl": "2025330118",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1380 MERRIAM AVENUE",
+      "bbl": "2025350010",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1430 MERRIAM AVENUE",
+      "bbl": "2025360007",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1411 OGDEN AVENUE",
+      "bbl": "2025360036",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "163 WEST 171 STREET",
+      "bbl": "2025360037",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1459 UNIVERSITY AVENUE",
+      "bbl": "2025370028",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1431 UNIVERSITY AVENUE",
+      "bbl": "2025370041",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SEDGWICK AVENUE",
+      "bbl": "2025380024",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "CROSS BRONX EXPWY",
+      "bbl": "2025420041",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "CROSS BRONX EXPWY",
+      "bbl": "2025420043",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "353 EAST 169 STREET",
+      "bbl": "2027820001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1316 FINDLAY AVENUE",
+      "bbl": "2027820013",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1360 FINDLAY AVENUE",
+      "bbl": "2027820035",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "TELLER AVENUE",
+      "bbl": "2027820055",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1329 TELLER AVENUE",
+      "bbl": "2027820058",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1325 TELLER AVENUE",
+      "bbl": "2027820060",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1291 CLAY AVENUE",
+      "bbl": "2027820147",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1342 COLLEGE AVENUE",
+      "bbl": "2027830020",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1366 COLLEGE AVENUE",
+      "bbl": "2027830028",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1368 COLLEGE AVENUE",
+      "bbl": "2027830029",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "314 EAST 170 STREET",
+      "bbl": "2027830041",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1364 COLLEGE AVENUE",
+      "bbl": "2027830102",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1370 COLLEGE AVENUE",
+      "bbl": "2027830103",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "301 EAST 170 STREET",
+      "bbl": "2027840001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1408 COLLEGE AVENUE",
+      "bbl": "2027840002",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1420 COLLEGE AVENUE",
+      "bbl": "2027840004",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "273 EAST 169 STREET",
+      "bbl": "2027850002",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1358 MORRIS AVENUE",
+      "bbl": "2027850029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1373 COLLEGE AVENUE",
+      "bbl": "2027850046",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1682 MORRIS AVENUE",
+      "bbl": "2027940035",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "GRANT AVENUE",
+      "bbl": "2028160030",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "250 EAST 170 STREET",
+      "bbl": "2028160032",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "268 EAST 170 STREET",
+      "bbl": "2028160037",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1365 MORRIS AVENUE",
+      "bbl": "2028160041",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1319 MORRIS AVENUE",
+      "bbl": "2028160062",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "240 EAST 172 STREET",
+      "bbl": "2028170002",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "170 MT EDEN PARKWAY",
+      "bbl": "2028190027",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "178 MT EDEN PARKWAY",
+      "bbl": "2028190029",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "MORRIS AVENUE",
+      "bbl": "2028200040",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1537 MORRIS AVENUE",
+      "bbl": "2028200047",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1515 MORRIS AVENUE",
+      "bbl": "2028200056",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1511 MORRIS AVENUE",
+      "bbl": "2028200058",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1509 MORRIS AVENUE",
+      "bbl": "2028200059",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1507 MORRIS AVENUE",
+      "bbl": "2028200060",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1505 MORRIS AVENUE",
+      "bbl": "2028200061",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1526 GRAND CONCOURSE",
+      "bbl": "2028210011",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1532 GRAND CONCOURSE",
+      "bbl": "2028210013",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WALTON AVENUE",
+      "bbl": "2028220001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "GRAND CONCOURSE",
+      "bbl": "2028220050",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "155 EAST 173 STREET",
+      "bbl": "2028240034",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "GRAND CONCOURSE",
+      "bbl": "2028250008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "MORRIS AVENUE",
+      "bbl": "2028250030",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "EAST 176 STREET",
+      "bbl": "2028260022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1340 SHERIDAN AVENUE",
+      "bbl": "2028300017",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1325 GRANT AVENUE",
+      "bbl": "2028300057",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1311 GRANT AVENUE",
+      "bbl": "2028300062",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1291 GRANT AVENUE",
+      "bbl": "2028300072",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment",
+        "pipeline_review_before_advancement"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "218 EAST 170 STREET",
+      "bbl": "2028310056",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "221 EAST 170 STREET",
+      "bbl": "2028320028",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "151 EAST 170 STREET",
+      "bbl": "2028330001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "GRAND CONCOURSE",
+      "bbl": "2028330025",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "165 EAST 170 STREET",
+      "bbl": "2028330035",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "161 EAST 170 STREET",
+      "bbl": "2028330037",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "159 EAST 170 STREET",
+      "bbl": "2028330038",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "EAST 170 STREET",
+      "bbl": "2028330045",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1510 WALTON AVENUE",
+      "bbl": "2028350006",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "105 ROCKWOOD STREET",
+      "bbl": "2028360035",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1570 WALTON AVENUE",
+      "bbl": "2028370009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1574 WALTON AVENUE",
+      "bbl": "2028370011",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "101 EAST MT EDEN AVENUE",
+      "bbl": "2028380001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1290 GERARD AVENUE",
+      "bbl": "2028390001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1306 JEROME AVENUE",
+      "bbl": "2028390005",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1291 WALTON AVENUE",
+      "bbl": "2028390027",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "49 EAST 169 STREET",
+      "bbl": "2028390029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "31 EAST 169 STREET",
+      "bbl": "2028390033",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "103 EAST 169 STREET",
+      "bbl": "2028390087",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1320 JEROME AVENUE",
+      "bbl": "2028400001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1328 JEROME AVENUE",
+      "bbl": "2028400005",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "152 MARCY PLACE",
+      "bbl": "2028400065",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "2 EAST 170 STREET",
+      "bbl": "2028420006",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "28 EAST 170 STREET",
+      "bbl": "2028420010",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "32 EAST 170 STREET",
+      "bbl": "2028420013",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "46 EAST 170 STREET",
+      "bbl": "2028420015",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "54 EAST 170 STREET",
+      "bbl": "2028420018",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "90 EAST 170 STREET",
+      "bbl": "2028420042",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "110 EAST 170 STREET",
+      "bbl": "2028420047",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "126 EAST 170 STREET",
+      "bbl": "2028420051",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "140 EAST 170 STREET",
+      "bbl": "2028420055",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1426 TOWNSEND AVENUE",
+      "bbl": "2028430040",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "101 EAST 170 STREET",
+      "bbl": "2028430069",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "121 EAST 170 STREET",
+      "bbl": "2028430098",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1 EAST 170 STREET",
+      "bbl": "2028437501",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "occupancy_review_before_zero_homes_screen_advances"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1474 JEROME AVENUE",
+      "bbl": "2028440005",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "TOWNSEND AVENUE",
+      "bbl": "2028440048",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "EAST 172 STREET",
+      "bbl": "2028440054",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "JEROME AVENUE",
+      "bbl": "2028440116",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "JEROME AVENUE",
+      "bbl": "2028440117",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "50 EAST MT EDEN AVENUE",
+      "bbl": "2028450034",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "70 EAST MT EDEN AVENUE",
+      "bbl": "2028450040",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "66 EAST MT EDEN AVENUE",
+      "bbl": "2028450055",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WALTON AVENUE",
+      "bbl": "2028450061",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1504 JEROME AVENUE",
+      "bbl": "2028460001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "7 EAST 172 STREET",
+      "bbl": "2028460002",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "2 EAST MT EDEN AVENUE",
+      "bbl": "2028460032",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "3 EAST MT EDEN AVENUE",
+      "bbl": "2028470001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "JEROME AVENUE",
+      "bbl": "2028470008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "55 EAST MT EDEN AVENUE",
+      "bbl": "2028470035",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "51 EAST MT EDEN AVENUE",
+      "bbl": "2028470036",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1594 TOWNSEND AVENUE",
+      "bbl": "2028470041",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "50 EAST 174 STREET",
+      "bbl": "2028470049",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1650 JEROME AVENUE",
+      "bbl": "2028480001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1690 JEROME AVENUE",
+      "bbl": "2028480016",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1673 WALTON AVENUE",
+      "bbl": "2028480062",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1701 TOWNSEND AVENUE",
+      "bbl": "2028490040",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1735 WALTON AVENUE",
+      "bbl": "2028490068",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1748 JEROME AVENUE",
+      "bbl": "2028500001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "13 EAST 175 STREET",
+      "bbl": "2028500031",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "55 EAST 175 STREET",
+      "bbl": "2028500034",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1764 TOWNSEND AVENUE",
+      "bbl": "2028500038",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1237 JEROME AVENUE",
+      "bbl": "2028550001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1241 JEROME AVENUE",
+      "bbl": "2028550008",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1245 JEROME AVENUE",
+      "bbl": "2028550012",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1251 JEROME AVENUE",
+      "bbl": "2028550015",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1253 JEROME AVENUE",
+      "bbl": "2028550016",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1261 JEROME AVENUE",
+      "bbl": "2028550028",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1280 INWOOD AVENUE",
+      "bbl": "2028550042",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1275 JEROME AVENUE",
+      "bbl": "2028550045",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1271 JEROME AVENUE",
+      "bbl": "2028550065",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "21 EAST CLARKE PLACE",
+      "bbl": "2028560001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1342 INWOOD AVENUE",
+      "bbl": "2028560011",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1364 INWOOD AVENUE",
+      "bbl": "2028560019",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1363 JEROME AVENUE",
+      "bbl": "2028560020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1376 INWOOD AVENUE",
+      "bbl": "2028560023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "14 WEST 170 STREET",
+      "bbl": "2028560029",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1345 JEROME AVENUE",
+      "bbl": "2028560045",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1339 JEROME AVENUE",
+      "bbl": "2028560049",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1337 JEROME AVENUE",
+      "bbl": "2028560051",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "JEROME AVENUE",
+      "bbl": "2028560065",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1400 CROMWELL AVENUE",
+      "bbl": "2028570001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1446 CROMWELL AVENUE",
+      "bbl": "2028570021",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1448 CROMWELL AVENUE",
+      "bbl": "2028570022",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1447 INWOOD AVENUE",
+      "bbl": "2028570043",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "25 WEST 170 STREET",
+      "bbl": "2028570064",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1430 INWOOD AVENUE",
+      "bbl": "2028570071",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1405 PLAZA DRIVE",
+      "bbl": "2028570090",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1401 PLAZA DRIVE",
+      "bbl": "2028570094",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "JEROME AVENUE",
+      "bbl": "2028570095",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1477 MACOMBS ROAD",
+      "bbl": "2028577501",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "occupancy_review_before_zero_homes_screen_advances"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "10 WEST 172 STREET",
+      "bbl": "2028580009",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1481 JEROME AVENUE",
+      "bbl": "2028580015",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1477 JEROME AVENUE",
+      "bbl": "2028580019",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1465 JEROME AVENUE",
+      "bbl": "2028580023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1461 JEROME AVENUE",
+      "bbl": "2028580028",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1496 INWOOD AVENUE",
+      "bbl": "2028590004",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1522 INWOOD AVENUE",
+      "bbl": "2028590018",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "16 WEST MT EDEN AVENUE",
+      "bbl": "2028590041",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1509 JEROME AVENUE",
+      "bbl": "2028590077",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WEST 172 STREET",
+      "bbl": "2028590089",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 4.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "INWOOD AVENUE",
+      "bbl": "2028600001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "8 FEATHERBED LANE",
+      "bbl": "2028600020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1732 DAVIDSON AVENUE",
+      "bbl": "2028610063",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1747 JEROME AVENUE",
+      "bbl": "2028610079",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1330 CROMWELL AVENUE",
+      "bbl": "2028640020",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1337 INWOOD AVENUE",
+      "bbl": "2028640021",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1349 INWOOD AVENUE",
+      "bbl": "2028640025",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1366 CROMWELL AVENUE",
+      "bbl": "2028640027",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1376 CROMWELL AVENUE",
+      "bbl": "2028640035",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1307 INWOOD AVENUE",
+      "bbl": "2028640076",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1490 MACOMBS ROAD",
+      "bbl": "2028650001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1504 MACOMBS ROAD",
+      "bbl": "2028650015",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "MACOMBS ROAD",
+      "bbl": "2028650023",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "45 GOBLE PLACE",
+      "bbl": "2028650030",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "MACOMBS ROAD",
+      "bbl": "2028650042",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1543 INWOOD AVENUE",
+      "bbl": "2028650067",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1495 INWOOD AVENUE",
+      "bbl": "2028650088",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1600 MACOMBS ROAD",
+      "bbl": "2028650134",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "34 WEST 174 STREET",
+      "bbl": "2028650173",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1620 MACOMBS ROAD",
+      "bbl": "2028660001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "64 WEST 175 STREET",
+      "bbl": "2028660038",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "54 WEST 175 STREET",
+      "bbl": "2028660043",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "21 WEST 174 STREET",
+      "bbl": "2028670001",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1733 DAVIDSON AVENUE",
+      "bbl": "2028670041",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1729 DAVIDSON AVENUE",
+      "bbl": "2028670043",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1723 DAVIDSON AVENUE",
+      "bbl": "2028670046",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1240 EDWARD L GRANT HWY",
+      "bbl": "2028710002",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1302 EDWARD L. GRANT HIGHWAY",
+      "bbl": "2028710061",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1354 EDWARD L GRANT HWY",
+      "bbl": "2028710073",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1331 CROMWELL AVENUE",
+      "bbl": "2028710077",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "1355 CROMWELL AVENUE",
+      "bbl": "2028710085",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1361 CROMWELL AVENUE",
+      "bbl": "2028710094",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1347 CROMWELL AVENUE",
+      "bbl": "2028710110",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1345 CROMWELL AVENUE",
+      "bbl": "2028710112",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "CROMWELL AVENUE",
+      "bbl": "2028710126",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "rezoning_path"
+    },
+    {
+      "address": "CROMWELL AVENUE",
+      "bbl": "2028710133",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1340 EDWARD L GRANT HWY",
+      "bbl": "2028720046",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1388 JESUP AVENUE",
+      "bbl": "2028720050",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 7.52,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1401 CROMWELL AVENUE",
+      "bbl": "2028720082",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "35 WEST 170 STREET",
+      "bbl": "2028720086",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "47 WEST 170 STREET",
+      "bbl": "2028720092",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "49 WEST 170 STREET",
+      "bbl": "2028720093",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1480 SHAKESPEARE AVENUE",
+      "bbl": "2028720126",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "81 WEST 172 STREET",
+      "bbl": "2028720218",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1600 JESUP AVENUE",
+      "bbl": "2028720254",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1590 JESUP AVENUE",
+      "bbl": "2028720259",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "JESUP AVENUE",
+      "bbl": "2028720263",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "JESUP AVENUE",
+      "bbl": "2028720269",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1555 MACOMBS ROAD",
+      "bbl": "2028720342",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1595 MACOMBS ROAD",
+      "bbl": "2028720358",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "CROMWELL AVENUE",
+      "bbl": "2028720398",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "CROMWELL AVENUE",
+      "bbl": "2028720399",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "CROMWELL AVENUE",
+      "bbl": "2028720400",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1509 JESUP AVENUE",
+      "bbl": "2028720407",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1376 EDWARD L GRANT HWY",
+      "bbl": "2028730001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1440 NELSON AVENUE",
+      "bbl": "2028730027",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1498 NELSON AVENUE",
+      "bbl": "2028730085",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1508 NELSON AVENUE",
+      "bbl": "2028730087",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1535 SHAKESPEARE AVENUE",
+      "bbl": "2028730109",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1481 SHAKESPEARE AVENUE",
+      "bbl": "2028730126",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1475 SHAKESPEARE AVENUE",
+      "bbl": "2028730130",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "WEST 172 STREET",
+      "bbl": "2028730133",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "SHAKESPEARE AVENUE",
+      "bbl": "2028730165",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "NELSON AVENUE",
+      "bbl": "2028730185",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "PLIMPTON AVENUE",
+      "bbl": "2028740010",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 6.02,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1436 PLIMPTON AVENUE",
+      "bbl": "2028740023",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1440 PLIMPTON AVENUE",
+      "bbl": "2028740024",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "NELSON AVENUE",
+      "bbl": "2028740040",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1409 NELSON AVENUE",
+      "bbl": "2028740057",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "PLIMPTON AVENUE",
+      "bbl": "2028740063",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "132 FEATHERBED LANE",
+      "bbl": "2028740091",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "EDWARD L GRANT HWY",
+      "bbl": "2028740100",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "PLIMPTON AVENUE",
+      "bbl": "2028750067",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "108 WEST 174 STREET",
+      "bbl": "2028760008",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "69 FEATHERBED LANE",
+      "bbl": "2028760033",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "73 FEATHERBED LANE",
+      "bbl": "2028760035",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "75 FEATHERBED LANE",
+      "bbl": "2028760036",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "103 FEATHERBED LANE",
+      "bbl": "2028760045",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "105 FEATHERBED LANE",
+      "bbl": "2028760047",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "111 FEATHERBED LANE",
+      "bbl": "2028760049",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "115 FEATHERBED LANE",
+      "bbl": "2028760051",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "141 FEATHERBED LANE",
+      "bbl": "2028760060",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1586 UNIVERSITY AVENUE",
+      "bbl": "2028760064",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1676 NELSON AVENUE",
+      "bbl": "2028760162",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "87 WEST 174 STREET",
+      "bbl": "2028760203",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "1631 NELSON AVENUE",
+      "bbl": "2028760227",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2028770050",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2028780300",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNIVERSITY AVENUE",
+      "bbl": "2028780310",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "SEDGWICK AVENUE",
+      "bbl": "2028800001",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SEDGWICK AVENUE",
+      "bbl": "2028800007",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "UNDERCLIFF AVENUE",
+      "bbl": "2028800060",
+      "old_hold_reasons": [
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "SEDGWICK AVENUE",
+      "bbl": "2028800250",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "MAJOR DEEGAN EXPRESS",
+      "bbl": "2028840002",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    },
+    {
+      "address": "HARLEM RIVER TERRACE",
+      "bbl": "2028840009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "HARLEM RIVER TERRACE",
+      "bbl": "2028840022",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "outside_declared_lot_size_range",
+        "parkland_review_not_ordinary_redevelopment"
+      ],
+      "recorded_residential_far": 0.0,
+      "zoning_path": "special_or_unresolved_review"
+    },
+    {
+      "address": "1322 CLAY AVENUE",
+      "bbl": "2028870009",
+      "old_hold_reasons": [
+        "different_mission_public_or_institutional_review",
+        "insufficient_increment_under_declared_scenario",
+        "outside_declared_lot_size_range"
+      ],
+      "recorded_residential_far": 3.44,
+      "zoning_path": "housing_permitted_by_general_use_rule"
+    }
+  ],
+  "old_counts": {
+    "by_hold_reason": {
+      "different_mission_public_or_institutional_review": 198,
+      "existing_use_classification_missing": 13,
+      "insufficient_increment_under_declared_scenario": 1425,
+      "missing_numeric_inputs:lotarea,unitsres": 1,
+      "missing_numeric_inputs:unitsres": 1,
+      "occupancy_review_before_zero_homes_screen_advances": 9,
+      "outside_declared_lot_size_range": 598,
+      "parkland_review_not_ordinary_redevelopment": 43,
+      "pipeline_review_before_advancement": 5,
+      "recorded_homes_exceed_declared_screen": 1430
+    },
+    "held": 1833,
+    "inventory": 1921,
+    "screen_pool": 88,
+    "shortlist": 10
+  }
+}

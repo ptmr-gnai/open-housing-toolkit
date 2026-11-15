@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "meaning": "Recognized local prototype captures for RAW SOURCE import only. Their prior IR, outputs and implementation are not certified by the current runtime. Exact receipt/source hashes and current allowlisted query semantics must replay. No historical manifest is changed.",
+  "allowed_implementations": [
+    {
+      "src/housing_common/local_outputs.py": "82fc4fc56b36b55754acb3e2943c78cc789e8970f608b4d05352a2df9bd0340e",
+      "src/housing_common/packages.py": "8f4423508b62a254e55622cb6f9fdf7395bb1dd53adbb7cbcf1e43f6ca346705",
+      "src/housing_common/public_sources.py": "82fa2a2c596a372bbfb37c405296ac0c719fffd746d85a1ccf55dbafe099804a",
+      "src/housing_common/site_inputs.py": "420f6de7f8437213a9e48a2815473a16c57661a954a3626ba4bc9402dc4274a9",
+      "src/housing_discovery/common.py": "d6152537e4837092503ef26d02f194abf71e5694012ce2c311688dcaf00ead87",
+      "src/housing_zoning_review/__init__.py": "057b1937281d94ff29ba7b16a408a3fe69ab83587dc2beb4a44fb35238496df1",
+      "src/housing_zoning_review/__main__.py": "deb28dc698bf7cfa7b77734bc6eb4318d2c8d5b9866dfedcbffd1fa0ff9990fd",
+      "src/housing_zoning_review/engine.py": "7e3500ed3355a47c1258f7f95a84469fe2c1787bdd205c00c7dd7ef7d7431e55"
+    }
+  ],
+  "captures": [
+    {
+      "name": "jerome",
+      "manifest_sha256": "44622bf12736973fdfbdcf3b82d2a69e070f9cfd069dfc1c58b2bf618e10c7b8"
+    },
+    {
+      "name": "hunts",
+      "manifest_sha256": "fe716f1b9187c51f17fde72dd1023277df3c20fb82b0697c84df5983a1aeca67"
+    }
+  ]
+}

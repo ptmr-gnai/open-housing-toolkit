@@ -1,0 +1,940 @@
+{
+  "id" : "5843-jknb",
+  "name" : "Zoning",
+  "assetType" : "dataset",
+  "attribution" : "Office of Strategic Planning",
+  "averageRating" : 0,
+  "category" : "Economic & Neighborhood Development",
+  "createdAt" : 1630606789,
+  "description" : "The Zoning Map is part of the Unified Development Ordinance (UDO). The UDO codifies the land use policies of the Comprehensive Plan and Buffalo Green Code planning documents. It combines land use, subdivision, and public realm (e.g.; streets, parks, and sidewalks) standards into a single, user-friendly document.The Buffalo Green Code Unified Development Ordinance (UDO) and the Zoning Map divides the City of Buffalo into the following zones:\nA. Neighborhood Zones\nN-1D Downtown/Regional Hub\nN-1C Mixed-Use Core\nN-1S Secondary Employment Center\nN-2C Mixed-Use Center\nN-2E Mixed-Use Edge\nN-2R Residential\nN-3C Mixed-Use Center\nN-3E Mixed-Use Edge\nN-3R Residential\nN-4-30 Single-Family\nN-4-50 Single-Family\nN-DER Downtown Entertainment Review\nOverlay\nB. District Zones\nD-R Residential Campus\nD-M Medical Campus\nD-E Educational Campus\nD-S Strip Retail\nD-C Flex Commercial\nD-IL Light Industrial\nD-IH Heavy Industrial\nD-OS Square\nD-OG Green\nD-ON Natural\nC. Corridor Zones\nC-M Metro Rail\nC-R Rail\nC-W Waterfront",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "domainCName" : "data.buffalony.gov",
+  "downloadCount" : 367,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "USGOV_WORKS",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41897440,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1769657943,
+  "publicationGroup" : 18428646,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1788809587,
+  "rowsUpdatedBy" : "ft46-kupe",
+  "tableId" : 20246464,
+  "totalTimesRated" : 0,
+  "viewCount" : 7232,
+  "viewLastModified" : 1769657943,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1630608090,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 7318837,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1630608090,
+    "targetAudience" : "public",
+    "workflowId" : 2502,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1630608090,
+      "failureCount" : 0,
+      "startedAt" : 1630608090,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "dpt5-8y7u",
+      "displayName" : "asantora"
+    }
+  }, {
+    "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+    "state" : "unsubmittable",
+    "targetAudience" : "internal",
+    "workflowId" : 5251
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 625494710,
+    "name" : "PIN",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "pin",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222019,
+    "cachedContents" : {
+      "non_null" : "94411",
+      "largest" : "ALLEY",
+      "null" : "170",
+      "top" : [ {
+        "item" : "1402001223200002001000",
+        "count" : "7"
+      }, {
+        "item" : "1402000891300001001000",
+        "count" : "6"
+      }, {
+        "item" : "1402001100700002004100",
+        "count" : "6"
+      }, {
+        "item" : "140200ROAD",
+        "count" : "6"
+      }, {
+        "item" : "1402001111900002001200",
+        "count" : "6"
+      }, {
+        "item" : "1402001231000002031000",
+        "count" : "5"
+      }, {
+        "item" : "1402001117500001020000",
+        "count" : "4"
+      }, {
+        "item" : "1402001111800003003100",
+        "count" : "4"
+      }, {
+        "item" : "1402001111700016001100",
+        "count" : "4"
+      }, {
+        "item" : "1402000997600004010000",
+        "count" : "4"
+      }, {
+        "item" : "1402001221700001001000",
+        "count" : "4"
+      }, {
+        "item" : "1402001102700005019000",
+        "count" : "3"
+      }, {
+        "item" : "1402001125900003014000",
+        "count" : "3"
+      }, {
+        "item" : "1402001005500001005100",
+        "count" : "3"
+      }, {
+        "item" : "1402000994100001002000",
+        "count" : "3"
+      }, {
+        "item" : "1402001005500002014000",
+        "count" : "3"
+      }, {
+        "item" : "1402000890600003005100",
+        "count" : "3"
+      }, {
+        "item" : "1402000774400001005000",
+        "count" : "3"
+      }, {
+        "item" : "1402000884200001002130",
+        "count" : "3"
+      }, {
+        "item" : "1402000883400002018000",
+        "count" : "3"
+      } ],
+      "smallest" : "0784900007014000",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494711,
+    "name" : "SBL",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "sbl",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222020,
+    "cachedContents" : {
+      "non_null" : "93882",
+      "largest" : "88.42-2-4.2",
+      "null" : "699",
+      "top" : [ {
+        "item" : "1223200002001000",
+        "count" : "7"
+      }, {
+        "item" : "0891300001001000",
+        "count" : "6"
+      }, {
+        "item" : "1100700002004100",
+        "count" : "6"
+      }, {
+        "item" : "1111900002001200",
+        "count" : "6"
+      }, {
+        "item" : "1231000002031000",
+        "count" : "5"
+      }, {
+        "item" : "1117500001020000",
+        "count" : "4"
+      }, {
+        "item" : "1111700016001100",
+        "count" : "4"
+      }, {
+        "item" : "0997600004010000",
+        "count" : "4"
+      }, {
+        "item" : "1221700001001000",
+        "count" : "4"
+      }, {
+        "item" : "0883400002018000",
+        "count" : "3"
+      }, {
+        "item" : "1102700005019000",
+        "count" : "3"
+      }, {
+        "item" : "1111800003003100",
+        "count" : "3"
+      }, {
+        "item" : "1221200001002000",
+        "count" : "3"
+      }, {
+        "item" : "1005500002014000",
+        "count" : "3"
+      }, {
+        "item" : "1005500001005100",
+        "count" : "3"
+      }, {
+        "item" : "1017900005001300",
+        "count" : "3"
+      }, {
+        "item" : "0774400001005000",
+        "count" : "3"
+      }, {
+        "item" : "0897900004001000",
+        "count" : "3"
+      }, {
+        "item" : "0888100001001000",
+        "count" : "3"
+      }, {
+        "item" : "0884200001002130",
+        "count" : "3"
+      } ],
+      "smallest" : "0658100001001000",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494712,
+    "name" : "Address Number",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "hsenofr",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139222021,
+    "cachedContents" : {
+      "non_null" : "94066",
+      "largest" : "99999",
+      "null" : "515",
+      "top" : [ {
+        "item" : "25",
+        "count" : "534"
+      }, {
+        "item" : "20",
+        "count" : "503"
+      }, {
+        "item" : "15",
+        "count" : "495"
+      }, {
+        "item" : "18",
+        "count" : "485"
+      }, {
+        "item" : "19",
+        "count" : "480"
+      }, {
+        "item" : "35",
+        "count" : "477"
+      }, {
+        "item" : "24",
+        "count" : "477"
+      }, {
+        "item" : "31",
+        "count" : "468"
+      }, {
+        "item" : "41",
+        "count" : "465"
+      }, {
+        "item" : "21",
+        "count" : "465"
+      }, {
+        "item" : "45",
+        "count" : "464"
+      }, {
+        "item" : "26",
+        "count" : "459"
+      }, {
+        "item" : "22",
+        "count" : "455"
+      }, {
+        "item" : "33",
+        "count" : "453"
+      }, {
+        "item" : "30",
+        "count" : "451"
+      }, {
+        "item" : "27",
+        "count" : "444"
+      }, {
+        "item" : "40",
+        "count" : "444"
+      }, {
+        "item" : "32",
+        "count" : "440"
+      }, {
+        "item" : "17",
+        "count" : "434"
+      }, {
+        "item" : "34",
+        "count" : "431"
+      } ],
+      "smallest" : "0",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494713,
+    "name" : "Street",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "street",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222022,
+    "cachedContents" : {
+      "non_null" : "94142",
+      "largest" : "ZOLLARS",
+      "null" : "439",
+      "top" : [ {
+        "item" : "BAILEY",
+        "count" : "721"
+      }, {
+        "item" : "FILLMORE",
+        "count" : "632"
+      }, {
+        "item" : "NIAGARA",
+        "count" : "576"
+      }, {
+        "item" : "GENESEE",
+        "count" : "545"
+      }, {
+        "item" : "MAIN",
+        "count" : "536"
+      }, {
+        "item" : "SENECA",
+        "count" : "531"
+      }, {
+        "item" : "WEST",
+        "count" : "507"
+      }, {
+        "item" : "SOUTH PARK",
+        "count" : "503"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "486"
+      }, {
+        "item" : "CLINTON",
+        "count" : "458"
+      }, {
+        "item" : "DELAVAN EAST",
+        "count" : "442"
+      }, {
+        "item" : "HERTEL",
+        "count" : "441"
+      }, {
+        "item" : "ELMWOOD",
+        "count" : "426"
+      }, {
+        "item" : "SYCAMORE",
+        "count" : "426"
+      }, {
+        "item" : "AMHERST ST",
+        "count" : "404"
+      }, {
+        "item" : "FERRY EAST",
+        "count" : "393"
+      }, {
+        "item" : "KENSINGTON",
+        "count" : "393"
+      }, {
+        "item" : "JEFFERSON",
+        "count" : "388"
+      }, {
+        "item" : "GLENWOOD",
+        "count" : "366"
+      }, {
+        "item" : "WALDEN",
+        "count" : "354"
+      } ],
+      "smallest" : "0",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494714,
+    "name" : "Property Description",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "desc1",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222023,
+    "cachedContents" : {
+      "non_null" : "93621",
+      "largest" : "X 33.33 E Cable",
+      "null" : "960",
+      "top" : [ {
+        "item" : "West Cor Suffolk",
+        "count" : "53"
+      }, {
+        "item" : "East Cor Suffolk",
+        "count" : "44"
+      }, {
+        "item" : "South Cor Taunton",
+        "count" : "40"
+      }, {
+        "item" : "West Cor Orleans",
+        "count" : "33"
+      }, {
+        "item" : "South Cor Tacoma",
+        "count" : "31"
+      }, {
+        "item" : "East Cor Orleans",
+        "count" : "27"
+      }, {
+        "item" : "North Cor Tacoma",
+        "count" : "26"
+      }, {
+        "item" : "South Cor Delavan",
+        "count" : "26"
+      }, {
+        "item" : "West Cor Plymouth",
+        "count" : "24"
+      }, {
+        "item" : "South Cor Scajaquada",
+        "count" : "24"
+      }, {
+        "item" : "South Cor Casimir",
+        "count" : "23"
+      }, {
+        "item" : "West Cor West",
+        "count" : "23"
+      }, {
+        "item" : "North Cor Delavan",
+        "count" : "22"
+      }, {
+        "item" : "North Cor Casimir",
+        "count" : "22"
+      }, {
+        "item" : "East Cor West",
+        "count" : "21"
+      }, {
+        "item" : "North Cor Virginia",
+        "count" : "21"
+      }, {
+        "item" : "East Cor Michigan",
+        "count" : "21"
+      }, {
+        "item" : "East Cor Plymouth",
+        "count" : "21"
+      }, {
+        "item" : "East Cor Elmwood",
+        "count" : "21"
+      }, {
+        "item" : "South Cor Forest",
+        "count" : "21"
+      } ],
+      "smallest" : "0.13  NE Stockbridge",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494715,
+    "name" : "Acreage",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "acreage",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139222024,
+    "cachedContents" : {
+      "non_null" : "94393",
+      "largest" : "241.13176776903",
+      "null" : "188",
+      "top" : [ {
+        "item" : "0.06889083651",
+        "count" : "3"
+      }, {
+        "item" : "0.74477565577",
+        "count" : "2"
+      }, {
+        "item" : "0.00720619859",
+        "count" : "2"
+      }, {
+        "item" : "0.13985541356",
+        "count" : "2"
+      }, {
+        "item" : "0.17412430502",
+        "count" : "2"
+      }, {
+        "item" : "0.43236086537",
+        "count" : "2"
+      }, {
+        "item" : "0.06888951879",
+        "count" : "2"
+      }, {
+        "item" : "0.06889121051",
+        "count" : "2"
+      }, {
+        "item" : "0.10160335846",
+        "count" : "2"
+      }, {
+        "item" : "0.13314839787",
+        "count" : "2"
+      }, {
+        "item" : "0.15762347877",
+        "count" : "2"
+      }, {
+        "item" : "0.15763748094",
+        "count" : "2"
+      }, {
+        "item" : "0.18737656359",
+        "count" : "2"
+      }, {
+        "item" : "0.25384000151",
+        "count" : "2"
+      }, {
+        "item" : "0.08600535626",
+        "count" : "2"
+      }, {
+        "item" : "0.06786874902",
+        "count" : "2"
+      }, {
+        "item" : "0.06888996044",
+        "count" : "2"
+      }, {
+        "item" : "0.15455079342",
+        "count" : "2"
+      }, {
+        "item" : "0.09081193801",
+        "count" : "2"
+      }, {
+        "item" : "1.02286046196",
+        "count" : "2"
+      } ],
+      "smallest" : "0.00000697481",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494716,
+    "name" : "Zoning",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "gcode",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222026,
+    "cachedContents" : {
+      "non_null" : "94581",
+      "largest" : "N-4-50",
+      "null" : "0",
+      "top" : [ {
+        "item" : "N-3R",
+        "count" : "56354"
+      }, {
+        "item" : "N-2R",
+        "count" : "16027"
+      }, {
+        "item" : "N-4-30",
+        "count" : "7866"
+      }, {
+        "item" : "N-3E",
+        "count" : "3577"
+      }, {
+        "item" : "N-3C",
+        "count" : "1662"
+      }, {
+        "item" : "D-IL",
+        "count" : "1439"
+      }, {
+        "item" : "N-2E",
+        "count" : "1391"
+      }, {
+        "item" : "N-4-50",
+        "count" : "1320"
+      }, {
+        "item" : "N-2C",
+        "count" : "1204"
+      }, {
+        "item" : "N-1C",
+        "count" : "614"
+      }, {
+        "item" : "D-C",
+        "count" : "611"
+      }, {
+        "item" : "D-R",
+        "count" : "390"
+      }, {
+        "item" : "D-OG",
+        "count" : "375"
+      }, {
+        "item" : "N-1S",
+        "count" : "369"
+      }, {
+        "item" : "D-S",
+        "count" : "346"
+      }, {
+        "item" : "C-R",
+        "count" : "274"
+      }, {
+        "item" : "N-1D",
+        "count" : "218"
+      }, {
+        "item" : "D-IH",
+        "count" : "210"
+      }, {
+        "item" : "D-M",
+        "count" : "161"
+      }, {
+        "item" : "D-E",
+        "count" : "81"
+      } ],
+      "smallest" : "C-R",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494717,
+    "name" : "Previous Zoning",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "plctypfut3",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139222025,
+    "cachedContents" : {
+      "non_null" : "94581",
+      "largest" : "N-4-50",
+      "null" : "0",
+      "top" : [ {
+        "item" : "N-3R",
+        "count" : "56444"
+      }, {
+        "item" : "N-2R",
+        "count" : "16048"
+      }, {
+        "item" : "N-4-30",
+        "count" : "7898"
+      }, {
+        "item" : "N-3E",
+        "count" : "3503"
+      }, {
+        "item" : "N-3C",
+        "count" : "1657"
+      }, {
+        "item" : "D-IL",
+        "count" : "1405"
+      }, {
+        "item" : "N-2E",
+        "count" : "1368"
+      }, {
+        "item" : "N-4-50",
+        "count" : "1319"
+      }, {
+        "item" : "N-2C",
+        "count" : "1213"
+      }, {
+        "item" : "N-1C",
+        "count" : "613"
+      }, {
+        "item" : "D-C",
+        "count" : "597"
+      }, {
+        "item" : "D-OG",
+        "count" : "421"
+      }, {
+        "item" : "D-R",
+        "count" : "386"
+      }, {
+        "item" : "N-1S",
+        "count" : "366"
+      }, {
+        "item" : "D-S",
+        "count" : "347"
+      }, {
+        "item" : "C-R",
+        "count" : "282"
+      }, {
+        "item" : "D-IH",
+        "count" : "218"
+      }, {
+        "item" : "N-1D",
+        "count" : "218"
+      }, {
+        "item" : "D-M",
+        "count" : "119"
+      }, {
+        "item" : "D-E",
+        "count" : "66"
+      } ],
+      "smallest" : "C-R",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494718,
+    "name" : "OBJECTID",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "objectid",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139222018,
+    "cachedContents" : {
+      "non_null" : "94581",
+      "largest" : "197917",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      }, {
+        "item" : "6",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "11",
+        "count" : "1"
+      }, {
+        "item" : "12",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "15",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "20",
+        "count" : "1"
+      }, {
+        "item" : "21",
+        "count" : "1"
+      }, {
+        "item" : "22",
+        "count" : "1"
+      }, {
+        "item" : "1",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494719,
+    "name" : "Geometry",
+    "dataTypeName" : "multipolygon",
+    "description" : "",
+    "fieldName" : "the_geom",
+    "position" : 10,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 139222017,
+    "format" : { }
+  }, {
+    "id" : 625494720,
+    "name" : "PRINTKEY",
+    "dataTypeName" : "text",
+    "fieldName" : "printkey",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164912936,
+    "cachedContents" : {
+      "non_null" : "88998",
+      "largest" : "99.84-8-7",
+      "null" : "5583",
+      "top" : [ {
+        "item" : "110.07-2-4.1",
+        "count" : "6"
+      }, {
+        "item" : "111.19-2-1.2",
+        "count" : "6"
+      }, {
+        "item" : "123.10-2-31",
+        "count" : "5"
+      }, {
+        "item" : "99.76-4-10",
+        "count" : "4"
+      }, {
+        "item" : "88.34-2-18",
+        "count" : "3"
+      }, {
+        "item" : "77.44-1-5",
+        "count" : "3"
+      }, {
+        "item" : "88.42-1-2.13",
+        "count" : "3"
+      }, {
+        "item" : "122.28-1-15.11",
+        "count" : "3"
+      }, {
+        "item" : "123.79-6-1",
+        "count" : "3"
+      }, {
+        "item" : "111.51-3-5.1",
+        "count" : "2"
+      }, {
+        "item" : "111.18-3-1.1",
+        "count" : "2"
+      }, {
+        "item" : "111.13-9-1.1",
+        "count" : "2"
+      }, {
+        "item" : "111.33-7-36.15",
+        "count" : "2"
+      }, {
+        "item" : "111.50-5-24",
+        "count" : "2"
+      }, {
+        "item" : "111.58-3-23.1",
+        "count" : "2"
+      }, {
+        "item" : "110.07-1-1",
+        "count" : "2"
+      }, {
+        "item" : "101.21-5-1.1",
+        "count" : "2"
+      }, {
+        "item" : "101.79-5-1.11",
+        "count" : "2"
+      }, {
+        "item" : "100.61-5-12",
+        "count" : "2"
+      }, {
+        "item" : "100.57-3-60",
+        "count" : "2"
+      } ],
+      "smallest" : "100.16-1-1",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  }, {
+    "id" : 625494721,
+    "name" : "Corridor",
+    "dataTypeName" : "text",
+    "fieldName" : "corridor",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164912937,
+    "cachedContents" : {
+      "non_null" : "5138",
+      "largest" : "Waterfront",
+      "null" : "89443",
+      "top" : [ {
+        "item" : "Waterfront",
+        "count" : "4698"
+      }, {
+        "item" : "Metro",
+        "count" : "440"
+      } ],
+      "smallest" : "Metro",
+      "count" : "94581",
+      "cardinality" : "94581"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain U.S. Government",
+    "termsLink" : "https://www.usa.gov/government-works"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "Disclaimers" : {
+        "Legal Disclaimer" : "The use of the Open Data Buffalo website (data.buffalony.gov) for City of Buffalo, the municipal corporation, located in the state of New York, Erie County (“City of Buffalo”) shall not constitute or imply any warranty whatsoever, expressed or implied, in law or in equity, including but not limited to, any warranties in regards to the accuracy, adequacy, completeness, fitness, legality, reliability or usefulness of any data, information, products or services contained herein. The data, information, products or services contained on the Open Data Buffalo website (data.buffalony.gov) do not constitute and shall not be construed or implied, in any manner whatsoever, as containing the official records of the City of Buffalo. The City of Buffalo hereby disclaims any and all liability to any and all parties for any direct, indirect, implied, punitive, special, incidental or other consequential damages arising directly or indirectly from any use of the Open Data Buffalo website (data.buffalony.gov), including but not limited to, any and all damages arising from or related to the download, use, transmission, alteration, dissemination of data, information, products or services contained on or downloaded from the Open Data Buffalo website (data.buffalony.gov). "
+      },
+      "Dataset Information" : {
+        "Department" : "Office of Strategic Planning",
+        "Agency" : "City of Buffalo",
+        "Data Series Start Date" : "N/A",
+        "Automated" : "No",
+        "Source System" : "ArcGIS",
+        "Update Frequency" : "Rolling",
+        "Division" : "Planning & Zoning"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "h8kc-nhfe",
+    "displayName" : "Open Data Buffalo",
+    "profileImageUrlLarge" : "/api/users/h8kc-nhfe/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/h8kc-nhfe/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/h8kc-nhfe/profile_images/TINY",
+    "screenName" : "Open Data Buffalo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "h8kc-nhfe",
+    "displayName" : "Open Data Buffalo",
+    "profileImageUrlLarge" : "/api/users/h8kc-nhfe/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/h8kc-nhfe/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/h8kc-nhfe/profile_images/TINY",
+    "screenName" : "Open Data Buffalo",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "green code", "zoning", "planning", "map", "development", "unified development ordinance", "strategic planning" ],
+  "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

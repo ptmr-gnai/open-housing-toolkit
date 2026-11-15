@@ -1,0 +1,127 @@
+{
+  "counts": {
+    "hunts-auto": {
+      "by_hold_reason": {
+        "different_mission_public_or_institutional_review": 106,
+        "existing_use_classification_missing": 32,
+        "insufficient_increment_under_declared_scenario": 316,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 3,
+        "outside_declared_current_use_focus": 1138,
+        "outside_declared_lot_size_range": 277,
+        "parkland_review_not_ordinary_redevelopment": 2,
+        "pipeline_review_before_advancement": 3,
+        "recorded_homes_exceed_declared_screen": 685
+      },
+      "held": 1147,
+      "inventory": 1243,
+      "screen_pool": 96,
+      "shortlist": 10
+    },
+    "hunts-far6": {
+      "by_hold_reason": {
+        "different_mission_public_or_institutional_review": 106,
+        "existing_use_classification_missing": 32,
+        "insufficient_increment_under_declared_scenario": 316,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 3,
+        "outside_declared_lot_size_range": 277,
+        "parkland_review_not_ordinary_redevelopment": 2,
+        "pipeline_review_before_advancement": 3,
+        "recorded_homes_exceed_declared_screen": 685
+      },
+      "held": 837,
+      "inventory": 1243,
+      "screen_pool": 406,
+      "shortlist": 10
+    },
+    "jerome-auto": {
+      "by_hold_reason": {
+        "different_mission_public_or_institutional_review": 198,
+        "existing_use_classification_missing": 13,
+        "insufficient_increment_under_declared_scenario": 1425,
+        "missing_numeric_inputs:lotarea,unitsres": 1,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 9,
+        "outside_declared_current_use_focus": 1820,
+        "outside_declared_lot_size_range": 598,
+        "parkland_review_not_ordinary_redevelopment": 43,
+        "pipeline_review_before_advancement": 5,
+        "recorded_homes_exceed_declared_screen": 1430
+      },
+      "held": 1881,
+      "inventory": 1921,
+      "screen_pool": 40,
+      "shortlist": 10
+    },
+    "jerome-far6": {
+      "by_hold_reason": {
+        "different_mission_public_or_institutional_review": 198,
+        "existing_use_classification_missing": 13,
+        "insufficient_increment_under_declared_scenario": 1425,
+        "missing_numeric_inputs:lotarea,unitsres": 1,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 9,
+        "outside_declared_lot_size_range": 598,
+        "parkland_review_not_ordinary_redevelopment": 43,
+        "pipeline_review_before_advancement": 5,
+        "recorded_homes_exceed_declared_screen": 1430
+      },
+      "held": 1833,
+      "inventory": 1921,
+      "screen_pool": 88,
+      "shortlist": 10
+    },
+    "jerome-far8": {
+      "by_hold_reason": {
+        "different_mission_public_or_institutional_review": 198,
+        "existing_use_classification_missing": 13,
+        "insufficient_increment_under_declared_scenario": 351,
+        "missing_numeric_inputs:lotarea,unitsres": 1,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 9,
+        "outside_declared_lot_size_range": 598,
+        "parkland_review_not_ordinary_redevelopment": 43,
+        "pipeline_review_before_advancement": 5,
+        "recorded_homes_exceed_declared_screen": 1430
+      },
+      "held": 1728,
+      "inventory": 1921,
+      "screen_pool": 193,
+      "shortlist": 10
+    },
+    "jerome-public": {
+      "by_hold_reason": {
+        "existing_use_classification_missing": 13,
+        "insufficient_increment_under_declared_scenario": 1425,
+        "missing_numeric_inputs:lotarea,unitsres": 1,
+        "missing_numeric_inputs:unitsres": 1,
+        "occupancy_review_before_zero_homes_screen_advances": 9,
+        "outside_declared_lot_size_range": 598,
+        "outside_public_or_institutional_mission": 1723,
+        "parkland_review_not_ordinary_redevelopment": 43,
+        "pipeline_review_before_advancement": 5,
+        "recorded_homes_exceed_declared_screen": 1430
+      },
+      "held": 1870,
+      "inventory": 1921,
+      "screen_pool": 51,
+      "shortlist": 10
+    }
+  },
+  "date": "2026-11-09",
+  "deep_followups": {
+    "hunts": [
+      "2027630335"
+    ],
+    "jerome": [
+      "2028570015",
+      "2028720078"
+    ]
+  },
+  "interpretation": "Declared scenario-screen results, not viable-site or net-new-home estimates.",
+  "source_manifest_sha256": {
+    "hunts": "90d8d695127f852e3596f4691d8131e2c76f6acba21ac3da26ec115b5fa42047",
+    "jerome": "7ae53f2645943ea40fa7c32ba9305a9ce78a7c2deaf6d50d451bc088b03a8370"
+  }
+}

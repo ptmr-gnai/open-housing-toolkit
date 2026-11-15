@@ -1,0 +1,2044 @@
+[
+  {
+    "body_path": "imported/sources/0-hpd_registrations.json",
+    "bytes": 31692,
+    "http_status": 200,
+    "id": "0",
+    "imported_receipt_id": "0",
+    "params": null,
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:09.546380+00:00",
+    "sha256": "e4a2ef4ba014c385e1ca1a3d729d4ae2c63f1b68b87c0fbc65859acc734f3596",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/tesw-yqqr.json"
+  },
+  {
+    "body_path": "imported/sources/1-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "1",
+    "imported_receipt_id": "1",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2431 AND lot=20) OR (boroid=2 AND block=2439 AND lot=46) OR (boroid=2 AND block=2439 AND lot=61) OR (boroid=2 AND block=2450 AND lot=40) OR (boroid=2 AND block=2450 AND lot=42) OR (boroid=2 AND block=2453 AND lot=24) OR (boroid=2 AND block=2453 AND lot=65) OR (boroid=2 AND block=2463 AND lot=40) OR (boroid=2 AND block=2465 AND lot=50) OR (boroid=2 AND block=2466 AND lot=11) OR (boroid=2 AND block=2466 AND lot=19) OR (boroid=2 AND block=2466 AND lot=22) OR (boroid=2 AND block=2466 AND lot=26) OR (boroid=2 AND block=2479 AND lot=19) OR (boroid=2 AND block=2479 AND lot=24) OR (boroid=2 AND block=2480 AND lot=8) OR (boroid=2 AND block=2481 AND lot=23) OR (boroid=2 AND block=2488 AND lot=20) OR (boroid=2 AND block=2488 AND lot=23) OR (boroid=2 AND block=2488 AND lot=25) OR (boroid=2 AND block=2489 AND lot=1) OR (boroid=2 AND block=2489 AND lot=5) OR (boroid=2 AND block=2489 AND lot=6) OR (boroid=2 AND block=2489 AND lot=8) OR (boroid=2 AND block=2489 AND lot=11)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:09.992912+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2431+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2439+AND+lot%3D46%29+OR+%28boroid%3D2+AND+block%3D2439+AND+lot%3D61%29+OR+%28boroid%3D2+AND+block%3D2450+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2450+AND+lot%3D42%29+OR+%28boroid%3D2+AND+block%3D2453+AND+lot%3D24%29+OR+%28boroid%3D2+AND+block%3D2453+AND+lot%3D65%29+OR+%28boroid%3D2+AND+block%3D2463+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2465+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2466+AND+lot%3D11%29+OR+%28boroid%3D2+AND+block%3D2466+AND+lot%3D19%29+OR+%28boroid%3D2+AND+block%3D2466+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2466+AND+lot%3D26%29+OR+%28boroid%3D2+AND+block%3D2479+AND+lot%3D19%29+OR+%28boroid%3D2+AND+block%3D2479+AND+lot%3D24%29+OR+%28boroid%3D2+AND+block%3D2480+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2481+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2488+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2488+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2488+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D11%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/2-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "2",
+    "imported_receipt_id": "2",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2489 AND lot=14) OR (boroid=2 AND block=2489 AND lot=26) OR (boroid=2 AND block=2489 AND lot=27) OR (boroid=2 AND block=2489 AND lot=29) OR (boroid=2 AND block=2489 AND lot=30) OR (boroid=2 AND block=2489 AND lot=33) OR (boroid=2 AND block=2489 AND lot=60) OR (boroid=2 AND block=2489 AND lot=77) OR (boroid=2 AND block=2495 AND lot=100) OR (boroid=2 AND block=2496 AND lot=58) OR (boroid=2 AND block=2496 AND lot=64) OR (boroid=2 AND block=2505 AND lot=74) OR (boroid=2 AND block=2506 AND lot=1) OR (boroid=2 AND block=2506 AND lot=5) OR (boroid=2 AND block=2506 AND lot=40) OR (boroid=2 AND block=2506 AND lot=79) OR (boroid=2 AND block=2506 AND lot=87) OR (boroid=2 AND block=2506 AND lot=89) OR (boroid=2 AND block=2506 AND lot=91) OR (boroid=2 AND block=2506 AND lot=94) OR (boroid=2 AND block=2506 AND lot=129) OR (boroid=2 AND block=2509 AND lot=44) OR (boroid=2 AND block=2509 AND lot=50) OR (boroid=2 AND block=2509 AND lot=53) OR (boroid=2 AND block=2510 AND lot=27)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:11.187923+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2489+AND+lot%3D14%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D26%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D33%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2489+AND+lot%3D77%29+OR+%28boroid%3D2+AND+block%3D2495+AND+lot%3D100%29+OR+%28boroid%3D2+AND+block%3D2496+AND+lot%3D58%29+OR+%28boroid%3D2+AND+block%3D2496+AND+lot%3D64%29+OR+%28boroid%3D2+AND+block%3D2505+AND+lot%3D74%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D79%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D87%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D89%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D91%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D94%29+OR+%28boroid%3D2+AND+block%3D2506+AND+lot%3D129%29+OR+%28boroid%3D2+AND+block%3D2509+AND+lot%3D44%29+OR+%28boroid%3D2+AND+block%3D2509+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2509+AND+lot%3D53%29+OR+%28boroid%3D2+AND+block%3D2510+AND+lot%3D27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/3-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "3",
+    "imported_receipt_id": "3",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2510 AND lot=38) OR (boroid=2 AND block=2513 AND lot=7) OR (boroid=2 AND block=2513 AND lot=8) OR (boroid=2 AND block=2513 AND lot=9) OR (boroid=2 AND block=2513 AND lot=10) OR (boroid=2 AND block=2513 AND lot=29) OR (boroid=2 AND block=2513 AND lot=30) OR (boroid=2 AND block=2513 AND lot=31) OR (boroid=2 AND block=2513 AND lot=32) OR (boroid=2 AND block=2513 AND lot=38) OR (boroid=2 AND block=2513 AND lot=82) OR (boroid=2 AND block=2513 AND lot=84) OR (boroid=2 AND block=2513 AND lot=90) OR (boroid=2 AND block=2514 AND lot=8) OR (boroid=2 AND block=2514 AND lot=9) OR (boroid=2 AND block=2514 AND lot=40) OR (boroid=2 AND block=2514 AND lot=56) OR (boroid=2 AND block=2514 AND lot=60) OR (boroid=2 AND block=2514 AND lot=70) OR (boroid=2 AND block=2514 AND lot=72) OR (boroid=2 AND block=2514 AND lot=73) OR (boroid=2 AND block=2515 AND lot=1) OR (boroid=2 AND block=2515 AND lot=5) OR (boroid=2 AND block=2515 AND lot=18) OR (boroid=2 AND block=2515 AND lot=23)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:12.639526+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2510+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D7%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D10%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D31%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D32%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D82%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D84%29+OR+%28boroid%3D2+AND+block%3D2513+AND+lot%3D90%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D56%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D70%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D72%29+OR+%28boroid%3D2+AND+block%3D2514+AND+lot%3D73%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D18%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D23%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/4-hpd_registrations.json",
+    "bytes": 205,
+    "http_status": 200,
+    "id": "4",
+    "imported_receipt_id": "4",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2515 AND lot=25) OR (boroid=2 AND block=2515 AND lot=47) OR (boroid=2 AND block=2515 AND lot=49) OR (boroid=2 AND block=2515 AND lot=55) OR (boroid=2 AND block=2515 AND lot=57) OR (boroid=2 AND block=2515 AND lot=59) OR (boroid=2 AND block=2515 AND lot=138) OR (boroid=2 AND block=2516 AND lot=1) OR (boroid=2 AND block=2516 AND lot=3) OR (boroid=2 AND block=2516 AND lot=4) OR (boroid=2 AND block=2516 AND lot=9) OR (boroid=2 AND block=2516 AND lot=12) OR (boroid=2 AND block=2516 AND lot=13) OR (boroid=2 AND block=2516 AND lot=22) OR (boroid=2 AND block=2516 AND lot=23) OR (boroid=2 AND block=2516 AND lot=51) OR (boroid=2 AND block=2516 AND lot=61) OR (boroid=2 AND block=2516 AND lot=63) OR (boroid=2 AND block=2517 AND lot=1) OR (boroid=2 AND block=2517 AND lot=11) OR (boroid=2 AND block=2517 AND lot=12) OR (boroid=2 AND block=2517 AND lot=13) OR (boroid=2 AND block=2517 AND lot=20) OR (boroid=2 AND block=2517 AND lot=21) OR (boroid=2 AND block=2517 AND lot=26)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:14.155842+00:00",
+    "sha256": "d74b0511a17173666c3b6b0761e427f1dff565bc1459cadf507f92cae164b98c",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2515+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D47%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D49%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D55%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D57%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D59%29+OR+%28boroid%3D2+AND+block%3D2515+AND+lot%3D138%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D3%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D4%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D61%29+OR+%28boroid%3D2+AND+block%3D2516+AND+lot%3D63%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D11%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D26%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/5-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "5",
+    "imported_receipt_id": "5",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2517 AND lot=27) OR (boroid=2 AND block=2517 AND lot=100) OR (boroid=2 AND block=2518 AND lot=14) OR (boroid=2 AND block=2519 AND lot=25) OR (boroid=2 AND block=2520 AND lot=12) OR (boroid=2 AND block=2520 AND lot=19) OR (boroid=2 AND block=2520 AND lot=32) OR (boroid=2 AND block=2521 AND lot=15) OR (boroid=2 AND block=2521 AND lot=35) OR (boroid=2 AND block=2522 AND lot=20) OR (boroid=2 AND block=2522 AND lot=57) OR (boroid=2 AND block=2522 AND lot=68) OR (boroid=2 AND block=2522 AND lot=81) OR (boroid=2 AND block=2522 AND lot=105) OR (boroid=2 AND block=2522 AND lot=107) OR (boroid=2 AND block=2522 AND lot=115) OR (boroid=2 AND block=2522 AND lot=117) OR (boroid=2 AND block=2522 AND lot=122) OR (boroid=2 AND block=2528 AND lot=35) OR (boroid=2 AND block=2529 AND lot=1) OR (boroid=2 AND block=2529 AND lot=6) OR (boroid=2 AND block=2529 AND lot=81) OR (boroid=2 AND block=2530 AND lot=1) OR (boroid=2 AND block=2530 AND lot=25) OR (boroid=2 AND block=2530 AND lot=39)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:15.336868+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2517+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2517+AND+lot%3D100%29+OR+%28boroid%3D2+AND+block%3D2518+AND+lot%3D14%29+OR+%28boroid%3D2+AND+block%3D2519+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2520+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2520+AND+lot%3D19%29+OR+%28boroid%3D2+AND+block%3D2520+AND+lot%3D32%29+OR+%28boroid%3D2+AND+block%3D2521+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2521+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D57%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D68%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D81%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D105%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D107%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D115%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D117%29+OR+%28boroid%3D2+AND+block%3D2522+AND+lot%3D122%29+OR+%28boroid%3D2+AND+block%3D2528+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2529+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2529+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2529+AND+lot%3D81%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D39%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/6-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "6",
+    "imported_receipt_id": "6",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2530 AND lot=51) OR (boroid=2 AND block=2530 AND lot=64) OR (boroid=2 AND block=2530 AND lot=65) OR (boroid=2 AND block=2530 AND lot=66) OR (boroid=2 AND block=2531 AND lot=21) OR (boroid=2 AND block=2531 AND lot=29) OR (boroid=2 AND block=2531 AND lot=35) OR (boroid=2 AND block=2533 AND lot=1) OR (boroid=2 AND block=2533 AND lot=6) OR (boroid=2 AND block=2533 AND lot=7) OR (boroid=2 AND block=2533 AND lot=22) OR (boroid=2 AND block=2533 AND lot=72) OR (boroid=2 AND block=2533 AND lot=107) OR (boroid=2 AND block=2533 AND lot=111) OR (boroid=2 AND block=2533 AND lot=116) OR (boroid=2 AND block=2533 AND lot=118) OR (boroid=2 AND block=2533 AND lot=120) OR (boroid=2 AND block=2533 AND lot=150) OR (boroid=2 AND block=2534 AND lot=18) OR (boroid=2 AND block=2535 AND lot=10) OR (boroid=2 AND block=2535 AND lot=21) OR (boroid=2 AND block=2536 AND lot=7) OR (boroid=2 AND block=2536 AND lot=13) OR (boroid=2 AND block=2536 AND lot=36) OR (boroid=2 AND block=2536 AND lot=37)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:16.593470+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2530+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D64%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D65%29+OR+%28boroid%3D2+AND+block%3D2530+AND+lot%3D66%29+OR+%28boroid%3D2+AND+block%3D2531+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2531+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2531+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D7%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D72%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D107%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D111%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D116%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D118%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D120%29+OR+%28boroid%3D2+AND+block%3D2533+AND+lot%3D150%29+OR+%28boroid%3D2+AND+block%3D2534+AND+lot%3D18%29+OR+%28boroid%3D2+AND+block%3D2535+AND+lot%3D10%29+OR+%28boroid%3D2+AND+block%3D2535+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2536+AND+lot%3D7%29+OR+%28boroid%3D2+AND+block%3D2536+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2536+AND+lot%3D36%29+OR+%28boroid%3D2+AND+block%3D2536+AND+lot%3D37%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/7-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "7",
+    "imported_receipt_id": "7",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2537 AND lot=7) OR (boroid=2 AND block=2537 AND lot=28) OR (boroid=2 AND block=2537 AND lot=41) OR (boroid=2 AND block=2538 AND lot=24) OR (boroid=2 AND block=2542 AND lot=41) OR (boroid=2 AND block=2542 AND lot=43) OR (boroid=2 AND block=2782 AND lot=1) OR (boroid=2 AND block=2782 AND lot=13) OR (boroid=2 AND block=2782 AND lot=35) OR (boroid=2 AND block=2782 AND lot=55) OR (boroid=2 AND block=2782 AND lot=58) OR (boroid=2 AND block=2782 AND lot=60) OR (boroid=2 AND block=2782 AND lot=147) OR (boroid=2 AND block=2783 AND lot=20) OR (boroid=2 AND block=2783 AND lot=28) OR (boroid=2 AND block=2783 AND lot=29) OR (boroid=2 AND block=2783 AND lot=37) OR (boroid=2 AND block=2783 AND lot=41) OR (boroid=2 AND block=2783 AND lot=102) OR (boroid=2 AND block=2783 AND lot=103) OR (boroid=2 AND block=2784 AND lot=1) OR (boroid=2 AND block=2784 AND lot=2) OR (boroid=2 AND block=2784 AND lot=4) OR (boroid=2 AND block=2785 AND lot=2) OR (boroid=2 AND block=2785 AND lot=27)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:18.444128+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2537+AND+lot%3D7%29+OR+%28boroid%3D2+AND+block%3D2537+AND+lot%3D28%29+OR+%28boroid%3D2+AND+block%3D2537+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2538+AND+lot%3D24%29+OR+%28boroid%3D2+AND+block%3D2542+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2542+AND+lot%3D43%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D55%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D58%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2782+AND+lot%3D147%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D28%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D37%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D102%29+OR+%28boroid%3D2+AND+block%3D2783+AND+lot%3D103%29+OR+%28boroid%3D2+AND+block%3D2784+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2784+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2784+AND+lot%3D4%29+OR+%28boroid%3D2+AND+block%3D2785+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2785+AND+lot%3D27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/8-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "8",
+    "imported_receipt_id": "8",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2785 AND lot=29) OR (boroid=2 AND block=2785 AND lot=46) OR (boroid=2 AND block=2794 AND lot=35) OR (boroid=2 AND block=2816 AND lot=30) OR (boroid=2 AND block=2816 AND lot=32) OR (boroid=2 AND block=2816 AND lot=37) OR (boroid=2 AND block=2816 AND lot=41) OR (boroid=2 AND block=2816 AND lot=62) OR (boroid=2 AND block=2817 AND lot=2) OR (boroid=2 AND block=2819 AND lot=27) OR (boroid=2 AND block=2819 AND lot=29) OR (boroid=2 AND block=2820 AND lot=40) OR (boroid=2 AND block=2820 AND lot=47) OR (boroid=2 AND block=2820 AND lot=56) OR (boroid=2 AND block=2820 AND lot=58) OR (boroid=2 AND block=2820 AND lot=59) OR (boroid=2 AND block=2820 AND lot=60) OR (boroid=2 AND block=2820 AND lot=61) OR (boroid=2 AND block=2821 AND lot=11) OR (boroid=2 AND block=2821 AND lot=13) OR (boroid=2 AND block=2822 AND lot=1) OR (boroid=2 AND block=2822 AND lot=50) OR (boroid=2 AND block=2824 AND lot=34) OR (boroid=2 AND block=2825 AND lot=8) OR (boroid=2 AND block=2825 AND lot=30)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:19.404431+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2785+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2785+AND+lot%3D46%29+OR+%28boroid%3D2+AND+block%3D2794+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2816+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2816+AND+lot%3D32%29+OR+%28boroid%3D2+AND+block%3D2816+AND+lot%3D37%29+OR+%28boroid%3D2+AND+block%3D2816+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2816+AND+lot%3D62%29+OR+%28boroid%3D2+AND+block%3D2817+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2819+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2819+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D47%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D56%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D58%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D59%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2820+AND+lot%3D61%29+OR+%28boroid%3D2+AND+block%3D2821+AND+lot%3D11%29+OR+%28boroid%3D2+AND+block%3D2821+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2822+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2822+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2824+AND+lot%3D34%29+OR+%28boroid%3D2+AND+block%3D2825+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2825+AND+lot%3D30%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/9-hpd_registrations.json",
+    "bytes": 255,
+    "http_status": 200,
+    "id": "9",
+    "imported_receipt_id": "9",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2826 AND lot=22) OR (boroid=2 AND block=2830 AND lot=17) OR (boroid=2 AND block=2830 AND lot=35) OR (boroid=2 AND block=2830 AND lot=57) OR (boroid=2 AND block=2830 AND lot=62) OR (boroid=2 AND block=2830 AND lot=72) OR (boroid=2 AND block=2831 AND lot=56) OR (boroid=2 AND block=2832 AND lot=28) OR (boroid=2 AND block=2833 AND lot=1) OR (boroid=2 AND block=2833 AND lot=25) OR (boroid=2 AND block=2833 AND lot=35) OR (boroid=2 AND block=2833 AND lot=37) OR (boroid=2 AND block=2833 AND lot=38) OR (boroid=2 AND block=2833 AND lot=45) OR (boroid=2 AND block=2835 AND lot=6) OR (boroid=2 AND block=2836 AND lot=35) OR (boroid=2 AND block=2837 AND lot=9) OR (boroid=2 AND block=2837 AND lot=11) OR (boroid=2 AND block=2838 AND lot=1) OR (boroid=2 AND block=2839 AND lot=1) OR (boroid=2 AND block=2839 AND lot=5) OR (boroid=2 AND block=2839 AND lot=27) OR (boroid=2 AND block=2839 AND lot=29) OR (boroid=2 AND block=2839 AND lot=33) OR (boroid=2 AND block=2839 AND lot=87)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:19.998274+00:00",
+    "sha256": "92be772f333c413f35f6da5ac16352453a6cfa415e41202f3b158790b631f394",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2826+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2830+AND+lot%3D17%29+OR+%28boroid%3D2+AND+block%3D2830+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2830+AND+lot%3D57%29+OR+%28boroid%3D2+AND+block%3D2830+AND+lot%3D62%29+OR+%28boroid%3D2+AND+block%3D2830+AND+lot%3D72%29+OR+%28boroid%3D2+AND+block%3D2831+AND+lot%3D56%29+OR+%28boroid%3D2+AND+block%3D2832+AND+lot%3D28%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D37%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2833+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2835+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2836+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2837+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2837+AND+lot%3D11%29+OR+%28boroid%3D2+AND+block%3D2838+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D33%29+OR+%28boroid%3D2+AND+block%3D2839+AND+lot%3D87%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/10-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "10",
+    "imported_receipt_id": "10",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2840 AND lot=1) OR (boroid=2 AND block=2840 AND lot=5) OR (boroid=2 AND block=2840 AND lot=65) OR (boroid=2 AND block=2842 AND lot=6) OR (boroid=2 AND block=2842 AND lot=10) OR (boroid=2 AND block=2842 AND lot=13) OR (boroid=2 AND block=2842 AND lot=15) OR (boroid=2 AND block=2842 AND lot=18) OR (boroid=2 AND block=2842 AND lot=42) OR (boroid=2 AND block=2842 AND lot=47) OR (boroid=2 AND block=2842 AND lot=51) OR (boroid=2 AND block=2842 AND lot=55) OR (boroid=2 AND block=2843 AND lot=5) OR (boroid=2 AND block=2843 AND lot=12) OR (boroid=2 AND block=2843 AND lot=40) OR (boroid=2 AND block=2843 AND lot=69) OR (boroid=2 AND block=2843 AND lot=98) OR (boroid=2 AND block=2843 AND lot=7501) OR (boroid=2 AND block=2844 AND lot=1) OR (boroid=2 AND block=2844 AND lot=5) OR (boroid=2 AND block=2844 AND lot=9) OR (boroid=2 AND block=2844 AND lot=12) OR (boroid=2 AND block=2844 AND lot=48) OR (boroid=2 AND block=2844 AND lot=54) OR (boroid=2 AND block=2844 AND lot=116)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:22.243527+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2840+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2840+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2840+AND+lot%3D65%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D10%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D18%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D42%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D47%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2842+AND+lot%3D55%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D69%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D98%29+OR+%28boroid%3D2+AND+block%3D2843+AND+lot%3D7501%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D48%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D54%29+OR+%28boroid%3D2+AND+block%3D2844+AND+lot%3D116%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/11-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "11",
+    "imported_receipt_id": "11",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2844 AND lot=117) OR (boroid=2 AND block=2845 AND lot=34) OR (boroid=2 AND block=2845 AND lot=40) OR (boroid=2 AND block=2845 AND lot=55) OR (boroid=2 AND block=2845 AND lot=61) OR (boroid=2 AND block=2846 AND lot=1) OR (boroid=2 AND block=2846 AND lot=2) OR (boroid=2 AND block=2846 AND lot=4) OR (boroid=2 AND block=2846 AND lot=6) OR (boroid=2 AND block=2846 AND lot=21) OR (boroid=2 AND block=2846 AND lot=27) OR (boroid=2 AND block=2846 AND lot=32) OR (boroid=2 AND block=2847 AND lot=1) OR (boroid=2 AND block=2847 AND lot=5) OR (boroid=2 AND block=2847 AND lot=8) OR (boroid=2 AND block=2847 AND lot=35) OR (boroid=2 AND block=2847 AND lot=36) OR (boroid=2 AND block=2847 AND lot=41) OR (boroid=2 AND block=2847 AND lot=49) OR (boroid=2 AND block=2848 AND lot=1) OR (boroid=2 AND block=2848 AND lot=12) OR (boroid=2 AND block=2848 AND lot=16) OR (boroid=2 AND block=2848 AND lot=62) OR (boroid=2 AND block=2849 AND lot=1) OR (boroid=2 AND block=2849 AND lot=5)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:22.786606+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2844+AND+lot%3D117%29+OR+%28boroid%3D2+AND+block%3D2845+AND+lot%3D34%29+OR+%28boroid%3D2+AND+block%3D2845+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2845+AND+lot%3D55%29+OR+%28boroid%3D2+AND+block%3D2845+AND+lot%3D61%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D4%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D6%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2846+AND+lot%3D32%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D36%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2847+AND+lot%3D49%29+OR+%28boroid%3D2+AND+block%3D2848+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2848+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2848+AND+lot%3D16%29+OR+%28boroid%3D2+AND+block%3D2848+AND+lot%3D62%29+OR+%28boroid%3D2+AND+block%3D2849+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2849+AND+lot%3D5%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/12-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "12",
+    "imported_receipt_id": "12",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2849 AND lot=9) OR (boroid=2 AND block=2849 AND lot=13) OR (boroid=2 AND block=2849 AND lot=40) OR (boroid=2 AND block=2849 AND lot=68) OR (boroid=2 AND block=2850 AND lot=1) OR (boroid=2 AND block=2850 AND lot=31) OR (boroid=2 AND block=2850 AND lot=34) OR (boroid=2 AND block=2850 AND lot=38) OR (boroid=2 AND block=2855 AND lot=1) OR (boroid=2 AND block=2855 AND lot=8) OR (boroid=2 AND block=2855 AND lot=12) OR (boroid=2 AND block=2855 AND lot=15) OR (boroid=2 AND block=2855 AND lot=16) OR (boroid=2 AND block=2855 AND lot=28) OR (boroid=2 AND block=2855 AND lot=42) OR (boroid=2 AND block=2855 AND lot=45) OR (boroid=2 AND block=2855 AND lot=65) OR (boroid=2 AND block=2856 AND lot=1) OR (boroid=2 AND block=2856 AND lot=11) OR (boroid=2 AND block=2856 AND lot=19) OR (boroid=2 AND block=2856 AND lot=20) OR (boroid=2 AND block=2856 AND lot=23) OR (boroid=2 AND block=2856 AND lot=29) OR (boroid=2 AND block=2856 AND lot=45) OR (boroid=2 AND block=2856 AND lot=49)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:27.568213+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2849+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2849+AND+lot%3D13%29+OR+%28boroid%3D2+AND+block%3D2849+AND+lot%3D40%29+OR+%28boroid%3D2+AND+block%3D2849+AND+lot%3D68%29+OR+%28boroid%3D2+AND+block%3D2850+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2850+AND+lot%3D31%29+OR+%28boroid%3D2+AND+block%3D2850+AND+lot%3D34%29+OR+%28boroid%3D2+AND+block%3D2850+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D12%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D16%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D28%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D42%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2855+AND+lot%3D65%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D11%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D19%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D29%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D49%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/13-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "13",
+    "imported_receipt_id": "13",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2856 AND lot=51) OR (boroid=2 AND block=2856 AND lot=65) OR (boroid=2 AND block=2857 AND lot=1) OR (boroid=2 AND block=2857 AND lot=8) OR (boroid=2 AND block=2857 AND lot=15) OR (boroid=2 AND block=2857 AND lot=21) OR (boroid=2 AND block=2857 AND lot=22) OR (boroid=2 AND block=2857 AND lot=43) OR (boroid=2 AND block=2857 AND lot=45) OR (boroid=2 AND block=2857 AND lot=51) OR (boroid=2 AND block=2857 AND lot=64) OR (boroid=2 AND block=2857 AND lot=71) OR (boroid=2 AND block=2857 AND lot=90) OR (boroid=2 AND block=2857 AND lot=94) OR (boroid=2 AND block=2857 AND lot=95) OR (boroid=2 AND block=2857 AND lot=7501) OR (boroid=2 AND block=2858 AND lot=9) OR (boroid=2 AND block=2858 AND lot=15) OR (boroid=2 AND block=2858 AND lot=19) OR (boroid=2 AND block=2858 AND lot=23) OR (boroid=2 AND block=2858 AND lot=28) OR (boroid=2 AND block=2859 AND lot=4) OR (boroid=2 AND block=2859 AND lot=5) OR (boroid=2 AND block=2859 AND lot=8) OR (boroid=2 AND block=2859 AND lot=10)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:35.385465+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2856+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2856+AND+lot%3D65%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D43%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D64%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D71%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D90%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D94%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D95%29+OR+%28boroid%3D2+AND+block%3D2857+AND+lot%3D7501%29+OR+%28boroid%3D2+AND+block%3D2858+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2858+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2858+AND+lot%3D19%29+OR+%28boroid%3D2+AND+block%3D2858+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2858+AND+lot%3D28%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D4%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D10%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/14-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "14",
+    "imported_receipt_id": "14",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2859 AND lot=18) OR (boroid=2 AND block=2859 AND lot=26) OR (boroid=2 AND block=2859 AND lot=30) OR (boroid=2 AND block=2859 AND lot=38) OR (boroid=2 AND block=2859 AND lot=41) OR (boroid=2 AND block=2859 AND lot=44) OR (boroid=2 AND block=2859 AND lot=46) OR (boroid=2 AND block=2859 AND lot=50) OR (boroid=2 AND block=2859 AND lot=51) OR (boroid=2 AND block=2859 AND lot=77) OR (boroid=2 AND block=2859 AND lot=89) OR (boroid=2 AND block=2860 AND lot=1) OR (boroid=2 AND block=2860 AND lot=20) OR (boroid=2 AND block=2860 AND lot=34) OR (boroid=2 AND block=2861 AND lot=1) OR (boroid=2 AND block=2861 AND lot=25) OR (boroid=2 AND block=2861 AND lot=30) OR (boroid=2 AND block=2861 AND lot=31) OR (boroid=2 AND block=2861 AND lot=32) OR (boroid=2 AND block=2861 AND lot=34) OR (boroid=2 AND block=2861 AND lot=39) OR (boroid=2 AND block=2861 AND lot=63) OR (boroid=2 AND block=2861 AND lot=79) OR (boroid=2 AND block=2861 AND lot=80) OR (boroid=2 AND block=2861 AND lot=91)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:36.002076+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2859+AND+lot%3D18%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D26%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D44%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D46%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D77%29+OR+%28boroid%3D2+AND+block%3D2859+AND+lot%3D89%29+OR+%28boroid%3D2+AND+block%3D2860+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2860+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2860+AND+lot%3D34%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D31%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D32%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D34%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D39%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D63%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D79%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D80%29+OR+%28boroid%3D2+AND+block%3D2861+AND+lot%3D91%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/15-hpd_registrations.json",
+    "bytes": 253,
+    "http_status": 200,
+    "id": "15",
+    "imported_receipt_id": "15",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2864 AND lot=1) OR (boroid=2 AND block=2864 AND lot=8) OR (boroid=2 AND block=2864 AND lot=20) OR (boroid=2 AND block=2864 AND lot=21) OR (boroid=2 AND block=2864 AND lot=25) OR (boroid=2 AND block=2864 AND lot=27) OR (boroid=2 AND block=2864 AND lot=35) OR (boroid=2 AND block=2864 AND lot=76) OR (boroid=2 AND block=2865 AND lot=1) OR (boroid=2 AND block=2865 AND lot=15) OR (boroid=2 AND block=2865 AND lot=23) OR (boroid=2 AND block=2865 AND lot=30) OR (boroid=2 AND block=2865 AND lot=42) OR (boroid=2 AND block=2865 AND lot=64) OR (boroid=2 AND block=2865 AND lot=67) OR (boroid=2 AND block=2865 AND lot=88) OR (boroid=2 AND block=2865 AND lot=134) OR (boroid=2 AND block=2865 AND lot=173) OR (boroid=2 AND block=2866 AND lot=1) OR (boroid=2 AND block=2866 AND lot=38) OR (boroid=2 AND block=2866 AND lot=43) OR (boroid=2 AND block=2867 AND lot=1) OR (boroid=2 AND block=2867 AND lot=41) OR (boroid=2 AND block=2867 AND lot=43) OR (boroid=2 AND block=2867 AND lot=46)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:37.297485+00:00",
+    "sha256": "094e6b822c6cdede074465b876b3a776fa8245c36cb4e23dae48202e6cc2b844",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2864+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D20%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D21%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D25%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2864+AND+lot%3D76%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D15%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D30%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D42%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D64%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D67%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D88%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D134%29+OR+%28boroid%3D2+AND+block%3D2865+AND+lot%3D173%29+OR+%28boroid%3D2+AND+block%3D2866+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2866+AND+lot%3D38%29+OR+%28boroid%3D2+AND+block%3D2866+AND+lot%3D43%29+OR+%28boroid%3D2+AND+block%3D2867+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2867+AND+lot%3D41%29+OR+%28boroid%3D2+AND+block%3D2867+AND+lot%3D43%29+OR+%28boroid%3D2+AND+block%3D2867+AND+lot%3D46%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/16-hpd_registrations.json",
+    "bytes": 255,
+    "http_status": 200,
+    "id": "16",
+    "imported_receipt_id": "16",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2871 AND lot=2) OR (boroid=2 AND block=2871 AND lot=61) OR (boroid=2 AND block=2871 AND lot=69) OR (boroid=2 AND block=2871 AND lot=73) OR (boroid=2 AND block=2871 AND lot=77) OR (boroid=2 AND block=2871 AND lot=85) OR (boroid=2 AND block=2871 AND lot=94) OR (boroid=2 AND block=2871 AND lot=110) OR (boroid=2 AND block=2871 AND lot=112) OR (boroid=2 AND block=2871 AND lot=126) OR (boroid=2 AND block=2871 AND lot=133) OR (boroid=2 AND block=2872 AND lot=46) OR (boroid=2 AND block=2872 AND lot=50) OR (boroid=2 AND block=2872 AND lot=74) OR (boroid=2 AND block=2872 AND lot=78) OR (boroid=2 AND block=2872 AND lot=82) OR (boroid=2 AND block=2872 AND lot=86) OR (boroid=2 AND block=2872 AND lot=92) OR (boroid=2 AND block=2872 AND lot=93) OR (boroid=2 AND block=2872 AND lot=126) OR (boroid=2 AND block=2872 AND lot=170) OR (boroid=2 AND block=2872 AND lot=179) OR (boroid=2 AND block=2872 AND lot=183) OR (boroid=2 AND block=2872 AND lot=218) OR (boroid=2 AND block=2872 AND lot=247)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:44.754614+00:00",
+    "sha256": "18741e036d3f632cb9646fa0a5f4cb3aaf78230c7a12bc57ee3c56d3385d9ae0",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2871+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D61%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D69%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D73%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D77%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D85%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D94%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D110%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D112%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D126%29+OR+%28boroid%3D2+AND+block%3D2871+AND+lot%3D133%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D46%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D74%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D78%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D82%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D86%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D92%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D93%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D126%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D170%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D179%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D183%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D218%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D247%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/17-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "17",
+    "imported_receipt_id": "17",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2872 AND lot=251) OR (boroid=2 AND block=2872 AND lot=254) OR (boroid=2 AND block=2872 AND lot=259) OR (boroid=2 AND block=2872 AND lot=263) OR (boroid=2 AND block=2872 AND lot=269) OR (boroid=2 AND block=2872 AND lot=342) OR (boroid=2 AND block=2872 AND lot=358) OR (boroid=2 AND block=2872 AND lot=398) OR (boroid=2 AND block=2872 AND lot=399) OR (boroid=2 AND block=2872 AND lot=400) OR (boroid=2 AND block=2872 AND lot=407) OR (boroid=2 AND block=2873 AND lot=1) OR (boroid=2 AND block=2873 AND lot=27) OR (boroid=2 AND block=2873 AND lot=85) OR (boroid=2 AND block=2873 AND lot=87) OR (boroid=2 AND block=2873 AND lot=109) OR (boroid=2 AND block=2873 AND lot=126) OR (boroid=2 AND block=2873 AND lot=130) OR (boroid=2 AND block=2873 AND lot=133) OR (boroid=2 AND block=2873 AND lot=165) OR (boroid=2 AND block=2873 AND lot=185) OR (boroid=2 AND block=2874 AND lot=10) OR (boroid=2 AND block=2874 AND lot=23) OR (boroid=2 AND block=2874 AND lot=24) OR (boroid=2 AND block=2874 AND lot=40)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:53.656456+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2872+AND+lot%3D251%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D254%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D259%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D263%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D269%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D342%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D358%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D398%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D399%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D400%29+OR+%28boroid%3D2+AND+block%3D2872+AND+lot%3D407%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D1%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D27%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D85%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D87%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D109%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D126%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D130%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D133%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D165%29+OR+%28boroid%3D2+AND+block%3D2873+AND+lot%3D185%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D10%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D23%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D24%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D40%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/18-hpd_registrations.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "18",
+    "imported_receipt_id": "18",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2874 AND lot=57) OR (boroid=2 AND block=2874 AND lot=63) OR (boroid=2 AND block=2874 AND lot=91) OR (boroid=2 AND block=2874 AND lot=93) OR (boroid=2 AND block=2874 AND lot=100) OR (boroid=2 AND block=2875 AND lot=45) OR (boroid=2 AND block=2875 AND lot=67) OR (boroid=2 AND block=2876 AND lot=5) OR (boroid=2 AND block=2876 AND lot=8) OR (boroid=2 AND block=2876 AND lot=33) OR (boroid=2 AND block=2876 AND lot=35) OR (boroid=2 AND block=2876 AND lot=36) OR (boroid=2 AND block=2876 AND lot=45) OR (boroid=2 AND block=2876 AND lot=47) OR (boroid=2 AND block=2876 AND lot=49) OR (boroid=2 AND block=2876 AND lot=51) OR (boroid=2 AND block=2876 AND lot=60) OR (boroid=2 AND block=2876 AND lot=64) OR (boroid=2 AND block=2876 AND lot=162) OR (boroid=2 AND block=2876 AND lot=203) OR (boroid=2 AND block=2876 AND lot=227) OR (boroid=2 AND block=2877 AND lot=50) OR (boroid=2 AND block=2878 AND lot=300) OR (boroid=2 AND block=2878 AND lot=310) OR (boroid=2 AND block=2880 AND lot=1)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:55.229348+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2874+AND+lot%3D57%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D63%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D91%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D93%29+OR+%28boroid%3D2+AND+block%3D2874+AND+lot%3D100%29+OR+%28boroid%3D2+AND+block%3D2875+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2875+AND+lot%3D67%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D5%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D8%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D33%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D35%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D36%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D45%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D47%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D49%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D51%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D64%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D162%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D203%29+OR+%28boroid%3D2+AND+block%3D2876+AND+lot%3D227%29+OR+%28boroid%3D2+AND+block%3D2877+AND+lot%3D50%29+OR+%28boroid%3D2+AND+block%3D2878+AND+lot%3D300%29+OR+%28boroid%3D2+AND+block%3D2878+AND+lot%3D310%29+OR+%28boroid%3D2+AND+block%3D2880+AND+lot%3D1%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/19-hpd_registrations.json",
+    "bytes": 250,
+    "http_status": 200,
+    "id": "19",
+    "imported_receipt_id": "19",
+    "params": {
+      "$limit": "2001",
+      "$select": "registrationid,buildingid,boroid,block,lot,bin,housenumber,streetname,lastregistrationdate,registrationenddate",
+      "$where": "(boroid=2 AND block=2880 AND lot=7) OR (boroid=2 AND block=2880 AND lot=60) OR (boroid=2 AND block=2880 AND lot=250) OR (boroid=2 AND block=2884 AND lot=2) OR (boroid=2 AND block=2884 AND lot=9) OR (boroid=2 AND block=2884 AND lot=22) OR (boroid=2 AND block=2887 AND lot=9)"
+    },
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:56.340724+00:00",
+    "sha256": "04089a6c29d07c00105cefe0edae2f18c0450681884ea9ba4e657bccf014e1e3",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/tesw-yqqr.json?%24select=registrationid%2Cbuildingid%2Cboroid%2Cblock%2Clot%2Cbin%2Chousenumber%2Cstreetname%2Clastregistrationdate%2Cregistrationenddate&%24where=%28boroid%3D2+AND+block%3D2880+AND+lot%3D7%29+OR+%28boroid%3D2+AND+block%3D2880+AND+lot%3D60%29+OR+%28boroid%3D2+AND+block%3D2880+AND+lot%3D250%29+OR+%28boroid%3D2+AND+block%3D2884+AND+lot%3D2%29+OR+%28boroid%3D2+AND+block%3D2884+AND+lot%3D9%29+OR+%28boroid%3D2+AND+block%3D2884+AND+lot%3D22%29+OR+%28boroid%3D2+AND+block%3D2887+AND+lot%3D9%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/20-hpd_registrations.json",
+    "bytes": 31692,
+    "http_status": 200,
+    "id": "20",
+    "imported_receipt_id": "20",
+    "params": null,
+    "provider": "hpd_registrations",
+    "retrieved_at": "2026-11-10T03:04:57.327059+00:00",
+    "sha256": "e4a2ef4ba014c385e1ca1a3d729d4ae2c63f1b68b87c0fbc65859acc734f3596",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/tesw-yqqr.json"
+  },
+  {
+    "body_path": "imported/sources/21-hpd_production.json",
+    "bytes": 75261,
+    "http_status": 200,
+    "id": "21",
+    "imported_receipt_id": "21",
+    "params": null,
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:04:57.878611+00:00",
+    "sha256": "5c0ce9dc6c36c5eec643c1f01de2576453f29c73e68e1bc77d2835e813a55d6d",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/hg8x-zxpr.json"
+  },
+  {
+    "body_path": "imported/sources/22-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "22",
+    "imported_receipt_id": "22",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2024310020,2024390046,2024390061,2024500040,2024500042,2024530024,2024530065,2024630040,2024650050,2024660011,2024660019,2024660022,2024660026,2024790019,2024790024,2024800008,2024810023,2024880020,2024880023,2024880025,2024890001,2024890005,2024890006,2024890008,2024890011)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:04:58.410455+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282024310020%2C2024390046%2C2024390061%2C2024500040%2C2024500042%2C2024530024%2C2024530065%2C2024630040%2C2024650050%2C2024660011%2C2024660019%2C2024660022%2C2024660026%2C2024790019%2C2024790024%2C2024800008%2C2024810023%2C2024880020%2C2024880023%2C2024880025%2C2024890001%2C2024890005%2C2024890006%2C2024890008%2C2024890011%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/23-hpd_production.json",
+    "bytes": 260,
+    "http_status": 200,
+    "id": "23",
+    "imported_receipt_id": "23",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2024890014,2024890026,2024890027,2024890029,2024890030,2024890033,2024890060,2024890077,2024950100,2024960058,2024960064,2025050074,2025060001,2025060005,2025060040,2025060079,2025060087,2025060089,2025060091,2025060094,2025060129,2025090044,2025090050,2025090053,2025100027)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:04:59.052469+00:00",
+    "sha256": "e6395be5c8429e7ee7d3937cbde2089470e3ca2964592bb651dd464af44b6e69",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282024890014%2C2024890026%2C2024890027%2C2024890029%2C2024890030%2C2024890033%2C2024890060%2C2024890077%2C2024950100%2C2024960058%2C2024960064%2C2025050074%2C2025060001%2C2025060005%2C2025060040%2C2025060079%2C2025060087%2C2025060089%2C2025060091%2C2025060094%2C2025060129%2C2025090044%2C2025090050%2C2025090053%2C2025100027%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/24-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "24",
+    "imported_receipt_id": "24",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2025100038,2025130007,2025130008,2025130009,2025130010,2025130029,2025130030,2025130031,2025130032,2025130038,2025130082,2025130084,2025130090,2025140008,2025140009,2025140040,2025140056,2025140060,2025140070,2025140072,2025140073,2025150001,2025150005,2025150018,2025150023)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:04:59.577492+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282025100038%2C2025130007%2C2025130008%2C2025130009%2C2025130010%2C2025130029%2C2025130030%2C2025130031%2C2025130032%2C2025130038%2C2025130082%2C2025130084%2C2025130090%2C2025140008%2C2025140009%2C2025140040%2C2025140056%2C2025140060%2C2025140070%2C2025140072%2C2025140073%2C2025150001%2C2025150005%2C2025150018%2C2025150023%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/25-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "25",
+    "imported_receipt_id": "25",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2025150025,2025150047,2025150049,2025150055,2025150057,2025150059,2025150138,2025160001,2025160003,2025160004,2025160009,2025160012,2025160013,2025160022,2025160023,2025160051,2025160061,2025160063,2025170001,2025170011,2025170012,2025170013,2025170020,2025170021,2025170026)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:02.763604+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282025150025%2C2025150047%2C2025150049%2C2025150055%2C2025150057%2C2025150059%2C2025150138%2C2025160001%2C2025160003%2C2025160004%2C2025160009%2C2025160012%2C2025160013%2C2025160022%2C2025160023%2C2025160051%2C2025160061%2C2025160063%2C2025170001%2C2025170011%2C2025170012%2C2025170013%2C2025170020%2C2025170021%2C2025170026%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/26-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "26",
+    "imported_receipt_id": "26",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2025170027,2025170100,2025180014,2025190025,2025200012,2025200019,2025200032,2025210015,2025210035,2025220020,2025220057,2025220068,2025220081,2025220105,2025220107,2025220115,2025220117,2025220122,2025280035,2025290001,2025290006,2025290081,2025300001,2025300025,2025300039)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:09.301687+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282025170027%2C2025170100%2C2025180014%2C2025190025%2C2025200012%2C2025200019%2C2025200032%2C2025210015%2C2025210035%2C2025220020%2C2025220057%2C2025220068%2C2025220081%2C2025220105%2C2025220107%2C2025220115%2C2025220117%2C2025220122%2C2025280035%2C2025290001%2C2025290006%2C2025290081%2C2025300001%2C2025300025%2C2025300039%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/27-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "27",
+    "imported_receipt_id": "27",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2025300051,2025300064,2025300065,2025300066,2025310021,2025310029,2025310035,2025330001,2025330006,2025330007,2025330022,2025330072,2025330107,2025330111,2025330116,2025330118,2025330120,2025330150,2025340018,2025350010,2025350021,2025360007,2025360013,2025360036,2025360037)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:11.811158+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282025300051%2C2025300064%2C2025300065%2C2025300066%2C2025310021%2C2025310029%2C2025310035%2C2025330001%2C2025330006%2C2025330007%2C2025330022%2C2025330072%2C2025330107%2C2025330111%2C2025330116%2C2025330118%2C2025330120%2C2025330150%2C2025340018%2C2025350010%2C2025350021%2C2025360007%2C2025360013%2C2025360036%2C2025360037%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/28-hpd_production.json",
+    "bytes": 262,
+    "http_status": 200,
+    "id": "28",
+    "imported_receipt_id": "28",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2025370007,2025370028,2025370041,2025380024,2025420041,2025420043,2027820001,2027820013,2027820035,2027820055,2027820058,2027820060,2027820147,2027830020,2027830028,2027830029,2027830037,2027830041,2027830102,2027830103,2027840001,2027840002,2027840004,2027850002,2027850027)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:15.233973+00:00",
+    "sha256": "53bd4c95a8c29d4f914194c8062c2ebdb58fcefd1a6574e42885072a1b621d5c",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282025370007%2C2025370028%2C2025370041%2C2025380024%2C2025420041%2C2025420043%2C2027820001%2C2027820013%2C2027820035%2C2027820055%2C2027820058%2C2027820060%2C2027820147%2C2027830020%2C2027830028%2C2027830029%2C2027830037%2C2027830041%2C2027830102%2C2027830103%2C2027840001%2C2027840002%2C2027840004%2C2027850002%2C2027850027%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/29-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "29",
+    "imported_receipt_id": "29",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2027850029,2027850046,2027940035,2028160030,2028160032,2028160037,2028160041,2028160062,2028170002,2028190027,2028190029,2028200040,2028200047,2028200056,2028200058,2028200059,2028200060,2028200061,2028210011,2028210013,2028220001,2028220050,2028240034,2028250008,2028250030)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:19.558020+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282027850029%2C2027850046%2C2027940035%2C2028160030%2C2028160032%2C2028160037%2C2028160041%2C2028160062%2C2028170002%2C2028190027%2C2028190029%2C2028200040%2C2028200047%2C2028200056%2C2028200058%2C2028200059%2C2028200060%2C2028200061%2C2028210011%2C2028210013%2C2028220001%2C2028220050%2C2028240034%2C2028250008%2C2028250030%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/30-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "30",
+    "imported_receipt_id": "30",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028260022,2028300017,2028300035,2028300057,2028300062,2028300072,2028310056,2028320028,2028330001,2028330025,2028330035,2028330037,2028330038,2028330045,2028350006,2028360035,2028370009,2028370011,2028380001,2028390001,2028390005,2028390027,2028390029,2028390033,2028390087)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:23.509298+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028260022%2C2028300017%2C2028300035%2C2028300057%2C2028300062%2C2028300072%2C2028310056%2C2028320028%2C2028330001%2C2028330025%2C2028330035%2C2028330037%2C2028330038%2C2028330045%2C2028350006%2C2028360035%2C2028370009%2C2028370011%2C2028380001%2C2028390001%2C2028390005%2C2028390027%2C2028390029%2C2028390033%2C2028390087%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/31-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "31",
+    "imported_receipt_id": "31",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028400001,2028400005,2028400065,2028420006,2028420010,2028420013,2028420015,2028420018,2028420042,2028420047,2028420051,2028420055,2028430005,2028430012,2028430040,2028430069,2028430098,2028437501,2028440001,2028440005,2028440009,2028440012,2028440048,2028440054,2028440116)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:25.886812+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028400001%2C2028400005%2C2028400065%2C2028420006%2C2028420010%2C2028420013%2C2028420015%2C2028420018%2C2028420042%2C2028420047%2C2028420051%2C2028420055%2C2028430005%2C2028430012%2C2028430040%2C2028430069%2C2028430098%2C2028437501%2C2028440001%2C2028440005%2C2028440009%2C2028440012%2C2028440048%2C2028440054%2C2028440116%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/32-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "32",
+    "imported_receipt_id": "32",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028440117,2028450034,2028450040,2028450055,2028450061,2028460001,2028460002,2028460004,2028460006,2028460021,2028460027,2028460032,2028470001,2028470005,2028470008,2028470035,2028470036,2028470041,2028470049,2028480001,2028480012,2028480016,2028480062,2028490001,2028490005)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:26.372097+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028440117%2C2028450034%2C2028450040%2C2028450055%2C2028450061%2C2028460001%2C2028460002%2C2028460004%2C2028460006%2C2028460021%2C2028460027%2C2028460032%2C2028470001%2C2028470005%2C2028470008%2C2028470035%2C2028470036%2C2028470041%2C2028470049%2C2028480001%2C2028480012%2C2028480016%2C2028480062%2C2028490001%2C2028490005%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/33-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "33",
+    "imported_receipt_id": "33",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028490009,2028490013,2028490040,2028490068,2028500001,2028500031,2028500034,2028500038,2028550001,2028550008,2028550012,2028550015,2028550016,2028550028,2028550042,2028550045,2028550065,2028560001,2028560011,2028560019,2028560020,2028560023,2028560029,2028560045,2028560049)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:26.809698+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028490009%2C2028490013%2C2028490040%2C2028490068%2C2028500001%2C2028500031%2C2028500034%2C2028500038%2C2028550001%2C2028550008%2C2028550012%2C2028550015%2C2028550016%2C2028550028%2C2028550042%2C2028550045%2C2028550065%2C2028560001%2C2028560011%2C2028560019%2C2028560020%2C2028560023%2C2028560029%2C2028560045%2C2028560049%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/34-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "34",
+    "imported_receipt_id": "34",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028560051,2028560065,2028570001,2028570008,2028570015,2028570021,2028570022,2028570043,2028570045,2028570051,2028570064,2028570071,2028570090,2028570094,2028570095,2028577501,2028580009,2028580015,2028580019,2028580023,2028580028,2028590004,2028590005,2028590008,2028590010)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:27.305535+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028560051%2C2028560065%2C2028570001%2C2028570008%2C2028570015%2C2028570021%2C2028570022%2C2028570043%2C2028570045%2C2028570051%2C2028570064%2C2028570071%2C2028570090%2C2028570094%2C2028570095%2C2028577501%2C2028580009%2C2028580015%2C2028580019%2C2028580023%2C2028580028%2C2028590004%2C2028590005%2C2028590008%2C2028590010%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/35-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "35",
+    "imported_receipt_id": "35",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028590018,2028590026,2028590030,2028590038,2028590041,2028590044,2028590046,2028590050,2028590051,2028590077,2028590089,2028600001,2028600020,2028600034,2028610001,2028610025,2028610030,2028610031,2028610032,2028610034,2028610039,2028610063,2028610079,2028610080,2028610091)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:30.864451+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028590018%2C2028590026%2C2028590030%2C2028590038%2C2028590041%2C2028590044%2C2028590046%2C2028590050%2C2028590051%2C2028590077%2C2028590089%2C2028600001%2C2028600020%2C2028600034%2C2028610001%2C2028610025%2C2028610030%2C2028610031%2C2028610032%2C2028610034%2C2028610039%2C2028610063%2C2028610079%2C2028610080%2C2028610091%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/36-hpd_production.json",
+    "bytes": 244,
+    "http_status": 200,
+    "id": "36",
+    "imported_receipt_id": "36",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028640001,2028640008,2028640020,2028640021,2028640025,2028640027,2028640035,2028640076,2028650001,2028650015,2028650023,2028650030,2028650042,2028650064,2028650067,2028650088,2028650134,2028650173,2028660001,2028660038,2028660043,2028670001,2028670041,2028670043,2028670046)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:37.501187+00:00",
+    "sha256": "bb3c9bbe75748b41010ff414b84b66d0c10fd6db786ad9a93198f17e7fb76d9f",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028640001%2C2028640008%2C2028640020%2C2028640021%2C2028640025%2C2028640027%2C2028640035%2C2028640076%2C2028650001%2C2028650015%2C2028650023%2C2028650030%2C2028650042%2C2028650064%2C2028650067%2C2028650088%2C2028650134%2C2028650173%2C2028660001%2C2028660038%2C2028660043%2C2028670001%2C2028670041%2C2028670043%2C2028670046%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/37-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "37",
+    "imported_receipt_id": "37",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028710002,2028710061,2028710069,2028710073,2028710077,2028710085,2028710094,2028710110,2028710112,2028710126,2028710133,2028720046,2028720050,2028720074,2028720078,2028720082,2028720086,2028720092,2028720093,2028720126,2028720170,2028720179,2028720183,2028720218,2028720247)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:39.358006+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028710002%2C2028710061%2C2028710069%2C2028710073%2C2028710077%2C2028710085%2C2028710094%2C2028710110%2C2028710112%2C2028710126%2C2028710133%2C2028720046%2C2028720050%2C2028720074%2C2028720078%2C2028720082%2C2028720086%2C2028720092%2C2028720093%2C2028720126%2C2028720170%2C2028720179%2C2028720183%2C2028720218%2C2028720247%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/38-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "38",
+    "imported_receipt_id": "38",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028720251,2028720254,2028720259,2028720263,2028720269,2028720342,2028720358,2028720398,2028720399,2028720400,2028720407,2028730001,2028730027,2028730085,2028730087,2028730109,2028730126,2028730130,2028730133,2028730165,2028730185,2028740010,2028740023,2028740024,2028740040)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:42.742985+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028720251%2C2028720254%2C2028720259%2C2028720263%2C2028720269%2C2028720342%2C2028720358%2C2028720398%2C2028720399%2C2028720400%2C2028720407%2C2028730001%2C2028730027%2C2028730085%2C2028730087%2C2028730109%2C2028730126%2C2028730130%2C2028730133%2C2028730165%2C2028730185%2C2028740010%2C2028740023%2C2028740024%2C2028740040%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/39-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "39",
+    "imported_receipt_id": "39",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028740057,2028740063,2028740091,2028740093,2028740100,2028750045,2028750067,2028760005,2028760008,2028760033,2028760035,2028760036,2028760045,2028760047,2028760049,2028760051,2028760060,2028760064,2028760162,2028760203,2028760227,2028770050,2028780300,2028780310,2028800001)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:48.514564+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028740057%2C2028740063%2C2028740091%2C2028740093%2C2028740100%2C2028750045%2C2028750067%2C2028760005%2C2028760008%2C2028760033%2C2028760035%2C2028760036%2C2028760045%2C2028760047%2C2028760049%2C2028760051%2C2028760060%2C2028760064%2C2028760162%2C2028760203%2C2028760227%2C2028770050%2C2028780300%2C2028780310%2C2028800001%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/40-hpd_production.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "40",
+    "imported_receipt_id": "40",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,project_id,project_name,building_id,project_start_date,project_completion_date,building_completion_date,reporting_construction_type,total_units,all_counted_units",
+      "$where": "bbl in (2028800007,2028800060,2028800250,2028840002,2028840009,2028840022,2028870009)"
+    },
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:52.357621+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/hg8x-zxpr.json?%24select=bbl%2Cproject_id%2Cproject_name%2Cbuilding_id%2Cproject_start_date%2Cproject_completion_date%2Cbuilding_completion_date%2Creporting_construction_type%2Ctotal_units%2Call_counted_units&%24where=bbl+in+%282028800007%2C2028800060%2C2028800250%2C2028840002%2C2028840009%2C2028840022%2C2028870009%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/41-hpd_production.json",
+    "bytes": 75261,
+    "http_status": 200,
+    "id": "41",
+    "imported_receipt_id": "41",
+    "params": null,
+    "provider": "hpd_production",
+    "retrieved_at": "2026-11-10T03:05:52.889697+00:00",
+    "sha256": "5c0ce9dc6c36c5eec643c1f01de2576453f29c73e68e1bc77d2835e813a55d6d",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/hg8x-zxpr.json"
+  },
+  {
+    "body_path": "imported/imported/sources/21-dob_now.json",
+    "bytes": 134152,
+    "http_status": 200,
+    "id": "42",
+    "imported_receipt_id": "42",
+    "params": null,
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:42.182379+00:00",
+    "sha256": "bf50c8a87d937e1adebd88f77ac24a79cf2e48a1aae235ca49a1376252e06312",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/w9ak-ipjd.json"
+  },
+  {
+    "body_path": "imported/imported/sources/22-dob_now.json",
+    "bytes": 64625,
+    "http_status": 200,
+    "id": "43",
+    "imported_receipt_id": "43",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2024310020','2024390046','2024390061','2024500040','2024500042','2024530024','2024530065','2024630040','2024650050','2024660011','2024660019','2024660022','2024660026','2024790019','2024790024','2024800008','2024810023','2024880020','2024880023','2024880025','2024890001','2024890005','2024890006','2024890008','2024890011')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:42.690595+00:00",
+    "sha256": "4301aaae73ec6b674c5cfe53cc981d72d549d24063afcd44b9de16955159072e",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272024310020%27%2C%272024390046%27%2C%272024390061%27%2C%272024500040%27%2C%272024500042%27%2C%272024530024%27%2C%272024530065%27%2C%272024630040%27%2C%272024650050%27%2C%272024660011%27%2C%272024660019%27%2C%272024660022%27%2C%272024660026%27%2C%272024790019%27%2C%272024790024%27%2C%272024800008%27%2C%272024810023%27%2C%272024880020%27%2C%272024880023%27%2C%272024880025%27%2C%272024890001%27%2C%272024890005%27%2C%272024890006%27%2C%272024890008%27%2C%272024890011%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/23-dob_now.json",
+    "bytes": 53233,
+    "http_status": 200,
+    "id": "44",
+    "imported_receipt_id": "44",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2024890014','2024890026','2024890027','2024890029','2024890030','2024890033','2024890060','2024890077','2024950100','2024960058','2024960064','2025050074','2025060001','2025060005','2025060040','2025060079','2025060087','2025060089','2025060091','2025060094','2025060129','2025090044','2025090050','2025090053','2025100027')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:43.348241+00:00",
+    "sha256": "708c5079f31b529349b56de9d4bdd58a9b6ec2553cac9c50b4de686d92a18dad",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272024890014%27%2C%272024890026%27%2C%272024890027%27%2C%272024890029%27%2C%272024890030%27%2C%272024890033%27%2C%272024890060%27%2C%272024890077%27%2C%272024950100%27%2C%272024960058%27%2C%272024960064%27%2C%272025050074%27%2C%272025060001%27%2C%272025060005%27%2C%272025060040%27%2C%272025060079%27%2C%272025060087%27%2C%272025060089%27%2C%272025060091%27%2C%272025060094%27%2C%272025060129%27%2C%272025090044%27%2C%272025090050%27%2C%272025090053%27%2C%272025100027%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/24-dob_now.json",
+    "bytes": 6368,
+    "http_status": 200,
+    "id": "45",
+    "imported_receipt_id": "45",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2025100038','2025130007','2025130008','2025130009','2025130010','2025130029','2025130030','2025130031','2025130032','2025130038','2025130082','2025130084','2025130090','2025140008','2025140009','2025140040','2025140056','2025140060','2025140070','2025140072','2025140073','2025150001','2025150005','2025150018','2025150023')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:46.067365+00:00",
+    "sha256": "3220c306ed2e91ad464ee926b6e7f8d3398201053305ed0d2083d0f123483521",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272025100038%27%2C%272025130007%27%2C%272025130008%27%2C%272025130009%27%2C%272025130010%27%2C%272025130029%27%2C%272025130030%27%2C%272025130031%27%2C%272025130032%27%2C%272025130038%27%2C%272025130082%27%2C%272025130084%27%2C%272025130090%27%2C%272025140008%27%2C%272025140009%27%2C%272025140040%27%2C%272025140056%27%2C%272025140060%27%2C%272025140070%27%2C%272025140072%27%2C%272025140073%27%2C%272025150001%27%2C%272025150005%27%2C%272025150018%27%2C%272025150023%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/25-dob_now.json",
+    "bytes": 15035,
+    "http_status": 200,
+    "id": "46",
+    "imported_receipt_id": "46",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2025150025','2025150047','2025150049','2025150055','2025150057','2025150059','2025150138','2025160001','2025160003','2025160004','2025160009','2025160012','2025160013','2025160022','2025160023','2025160051','2025160061','2025160063','2025170001','2025170011','2025170012','2025170013','2025170020','2025170021','2025170026')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:46.303164+00:00",
+    "sha256": "7c77dfa9104cb41826ceefe4b0a43a55356286d5f164c6de38142f9307ffe66c",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272025150025%27%2C%272025150047%27%2C%272025150049%27%2C%272025150055%27%2C%272025150057%27%2C%272025150059%27%2C%272025150138%27%2C%272025160001%27%2C%272025160003%27%2C%272025160004%27%2C%272025160009%27%2C%272025160012%27%2C%272025160013%27%2C%272025160022%27%2C%272025160023%27%2C%272025160051%27%2C%272025160061%27%2C%272025160063%27%2C%272025170001%27%2C%272025170011%27%2C%272025170012%27%2C%272025170013%27%2C%272025170020%27%2C%272025170021%27%2C%272025170026%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/26-dob_now.json",
+    "bytes": 15393,
+    "http_status": 200,
+    "id": "47",
+    "imported_receipt_id": "47",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2025170027','2025170100','2025180014','2025190025','2025200012','2025200019','2025200032','2025210015','2025210035','2025220020','2025220057','2025220068','2025220081','2025220105','2025220107','2025220115','2025220117','2025220122','2025280035','2025290001','2025290006','2025290081','2025300001','2025300025','2025300039')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:46.646548+00:00",
+    "sha256": "0e3a4b9cc2452d4f0df2b87a537dfb32242254a798d57a939f009e4b4a252dd9",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272025170027%27%2C%272025170100%27%2C%272025180014%27%2C%272025190025%27%2C%272025200012%27%2C%272025200019%27%2C%272025200032%27%2C%272025210015%27%2C%272025210035%27%2C%272025220020%27%2C%272025220057%27%2C%272025220068%27%2C%272025220081%27%2C%272025220105%27%2C%272025220107%27%2C%272025220115%27%2C%272025220117%27%2C%272025220122%27%2C%272025280035%27%2C%272025290001%27%2C%272025290006%27%2C%272025290081%27%2C%272025300001%27%2C%272025300025%27%2C%272025300039%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/27-dob_now.json",
+    "bytes": 1680,
+    "http_status": 200,
+    "id": "48",
+    "imported_receipt_id": "48",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2025300051','2025300064','2025300065','2025300066','2025310021','2025310029','2025310035','2025330001','2025330006','2025330007','2025330022','2025330072','2025330107','2025330111','2025330116','2025330118','2025330120','2025330150','2025340018','2025350010','2025350021','2025360007','2025360013','2025360036','2025360037')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:48.227388+00:00",
+    "sha256": "4dc14efda6503b2c1419ef0cbf87beb6fad06f8999b2ea8e3b714492d833da10",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272025300051%27%2C%272025300064%27%2C%272025300065%27%2C%272025300066%27%2C%272025310021%27%2C%272025310029%27%2C%272025310035%27%2C%272025330001%27%2C%272025330006%27%2C%272025330007%27%2C%272025330022%27%2C%272025330072%27%2C%272025330107%27%2C%272025330111%27%2C%272025330116%27%2C%272025330118%27%2C%272025330120%27%2C%272025330150%27%2C%272025340018%27%2C%272025350010%27%2C%272025350021%27%2C%272025360007%27%2C%272025360013%27%2C%272025360036%27%2C%272025360037%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/28-dob_now.json",
+    "bytes": 14238,
+    "http_status": 200,
+    "id": "49",
+    "imported_receipt_id": "49",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2025370007','2025370028','2025370041','2025380024','2025420041','2025420043','2027820001','2027820013','2027820035','2027820055','2027820058','2027820060','2027820147','2027830020','2027830028','2027830029','2027830037','2027830041','2027830102','2027830103','2027840001','2027840002','2027840004','2027850002','2027850027')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:49.852089+00:00",
+    "sha256": "136be46edbed5a8be2d05e7b8c7b8f30d9d91a44ce03cf770125c68eb96548c1",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272025370007%27%2C%272025370028%27%2C%272025370041%27%2C%272025380024%27%2C%272025420041%27%2C%272025420043%27%2C%272027820001%27%2C%272027820013%27%2C%272027820035%27%2C%272027820055%27%2C%272027820058%27%2C%272027820060%27%2C%272027820147%27%2C%272027830020%27%2C%272027830028%27%2C%272027830029%27%2C%272027830037%27%2C%272027830041%27%2C%272027830102%27%2C%272027830103%27%2C%272027840001%27%2C%272027840002%27%2C%272027840004%27%2C%272027850002%27%2C%272027850027%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/29-dob_now.json",
+    "bytes": 23977,
+    "http_status": 200,
+    "id": "50",
+    "imported_receipt_id": "50",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2027850029','2027850046','2027940035','2028160030','2028160032','2028160037','2028160041','2028160062','2028170002','2028190027','2028190029','2028200040','2028200047','2028200056','2028200058','2028200059','2028200060','2028200061','2028210011','2028210013','2028220001','2028220050','2028240034','2028250008','2028250030')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:50.164913+00:00",
+    "sha256": "5079a816cdb39978b6e556f829dad6c1dc9b1d9c452343bb531a212410f5208f",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272027850029%27%2C%272027850046%27%2C%272027940035%27%2C%272028160030%27%2C%272028160032%27%2C%272028160037%27%2C%272028160041%27%2C%272028160062%27%2C%272028170002%27%2C%272028190027%27%2C%272028190029%27%2C%272028200040%27%2C%272028200047%27%2C%272028200056%27%2C%272028200058%27%2C%272028200059%27%2C%272028200060%27%2C%272028200061%27%2C%272028210011%27%2C%272028210013%27%2C%272028220001%27%2C%272028220050%27%2C%272028240034%27%2C%272028250008%27%2C%272028250030%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/30-dob_now.json",
+    "bytes": 18372,
+    "http_status": 200,
+    "id": "51",
+    "imported_receipt_id": "51",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028260022','2028300017','2028300035','2028300057','2028300062','2028300072','2028310056','2028320028','2028330001','2028330025','2028330035','2028330037','2028330038','2028330045','2028350006','2028360035','2028370009','2028370011','2028380001','2028390001','2028390005','2028390027','2028390029','2028390033','2028390087')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:50.554693+00:00",
+    "sha256": "10aba77e2cb1d3d75e66d5d96a752c3281fa956980e43196ecfc0d07728199cd",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028260022%27%2C%272028300017%27%2C%272028300035%27%2C%272028300057%27%2C%272028300062%27%2C%272028300072%27%2C%272028310056%27%2C%272028320028%27%2C%272028330001%27%2C%272028330025%27%2C%272028330035%27%2C%272028330037%27%2C%272028330038%27%2C%272028330045%27%2C%272028350006%27%2C%272028360035%27%2C%272028370009%27%2C%272028370011%27%2C%272028380001%27%2C%272028390001%27%2C%272028390005%27%2C%272028390027%27%2C%272028390029%27%2C%272028390033%27%2C%272028390087%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/31-dob_now.json",
+    "bytes": 51242,
+    "http_status": 200,
+    "id": "52",
+    "imported_receipt_id": "52",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028400001','2028400005','2028400065','2028420006','2028420010','2028420013','2028420015','2028420018','2028420042','2028420047','2028420051','2028420055','2028430005','2028430012','2028430040','2028430069','2028430098','2028437501','2028440001','2028440005','2028440009','2028440012','2028440048','2028440054','2028440116')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:50.904612+00:00",
+    "sha256": "207ae7611022161864662d5f42f4bcc169b665c267ce0c2757d41c237d9c7550",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028400001%27%2C%272028400005%27%2C%272028400065%27%2C%272028420006%27%2C%272028420010%27%2C%272028420013%27%2C%272028420015%27%2C%272028420018%27%2C%272028420042%27%2C%272028420047%27%2C%272028420051%27%2C%272028420055%27%2C%272028430005%27%2C%272028430012%27%2C%272028430040%27%2C%272028430069%27%2C%272028430098%27%2C%272028437501%27%2C%272028440001%27%2C%272028440005%27%2C%272028440009%27%2C%272028440012%27%2C%272028440048%27%2C%272028440054%27%2C%272028440116%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/32-dob_now.json",
+    "bytes": 15766,
+    "http_status": 200,
+    "id": "53",
+    "imported_receipt_id": "53",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028440117','2028450034','2028450040','2028450055','2028450061','2028460001','2028460002','2028460004','2028460006','2028460021','2028460027','2028460032','2028470001','2028470005','2028470008','2028470035','2028470036','2028470041','2028470049','2028480001','2028480012','2028480016','2028480062','2028490001','2028490005')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:56.584890+00:00",
+    "sha256": "181ad054bffb1df344e1606f742b3c466dc74b8fc7d17daf9355d711b0d2d199",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028440117%27%2C%272028450034%27%2C%272028450040%27%2C%272028450055%27%2C%272028450061%27%2C%272028460001%27%2C%272028460002%27%2C%272028460004%27%2C%272028460006%27%2C%272028460021%27%2C%272028460027%27%2C%272028460032%27%2C%272028470001%27%2C%272028470005%27%2C%272028470008%27%2C%272028470035%27%2C%272028470036%27%2C%272028470041%27%2C%272028470049%27%2C%272028480001%27%2C%272028480012%27%2C%272028480016%27%2C%272028480062%27%2C%272028490001%27%2C%272028490005%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/33-dob_now.json",
+    "bytes": 48540,
+    "http_status": 200,
+    "id": "54",
+    "imported_receipt_id": "54",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028490009','2028490013','2028490040','2028490068','2028500001','2028500031','2028500034','2028500038','2028550001','2028550008','2028550012','2028550015','2028550016','2028550028','2028550042','2028550045','2028550065','2028560001','2028560011','2028560019','2028560020','2028560023','2028560029','2028560045','2028560049')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:57.287452+00:00",
+    "sha256": "d750de2280d865cd0429a0e9fc3cbea0940b552cef47fc6a16d2020b3153efdf",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028490009%27%2C%272028490013%27%2C%272028490040%27%2C%272028490068%27%2C%272028500001%27%2C%272028500031%27%2C%272028500034%27%2C%272028500038%27%2C%272028550001%27%2C%272028550008%27%2C%272028550012%27%2C%272028550015%27%2C%272028550016%27%2C%272028550028%27%2C%272028550042%27%2C%272028550045%27%2C%272028550065%27%2C%272028560001%27%2C%272028560011%27%2C%272028560019%27%2C%272028560020%27%2C%272028560023%27%2C%272028560029%27%2C%272028560045%27%2C%272028560049%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/34-dob_now.json",
+    "bytes": 46420,
+    "http_status": 200,
+    "id": "55",
+    "imported_receipt_id": "55",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028560051','2028560065','2028570001','2028570008','2028570015','2028570021','2028570022','2028570043','2028570045','2028570051','2028570064','2028570071','2028570090','2028570094','2028570095','2028577501','2028580009','2028580015','2028580019','2028580023','2028580028','2028590004','2028590005','2028590008','2028590010')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:57.687935+00:00",
+    "sha256": "8cce9d952917f31df282261744ea63b5b127f85e514e03ebd5ad64338ec6d1f1",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028560051%27%2C%272028560065%27%2C%272028570001%27%2C%272028570008%27%2C%272028570015%27%2C%272028570021%27%2C%272028570022%27%2C%272028570043%27%2C%272028570045%27%2C%272028570051%27%2C%272028570064%27%2C%272028570071%27%2C%272028570090%27%2C%272028570094%27%2C%272028570095%27%2C%272028577501%27%2C%272028580009%27%2C%272028580015%27%2C%272028580019%27%2C%272028580023%27%2C%272028580028%27%2C%272028590004%27%2C%272028590005%27%2C%272028590008%27%2C%272028590010%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/35-dob_now.json",
+    "bytes": 19055,
+    "http_status": 200,
+    "id": "56",
+    "imported_receipt_id": "56",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028590018','2028590026','2028590030','2028590038','2028590041','2028590044','2028590046','2028590050','2028590051','2028590077','2028590089','2028600001','2028600020','2028600034','2028610001','2028610025','2028610030','2028610031','2028610032','2028610034','2028610039','2028610063','2028610079','2028610080','2028610091')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:58.129008+00:00",
+    "sha256": "18566f79e71e63669c5fcf915a8994eac3a0beefd28f0864828e344207463b02",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028590018%27%2C%272028590026%27%2C%272028590030%27%2C%272028590038%27%2C%272028590041%27%2C%272028590044%27%2C%272028590046%27%2C%272028590050%27%2C%272028590051%27%2C%272028590077%27%2C%272028590089%27%2C%272028600001%27%2C%272028600020%27%2C%272028600034%27%2C%272028610001%27%2C%272028610025%27%2C%272028610030%27%2C%272028610031%27%2C%272028610032%27%2C%272028610034%27%2C%272028610039%27%2C%272028610063%27%2C%272028610079%27%2C%272028610080%27%2C%272028610091%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/36-dob_now.json",
+    "bytes": 72288,
+    "http_status": 200,
+    "id": "57",
+    "imported_receipt_id": "57",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028640001','2028640008','2028640020','2028640021','2028640025','2028640027','2028640035','2028640076','2028650001','2028650015','2028650023','2028650030','2028650042','2028650064','2028650067','2028650088','2028650134','2028650173','2028660001','2028660038','2028660043','2028670001','2028670041','2028670043','2028670046')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:58.423814+00:00",
+    "sha256": "38a642db0bb4cdff59f5232f91939d16a9fd6af9f169a393a7d1d35155590d9f",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028640001%27%2C%272028640008%27%2C%272028640020%27%2C%272028640021%27%2C%272028640025%27%2C%272028640027%27%2C%272028640035%27%2C%272028640076%27%2C%272028650001%27%2C%272028650015%27%2C%272028650023%27%2C%272028650030%27%2C%272028650042%27%2C%272028650064%27%2C%272028650067%27%2C%272028650088%27%2C%272028650134%27%2C%272028650173%27%2C%272028660001%27%2C%272028660038%27%2C%272028660043%27%2C%272028670001%27%2C%272028670041%27%2C%272028670043%27%2C%272028670046%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/37-dob_now.json",
+    "bytes": 24070,
+    "http_status": 200,
+    "id": "58",
+    "imported_receipt_id": "58",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028710002','2028710061','2028710069','2028710073','2028710077','2028710085','2028710094','2028710110','2028710112','2028710126','2028710133','2028720046','2028720050','2028720074','2028720078','2028720082','2028720086','2028720092','2028720093','2028720126','2028720170','2028720179','2028720183','2028720218','2028720247')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:59.151807+00:00",
+    "sha256": "6397e57c7c487706f7fa5bf5343214d6c398878e7e5cf5e3b186d37bfc51b0e7",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028710002%27%2C%272028710061%27%2C%272028710069%27%2C%272028710073%27%2C%272028710077%27%2C%272028710085%27%2C%272028710094%27%2C%272028710110%27%2C%272028710112%27%2C%272028710126%27%2C%272028710133%27%2C%272028720046%27%2C%272028720050%27%2C%272028720074%27%2C%272028720078%27%2C%272028720082%27%2C%272028720086%27%2C%272028720092%27%2C%272028720093%27%2C%272028720126%27%2C%272028720170%27%2C%272028720179%27%2C%272028720183%27%2C%272028720218%27%2C%272028720247%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/38-dob_now.json",
+    "bytes": 9570,
+    "http_status": 200,
+    "id": "59",
+    "imported_receipt_id": "59",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028720251','2028720254','2028720259','2028720263','2028720269','2028720342','2028720358','2028720398','2028720399','2028720400','2028720407','2028730001','2028730027','2028730085','2028730087','2028730109','2028730126','2028730130','2028730133','2028730165','2028730185','2028740010','2028740023','2028740024','2028740040')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:35:59.745115+00:00",
+    "sha256": "eab50258f6366f22bcb7f039c9f01abccbd57bee8c2f56f38332db1c18ea57ed",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028720251%27%2C%272028720254%27%2C%272028720259%27%2C%272028720263%27%2C%272028720269%27%2C%272028720342%27%2C%272028720358%27%2C%272028720398%27%2C%272028720399%27%2C%272028720400%27%2C%272028720407%27%2C%272028730001%27%2C%272028730027%27%2C%272028730085%27%2C%272028730087%27%2C%272028730109%27%2C%272028730126%27%2C%272028730130%27%2C%272028730133%27%2C%272028730165%27%2C%272028730185%27%2C%272028740010%27%2C%272028740023%27%2C%272028740024%27%2C%272028740040%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/39-dob_now.json",
+    "bytes": 12370,
+    "http_status": 200,
+    "id": "60",
+    "imported_receipt_id": "60",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028740057','2028740063','2028740091','2028740093','2028740100','2028750045','2028750067','2028760005','2028760008','2028760033','2028760035','2028760036','2028760045','2028760047','2028760049','2028760051','2028760060','2028760064','2028760162','2028760203','2028760227','2028770050','2028780300','2028780310','2028800001')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:36:00.125508+00:00",
+    "sha256": "b1c8176e1b7255563535691ccc1f4e20b866ea07132d8aee1c21e100e7b42a30",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028740057%27%2C%272028740063%27%2C%272028740091%27%2C%272028740093%27%2C%272028740100%27%2C%272028750045%27%2C%272028750067%27%2C%272028760005%27%2C%272028760008%27%2C%272028760033%27%2C%272028760035%27%2C%272028760036%27%2C%272028760045%27%2C%272028760047%27%2C%272028760049%27%2C%272028760051%27%2C%272028760060%27%2C%272028760064%27%2C%272028760162%27%2C%272028760203%27%2C%272028760227%27%2C%272028770050%27%2C%272028780300%27%2C%272028780310%27%2C%272028800001%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/40-dob_now.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "61",
+    "imported_receipt_id": "61",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job_filing_number",
+      "$select": "bbl,job_filing_number,job_type,filing_status,filing_date,current_status_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin,house_no,street_name",
+      "$where": "bbl in ('2028800007','2028800060','2028800250','2028840002','2028840009','2028840022','2028870009')"
+    },
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:36:00.540220+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24select=bbl%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin%2Chouse_no%2Cstreet_name&%24where=bbl+in+%28%272028800007%27%2C%272028800060%27%2C%272028800250%27%2C%272028840002%27%2C%272028840009%27%2C%272028840022%27%2C%272028870009%27%29&%24order=bbl%2Cjob_filing_number&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/41-dob_now.json",
+    "bytes": 134152,
+    "http_status": 200,
+    "id": "62",
+    "imported_receipt_id": "62",
+    "params": null,
+    "provider": "dob_now",
+    "retrieved_at": "2026-11-10T02:36:01.255690+00:00",
+    "sha256": "bf50c8a87d937e1adebd88f77ac24a79cf2e48a1aae235ca49a1376252e06312",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/w9ak-ipjd.json"
+  },
+  {
+    "body_path": "imported/sources/63-dob_bis.json",
+    "bytes": 142029,
+    "http_status": 200,
+    "id": "63",
+    "imported_receipt_id": "63",
+    "params": null,
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:05:53.980358+00:00",
+    "sha256": "3b44ff33463b6d2638216867fb5a4f09194df3c058dfa33b2de0d4e98ef1334e",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/ic3t-wcy2.json"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "64",
+    "imported_receipt_id": "64",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024310020','2024390046','2024390061','2024500040','2024500042','2024530024','2024530065','2024630040','2024650050','2024660011','2024660019','2024660022','2024660026','2024790019','2024790024','2024800008','2024810023','2024880020','2024880023','2024880025','2024890001','2024890005','2024890006','2024890008','2024890011')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:05:55.125445+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024310020%27%2C%272024390046%27%2C%272024390061%27%2C%272024500040%27%2C%272024500042%27%2C%272024530024%27%2C%272024530065%27%2C%272024630040%27%2C%272024650050%27%2C%272024660011%27%2C%272024660019%27%2C%272024660022%27%2C%272024660026%27%2C%272024790019%27%2C%272024790024%27%2C%272024800008%27%2C%272024810023%27%2C%272024880020%27%2C%272024880023%27%2C%272024880025%27%2C%272024890001%27%2C%272024890005%27%2C%272024890006%27%2C%272024890008%27%2C%272024890011%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "65",
+    "imported_receipt_id": "65",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024310020','2024390046','2024390061','2024500040','2024500042')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:06:06.107992+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024310020%27%2C%272024390046%27%2C%272024390061%27%2C%272024500040%27%2C%272024500042%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/66-dob_bis.json",
+    "bytes": 28776,
+    "http_status": 200,
+    "id": "66",
+    "imported_receipt_id": "66",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024530024','2024530065','2024630040','2024650050','2024660011')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:06:16.866065+00:00",
+    "sha256": "6c581ab551baa5c1ef46f506deea924febbc2a5a83a7949923f6b5fec2ce8baf",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024530024%27%2C%272024530065%27%2C%272024630040%27%2C%272024650050%27%2C%272024660011%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "67",
+    "imported_receipt_id": "67",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024660019','2024660022','2024660026','2024790019','2024790024')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:06:27.329830+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024660019%27%2C%272024660022%27%2C%272024660026%27%2C%272024790019%27%2C%272024790024%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "68",
+    "imported_receipt_id": "68",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024800008','2024810023','2024880020','2024880023','2024880025')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:06:44.807357+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024800008%27%2C%272024810023%27%2C%272024880020%27%2C%272024880023%27%2C%272024880025%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "69",
+    "imported_receipt_id": "69",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024890001','2024890005','2024890006','2024890008','2024890011')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:06:55.049893+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024890001%27%2C%272024890005%27%2C%272024890006%27%2C%272024890008%27%2C%272024890011%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "70",
+    "imported_receipt_id": "70",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024890014','2024890026','2024890027','2024890029','2024890030','2024890033','2024890060','2024890077','2024950100','2024960058','2024960064','2025050074','2025060001','2025060005','2025060040','2025060079','2025060087','2025060089','2025060091','2025060094','2025060129','2025090044','2025090050','2025090053','2025100027')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:07:05.403055+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024890014%27%2C%272024890026%27%2C%272024890027%27%2C%272024890029%27%2C%272024890030%27%2C%272024890033%27%2C%272024890060%27%2C%272024890077%27%2C%272024950100%27%2C%272024960058%27%2C%272024960064%27%2C%272025050074%27%2C%272025060001%27%2C%272025060005%27%2C%272025060040%27%2C%272025060079%27%2C%272025060087%27%2C%272025060089%27%2C%272025060091%27%2C%272025060094%27%2C%272025060129%27%2C%272025090044%27%2C%272025090050%27%2C%272025090053%27%2C%272025100027%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "71",
+    "imported_receipt_id": "71",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024890014','2024890026','2024890027','2024890029','2024890030')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:07:15.686149+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024890014%27%2C%272024890026%27%2C%272024890027%27%2C%272024890029%27%2C%272024890030%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "72",
+    "imported_receipt_id": "72",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024890033','2024890060','2024890077','2024950100','2024960058')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:07:34.261189+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024890033%27%2C%272024890060%27%2C%272024890077%27%2C%272024950100%27%2C%272024960058%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "73",
+    "imported_receipt_id": "73",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2024960064','2025050074','2025060001','2025060005','2025060040')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:07:44.535378+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272024960064%27%2C%272025050074%27%2C%272025060001%27%2C%272025060005%27%2C%272025060040%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "74",
+    "imported_receipt_id": "74",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025060079','2025060087','2025060089','2025060091','2025060094')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:07:54.804120+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025060079%27%2C%272025060087%27%2C%272025060089%27%2C%272025060091%27%2C%272025060094%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "75",
+    "imported_receipt_id": "75",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025060129','2025090044','2025090050','2025090053','2025100027')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:05.063385+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025060129%27%2C%272025090044%27%2C%272025090050%27%2C%272025090053%27%2C%272025100027%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "76",
+    "imported_receipt_id": "76",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025100038','2025130007','2025130008','2025130009','2025130010','2025130029','2025130030','2025130031','2025130032','2025130038','2025130082','2025130084','2025130090','2025140008','2025140009','2025140040','2025140056','2025140060','2025140070','2025140072','2025140073','2025150001','2025150005','2025150018','2025150023')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:15.388338+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025100038%27%2C%272025130007%27%2C%272025130008%27%2C%272025130009%27%2C%272025130010%27%2C%272025130029%27%2C%272025130030%27%2C%272025130031%27%2C%272025130032%27%2C%272025130038%27%2C%272025130082%27%2C%272025130084%27%2C%272025130090%27%2C%272025140008%27%2C%272025140009%27%2C%272025140040%27%2C%272025140056%27%2C%272025140060%27%2C%272025140070%27%2C%272025140072%27%2C%272025140073%27%2C%272025150001%27%2C%272025150005%27%2C%272025150018%27%2C%272025150023%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "77",
+    "imported_receipt_id": "77",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025100038','2025130007','2025130008','2025130009','2025130010')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:28.497694+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025100038%27%2C%272025130007%27%2C%272025130008%27%2C%272025130009%27%2C%272025130010%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "78",
+    "imported_receipt_id": "78",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025130029','2025130030','2025130031','2025130032','2025130038')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:38.785068+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025130029%27%2C%272025130030%27%2C%272025130031%27%2C%272025130032%27%2C%272025130038%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "79",
+    "imported_receipt_id": "79",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025130082','2025130084','2025130090','2025140008','2025140009')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:49.038093+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025130082%27%2C%272025130084%27%2C%272025130090%27%2C%272025140008%27%2C%272025140009%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "80",
+    "imported_receipt_id": "80",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025140040','2025140056','2025140060','2025140070','2025140072')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:08:59.395796+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025140040%27%2C%272025140056%27%2C%272025140060%27%2C%272025140070%27%2C%272025140072%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "81",
+    "imported_receipt_id": "81",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025140073','2025150001','2025150005','2025150018','2025150023')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:09:09.656604+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025140073%27%2C%272025150001%27%2C%272025150005%27%2C%272025150018%27%2C%272025150023%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/4-dob_bis.json",
+    "bytes": 35495,
+    "http_status": 200,
+    "id": "82",
+    "imported_receipt_id": "82",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025150025','2025150047','2025150049','2025150055','2025150057','2025150059','2025150138','2025160001','2025160003','2025160004','2025160009','2025160012','2025160013','2025160022','2025160023','2025160051','2025160061','2025160063','2025170001','2025170011','2025170012','2025170013','2025170020','2025170021','2025170026')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:31:39.558533+00:00",
+    "sha256": "a0d779f5cfddb88d7fef342c6a8e7b98367495e35c80c2b9805f9c16b9015742",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025150025%27%2C%272025150047%27%2C%272025150049%27%2C%272025150055%27%2C%272025150057%27%2C%272025150059%27%2C%272025150138%27%2C%272025160001%27%2C%272025160003%27%2C%272025160004%27%2C%272025160009%27%2C%272025160012%27%2C%272025160013%27%2C%272025160022%27%2C%272025160023%27%2C%272025160051%27%2C%272025160061%27%2C%272025160063%27%2C%272025170001%27%2C%272025170011%27%2C%272025170012%27%2C%272025170013%27%2C%272025170020%27%2C%272025170021%27%2C%272025170026%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/5-dob_bis.json",
+    "bytes": 53888,
+    "http_status": 200,
+    "id": "83",
+    "imported_receipt_id": "83",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025170027','2025170100','2025180014','2025190025','2025200012','2025200019','2025200032','2025210015','2025210035','2025220020','2025220057','2025220068','2025220081','2025220105','2025220107','2025220115','2025220117','2025220122','2025280035','2025290001','2025290006','2025290081','2025300001','2025300025','2025300039')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:31:41.347720+00:00",
+    "sha256": "7297c3c03c9d5ecb0c5b45511d82d64ee80737aab12597013abcc00a01f162a2",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025170027%27%2C%272025170100%27%2C%272025180014%27%2C%272025190025%27%2C%272025200012%27%2C%272025200019%27%2C%272025200032%27%2C%272025210015%27%2C%272025210035%27%2C%272025220020%27%2C%272025220057%27%2C%272025220068%27%2C%272025220081%27%2C%272025220105%27%2C%272025220107%27%2C%272025220115%27%2C%272025220117%27%2C%272025220122%27%2C%272025280035%27%2C%272025290001%27%2C%272025290006%27%2C%272025290081%27%2C%272025300001%27%2C%272025300025%27%2C%272025300039%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "84",
+    "imported_receipt_id": "84",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025300051','2025300064','2025300065','2025300066','2025310021','2025310029','2025310035','2025330001','2025330006','2025330007','2025330022','2025330072','2025330107','2025330111','2025330116','2025330118','2025330120','2025330150','2025340018','2025350010','2025350021','2025360007','2025360013','2025360036','2025360037')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:09:20.156049+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025300051%27%2C%272025300064%27%2C%272025300065%27%2C%272025300066%27%2C%272025310021%27%2C%272025310029%27%2C%272025310035%27%2C%272025330001%27%2C%272025330006%27%2C%272025330007%27%2C%272025330022%27%2C%272025330072%27%2C%272025330107%27%2C%272025330111%27%2C%272025330116%27%2C%272025330118%27%2C%272025330120%27%2C%272025330150%27%2C%272025340018%27%2C%272025350010%27%2C%272025350021%27%2C%272025360007%27%2C%272025360013%27%2C%272025360036%27%2C%272025360037%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "85",
+    "imported_receipt_id": "85",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025300051','2025300064','2025300065','2025300066','2025310021')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:09:34.418394+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025300051%27%2C%272025300064%27%2C%272025300065%27%2C%272025300066%27%2C%272025310021%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "86",
+    "imported_receipt_id": "86",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025310029','2025310035','2025330001','2025330006','2025330007')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:09:44.698241+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025310029%27%2C%272025310035%27%2C%272025330001%27%2C%272025330006%27%2C%272025330007%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "87",
+    "imported_receipt_id": "87",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025330022','2025330072','2025330107','2025330111','2025330116')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:09:55.577087+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025330022%27%2C%272025330072%27%2C%272025330107%27%2C%272025330111%27%2C%272025330116%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "88",
+    "imported_receipt_id": "88",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025330118','2025330120','2025330150','2025340018','2025350010')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:05.840051+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025330118%27%2C%272025330120%27%2C%272025330150%27%2C%272025340018%27%2C%272025350010%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "89",
+    "imported_receipt_id": "89",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025350021','2025360007','2025360013','2025360036','2025360037')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:17.791293+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025350021%27%2C%272025360007%27%2C%272025360013%27%2C%272025360036%27%2C%272025360037%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/7-dob_bis.json",
+    "bytes": 17817,
+    "http_status": 200,
+    "id": "90",
+    "imported_receipt_id": "90",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2025370007','2025370028','2025370041','2025380024','2025420041','2025420043','2027820001','2027820013','2027820035','2027820055','2027820058','2027820060','2027820147','2027830020','2027830028','2027830029','2027830037','2027830041','2027830102','2027830103','2027840001','2027840002','2027840004','2027850002','2027850027')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:32:13.238682+00:00",
+    "sha256": "2b92372afc58775c63ea4af31a28863cb39cc014c8bbab75ec0ba89501d671e2",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272025370007%27%2C%272025370028%27%2C%272025370041%27%2C%272025380024%27%2C%272025420041%27%2C%272025420043%27%2C%272027820001%27%2C%272027820013%27%2C%272027820035%27%2C%272027820055%27%2C%272027820058%27%2C%272027820060%27%2C%272027820147%27%2C%272027830020%27%2C%272027830028%27%2C%272027830029%27%2C%272027830037%27%2C%272027830041%27%2C%272027830102%27%2C%272027830103%27%2C%272027840001%27%2C%272027840002%27%2C%272027840004%27%2C%272027850002%27%2C%272027850027%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "91",
+    "imported_receipt_id": "91",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2027850029','2027850046','2027940035','2028160030','2028160032','2028160037','2028160041','2028160062','2028170002','2028190027','2028190029','2028200040','2028200047','2028200056','2028200058','2028200059','2028200060','2028200061','2028210011','2028210013','2028220001','2028220050','2028240034','2028250008','2028250030')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:28.172973+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272027850029%27%2C%272027850046%27%2C%272027940035%27%2C%272028160030%27%2C%272028160032%27%2C%272028160037%27%2C%272028160041%27%2C%272028160062%27%2C%272028170002%27%2C%272028190027%27%2C%272028190029%27%2C%272028200040%27%2C%272028200047%27%2C%272028200056%27%2C%272028200058%27%2C%272028200059%27%2C%272028200060%27%2C%272028200061%27%2C%272028210011%27%2C%272028210013%27%2C%272028220001%27%2C%272028220050%27%2C%272028240034%27%2C%272028250008%27%2C%272028250030%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "92",
+    "imported_receipt_id": "92",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2027850029','2027850046','2027940035','2028160030','2028160032')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:38.901796+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272027850029%27%2C%272027850046%27%2C%272027940035%27%2C%272028160030%27%2C%272028160032%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "93",
+    "imported_receipt_id": "93",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028160037','2028160041','2028160062','2028170002','2028190027')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:49.171379+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028160037%27%2C%272028160041%27%2C%272028160062%27%2C%272028170002%27%2C%272028190027%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "94",
+    "imported_receipt_id": "94",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028190029','2028200040','2028200047','2028200056','2028200058')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:10:59.626208+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028190029%27%2C%272028200040%27%2C%272028200047%27%2C%272028200056%27%2C%272028200058%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "95",
+    "imported_receipt_id": "95",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028200059','2028200060','2028200061','2028210011','2028210013')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:11:10.127035+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028200059%27%2C%272028200060%27%2C%272028200061%27%2C%272028210011%27%2C%272028210013%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "96",
+    "imported_receipt_id": "96",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028220001','2028220050','2028240034','2028250008','2028250030')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:11:20.530827+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028220001%27%2C%272028220050%27%2C%272028240034%27%2C%272028250008%27%2C%272028250030%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/9-dob_bis.json",
+    "bytes": 49064,
+    "http_status": 200,
+    "id": "97",
+    "imported_receipt_id": "97",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028260022','2028300017','2028300035','2028300057','2028300062','2028300072','2028310056','2028320028','2028330001','2028330025','2028330035','2028330037','2028330038','2028330045','2028350006','2028360035','2028370009','2028370011','2028380001','2028390001','2028390005','2028390027','2028390029','2028390033','2028390087')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:32:45.234236+00:00",
+    "sha256": "f908a77630fe1ff35786bf330df07d29c67fba472e8e7d7e828726ed5f45fdc4",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028260022%27%2C%272028300017%27%2C%272028300035%27%2C%272028300057%27%2C%272028300062%27%2C%272028300072%27%2C%272028310056%27%2C%272028320028%27%2C%272028330001%27%2C%272028330025%27%2C%272028330035%27%2C%272028330037%27%2C%272028330038%27%2C%272028330045%27%2C%272028350006%27%2C%272028360035%27%2C%272028370009%27%2C%272028370011%27%2C%272028380001%27%2C%272028390001%27%2C%272028390005%27%2C%272028390027%27%2C%272028390029%27%2C%272028390033%27%2C%272028390087%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/10-dob_bis.json",
+    "bytes": 93053,
+    "http_status": 200,
+    "id": "98",
+    "imported_receipt_id": "98",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028400001','2028400005','2028400065','2028420006','2028420010','2028420013','2028420015','2028420018','2028420042','2028420047','2028420051','2028420055','2028430005','2028430012','2028430040','2028430069','2028430098','2028437501','2028440001','2028440005','2028440009','2028440012','2028440048','2028440054','2028440116')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:32:46.875915+00:00",
+    "sha256": "5bc01831af433e5a95aea2a4996eef5c6efa66f252258076bb5350114ffce7dd",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028400001%27%2C%272028400005%27%2C%272028400065%27%2C%272028420006%27%2C%272028420010%27%2C%272028420013%27%2C%272028420015%27%2C%272028420018%27%2C%272028420042%27%2C%272028420047%27%2C%272028420051%27%2C%272028420055%27%2C%272028430005%27%2C%272028430012%27%2C%272028430040%27%2C%272028430069%27%2C%272028430098%27%2C%272028437501%27%2C%272028440001%27%2C%272028440005%27%2C%272028440009%27%2C%272028440012%27%2C%272028440048%27%2C%272028440054%27%2C%272028440116%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/11-dob_bis.json",
+    "bytes": 55792,
+    "http_status": 200,
+    "id": "99",
+    "imported_receipt_id": "99",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028440117','2028450034','2028450040','2028450055','2028450061','2028460001','2028460002','2028460004','2028460006','2028460021','2028460027','2028460032','2028470001','2028470005','2028470008','2028470035','2028470036','2028470041','2028470049','2028480001','2028480012','2028480016','2028480062','2028490001','2028490005')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:32:48.415155+00:00",
+    "sha256": "36c889061e703e166a7255c4a30bffeaefd0c61996d5a862282e1e0f1e89f26d",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028440117%27%2C%272028450034%27%2C%272028450040%27%2C%272028450055%27%2C%272028450061%27%2C%272028460001%27%2C%272028460002%27%2C%272028460004%27%2C%272028460006%27%2C%272028460021%27%2C%272028460027%27%2C%272028460032%27%2C%272028470001%27%2C%272028470005%27%2C%272028470008%27%2C%272028470035%27%2C%272028470036%27%2C%272028470041%27%2C%272028470049%27%2C%272028480001%27%2C%272028480012%27%2C%272028480016%27%2C%272028480062%27%2C%272028490001%27%2C%272028490005%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "100",
+    "imported_receipt_id": "100",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028490009','2028490013','2028490040','2028490068','2028500001','2028500031','2028500034','2028500038','2028550001','2028550008','2028550012','2028550015','2028550016','2028550028','2028550042','2028550045','2028550065','2028560001','2028560011','2028560019','2028560020','2028560023','2028560029','2028560045','2028560049')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:11:30.795522+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028490009%27%2C%272028490013%27%2C%272028490040%27%2C%272028490068%27%2C%272028500001%27%2C%272028500031%27%2C%272028500034%27%2C%272028500038%27%2C%272028550001%27%2C%272028550008%27%2C%272028550012%27%2C%272028550015%27%2C%272028550016%27%2C%272028550028%27%2C%272028550042%27%2C%272028550045%27%2C%272028550065%27%2C%272028560001%27%2C%272028560011%27%2C%272028560019%27%2C%272028560020%27%2C%272028560023%27%2C%272028560029%27%2C%272028560045%27%2C%272028560049%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "101",
+    "imported_receipt_id": "101",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028490009','2028490013','2028490040','2028490068','2028500001')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:11:41.081710+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028490009%27%2C%272028490013%27%2C%272028490040%27%2C%272028490068%27%2C%272028500001%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "102",
+    "imported_receipt_id": "102",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028500031','2028500034','2028500038','2028550001','2028550008')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:11:51.393793+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028500031%27%2C%272028500034%27%2C%272028500038%27%2C%272028550001%27%2C%272028550008%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "103",
+    "imported_receipt_id": "103",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028550012','2028550015','2028550016','2028550028','2028550042')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:01.652095+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028550012%27%2C%272028550015%27%2C%272028550016%27%2C%272028550028%27%2C%272028550042%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "104",
+    "imported_receipt_id": "104",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028550045','2028550065','2028560001','2028560011','2028560019')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:12.063525+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028550045%27%2C%272028550065%27%2C%272028560001%27%2C%272028560011%27%2C%272028560019%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "105",
+    "imported_receipt_id": "105",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028560020','2028560023','2028560029','2028560045','2028560049')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:22.575499+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028560020%27%2C%272028560023%27%2C%272028560029%27%2C%272028560045%27%2C%272028560049%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "106",
+    "imported_receipt_id": "106",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028560051','2028560065','2028570001','2028570008','2028570015','2028570021','2028570022','2028570043','2028570045','2028570051','2028570064','2028570071','2028570090','2028570094','2028570095','2028577501','2028580009','2028580015','2028580019','2028580023','2028580028','2028590004','2028590005','2028590008','2028590010')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:32.875819+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028560051%27%2C%272028560065%27%2C%272028570001%27%2C%272028570008%27%2C%272028570015%27%2C%272028570021%27%2C%272028570022%27%2C%272028570043%27%2C%272028570045%27%2C%272028570051%27%2C%272028570064%27%2C%272028570071%27%2C%272028570090%27%2C%272028570094%27%2C%272028570095%27%2C%272028577501%27%2C%272028580009%27%2C%272028580015%27%2C%272028580019%27%2C%272028580023%27%2C%272028580028%27%2C%272028590004%27%2C%272028590005%27%2C%272028590008%27%2C%272028590010%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "107",
+    "imported_receipt_id": "107",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028560051','2028560065','2028570001','2028570008','2028570015')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:43.160921+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028560051%27%2C%272028560065%27%2C%272028570001%27%2C%272028570008%27%2C%272028570015%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "108",
+    "imported_receipt_id": "108",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028570021','2028570022','2028570043','2028570045','2028570051')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:12:59.631806+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028570021%27%2C%272028570022%27%2C%272028570043%27%2C%272028570045%27%2C%272028570051%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "109",
+    "imported_receipt_id": "109",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028570064','2028570071','2028570090','2028570094','2028570095')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:09.899714+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028570064%27%2C%272028570071%27%2C%272028570090%27%2C%272028570094%27%2C%272028570095%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/110-dob_bis.json",
+    "bytes": 15580,
+    "http_status": 200,
+    "id": "110",
+    "imported_receipt_id": "110",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028577501','2028580009','2028580015','2028580019','2028580023')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:20.262257+00:00",
+    "sha256": "2d345f375a0a2e41a4ff4a8dbcddfd4de10828615a05ebba0f1f92a790cb62d0",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028577501%27%2C%272028580009%27%2C%272028580015%27%2C%272028580019%27%2C%272028580023%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "111",
+    "imported_receipt_id": "111",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028580028','2028590004','2028590005','2028590008','2028590010')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:29.046191+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028580028%27%2C%272028590004%27%2C%272028590005%27%2C%272028590008%27%2C%272028590010%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/112-dob_bis.json",
+    "bytes": 46654,
+    "http_status": 200,
+    "id": "112",
+    "imported_receipt_id": "112",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028590018','2028590026','2028590030','2028590038','2028590041','2028590044','2028590046','2028590050','2028590051','2028590077','2028590089','2028600001','2028600020','2028600034','2028610001','2028610025','2028610030','2028610031','2028610032','2028610034','2028610039','2028610063','2028610079','2028610080','2028610091')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:39.384997+00:00",
+    "sha256": "8c4068bdbf9a3d005a5e706cc503947153169131ab128dc63ed2de796da3eb71",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028590018%27%2C%272028590026%27%2C%272028590030%27%2C%272028590038%27%2C%272028590041%27%2C%272028590044%27%2C%272028590046%27%2C%272028590050%27%2C%272028590051%27%2C%272028590077%27%2C%272028590089%27%2C%272028600001%27%2C%272028600020%27%2C%272028600034%27%2C%272028610001%27%2C%272028610025%27%2C%272028610030%27%2C%272028610031%27%2C%272028610032%27%2C%272028610034%27%2C%272028610039%27%2C%272028610063%27%2C%272028610079%27%2C%272028610080%27%2C%272028610091%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/15-dob_bis.json",
+    "bytes": 62191,
+    "http_status": 200,
+    "id": "113",
+    "imported_receipt_id": "113",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028640001','2028640008','2028640020','2028640021','2028640025','2028640027','2028640035','2028640076','2028650001','2028650015','2028650023','2028650030','2028650042','2028650064','2028650067','2028650088','2028650134','2028650173','2028660001','2028660038','2028660043','2028670001','2028670041','2028670043','2028670046')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:34:28.040233+00:00",
+    "sha256": "1d771cd065fca0210060537c9c3a3a6f4f2346f1f354a4da26b1978f2a23d23f",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028640001%27%2C%272028640008%27%2C%272028640020%27%2C%272028640021%27%2C%272028640025%27%2C%272028640027%27%2C%272028640035%27%2C%272028640076%27%2C%272028650001%27%2C%272028650015%27%2C%272028650023%27%2C%272028650030%27%2C%272028650042%27%2C%272028650064%27%2C%272028650067%27%2C%272028650088%27%2C%272028650134%27%2C%272028650173%27%2C%272028660001%27%2C%272028660038%27%2C%272028660043%27%2C%272028670001%27%2C%272028670041%27%2C%272028670043%27%2C%272028670046%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "114",
+    "imported_receipt_id": "114",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028710002','2028710061','2028710069','2028710073','2028710077','2028710085','2028710094','2028710110','2028710112','2028710126','2028710133','2028720046','2028720050','2028720074','2028720078','2028720082','2028720086','2028720092','2028720093','2028720126','2028720170','2028720179','2028720183','2028720218','2028720247')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:49.507894+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028710002%27%2C%272028710061%27%2C%272028710069%27%2C%272028710073%27%2C%272028710077%27%2C%272028710085%27%2C%272028710094%27%2C%272028710110%27%2C%272028710112%27%2C%272028710126%27%2C%272028710133%27%2C%272028720046%27%2C%272028720050%27%2C%272028720074%27%2C%272028720078%27%2C%272028720082%27%2C%272028720086%27%2C%272028720092%27%2C%272028720093%27%2C%272028720126%27%2C%272028720170%27%2C%272028720179%27%2C%272028720183%27%2C%272028720218%27%2C%272028720247%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "115",
+    "imported_receipt_id": "115",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028710002','2028710061','2028710069','2028710073','2028710077')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:13:59.842808+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028710002%27%2C%272028710061%27%2C%272028710069%27%2C%272028710073%27%2C%272028710077%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/116-dob_bis.json",
+    "bytes": 9674,
+    "http_status": 200,
+    "id": "116",
+    "imported_receipt_id": "116",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028710085','2028710094','2028710110','2028710112','2028710126')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:10.150120+00:00",
+    "sha256": "96ecf62da632e1339752e275ba8077818fdf9d2372a94573e41ee76f9637fa1c",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028710085%27%2C%272028710094%27%2C%272028710110%27%2C%272028710112%27%2C%272028710126%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "117",
+    "imported_receipt_id": "117",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028710133','2028720046','2028720050','2028720074','2028720078')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:18.124901+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028710133%27%2C%272028720046%27%2C%272028720050%27%2C%272028720074%27%2C%272028720078%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/118-dob_bis.json",
+    "bytes": 8705,
+    "http_status": 200,
+    "id": "118",
+    "imported_receipt_id": "118",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720082','2028720086','2028720092','2028720093','2028720126')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:28.378819+00:00",
+    "sha256": "28ba27f5b6561f1016ba68c308e1281dd76e756eadca3a3609e145018889fe40",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720082%27%2C%272028720086%27%2C%272028720092%27%2C%272028720093%27%2C%272028720126%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/119-dob_bis.json",
+    "bytes": 8992,
+    "http_status": 200,
+    "id": "119",
+    "imported_receipt_id": "119",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720170','2028720179','2028720183','2028720218','2028720247')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:37.063347+00:00",
+    "sha256": "371fa06f6a2d2abcd9effdf29978f328bb81c245484fd5a6576920b4bd7ce784",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720170%27%2C%272028720179%27%2C%272028720183%27%2C%272028720218%27%2C%272028720247%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "120",
+    "imported_receipt_id": "120",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720251','2028720254','2028720259','2028720263','2028720269','2028720342','2028720358','2028720398','2028720399','2028720400','2028720407','2028730001','2028730027','2028730085','2028730087','2028730109','2028730126','2028730130','2028730133','2028730165','2028730185','2028740010','2028740023','2028740024','2028740040')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:45.258096+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720251%27%2C%272028720254%27%2C%272028720259%27%2C%272028720263%27%2C%272028720269%27%2C%272028720342%27%2C%272028720358%27%2C%272028720398%27%2C%272028720399%27%2C%272028720400%27%2C%272028720407%27%2C%272028730001%27%2C%272028730027%27%2C%272028730085%27%2C%272028730087%27%2C%272028730109%27%2C%272028730126%27%2C%272028730130%27%2C%272028730133%27%2C%272028730165%27%2C%272028730185%27%2C%272028740010%27%2C%272028740023%27%2C%272028740024%27%2C%272028740040%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "121",
+    "imported_receipt_id": "121",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720251','2028720254','2028720259','2028720263','2028720269')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:14:55.522644+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720251%27%2C%272028720254%27%2C%272028720259%27%2C%272028720263%27%2C%272028720269%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "122",
+    "imported_receipt_id": "122",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720342','2028720358','2028720398','2028720399','2028720400')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:15:05.913046+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720342%27%2C%272028720358%27%2C%272028720398%27%2C%272028720399%27%2C%272028720400%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "123",
+    "imported_receipt_id": "123",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028720407','2028730001','2028730027','2028730085','2028730087')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:15:21.853240+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028720407%27%2C%272028730001%27%2C%272028730027%27%2C%272028730085%27%2C%272028730087%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "124",
+    "imported_receipt_id": "124",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028730109','2028730126','2028730130','2028730133','2028730165')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:15:32.200571+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028730109%27%2C%272028730126%27%2C%272028730130%27%2C%272028730133%27%2C%272028730165%27%29&%24limit=2001"
+  },
+  {
+    "error": "The read operation timed out",
+    "id": "125",
+    "imported_receipt_id": "125",
+    "params": {
+      "$limit": "2001",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028730185','2028740010','2028740023','2028740024','2028740040')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:15:42.683034+00:00",
+    "status": "failed",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028730185%27%2C%272028740010%27%2C%272028740023%27%2C%272028740024%27%2C%272028740040%27%29&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/18-dob_bis.json",
+    "bytes": 40104,
+    "http_status": 200,
+    "id": "126",
+    "imported_receipt_id": "126",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028740057','2028740063','2028740091','2028740093','2028740100','2028750045','2028750067','2028760005','2028760008','2028760033','2028760035','2028760036','2028760045','2028760047','2028760049','2028760051','2028760060','2028760064','2028760162','2028760203','2028760227','2028770050','2028780300','2028780310','2028800001')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:35:32.580122+00:00",
+    "sha256": "8c0095eb2d1677baf74b2bf50a2859ce479b7b8d3b00fd7d564655c642dc21c3",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028740057%27%2C%272028740063%27%2C%272028740091%27%2C%272028740093%27%2C%272028740100%27%2C%272028750045%27%2C%272028750067%27%2C%272028760005%27%2C%272028760008%27%2C%272028760033%27%2C%272028760035%27%2C%272028760036%27%2C%272028760045%27%2C%272028760047%27%2C%272028760049%27%2C%272028760051%27%2C%272028760060%27%2C%272028760064%27%2C%272028760162%27%2C%272028760203%27%2C%272028760227%27%2C%272028770050%27%2C%272028780300%27%2C%272028780310%27%2C%272028800001%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "body_path": "imported/imported/sources/19-dob_bis.json",
+    "bytes": 3,
+    "http_status": 200,
+    "id": "127",
+    "imported_receipt_id": "127",
+    "params": {
+      "$limit": "2001",
+      "$order": "bbl,job__,doc__",
+      "$select": "bbl,job__,doc__,job_type,job_status_descrp,pre__filing_date,latest_action_date,signoff_date,existing_dwelling_units,proposed_dwelling_units,job_description,bin__,house__,street_name",
+      "$where": "bbl in ('2028800007','2028800060','2028800250','2028840002','2028840009','2028840022','2028870009')"
+    },
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T02:35:38.901925+00:00",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24select=bbl%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status_descrp%2Cpre__filing_date%2Clatest_action_date%2Csignoff_date%2Cexisting_dwelling_units%2Cproposed_dwelling_units%2Cjob_description%2Cbin__%2Chouse__%2Cstreet_name&%24where=bbl+in+%28%272028800007%27%2C%272028800060%27%2C%272028800250%27%2C%272028840002%27%2C%272028840009%27%2C%272028840022%27%2C%272028870009%27%29&%24order=bbl%2Cjob__%2Cdoc__&%24limit=2001"
+  },
+  {
+    "body_path": "imported/sources/128-dob_bis.json",
+    "bytes": 142029,
+    "http_status": 200,
+    "id": "128",
+    "imported_receipt_id": "128",
+    "params": null,
+    "provider": "dob_bis",
+    "retrieved_at": "2026-11-10T03:15:53.100898+00:00",
+    "sha256": "3b44ff33463b6d2638216867fb5a4f09194df3c058dfa33b2de0d4e98ef1334e",
+    "status": "ok",
+    "url": "https://data.cityofnewyork.us/api/views/ic3t-wcy2.json"
+  }
+]

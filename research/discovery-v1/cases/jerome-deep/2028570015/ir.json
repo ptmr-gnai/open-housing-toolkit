@@ -1,0 +1,2084 @@
+{
+  "claims": [
+    {
+      "formula": "len_source_array",
+      "id": "pluto.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "pluto returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 1
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.address",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 address",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/address",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426 CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bbl",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015.00000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgarea",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "15803"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.bldgclass",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 bldgclass",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bldgclass",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "G2"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.block",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 block",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/block",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "2857"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.borough",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 borough",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/borough",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "BX"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.builtfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 builtfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/builtfar",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "0.83000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.edesignum",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 edesignum",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/edesignum",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "E-442"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.irrlotcode",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 irrlotcode",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/irrlotcode",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": true
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.landuse",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 landuse",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/landuse",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "7"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.latitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 latitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/latitude",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "40.8417334"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.longitude",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 longitude",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/longitude",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "-73.9187145"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lot",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lot",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lot",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "15"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.lotarea",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 lotarea",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/lotarea",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "square feet as recorded",
+      "value": "19006"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.numfloors",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 numfloors",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/numfloors",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "1.0000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.residfar",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 residfar",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/residfar",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "0.00000000000"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitsres",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitsres",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitsres",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "0"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.unitstotal",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 unitstotal",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/unitstotal",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "4"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.version",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 version",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/version",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "26v2"
+    },
+    {
+      "formula": null,
+      "id": "pluto.0.zonedist1",
+      "inputs": [],
+      "kind": "fact",
+      "label": "pluto row 0 zonedist1",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/zonedist1",
+          "sha256": "b5c3ad43d068accf19e4177c39807bd83da9876ffc0dd9f3ffba810c688fe17c",
+          "source_id": "pluto"
+        }
+      ],
+      "unit": "source value",
+      "value": "C8-3"
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_bis.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_bis returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 8
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200229920"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "TO CHANGE EXISTING LEGAL OF \"WAREHOUSE, STORAGE FOR MORE THAN 5 MOTOR VEHICLES\" TO \"AUTO REPAIR SHOP AND WAREHOUSE WITH ACCESSORY USE: FOR OBTAINING NEW C. OF O."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "12/11/1992"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "11/30/1992"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.0.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 0 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/0/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200708779"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "NEW CERTIFICATE OF OCCUPANCY REQUESTED C HANGE EXISTING WAREHOUSE AND ST ORAGE FOR MORE THAN 5 MOTOR VEHICLES TO AUTO REPAIR SHOP. C./O #21460 TO BE SUPE RCEEDED."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/06/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01/14/2002"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.1.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 1 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/1/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200770102"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A CHANGE IN USE IS MADE FROM STORAGE GAR AGE TO AUTO REPAIR SHOPS. ERECTION OF PARTITIONS TO CREATE MEZZANI NES,AND LEGALIZATION OF MEZZANINE."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - APPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "05/06/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01/10/2003"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.2.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 2 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/2/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "200849859"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "Installation  of HVAC equipment.and  related piping. There is no change in use, egress  or occupancy under this application."
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - APPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/15/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "04/14/2004"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.3.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 3 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/3/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.existing_dwelling_units",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 existing_dwelling_units",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/existing_dwelling_units",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "0"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "201115550"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/10/2011"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "03/28/2007"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.proposed_dwelling_units",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 proposed_dwelling_units",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/proposed_dwelling_units",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "units as recorded; source definition applies",
+      "value": "0"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.4.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 4 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/4/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "220083978"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "INSTALLATION OF OIL SEPARATOR"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/09/2011"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "09/22/2010"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.5.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 5 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/5/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "220422736"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CHANGE IN USE TO AUTO REPAIR SHOP AND OFFICES"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PLAN EXAM - DISAPPROVED"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A1"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "02/09/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01/12/2015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.6.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 6 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/6/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVE"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.bbl",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 bbl",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/bbl",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2028570015"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.bin__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 bin__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/bin__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "2008299"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.doc__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 doc__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/doc__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "01"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.house__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 house__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/house__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "1426"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job__",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job__",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job__",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "220610177"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_description",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_description",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_description",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "EXISTING AUTOREPAIR SHOPS PLAN IN EXISTING 1 STORY AND CELLAR BUILDING. FILING TO REMOVED ECB VIOLATION 349566650J AND 34956651L( WORK WITHOUT PERMT). NO CHANGE IN USE, OCCUPANCY  OR EGRESS UNDER THIS APPLICATION"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_status_descrp",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_status_descrp",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_status_descrp",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "PERMIT ISSUED - ENTIRE JOB/WORK"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.job_type",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 job_type",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/job_type",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "A2"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.latest_action_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 latest_action_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/latest_action_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/30/2017"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.pre__filing_date",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 pre__filing_date",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/pre__filing_date",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "08/03/2017"
+    },
+    {
+      "formula": null,
+      "id": "dob_bis.7.street_name",
+      "inputs": [],
+      "kind": "fact",
+      "label": "dob_bis row 7 street_name",
+      "rationale": null,
+      "references": [
+        {
+          "pointer": "/7/street_name",
+          "sha256": "dcbdbaf7c15374219350e23ff123a6ac57f680e5c5165f0a1b32c11285ed77c0",
+          "source_id": "dob_bis"
+        }
+      ],
+      "unit": "source value",
+      "value": "CROMWELL AVENUE"
+    },
+    {
+      "formula": "len_source_array",
+      "id": "dob_now.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "dob_now returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "dob_now"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": "len_source_array",
+      "id": "hpd_violations.returned_rows",
+      "inputs": [],
+      "kind": "calculation",
+      "label": "hpd_violations returned rows in this exact-BBL query",
+      "rationale": "Bounded query; see truncation and source limits.",
+      "references": [
+        {
+          "pointer": "",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "source_id": "hpd_violations"
+        }
+      ],
+      "unit": "returned rows; not projects or total population",
+      "value": 0
+    },
+    {
+      "formula": null,
+      "id": "scenario.unspecified",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "No development scenario supplied",
+      "rationale": "Evidence gathering is useful without inventing a building program.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.current_use",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "current_use",
+      "rationale": "Current occupancy, leases, lawful use and displacement implications are not established by these records.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.title",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "title",
+      "rationale": "Title, site control and owner willingness have not been investigated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.entitlement",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "entitlement",
+      "rationale": "Applicable zoning text, special districts, amendments, approvals and legal capacity are not determined.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.physical_fit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "physical_fit",
+      "rationale": "Survey, envelope, access, egress, layouts and geotechnical fit are not validated.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.environment",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "environment",
+      "rationale": "Environmental requirements, studies and satisfaction status have not been reconciled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.finance",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "finance",
+      "rationale": "Complete development cost, affordability program, capital sources and commitments are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.transit",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "transit",
+      "rationale": "Walked access, service reliability, accessibility and job access are not modeled.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "unknown.process_coverage",
+      "inputs": [],
+      "kind": "unknown",
+      "label": "process_coverage",
+      "rationale": "This is a partial playbook. The complete practitioner process and all material requirements are not known.",
+      "references": [],
+      "unit": "unknown",
+      "value": null
+    },
+    {
+      "formula": null,
+      "id": "review.next_diligence",
+      "inputs": [
+        "unknown.current_use",
+        "unknown.entitlement",
+        "unknown.physical_fit",
+        "unknown.finance"
+      ],
+      "kind": "judgment",
+      "label": "Questions for practitioner review",
+      "rationale": "A checklist for discussion. Task cost, timing, actor resources and best ordering are not evaluated.",
+      "references": [],
+      "unit": "unreviewed author policy",
+      "value": "Review current-use evidence, entitlement pathway, physical constraints and capital structure."
+    }
+  ],
+  "housing_signal_claims": [],
+  "interpretation_review": "pending",
+  "process_status": "partial_playbook_under_development",
+  "question": "Discovery follow-up for 1426 CROMWELL AVENUE (2028570015): reconcile public records, existing-use and historical housing signals, pipeline and the unresolved inputs behind this conditional discovery candidate. Do not infer vacancy, availability, rezoning eligibility or financial feasibility.",
+  "request_sha256": "faea453626e7b64f45bcb13fbfa123f39276e4cc7cd4e1d915db3b2dfbfc3a2c",
+  "resolved_bbl": "2028570015",
+  "scenario_name": null,
+  "scope": "Current retrieved records, exact tax-lot match; no complete historical reconstruction or professional clearance.",
+  "sources": [
+    {
+      "limits": "Tax-lot attributes may lag actual conditions. Zoning fields are recorded descriptors, not a legal entitlement analysis. Zero recorded residential units does not mean vacancy or no displacement.",
+      "retrieved_at": "2026-11-09T20:02:51.218424+00:00",
+      "returned_rows": 1,
+      "source": "pluto",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+      "retrieved_at": "2026-11-09T20:02:51.218679+00:00",
+      "returned_rows": 8,
+      "source": "dob_bis",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+      "retrieved_at": "2026-11-09T20:02:51.218820+00:00",
+      "returned_rows": 0,
+      "source": "dob_now",
+      "status": "ok",
+      "truncated": false
+    },
+    {
+      "limits": "Recorded housing violation rows, not occupancy, executed evictions, or a displacement measure. Empty results do not prove no housing, no violations, or a safe building.",
+      "retrieved_at": "2026-11-09T20:02:51.218788+00:00",
+      "returned_rows": 0,
+      "source": "hpd_violations",
+      "status": "ok",
+      "truncated": false
+    }
+  ],
+  "version": "0.2.0",
+  "workflow": "parcel-investigation"
+}

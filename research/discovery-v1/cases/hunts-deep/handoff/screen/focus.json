@@ -1,0 +1,11 @@
+{
+  "building_class_prefixes": [
+    "G"
+  ],
+  "label": "Auto-related and parking uses",
+  "landuse_codes": [
+    "10"
+  ],
+  "rationale": "User-requested discovery focus: include recorded garage/auto-related building classes or parking land-use records. Zero recorded homes is allowed. These classifications do not establish an empty site, owner willingness, lease expiry, environmental condition, or an approved residential zoning change.",
+  "version": "1.0"
+}

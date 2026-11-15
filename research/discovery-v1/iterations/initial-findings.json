@@ -1,0 +1,1010 @@
+{
+  "meaning": "First exploratory iteration before hotel/park/infrastructure review holds. Not the current module or an approved shortlist. Original initial source code retained beside this file.",
+  "probes": {
+    "jerome-far6": {
+      "counts": {
+        "by_hold_reason": {
+          "different_mission_public_or_institutional_review": 196,
+          "existing_use_classification_missing": 13,
+          "insufficient_increment_under_declared_scenario": 1425,
+          "missing_numeric_inputs:lotarea,unitsres": 1,
+          "missing_numeric_inputs:unitsres": 1,
+          "outside_declared_lot_size_range": 598,
+          "pipeline_review_before_advancement": 5,
+          "recorded_homes_exceed_declared_screen": 1430
+        },
+        "held": 1829,
+        "inventory": 1921,
+        "screen_pool": 92,
+        "shortlist": 10
+      },
+      "first_four": [
+        {
+          "additional_home_equivalents": 100.516,
+          "additional_zoning_area_proxy_sf": 118254.0,
+          "address": "1300 SEDGWICK AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2025300032",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.840853,
+          "longitude": -73.9279568,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/624",
+            "receipt_id": "2",
+            "sha256": "e40fec0742c4c69154376a9d64a51ccabddf5a36fbbdaedd5e8c50502a48a305"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 1,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "H4",
+          "recorded_landuse": "5",
+          "recorded_lot_area_sf": 19709.0,
+          "recorded_owner": "SEDGWICK HOTEL CORP.",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-1",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 96.931,
+          "additional_zoning_area_proxy_sf": 114036.0,
+          "address": "1426 CROMWELL AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028570015",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "irregular_lot_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8417334,
+          "longitude": -73.9187145,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/421",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 2,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "G2",
+          "recorded_landuse": "7",
+          "recorded_lot_area_sf": 19006.0,
+          "recorded_owner": "INWOOD CROMWELL PROPERT",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-3",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 76.5,
+          "additional_zoning_area_proxy_sf": 90000.0,
+          "address": "1733 JEROME AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028610080",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "multiple_or_split_zoning_review_needed",
+            "special_district_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.847718,
+          "longitude": -73.9127469,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/495",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 3,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "K5",
+          "recorded_landuse": "5",
+          "recorded_lot_area_sf": 15000.0,
+          "recorded_owner": "298 LAFAYETTE ST. LLC",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": "J",
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-3",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 68.85,
+          "additional_zoning_area_proxy_sf": 81000.0,
+          "address": "1419 INWOOD AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028570051",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "irregular_lot_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8413025,
+          "longitude": -73.918762,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/428",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 4,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "E9",
+          "recorded_landuse": "6",
+          "recorded_lot_area_sf": 13500.0,
+          "recorded_owner": "CROMWELL INWOOD LLC",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-3",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        }
+      ],
+      "run_manifest_sha256": "0289ec2813c59817e9ab43ef12c587251e936000423be2f99e5627776cd16e03"
+    },
+    "jerome-far8": {
+      "counts": {
+        "by_hold_reason": {
+          "different_mission_public_or_institutional_review": 196,
+          "existing_use_classification_missing": 13,
+          "insufficient_increment_under_declared_scenario": 351,
+          "missing_numeric_inputs:lotarea,unitsres": 1,
+          "missing_numeric_inputs:unitsres": 1,
+          "outside_declared_lot_size_range": 598,
+          "pipeline_review_before_advancement": 5,
+          "recorded_homes_exceed_declared_screen": 1430
+        },
+        "held": 1722,
+        "inventory": 1921,
+        "screen_pool": 199,
+        "shortlist": 10
+      },
+      "first_four": [
+        {
+          "additional_home_equivalents": 134.021,
+          "additional_zoning_area_proxy_sf": 157672.0,
+          "address": "1300 SEDGWICK AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2025300032",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.840853,
+          "longitude": -73.9279568,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/624",
+            "receipt_id": "2",
+            "sha256": "e40fec0742c4c69154376a9d64a51ccabddf5a36fbbdaedd5e8c50502a48a305"
+          },
+          "proposed_far_assumption": 8,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 1,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "H4",
+          "recorded_landuse": "5",
+          "recorded_lot_area_sf": 19709.0,
+          "recorded_owner": "SEDGWICK HOTEL CORP.",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-1",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 129.241,
+          "additional_zoning_area_proxy_sf": 152048.0,
+          "address": "1426 CROMWELL AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028570015",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "irregular_lot_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8417334,
+          "longitude": -73.9187145,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/421",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 8,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 2,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "G2",
+          "recorded_landuse": "7",
+          "recorded_lot_area_sf": 19006.0,
+          "recorded_owner": "INWOOD CROMWELL PROPERT",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-3",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 104.456,
+          "additional_zoning_area_proxy_sf": 122889.0,
+          "address": "SEDGWICK AVENUE",
+          "baseline_recorded_far_proxy": 5.01,
+          "bbl": "2025300025",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "affordable_far_used_only_as_conservative_recorded_proxy_not_applicability",
+            "irregular_lot_review_needed",
+            "multiple_or_split_zoning_review_needed",
+            "zap_link_validation_requires_review"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8402299,
+          "longitude": -73.9278309,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/623",
+            "receipt_id": "2",
+            "sha256": "e40fec0742c4c69154376a9d64a51ccabddf5a36fbbdaedd5e8c50502a48a305"
+          },
+          "proposed_far_assumption": 8,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 3,
+          "recorded_affordable_residential_far": 5.01,
+          "recorded_building_class": "V3",
+          "recorded_landuse": "11",
+          "recorded_lot_area_sf": 41100.0,
+          "recorded_owner": "EML TIC LLC",
+          "recorded_residential_far": 3.44,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "R7-1",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": [
+            {
+              "parcel_link_reference": {
+                "body_path": "sources/21-zap_bbl.json",
+                "pointer": "/5",
+                "receipt_id": "21",
+                "sha256": "cc99f9fc6103c9074439cc25bcf1ae702174f1de5f600dd3deb7ec6c2ee23f50"
+              },
+              "project": {
+                "reference": {
+                  "body_path": "sources/50-zap_projects.json",
+                  "pointer": "/6",
+                  "receipt_id": "50",
+                  "sha256": "3c45a1b7936bb1e7b81a96e870e146268ff057f2cde30978a3160015fddd00d2"
+                },
+                "row": {
+                  "completed_date": "2014-11-01T00:00:00.000",
+                  "project_brief": "A CHANGE IN THE CITY MAP THAT WOULD DEMAP AN UNBUILT PORTION  OF W. 169TH STREET FROM UNIVERSITY AVE. TO SEDGWICK AVE, EX TENDING APPROX. 512 FT NORTHWEST, IN THE HIGH BRIDGE SECTION",
+                  "project_id": "P2005X0001",
+                  "project_name": "W169TH ST DEMAPPING",
+                  "project_status": "Complete",
+                  "public_status": "Completed"
+                }
+              },
+              "project_id": "P2005X0001"
+            }
+          ]
+        },
+        {
+          "additional_home_equivalents": 102.0,
+          "additional_zoning_area_proxy_sf": 120000.0,
+          "address": "1733 JEROME AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028610080",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "multiple_or_split_zoning_review_needed",
+            "special_district_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.847718,
+          "longitude": -73.9127469,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/495",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 8,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 4,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "K5",
+          "recorded_landuse": "5",
+          "recorded_lot_area_sf": 15000.0,
+          "recorded_owner": "298 LAFAYETTE ST. LLC",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": "J",
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "C8-3",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        }
+      ],
+      "run_manifest_sha256": "ad96fe20c54a253e929f90ed4913780031489ce292822599b738d8e11b352c84"
+    },
+    "jerome-public": {
+      "counts": {
+        "by_hold_reason": {
+          "existing_use_classification_missing": 13,
+          "insufficient_increment_under_declared_scenario": 1425,
+          "missing_numeric_inputs:lotarea,unitsres": 1,
+          "missing_numeric_inputs:unitsres": 1,
+          "outside_declared_lot_size_range": 598,
+          "outside_public_or_institutional_mission": 1725,
+          "pipeline_review_before_advancement": 5,
+          "recorded_homes_exceed_declared_screen": 1430
+        },
+        "held": 1845,
+        "inventory": 1921,
+        "screen_pool": 76,
+        "shortlist": 10
+      },
+      "first_four": [
+        {
+          "additional_home_equivalents": 263.792,
+          "additional_zoning_area_proxy_sf": 310344.0,
+          "address": "CROSS BRONX EXPWY",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2025420043",
+          "colp_use_records": [
+            {
+              "reference": {
+                "body_path": "sources/24-colp.json",
+                "pointer": "/1",
+                "receipt_id": "24",
+                "sha256": "47b446b71619b8e2844636dc71cdbb696e44827e318c0932361be78462214e3b"
+              },
+              "row": {
+                "address": "CROSS BRONX EXPRESSWAY",
+                "agency": "PARKS",
+                "bbl": "2025420043.0",
+                "billbbl": "2025420043.0",
+                "excatdesc": "CULTURAL & RECREATIONAL USE",
+                "non_city_ownership": "C",
+                "use_type": "PARK"
+              }
+            }
+          ],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "public_or_institutional_use_signal_not_title_finding",
+            "recorded_flood_flag_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8458564,
+          "longitude": -73.9275176,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/703",
+            "receipt_id": "2",
+            "sha256": "e40fec0742c4c69154376a9d64a51ccabddf5a36fbbdaedd5e8c50502a48a305"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": true,
+          "rank_in_screen_pool": 1,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "Q1",
+          "recorded_landuse": "9",
+          "recorded_lot_area_sf": 51724.0,
+          "recorded_owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "PARK",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 258.33,
+          "additional_zoning_area_proxy_sf": 303918.0,
+          "address": "1480 SHAKESPEARE AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028720126",
+          "colp_use_records": [
+            {
+              "reference": {
+                "body_path": "sources/42-colp.json",
+                "pointer": "/0",
+                "receipt_id": "42",
+                "sha256": "a93c79701d70150ae791b423fb6d79ef2e71f2165554c52253a317f2766d8488"
+              },
+              "row": {
+                "address": "1480 SHAKESPEARE AVENUE",
+                "agency": "PARKS",
+                "bbl": "2028720126.0",
+                "billbbl": "2028720126.0",
+                "excatdesc": "CULTURAL & RECREATIONAL USE",
+                "non_city_ownership": "C",
+                "use_type": "RECREATION CENTER/GYMNASIUM"
+              }
+            }
+          ],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "public_or_institutional_use_signal_not_title_finding",
+            "zap_link_validation_requires_review"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8442287,
+          "longitude": -73.9191271,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/632",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": true,
+          "rank_in_screen_pool": 2,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "P5",
+          "recorded_landuse": "8",
+          "recorded_lot_area_sf": 50653.0,
+          "recorded_owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "PARK",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": [
+            {
+              "parcel_link_reference": {
+                "body_path": "sources/41-zap_bbl.json",
+                "pointer": "/6",
+                "receipt_id": "41",
+                "sha256": "98bdc913ad172b083aa25db93b6aacd78c9a1816f3c39265f571abb01910c899"
+              },
+              "project": {
+                "reference": {
+                  "body_path": "sources/50-zap_projects.json",
+                  "pointer": "/13",
+                  "receipt_id": "50",
+                  "sha256": "3c45a1b7936bb1e7b81a96e870e146268ff057f2cde30978a3160015fddd00d2"
+                },
+                "row": {
+                  "completed_date": "2011-04-09T00:00:00.000",
+                  "project_brief": "DEMAP & ELIMINATE A PORTION OF SHAKESPEARE AVE BETWEEN THE*CROSS BRONX EXPWAY & W172ND ST TO CONSTRUCT A BALL FIELD &*MAP A PARKLAND",
+                  "project_id": "P2008X0090",
+                  "project_name": "SHAKESPEARE AVE",
+                  "project_status": "Complete",
+                  "public_status": "Completed"
+                }
+              },
+              "project_id": "P2008X0090"
+            }
+          ]
+        },
+        {
+          "additional_home_equivalents": 239.96,
+          "additional_zoning_area_proxy_sf": 282306.0,
+          "address": "UNIVERSITY AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028770050",
+          "colp_use_records": [
+            {
+              "reference": {
+                "body_path": "sources/46-colp.json",
+                "pointer": "/4",
+                "receipt_id": "46",
+                "sha256": "5123fd2c4a59e071322ac890dee8cefd811441b5154708edc0bed1aa8c51f526"
+              },
+              "row": {
+                "agency": "PARKS",
+                "bbl": "2028770050.0",
+                "billbbl": "2028770050.0",
+                "excatdesc": "CULTURAL & RECREATIONAL USE",
+                "non_city_ownership": "C",
+                "use_type": "PLAYGROUND"
+              }
+            }
+          ],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "public_or_institutional_use_signal_not_title_finding"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8457,
+          "longitude": -73.9233902,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/872",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": true,
+          "rank_in_screen_pool": 3,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "Q2",
+          "recorded_landuse": "9",
+          "recorded_lot_area_sf": 47051.0,
+          "recorded_owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "PARK",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 217.291,
+          "additional_zoning_area_proxy_sf": 255636.0,
+          "address": "EDWARD L GRANT HWY",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2028740100",
+          "colp_use_records": [
+            {
+              "reference": {
+                "body_path": "sources/44-colp.json",
+                "pointer": "/6",
+                "receipt_id": "44",
+                "sha256": "146beab209adbb2727fa031362ee4b1ba16564f7ac858a2f48e331d4c3107e80"
+              },
+              "row": {
+                "address": "1401 PLIMPTON AVENUE",
+                "agency": "PARKS",
+                "bbl": "2028740100",
+                "billbbl": "2028740100",
+                "excatdesc": "CULTURAL & RECREATIONAL USE",
+                "non_city_ownership": "C",
+                "use_type": "PARK"
+              }
+            }
+          ],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "public_or_institutional_use_signal_not_title_finding"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8439455,
+          "longitude": -73.9223947,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/767",
+            "receipt_id": "3",
+            "sha256": "8b824758404a11816f84099f425769a1e7ec31cec03e506587a2251b25735fbf"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": true,
+          "rank_in_screen_pool": 4,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "Q1",
+          "recorded_landuse": "9",
+          "recorded_lot_area_sf": 42606.0,
+          "recorded_owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "PARK",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        }
+      ],
+      "run_manifest_sha256": "7a65e20f19d930c365f940fd98890419ffe4eec084c15993cde6e098930aea66"
+    },
+    "hunts-far6": {
+      "counts": {
+        "by_hold_reason": {
+          "different_mission_public_or_institutional_review": 90,
+          "existing_use_classification_missing": 32,
+          "insufficient_increment_under_declared_scenario": 316,
+          "missing_numeric_inputs:unitsres": 1,
+          "outside_declared_lot_size_range": 277,
+          "pipeline_review_before_advancement": 3,
+          "recorded_homes_exceed_declared_screen": 685
+        },
+        "held": 825,
+        "inventory": 1243,
+        "screen_pool": 418,
+        "shortlist": 10
+      },
+      "first_four": [
+        {
+          "additional_home_equivalents": 306.0,
+          "additional_zoning_area_proxy_sf": 360000.0,
+          "address": "1265 OAK POINT AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2027680305",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "special_district_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8106556,
+          "longitude": -73.8869159,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/112",
+            "receipt_id": "3",
+            "sha256": "755343d8a48c16135d1d9b5663ea36df1fc557158cd5da903042588c962cf73c"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 1,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "E1",
+          "recorded_landuse": "6",
+          "recorded_lot_area_sf": 60000.0,
+          "recorded_owner": "OAK POINT BERGSON REALTY CORP.",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": "HP",
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "M1-2",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 297.967,
+          "additional_zoning_area_proxy_sf": 350550.0,
+          "address": "955 BRONX RIVER AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2036460067",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "recorded_flood_flag_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8221358,
+          "longitude": -73.8831605,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/3-pluto.json",
+            "pointer": "/204",
+            "receipt_id": "3",
+            "sha256": "755343d8a48c16135d1d9b5663ea36df1fc557158cd5da903042588c962cf73c"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 2,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "E7",
+          "recorded_landuse": "6",
+          "recorded_lot_area_sf": 58425.0,
+          "recorded_owner": "FERRO ENTERPRISES NY LLC",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": null,
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "M1-1",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        },
+        {
+          "additional_home_equivalents": 280.5,
+          "additional_zoning_area_proxy_sf": 330000.0,
+          "address": "LAFAYETTE AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2027630335",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "environmental_designation_review_needed",
+            "irregular_lot_review_needed",
+            "special_district_review_needed",
+            "zap_link_validation_requires_review"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.816453,
+          "longitude": -73.8846697,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/775",
+            "receipt_id": "2",
+            "sha256": "b22df011d0f7f35ed0f069e2ee9babbcccd68b44df426065828688a97aa344dd"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 3,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "G7",
+          "recorded_landuse": "10",
+          "recorded_lot_area_sf": 55000.0,
+          "recorded_owner": "WF INDUSTRIAL IX LLC",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": "HP",
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "M1-2",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": [
+            {
+              "parcel_link_reference": {
+                "body_path": "sources/23-zap_bbl.json",
+                "pointer": "/1",
+                "receipt_id": "23",
+                "sha256": "ada2f60905049d674094ce6e6338c83d95231473c48b27133001599a1b61d942"
+              },
+              "project": {
+                "reference": {
+                  "body_path": "sources/35-zap_projects.json",
+                  "pointer": "/42",
+                  "receipt_id": "35",
+                  "sha256": "635f3cc2ed46c3683b79ec16646049e2cef87a421f07c763ea23509f04010a7d"
+                },
+                "row": {
+                  "completed_date": "1991-11-13T00:00:00.000",
+                  "project_brief": "UNRESTRICTED DISPOSITION OF CITY-OWNED PROPERTY, 10 PARCELS",
+                  "project_id": "P1991X0245",
+                  "project_name": "C-O-P",
+                  "project_status": "Withdrawn-Other",
+                  "public_status": "Completed"
+                }
+              },
+              "project_id": "P1991X0245"
+            }
+          ]
+        },
+        {
+          "additional_home_equivalents": 279.776,
+          "additional_zoning_area_proxy_sf": 329148.0,
+          "address": "LAFAYETTE AVENUE",
+          "baseline_recorded_far_proxy": 0.0,
+          "bbl": "2027310061",
+          "colp_use_records": [],
+          "current_occupancy": null,
+          "financial_feasibility": null,
+          "flags": [
+            "irregular_lot_review_needed",
+            "special_district_review_needed"
+          ],
+          "hold_reasons": [],
+          "latitude": 40.8168894,
+          "longitude": -73.8931807,
+          "net_new_homes": null,
+          "next_review": "Reconcile applicable zoning/envelope, existing uses, site control, pipeline and economics with practitioners.",
+          "parcel_assembly": null,
+          "pluto_reference": {
+            "body_path": "sources/2-pluto.json",
+            "pointer": "/126",
+            "receipt_id": "2",
+            "sha256": "b22df011d0f7f35ed0f069e2ee9babbcccd68b44df426065828688a97aa344dd"
+          },
+          "proposed_far_assumption": 6,
+          "public_or_institutional_signal": false,
+          "rank_in_screen_pool": 4,
+          "recorded_affordable_residential_far": 0.0,
+          "recorded_building_class": "U7",
+          "recorded_landuse": "7",
+          "recorded_lot_area_sf": 54858.0,
+          "recorded_owner": "NYS DEPARTMENT OF TRANSPORTATION",
+          "recorded_residential_far": 0.0,
+          "recorded_residential_units": 0.0,
+          "recorded_special_district": "HP",
+          "recorded_transit_zone": "Outer Transit Zone",
+          "recorded_zoning": "M1-2",
+          "rent_stabilization_status": null,
+          "rezoning_eligibility": null,
+          "route": "scenario_screen_shortlist_pool",
+          "scenario_reference": "request.json#/scenario",
+          "shortlisted": true,
+          "site_control": null,
+          "subsidized_housing_status": null,
+          "walk_and_job_access": null,
+          "zap_projects": []
+        }
+      ],
+      "run_manifest_sha256": "3322600b7dc0baf251046ca520a3d3ddec0cac12563110549a4b9992f4f847a7"
+    }
+  }
+}

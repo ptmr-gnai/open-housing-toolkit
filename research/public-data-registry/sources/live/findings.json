@@ -1,0 +1,26 @@
+[
+  {
+    "provider": "buffalo-zoning",
+    "status": "sample_returned",
+    "returned_rows": 1,
+    "scope": "One sample, not full inventory"
+  },
+  {
+    "provider": "rochester-inventory",
+    "layer_id": 0,
+    "layer_name": "Housing Inventory Parcels",
+    "status": "sample_returned",
+    "returned_rows": 1,
+    "source_error": null,
+    "scope": "One sample, not full inventory"
+  },
+  {
+    "provider": "syracuse-vacant",
+    "layer_id": 0,
+    "layer_name": "Vacant_Properties",
+    "status": "sample_returned",
+    "returned_rows": 1,
+    "source_error": null,
+    "scope": "One sample, not full inventory"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "index_release": "index-2026-11-05",
+  "index_sha256": "d27b79a093deeb1489a6d9f505b81ffc027a9391ca7b1d1e35a162f3a35f8d43",
+  "index_metadata": {
+    "schema_version": "1",
+    "registry_generated": "2026-11-05",
+    "last_harvest": "2026-11-05T18:44:22.100Z"
+  },
+  "dataset_rows": 9569,
+  "column_rows": 185352,
+  "meaning": "Catalog metadata only. Local published index used for discovery, not rebuilt or harvested by this toolkit. Public publisher API samples retained separately. Full110MBindex is not redistributed.",
+  "files": {
+    "metadata-queries.json": "9fa3faa71a8b189249a23612e9ccc116c27ee2cd60176d7cea9edc51edd04bf4",
+    "receipts.json": "eab84c21720273478cb28d9f10cc7e1a674fceb259885fa5b7282b84c8ff6e8c",
+    "selected-datasets.json": "56b5d39213ea8fdffd5c8c6ec345e422600f2033ad292047c7a0f61cd98f59c6",
+    "SHA256SUMS": "5dfc682f0d26bac4fe2c0dd87aa4477cdaaee4ee451b221d912994f56cfad831",
+    "sources/live/receipts.json": "cce3f59b3951cfbc9a5cfd422c8329009797f451bdc7ebdc12c17e188e1db0e9",
+    "sources/live/findings.json": "54b926571b51f9da8b8376d57b249a1c41b8ac4899eb1fb511dedf013754c196",
+    "sources/live/sources/2-rochester-inventory.json": "847d50e39fdd3b9820d5982cf2910330743bb54d49ea7a869307a20f0e615e88",
+    "sources/live/sources/5-syracuse-vacant.json": "cf6976ac59eaef0c0c4f0b10ccfd70ead0fb4fae81c1819464c5faacef39f779",
+    "sources/live/sources/0-buffalo-zoning.json": "90adb18e879178124d063abd375d3e825170f68b39f54790d75782d4d05ccc7c",
+    "sources/live/sources/1-buffalo-zoning.json": "f6ef79f5d81501324067b80848ea0d6fcd2a9e8e3f307e4e64e329fcfa366a5b",
+    "sources/live/sources/3-rochester-inventory-layer.json": "8365f1dd790b378642f8f4188ec224e592e0d62ab944bdd6a521320c1a63b6ce",
+    "sources/live/sources/6-syracuse-vacant-layer.json": "6bc28804cdff4d88abee8e04579bbd21cfef8da5d5f23d163cc1b99e89c73ce6",
+    "sources/live/sources/7-syracuse-vacant-layer.json": "49fa0e70fd846fa6b51fef1c7b3b65a3194fdf4b034465c2ed1edc0a4e64f8da",
+    "sources/live/sources/4-rochester-inventory-layer.json": "d811e69cb92117bc29ac7088df356570f1ac8ecccace1ea2d9e951a94d42f4d9"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/BetaNYC/ny-data-registry-mcp/releases/download/index-2026-11-05/SHA256SUMS",
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1447415256/91d797d1-6c4f-4dfa-bde9-9577fc96e01b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-10T03%3A18%3A55Z&rscd=attachment%3B+filename%3DSHA256SUMS&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-10T02%3A18%3A32Z&ske=2026-11-10T03%3A18%3A55Z&sks=b&skv=2018-11-09&sig=ixuWXuhozvtUX1mz8awG4KY8cGKKUvv5mCwysp9DQcw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NDI3NzU4NSwibmJmIjoxNzk0Mjc3Mjg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DQVLWJG01hyZSjdnvEvYQXbWBDTSIDRoPJuKLym2Ovc&response-content-disposition=attachment%3B%20filename%3DSHA256SUMS&response-content-type=application%2Foctet-stream",
+    "http_status": 200,
+    "bytes": 177,
+    "sha256": "5dfc682f0d26bac4fe2c0dd87aa4477cdaaee4ee451b221d912994f56cfad831",
+    "retrieved_at": "2026-11-10T02:21:25.771721+00:00"
+  },
+  {
+    "url": "https://github.com/BetaNYC/ny-data-registry-mcp/releases/download/index-2026-11-05/ny-data-index.sqlite.gz",
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1447415256/9bac25d4-0fda-4cb0-afa9-4d73273bbc87?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-10T03%3A02%3A32Z&rscd=attachment%3B+filename%3Dny-data-index.sqlite.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-10T02%3A02%3A21Z&ske=2026-11-10T03%3A02%3A32Z&sks=b&skv=2018-11-09&sig=tf0O2ANHLX9e7T4EchO5cNp%2F2Xd%2BhkrNOTH%2BoTB%2FWDs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NDI3OTA4NSwibmJmIjoxNzk0Mjc3Mjg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.qxkhKAkGLGyExafdiq7OIhk0zriQW4AgXnx8iWkyGjw&response-content-disposition=attachment%3B%20filename%3Dny-data-index.sqlite.gz&response-content-type=application%2Foctet-stream",
+    "http_status": 200,
+    "bytes": 19170155,
+    "sha256": "32e88ca94b75d26ba5c2379e2319a416abb11c75a2df37c8080361b971e7d41d",
+    "retrieved_at": "2026-11-10T02:21:26.809260+00:00"
+  }
+]

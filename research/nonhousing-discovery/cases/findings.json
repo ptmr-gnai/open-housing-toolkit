@@ -1,0 +1,136 @@
+{
+  "hunts": {
+    "counts": {
+      "by_current_use": {
+        "current_use_unresolved": 34,
+        "housing_recorded": 685,
+        "housing_signals_require_review": 12,
+        "recorded_nonhousing": 512
+      },
+      "inventory": 1243,
+      "nonhousing_by_review_lane": {
+        "infrastructure_review": 17,
+        "other_nonhousing_review": 430,
+        "park_or_recreation_review": 16,
+        "public_or_institutional_use_review": 49
+      },
+      "nonhousing_by_zoning_path": {
+        "housing_permitted_by_general_use_rule": 90,
+        "rezoning_path": 44,
+        "special_or_unresolved_review": 378
+      },
+      "recorded_nonhousing": 512
+    },
+    "followups": [
+      "2027350020",
+      "2027630335"
+    ],
+    "housing_review_counts": {
+      "housing_signal_coverage_unknown": 161,
+      "no_positive_returned_housing_signal": 302,
+      "positive_returned_housing_signal": 49
+    },
+    "housing_review_source_coverage": {
+      "dob_bis": {
+        "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+        "lots_by_status": {
+          "failed": 165,
+          "query_complete_empty": 113,
+          "query_complete_rows": 234
+        },
+        "metadata_stable": true
+      },
+      "dob_now": {
+        "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+        "lots_by_status": {
+          "query_complete_empty": 374,
+          "query_complete_rows": 138
+        },
+        "metadata_stable": true
+      },
+      "hpd_production": {
+        "limits": "HPD affordable-production building/project records include program activity and dates, not all housing or proof of current occupancy/completion. A current BBL can differ from historical tax-lot identity.",
+        "lots_by_status": {
+          "query_complete_empty": 511,
+          "query_complete_rows": 1
+        },
+        "metadata_stable": true
+      },
+      "hpd_registrations": {
+        "limits": "Registration records cover specified multiple dwellings and some one/two-family rentals, not all housing. Expired/historical registration and exact lot identity do not establish current occupancy; no rows is not no housing.",
+        "lots_by_status": {
+          "query_complete_empty": 511,
+          "query_complete_rows": 1
+        },
+        "metadata_stable": true
+      }
+    }
+  },
+  "jerome": {
+    "counts": {
+      "by_current_use": {
+        "current_use_unresolved": 14,
+        "housing_recorded": 1431,
+        "housing_signals_require_review": 19,
+        "recorded_nonhousing": 457
+      },
+      "inventory": 1921,
+      "nonhousing_by_review_lane": {
+        "infrastructure_review": 4,
+        "other_nonhousing_review": 288,
+        "park_or_recreation_review": 70,
+        "public_or_institutional_use_review": 95
+      },
+      "nonhousing_by_zoning_path": {
+        "housing_permitted_by_general_use_rule": 221,
+        "rezoning_path": 22,
+        "special_or_unresolved_review": 214
+      },
+      "recorded_nonhousing": 457
+    },
+    "followups": [
+      "2028310056",
+      "2028570015"
+    ],
+    "housing_review_counts": {
+      "housing_signal_coverage_unknown": 185,
+      "no_positive_returned_housing_signal": 204,
+      "positive_returned_housing_signal": 68
+    },
+    "housing_review_source_coverage": {
+      "dob_bis": {
+        "limits": "Legacy job/document rows, not unique projects or verified current use. Historical existing/proposed units are not current lawful dwellings. Exact-BBL queries miss unlinked filings and historical lot changes.",
+        "lots_by_status": {
+          "failed": 200,
+          "query_complete_empty": 98,
+          "query_complete_rows": 159
+        },
+        "metadata_stable": true
+      },
+      "dob_now": {
+        "limits": "DOB NOW filing rows are not completed projects or a complete pipeline. Exact-BBL lookup only; missing rows do not establish no activity.",
+        "lots_by_status": {
+          "query_complete_empty": 309,
+          "query_complete_rows": 148
+        },
+        "metadata_stable": true
+      },
+      "hpd_production": {
+        "limits": "HPD affordable-production building/project records include program activity and dates, not all housing or proof of current occupancy/completion. A current BBL can differ from historical tax-lot identity.",
+        "lots_by_status": {
+          "query_complete_empty": 454,
+          "query_complete_rows": 3
+        },
+        "metadata_stable": true
+      },
+      "hpd_registrations": {
+        "limits": "Registration records cover specified multiple dwellings and some one/two-family rentals, not all housing. Expired/historical registration and exact lot identity do not establish current occupancy; no rows is not no housing.",
+        "lots_by_status": {
+          "query_complete_empty": 452,
+          "query_complete_rows": 5
+        },
+        "metadata_stable": true
+      }
+    }
+  }
+}
