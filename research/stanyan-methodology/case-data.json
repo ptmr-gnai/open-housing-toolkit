@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1",
+  "case_id": "730-stanyan-methodology",
+  "research_date": "2026-11-09",
+  "exposure": "Known-case reconstruction with later outcomes already seen. Not a blind backtest.",
+  "finance": [
+    {
+      "id": "2020",
+      "source_id": "predevelopment-2020",
+      "pdf_page": 4,
+      "kind": "reported_budget",
+      "cash_flow_domain": "development_capital",
+      "units_including_manager": 120,
+      "reported_total_usd": 98121310,
+      "includes_city_land_acquisition": false,
+      "excluded_city_land_usd": 15900000,
+      "sources_usd": {
+        "mohcd_loan": 34325853,
+        "accrued_interest": 425000,
+        "permanent_loan": 2900530,
+        "limited_partner_equity": 29623828,
+        "mhp": 20000000,
+        "ahp": 1250000,
+        "gp_equity": 7096000,
+        "deferred_fee": 2500000,
+        "gp_contribution": 100
+      },
+      "uses_usd": {
+        "acquisition": 0,
+        "hard": 71256096,
+        "soft": 13958549,
+        "developer_fee": 12096000,
+        "reserves": 810665
+      },
+      "contains_explicitly_uncommitted_sources": true,
+      "status_note": "Table is proposed/conditional financing, not proof of cash receipt or closed financing."
+    },
+    {
+      "id": "2022",
+      "source_id": "preliminary-gap-2022",
+      "pdf_page": 5,
+      "kind": "reported_budget",
+      "cash_flow_domain": "development_capital",
+      "units_including_manager": 160,
+      "reported_total_usd": 150040047,
+      "includes_city_land_acquisition": false,
+      "excluded_city_land_usd": 15900000,
+      "sources_usd": {
+        "mohcd_loan": 42416759,
+        "nplh": 8583241,
+        "accrued_interest": 776377,
+        "permanent_loan": 4674000,
+        "limited_partner_equity": 66473569,
+        "mhp": 20016000,
+        "infill_grant": 5000000,
+        "ahp": 1000000,
+        "deferred_fee": 600000,
+        "gp_fee_equity": 500000,
+        "gp_contribution": 100
+      },
+      "uses_usd": {
+        "acquisition": 0,
+        "hard": 124194710,
+        "soft": 21290083,
+        "developer_fee": 3300000,
+        "reserves": 1255254
+      },
+      "contains_explicitly_uncommitted_sources": true,
+      "status_note": "Table is proposed/conditional financing, not proof of cash receipt or closed financing."
+    },
+    {
+      "id": "2023",
+      "source_id": "board-packet-2023",
+      "pdf_page": 13,
+      "kind": "reported_budget",
+      "cash_flow_domain": "development_capital",
+      "units_including_manager": 160,
+      "reported_total_usd": 169152004,
+      "includes_city_land_acquisition": true,
+      "excluded_city_land_usd": 0,
+      "sources_usd": {
+        "acquisition_city": 15900000,
+        "mohcd_loan": 69528926,
+        "accrued_interest": 936654,
+        "permanent_loan": 10361000,
+        "gp_contribution": 100,
+        "limited_partner_equity": 72425323
+      },
+      "uses_usd": {
+        "acquisition": 15900000,
+        "hard": 125664665,
+        "soft": 23143948,
+        "developer_fee": 2800000,
+        "reserves": 1643391
+      },
+      "contains_explicitly_uncommitted_sources": false,
+      "status_note": "Table is proposed/conditional financing, not proof of cash receipt or closed financing."
+    }
+  ],
+  "operations": {
+    "id": "2025-full-year",
+    "source_id": "operating-subsidy-2025",
+    "pdf_page": 14,
+    "kind": "reported_budget",
+    "cash_flow_domain": "annual_building_operations",
+    "units": 160,
+    "psh_losp_units": 32,
+    "pbv_units": 32,
+    "lottery_units": 95,
+    "manager_units": 1,
+    "nplh_subset_of_psh": 19,
+    "tenant_rents_usd": 2699004,
+    "pbv_assistance_usd": 844560,
+    "losp_usd": 568307,
+    "other_income_usd": 11326,
+    "vacancy_tenant_usd": 134950,
+    "vacancy_pbv_usd": 42228,
+    "reported_egi_usd": 3946018,
+    "expenses_before_reserves_usd": 2575541,
+    "ground_rent_usd": 15000,
+    "bond_fees_usd": 2500,
+    "replacement_reserve_deposit_usd": 80000,
+    "reported_noi_usd": 1272978,
+    "hard_debt_service_usd": 1046907,
+    "reported_cashflow_usd": 226071,
+    "below_line_fees_usd": 18888,
+    "reported_residual_receipts_usd": 207183,
+    "separate_hsh_services_usd": 395976,
+    "services_embedded_in_building_expenses_usd": 193969,
+    "estimated_psh_tenant_revenue_inputs": {
+      "family_units": 12,
+      "family_monthly_rent_usd": 250,
+      "tay_units": 20,
+      "tay_monthly_rent_usd": 125,
+      "reported_annual_usd": 66000
+    },
+    "losp_schedule": {
+      "pdf_page": 16,
+      "start": "2025-08-01",
+      "end": "2040-12-31",
+      "first_year_months": 5,
+      "first_year_disbursement_usd": 236794,
+      "reported_contract_usd": 11720975,
+      "disbursements_usd": [
+        236794,
+        589070,
+        610576,
+        632852,
+        655924,
+        679819,
+        704569,
+        730201,
+        756748,
+        784242,
+        812716,
+        842204,
+        872742,
+        904367,
+        937118,
+        971033
+      ]
+    },
+    "qualifiers": [
+      "Full-year 2025-dollar budget; opening year disbursement is five months only.",
+      "LOSP requests and projections are not actual realized expenditures.",
+      "Disbursement subject to annual appropriations and adjustments.",
+      "NOI here follows the agency worksheet, including reserves/ground rent/bond fees as deductions.",
+      "NPLH units are a subset, not additional units."
+    ]
+  },
+  "unresolved": [
+    "PBV growth: narrative p.6 vs table pp.6-7; do not choose silently.",
+    "PSH services staffing: 2.5 FTE p.5 vs 2.0 FTE pp.9-10.",
+    "2020 reported residential plus commercial area does not equal stated total.",
+    "2023 commercial component areas do not equal stated subtotal.",
+    "2023 sources add to one dollar less than reported total.",
+    "Original Excel cell formulas and complete executed financing documents not reconstructed."
+  ]
+}

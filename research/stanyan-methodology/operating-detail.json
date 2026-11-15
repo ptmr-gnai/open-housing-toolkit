@@ -1,0 +1,23 @@
+{
+  "source_id": "operating-subsidy-2025",
+  "pdf_page": 14,
+  "document_date": "2025-05-02",
+  "period": "full-year 2025 budget",
+  "cash_flow_domain": "annual_building_operations",
+  "expense_categories_usd": {
+    "management": 180650,
+    "salaries_and_benefits": 553213,
+    "administration": 173586,
+    "utilities": 423107,
+    "taxes_and_licenses": 67678,
+    "insurance": 356933,
+    "maintenance_and_repairs": 626405,
+    "embedded_supportive_services": 193969
+  },
+  "coverage_screen": {
+    "source_id": "operating-subsidy-2025",
+    "pdf_page": 6,
+    "minimum_year_one_dscr": "1.15",
+    "meaning": "Historical agency Year 1 screen only. Passing it is not project approval or a finding about the full 20-year model."
+  }
+}

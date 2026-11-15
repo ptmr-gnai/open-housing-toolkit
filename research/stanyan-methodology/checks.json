@@ -1,0 +1,56 @@
+{
+  "scope": "selected reported-budget arithmetic; no feasibility clearance",
+  "capital": {
+    "2020": {
+      "source_rows_usd": 98121311,
+      "source_rows_minus_reported_total_usd": 1,
+      "use_rows_usd": 98121310,
+      "use_rows_minus_reported_total_usd": 0,
+      "reported_total_per_unit_usd": "817677.58",
+      "reported_total_plus_excluded_land_usd": 114021310
+    },
+    "2022": {
+      "source_rows_usd": 150040046,
+      "source_rows_minus_reported_total_usd": -1,
+      "use_rows_usd": 150040047,
+      "use_rows_minus_reported_total_usd": 0,
+      "reported_total_per_unit_usd": "937750.29",
+      "reported_total_plus_excluded_land_usd": 165940047
+    },
+    "2023": {
+      "source_rows_usd": 169152003,
+      "source_rows_minus_reported_total_usd": -1,
+      "use_rows_usd": 169152004,
+      "use_rows_minus_reported_total_usd": 0,
+      "reported_total_per_unit_usd": "1057200.03",
+      "reported_total_plus_excluded_land_usd": 169152004
+    }
+  },
+  "operations": {
+    "recomputed_egi_usd": 3946019,
+    "egi_rows_minus_reported_egi_usd": 1,
+    "total_operating_deductions_usd": 2673041,
+    "reported_egi_minus_deductions_usd": 1272977,
+    "reported_noi_minus_recomputed_noi_usd": 1,
+    "reported_noi_minus_hard_debt_usd": 226071,
+    "reported_cashflow_minus_fees_usd": 207183,
+    "reported_noi_based_dscr": "1.215942",
+    "replacement_reserve_per_unit_usd": "500.00",
+    "psh_estimated_annual_tenant_rent_usd": 66000,
+    "building_plus_separately_funded_psh_services_usd": 2971517,
+    "losp_first_calendar_year_rounded_usd": "236795",
+    "losp_schedule_sum_usd": 11720975
+  },
+  "diagnostics": {
+    "meaning": "analyst static Year 1 perturbations; all other items held fixed; no subsidy adjustment or probabilities modeled",
+    "without_losp_dscr": "0.673098",
+    "without_losp_cashflow_usd": -342236,
+    "ten_percent_base_opex_increase_dscr": "0.969928",
+    "2023_total_excluding_land_usd": 153252004,
+    "2022_to_2023_change_excluding_land_usd": 3211957,
+    "2020_unallocated_area_sf": 20000,
+    "2022_component_area_sf": 193739,
+    "2023_commercial_components_sf": 10987,
+    "2023_components_minus_stated_commercial_sf": 1852
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "without-losp",
+  "assumption": "losp_multiplier",
+  "value": "0",
+  "rationale": "Analyst diagnostic: remove full-year 2025 LOSP operating income without replacement, holding all other items fixed. The historical appropriations schedule remains a source record, not a revised contract."
+}

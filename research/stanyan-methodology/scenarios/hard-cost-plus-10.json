@@ -1,0 +1,6 @@
+{
+  "id": "hard-cost-plus-10",
+  "assumption": "hard_cost_multiplier",
+  "value": "1.10",
+  "rationale": "Analyst diagnostic: increase the 2023 hard-cost budget by 10%, holding every other use and all sources fixed. Do not infer new public funding, new debt, design changes or revised 2025 operations."
+}

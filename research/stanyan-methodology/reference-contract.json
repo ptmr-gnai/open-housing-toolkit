@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "reference_policy": "Stanyan is the toolkit's primary best available professional reference case pending a better alternative. Reuse its review structure; evaluate its arithmetic and source conflicts rather than assume correctness.",
+  "evaluation_type": "known-case reconstruction; later outcomes exposed; not a blind backtest",
+  "scope": "Three capital summary tables and selected 2025 annual operating-budget categories and waterfall. No full 20-year Excel or legal/physical feasibility reproduction.",
+  "expected": [
+    {"node": "capital.2020.total_uses", "value": "98121310.00", "source_id": "predevelopment-2020", "pdf_page": 4},
+    {"node": "capital.2020.source_residual", "value": "1.00", "source_id": "predevelopment-2020", "pdf_page": 4},
+    {"node": "capital.2022.total_uses", "value": "150040047.00", "source_id": "preliminary-gap-2022", "pdf_page": 5},
+    {"node": "capital.2022.source_residual", "value": "-1.00", "source_id": "preliminary-gap-2022", "pdf_page": 5},
+    {"node": "capital.2023.total_uses", "value": "169152004.00", "source_id": "board-packet-2023", "pdf_page": 13},
+    {"node": "capital.2023.total_excluding_land", "value": "153252004.00", "source_id": "board-packet-2023", "pdf_page": 13},
+    {"node": "capital.2023.source_residual", "value": "-1.00", "source_id": "board-packet-2023", "pdf_page": 13},
+    {"node": "operations.base_expenses", "value": "2575541.00", "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "operations.egi", "value": "3946018.00", "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "operations.noi", "value": "1272978.00", "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "operations.cashflow", "value": "226071.00", "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "operations.residual_receipts", "value": "207183.00", "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "operations.dscr", "value": "1.22", "round_places": 2, "source_id": "operating-subsidy-2025", "pdf_page": 14},
+    {"node": "schedule.reported_sum", "value": "11720975.00", "source_id": "operating-subsidy-2025", "pdf_page": 16},
+    {"node": "schedule.pro_rata_minus_reported", "value": "1.00", "source_id": "operating-subsidy-2025", "pdf_page": 16}
+  ],
+  "interpretation": "Reported totals and displayed rounding residuals are separate targets. Reproducing a reported total using a disclosed rounding bridge does not independently validate the original spreadsheet."
+}

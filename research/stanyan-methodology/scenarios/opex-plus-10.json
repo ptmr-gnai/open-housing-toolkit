@@ -1,0 +1,6 @@
+{
+  "id": "opex-plus-10",
+  "assumption": "operating_expense_multiplier",
+  "value": "1.10",
+  "rationale": "Analyst diagnostic: increase every 2025 base operating-expense category by 10%; keep revenues, debt service, reserve deposits and separately funded PSH services fixed. No automatic LOSP adjustment."
+}

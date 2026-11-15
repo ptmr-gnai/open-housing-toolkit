@@ -1,0 +1,94 @@
+{
+  "retrieval_is_not_observation_date": true,
+  "sources": [
+    {
+      "id": "predevelopment-2020",
+      "url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20St%20Predevelopment%20Loan%20Evaluation%20-%20Loan%20Committee%2010-02-2020.pdf",
+      "retrieved_at": "2026-11-09T18:27:16.361930+00:00",
+      "status": 200,
+      "final_url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20St%20Predevelopment%20Loan%20Evaluation%20-%20Loan%20Committee%2010-02-2020.pdf",
+      "content_type": "application/pdf",
+      "sha256": "28db2140b438f15c792209b8292ea191a5cedbb56658a6cc7c7fc23d676e2985",
+      "bytes": 956123,
+      "document_date": "2020-10-02",
+      "title": "MOHCD predevelopment loan evaluation",
+      "review_scope": "Reviewed executive summary, site/program discussion, capital table, underwriting, services, eligibility/ranking and conditions within PDF pp.1-25, plus approval emails pp.26-28 and attachment structure; not an exhaustive report or attachment audit.",
+      "pdf": "sources/predevelopment-2020.pdf",
+      "pages": "sources/predevelopment-2020.pages.json",
+      "pages_sha256": "befc5bc8032e3500b07c3a152101b11c46a97037523f75ca9c0541a1de113361",
+      "extraction": {
+        "library": "pymupdf",
+        "version": "2.1",
+        "method": "page.get_text('text', sort=False)",
+        "page_numbering": "1-based PDF pages; printed page numbers can differ"
+      }
+    },
+    {
+      "id": "preliminary-gap-2022",
+      "url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20Preliminary%20Gap%20Loan%20Eval%20-%20Loan%20Committee%206-24-2022.pdf",
+      "retrieved_at": "2026-11-09T18:27:17.081554+00:00",
+      "status": 200,
+      "final_url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20Preliminary%20Gap%20Loan%20Eval%20-%20Loan%20Committee%206-24-2022.pdf",
+      "content_type": "application/pdf",
+      "sha256": "b63c68105faa4e39d1615351fcf3765ac839058831da4b3c321a8b7a0c520dde",
+      "bytes": 15138174,
+      "document_date": "2022-06-24",
+      "title": "MOHCD preliminary gap loan evaluation",
+      "review_scope": "Reviewed executive summary and sources/uses pp.2-6, site/design/community discussion pp.13-20, financing/operations/services/conditions pp.21-35; inspected attachment structure and selected pro forma portions. Sponsor-profile sections and drawings not exhaustively audited.",
+      "pdf": "sources/preliminary-gap-2022.pdf",
+      "pages": "sources/preliminary-gap-2022.pages.json",
+      "pages_sha256": "cbf3561318879f83e23aee7e85e5d5802683bfa7c969d71ea35732690331a579",
+      "extraction": {
+        "library": "pymupdf",
+        "version": "2.1",
+        "method": "page.get_text('text', sort=False)",
+        "page_numbering": "1-based PDF pages; printed page numbers can differ"
+      }
+    },
+    {
+      "id": "board-packet-2023",
+      "url": "https://sfgov.legistar.com/View.ashx?GUID=4F7996CD-ECE6-4F95-945E-69336BC233E7&ID=11989749&M=F",
+      "retrieved_at": "2026-11-09T18:27:18.227155+00:00",
+      "status": 200,
+      "final_url": "https://sfgov.legistar.com/View.ashx?GUID=4F7996CD-ECE6-4F95-945E-69336BC233E7&ID=11989749&M=F",
+      "content_type": "application/pdf",
+      "sha256": "28b1550153e7938e565502236b6b7c85939b176ded6985d828f808527e869b3b",
+      "bytes": 4888361,
+      "document_date": "2023-05-17",
+      "title": "Board packet: Budget and Legislative Analyst report, File 23-0524",
+      "review_scope": "Read BLA report PDF pp.9-17 (printed pp.8-16). Other packet legal instruments not exhaustively reviewed.",
+      "pdf": "sources/board-packet-2023.pdf",
+      "pages": "sources/board-packet-2023.pages.json",
+      "pages_sha256": "0e52b0da187bd61b909efa20fc7c4e2b93b65c60737f23641fe2893464b8c3b6",
+      "extraction": {
+        "library": "pymupdf",
+        "version": "2.1",
+        "method": "page.get_text('text', sort=False)",
+        "page_numbering": "1-based PDF pages; printed page numbers can differ"
+      }
+    },
+    {
+      "id": "operating-subsidy-2025",
+      "url": "https://media.api.sf.gov/documents/Approved_730_Stanyan_Request_for_LOSP_Funding_Loan_Evaluation_-LC_5-2-25.pdf",
+      "retrieved_at": "2026-11-09T18:27:17.638051+00:00",
+      "status": 200,
+      "final_url": "https://media.api.sf.gov/documents/Approved_730_Stanyan_Request_for_LOSP_Funding_Loan_Evaluation_-LC_5-2-25.pdf",
+      "content_type": "application/pdf",
+      "sha256": "9fa4e1af29b215441a31edde3620332e46aca50dcdf48ce0609c3739ad538dfd",
+      "bytes": 1900760,
+      "document_date": "2025-05-02",
+      "title": "MOHCD LOSP contract funding evaluation",
+      "review_scope": "Read PDF pp.1-14 and 16-17; inspected 20-year attachment on p.15; reconstructed selected Year 1 arithmetic, not all 20 years.",
+      "pdf": "sources/operating-subsidy-2025.pdf",
+      "pages": "sources/operating-subsidy-2025.pages.json",
+      "pages_sha256": "c3d10b04e7956ae225e02d55848b8dc1660e99bf0519c208bd24e7a96635adad",
+      "extraction": {
+        "library": "pymupdf",
+        "version": "2.1",
+        "method": "page.get_text('text', sort=False)",
+        "page_numbering": "1-based PDF pages; printed page numbers can differ"
+      }
+    }
+  ],
+  "terms": "Public agency documents retained as bounded research snapshots. Upstream rights apply; repository MIT/CC licenses do not relicense them."
+}
