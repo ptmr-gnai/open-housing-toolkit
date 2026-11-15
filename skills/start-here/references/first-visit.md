@@ -55,7 +55,9 @@ the Bronx", "something like a render") and confirm your reading.
 **Find sites (a).** Ask where: an address, landmark or subway station, plus roughly
 how far around it (default 400 m, about a five-minute walk each way). For a
 neighbourhood or intersection, propose a central address or station and confirm.
-Create the request, show the resolved place and confirm before collecting:
+If they already named a clear place, don't stall: say in one line the place and
+size you'll search ("an 800 m square around the 170 St station on the 4") and offer
+to widen or narrow it afterwards. Create the request:
 
 ```sh
 .venv/bin/python scripts/locate.py area --station "170 St" --routes 4 --out runs/NAME/request.json
@@ -66,8 +68,10 @@ Then run collect, context and discover from [Find sites](../../../docs/guides/di
 with `--input runs/NAME/request.json` and outputs under `runs/NAME/`. A small area
 takes about a minute. If collect reports 0 lots, read `inventory/receipts.json`
 before saying anything. Report: how many lots, how many are recorded as nonhousing,
-how they split by zoning path, three or four example sites in plain words, and the
-paths to `packet.html` and `all-lots.csv`. Then offer: research one of these lots,
+how they split by zoning path, and three or four example sites in plain words,
+copying each address and tax lot exactly from the packet. On a Mac, open the result
+for them with `open runs/NAME/discovery/packet.html`; mention `all-lots.csv` as the
+spreadsheet of every lot. Then offer: research one of these lots,
 try another area, or test a housing goal ([goal search](../../goal-seek-housing-sites/SKILL.md)).
 
 **Research one lot (b).** Resolve it with
@@ -101,6 +105,10 @@ then explain in four short bullets what each of its packets shows, and ask quest
   how much floor area zoning allows relative to lot size). Never lead with module names.
 - After the opening, ask one or two questions at a time and end with a real question.
 - Show results, not logs. For each result: what it is, the one limit that matters
-  most, and the next choice.
+  most, and the next choice. Open the main `packet.html` for them (`open PATH` on a
+  Mac) instead of listing every file.
+- Don't mention commands, module names, file formats or internal terms (SVG, mesh,
+  IR, manifest, `housing_workflow`) unless asked. Say "the 3D sketch", "the research
+  packet", "the site list".
 - Keep each project in a new `runs/NAME/` folder. Never commit, push or upload.
 - Do not invent sites, numbers, photos or images. Say what is unknown.
