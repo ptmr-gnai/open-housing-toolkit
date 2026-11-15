@@ -23,6 +23,13 @@ For an explicitly narrower live known-lot request, follow [Investigate a lot](do
 collect only needed inputs, verify stage outputs, and return a short cited cover
 note connecting the site's recorded conditions to the supplied assumptions.
 
+For an area search ("find sites near…"), follow [Find sites](docs/guides/discover-sites.md)
+and the [discover-nonhousing-sites](skills/discover-nonhousing-sites/SKILL.md) skill.
+If collection returns 0 lots, read the run's `inventory/receipts.json` errors before
+reporting; for `CERTIFICATE_VERIFY_FAILED`, apply the
+[setup remedy](docs/guides/setup.md#if-live-collection-reports-certificate-errors)
+rather than disabling verification.
+
 ## User runs are local and read-only with respect to the checkout
 
 Running this toolkit does not authorize committing, pushing, uploading or publishing

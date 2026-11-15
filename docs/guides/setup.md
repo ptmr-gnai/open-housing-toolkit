@@ -1,6 +1,8 @@
 # Set up the checkout once
 
-Use Codex on your Mac with Python 3.11+. The toolkit now uses a standard src/
+Use Codex or Claude Code on your Mac with Python 3.11+. The checkout is about
+1.3 GB on disk, mostly retained research cases (the download is about 80 MB).
+The toolkit uses a standard src/
 layout, so install the checkout in editable mode before running its Python modules.
 The existing `python -m housing_…` commands stay the same.
 
@@ -46,3 +48,19 @@ Windows users should use WSL and its Linux environment; native Windows remains
 unverified. A wheel-only deployment without the repository resources is not the
 supported installation: keep this editable checkout and its config, skills,
 examples and archived verification sources together.
+
+## If live collection reports certificate errors
+
+Live collection fetches public NYC data over HTTPS. Some macOS Python builds
+(python.org installers, uv-managed Python) cannot verify those certificates and
+fail with `CERTIFICATE_VERIFY_FAILED`. Lot discovery then reports 0 lots; the
+errors are recorded in the run's `inventory/receipts.json`. Point Python at a
+trusted bundle and rerun into a fresh folder:
+
+```sh
+python -m pip install certifi
+export SSL_CERT_FILE="$(python -m certifi)"
+```
+
+Commands that accept `--ca-file` can take the same path instead. Saved examples,
+the offline tour and all checks need no network access.

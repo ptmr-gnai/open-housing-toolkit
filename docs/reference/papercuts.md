@@ -1,5 +1,37 @@
 # Papercut log
 
+November 15, 2026, pre-advisor-meeting live check: a fresh lot-discovery run on a
+uv-managed macOS Python failed every HTTPS request with `CERTIFICATE_VERIFY_FAILED`,
+yet `collect` reported `"status": "passed"` with 0 lots and `context` then blocked
+with "Invalid context lot universe". The same run with a certifi bundle collected
+139 lots and produced a discovery packet. A code guard that stops on a total
+collection failure was tried and withdrawn: retained discovery packages pin the
+exact implementation bytes, so any edit to the collection code invalidates every
+retained case. Setup and AGENTS.md now document the certificate remedy and the
+0-lot symptom. Remaining gap: surface total collection failure in the CLI result,
+which needs versioned implementation identities so retained cases stay verifiable.
+`make check` also failed on every Mac because temp roots under /var were compared
+with their resolved /private/var form; the tests now resolve the root.
+
+November 9, 2026, executable Stanyan follow-up: the new research benchmark binds
+source tables, fifteen explicit reproduction targets and one-assumption diagnostics.
+The first build caught output differences caused by JSON key order during replay;
+canonical dependencies, impact ordering and report rows now make dictionary order
+irrelevant, with a regression test. The LOSP partial-year check also exposes a
+previous prose error: $236,794 is reported, while the rounded five-month pro rata
+is $236,795. Prior source/analysis snapshots are preserved; the correction is
+documented in the new benchmark guide. Active user skills are unchanged.
+
+November 9, 2026: the [Stanyan case study](../../research/stanyan-methodology/README.md)
+compares public budget versions without changing the frozen Bronx reports.
+Its checks preserve one-dollar capital/operating rounding differences, paid-land
+boundaries, overlapping housing-program populations and an opening-year partial
+disbursement. Six counterexamples challenge later-evidence leakage, capital versus
+operating subsidy, duplicated land, duplicated homes and altered reconciliation.
+The case separately records unresolved area, staffing and escalation conflicts;
+passing integrity checks do not resolve those source disagreements. No onboarding
+or active skill behavior was changed.
+
 GitHub publication preparation on 12 October 2026: the local checks previously
 had no CI entry point for the retained research experiments. `make research-check`
 and GitHub Actions now run those checks without live collection or model calls.
@@ -551,3 +583,40 @@ the toolkit can do or how to choose. The coordinator now guides new and returnin
 practitioners through outcomes, capability-aware preflight, one or two decisions at
 a time and a resumable local ledger. This remains agent guidance, not automatic
 conversation state or a guarantee of professional completeness.
+# Discovery v1 live probes — November 9, 2026
+
+- Live collection exposed URL query-parameter ordering differences after JSON
+  serialization. Compare query semantics while preserving exact provider/predicate
+  and coverage checks; finalize only unsealed raw collections.
+- Zero-apartment hotel records rose to the top of the initial private screen.
+  Add an explicit occupancy review for hotel/housing classes with zero/missing
+  units; preserve auto lots with zero recorded homes and residential FAR zero.
+- Park-zoned public lots and infrastructure uses need distinct review. The first
+  correction overreached by treating all transportation/utility land use as
+  infrastructure, catching auto businesses. Class-G auto records now remain private
+  candidates unless another public-use signal applies. Regression tests cover both.
+- Full primary inventory and context collection still do not supply actual
+  occupancy, lot geometry, assemblage, owner intent or complete economics.
+  [Retained cases and failures](../../research/discovery-v1/report.md).
+
+
+## Nonhousing discovery and financial search v1
+
+Broad nonhousing admission now includes retail, parking and auto uses without
+requiring extra recorded residential FAR. Sorted DOB BIS queries timed out;
+bounded captures retain failures and partial coverage. HPD registration and
+affordable-production joins catch associations that DOB-only screens miss.
+None establishes current occupancy. Monthly zoning records reconcile descriptors
+without silently replacing PLUTO or claiming entitlement.
+
+Financial checks now separate first-year and later-year rent/coverage, include
+subordinate principal in leverage, cap modeled debt by funding need, preserve
+proposed source status, handle maturity principal and post-payoff undefined DSCR.
+Sensitivity comparisons retain every changed trial field. Handoffs bind source
+bytes and reviewed ancestry through parcel, financial and area stages.
+
+The University Avenue schematic exposes a recorded-versus-mapped parcel-area
+difference and a 13-floor scenario whose arbitrary edge margin is not a lawful
+setback. Uniform costs do not model tower complexity. Environmental screening,
+site control, lawful bulk, parcel assembly, current use and empirically calibrated
+site costs remain practitioner/data gaps; the new cases do not resolve them.
