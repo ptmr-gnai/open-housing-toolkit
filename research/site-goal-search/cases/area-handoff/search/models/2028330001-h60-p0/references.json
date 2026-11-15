@@ -1,0 +1,22 @@
+[
+  {
+    "body_path": "sources/0.pdf",
+    "bytes": 276220,
+    "id": "hpd-ncf-2025",
+    "locator": "PDF pages 6 and 8; coverage, income/expense and reserve structures, not automatic program eligibility.",
+    "retention": "retained_bytes",
+    "sha256": "3d0ffc5f8acb206e69d567699498a4c1047aa076b5bcce5a0cf11aee87e4c435",
+    "title": "HPD New Construction Finance term sheet, July 2025",
+    "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf"
+  },
+  {
+    "body_path": "sources/1.pdf",
+    "bytes": 182485,
+    "id": "hdc-nc-2024",
+    "locator": "PDF pages 2,4,5; permanent debt sizing, leverage, repayment and reserves. Dated program reference, not current qualification.",
+    "retention": "retained_bytes",
+    "sha256": "cbda95050ad439a346b1a17895b0c0c6d4d4637b8d13ef973f0cc67e01954085",
+    "title": "HDC New Construction term sheet, November 2024 file",
+    "url": "https://www.nychdc.com/sites/default/files/2025-01/HDC%20NC%20term%20sheet_112024.pdf"
+  }
+]

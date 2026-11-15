@@ -1,0 +1,15 @@
+{
+  "display_per_group": 3,
+  "id": "jerome-nonhousing",
+  "question": "Which recorded nonhousing sites could support housing, and which general zoning path and follow-up questions apply?",
+  "scope": {
+    "bbox": [
+      -73.928,
+      40.834,
+      -73.909,
+      40.848
+    ],
+    "borough": "BX"
+  },
+  "version": "1.0"
+}

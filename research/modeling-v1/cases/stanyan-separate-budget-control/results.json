@@ -1,0 +1,345 @@
+{
+  "all_declared_other_sources_usd": "0.00",
+  "annual": [
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "18888.00",
+      "calendar_year": 2025,
+      "cash_after_reserves_debt_and_below_line_usd": "207183.00",
+      "coverage_noi_usd": "1272978.00",
+      "dscr": "1.215942",
+      "effective_gross_income_usd": "3946019.00",
+      "expense_lines": [
+        {
+          "amount_usd": "180650.00",
+          "id": "management"
+        },
+        {
+          "amount_usd": "553213.00",
+          "id": "salaries_and_benefits"
+        },
+        {
+          "amount_usd": "173586.00",
+          "id": "administration"
+        },
+        {
+          "amount_usd": "423107.00",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "67678.00",
+          "id": "taxes_and_licenses"
+        },
+        {
+          "amount_usd": "356933.00",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "626405.00",
+          "id": "maintenance_and_repairs"
+        },
+        {
+          "amount_usd": "193969.00",
+          "id": "embedded_supportive_services"
+        },
+        {
+          "amount_usd": "15000.00",
+          "id": "ground-rent"
+        },
+        {
+          "amount_usd": "2500.00",
+          "id": "bond-fees"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2564054.00",
+          "id": "tenant-rent-after-reported-loss",
+          "scheduled_usd": "2564054.00",
+          "vacancy_loss_usd": "0.00"
+        },
+        {
+          "effective_usd": "802332.00",
+          "id": "pbv-after-reported-loss",
+          "scheduled_usd": "802332.00",
+          "vacancy_loss_usd": "0.00"
+        },
+        {
+          "effective_usd": "568307.00",
+          "id": "losp-full-year-budget",
+          "scheduled_usd": "568307.00",
+          "vacancy_loss_usd": "0.00"
+        },
+        {
+          "effective_usd": "11326.00",
+          "id": "other-income",
+          "scheduled_usd": "11326.00",
+          "vacancy_loss_usd": "0.00"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1352978.00",
+      "operating_expenses_usd": "2593041.00",
+      "other_debt_service_usd": "1046907",
+      "primary_debt_service_usd": "0.00",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "0.00",
+      "replacement_reserve_usd": "80000.00",
+      "required_dscr": "1.15",
+      "year": 1
+    }
+  ],
+  "annual_mortgage_constant": "0.03333333333333333333333333333333333333333",
+  "balloon_at_term_usd": "0.00",
+  "binding_debt_caps": [
+    "absolute_cap"
+  ],
+  "capital_lines": [
+    {
+      "amount_usd": "15900000.00",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "land",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "acquisition_closing",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "demolition",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "remediation",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "125664665.00",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "hard_costs",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "hard_contingency",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "23143948.00",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "soft_costs",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "soft_contingency",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "offsite_infrastructure",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "construction_interest",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "financing_fees",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "2800000.00",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "developer_fee",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "1643391.00",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "initial_reserves",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "other",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero in this historical aggregate-budget control: separate subcategory allocation is not available, so do not add a second amount beyond the reported hard/soft source totals. Not a finding of no underlying cost.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "taxes_and_carry",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Allocation-only zero in this historical aggregate-budget control: separate subcategory allocation is not available, so do not add a second amount beyond the reported hard/soft source totals. Not a finding of no underlying cost.",
+        "reference_ids": [
+          "board-packet-2023"
+        ]
+      },
+      "category": "business_relocation",
+      "measure": "fixed"
+    }
+  ],
+  "capital_not_covered_by_committed_sources_usd": "169152004.00",
+  "cashflow_shortfall_years": [],
+  "committed_other_sources_usd": "0.00",
+  "coverage_breach_years": [],
+  "debt_balance_basis": "Scheduled balances assume all payments including maturity principal are made; negative cash years identify a funding need, not proof of payment.",
+  "debt_caps_usd": {
+    "absolute_cap": "0.00",
+    "dscr": "1800911.74",
+    "funding_need": "169152004.00"
+  },
+  "debt_sizing_years": 1,
+  "financing_limit_breaches": [],
+  "maximum_primary_loan_capacity_usd": "0.00",
+  "meaning": "Conditional rental-project underwriting diagnostic; no legal/physical feasibility, financing award or investor-return finding.",
+  "methods": {
+    "capital": "Sum rounded explicit cost lines; zero costs require attributed input assumptions.",
+    "debt": "Minimum of declared DSCR, LTC, LTV and absolute capacities plus scenario funding need after declared sources; monthly fixed-rate amortization.",
+    "gap": "Uses minus modeled primary debt and declared other sources; proposed is not committed and gap is not a subsidy award.",
+    "income": "Each annual income stream grows from year-one dollars; start/end years gate receipt, loss applies by stream.",
+    "noi": "Effective income less operating expenses; replacement reserve treatment for coverage is explicit."
+  },
+  "missing_financing_checks": [
+    "No combined loan-to-cost cap evaluated",
+    "No loan-to-value cap or appraisal evaluated"
+  ],
+  "modeled_primary_loan_is_committed": false,
+  "modeled_primary_loan_usd": "0.00",
+  "primary_debt_sizing_years": 1,
+  "program": {
+    "basis": {
+      "kind": "reported_input",
+      "rationale": "2022 labeled component schedule sums193739sf. This amount is not asserted as the2023 or2025 as-built area, apartment net area, or a validated envelope. All capital rows here are fixed, so it does not drive cost.",
+      "reference_ids": [
+        "preliminary-gap-2022"
+      ]
+    },
+    "gross_area_sf": "193739",
+    "homes": 160
+  },
+  "request_id": "stanyan-separate-budget-control",
+  "surplus_after_modeled_loan_and_all_declared_sources_usd": "0.00",
+  "total_development_cost_usd": "169152004.00",
+  "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "169152004.00",
+  "unresolved": [
+    "Entitlement, physical fit, existing occupancy and business relocation",
+    "Land price/title/control and environmental scope",
+    "Construction draws, interest carry timing, lease-up and conversion",
+    "Tax-credit/program eligibility, tax treatment and actual commitments",
+    "Subordinate loan repayment/balloons: only explicitly supplied annual debt service is included",
+    "Investor return, exit value/taxes, refinancing and complete project feasibility"
+  ],
+  "unused_primary_loan_capacity_usd": "0.00",
+  "version": "1.0.0"
+}

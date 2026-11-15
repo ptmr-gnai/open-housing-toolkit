@@ -1,0 +1,2 @@
+year,calendar_year,effective_gross_income_usd,operating_expenses_usd,noi_before_replacement_reserve_usd,replacement_reserve_usd,coverage_noi_usd,below_line_usd,primary_debt_service_usd,other_debt_service_usd,required_dscr,maturity_principal_due_usd,dscr,meets_declared_dscr,cash_after_reserves_debt_and_below_line_usd,additional_effective_income_for_coverage_usd,primary_loan_balance_before_maturity_payment_usd,primary_loan_balance_year_end_usd
+1,2025,3946019.00,2593041.00,1352978.00,80000.00,1272978.00,18888.00,0.00,1046907,1.15,0,1.215942,True,207183.00,0,,0.00

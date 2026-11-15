@@ -1,0 +1,21 @@
+[{"bbl":"2027380002.0","billbbl":"2027380002.0","address":"1223 SPOFFORD AVENUE","agency":"DCAS","use_type":"NO USE","non_city_ownership":"C","excatdesc":"PROPERTY WITH NO USE"}
+,{"bbl":"2027380002.0","billbbl":"2027380002.0","address":"1223 SPOFFORD AVENUE","agency":"EDC","use_type":"IN USE-TENANTED","non_city_ownership":"C","excatdesc":"LEASED OUT TO PRIVATE TENANT"}
+,{"bbl":"2027380035.0","billbbl":"2027380035.0","address":"1221 SPOFFORD AVENUE","agency":"DCAS","use_type":"NO USE","non_city_ownership":"C","excatdesc":"PROPERTY WITH NO USE"}
+,{"bbl":"2027380035.0","billbbl":"2027380035.0","address":"1221 SPOFFORD AVENUE","agency":"EDC","use_type":"IN USE-TENANTED","non_city_ownership":"C","excatdesc":"LEASED OUT TO PRIVATE TENANT"}
+,{"bbl":"2027380035.0","billbbl":"2027380035.0","address":"1221 SPOFFORD AVENUE","agency":"EDC","use_type":"IN USE-TENANTED","non_city_ownership":"C","excatdesc":"LEASED OUT TO PRIVATE TENANT"}
+,{"bbl":"2027380036.0","billbbl":"2027380036.0","address":"1215 SPOFFORD AVENUE","agency":"EDC","use_type":"IN USE-TENANTED","non_city_ownership":"C","excatdesc":"LEASED OUT TO PRIVATE TENANT"}
+,{"bbl":"2027380036.0","billbbl":"2027380036.0","address":"1215 SPOFFORD AVENUE","agency":"DCAS","use_type":"NO USE","non_city_ownership":"C","excatdesc":"PROPERTY WITH NO USE"}
+,{"bbl":"2027390015.0","billbbl":"2027390015.0","address":"1201-39 LAFAYETTE AVENUE","agency":"HRA","use_type":"FIELD OFFICE-PUBLIC","non_city_ownership":"P","leased_properties":"L","excatdesc":"OFFICE USE"}
+,{"bbl":"2027400013.0","billbbl":"2027400013.0","address":"867 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400015.0","billbbl":"2027400015.0","address":"863 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400016.0","billbbl":"2027400016.0","address":"859 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400018.0","billbbl":"2027400018.0","address":"855 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400019.0","billbbl":"2027400019.0","address":"851 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400021.0","billbbl":"2027400021.0","address":"847 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400022.0","billbbl":"2027400022.0","address":"843 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400024.0","billbbl":"2027400024.0","address":"839 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400025.0","billbbl":"2027400025.0","address":"835 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400027.0","billbbl":"2027400027.0","address":"831 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400028.0","billbbl":"2027400028.0","address":"827 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400030.0","billbbl":"2027400030.0","address":"823 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"IN USE-RESIDENTIAL STRUCTURE","non_city_ownership":"O","excatdesc":"PROPERTY WITH RESIDENTIAL USE"}
+,{"bbl":"2027400031.0","billbbl":"2027400031.0","address":"819 HUNTS POINT AVENUE","agency":"NYCHA","use_type":"OTHER OPEN SPACE","non_city_ownership":"O","excatdesc":"CULTURAL & RECREATIONAL USE"}]

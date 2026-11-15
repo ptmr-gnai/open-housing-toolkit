@@ -1,0 +1,482 @@
+{
+  "floors": [
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-1",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-2",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-3",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-4",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-5",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-6",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-7",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-8",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-9",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-10",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-11",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-12",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    },
+    {
+      "footprint": {
+        "rationale": "Analyst-authored inscribed rectangular plate with an8ft geometric margin from all mapped edges, scaled algebraically to the declared gross-area program. This is NOT a zoning setback, buildable envelope, structure or floor-plan finding. Existing buildings/leases are not removed by this diagram.",
+        "vertices_ft": [
+          [
+            22.4336579006,
+            62.2492039362
+          ],
+          [
+            71.9827253471,
+            127.5518519758
+          ],
+          [
+            113.0253798449,
+            96.4103084558
+          ],
+          [
+            63.4763123983,
+            31.1076604162
+          ],
+          [
+            22.4336579006,
+            62.2492039362
+          ]
+        ]
+      },
+      "height_ft": {
+        "rationale": "Authored12ft uniform floor-to-floor height for a schematic volume, not a project design or allowed height.",
+        "value": 12
+      },
+      "id": "floor-13",
+      "nonresidential_share": {
+        "rationale": "Uniform10% nonresidential arithmetic allocation to match the explicit90% residential-gross scenario. No actual circulation, commercial or community-facility layout or permitted use is established.",
+        "value": 0.1
+      }
+    }
+  ],
+  "id": "university-1530-explicit-60-home-schematic",
+  "origin": "exploratory_assumptions",
+  "parcel_geometry_sha256": "ebf13ae5b1b9e213144ee68f08a0dec7408e903972dbfb42148bac146130bd04",
+  "purpose": "Test the selected numerical program against a source-bound parcel and the existing area/geometry contracts. Uniform fractional use allocation is arithmetic only; no building design or legal height is asserted.",
+  "reconciliation": {
+    "absolute_tolerance_sf": 1,
+    "rationale": "Existing module maximum numerical area tolerance; not architectural acceptance."
+  },
+  "site_bbl": "2028750045",
+  "version": "0.1.0"
+}

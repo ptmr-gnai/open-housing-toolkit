@@ -1,0 +1,32 @@
+{
+  "analysis_sha256": "87d4fb8c7f3cf3422b8c065426015b88cd77cec7e11895243357c99e452797e6",
+  "blockers": [],
+  "camera": "Fixed schematic axonometric; no photo registration",
+  "eligible_as_schematic_reference": true,
+  "existing_photo_renderer_compatible": false,
+  "generation_executed": false,
+  "geometry_file": "geometry.json",
+  "geometry_ir_sha256": "5e8c4214bfbfda341f308d41f80150b9c03a3d68cea878386e7b3e7d6e11c3f1",
+  "mesh_file": "massing.obj",
+  "mesh_sha256": "e1d8d10a4261569e6d279e7fb7a3ac918b40a7196c99acdaaffcf3ffa73d36d3",
+  "module": "geometry-visual-handoff",
+  "prompt": "Illustrate the attached explicit massing geometry. Preserve its silhouette, floor count and footprint changes. Use a neutral schematic setting: no existing neighbors or street/photo alignment has been established. Label exploratory assumed massing; zoning and building fit unverified. Any visual deviation requires review.",
+  "reference_views": [
+    "plan.svg",
+    "massing.svg"
+  ],
+  "required_review": "Inspect generated silhouette, floor count, footprint changes and viewpoint against the mesh; no fidelity acceptance exists yet.",
+  "site_bbl": "2028750045",
+  "status": "schematic_reference_only",
+  "unverified": [
+    "zoning",
+    "survey",
+    "access_egress_layout",
+    "structural_geotechnical",
+    "finance",
+    "existing_context",
+    "photo_camera",
+    "professional_review"
+  ],
+  "version": "0.1.0"
+}

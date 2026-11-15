@@ -1,0 +1,32 @@
+{
+  "id": "jerome-far6",
+  "question": "Which recorded lots near the Jerome Avenue / Mount Eden corridor merit further investigation under an exploratory residential FAR scenario?",
+  "scenario": {
+    "gross_per_zoning_sf": 1,
+    "label": "Exploratory residential FAR 6",
+    "net_efficiency": 0.8,
+    "net_sf_per_home_equivalent": 800,
+    "proposed_residential_far": 6,
+    "rationale": "Analyst screening assumption, not a proposed district, zoning interpretation, physical envelope or approved project. Compare with recorded residential FAR; gross conversion, residential allocation and home size are unreviewed assumptions. No future No-Action forecast or financial feasibility is modeled.",
+    "residential_share": 0.85
+  },
+  "scope": {
+    "bbox": [
+      -73.928,
+      40.834,
+      -73.909,
+      40.848
+    ],
+    "borough": "BX"
+  },
+  "selection": {
+    "hold_active_applications": true,
+    "max_lot_area_sf": 60000,
+    "max_recorded_residential_units": 0,
+    "min_additional_area_proxy_sf": 5000,
+    "min_lot_area_sf": 2500,
+    "mission": "private_redevelopment",
+    "top_n": 10
+  },
+  "version": "1.0"
+}

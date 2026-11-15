@@ -1,0 +1,332 @@
+{
+  "basis": {
+    "kind": "analyst_assumption",
+    "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+    "reference_ids": []
+  },
+  "capital": {
+    "lines": [
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "land",
+        "measure": "fixed",
+        "usd": "975000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "acquisition_closing",
+        "measure": "fixed",
+        "usd": "150000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "demolition",
+        "measure": "fixed",
+        "usd": "487500.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "remediation",
+        "measure": "fixed",
+        "usd": "731250.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "hard_costs",
+        "measure": "per_gross_sf",
+        "usd": "450"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "hard_contingency",
+        "measure": "per_gross_sf",
+        "usd": "45"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "soft_costs",
+        "measure": "per_gross_sf",
+        "usd": "75"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "soft_contingency",
+        "measure": "per_gross_sf",
+        "usd": "7.5"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "offsite_infrastructure",
+        "measure": "fixed",
+        "usd": "243750.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "construction_interest",
+        "measure": "fixed",
+        "usd": "1500000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "financing_fees",
+        "measure": "fixed",
+        "usd": "500000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "developer_fee",
+        "measure": "fixed",
+        "usd": "1500000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "initial_reserves",
+        "measure": "per_home",
+        "usd": "15000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "other",
+        "measure": "fixed",
+        "usd": "0.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "taxes_and_carry",
+        "measure": "fixed",
+        "usd": "400000.00"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "category": "business_relocation",
+        "measure": "fixed",
+        "usd": "487500.00"
+      }
+    ]
+  },
+  "debt": {
+    "absolute_cap_usd": null,
+    "amortization_years": 30,
+    "annual_interest_rate": "0.06",
+    "appraised_value_usd": null,
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+      "reference_ids": []
+    },
+    "maximum_ltv": null,
+    "maximum_total_ltc": "0.9",
+    "minimum_dscr": "1.15",
+    "minimum_dscr_by_year": null,
+    "other_annual_debt_service_usd": "0",
+    "sizing_years": 20,
+    "term_years": 30
+  },
+  "id": "2028750045-h60-p0",
+  "operations": {
+    "below_line": [
+      {
+        "annual_growth": "0.02",
+        "annual_usd": "12000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "asset-and-monitoring-fees"
+      }
+    ],
+    "expenses": [
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "management"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "210000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "staff-and-maintenance"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "utilities"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "insurance"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "150000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "taxes"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "30000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "id": "administration"
+      }
+    ],
+    "first_calendar_year": 2026,
+    "horizon_years": 20,
+    "income": [
+      {
+        "annual_growth": "0.02",
+        "annual_usd": "1440000.00",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+          "reference_ids": []
+        },
+        "end_year": 20,
+        "id": "tenant-rent",
+        "start_year": 1,
+        "vacancy_rate": "0.05"
+      }
+    ],
+    "replacement_reserve": {
+      "annual_growth": "0.03",
+      "annual_usd": "24000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      }
+    },
+    "reserve_deducted_for_coverage": true
+  },
+  "price_basis": "Illustrative year-one 2026 USD; capital costs are fixed scenario values, operating streams escalate at declared nominal rates. No empirical Bronx price calibration.",
+  "program": {
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+      "reference_ids": []
+    },
+    "gross_area_sf": "54901.97",
+    "homes": 60
+  },
+  "question": "Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets? BBL 2028750045.",
+  "references": [
+    {
+      "id": "hpd-ncf-2025",
+      "locator": "PDF pages 6 and 8; coverage, income/expense and reserve structures, not automatic program eligibility.",
+      "title": "HPD New Construction Finance term sheet, July 2025",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf"
+    },
+    {
+      "id": "hdc-nc-2024",
+      "locator": "PDF pages 2,4,5; permanent debt sizing, leverage, repayment and reserves. Dated program reference, not current qualification.",
+      "title": "HDC New Construction term sheet, November 2024 file",
+      "url": "https://www.nychdc.com/sites/default/files/2025-01/HDC%20NC%20term%20sheet_112024.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "amount_usd": "3000000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "id": "sponsor-equity",
+      "kind": "equity",
+      "status": "proposed"
+    }
+  ],
+  "version": "1.0"
+}

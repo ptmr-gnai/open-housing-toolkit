@@ -1,0 +1,1302 @@
+{
+  "all_declared_other_sources_usd": "5000000.00",
+  "annual": [
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "20000.00",
+      "calendar_year": 2026,
+      "cash_after_reserves_debt_and_below_line_usd": "128695.65",
+      "coverage_noi_usd": "1140000.00",
+      "dscr": "1.150000",
+      "effective_gross_income_usd": "2280000.00",
+      "expense_lines": [
+        {
+          "amount_usd": "150000.00",
+          "id": "management"
+        },
+        {
+          "amount_usd": "350000.00",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "150000.00",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "150000.00",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "250000.00",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "50000.00",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2280000.00",
+          "id": "tenant-rent",
+          "scheduled_usd": "2400000.00",
+          "vacancy_loss_usd": "120000.00"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1180000.00",
+      "operating_expenses_usd": "1100000.00",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "13609236.88",
+      "replacement_reserve_usd": "40000.00",
+      "required_dscr": "1.15",
+      "year": 1
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "20400.00",
+      "calendar_year": 2027,
+      "cash_after_reserves_debt_and_below_line_usd": "139695.65",
+      "coverage_noi_usd": "1151400.00",
+      "dscr": "1.161500",
+      "effective_gross_income_usd": "2325600.00",
+      "expense_lines": [
+        {
+          "amount_usd": "154500.00",
+          "id": "management"
+        },
+        {
+          "amount_usd": "360500.00",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "154500.00",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "154500.00",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "257500.00",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "51500.00",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2325600.00",
+          "id": "tenant-rent",
+          "scheduled_usd": "2448000.00",
+          "vacancy_loss_usd": "122400.00"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1192600.00",
+      "operating_expenses_usd": "1133000.00",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "13429600.12",
+      "replacement_reserve_usd": "41200.00",
+      "required_dscr": "1.15",
+      "year": 2
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "20808.00",
+      "calendar_year": 2028,
+      "cash_after_reserves_debt_and_below_line_usd": "150573.65",
+      "coverage_noi_usd": "1162686.00",
+      "dscr": "1.172885",
+      "effective_gross_income_usd": "2372112.00",
+      "expense_lines": [
+        {
+          "amount_usd": "159135.00",
+          "id": "management"
+        },
+        {
+          "amount_usd": "371315.00",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "159135.00",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "159135.00",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "265225.00",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "53045.00",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2372112.00",
+          "id": "tenant-rent",
+          "scheduled_usd": "2496960.00",
+          "vacancy_loss_usd": "124848.00"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1205122.00",
+      "operating_expenses_usd": "1166990.00",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "13238883.75",
+      "replacement_reserve_usd": "42436.00",
+      "required_dscr": "1.15",
+      "year": 3
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "21224.16",
+      "calendar_year": 2029,
+      "cash_after_reserves_debt_and_below_line_usd": "161316.95",
+      "coverage_noi_usd": "1173845.46",
+      "dscr": "1.184142",
+      "effective_gross_income_usd": "2419554.24",
+      "expense_lines": [
+        {
+          "amount_usd": "163909.05",
+          "id": "management"
+        },
+        {
+          "amount_usd": "382454.45",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "163909.05",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "163909.05",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "273181.75",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "54636.35",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2419554.24",
+          "id": "tenant-rent",
+          "scheduled_usd": "2546899.20",
+          "vacancy_loss_usd": "127344.96"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1217554.54",
+      "operating_expenses_usd": "1201999.70",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "13036404.41",
+      "replacement_reserve_usd": "43709.08",
+      "required_dscr": "1.15",
+      "year": 4
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "21648.64",
+      "calendar_year": 2030,
+      "cash_after_reserves_debt_and_below_line_usd": "171912.30",
+      "coverage_noi_usd": "1184865.29",
+      "dscr": "1.195259",
+      "effective_gross_income_usd": "2467945.32",
+      "expense_lines": [
+        {
+          "amount_usd": "168826.32",
+          "id": "management"
+        },
+        {
+          "amount_usd": "393928.08",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "168826.32",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "168826.32",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "281377.20",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "56275.44",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2467945.32",
+          "id": "tenant-rent",
+          "scheduled_usd": "2597837.18",
+          "vacancy_loss_usd": "129891.86"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1229885.64",
+      "operating_expenses_usd": "1238059.68",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "12821436.59",
+      "replacement_reserve_usd": "45020.35",
+      "required_dscr": "1.15",
+      "year": 5
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "22081.62",
+      "calendar_year": 2031,
+      "cash_after_reserves_debt_and_below_line_usd": "182345.82",
+      "coverage_noi_usd": "1195731.79",
+      "dscr": "1.206221",
+      "effective_gross_income_usd": "2517304.23",
+      "expense_lines": [
+        {
+          "amount_usd": "173891.11",
+          "id": "management"
+        },
+        {
+          "amount_usd": "405745.93",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "173891.11",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "173891.11",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "289818.52",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "57963.70",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2517304.23",
+          "id": "tenant-rent",
+          "scheduled_usd": "2649793.93",
+          "vacancy_loss_usd": "132489.70"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1242102.75",
+      "operating_expenses_usd": "1275201.48",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "12593210.03",
+      "replacement_reserve_usd": "46370.96",
+      "required_dscr": "1.15",
+      "year": 6
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "22523.25",
+      "calendar_year": 2032,
+      "cash_after_reserves_debt_and_below_line_usd": "192603.13",
+      "coverage_noi_usd": "1206430.73",
+      "dscr": "1.217013",
+      "effective_gross_income_usd": "2567650.32",
+      "expense_lines": [
+        {
+          "amount_usd": "179107.84",
+          "id": "management"
+        },
+        {
+          "amount_usd": "417918.30",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "179107.84",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "179107.84",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "298513.07",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "59702.61",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2567650.32",
+          "id": "tenant-rent",
+          "scheduled_usd": "2702789.81",
+          "vacancy_loss_usd": "135139.49"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1254192.82",
+      "operating_expenses_usd": "1313457.50",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "12350906.95",
+      "replacement_reserve_usd": "47762.09",
+      "required_dscr": "1.15",
+      "year": 7
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "22973.71",
+      "calendar_year": 2033,
+      "cash_after_reserves_debt_and_below_line_usd": "202669.06",
+      "coverage_noi_usd": "1216947.12",
+      "dscr": "1.227622",
+      "effective_gross_income_usd": "2619003.32",
+      "expense_lines": [
+        {
+          "amount_usd": "184481.08",
+          "id": "management"
+        },
+        {
+          "amount_usd": "430455.85",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "184481.08",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "184481.08",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "307468.47",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "61493.69",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2619003.32",
+          "id": "tenant-rent",
+          "scheduled_usd": "2756845.60",
+          "vacancy_loss_usd": "137842.28"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1266142.07",
+      "operating_expenses_usd": "1352861.25",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "12093659.15",
+      "replacement_reserve_usd": "49194.95",
+      "required_dscr": "1.15",
+      "year": 8
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "23433.19",
+      "calendar_year": 2034,
+      "cash_after_reserves_debt_and_below_line_usd": "212527.96",
+      "coverage_noi_usd": "1227265.50",
+      "dscr": "1.238031",
+      "effective_gross_income_usd": "2671383.38",
+      "expense_lines": [
+        {
+          "amount_usd": "190015.51",
+          "id": "management"
+        },
+        {
+          "amount_usd": "443369.53",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "190015.51",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "190015.51",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "316692.52",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "63338.50",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2671383.38",
+          "id": "tenant-rent",
+          "scheduled_usd": "2811982.51",
+          "vacancy_loss_usd": "140599.13"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1277936.30",
+      "operating_expenses_usd": "1393447.08",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "11820544.86",
+      "replacement_reserve_usd": "50670.80",
+      "required_dscr": "1.15",
+      "year": 9
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "23901.85",
+      "calendar_year": 2035,
+      "cash_after_reserves_debt_and_below_line_usd": "222163.41",
+      "coverage_noi_usd": "1237369.61",
+      "dscr": "1.248224",
+      "effective_gross_income_usd": "2724811.05",
+      "expense_lines": [
+        {
+          "amount_usd": "195715.98",
+          "id": "management"
+        },
+        {
+          "amount_usd": "456670.61",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "195715.98",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "195715.98",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "326193.30",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "65238.66",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2724811.05",
+          "id": "tenant-rent",
+          "scheduled_usd": "2868222.16",
+          "vacancy_loss_usd": "143411.11"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1289560.54",
+      "operating_expenses_usd": "1435250.51",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "11530585.49",
+      "replacement_reserve_usd": "52190.93",
+      "required_dscr": "1.15",
+      "year": 10
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "24379.89",
+      "calendar_year": 2036,
+      "cash_after_reserves_debt_and_below_line_usd": "231558.36",
+      "coverage_noi_usd": "1247242.60",
+      "dscr": "1.258183",
+      "effective_gross_income_usd": "2779307.28",
+      "expense_lines": [
+        {
+          "amount_usd": "201587.46",
+          "id": "management"
+        },
+        {
+          "amount_usd": "470370.73",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "201587.46",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "201587.46",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "335979.09",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "67195.82",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2779307.28",
+          "id": "tenant-rent",
+          "scheduled_usd": "2925586.61",
+          "vacancy_loss_usd": "146279.33"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1300999.26",
+      "operating_expenses_usd": "1478308.02",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "11222742.05",
+      "replacement_reserve_usd": "53756.66",
+      "required_dscr": "1.15",
+      "year": 11
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "24867.49",
+      "calendar_year": 2037,
+      "cash_after_reserves_debt_and_below_line_usd": "240694.98",
+      "coverage_noi_usd": "1256866.82",
+      "dscr": "1.267892",
+      "effective_gross_income_usd": "2834893.42",
+      "expense_lines": [
+        {
+          "amount_usd": "207635.08",
+          "id": "management"
+        },
+        {
+          "amount_usd": "484481.85",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "207635.08",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "207635.08",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "346058.47",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "69211.69",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2834893.42",
+          "id": "tenant-rent",
+          "scheduled_usd": "2984098.34",
+          "vacancy_loss_usd": "149204.92"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1312236.17",
+      "operating_expenses_usd": "1522657.25",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "10895911.51",
+      "replacement_reserve_usd": "55369.35",
+      "required_dscr": "1.15",
+      "year": 12
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "25364.84",
+      "calendar_year": 2038,
+      "cash_after_reserves_debt_and_below_line_usd": "249554.70",
+      "coverage_noi_usd": "1266223.89",
+      "dscr": "1.277331",
+      "effective_gross_income_usd": "2891591.29",
+      "expense_lines": [
+        {
+          "amount_usd": "213864.13",
+          "id": "management"
+        },
+        {
+          "amount_usd": "499016.31",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "213864.13",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "213864.13",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "356440.22",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "71288.04",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2891591.29",
+          "id": "tenant-rent",
+          "scheduled_usd": "3043780.31",
+          "vacancy_loss_usd": "152189.02"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1323254.33",
+      "operating_expenses_usd": "1568336.96",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "10548922.77",
+      "replacement_reserve_usd": "57030.44",
+      "required_dscr": "1.15",
+      "year": 13
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "25872.13",
+      "calendar_year": 2039,
+      "cash_after_reserves_debt_and_below_line_usd": "258118.18",
+      "coverage_noi_usd": "1275294.66",
+      "dscr": "1.286481",
+      "effective_gross_income_usd": "2949423.11",
+      "expense_lines": [
+        {
+          "amount_usd": "220280.06",
+          "id": "management"
+        },
+        {
+          "amount_usd": "513986.80",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "220280.06",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "220280.06",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "367133.43",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "73426.69",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "2949423.11",
+          "id": "tenant-rent",
+          "scheduled_usd": "3104655.91",
+          "vacancy_loss_usd": "155232.80"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1334036.01",
+      "operating_expenses_usd": "1615387.10",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "10180532.52",
+      "replacement_reserve_usd": "58741.35",
+      "required_dscr": "1.15",
+      "year": 14
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "26389.58",
+      "calendar_year": 2040,
+      "cash_after_reserves_debt_and_below_line_usd": "266365.36",
+      "coverage_noi_usd": "1284059.29",
+      "dscr": "1.295323",
+      "effective_gross_income_usd": "3008411.58",
+      "expense_lines": [
+        {
+          "amount_usd": "226888.46",
+          "id": "management"
+        },
+        {
+          "amount_usd": "529406.40",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "226888.46",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "226888.46",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "378147.43",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "75629.49",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3008411.58",
+          "id": "tenant-rent",
+          "scheduled_usd": "3166749.03",
+          "vacancy_loss_usd": "158337.45"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1344562.88",
+      "operating_expenses_usd": "1663848.70",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "9789420.78",
+      "replacement_reserve_usd": "60503.59",
+      "required_dscr": "1.15",
+      "year": 15
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "26917.37",
+      "calendar_year": 2041,
+      "cash_after_reserves_debt_and_below_line_usd": "274275.24",
+      "coverage_noi_usd": "1292496.96",
+      "dscr": "1.303835",
+      "effective_gross_income_usd": "3068579.81",
+      "expense_lines": [
+        {
+          "amount_usd": "233695.11",
+          "id": "management"
+        },
+        {
+          "amount_usd": "545288.60",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "233695.11",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "233695.11",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "389491.85",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "77898.37",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3068579.81",
+          "id": "tenant-rent",
+          "scheduled_usd": "3230084.01",
+          "vacancy_loss_usd": "161504.20"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1354815.66",
+      "operating_expenses_usd": "1713764.15",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "9374186.11",
+      "replacement_reserve_usd": "62318.70",
+      "required_dscr": "1.15",
+      "year": 16
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "27455.71",
+      "calendar_year": 2042,
+      "cash_after_reserves_debt_and_below_line_usd": "281826.00",
+      "coverage_noi_usd": "1300586.06",
+      "dscr": "1.311995",
+      "effective_gross_income_usd": "3129951.41",
+      "expense_lines": [
+        {
+          "amount_usd": "240705.97",
+          "id": "management"
+        },
+        {
+          "amount_usd": "561647.25",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "240705.97",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "240705.97",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "401176.61",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "80235.32",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3129951.41",
+          "id": "tenant-rent",
+          "scheduled_usd": "3294685.69",
+          "vacancy_loss_usd": "164734.28"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1364774.32",
+      "operating_expenses_usd": "1765177.09",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "8933340.68",
+      "replacement_reserve_usd": "64188.26",
+      "required_dscr": "1.15",
+      "year": 17
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "28004.83",
+      "calendar_year": 2043,
+      "cash_after_reserves_debt_and_below_line_usd": "288994.97",
+      "coverage_noi_usd": "1308304.15",
+      "dscr": "1.319780",
+      "effective_gross_income_usd": "3192550.44",
+      "expense_lines": [
+        {
+          "amount_usd": "247927.14",
+          "id": "management"
+        },
+        {
+          "amount_usd": "578496.67",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "247927.14",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "247927.14",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "413211.91",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "82642.38",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3192550.44",
+          "id": "tenant-rent",
+          "scheduled_usd": "3360579.41",
+          "vacancy_loss_usd": "168028.97"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1374418.06",
+      "operating_expenses_usd": "1818132.38",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "8465304.87",
+      "replacement_reserve_usd": "66113.91",
+      "required_dscr": "1.15",
+      "year": 18
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "28564.92",
+      "calendar_year": 2044,
+      "cash_after_reserves_debt_and_below_line_usd": "295758.48",
+      "coverage_noi_usd": "1315627.75",
+      "dscr": "1.327168",
+      "effective_gross_income_usd": "3256401.44",
+      "expense_lines": [
+        {
+          "amount_usd": "255364.96",
+          "id": "management"
+        },
+        {
+          "amount_usd": "595851.57",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "255364.96",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "255364.96",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "425608.27",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "85121.65",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3256401.44",
+          "id": "tenant-rent",
+          "scheduled_usd": "3427790.99",
+          "vacancy_loss_usd": "171389.55"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1383725.07",
+      "operating_expenses_usd": "1872676.37",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "7968401.63",
+      "replacement_reserve_usd": "68097.32",
+      "required_dscr": "1.15",
+      "year": 19
+    },
+    {
+      "additional_effective_income_for_coverage_usd": "0",
+      "below_line_usd": "29136.22",
+      "calendar_year": 2045,
+      "cash_after_reserves_debt_and_below_line_usd": "302092.00",
+      "coverage_noi_usd": "1322532.57",
+      "dscr": "1.334134",
+      "effective_gross_income_usd": "3321529.47",
+      "expense_lines": [
+        {
+          "amount_usd": "263025.91",
+          "id": "management"
+        },
+        {
+          "amount_usd": "613727.12",
+          "id": "staff-and-maintenance"
+        },
+        {
+          "amount_usd": "263025.91",
+          "id": "utilities"
+        },
+        {
+          "amount_usd": "263025.91",
+          "id": "insurance"
+        },
+        {
+          "amount_usd": "438376.51",
+          "id": "taxes"
+        },
+        {
+          "amount_usd": "87675.30",
+          "id": "administration"
+        }
+      ],
+      "income_lines": [
+        {
+          "effective_usd": "3321529.47",
+          "id": "tenant-rent",
+          "scheduled_usd": "3496346.81",
+          "vacancy_loss_usd": "174817.34"
+        }
+      ],
+      "maturity_principal_due_usd": "0",
+      "meets_declared_dscr": true,
+      "noi_before_replacement_reserve_usd": "1392672.81",
+      "operating_expenses_usd": "1928856.66",
+      "other_debt_service_usd": "0",
+      "primary_debt_service_usd": "991304.35",
+      "primary_loan_balance_before_maturity_payment_usd": null,
+      "primary_loan_balance_year_end_usd": "7440850.49",
+      "replacement_reserve_usd": "70140.24",
+      "required_dscr": "1.15",
+      "year": 20
+    }
+  ],
+  "annual_mortgage_constant": "0.07194606301833028735097534924213710980445",
+  "balloon_at_term_usd": "0.00",
+  "binding_debt_caps": [
+    "dscr"
+  ],
+  "capital_lines": [
+    {
+      "amount_usd": "1564500.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "land",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "250000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "acquisition_closing",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "782250.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "demolition",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "1173375.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "remediation",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "41176471.50",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "hard_costs",
+      "measure": "per_gross_sf"
+    },
+    {
+      "amount_usd": "4117647.15",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "hard_contingency",
+      "measure": "per_gross_sf"
+    },
+    {
+      "amount_usd": "6862745.25",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "soft_costs",
+      "measure": "per_gross_sf"
+    },
+    {
+      "amount_usd": "686274.53",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "soft_contingency",
+      "measure": "per_gross_sf"
+    },
+    {
+      "amount_usd": "391125.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "offsite_infrastructure",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "2500000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "construction_interest",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "833333.33",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "financing_fees",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "2500000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "developer_fee",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "1500000.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "initial_reserves",
+      "measure": "per_home"
+    },
+    {
+      "amount_usd": "0.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "other",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "666666.67",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "taxes_and_carry",
+      "measure": "fixed"
+    },
+    {
+      "amount_usd": "782250.00",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+        "reference_ids": []
+      },
+      "category": "business_relocation",
+      "measure": "fixed"
+    }
+  ],
+  "capital_not_covered_by_committed_sources_usd": "65786638.43",
+  "cashflow_shortfall_years": [],
+  "committed_other_sources_usd": "0.00",
+  "coverage_breach_years": [],
+  "debt_balance_basis": "Scheduled balances assume all payments including maturity principal are made; negative cash years identify a funding need, not proof of payment.",
+  "debt_caps_usd": {
+    "dscr": "13778437.71",
+    "funding_need": "60786638.43",
+    "loan_to_cost": "59207974.59"
+  },
+  "debt_sizing_years": 20,
+  "financing_limit_breaches": [],
+  "maximum_primary_loan_capacity_usd": "13778437.71",
+  "meaning": "Conditional rental-project underwriting diagnostic; no legal/physical feasibility, financing award or investor-return finding.",
+  "methods": {
+    "capital": "Sum rounded explicit cost lines; zero costs require attributed input assumptions.",
+    "debt": "Minimum of declared DSCR, LTC, LTV and absolute capacities plus scenario funding need after declared sources; monthly fixed-rate amortization.",
+    "gap": "Uses minus modeled primary debt and declared other sources; proposed is not committed and gap is not a subsidy award.",
+    "income": "Each annual income stream grows from year-one dollars; start/end years gate receipt, loss applies by stream.",
+    "noi": "Effective income less operating expenses; replacement reserve treatment for coverage is explicit."
+  },
+  "missing_financing_checks": [
+    "No loan-to-value cap or appraisal evaluated"
+  ],
+  "modeled_primary_loan_is_committed": false,
+  "modeled_primary_loan_usd": "13778437.71",
+  "primary_debt_sizing_years": 20,
+  "program": {
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice. Program scaling and land prices are scenario transforms, not observed conditions.",
+      "reference_ids": []
+    },
+    "gross_area_sf": "91503.27",
+    "homes": 100
+  },
+  "request_id": "2027550062-h100-p0",
+  "surplus_after_modeled_loan_and_all_declared_sources_usd": "0.00",
+  "total_development_cost_usd": "65786638.43",
+  "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "47008200.72",
+  "unresolved": [
+    "Entitlement, physical fit, existing occupancy and business relocation",
+    "Land price/title/control and environmental scope",
+    "Construction draws, interest carry timing, lease-up and conversion",
+    "Tax-credit/program eligibility, tax treatment and actual commitments",
+    "Subordinate loan repayment/balloons: only explicitly supplied annual debt service is included",
+    "Investor return, exit value/taxes, refinancing and complete project feasibility"
+  ],
+  "unused_primary_loan_capacity_usd": "0.00",
+  "version": "1.0.0"
+}

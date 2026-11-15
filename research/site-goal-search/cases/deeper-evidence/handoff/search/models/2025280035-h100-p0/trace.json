@@ -1,0 +1,1650 @@
+{
+  "meaning": "Calculation trace. Input JSON pointers contain attribution; value is not approval.",
+  "nodes": [
+    {
+      "dependencies": [
+        "request.json#/capital/lines/0",
+        "request.json#/program"
+      ],
+      "id": "capital.land",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "1560000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/1",
+        "request.json#/program"
+      ],
+      "id": "capital.acquisition_closing",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "250000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/2",
+        "request.json#/program"
+      ],
+      "id": "capital.demolition",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "780000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/3",
+        "request.json#/program"
+      ],
+      "id": "capital.remediation",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "1170000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/4",
+        "request.json#/program"
+      ],
+      "id": "capital.hard_costs",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "41176471.50"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/5",
+        "request.json#/program"
+      ],
+      "id": "capital.hard_contingency",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "4117647.15"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/6",
+        "request.json#/program"
+      ],
+      "id": "capital.soft_costs",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "6862745.25"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/7",
+        "request.json#/program"
+      ],
+      "id": "capital.soft_contingency",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "686274.53"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/8",
+        "request.json#/program"
+      ],
+      "id": "capital.offsite_infrastructure",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "390000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/9",
+        "request.json#/program"
+      ],
+      "id": "capital.construction_interest",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "2500000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/10",
+        "request.json#/program"
+      ],
+      "id": "capital.financing_fees",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "833333.33"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/11",
+        "request.json#/program"
+      ],
+      "id": "capital.developer_fee",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "2500000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/12",
+        "request.json#/program"
+      ],
+      "id": "capital.initial_reserves",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "1500000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/13",
+        "request.json#/program"
+      ],
+      "id": "capital.other",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/14",
+        "request.json#/program"
+      ],
+      "id": "capital.taxes_and_carry",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "666666.67"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/15",
+        "request.json#/program"
+      ],
+      "id": "capital.business_relocation",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "780000.00"
+    },
+    {
+      "dependencies": [
+        "capital.land",
+        "capital.acquisition_closing",
+        "capital.demolition",
+        "capital.remediation",
+        "capital.hard_costs",
+        "capital.hard_contingency",
+        "capital.soft_costs",
+        "capital.soft_contingency",
+        "capital.offsite_infrastructure",
+        "capital.construction_interest",
+        "capital.financing_fees",
+        "capital.developer_fee",
+        "capital.initial_reserves",
+        "capital.other",
+        "capital.taxes_and_carry",
+        "capital.business_relocation"
+      ],
+      "id": "capital.total",
+      "kind": "calculation",
+      "method": "sum cost lines",
+      "unit": "USD",
+      "value": "65773138.43"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.1.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2280000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.1.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1100000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.1.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "40000.00"
+    },
+    {
+      "dependencies": [
+        "year.1.income",
+        "year.1.expenses",
+        "year.1.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.1.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1140000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.2.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2325600.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.2.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1133000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.2.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "41200.00"
+    },
+    {
+      "dependencies": [
+        "year.2.income",
+        "year.2.expenses",
+        "year.2.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.2.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1151400.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.3.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2372112.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.3.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1166990.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.3.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "42436.00"
+    },
+    {
+      "dependencies": [
+        "year.3.income",
+        "year.3.expenses",
+        "year.3.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.3.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1162686.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.4.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2419554.24"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.4.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1201999.70"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.4.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "43709.08"
+    },
+    {
+      "dependencies": [
+        "year.4.income",
+        "year.4.expenses",
+        "year.4.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.4.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1173845.46"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.5.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2467945.32"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.5.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1238059.68"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.5.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "45020.35"
+    },
+    {
+      "dependencies": [
+        "year.5.income",
+        "year.5.expenses",
+        "year.5.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.5.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1184865.29"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.6.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2517304.23"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.6.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1275201.48"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.6.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "46370.96"
+    },
+    {
+      "dependencies": [
+        "year.6.income",
+        "year.6.expenses",
+        "year.6.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.6.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1195731.79"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.7.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2567650.32"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.7.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1313457.50"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.7.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "47762.09"
+    },
+    {
+      "dependencies": [
+        "year.7.income",
+        "year.7.expenses",
+        "year.7.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.7.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1206430.73"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.8.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2619003.32"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.8.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1352861.25"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.8.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "49194.95"
+    },
+    {
+      "dependencies": [
+        "year.8.income",
+        "year.8.expenses",
+        "year.8.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.8.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1216947.12"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.9.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2671383.38"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.9.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1393447.08"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.9.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "50670.80"
+    },
+    {
+      "dependencies": [
+        "year.9.income",
+        "year.9.expenses",
+        "year.9.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.9.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1227265.50"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.10.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2724811.05"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.10.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1435250.51"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.10.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "52190.93"
+    },
+    {
+      "dependencies": [
+        "year.10.income",
+        "year.10.expenses",
+        "year.10.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.10.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1237369.61"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.11.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2779307.28"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.11.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1478308.02"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.11.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "53756.66"
+    },
+    {
+      "dependencies": [
+        "year.11.income",
+        "year.11.expenses",
+        "year.11.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.11.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1247242.60"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.12.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2834893.42"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.12.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1522657.25"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.12.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "55369.35"
+    },
+    {
+      "dependencies": [
+        "year.12.income",
+        "year.12.expenses",
+        "year.12.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.12.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1256866.82"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.13.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2891591.29"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.13.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1568336.96"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.13.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "57030.44"
+    },
+    {
+      "dependencies": [
+        "year.13.income",
+        "year.13.expenses",
+        "year.13.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.13.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1266223.89"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.14.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "2949423.11"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.14.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1615387.10"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.14.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "58741.35"
+    },
+    {
+      "dependencies": [
+        "year.14.income",
+        "year.14.expenses",
+        "year.14.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.14.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1275294.66"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.15.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3008411.58"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.15.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1663848.70"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.15.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "60503.59"
+    },
+    {
+      "dependencies": [
+        "year.15.income",
+        "year.15.expenses",
+        "year.15.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.15.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1284059.29"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.16.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3068579.81"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.16.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1713764.15"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.16.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "62318.70"
+    },
+    {
+      "dependencies": [
+        "year.16.income",
+        "year.16.expenses",
+        "year.16.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.16.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1292496.96"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.17.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3129951.41"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.17.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1765177.09"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.17.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "64188.26"
+    },
+    {
+      "dependencies": [
+        "year.17.income",
+        "year.17.expenses",
+        "year.17.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.17.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1300586.06"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.18.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3192550.44"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.18.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1818132.38"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.18.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "66113.91"
+    },
+    {
+      "dependencies": [
+        "year.18.income",
+        "year.18.expenses",
+        "year.18.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.18.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1308304.15"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.19.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3256401.44"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.19.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1872676.37"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.19.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "68097.32"
+    },
+    {
+      "dependencies": [
+        "year.19.income",
+        "year.19.expenses",
+        "year.19.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.19.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1315627.75"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.20.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3321529.47"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.20.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "1928856.66"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.20.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "70140.24"
+    },
+    {
+      "dependencies": [
+        "year.20.income",
+        "year.20.expenses",
+        "year.20.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.20.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1322532.57"
+    },
+    {
+      "dependencies": [
+        "year.1.coverage_noi",
+        "year.2.coverage_noi",
+        "year.3.coverage_noi",
+        "year.4.coverage_noi",
+        "year.5.coverage_noi",
+        "year.6.coverage_noi",
+        "year.7.coverage_noi",
+        "year.8.coverage_noi",
+        "year.9.coverage_noi",
+        "year.10.coverage_noi",
+        "year.11.coverage_noi",
+        "year.12.coverage_noi",
+        "year.13.coverage_noi",
+        "year.14.coverage_noi",
+        "year.15.coverage_noi",
+        "year.16.coverage_noi",
+        "year.17.coverage_noi",
+        "year.18.coverage_noi",
+        "year.19.coverage_noi",
+        "year.20.coverage_noi",
+        "capital.total",
+        "request.json#/debt",
+        "request.json#/sources"
+      ],
+      "id": "debt.principal",
+      "kind": "calculation",
+      "method": "minimum declared debt capacities, rounded down",
+      "unit": "USD",
+      "value": "13778437.71"
+    },
+    {
+      "dependencies": [
+        "year.1.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.1.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.150000"
+    },
+    {
+      "dependencies": [
+        "year.1.income",
+        "year.1.expenses",
+        "year.1.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.1.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "128695.65"
+    },
+    {
+      "dependencies": [
+        "year.2.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.2.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.161500"
+    },
+    {
+      "dependencies": [
+        "year.2.income",
+        "year.2.expenses",
+        "year.2.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.2.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "139695.65"
+    },
+    {
+      "dependencies": [
+        "year.3.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.3.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.172885"
+    },
+    {
+      "dependencies": [
+        "year.3.income",
+        "year.3.expenses",
+        "year.3.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.3.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "150573.65"
+    },
+    {
+      "dependencies": [
+        "year.4.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.4.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.184142"
+    },
+    {
+      "dependencies": [
+        "year.4.income",
+        "year.4.expenses",
+        "year.4.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.4.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "161316.95"
+    },
+    {
+      "dependencies": [
+        "year.5.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.5.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.195259"
+    },
+    {
+      "dependencies": [
+        "year.5.income",
+        "year.5.expenses",
+        "year.5.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.5.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "171912.30"
+    },
+    {
+      "dependencies": [
+        "year.6.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.6.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.206221"
+    },
+    {
+      "dependencies": [
+        "year.6.income",
+        "year.6.expenses",
+        "year.6.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.6.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "182345.82"
+    },
+    {
+      "dependencies": [
+        "year.7.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.7.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.217013"
+    },
+    {
+      "dependencies": [
+        "year.7.income",
+        "year.7.expenses",
+        "year.7.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.7.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "192603.13"
+    },
+    {
+      "dependencies": [
+        "year.8.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.8.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.227622"
+    },
+    {
+      "dependencies": [
+        "year.8.income",
+        "year.8.expenses",
+        "year.8.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.8.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "202669.06"
+    },
+    {
+      "dependencies": [
+        "year.9.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.9.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.238031"
+    },
+    {
+      "dependencies": [
+        "year.9.income",
+        "year.9.expenses",
+        "year.9.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.9.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "212527.96"
+    },
+    {
+      "dependencies": [
+        "year.10.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.10.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.248224"
+    },
+    {
+      "dependencies": [
+        "year.10.income",
+        "year.10.expenses",
+        "year.10.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.10.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "222163.41"
+    },
+    {
+      "dependencies": [
+        "year.11.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.11.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.258183"
+    },
+    {
+      "dependencies": [
+        "year.11.income",
+        "year.11.expenses",
+        "year.11.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.11.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "231558.36"
+    },
+    {
+      "dependencies": [
+        "year.12.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.12.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.267892"
+    },
+    {
+      "dependencies": [
+        "year.12.income",
+        "year.12.expenses",
+        "year.12.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.12.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "240694.98"
+    },
+    {
+      "dependencies": [
+        "year.13.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.13.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.277331"
+    },
+    {
+      "dependencies": [
+        "year.13.income",
+        "year.13.expenses",
+        "year.13.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.13.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "249554.70"
+    },
+    {
+      "dependencies": [
+        "year.14.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.14.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.286481"
+    },
+    {
+      "dependencies": [
+        "year.14.income",
+        "year.14.expenses",
+        "year.14.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.14.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "258118.18"
+    },
+    {
+      "dependencies": [
+        "year.15.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.15.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.295323"
+    },
+    {
+      "dependencies": [
+        "year.15.income",
+        "year.15.expenses",
+        "year.15.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.15.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "266365.36"
+    },
+    {
+      "dependencies": [
+        "year.16.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.16.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.303835"
+    },
+    {
+      "dependencies": [
+        "year.16.income",
+        "year.16.expenses",
+        "year.16.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.16.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "274275.24"
+    },
+    {
+      "dependencies": [
+        "year.17.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.17.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.311995"
+    },
+    {
+      "dependencies": [
+        "year.17.income",
+        "year.17.expenses",
+        "year.17.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.17.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "281826.00"
+    },
+    {
+      "dependencies": [
+        "year.18.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.18.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.319780"
+    },
+    {
+      "dependencies": [
+        "year.18.income",
+        "year.18.expenses",
+        "year.18.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.18.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "288994.97"
+    },
+    {
+      "dependencies": [
+        "year.19.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.19.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.327168"
+    },
+    {
+      "dependencies": [
+        "year.19.income",
+        "year.19.expenses",
+        "year.19.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.19.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "295758.48"
+    },
+    {
+      "dependencies": [
+        "year.20.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.20.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.334134"
+    },
+    {
+      "dependencies": [
+        "year.20.income",
+        "year.20.expenses",
+        "year.20.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.20.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "302092.00"
+    },
+    {
+      "dependencies": [
+        "capital.total",
+        "debt.principal",
+        "request.json#/sources"
+      ],
+      "id": "capital.unallocated",
+      "kind": "calculation",
+      "method": "max(0, uses - modeled debt - all declared sources)",
+      "unit": "USD",
+      "value": "46994700.72"
+    }
+  ]
+}

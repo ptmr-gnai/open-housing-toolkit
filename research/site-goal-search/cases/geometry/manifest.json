@@ -1,0 +1,52 @@
+{
+  "files": {
+    "analysis-run/calculation-steps.csv": "d027a50b93f83d758ffac3e4fcd87ec27995d94c70b9428e1a96700e32673867",
+    "analysis-run/execution.json": "a20b8c0eafa75387447901ac6623341e5e06511e0e5ed4144fb76df90be17292",
+    "analysis-run/image-prompts.json": "369a15d37d8c8aaa959d2d02544d7359282158b0642de45c949f940e2c09a18c",
+    "analysis-run/ir.json": "87d4fb8c7f3cf3422b8c065426015b88cd77cec7e11895243357c99e452797e6",
+    "analysis-run/manifest.json": "ce9d33bd4cf238bd8bd4f9f3ea5ec0159a666f39d5dda41205173ea0168af8a7",
+    "analysis-run/packet.html": "753dbc8fc3783983bad1f3b0f6c7f7a448f1c6d24420b75cb6b6fe10af6994b9",
+    "analysis-run/packet.md": "5dbffe45e7ec210312a7e785956c6575ee3363d6df3efb5a779c9920119bad65",
+    "analysis-run/receipts.json": "658a41d060d7b970726c0e570056b8fb709eaae4cf61fc40ce5d48af8d2658e3",
+    "analysis-run/replay-source-manifest.json": "7ef3f65a8cc1b44d8b9b96a98ada5a1046d5ac111c4708c3e5980a58962a3059",
+    "analysis-run/request.json": "34339816fd571296190dad7259777cc47f24ef2f7a29cb121ab62a06d23f9fa5",
+    "analysis-run/sources/dob_now.json": "4dd29a5add4ed31f426bbdd44ea7199faee70d058504438dd118fcea9a82fd82",
+    "analysis-run/sources/hpd_violations.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis-run/sources/pluto.json": "f8c59a03e27a03950525c826ec483b94c6e6fa2b75328417d83b97972f2f6c14",
+    "analysis-run/workflow.json": "8e2fd8264b1702d57c1cfd58ebff668fc917135cb04d4933dd452aac117e1e3b",
+    "floor-schedule.csv": "78c1d4d37e7b15509756d0cdcea0346d07415bf42002ad2cb1ab62cd6cea5740",
+    "geometry.json": "5e8c4214bfbfda341f308d41f80150b9c03a3d68cea878386e7b3e7d6e11c3f1",
+    "massing.obj": "e1d8d10a4261569e6d279e7fb7a3ac918b40a7196c99acdaaffcf3ffa73d36d3",
+    "massing.svg": "38dfff2404528c775d5b0a85a36532f173f84b9eed7f2ceaf0adc8a968a2ab85",
+    "packet.html": "6047e1c75929afe4c2dc8aad605eb6e69b376b924673cc1db17058cdf7d9eda2",
+    "packet.md": "f2b01aa85de16c47c051bddfe23b53c80880afd2030023a2ac9ed20cb3e66c7c",
+    "parcel-source/item.json": "27fbe01f679d3af21be769c84619cebeaa47169fd3cba5e1cd7517becfb8eed3",
+    "parcel-source/layer.json": "eec4c216a9b69e26e89b0c723d0fd703e79ab5da011b36677479939f15967f0e",
+    "parcel-source/parcel.json": "ebf13ae5b1b9e213144ee68f08a0dec7408e903972dbfb42148bac146130bd04",
+    "parcel-source/receipt.json": "3ca9d5936376fda24757daf392bc75d8a98e5ff56b0ce588114454122c47fb2b",
+    "plan.svg": "3b4cf0c38b64aae22abb9684e722fcf3f45c06f34c46cd486d1a85e5198c5acc",
+    "scenario.json": "9134f72d74f7bd8283d02d56fe3b921b7c479a47e0268b7f44d0aa785c28b6e6",
+    "visual-handoff.json": "03a188c11c9ce70e0eb694f8c41f930fe7bec9b7b5107eac6b8ba6730070b30f"
+  },
+  "implementation": {
+    "files": {
+      "config/workflows/grounded-massing.json": "b83deb0183e9f2600500d8c286a1c6c8fbfc7bbdd470f9665a23ed3df5e5dcfb",
+      "pyproject.toml": "63db41af2ca8377c3bb690dffd72605dc743449351ffd3aa878231c5b6112230",
+      "skills/build-grounded-massing/SKILL.md": "7666cbe95c1997e4af45547a02c5cd6fc11b86829692ef148983d2c663ea572e",
+      "skills/build-grounded-massing/references/runbook.md": "1317a489482a1d6c8cf6df5ab9f38a0629a647d4b075455f6c93084523b1568e",
+      "src/housing_common/runtime.py": "5cfaa8028cebd5fa52d2b270d08bf1ad1cdd983cadf8bf08f1d2f181e3390848",
+      "src/housing_geometry/__init__.py": "4ef5826cf549eb18533ffd65eb682c351ac74f28ad6c248a3bc060072a7ac2fc",
+      "src/housing_geometry/__main__.py": "7a7ea4b3eb3a11f1ec91eb46a54b8430660dc177b8d5db3c111552a189deef92",
+      "src/housing_geometry/engine.py": "001234c5f7941f7e841375ddf7c553463d054dfb4f828d9c07d1ba74d5a7016b",
+      "src/housing_geometry/exports.py": "2391d7429e51d2939da9d020ee41596cfc7c9cb29b5e9394aeeff92ad32a2db6",
+      "src/housing_geometry/model.py": "8ba8a63e95d5bc0b11e3102d04305973ebfd38662bcfec21d1a0e6a4c4ddbe23",
+      "src/housing_geometry/scenario.schema.json": "fcd29e51a2990b3ecba9d2daaa37c61aa2cfc488a99000409cda57fa288b9c50",
+      "src/housing_geometry/sources.py": "8079a61a6b4fa4edd29c61bfabdbf9378d734ae36ce0f8e22ef0c5f911b3c5e5"
+    },
+    "geos": "3.14.1",
+    "shapely": "2.2.0"
+  },
+  "module": "grounded-massing",
+  "validation_scope": "Source bindings, explicit geometry, mapped containment, area proxy reconciliation and deterministic exports. Not professional feasibility.",
+  "version": "0.1.0"
+}

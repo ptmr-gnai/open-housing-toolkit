@@ -1,0 +1,29 @@
+[
+  {
+    "body_path": "sources/0.pdf",
+    "bytes": 4888361,
+    "id": "board-packet-2023",
+    "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+    "retention": "retained_bytes",
+    "sha256": "28b1550153e7938e565502236b6b7c85939b176ded6985d828f808527e869b3b",
+    "title": "Board packet: Budget and Legislative Analyst report, File 23-0524 (2023-05-17)",
+    "url": "https://sfgov.legistar.com/View.ashx?GUID=4F7996CD-ECE6-4F95-945E-69336BC233E7&ID=11989749&M=F"
+  },
+  {
+    "body_path": "sources/1.pdf",
+    "bytes": 1900760,
+    "id": "operating-subsidy-2025",
+    "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+    "retention": "retained_bytes",
+    "sha256": "9fa4e1af29b215441a31edde3620332e46aca50dcdf48ce0609c3739ad538dfd",
+    "title": "MOHCD LOSP contract funding evaluation (2025-05-02)",
+    "url": "https://media.api.sf.gov/documents/Approved_730_Stanyan_Request_for_LOSP_Funding_Loan_Evaluation_-LC_5-2-25.pdf"
+  },
+  {
+    "id": "preliminary-gap-2022",
+    "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+    "retention": "declared_link_only_not_byte_verified",
+    "title": "MOHCD preliminary gap loan evaluation (2022-06-24)",
+    "url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20Preliminary%20Gap%20Loan%20Eval%20-%20Loan%20Committee%206-24-2022.pdf"
+  }
+]

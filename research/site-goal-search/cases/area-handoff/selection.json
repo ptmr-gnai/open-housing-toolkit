@@ -1,0 +1,28 @@
+{
+  "bbl": "2028750045",
+  "meaning": "Explicit program-to-area adapter. Existing parcel and geometry modules retain their own verification and unknowns; no feasibility or legal building program is inferred.",
+  "parcel_evidence_manifest_sha256": "7ef3f65a8cc1b44d8b9b96a98ada5a1046d5ac111c4708c3e5980a58962a3059",
+  "proposed_homes": 60,
+  "scenario": {
+    "average_net_home_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Net sf per proposed home; the legacy area module reports fractional home-equivalents.",
+      "value": 700.0
+    },
+    "gross_area_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately.",
+      "value": 54901.97
+    },
+    "name": "2028750045-h60-p0",
+    "nonresidential_gross_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Nonresidential share is 1 minus the explicit residential share of gross.",
+      "value": 5490.197
+    },
+    "residential_net_efficiency": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Declared net/residential-gross conversion, not a floor plan.",
+      "value": 0.85
+    }
+  },
+  "search_manifest_sha256": "d28b514e06384980e8420fbf91f830d2970644d59862b1a503cf0d6350f288e3",
+  "source_search_status": "matches_declared_targets",
+  "trial_id": "2028750045-h60-p0"
+}

@@ -1,0 +1,1857 @@
+{
+  "id" : "fn4k-qyk2",
+  "name" : "City Owned and Leased Property (COLP)",
+  "assetType" : "dataset",
+  "attribution" : "Department of City Planning (DCP)",
+  "attributionLink" : "https://www.nyc.gov/content/planning/pages/resources/datasets/city-owned-leased-properties",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1587089460,
+  "description" : "City Owned and Leased Properties (COLP) is published by the Department of City Planning (DCP) as required by chapter 204 of the City Charter. It includes the location and current use of all City-owned and leased properties. COLP is produced from an extract of the Integrated Property Information System (IPIS), a real estate database maintained by the Department of Citywide Administrative Services (DCAS). Except where indicated, the data provided is from IPIS.\n\nQuestions or feedback on errors within the City Owned and Leased Properties can be directed to DCAS Land Use Planning at (212) 386-0622 or RESPlanning311@dcas.nyc.gov.\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/capital-projects-database\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 20260430",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 16607,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40394744,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1706559453,
+  "publicationGroup" : 17035368,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1779119545,
+  "rowsUpdatedBy" : "iqqb-gm94",
+  "tableId" : 19443163,
+  "totalTimesRated" : 0,
+  "viewCount" : 16822,
+  "viewLastModified" : 1779119542,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1587091893,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6112729,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1587091893,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1587091893,
+      "failureCount" : 0,
+      "startedAt" : 1587091893,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 588845416,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "NYC borough - 1 (Manhattan), 2 (Bronx), 3 (Brooklyn), 4 (Queens), 5 (Staten Island)",
+    "fieldName" : "borough",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834633,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "4401"
+      }, {
+        "item" : "4",
+        "count" : "4203"
+      }, {
+        "item" : "5",
+        "count" : "4030"
+      }, {
+        "item" : "2",
+        "count" : "2412"
+      }, {
+        "item" : "1",
+        "count" : "2252"
+      } ],
+      "smallest" : "1",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845417,
+    "name" : "TAX BLOCK",
+    "dataTypeName" : "number",
+    "description" : "The tax block in which the tax lot is located. Each tax block is unique within a borough.",
+    "fieldName" : "tax_block",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834652,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "16350",
+      "null" : "0",
+      "top" : [ {
+        "item" : "340",
+        "count" : "81"
+      }, {
+        "item" : "4792",
+        "count" : "50"
+      }, {
+        "item" : "334",
+        "count" : "50"
+      }, {
+        "item" : "6373",
+        "count" : "50"
+      }, {
+        "item" : "14234",
+        "count" : "48"
+      }, {
+        "item" : "7773",
+        "count" : "42"
+      }, {
+        "item" : "4160",
+        "count" : "40"
+      }, {
+        "item" : "2539",
+        "count" : "40"
+      }, {
+        "item" : "1373",
+        "count" : "39"
+      }, {
+        "item" : "4793",
+        "count" : "34"
+      }, {
+        "item" : "1470",
+        "count" : "34"
+      }, {
+        "item" : "4585",
+        "count" : "33"
+      }, {
+        "item" : "2",
+        "count" : "33"
+      }, {
+        "item" : "3755",
+        "count" : "33"
+      }, {
+        "item" : "2274",
+        "count" : "32"
+      }, {
+        "item" : "7771",
+        "count" : "32"
+      }, {
+        "item" : "7768",
+        "count" : "32"
+      }, {
+        "item" : "7071",
+        "count" : "32"
+      }, {
+        "item" : "4767",
+        "count" : "31"
+      }, {
+        "item" : "15962",
+        "count" : "31"
+      } ],
+      "smallest" : "1",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588845418,
+    "name" : "TAX LOT",
+    "dataTypeName" : "number",
+    "description" : "The number of the tax lot. Each tax lot is unique within a tax block.",
+    "fieldName" : "tax_lot",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834651,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "9878",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "2804"
+      }, {
+        "item" : "100",
+        "count" : "320"
+      }, {
+        "item" : "2",
+        "count" : "290"
+      }, {
+        "item" : "20",
+        "count" : "284"
+      }, {
+        "item" : "50",
+        "count" : "284"
+      }, {
+        "item" : "30",
+        "count" : "247"
+      }, {
+        "item" : "10",
+        "count" : "244"
+      }, {
+        "item" : "25",
+        "count" : "244"
+      }, {
+        "item" : "5",
+        "count" : "233"
+      }, {
+        "item" : "6",
+        "count" : "228"
+      }, {
+        "item" : "40",
+        "count" : "210"
+      }, {
+        "item" : "14",
+        "count" : "208"
+      }, {
+        "item" : "9",
+        "count" : "207"
+      }, {
+        "item" : "11",
+        "count" : "204"
+      }, {
+        "item" : "12",
+        "count" : "204"
+      }, {
+        "item" : "15",
+        "count" : "204"
+      }, {
+        "item" : "7",
+        "count" : "196"
+      }, {
+        "item" : "60",
+        "count" : "192"
+      }, {
+        "item" : "3",
+        "count" : "192"
+      }, {
+        "item" : "24",
+        "count" : "190"
+      } ],
+      "smallest" : "1",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588845419,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "10-digit identifier for a tax lot, consisting of the borough code followed by the tax block followed by the tax lot. The borough code is one numeric digit. The tax block is one to five numeric digits, preceded with leading zeros when the block is less than five digits. The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits. For condominiums, this is usually the unit BBL.",
+    "fieldName" : "bbl",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834650,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "5080400010.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4022740002.0",
+        "count" : "20"
+      }, {
+        "item" : "1001210001.0",
+        "count" : "18"
+      }, {
+        "item" : "1000670001.0",
+        "count" : "17"
+      }, {
+        "item" : "1001550001.0",
+        "count" : "15"
+      }, {
+        "item" : "2024540001.0",
+        "count" : "11"
+      }, {
+        "item" : "4100930001.0",
+        "count" : "11"
+      }, {
+        "item" : "3002661001.0",
+        "count" : "11"
+      }, {
+        "item" : "5000070001.0",
+        "count" : "10"
+      }, {
+        "item" : "2029470018.0",
+        "count" : "10"
+      }, {
+        "item" : "1001670001.0",
+        "count" : "10"
+      }, {
+        "item" : "1001710031.0",
+        "count" : "10"
+      }, {
+        "item" : "5000080070.0",
+        "count" : "10"
+      }, {
+        "item" : "3007060001.0",
+        "count" : "9"
+      }, {
+        "item" : "5004870100",
+        "count" : "9"
+      }, {
+        "item" : "2024680001.0",
+        "count" : "9"
+      }, {
+        "item" : "5009550100",
+        "count" : "9"
+      }, {
+        "item" : "1009620100",
+        "count" : "8"
+      }, {
+        "item" : "1000940025.0",
+        "count" : "8"
+      }, {
+        "item" : "1001530024.0",
+        "count" : "8"
+      }, {
+        "item" : "1001660027.0",
+        "count" : "8"
+      } ],
+      "smallest" : "1000020001.0",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588845420,
+    "name" : "BILLBBL",
+    "dataTypeName" : "number",
+    "description" : "The mapped BBL is the BBL used to map the record. For condominium lots, the mapped BBL is the billing BBL, which is the 75nn-series record shown on the tax map and in MapPLUTO. It is generally associated with the condominium management organization. For air rights lots, the mapped BBL is the donating BBL from the Air_Rights_Lot table in the Department of Finance's Digital Tax Map. If there is more than one donating BBL, the one whose lot number most closely matches that of the air rights lot is used. For all other lots, MAPBBL is the same as BBL.",
+    "fieldName" : "billbbl",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124485428,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "5080400010.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4022740002.0",
+        "count" : "20"
+      }, {
+        "item" : "1001210001.0",
+        "count" : "18"
+      }, {
+        "item" : "1000670001.0",
+        "count" : "17"
+      }, {
+        "item" : "1001550001.0",
+        "count" : "15"
+      }, {
+        "item" : "3001407501.0",
+        "count" : "13"
+      }, {
+        "item" : "3002667501.0",
+        "count" : "12"
+      }, {
+        "item" : "3012747501.0",
+        "count" : "12"
+      }, {
+        "item" : "4100930001.0",
+        "count" : "11"
+      }, {
+        "item" : "2024540001.0",
+        "count" : "11"
+      }, {
+        "item" : "1001710031.0",
+        "count" : "10"
+      }, {
+        "item" : "2029470018.0",
+        "count" : "10"
+      }, {
+        "item" : "1001670001.0",
+        "count" : "10"
+      }, {
+        "item" : "5000070001.0",
+        "count" : "10"
+      }, {
+        "item" : "5000080070.0",
+        "count" : "10"
+      }, {
+        "item" : "3007060001.0",
+        "count" : "9"
+      }, {
+        "item" : "5004870100",
+        "count" : "9"
+      }, {
+        "item" : "1001347501.0",
+        "count" : "9"
+      }, {
+        "item" : "5009550100",
+        "count" : "9"
+      }, {
+        "item" : "2024680001.0",
+        "count" : "9"
+      }, {
+        "item" : "1000940025.0",
+        "count" : "8"
+      } ],
+      "smallest" : "1000020001.0",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845421,
+    "name" : "CD",
+    "dataTypeName" : "number",
+    "description" : "The community district or joint interest area for the tax lot. The city is divided into 59 community districts and 12 joint interest areas, which are large parks or airports that are not considered part of any community district. This field consists of three digits, the first of which is the borough code. The second and third digits are the community district or joint interest area number, whichever is applicable.",
+    "fieldName" : "cd",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834632,
+    "cachedContents" : {
+      "non_null" : "17296",
+      "largest" : "595",
+      "null" : "2",
+      "top" : [ {
+        "item" : "503",
+        "count" : "2194"
+      }, {
+        "item" : "502",
+        "count" : "1068"
+      }, {
+        "item" : "414",
+        "count" : "879"
+      }, {
+        "item" : "501",
+        "count" : "724"
+      }, {
+        "item" : "412",
+        "count" : "559"
+      }, {
+        "item" : "305",
+        "count" : "533"
+      }, {
+        "item" : "316",
+        "count" : "466"
+      }, {
+        "item" : "407",
+        "count" : "462"
+      }, {
+        "item" : "413",
+        "count" : "417"
+      }, {
+        "item" : "302",
+        "count" : "415"
+      }, {
+        "item" : "303",
+        "count" : "391"
+      }, {
+        "item" : "410",
+        "count" : "381"
+      }, {
+        "item" : "306",
+        "count" : "380"
+      }, {
+        "item" : "103",
+        "count" : "356"
+      }, {
+        "item" : "111",
+        "count" : "328"
+      }, {
+        "item" : "204",
+        "count" : "326"
+      }, {
+        "item" : "101",
+        "count" : "323"
+      }, {
+        "item" : "301",
+        "count" : "318"
+      }, {
+        "item" : "201",
+        "count" : "300"
+      }, {
+        "item" : "318",
+        "count" : "271"
+      } ],
+      "smallest" : "101",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588845422,
+    "name" : "HOUSE NUMBER",
+    "dataTypeName" : "text",
+    "description" : "House number",
+    "fieldName" : "house_number",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834630,
+    "cachedContents" : {
+      "non_null" : "9304",
+      "largest" : "S",
+      "null" : "7994",
+      "top" : [ {
+        "item" : "1",
+        "count" : "60"
+      }, {
+        "item" : "100",
+        "count" : "47"
+      }, {
+        "item" : "2",
+        "count" : "41"
+      }, {
+        "item" : "60",
+        "count" : "35"
+      }, {
+        "item" : "120",
+        "count" : "31"
+      }, {
+        "item" : "200",
+        "count" : "31"
+      }, {
+        "item" : "50",
+        "count" : "29"
+      }, {
+        "item" : "80",
+        "count" : "28"
+      }, {
+        "item" : "10",
+        "count" : "27"
+      }, {
+        "item" : "66",
+        "count" : "27"
+      }, {
+        "item" : "150",
+        "count" : "26"
+      }, {
+        "item" : "25",
+        "count" : "26"
+      }, {
+        "item" : "300",
+        "count" : "26"
+      }, {
+        "item" : "330",
+        "count" : "24"
+      }, {
+        "item" : "3",
+        "count" : "23"
+      }, {
+        "item" : "350",
+        "count" : "23"
+      }, {
+        "item" : "30",
+        "count" : "23"
+      }, {
+        "item" : "210",
+        "count" : "23"
+      }, {
+        "item" : "455",
+        "count" : "23"
+      }, {
+        "item" : "16",
+        "count" : "23"
+      } ],
+      "smallest" : "00034-42",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845423,
+    "name" : "STREET NAME",
+    "dataTypeName" : "text",
+    "description" : "Name of the street",
+    "fieldName" : "street_name",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834634,
+    "cachedContents" : {
+      "non_null" : "16562",
+      "largest" : "ZULETTE AVENUE",
+      "null" : "736",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "138"
+      }, {
+        "item" : "RICHMOND TERRACE",
+        "count" : "97"
+      }, {
+        "item" : "UNION STREET",
+        "count" : "95"
+      }, {
+        "item" : "EUGENE STREET",
+        "count" : "88"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "87"
+      }, {
+        "item" : "DAMON STREET",
+        "count" : "84"
+      }, {
+        "item" : "AMBOY ROAD",
+        "count" : "78"
+      }, {
+        "item" : "HYLAN BOULEVARD",
+        "count" : "77"
+      }, {
+        "item" : "ARTHUR KILL ROAD",
+        "count" : "76"
+      }, {
+        "item" : "ROCKAWAY BEACH BOULEVARD",
+        "count" : "69"
+      }, {
+        "item" : "BEACH   43 STREET",
+        "count" : "61"
+      }, {
+        "item" : "FOX BEACH AVENUE",
+        "count" : "61"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "57"
+      }, {
+        "item" : "TARLTON STREET",
+        "count" : "55"
+      }, {
+        "item" : "GLENMORE AVENUE",
+        "count" : "54"
+      }, {
+        "item" : "KISSAM AVENUE",
+        "count" : "52"
+      }, {
+        "item" : "STERLING PLACE",
+        "count" : "52"
+      }, {
+        "item" : "PAGE AVENUE",
+        "count" : "52"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "51"
+      }, {
+        "item" : "POWERS STREET",
+        "count" : "50"
+      } ],
+      "smallest" : "0",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845424,
+    "name" : "ADDRESS",
+    "dataTypeName" : "text",
+    "description" : "House number and street name",
+    "fieldName" : "address",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124485427,
+    "cachedContents" : {
+      "non_null" : "16562",
+      "largest" : "ZULETTE AVENUE",
+      "null" : "736",
+      "top" : [ {
+        "item" : "EUGENE STREET",
+        "count" : "88"
+      }, {
+        "item" : "DAMON STREET",
+        "count" : "84"
+      }, {
+        "item" : "AMBOY ROAD",
+        "count" : "72"
+      }, {
+        "item" : "HYLAN BOULEVARD",
+        "count" : "65"
+      }, {
+        "item" : "RICHMOND TERRACE",
+        "count" : "52"
+      }, {
+        "item" : "ARTHUR KILL ROAD",
+        "count" : "51"
+      }, {
+        "item" : "ROCKAWAY BEACH BOULEVARD",
+        "count" : "49"
+      }, {
+        "item" : "POWERS STREET",
+        "count" : "47"
+      }, {
+        "item" : "PAGE AVENUE",
+        "count" : "47"
+      }, {
+        "item" : "SEAVER AVENUE",
+        "count" : "44"
+      }, {
+        "item" : "DEISIUS STREET",
+        "count" : "42"
+      }, {
+        "item" : "JEFFERSON AVENUE",
+        "count" : "41"
+      }, {
+        "item" : "NORTON DRIVE",
+        "count" : "38"
+      }, {
+        "item" : "PHILIP AVENUE",
+        "count" : "38"
+      }, {
+        "item" : "COMMUNITY LANE",
+        "count" : "37"
+      }, {
+        "item" : "LIPSETT AVENUE",
+        "count" : "34"
+      }, {
+        "item" : "BERTRAM AVENUE",
+        "count" : "34"
+      }, {
+        "item" : "SPRINGFIELD BOULEVARD",
+        "count" : "33"
+      }, {
+        "item" : "EADIE AVENUE",
+        "count" : "30"
+      }, {
+        "item" : "PATTERSON AVENUE",
+        "count" : "30"
+      } ],
+      "smallest" : "0",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845425,
+    "name" : "PARCEL NAME",
+    "dataTypeName" : "text",
+    "description" : "Name of the parcel or facility on the lot. DCP applies some modifications to parcel names to improve readability. Some abbreviations are expanded programmatically. Other modifications are made after manual research. For the latter, DCPEDITED = \"Y\".",
+    "fieldName" : "parcel_name",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834635,
+    "cachedContents" : {
+      "non_null" : "13676",
+      "largest" : "ZION PARK/LOEW SQUARE",
+      "null" : "3622",
+      "top" : [ {
+        "item" : "RED HOOK CONTAINER TERMINAL",
+        "count" : "179"
+      }, {
+        "item" : "BLUE HERON PARK PRESERVE",
+        "count" : "174"
+      }, {
+        "item" : "LONG POND PARK",
+        "count" : "144"
+      }, {
+        "item" : "NEW CREEK BLUEBELT, PHASE 4",
+        "count" : "108"
+      }, {
+        "item" : "BLUE HERON PARK",
+        "count" : "84"
+      }, {
+        "item" : "R-120 ARDEN HGHTS WOODS PARK",
+        "count" : "82"
+      }, {
+        "item" : "MID-ISLAND BLUEBELT PHASE 3",
+        "count" : "77"
+      }, {
+        "item" : "LONG POND PARK ADDITION R-27",
+        "count" : "77"
+      }, {
+        "item" : "LONG POND PARK ADDITION  R-27",
+        "count" : "69"
+      }, {
+        "item" : "ROCKAWAY IND",
+        "count" : "64"
+      }, {
+        "item" : "HOWARD AVENUE - PARK PLACE",
+        "count" : "64"
+      }, {
+        "item" : "NEW CREEK BLUEBELT, PHASE 5",
+        "count" : "63"
+      }, {
+        "item" : "HOOK CREEK WILDLIFE SANCTUARY",
+        "count" : "60"
+      }, {
+        "item" : "BLUE HERON PARK  R-119",
+        "count" : "59"
+      }, {
+        "item" : "FLUSHING AIRPORT",
+        "count" : "59"
+      }, {
+        "item" : "STATEN ISLAND LEVEE PROJECT PHASE 2",
+        "count" : "56"
+      }, {
+        "item" : "ALLEY POND PARK",
+        "count" : "54"
+      }, {
+        "item" : "SPRING CREEK PARK ADDITION",
+        "count" : "51"
+      }, {
+        "item" : "SPRING CREEK PARK",
+        "count" : "50"
+      }, {
+        "item" : "BLUE HERON PARK (R119)",
+        "count" : "49"
+      } ],
+      "smallest" : "100TH AVENUE",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845426,
+    "name" : "AGENCY",
+    "dataTypeName" : "text",
+    "description" : "Abbreviation for agency or entity using the lot. See appendix A for a list of abbreviations with their full name.",
+    "fieldName" : "agency",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834636,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "UNKN",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PARKS",
+        "count" : "5566"
+      }, {
+        "item" : "DCAS",
+        "count" : "2175"
+      }, {
+        "item" : "EDUC",
+        "count" : "1731"
+      }, {
+        "item" : "NYCHA",
+        "count" : "1265"
+      }, {
+        "item" : "DEP",
+        "count" : "1114"
+      }, {
+        "item" : "HPD",
+        "count" : "854"
+      }, {
+        "item" : "DOT",
+        "count" : "810"
+      }, {
+        "item" : "DSBS",
+        "count" : "600"
+      }, {
+        "item" : "EDC",
+        "count" : "591"
+      }, {
+        "item" : "NYCTA",
+        "count" : "397"
+      }, {
+        "item" : "FIRE",
+        "count" : "334"
+      }, {
+        "item" : "NYPD",
+        "count" : "321"
+      }, {
+        "item" : "SANIT",
+        "count" : "192"
+      }, {
+        "item" : "MTA",
+        "count" : "139"
+      }, {
+        "item" : "DHS",
+        "count" : "99"
+      }, {
+        "item" : "NYPL",
+        "count" : "91"
+      }, {
+        "item" : "CULT",
+        "count" : "81"
+      }, {
+        "item" : "HHC",
+        "count" : "79"
+      }, {
+        "item" : "QPL",
+        "count" : "76"
+      }, {
+        "item" : "BPL",
+        "count" : "69"
+      } ],
+      "smallest" : "ACS",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845427,
+    "name" : "USE CODE",
+    "dataTypeName" : "number",
+    "description" : "The use code indicates how the lot is being used by the agency. See Appendix B for a complete list of use codes and descriptions.",
+    "fieldName" : "use_code",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834631,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "1900",
+      "null" : "0",
+      "top" : [ {
+        "item" : "471",
+        "count" : "2628"
+      }, {
+        "item" : "1520",
+        "count" : "2358"
+      }, {
+        "item" : "440",
+        "count" : "1458"
+      }, {
+        "item" : "1410",
+        "count" : "1179"
+      }, {
+        "item" : "1900",
+        "count" : "823"
+      }, {
+        "item" : "211",
+        "count" : "774"
+      }, {
+        "item" : "472",
+        "count" : "755"
+      }, {
+        "item" : "880",
+        "count" : "626"
+      }, {
+        "item" : "1500",
+        "count" : "507"
+      }, {
+        "item" : "431",
+        "count" : "425"
+      }, {
+        "item" : "430",
+        "count" : "402"
+      }, {
+        "item" : "479",
+        "count" : "233"
+      }, {
+        "item" : "520",
+        "count" : "219"
+      }, {
+        "item" : "332",
+        "count" : "219"
+      }, {
+        "item" : "100",
+        "count" : "199"
+      }, {
+        "item" : "212",
+        "count" : "186"
+      }, {
+        "item" : "861",
+        "count" : "182"
+      }, {
+        "item" : "120",
+        "count" : "165"
+      }, {
+        "item" : "213",
+        "count" : "158"
+      }, {
+        "item" : "442",
+        "count" : "143"
+      } ],
+      "smallest" : "100",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588845428,
+    "name" : "USE TYPE",
+    "dataTypeName" : "text",
+    "description" : "Description of how the lot is being used by the agency. See Appendix B for a complete list of use codes and descriptions.",
+    "fieldName" : "use_type",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834637,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "ZOO/AQUARIUM",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NATURAL AREA/WETLAND/WILDLIFE REFUGE",
+        "count" : "2628"
+      }, {
+        "item" : "NO USE-VACANT LAND",
+        "count" : "2358"
+      }, {
+        "item" : "PARK",
+        "count" : "1458"
+      }, {
+        "item" : "IN USE-RESIDENTIAL STRUCTURE",
+        "count" : "1179"
+      }, {
+        "item" : "IN USE-TENANTED",
+        "count" : "823"
+      }, {
+        "item" : "ELEMENTARY SCHOOL",
+        "count" : "774"
+      }, {
+        "item" : "COMMUNITY GARDEN",
+        "count" : "755"
+      }, {
+        "item" : "ROAD/HIGHWAY",
+        "count" : "626"
+      }, {
+        "item" : "NO USE",
+        "count" : "507"
+      }, {
+        "item" : "PLAYGROUND",
+        "count" : "425"
+      }, {
+        "item" : "PLAYGROUND/SPORTS AREA",
+        "count" : "402"
+      }, {
+        "item" : "OTHER OPEN SPACE",
+        "count" : "233"
+      }, {
+        "item" : "FIREHOUSE",
+        "count" : "219"
+      }, {
+        "item" : "BRANCH LIBRARY",
+        "count" : "219"
+      }, {
+        "item" : "OFFICE",
+        "count" : "199"
+      }, {
+        "item" : "INTERMEDIATE SCHOOL",
+        "count" : "186"
+      }, {
+        "item" : "TRANSIT WAY",
+        "count" : "182"
+      }, {
+        "item" : "AGENCY OFFICE",
+        "count" : "165"
+      }, {
+        "item" : "ACADEMIC HIGH SCHOOL",
+        "count" : "158"
+      }, {
+        "item" : "COMMUNITY PARK",
+        "count" : "143"
+      } ],
+      "smallest" : "ACADEMIC HIGH SCHOOL",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845429,
+    "name" : "OWNERSHIP",
+    "dataTypeName" : "text",
+    "description" : "Type of owner",
+    "fieldName" : "non_city_ownership",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834639,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "S",
+      "null" : "0",
+      "top" : [ {
+        "item" : "C",
+        "count" : "14894"
+      }, {
+        "item" : "O",
+        "count" : "1525"
+      }, {
+        "item" : "P",
+        "count" : "774"
+      }, {
+        "item" : "M",
+        "count" : "104"
+      }, {
+        "item" : "S",
+        "count" : "1"
+      } ],
+      "smallest" : "C",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845430,
+    "name" : "CATEGORY",
+    "dataTypeName" : "number",
+    "description" : "Category classifies lots as non-residential properties with a current use, residential properties, or properties without a current use.",
+    "fieldName" : "category_code",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834645,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "12983"
+      }, {
+        "item" : "3",
+        "count" : "3089"
+      }, {
+        "item" : "2",
+        "count" : "1226"
+      } ],
+      "smallest" : "1",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845431,
+    "name" : "EXPANDED CATEGORY CODE",
+    "dataTypeName" : "number",
+    "description" : "This categorization classifies records into broad groups based on use. Valid values are 1 - 9.",
+    "fieldName" : "expanded_category_code",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834646,
+    "cachedContents" : {
+      "non_null" : "17246",
+      "largest" : "9",
+      "null" : "52",
+      "top" : [ {
+        "item" : "3",
+        "count" : "7095"
+      }, {
+        "item" : "8",
+        "count" : "3132"
+      }, {
+        "item" : "7",
+        "count" : "2223"
+      }, {
+        "item" : "2",
+        "count" : "1471"
+      }, {
+        "item" : "9",
+        "count" : "1183"
+      }, {
+        "item" : "6",
+        "count" : "827"
+      }, {
+        "item" : "1",
+        "count" : "577"
+      }, {
+        "item" : "4",
+        "count" : "464"
+      }, {
+        "item" : "5",
+        "count" : "274"
+      } ],
+      "smallest" : "1",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845432,
+    "name" : "EXPANDED CATEGORY DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "Descriptions for the expanded category values. See EXPANDCAT for the domain values.",
+    "fieldName" : "excatdesc",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124485426,
+    "cachedContents" : {
+      "non_null" : "17246",
+      "largest" : "PUBLIC SAFETY & CRIMINAL JUSTICE USE",
+      "null" : "52",
+      "top" : [ {
+        "item" : "CULTURAL & RECREATIONAL USE",
+        "count" : "7095"
+      }, {
+        "item" : "PROPERTY WITH NO USE",
+        "count" : "3132"
+      }, {
+        "item" : "MAINTENANCE, STORAGE, & INFRASTRUCTURE USE",
+        "count" : "2223"
+      }, {
+        "item" : "EDUCATIONAL USE",
+        "count" : "1471"
+      }, {
+        "item" : "PROPERTY WITH RESIDENTIAL USE",
+        "count" : "1183"
+      }, {
+        "item" : "LEASED OUT TO PRIVATE TENANT",
+        "count" : "827"
+      }, {
+        "item" : "OFFICE USE",
+        "count" : "577"
+      }, {
+        "item" : "PUBLIC SAFETY & CRIMINAL JUSTICE USE",
+        "count" : "464"
+      }, {
+        "item" : "HEALTH & SOCIAL SERVICES USE",
+        "count" : "274"
+      } ],
+      "smallest" : "CULTURAL & RECREATIONAL USE",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845433,
+    "name" : "LEASED PROPERTIES",
+    "dataTypeName" : "text",
+    "description" : "A value of \"L\" indicates that the agency's use of the property is authorized through a lease. For questions about the lease or ownership status of specific lots, please contact DCAS at (212) 386-0622 or RESPlanning311@dcas.nyc.gov.",
+    "fieldName" : "leased_properties",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834640,
+    "cachedContents" : {
+      "non_null" : "781",
+      "largest" : "L",
+      "null" : "16517",
+      "top" : [ {
+        "item" : "L",
+        "count" : "781"
+      } ],
+      "smallest" : "L",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845434,
+    "name" : "FINAL COMMITMENT",
+    "dataTypeName" : "text",
+    "description" : "A value of \"D\" indicates potential disposition by the City.",
+    "fieldName" : "final_commitment",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 98834642,
+    "cachedContents" : {
+      "non_null" : "770",
+      "largest" : "D",
+      "null" : "16528",
+      "top" : [ {
+        "item" : "D",
+        "count" : "770"
+      } ],
+      "smallest" : "D",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845435,
+    "name" : "AGREEMENT",
+    "dataTypeName" : "text",
+    "description" : "For City-owned properties that are leased to another entity, this field indicates whether the agreement is short-term, long-term, or there are both short- and long-term agreements present.",
+    "fieldName" : "agreement",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 124485425,
+    "cachedContents" : {
+      "non_null" : "48",
+      "largest" : "S",
+      "null" : "17250",
+      "top" : [ {
+        "item" : "L",
+        "count" : "40"
+      }, {
+        "item" : "S",
+        "count" : "5"
+      }, {
+        "item" : "M",
+        "count" : "3"
+      } ],
+      "smallest" : "L",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845436,
+    "name" : "X COORDINATE",
+    "dataTypeName" : "number",
+    "description" : "X coordinate based on the Geosupport label point for the billing BBL. Coordinate system is NAD 1983 State Plane New York Long Island FIPS 3104 Feet.",
+    "fieldName" : "x_coordinate",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834648,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "1066854",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1031933",
+        "count" : "20"
+      }, {
+        "item" : "983231",
+        "count" : "18"
+      }, {
+        "item" : "982037",
+        "count" : "17"
+      }, {
+        "item" : "983168",
+        "count" : "15"
+      }, {
+        "item" : "987580",
+        "count" : "13"
+      }, {
+        "item" : "986892",
+        "count" : "12"
+      }, {
+        "item" : "1038933",
+        "count" : "12"
+      }, {
+        "item" : "1006310",
+        "count" : "11"
+      }, {
+        "item" : "962810",
+        "count" : "10"
+      }, {
+        "item" : "963170",
+        "count" : "10"
+      }, {
+        "item" : "1013922",
+        "count" : "10"
+      }, {
+        "item" : "983491",
+        "count" : "10"
+      }, {
+        "item" : "984083",
+        "count" : "10"
+      }, {
+        "item" : "947864",
+        "count" : "9"
+      }, {
+        "item" : "980950",
+        "count" : "9"
+      }, {
+        "item" : "1005339",
+        "count" : "9"
+      }, {
+        "item" : "964698",
+        "count" : "9"
+      }, {
+        "item" : "982196",
+        "count" : "9"
+      }, {
+        "item" : "1006632",
+        "count" : "9"
+      }, {
+        "item" : "987662",
+        "count" : "8"
+      } ],
+      "smallest" : "913448",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845437,
+    "name" : "Y COORDINATE",
+    "dataTypeName" : "number",
+    "description" : "Y coordinate based on the Geosupport label point for the billing BBL. Coordinate system is NAD 1983 State Plane New York Long Island FIPS 3104 Feet.",
+    "fieldName" : "y_coordinate",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 98834649,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "270758",
+      "null" : "0",
+      "top" : [ {
+        "item" : "199455",
+        "count" : "20"
+      }, {
+        "item" : "199032",
+        "count" : "18"
+      }, {
+        "item" : "197460",
+        "count" : "17"
+      }, {
+        "item" : "199414",
+        "count" : "15"
+      }, {
+        "item" : "192051",
+        "count" : "13"
+      }, {
+        "item" : "191417",
+        "count" : "13"
+      }, {
+        "item" : "240550",
+        "count" : "12"
+      }, {
+        "item" : "195163",
+        "count" : "12"
+      }, {
+        "item" : "197986",
+        "count" : "10"
+      }, {
+        "item" : "200373",
+        "count" : "10"
+      }, {
+        "item" : "200265",
+        "count" : "10"
+      }, {
+        "item" : "247408",
+        "count" : "10"
+      }, {
+        "item" : "173464",
+        "count" : "10"
+      }, {
+        "item" : "173329",
+        "count" : "10"
+      }, {
+        "item" : "154673",
+        "count" : "9"
+      }, {
+        "item" : "177975",
+        "count" : "9"
+      }, {
+        "item" : "169005",
+        "count" : "9"
+      }, {
+        "item" : "199199",
+        "count" : "9"
+      }, {
+        "item" : "240326",
+        "count" : "9"
+      }, {
+        "item" : "208423",
+        "count" : "8"
+      } ],
+      "smallest" : "120146",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845438,
+    "name" : "LATITUDE",
+    "dataTypeName" : "number",
+    "description" : "Latitude based on the Geosupport label point for the billing BBL. Coordinate system is NAD_1983.",
+    "fieldName" : "latitude",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124485424,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "40.90981",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.714006",
+        "count" : "22"
+      }, {
+        "item" : "40.712974",
+        "count" : "18"
+      }, {
+        "item" : "40.708659",
+        "count" : "17"
+      }, {
+        "item" : "40.714022",
+        "count" : "15"
+      }, {
+        "item" : "40.693812",
+        "count" : "13"
+      }, {
+        "item" : "40.692072",
+        "count" : "12"
+      }, {
+        "item" : "40.826902",
+        "count" : "11"
+      }, {
+        "item" : "40.702185",
+        "count" : "11"
+      }, {
+        "item" : "40.716655",
+        "count" : "10"
+      }, {
+        "item" : "40.845703",
+        "count" : "10"
+      }, {
+        "item" : "40.716358",
+        "count" : "10"
+      }, {
+        "item" : "40.64277",
+        "count" : "10"
+      }, {
+        "item" : "40.6424",
+        "count" : "10"
+      }, {
+        "item" : "40.655177",
+        "count" : "10"
+      }, {
+        "item" : "40.694603",
+        "count" : "9"
+      }, {
+        "item" : "40.591143",
+        "count" : "9"
+      }, {
+        "item" : "40.713432",
+        "count" : "9"
+      }, {
+        "item" : "40.82629",
+        "count" : "9"
+      }, {
+        "item" : "40.630535",
+        "count" : "9"
+      }, {
+        "item" : "40.713498",
+        "count" : "8"
+      } ],
+      "smallest" : "40.496171",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845439,
+    "name" : "LONGITUDE",
+    "dataTypeName" : "number",
+    "description" : "Longitude based on the Geosupport label point for the billing BBL. Coordinate system is NAD_1983.",
+    "fieldName" : "longitude",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 124485423,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "largest" : "-73.701927",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.827997",
+        "count" : "20"
+      }, {
+        "item" : "-74.003676",
+        "count" : "18"
+      }, {
+        "item" : "-74.007982",
+        "count" : "17"
+      }, {
+        "item" : "-74.003903",
+        "count" : "15"
+      }, {
+        "item" : "-73.987992",
+        "count" : "13"
+      }, {
+        "item" : "-73.990473",
+        "count" : "12"
+      }, {
+        "item" : "-73.92029",
+        "count" : "11"
+      }, {
+        "item" : "-73.802782",
+        "count" : "11"
+      }, {
+        "item" : "-74.075958",
+        "count" : "10"
+      }, {
+        "item" : "-73.892755",
+        "count" : "10"
+      }, {
+        "item" : "-74.002738",
+        "count" : "10"
+      }, {
+        "item" : "-74.077256",
+        "count" : "10"
+      }, {
+        "item" : "-74.000602",
+        "count" : "10"
+      }, {
+        "item" : "-74.13101",
+        "count" : "9"
+      }, {
+        "item" : "-74.007409",
+        "count" : "9"
+      }, {
+        "item" : "-74.011893",
+        "count" : "9"
+      }, {
+        "item" : "-73.923799",
+        "count" : "9"
+      }, {
+        "item" : "-74.07044",
+        "count" : "9"
+      }, {
+        "item" : "-73.975343",
+        "count" : "9"
+      }, {
+        "item" : "-73.789277",
+        "count" : "9"
+      } ],
+      "smallest" : "-74.254614",
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845441,
+    "name" : "GEOM",
+    "dataTypeName" : "point",
+    "description" : "Point geometry type",
+    "fieldName" : "the_geom",
+    "position" : 25,
+    "renderTypeName" : "point",
+    "tableColumnId" : 151064824,
+    "cachedContents" : {
+      "non_null" : "17298",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -73.827997, 40.714006 ],
+          "type" : "Point"
+        },
+        "count" : "20"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.003676, 40.712974 ],
+          "type" : "Point"
+        },
+        "count" : "18"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.007982, 40.708659 ],
+          "type" : "Point"
+        },
+        "count" : "17"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.003903, 40.714022 ],
+          "type" : "Point"
+        },
+        "count" : "15"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.987992, 40.693812 ],
+          "type" : "Point"
+        },
+        "count" : "13"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.990473, 40.692072 ],
+          "type" : "Point"
+        },
+        "count" : "12"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.802782, 40.702185 ],
+          "type" : "Point"
+        },
+        "count" : "11"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.92029, 40.826902 ],
+          "type" : "Point"
+        },
+        "count" : "11"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.000602, 40.716358 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.892755, 40.845703 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.075958, 40.6424 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.077256, 40.64277 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.002738, 40.716655 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.07044, 40.630535 ],
+          "type" : "Point"
+        },
+        "count" : "9"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.923799, 40.82629 ],
+          "type" : "Point"
+        },
+        "count" : "9"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.011893, 40.655177 ],
+          "type" : "Point"
+        },
+        "count" : "9"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.13101, 40.591143 ],
+          "type" : "Point"
+        },
+        "count" : "9"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.007409, 40.713432 ],
+          "type" : "Point"
+        },
+        "count" : "9"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.975343, 40.738747 ],
+          "type" : "Point"
+        },
+        "count" : "8"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.789277, 40.647938 ],
+          "type" : "Point"
+        },
+        "count" : "8"
+      } ],
+      "count" : "17298",
+      "cardinality" : "17298"
+    },
+    "format" : { }
+  }, {
+    "id" : 588845443,
+    "name" : "Borough Boundaries",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Borough Boundaries' (yeji-bk3q) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_yeji_bk3q",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151064826,
+    "computationStrategy" : {
+      "source_columns" : [ "the_geom" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_yeji-bk3q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 588845444,
+    "name" : "Police Precincts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Police Precincts' (sbqj-enih) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_sbqj_enih",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151064827,
+    "computationStrategy" : {
+      "source_columns" : [ "the_geom" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_sbqj-enih",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 588845445,
+    "name" : "City Council Districts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'City Council Districts' (92fq-4b7q) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_92fq_4b7q",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151064828,
+    "computationStrategy" : {
+      "source_columns" : [ "the_geom" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_92fq-4b7q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 588845442,
+    "name" : "Community Districts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Community Districts' (f5dn-yrer) the point in column 'the_geom' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_f5dn_yrer",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151064825,
+    "computationStrategy" : {
+      "source_columns" : [ "the_geom" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_f5dn-yrer",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "colp_readme.pdf",
+      "assetId" : "2bc87dad-9a5a-404e-afda-b2e4194694b1",
+      "name" : "colp_readme.pdf"
+    }, {
+      "filename" : "colp_metadata.pdf",
+      "assetId" : "a7318486-b618-4868-8d87-683d0a1f9fef",
+      "name" : "colp_metadata.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "4/16/2020",
+        "Update Frequency" : "Every 6 months",
+        "Data Change Frequency" : "Bi-annually"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of City Planning (DCP)"
+      }
+    },
+    "rowLabel" : "City Owned or Leased Property",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "colp", "ipis", "city owned", "leased", "property", "department of citywide administrative services", "dcas", "department of city planning", "dcp", "new york city", "nyc" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

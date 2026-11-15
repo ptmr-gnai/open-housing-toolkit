@@ -1,0 +1,301 @@
+{
+  "meaning": "Calculation trace. Input JSON pointers contain attribution; value is not approval.",
+  "nodes": [
+    {
+      "dependencies": [
+        "request.json#/capital/lines/0",
+        "request.json#/program"
+      ],
+      "id": "capital.land",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "15900000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/1",
+        "request.json#/program"
+      ],
+      "id": "capital.acquisition_closing",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/2",
+        "request.json#/program"
+      ],
+      "id": "capital.demolition",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/3",
+        "request.json#/program"
+      ],
+      "id": "capital.remediation",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/4",
+        "request.json#/program"
+      ],
+      "id": "capital.hard_costs",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "125664665.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/5",
+        "request.json#/program"
+      ],
+      "id": "capital.hard_contingency",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/6",
+        "request.json#/program"
+      ],
+      "id": "capital.soft_costs",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "23143948.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/7",
+        "request.json#/program"
+      ],
+      "id": "capital.soft_contingency",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/8",
+        "request.json#/program"
+      ],
+      "id": "capital.offsite_infrastructure",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/9",
+        "request.json#/program"
+      ],
+      "id": "capital.construction_interest",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/10",
+        "request.json#/program"
+      ],
+      "id": "capital.financing_fees",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/11",
+        "request.json#/program"
+      ],
+      "id": "capital.developer_fee",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "2800000.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/12",
+        "request.json#/program"
+      ],
+      "id": "capital.initial_reserves",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "1643391.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/13",
+        "request.json#/program"
+      ],
+      "id": "capital.other",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/14",
+        "request.json#/program"
+      ],
+      "id": "capital.taxes_and_carry",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/capital/lines/15",
+        "request.json#/program"
+      ],
+      "id": "capital.business_relocation",
+      "kind": "calculation",
+      "method": "explicit rate \u00d7 declared program measure",
+      "unit": "USD",
+      "value": "0.00"
+    },
+    {
+      "dependencies": [
+        "capital.land",
+        "capital.acquisition_closing",
+        "capital.demolition",
+        "capital.remediation",
+        "capital.hard_costs",
+        "capital.hard_contingency",
+        "capital.soft_costs",
+        "capital.soft_contingency",
+        "capital.offsite_infrastructure",
+        "capital.construction_interest",
+        "capital.financing_fees",
+        "capital.developer_fee",
+        "capital.initial_reserves",
+        "capital.other",
+        "capital.taxes_and_carry",
+        "capital.business_relocation"
+      ],
+      "id": "capital.total",
+      "kind": "calculation",
+      "method": "sum cost lines",
+      "unit": "USD",
+      "value": "169152004.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/income"
+      ],
+      "id": "year.1.income",
+      "kind": "calculation",
+      "method": "sum stream effective amounts after growth, active period and vacancy",
+      "unit": "USD/year",
+      "value": "3946019.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/expenses"
+      ],
+      "id": "year.1.expenses",
+      "kind": "calculation",
+      "method": "sum expense rows after growth",
+      "unit": "USD/year",
+      "value": "2593041.00"
+    },
+    {
+      "dependencies": [
+        "request.json#/operations/replacement_reserve"
+      ],
+      "id": "year.1.reserve",
+      "kind": "calculation",
+      "method": "annual deposit \u00d7 explicit growth",
+      "unit": "USD/year",
+      "value": "80000.00"
+    },
+    {
+      "dependencies": [
+        "year.1.income",
+        "year.1.expenses",
+        "year.1.reserve",
+        "request.json#/operations/reserve_deducted_for_coverage"
+      ],
+      "id": "year.1.coverage_noi",
+      "kind": "calculation",
+      "method": "income - expenses - reserve if explicitly elected",
+      "unit": "USD/year",
+      "value": "1272978.00"
+    },
+    {
+      "dependencies": [
+        "year.1.coverage_noi",
+        "capital.total",
+        "request.json#/debt",
+        "request.json#/sources"
+      ],
+      "id": "debt.principal",
+      "kind": "calculation",
+      "method": "minimum declared debt capacities, rounded down",
+      "unit": "USD",
+      "value": "12793048.57"
+    },
+    {
+      "dependencies": [
+        "year.1.coverage_noi",
+        "debt.principal",
+        "request.json#/debt"
+      ],
+      "id": "year.1.dscr",
+      "kind": "calculation",
+      "method": "coverage NOI / primary and other annual debt service; undefined with zero debt",
+      "unit": "ratio",
+      "value": "1.150000"
+    },
+    {
+      "dependencies": [
+        "year.1.income",
+        "year.1.expenses",
+        "year.1.reserve",
+        "debt.principal",
+        "request.json#/debt",
+        "request.json#/operations/below_line"
+      ],
+      "id": "year.1.cash",
+      "kind": "calculation",
+      "method": "income - expenses - reserve - primary debt service - other debt service - below-line expenses - maturity principal due",
+      "unit": "USD/year",
+      "value": "147152.61"
+    },
+    {
+      "dependencies": [
+        "capital.total",
+        "debt.principal",
+        "request.json#/sources"
+      ],
+      "id": "capital.unallocated",
+      "kind": "calculation",
+      "method": "max(0, uses - modeled debt - all declared sources)",
+      "unit": "USD",
+      "value": "156358955.43"
+    }
+  ]
+}

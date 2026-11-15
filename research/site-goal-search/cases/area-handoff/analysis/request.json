@@ -1,0 +1,24 @@
+{
+  "bbl": "2028750045",
+  "question": "Selected program area handoff for 2028750045. Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets? The source search status is matches_declared_targets. Treat all program dimensions as assumptions and retain the separate financial packet.",
+  "scenario": {
+    "average_net_home_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Net sf per proposed home; the legacy area module reports fractional home-equivalents.",
+      "value": 700.0
+    },
+    "gross_area_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately.",
+      "value": 54901.97
+    },
+    "name": "2028750045-h60-p0",
+    "nonresidential_gross_sf": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Nonresidential share is 1 minus the explicit residential share of gross.",
+      "value": 5490.197
+    },
+    "residential_net_efficiency": {
+      "rationale": "Analyst scenario selected from verified finite search 2028750045-h60-p0. Area assumptions only; no lawful envelope, layout, availability or delivered-home finding. Financial model is retained separately. Declared net/residential-gross conversion, not a floor plan.",
+      "value": 0.85
+    }
+  },
+  "version": "0.2.0"
+}

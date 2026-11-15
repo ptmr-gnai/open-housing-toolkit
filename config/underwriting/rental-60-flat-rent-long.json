@@ -1,0 +1,338 @@
+{
+  "basis": {
+    "kind": "analyst_assumption",
+    "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+    "reference_ids": []
+  },
+  "capital": {
+    "lines": [
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "land",
+        "measure": "fixed",
+        "usd": "3000000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "acquisition_closing",
+        "measure": "fixed",
+        "usd": "150000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "demolition",
+        "measure": "fixed",
+        "usd": "500000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "remediation",
+        "measure": "fixed",
+        "usd": "750000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "hard_costs",
+        "measure": "per_gross_sf",
+        "usd": "450"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "hard_contingency",
+        "measure": "per_gross_sf",
+        "usd": "45"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "soft_costs",
+        "measure": "per_gross_sf",
+        "usd": "75"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "soft_contingency",
+        "measure": "per_gross_sf",
+        "usd": "7.5"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "offsite_infrastructure",
+        "measure": "fixed",
+        "usd": "250000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "construction_interest",
+        "measure": "fixed",
+        "usd": "1500000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "financing_fees",
+        "measure": "fixed",
+        "usd": "500000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "developer_fee",
+        "measure": "fixed",
+        "usd": "1500000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "initial_reserves",
+        "measure": "per_home",
+        "usd": "15000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "category": "other",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Explicit illustrative allowance for taxes and carry. Not an estimate from leases, an owner offer, an actual construction schedule or current insurance/tax quotes; replace with project evidence before underwriting.",
+          "reference_ids": []
+        },
+        "category": "taxes_and_carry",
+        "measure": "fixed",
+        "usd": "400000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Explicit illustrative allowance for business relocation. Not an estimate from leases, an owner offer, an actual construction schedule or current insurance/tax quotes; replace with project evidence before underwriting.",
+          "reference_ids": []
+        },
+        "category": "business_relocation",
+        "measure": "fixed",
+        "usd": "500000"
+      }
+    ]
+  },
+  "debt": {
+    "absolute_cap_usd": null,
+    "amortization_years": 30,
+    "annual_interest_rate": "0.06",
+    "appraised_value_usd": null,
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Analyst-selected diagnostic values informed by dated published budget structures. Program eligibility and applicability are not established.",
+      "reference_ids": [
+        "hpd-ncf-2025",
+        "hdc-nc-2024"
+      ]
+    },
+    "maximum_ltv": null,
+    "maximum_total_ltc": "0.9",
+    "minimum_dscr": "1.15",
+    "minimum_dscr_by_year": null,
+    "other_annual_debt_service_usd": "0",
+    "sizing_years": 20,
+    "term_years": 30
+  },
+  "id": "rental-60-flat-rent-long",
+  "operations": {
+    "below_line": [
+      {
+        "annual_growth": "0.02",
+        "annual_usd": "12000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "asset-and-monitoring-fees"
+      }
+    ],
+    "expenses": [
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "management"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "210000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "staff-and-maintenance"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "utilities"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "90000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "insurance"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "150000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "taxes"
+      },
+      {
+        "annual_growth": "0.03",
+        "annual_usd": "30000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "id": "administration"
+      }
+    ],
+    "first_calendar_year": 2026,
+    "horizon_years": 20,
+    "income": [
+      {
+        "annual_growth": "0",
+        "annual_usd": "1944000",
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+          "reference_ids": []
+        },
+        "end_year": 20,
+        "id": "tenant-rent",
+        "start_year": 1,
+        "vacancy_rate": "0.05"
+      }
+    ],
+    "replacement_reserve": {
+      "annual_growth": "0.03",
+      "annual_usd": "24000",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Analyst-selected diagnostic values informed by dated published budget structures. Program eligibility and applicability are not established.",
+        "reference_ids": [
+          "hpd-ncf-2025",
+          "hdc-nc-2024"
+        ]
+      }
+    },
+    "reserve_deducted_for_coverage": true
+  },
+  "price_basis": "Illustrative year-one 2026 USD; capital costs are fixed scenario values, operating streams escalate at declared nominal rates. No empirical Bronx price calibration.",
+  "program": {
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+      "reference_ids": []
+    },
+    "gross_area_sf": "75000",
+    "homes": 60
+  },
+  "question": "How do a declared rental program, complete categorized capital budget and 20-year operating projection constrain permanent debt and unallocated capital?",
+  "references": [
+    {
+      "id": "hpd-ncf-2025",
+      "locator": "PDF pages 6 and 8; coverage, income/expense and reserve structures, not automatic program eligibility.",
+      "title": "HPD New Construction Finance term sheet, July 2025",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf"
+    },
+    {
+      "id": "hdc-nc-2024",
+      "locator": "PDF pages 2,4,5; permanent debt sizing, leverage, repayment and reserves. Dated program reference, not current qualification.",
+      "title": "HDC New Construction term sheet, November 2024 file",
+      "url": "https://www.nychdc.com/sites/default/files/2025-01/HDC%20NC%20term%20sheet_112024.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "amount_usd": "3000000",
+      "basis": {
+        "kind": "analyst_assumption",
+        "rationale": "Illustrative analyst scenario for method testing. Not a market estimate, agency-approved program, site budget or financing commitment.",
+        "reference_ids": []
+      },
+      "id": "sponsor-equity",
+      "kind": "equity",
+      "status": "proposed"
+    }
+  ],
+  "version": "1.0"
+}

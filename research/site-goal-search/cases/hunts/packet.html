@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Housing site search</title><style>body{font:16px/1.5 system-ui;max-width:1200px;margin:30px auto;padding:0 20px;background:#fafaf7;color:#17303a}.scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border:1px solid #cdd5d8;padding:9px;text-align:left}th{background:#e5eeed}pre{white-space:pre-wrap;overflow-wrap:anywhere}details{padding:14px;background:white}</style><h1>transit-rental-targets</h1><p>Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets?</p><p>1243 inventory lots retained; 512 recorded nonhousing lots; 3072 explicit program/price trials. Matches are conditional search results, not viable-site estimates.</p><p>Explicit finite scenario search, not an optimization proof, site recommendation, legal envelope or funded feasibility finding.</p><h2>Scenario outcomes</h2><div class="scroll"><table><thead><tr><th>Status</th><th>Count</th></tr></thead><tbody><tr><td>does_not_match_declared_targets</td><td>3007</td></tr><tr><td>matches_declared_targets</td><td>49</td></tr><tr><td>needs_review</td><td>16</td></tr></tbody></table></div><h2>Scenarios selected for inspection</h2><div class="scroll"><table><thead><tr><th>BBL / address</th><th>Proposed homes</th><th>Assumed land $/lot sf</th><th>Required zoning FAR proxy</th><th>Unallocated capital/home</th><th>Station point distance m</th><th>Zoning path</th></tr></thead><tbody><tr><td>2027550062 940 BRYANT AVENUE</td><td>100</td><td>100</td><td>5.848723</td><td>470082.01</td><td>282.0</td><td>special_or_unresolved_review</td></tr><tr><td>2027410050 1161 GARRISON AVENUE</td><td>40</td><td>100</td><td>5.749499</td><td>470892.04</td><td>157.4</td><td>special_or_unresolved_review</td></tr><tr><td>2027240173 985 SOUTHERN BOULEVARD</td><td>40</td><td>100</td><td>5.630971</td><td>471897.04</td><td>198.0</td><td>housing_permitted_by_general_use_rule</td></tr></tbody></table></div><p>Non-dominated on smaller required zoning FAR, smaller unallocated capital/home and more proposed homes, among matching scenarios only; no universal welfare weights.</p><p><a href="models/2027550062-h100-p0/packet.html">2027550062-h100-p0 detailed financial model</a></p><p><a href="models/2027410050-h40-p0/packet.html">2027410050-h40-p0 detailed financial model</a></p><p><a href="models/2027240173-h40-p0/packet.html">2027240173-h40-p0 detailed financial model</a></p><h2>Limits</h2><ul><li>Broad nonhousing discovery stays unchanged; these are user/analyst-declared search filters.</li><li>Desired whole-home programs imply required area; no FAR increment is required and no legally permitted unit count is inferred.</li><li>Land prices, construction costs, rent, efficiency and all scaling are scenario assumptions, not automatically estimated from public records.</li><li>Recorded-point station distance is not walking/job access; an outside-IBZ point does not resolve parcel-wide overlap or policy support.</li><li>Dollar appraisal/debt caps and other debt service remain fixed scenario assumptions; all template funding statuses are downgraded to proposed for the new site/program.</li><li>No result resolves occupancy, site control, parcel assembly, zoning applicability, physical fit, environmental clearance or investor returns.</li></ul><p><a href="discovery/packet.html">Broad discovery and sources</a> · <a href="underwriting-template/packet.html">Financial template</a></p><details><summary>Exact targets and scaling assumptions</summary><pre>{
+  &quot;basis&quot;: {
+    &quot;kind&quot;: &quot;analyst_assumption&quot;,
+    &quot;rationale&quot;: &quot;Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice.&quot;,
+    &quot;reference_ids&quot;: []
+  },
+  &quot;detail_limit&quot;: 3,
+  &quot;id&quot;: &quot;transit-rental-targets&quot;,
+  &quot;land_price_per_lot_sf_values&quot;: [
+    &quot;100&quot;,
+    &quot;200&quot;
+  ],
+  &quot;program_grid&quot;: {
+    &quot;gross_per_zoning_sf&quot;: &quot;1&quot;,
+    &quot;homes&quot;: [
+      40,
+      60,
+      100
+    ],
+    &quot;net_efficiency&quot;: &quot;0.85&quot;,
+    &quot;net_sf_per_home&quot;: &quot;700&quot;,
+    &quot;residential_share_of_gross&quot;: &quot;0.9&quot;
+  },
+  &quot;question&quot;: &quot;Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets?&quot;,
+  &quot;scaling&quot;: {
+    &quot;below_line&quot;: {
+      &quot;asset-and-monitoring-fees&quot;: &quot;per_home&quot;
+    },
+    &quot;expenses&quot;: {
+      &quot;administration&quot;: &quot;per_home&quot;,
+      &quot;insurance&quot;: &quot;per_home&quot;,
+      &quot;management&quot;: &quot;per_home&quot;,
+      &quot;staff-and-maintenance&quot;: &quot;per_home&quot;,
+      &quot;taxes&quot;: &quot;per_home&quot;,
+      &quot;utilities&quot;: &quot;per_home&quot;
+    },
+    &quot;fixed_capital&quot;: {
+      &quot;acquisition_closing&quot;: &quot;per_home&quot;,
+      &quot;business_relocation&quot;: &quot;per_lot_sf&quot;,
+      &quot;construction_interest&quot;: &quot;per_home&quot;,
+      &quot;demolition&quot;: &quot;per_lot_sf&quot;,
+      &quot;developer_fee&quot;: &quot;per_home&quot;,
+      &quot;financing_fees&quot;: &quot;per_home&quot;,
+      &quot;offsite_infrastructure&quot;: &quot;per_lot_sf&quot;,
+      &quot;other&quot;: &quot;per_home&quot;,
+      &quot;remediation&quot;: &quot;per_lot_sf&quot;,
+      &quot;taxes_and_carry&quot;: &quot;per_home&quot;
+    },
+    &quot;income&quot;: {
+      &quot;tenant-rent&quot;: &quot;per_home&quot;
+    },
+    &quot;reference_lot_area_sf&quot;: &quot;10000&quot;,
+    &quot;replacement_reserve&quot;: &quot;per_home&quot;,
+    &quot;sources&quot;: {
+      &quot;sponsor-equity&quot;: &quot;per_home&quot;
+    }
+  },
+  &quot;targets&quot;: {
+    &quot;allowed_review_lanes&quot;: [
+      &quot;other_nonhousing_review&quot;
+    ],
+    &quot;allowed_zoning_paths&quot;: [
+      &quot;housing_permitted_by_general_use_rule&quot;,
+      &quot;rezoning_path&quot;,
+      &quot;special_or_unresolved_review&quot;
+    ],
+    &quot;max_monthly_scheduled_tenant_rent_usd&quot;: &quot;2000&quot;,
+    &quot;max_required_zoning_far&quot;: &quot;6&quot;,
+    &quot;max_station_straight_line_m&quot;: &quot;800&quot;,
+    &quot;max_unallocated_capital_per_home_usd&quot;: &quot;500000&quot;,
+    &quot;minimum_cashflow_usd&quot;: &quot;0&quot;,
+    &quot;require_lot_point_outside_ibz&quot;: true,
+    &quot;require_no_active_linked_zap&quot;: true,
+    &quot;require_no_positive_returned_housing_signal&quot;: true,
+    &quot;tenant_rent_cap_scope&quot;: &quot;year_one&quot;,
+    &quot;tenant_rent_stream_ids&quot;: [
+      &quot;tenant-rent&quot;
+    ]
+  },
+  &quot;version&quot;: &quot;1.0&quot;
+}</pre></details></html>

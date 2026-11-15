@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "hdc-new-construction",
+      "url": "https://www.nychdc.com/sites/default/files/2025-01/HDC%20NC%20term%20sheet_112024.pdf",
+      "final_url": "https://www.nychdc.com/sites/default/files/2025-01/HDC%20NC%20term%20sheet_112024.pdf",
+      "http_status": 200,
+      "retrieved_at": "2026-11-10T02:03:35.405539+00:00",
+      "sha256": "cbda95050ad439a346b1a17895b0c0c6d4d4637b8d13ef973f0cc67e01954085",
+      "bytes": 182485,
+      "file": "research/modeling-v1/sources/hdc-new-construction.pdf",
+      "pages_file": "research/modeling-v1/sources/hdc-new-construction.pages.json"
+    },
+    {
+      "id": "hpd-new-construction",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf",
+      "final_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/hpd-ncf-term-sheet.pdf",
+      "http_status": 200,
+      "retrieved_at": "2026-11-10T02:03:35.707953+00:00",
+      "sha256": "3d0ffc5f8acb206e69d567699498a4c1047aa076b5bcce5a0cf11aee87e4c435",
+      "bytes": 276220,
+      "file": "research/modeling-v1/sources/hpd-new-construction.pdf",
+      "pages_file": "research/modeling-v1/sources/hpd-new-construction.pages.json"
+    }
+  ],
+  "terms": "Original agency terms; project license does not relicense source PDFs."
+}

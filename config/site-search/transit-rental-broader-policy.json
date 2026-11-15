@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "id": "transit-rental-broader-policy",
+  "question": "Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets?",
+  "program_grid": {
+    "homes": [
+      40,
+      60,
+      100
+    ],
+    "net_sf_per_home": "700",
+    "net_efficiency": "0.85",
+    "residential_share_of_gross": "0.9",
+    "gross_per_zoning_sf": "1"
+  },
+  "land_price_per_lot_sf_values": [
+    "100",
+    "200"
+  ],
+  "scaling": {
+    "reference_lot_area_sf": "10000",
+    "fixed_capital": {
+      "acquisition_closing": "per_home",
+      "demolition": "per_lot_sf",
+      "remediation": "per_lot_sf",
+      "offsite_infrastructure": "per_lot_sf",
+      "construction_interest": "per_home",
+      "financing_fees": "per_home",
+      "developer_fee": "per_home",
+      "other": "per_home",
+      "taxes_and_carry": "per_home",
+      "business_relocation": "per_lot_sf"
+    },
+    "income": {
+      "tenant-rent": "per_home"
+    },
+    "expenses": {
+      "management": "per_home",
+      "staff-and-maintenance": "per_home",
+      "utilities": "per_home",
+      "insurance": "per_home",
+      "taxes": "per_home",
+      "administration": "per_home"
+    },
+    "replacement_reserve": "per_home",
+    "below_line": {
+      "asset-and-monitoring-fees": "per_home"
+    },
+    "sources": {
+      "sponsor-equity": "per_home"
+    }
+  },
+  "targets": {
+    "allowed_zoning_paths": [
+      "housing_permitted_by_general_use_rule",
+      "rezoning_path",
+      "special_or_unresolved_review"
+    ],
+    "allowed_review_lanes": [
+      "other_nonhousing_review",
+      "public_or_institutional_use_review",
+      "infrastructure_review"
+    ],
+    "max_station_straight_line_m": "800",
+    "require_lot_point_outside_ibz": false,
+    "require_no_active_linked_zap": true,
+    "max_required_zoning_far": "6",
+    "max_unallocated_capital_per_home_usd": "500000",
+    "max_monthly_scheduled_tenant_rent_usd": "2000",
+    "tenant_rent_stream_ids": [
+      "tenant-rent"
+    ],
+    "minimum_cashflow_usd": "0",
+    "tenant_rent_cap_scope": "year_one",
+    "require_no_positive_returned_housing_signal": true
+  },
+  "detail_limit": 3,
+  "basis": {
+    "kind": "analyst_assumption",
+    "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice.",
+    "reference_ids": []
+  }
+}

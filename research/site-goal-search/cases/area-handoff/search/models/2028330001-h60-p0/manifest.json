@@ -1,0 +1,26 @@
+{
+  "files": {
+    "annual.csv": "e3fe3ecd1b9d9bf6a0b6b39c91f44956f701914bfe2fee892720bcfafbb27887",
+    "packet.html": "4972fb28358cd2bf9932ffa049e989c56a37d974d559e36cd80bc2df4207f0a5",
+    "packet.md": "9c8b935c15c7a1f196eb1f1f593499adf8fd133b8d3ee5d1ef77c9e82c14b3f7",
+    "references.json": "3266626c3dc4a29d129461fbbf6436b4d9b2517b888522fcc06aebc8377dafdf",
+    "request.json": "0480d1d2ec6234595cfc7c0a98f688c217ecd587768ac79a528a61a94b1821a5",
+    "results.json": "5bd441518bc9395ec5f32cf1d6a953bbb699228454e6ee0c1b55ad24137a851a",
+    "sources/0.pdf": "3d0ffc5f8acb206e69d567699498a4c1047aa076b5bcce5a0cf11aee87e4c435",
+    "sources/1.pdf": "cbda95050ad439a346b1a17895b0c0c6d4d4637b8d13ef973f0cc67e01954085",
+    "trace.json": "8e1decd197c350363fbe05588a79b12b3b202532a1296b34d4f2c7e5b47273ee"
+  },
+  "implementation": {
+    "skills/model-rental-underwriting/SKILL.md": "4565f1ad1d2cb3b98db4caf1112b27040545bb5dff721852830725bc6f4bdca2",
+    "skills/model-rental-underwriting/references/runbook.md": "ffa3348bdefe89e269b8121ca84d2b39b5e44a37bed9b434f44fadb8ac25272c",
+    "src/housing_common/local_outputs.py": "82fc4fc56b36b55754acb3e2943c78cc789e8970f608b4d05352a2df9bd0340e",
+    "src/housing_underwriting/__init__.py": "62f1d44ad9ffbe65e43a5ebd79589c1f71561f490992bf2b5caaa0a2204f49d1",
+    "src/housing_underwriting/__main__.py": "9ffecb0fcbc2fe1322a9c4e0cd26bb187b4196881166cec1dd91ba42fee96896",
+    "src/housing_underwriting/engine.py": "334499e88788288122279e13ae8d0490361f0ab5e854d206b73b8945f8717b31",
+    "src/housing_underwriting/model.py": "71d27322734e6123977aeb254cf52e5d2306877a973e1e6b2241c4142e2b12c9",
+    "src/housing_underwriting/packet.py": "364c86a8515b1aff9f72ccb18399983af52cc0c986ac353d2dd2d0b3abc5ffac",
+    "src/housing_underwriting/request.schema.json": "20cb3e11ce2cf67d231b5cbf8e92f0cf2ee6ec6537f4888a8d32ed046c9841c8"
+  },
+  "kind": "underwriting",
+  "version": "1.0.0"
+}

@@ -1,0 +1,1117 @@
+{
+  "id" : "fdkv-4t4z",
+  "name" : "NYC Zoning Tax Lot Database",
+  "assetType" : "dataset",
+  "attribution" : "Department of City Planning (DCP)",
+  "attributionLink" : "https://www.nyc.gov/site/planning/data-maps/open-data.page",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1375120531,
+  "description" : "The Zoning Tax Lot Database is a comma-separated values (CSV) file that contains\nup-to-date zoning by parcel. The Database includes the zoning designations and\nzoning map associated with a specific tax block and lot. The Database is updated on\na monthly basis to reflect rezoning and corrections to the file.\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/zoning-map-index\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 20260930",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 13056,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 1,
+  "oid" : 40667886,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1720205634,
+  "publicationGroup" : 1006635,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1793899674,
+  "rowsUpdatedBy" : "iqqb-gm94",
+  "tableId" : 19571934,
+  "totalTimesRated" : 0,
+  "viewCount" : 38754,
+  "viewLastModified" : 1793899632,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1541708162,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6384717,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1541708162,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 595020670,
+    "name" : "Borough Code",
+    "dataTypeName" : "number",
+    "description" : "The borough that the tax lot is located in.\n\n(1=Manhattan, 2=Bronx, 3=Brooklyn, 4=Queens, 5=Staten Island)",
+    "fieldName" : "borough_code",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 12623430,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "857979",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "324395"
+      }, {
+        "item" : "3",
+        "count" : "276349"
+      }, {
+        "item" : "5",
+        "count" : "125830"
+      }, {
+        "item" : "2",
+        "count" : "89301"
+      }, {
+        "item" : "1",
+        "count" : "42104"
+      } ],
+      "smallest" : "1",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 595020671,
+    "name" : "Tax Block",
+    "dataTypeName" : "number",
+    "description" : "The tax block that the tax lot is located in.\n\nThis field contains a one to five digit tax block number which is preceded with\nleading blanks when the tax block is less than five digits.\n\nEach tax block is unique within a borough (see BOROUGH).",
+    "fieldName" : "tax_block",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 12623431,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "857979",
+      "largest" : "16350",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2925",
+        "count" : "577"
+      }, {
+        "item" : "7405",
+        "count" : "539"
+      }, {
+        "item" : "4452",
+        "count" : "538"
+      }, {
+        "item" : "7422",
+        "count" : "485"
+      }, {
+        "item" : "869",
+        "count" : "412"
+      }, {
+        "item" : "4478",
+        "count" : "390"
+      }, {
+        "item" : "7441",
+        "count" : "371"
+      }, {
+        "item" : "6022",
+        "count" : "370"
+      }, {
+        "item" : "1670",
+        "count" : "366"
+      }, {
+        "item" : "5408",
+        "count" : "342"
+      }, {
+        "item" : "5626",
+        "count" : "332"
+      }, {
+        "item" : "5409",
+        "count" : "323"
+      }, {
+        "item" : "4500",
+        "count" : "321"
+      }, {
+        "item" : "5741",
+        "count" : "316"
+      }, {
+        "item" : "6018",
+        "count" : "310"
+      }, {
+        "item" : "4645",
+        "count" : "310"
+      }, {
+        "item" : "6023",
+        "count" : "306"
+      }, {
+        "item" : "377",
+        "count" : "303"
+      }, {
+        "item" : "2879",
+        "count" : "300"
+      }, {
+        "item" : "848",
+        "count" : "299"
+      } ],
+      "smallest" : "0",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 595020672,
+    "name" : "Tax Lot",
+    "dataTypeName" : "number",
+    "description" : "The number of the tax lot.\n\nThis field contains a one to four digit tax lot number which is preceded with\nleading blanks when the tax lot is less than four digits.\n\nEach tax lot is unique within a tax block (see TAX BLOCK).",
+    "fieldName" : "tax_lot",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 12623432,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "857979",
+      "largest" : "9102",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "24030"
+      }, {
+        "item" : "20",
+        "count" : "12261"
+      }, {
+        "item" : "15",
+        "count" : "12129"
+      }, {
+        "item" : "12",
+        "count" : "12076"
+      }, {
+        "item" : "16",
+        "count" : "12051"
+      }, {
+        "item" : "14",
+        "count" : "12034"
+      }, {
+        "item" : "18",
+        "count" : "11986"
+      }, {
+        "item" : "17",
+        "count" : "11968"
+      }, {
+        "item" : "25",
+        "count" : "11913"
+      }, {
+        "item" : "21",
+        "count" : "11801"
+      }, {
+        "item" : "23",
+        "count" : "11679"
+      }, {
+        "item" : "22",
+        "count" : "11617"
+      }, {
+        "item" : "19",
+        "count" : "11615"
+      }, {
+        "item" : "30",
+        "count" : "11604"
+      }, {
+        "item" : "24",
+        "count" : "11588"
+      }, {
+        "item" : "6",
+        "count" : "11570"
+      }, {
+        "item" : "26",
+        "count" : "11542"
+      }, {
+        "item" : "28",
+        "count" : "11332"
+      }, {
+        "item" : "29",
+        "count" : "11322"
+      }, {
+        "item" : "27",
+        "count" : "11297"
+      } ],
+      "smallest" : "0",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 595020673,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "A concatenation of the borough code, tax block and tax lot.\n\nThis field consists of the borough code followed by the tax block followed by the tax lot.  The borough code is one numeric digit.  The tax block is one to five numeric digits, preceded with leading zeros when the block is less than five digits.  The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits.\n\nFor condominiums, the BBL is for the billing lot. See TAX LOT for more information on how condominiums are handled.\n\nExamples:\nManhattan Borough Code 1, Tax Block 16, Tax Lot 100 would be stored as 1000160100.\nBrooklyn Borough Code 3, Tax Block 15828, Tax Lot 7501 would be stored as 3158287501.",
+    "fieldName" : "bbl",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 69294438,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "857979",
+      "largest" : "5080500094",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3053610075",
+        "count" : "1"
+      }, {
+        "item" : "3068330021",
+        "count" : "1"
+      }, {
+        "item" : "4131250005",
+        "count" : "1"
+      }, {
+        "item" : "3017590013",
+        "count" : "1"
+      }, {
+        "item" : "4052290003",
+        "count" : "1"
+      }, {
+        "item" : "3078860049",
+        "count" : "1"
+      }, {
+        "item" : "3076420011",
+        "count" : "1"
+      }, {
+        "item" : "2054110232",
+        "count" : "1"
+      }, {
+        "item" : "3039530035",
+        "count" : "1"
+      }, {
+        "item" : "4015210054",
+        "count" : "1"
+      }, {
+        "item" : "3075580001",
+        "count" : "1"
+      }, {
+        "item" : "5066680115",
+        "count" : "1"
+      }, {
+        "item" : "5055980008",
+        "count" : "1"
+      }, {
+        "item" : "2029660023",
+        "count" : "1"
+      }, {
+        "item" : "5053200012",
+        "count" : "1"
+      }, {
+        "item" : "3080210066",
+        "count" : "1"
+      }, {
+        "item" : "5068470049",
+        "count" : "1"
+      }, {
+        "item" : "4114560013",
+        "count" : "1"
+      }, {
+        "item" : "3086940419",
+        "count" : "1"
+      }, {
+        "item" : "4105470077",
+        "count" : "1"
+      } ],
+      "smallest" : "1000010010",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020674,
+    "name" : "Zoning District 1",
+    "dataTypeName" : "text",
+    "description" : "The zoning district classification of the tax lot or in a limited number\nof cases the Zoning Resolution section number that pertains to special requirements\nfor selected properties in Queens.",
+    "fieldName" : "zoning_district_1",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623433,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "857914",
+      "largest" : "R9X",
+      "null" : "65",
+      "top" : [ {
+        "item" : "R5",
+        "count" : "90183"
+      }, {
+        "item" : "R4",
+        "count" : "73048"
+      }, {
+        "item" : "R6",
+        "count" : "67951"
+      }, {
+        "item" : "R3-2",
+        "count" : "62292"
+      }, {
+        "item" : "R3A",
+        "count" : "54582"
+      }, {
+        "item" : "R3X",
+        "count" : "52470"
+      }, {
+        "item" : "R4-1",
+        "count" : "51765"
+      }, {
+        "item" : "R6B",
+        "count" : "50825"
+      }, {
+        "item" : "R3-1",
+        "count" : "50408"
+      }, {
+        "item" : "R2",
+        "count" : "39816"
+      }, {
+        "item" : "R2A",
+        "count" : "38020"
+      }, {
+        "item" : "R5B",
+        "count" : "30635"
+      }, {
+        "item" : "R4A",
+        "count" : "25856"
+      }, {
+        "item" : "R4B",
+        "count" : "15446"
+      }, {
+        "item" : "R6A",
+        "count" : "15245"
+      }, {
+        "item" : "R1-2",
+        "count" : "14220"
+      }, {
+        "item" : "R7-1",
+        "count" : "13914"
+      }, {
+        "item" : "M1-1",
+        "count" : "11878"
+      }, {
+        "item" : "R7A",
+        "count" : "10786"
+      }, {
+        "item" : "R7-2",
+        "count" : "7911"
+      } ],
+      "smallest" : "BPC",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020675,
+    "name" : "Zoning District 2",
+    "dataTypeName" : "text",
+    "description" : "If the tax lot is divided by zoning boundary lines, ZONING DISTRICT\n2 represents the zoning classification occupying the second greatest percentage\nof the tax lot's area.",
+    "fieldName" : "zoning_district_2",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623434,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "19616",
+      "largest" : "R9X",
+      "null" : "838363",
+      "top" : [ {
+        "item" : "R6B",
+        "count" : "1701"
+      }, {
+        "item" : "R5",
+        "count" : "1305"
+      }, {
+        "item" : "R3-2",
+        "count" : "974"
+      }, {
+        "item" : "R4-1",
+        "count" : "974"
+      }, {
+        "item" : "R6A",
+        "count" : "928"
+      }, {
+        "item" : "R5B",
+        "count" : "899"
+      }, {
+        "item" : "R4",
+        "count" : "828"
+      }, {
+        "item" : "R6",
+        "count" : "818"
+      }, {
+        "item" : "R7A",
+        "count" : "804"
+      }, {
+        "item" : "R3A",
+        "count" : "751"
+      }, {
+        "item" : "R8B",
+        "count" : "747"
+      }, {
+        "item" : "R3X",
+        "count" : "726"
+      }, {
+        "item" : "R3-1",
+        "count" : "642"
+      }, {
+        "item" : "M1-1",
+        "count" : "543"
+      }, {
+        "item" : "R4A",
+        "count" : "405"
+      }, {
+        "item" : "R5D",
+        "count" : "365"
+      }, {
+        "item" : "R2",
+        "count" : "361"
+      }, {
+        "item" : "C8-1",
+        "count" : "327"
+      }, {
+        "item" : "PARK",
+        "count" : "256"
+      }, {
+        "item" : "R1-2",
+        "count" : "253"
+      } ],
+      "smallest" : "C1-6",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020676,
+    "name" : "Zoning District 3",
+    "dataTypeName" : "text",
+    "description" : "If the tax lot is divided by zoning boundary lines, ZONING DISTRICT\n3 represents the zoning classification occupying the third greatest percentage\nof the tax lot's area.",
+    "fieldName" : "zoning_district_3",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623435,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "212",
+      "largest" : "R9X",
+      "null" : "857767",
+      "top" : [ {
+        "item" : "R5",
+        "count" : "15"
+      }, {
+        "item" : "R6B",
+        "count" : "13"
+      }, {
+        "item" : "R6",
+        "count" : "12"
+      }, {
+        "item" : "M1-1",
+        "count" : "11"
+      }, {
+        "item" : "R3-2",
+        "count" : "10"
+      }, {
+        "item" : "R7A",
+        "count" : "8"
+      }, {
+        "item" : "PARK",
+        "count" : "8"
+      }, {
+        "item" : "R8B",
+        "count" : "6"
+      }, {
+        "item" : "R8",
+        "count" : "5"
+      }, {
+        "item" : "C4-4",
+        "count" : "5"
+      }, {
+        "item" : "C2-8",
+        "count" : "5"
+      }, {
+        "item" : "R4",
+        "count" : "5"
+      }, {
+        "item" : "R4-1",
+        "count" : "5"
+      }, {
+        "item" : "R2",
+        "count" : "5"
+      }, {
+        "item" : "C1-9",
+        "count" : "4"
+      }, {
+        "item" : "R5B",
+        "count" : "4"
+      }, {
+        "item" : "R3-1",
+        "count" : "4"
+      }, {
+        "item" : "R5D",
+        "count" : "4"
+      }, {
+        "item" : "M3-1",
+        "count" : "3"
+      }, {
+        "item" : "C3",
+        "count" : "3"
+      } ],
+      "smallest" : "C1-6",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020677,
+    "name" : "Zoning District 4",
+    "dataTypeName" : "text",
+    "description" : "If the tax lot is divided by zoning boundary lines, ZONING DISTRICT\n4 represents the zoning classification occupying the fourth greatest percentage\nof the tax lot's area.",
+    "fieldName" : "zoning_district_4",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623436,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "11",
+      "largest" : "R7A",
+      "null" : "857968",
+      "top" : [ {
+        "item" : "C8-1",
+        "count" : "2"
+      }, {
+        "item" : "C1-9",
+        "count" : "1"
+      }, {
+        "item" : "C4-4A",
+        "count" : "1"
+      }, {
+        "item" : "C5-2.5",
+        "count" : "1"
+      }, {
+        "item" : "PARK",
+        "count" : "1"
+      }, {
+        "item" : "R3A",
+        "count" : "1"
+      }, {
+        "item" : "R4",
+        "count" : "1"
+      }, {
+        "item" : "R6A",
+        "count" : "1"
+      }, {
+        "item" : "C1-8X",
+        "count" : "1"
+      }, {
+        "item" : "R7A",
+        "count" : "1"
+      } ],
+      "smallest" : "C1-8X",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020678,
+    "name" : "Commercial Overlay 1",
+    "dataTypeName" : "text",
+    "description" : "The commercial overlay assigned to the tax lot.",
+    "fieldName" : "commercial_overlay_1",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623437,
+    "width" : 340,
+    "cachedContents" : {
+      "non_null" : "74232",
+      "largest" : "C2-5",
+      "null" : "783747",
+      "top" : [ {
+        "item" : "C2-4",
+        "count" : "16879"
+      }, {
+        "item" : "C1-3",
+        "count" : "13754"
+      }, {
+        "item" : "C2-3",
+        "count" : "11750"
+      }, {
+        "item" : "C1-2",
+        "count" : "10768"
+      }, {
+        "item" : "C1-4",
+        "count" : "7887"
+      }, {
+        "item" : "C2-2",
+        "count" : "5876"
+      }, {
+        "item" : "C1-5",
+        "count" : "2485"
+      }, {
+        "item" : "C2-1",
+        "count" : "1668"
+      }, {
+        "item" : "C1-1",
+        "count" : "1649"
+      }, {
+        "item" : "C2-5",
+        "count" : "1516"
+      } ],
+      "smallest" : "C1-1",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020679,
+    "name" : "Commercial Overlay 2",
+    "dataTypeName" : "text",
+    "description" : "A commercial overlay associated with the tax lot.",
+    "fieldName" : "commercial_overlay_2",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623438,
+    "width" : 340,
+    "cachedContents" : {
+      "non_null" : "181",
+      "largest" : "C2-5",
+      "null" : "857798",
+      "top" : [ {
+        "item" : "C2-4",
+        "count" : "33"
+      }, {
+        "item" : "C1-4",
+        "count" : "28"
+      }, {
+        "item" : "C1-2",
+        "count" : "28"
+      }, {
+        "item" : "C2-3",
+        "count" : "26"
+      }, {
+        "item" : "C1-3",
+        "count" : "17"
+      }, {
+        "item" : "C2-5",
+        "count" : "14"
+      }, {
+        "item" : "C1-5",
+        "count" : "11"
+      }, {
+        "item" : "C2-2",
+        "count" : "11"
+      }, {
+        "item" : "C2-1",
+        "count" : "9"
+      }, {
+        "item" : "C1-1",
+        "count" : "4"
+      } ],
+      "smallest" : "C1-1",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020680,
+    "name" : "Special District 1",
+    "dataTypeName" : "text",
+    "description" : "The special purpose district assigned to the tax lot.",
+    "fieldName" : "special_district_1",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623439,
+    "width" : 316,
+    "cachedContents" : {
+      "non_null" : "108420",
+      "largest" : "WP",
+      "null" : "749559",
+      "top" : [ {
+        "item" : "SRD",
+        "count" : "44514"
+      }, {
+        "item" : "OP",
+        "count" : "13371"
+      }, {
+        "item" : "BR",
+        "count" : "9717"
+      }, {
+        "item" : "HS",
+        "count" : "6184"
+      }, {
+        "item" : "DJ",
+        "count" : "2959"
+      }, {
+        "item" : "NA-1",
+        "count" : "2414"
+      }, {
+        "item" : "CR-4",
+        "count" : "1871"
+      }, {
+        "item" : "LIC",
+        "count" : "1782"
+      }, {
+        "item" : "CD",
+        "count" : "1422"
+      }, {
+        "item" : "MiD",
+        "count" : "1408"
+      }, {
+        "item" : "CL",
+        "count" : "1334"
+      }, {
+        "item" : "MX-8",
+        "count" : "1235"
+      }, {
+        "item" : "CR-1",
+        "count" : "1159"
+      }, {
+        "item" : "CR-3",
+        "count" : "1051"
+      }, {
+        "item" : "NA-2",
+        "count" : "990"
+      }, {
+        "item" : "DB",
+        "count" : "906"
+      }, {
+        "item" : "SNX",
+        "count" : "843"
+      }, {
+        "item" : "CR-2",
+        "count" : "811"
+      }, {
+        "item" : "EHC",
+        "count" : "750"
+      }, {
+        "item" : "G",
+        "count" : "747"
+      } ],
+      "smallest" : "125th",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020681,
+    "name" : "Special District 2",
+    "dataTypeName" : "text",
+    "description" : "The special purpose district assigned to the tax lot.",
+    "fieldName" : "special_district_2",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623440,
+    "width" : 316,
+    "cachedContents" : {
+      "non_null" : "324",
+      "largest" : "TA",
+      "null" : "857655",
+      "top" : [ {
+        "item" : "TA",
+        "count" : "222"
+      }, {
+        "item" : "MiD",
+        "count" : "24"
+      }, {
+        "item" : "MSX",
+        "count" : "9"
+      }, {
+        "item" : "PI",
+        "count" : "8"
+      }, {
+        "item" : "EC-5",
+        "count" : "7"
+      }, {
+        "item" : "EHC",
+        "count" : "7"
+      }, {
+        "item" : "MX-16",
+        "count" : "6"
+      }, {
+        "item" : "HY",
+        "count" : "4"
+      }, {
+        "item" : "MX-11",
+        "count" : "4"
+      }, {
+        "item" : "J",
+        "count" : "4"
+      }, {
+        "item" : "EC-3",
+        "count" : "3"
+      }, {
+        "item" : "EC-6",
+        "count" : "3"
+      }, {
+        "item" : "HRP",
+        "count" : "3"
+      }, {
+        "item" : "MP",
+        "count" : "3"
+      }, {
+        "item" : "SRD",
+        "count" : "3"
+      }, {
+        "item" : "SW",
+        "count" : "3"
+      }, {
+        "item" : "SG",
+        "count" : "2"
+      }, {
+        "item" : "NA-1",
+        "count" : "2"
+      }, {
+        "item" : "HS",
+        "count" : "2"
+      }, {
+        "item" : "MX-15",
+        "count" : "2"
+      } ],
+      "smallest" : "125th",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020682,
+    "name" : "Special District 3",
+    "dataTypeName" : "text",
+    "description" : "The special purpose district assigned to the tax lot.",
+    "fieldName" : "special_district_3",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 37619836,
+    "width" : 329,
+    "cachedContents" : {
+      "non_null" : "0",
+      "null" : "857979",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020683,
+    "name" : "Limited Height District",
+    "dataTypeName" : "text",
+    "description" : "The limited height district assigned to the tax lot.",
+    "fieldName" : "limited_height_district",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623441,
+    "width" : 376,
+    "cachedContents" : {
+      "non_null" : "3049",
+      "largest" : "LH-1A",
+      "null" : "854930",
+      "top" : [ {
+        "item" : "LH-1",
+        "count" : "2240"
+      }, {
+        "item" : "LH-1A",
+        "count" : "809"
+      } ],
+      "smallest" : "LH-1",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020684,
+    "name" : "Zoning Map Number",
+    "dataTypeName" : "text",
+    "description" : "The Department of City Planning Zoning Map Number associated with\nthe tax lot's X and Y Coordinates.",
+    "fieldName" : "zoning_map_number",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623442,
+    "width" : 304,
+    "cachedContents" : {
+      "non_null" : "857973",
+      "largest" : "9D",
+      "null" : "6",
+      "top" : [ {
+        "item" : "17A",
+        "count" : "22244"
+      }, {
+        "item" : "18A",
+        "count" : "20819"
+      }, {
+        "item" : "18C",
+        "count" : "19959"
+      }, {
+        "item" : "22D",
+        "count" : "19851"
+      }, {
+        "item" : "23B",
+        "count" : "19726"
+      }, {
+        "item" : "17B",
+        "count" : "18184"
+      }, {
+        "item" : "23A",
+        "count" : "17712"
+      }, {
+        "item" : "13C",
+        "count" : "17592"
+      }, {
+        "item" : "16C",
+        "count" : "17118"
+      }, {
+        "item" : "15B",
+        "count" : "17050"
+      }, {
+        "item" : "22C",
+        "count" : "16844"
+      }, {
+        "item" : "9D",
+        "count" : "16458"
+      }, {
+        "item" : "13D",
+        "count" : "16014"
+      }, {
+        "item" : "28C",
+        "count" : "14991"
+      }, {
+        "item" : "22A",
+        "count" : "14795"
+      }, {
+        "item" : "17C",
+        "count" : "14504"
+      }, {
+        "item" : "13B",
+        "count" : "14222"
+      }, {
+        "item" : "10C",
+        "count" : "14050"
+      }, {
+        "item" : "33C",
+        "count" : "13949"
+      }, {
+        "item" : "22B",
+        "count" : "13875"
+      } ],
+      "smallest" : "10A",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 595020685,
+    "name" : "Zoning Map Code",
+    "dataTypeName" : "text",
+    "description" : "A code (Y) identifies a border Tax Lot, i.e., a Tax Lot on that might\nbe on the border of two or more Zoning Maps.",
+    "fieldName" : "zoning_map_code",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 12623443,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "15649",
+      "largest" : "Y",
+      "null" : "842330",
+      "top" : [ {
+        "item" : "Y",
+        "count" : "15649"
+      } ],
+      "smallest" : "Y",
+      "count" : "857979",
+      "cardinality" : "857979"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "zoning_tax_lot_database_readme.pdf",
+      "assetId" : "70749f7e-832e-4017-a421-ceb2fdd35cc0",
+      "name" : "zoning_tax_lot_database_readme.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "9/13/2021",
+        "Update Frequency" : "Monthly",
+        "Data Change Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of City Planning (DCP)"
+      }
+    },
+    "rowLabel" : "Tax Lot",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dcp", "city planning", "property", "zoning", "nyc zoning tax lot database" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

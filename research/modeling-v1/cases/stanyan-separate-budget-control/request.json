@@ -1,0 +1,471 @@
+{
+  "basis": {
+    "kind": "analyst_assumption",
+    "rationale": "Arithmetic control only. Capital2023, area2022 and full-year operations2025 remain separately dated. New primary debt is deliberately capped at zero; scheduled historical hard debt enters other annual debt service. No actual capital-gap or loan-terms reconstruction is claimed.",
+    "reference_ids": []
+  },
+  "capital": {
+    "lines": [
+      {
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "land",
+        "measure": "fixed",
+        "usd": "15900000"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "acquisition_closing",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "demolition",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "remediation",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "hard_costs",
+        "measure": "fixed",
+        "usd": "125664665"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "hard_contingency",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "soft_costs",
+        "measure": "fixed",
+        "usd": "23143948"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "soft_contingency",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "offsite_infrastructure",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "construction_interest",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "financing_fees",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "developer_fee",
+        "measure": "fixed",
+        "usd": "2800000"
+      },
+      {
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported capital-budget aggregate. Subcategory allocations are unavailable; do not infer that internal costs vanish.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "initial_reserves",
+        "measure": "fixed",
+        "usd": "1643391"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero: the published table aggregates this potential cost into its hard/soft/other reported subtotal; not a finding of zero underlying cost. Do not add it again.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "other",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero in this historical aggregate-budget control: separate subcategory allocation is not available, so do not add a second amount beyond the reported hard/soft source totals. Not a finding of no underlying cost.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "taxes_and_carry",
+        "measure": "fixed",
+        "usd": "0"
+      },
+      {
+        "basis": {
+          "kind": "analyst_assumption",
+          "rationale": "Allocation-only zero in this historical aggregate-budget control: separate subcategory allocation is not available, so do not add a second amount beyond the reported hard/soft source totals. Not a finding of no underlying cost.",
+          "reference_ids": [
+            "board-packet-2023"
+          ]
+        },
+        "category": "business_relocation",
+        "measure": "fixed",
+        "usd": "0"
+      }
+    ]
+  },
+  "debt": {
+    "absolute_cap_usd": "0",
+    "amortization_years": 30,
+    "annual_interest_rate": "0",
+    "appraised_value_usd": null,
+    "basis": {
+      "kind": "analyst_assumption",
+      "rationale": "Arithmetic control only. Capital2023, area2022 and full-year operations2025 remain separately dated. New primary debt is deliberately capped at zero; scheduled historical hard debt enters other annual debt service. No actual capital-gap or loan-terms reconstruction is claimed.",
+      "reference_ids": []
+    },
+    "maximum_ltv": null,
+    "maximum_total_ltc": null,
+    "minimum_dscr": "1.15",
+    "minimum_dscr_by_year": null,
+    "other_annual_debt_service_usd": "1046907",
+    "sizing_years": 1,
+    "term_years": 30
+  },
+  "id": "stanyan-separate-budget-control",
+  "operations": {
+    "below_line": [
+      {
+        "annual_growth": "0",
+        "annual_usd": "18888",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "below-line-fees"
+      }
+    ],
+    "expenses": [
+      {
+        "annual_growth": "0",
+        "annual_usd": "180650",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "management"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "553213",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "salaries_and_benefits"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "173586",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "administration"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "423107",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "utilities"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "67678",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "taxes_and_licenses"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "356933",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "insurance"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "626405",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "maintenance_and_repairs"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "193969",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "embedded_supportive_services"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "15000",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "ground-rent"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "2500",
+        "basis": {
+          "kind": "reported_input",
+          "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "id": "bond-fees"
+      }
+    ],
+    "first_calendar_year": 2025,
+    "horizon_years": 1,
+    "income": [
+      {
+        "annual_growth": "0",
+        "annual_usd": "2564054",
+        "basis": {
+          "kind": "source_derived_input",
+          "rationale": "Tenant/PBV amounts subtract reported whole-dollar losses before import. Other streams are reported amounts. No second vacancy deduction, no escalation or full-year-to-opening-year conversion.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "end_year": 1,
+        "id": "tenant-rent-after-reported-loss",
+        "start_year": 1,
+        "vacancy_rate": "0"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "802332",
+        "basis": {
+          "kind": "source_derived_input",
+          "rationale": "Tenant/PBV amounts subtract reported whole-dollar losses before import. Other streams are reported amounts. No second vacancy deduction, no escalation or full-year-to-opening-year conversion.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "end_year": 1,
+        "id": "pbv-after-reported-loss",
+        "start_year": 1,
+        "vacancy_rate": "0"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "568307",
+        "basis": {
+          "kind": "source_derived_input",
+          "rationale": "Tenant/PBV amounts subtract reported whole-dollar losses before import. Other streams are reported amounts. No second vacancy deduction, no escalation or full-year-to-opening-year conversion.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "end_year": 1,
+        "id": "losp-full-year-budget",
+        "start_year": 1,
+        "vacancy_rate": "0"
+      },
+      {
+        "annual_growth": "0",
+        "annual_usd": "11326",
+        "basis": {
+          "kind": "source_derived_input",
+          "rationale": "Tenant/PBV amounts subtract reported whole-dollar losses before import. Other streams are reported amounts. No second vacancy deduction, no escalation or full-year-to-opening-year conversion.",
+          "reference_ids": [
+            "operating-subsidy-2025"
+          ]
+        },
+        "end_year": 1,
+        "id": "other-income",
+        "start_year": 1,
+        "vacancy_rate": "0"
+      }
+    ],
+    "replacement_reserve": {
+      "annual_growth": "0",
+      "annual_usd": "80000",
+      "basis": {
+        "kind": "reported_input",
+        "rationale": "Reported full-year2025 operating-budget line, not opening-year cash receipt or future commitment.",
+        "reference_ids": [
+          "operating-subsidy-2025"
+        ]
+      }
+    },
+    "reserve_deducted_for_coverage": true
+  },
+  "price_basis": "Capital2023 USD; area schedule2022; full-year operations2025 USD. Selected arithmetic control across explicitly separate source budgets, not a unified underwriting forecast.",
+  "program": {
+    "basis": {
+      "kind": "reported_input",
+      "rationale": "2022 labeled component schedule sums193739sf. This amount is not asserted as the2023 or2025 as-built area, apartment net area, or a validated envelope. All capital rows here are fixed, so it does not drive cost.",
+      "reference_ids": [
+        "preliminary-gap-2022"
+      ]
+    },
+    "gross_area_sf": "193739",
+    "homes": 160
+  },
+  "question": "Do the generic cost/operating calculations reproduce selected Stanyan source-table arithmetic while preserving dates and the reported one-dollar reconciliation difference? Do not interpret the artificial funding gap as a historical project shortfall.",
+  "references": [
+    {
+      "id": "board-packet-2023",
+      "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+      "title": "Board packet: Budget and Legislative Analyst report, File 23-0524 (2023-05-17)",
+      "url": "https://sfgov.legistar.com/View.ashx?GUID=4F7996CD-ECE6-4F95-945E-69336BC233E7&ID=11989749&M=F"
+    },
+    {
+      "id": "operating-subsidy-2025",
+      "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+      "title": "MOHCD LOSP contract funding evaluation (2025-05-02)",
+      "url": "https://media.api.sf.gov/documents/Approved_730_Stanyan_Request_for_LOSP_Funding_Loan_Evaluation_-LC_5-2-25.pdf"
+    },
+    {
+      "id": "preliminary-gap-2022",
+      "locator": "PDF page13 capital (2023), page14 operations (2025), page17 area schedule (2022), respectively. Separate dated snapshots; no current-project inference.",
+      "title": "MOHCD preliminary gap loan evaluation (2022-06-24)",
+      "url": "https://sfmohcd.org/sites/default/files/Documents/MOH/Loan%20Committee/Approved%20730%20Stanyan%20Preliminary%20Gap%20Loan%20Eval%20-%20Loan%20Committee%206-24-2022.pdf"
+    }
+  ],
+  "sources": [],
+  "version": "1.0"
+}

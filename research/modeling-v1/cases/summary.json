@@ -1,0 +1,158 @@
+{
+  "rental-60-balloon": {
+    "balloon_at_term_usd": "7589667.50",
+    "cashflow_shortfall_years": [
+      20
+    ],
+    "coverage_breach_years": [],
+    "manifest_sha256": "94e71fb31b5b2b46745ec2346cdbc3ff2f79f21ec829946d597aa629d825e602",
+    "minimum_annual_cash_after_deductions_usd": "-7127238.92",
+    "modeled_primary_loan_usd": "14054006.46",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "36208493.54"
+  },
+  "rental-60-base": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "2be87b29edf743e93c73af93fa8e12463cb49ae981612b2a48e74bb514fad01c",
+    "minimum_annual_cash_after_deductions_usd": "139669.57",
+    "modeled_primary_loan_usd": "14054006.46",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "36208493.54"
+  },
+  "rental-60-flat-rent-firstyear": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "coverage_breach_years": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "manifest_sha256": "67098009f31512443d6a7fd9eb1f24180d46b1b6887228f675d8a4d430a37c50",
+    "minimum_annual_cash_after_deductions_usd": "-381210.29",
+    "modeled_primary_loan_usd": "14054006.46",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "36208493.54"
+  },
+  "rental-60-flat-rent-long": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "e664f4d6b7c44cdae302fb2c1a0118ab08748f9eed5d2418bfd2bdc8bacefaac",
+    "minimum_annual_cash_after_deductions_usd": "66961.99",
+    "modeled_primary_loan_usd": "7824724.85",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "42437775.15"
+  },
+  "rental-60-fully-paid-15": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "0d029114a0911c36ae2f537226e807e94794cd1d62a50756fd65d3e3720188e5",
+    "minimum_annual_cash_after_deductions_usd": "139669.57",
+    "modeled_primary_loan_usd": "9985209.19",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "40277290.81"
+  },
+  "rental-60-higher-cost": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "3198c42dd009b5e7b6b64763213a08bfbb8f4f20aac512e8d286acb042024342",
+    "minimum_annual_cash_after_deductions_usd": "139669.57",
+    "modeled_primary_loan_usd": "14054006.46",
+    "total_development_cost_usd": "56637500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "39583493.54"
+  },
+  "rental-60-lower-rent": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "02c3c7e1ce3ba74b2adf94f9e8b66e4db1ecc5250c6a40e307d9ca4086ccd05f",
+    "minimum_annual_cash_after_deductions_usd": "77217.39",
+    "modeled_primary_loan_usd": "8267062.62",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "41995437.38"
+  },
+  "rental-60-lower-rent-higher-cost": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "d0800ce01d8a33033a0df2badea2692b5cacfb06c2055564fa75d718be151242",
+    "minimum_annual_cash_after_deductions_usd": "77217.39",
+    "modeled_primary_loan_usd": "8267062.62",
+    "total_development_cost_usd": "56637500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "45370437.38"
+  },
+  "rental-60-support-expiry": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "de9b439012dedde4ac5f74d0ddb4f2047546eace4024ea659847be36397803c1",
+    "minimum_annual_cash_after_deductions_usd": "159111.21",
+    "modeled_primary_loan_usd": "16099017.90",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "34163482.10"
+  },
+  "rental-60-year-one-sizing": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "f553029903fd33816c205b0f57ba68c44ca4b348e447fce6ef7af88bbfbff251",
+    "minimum_annual_cash_after_deductions_usd": "139669.57",
+    "modeled_primary_loan_usd": "14054006.46",
+    "total_development_cost_usd": "53262500.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "36208493.54"
+  },
+  "stanyan-separate-budget-control": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "91828e8d67d865719517c0eea488f968668c29b100b6dbbdd0099bba6624518f",
+    "minimum_annual_cash_after_deductions_usd": "207183.00",
+    "modeled_primary_loan_usd": "0.00",
+    "total_development_cost_usd": "169152004.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "169152004.00"
+  },
+  "stanyan-supportable-loan-control": {
+    "balloon_at_term_usd": "0.00",
+    "cashflow_shortfall_years": [],
+    "coverage_breach_years": [],
+    "manifest_sha256": "0024d3178e3027f9f124820b9ff3f289b66abeb2de3675940ef2dfa959b4d652",
+    "minimum_annual_cash_after_deductions_usd": "147152.61",
+    "modeled_primary_loan_usd": "12793048.57",
+    "total_development_cost_usd": "169152004.00",
+    "unallocated_capital_after_modeled_loan_and_all_declared_sources_usd": "156358955.43"
+  }
+}

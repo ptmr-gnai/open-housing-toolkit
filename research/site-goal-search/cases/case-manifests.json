@@ -1,0 +1,22 @@
+{
+  "area-handoff": {
+    "kind": "search-area-handoff",
+    "manifest_sha256": "f09f2ec6440b18f4c5410925fd9f96f724db66d7bdd02b17ff859d784b94bb52"
+  },
+  "cost-comparison": {
+    "kind": "site-search-comparison",
+    "manifest_sha256": "3877e40ad9bbb842f5f4f3601818bc96e2dd3bf3ad04831a1f0c37d1acbf7338"
+  },
+  "deeper-evidence": {
+    "kind": "search-investigation",
+    "manifest_sha256": "e69900b2ff81631014911e11f3173375e4df0a417eab34a872a906138194f861"
+  },
+  "geometry": {
+    "kind": "grounded-massing",
+    "manifest_sha256": "aefe824355b248bb56ebb4fd5519c24d02f5d05f832f8bd0ebcd5d34d7c4a412"
+  },
+  "hunts": {
+    "kind": "site-search",
+    "manifest_sha256": "002393170b75df53c8a9342dde4494f77847917928601cd3e725f8b3c70a5e5a"
+  }
+}

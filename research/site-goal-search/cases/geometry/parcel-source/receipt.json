@@ -1,0 +1,30 @@
+{
+  "bbl": "2028750045",
+  "files": {
+    "item.json": {
+      "bytes": 2817,
+      "http_status": 200,
+      "retrieved_at": "2026-11-10T02:55:45.279534+00:00",
+      "sha256": "27fbe01f679d3af21be769c84619cebeaa47169fd3cba5e1cd7517becfb8eed3",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/1564ace0b4f44318ac39920737f9bd07?f=json"
+    },
+    "layer.json": {
+      "bytes": 42426,
+      "http_status": 200,
+      "retrieved_at": "2026-11-10T02:55:44.973039+00:00",
+      "sha256": "eec4c216a9b69e26e89b0c723d0fd703e79ab5da011b36677479939f15967f0e",
+      "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/MAPPLUTO/FeatureServer/0?f=pjson"
+    },
+    "parcel.json": {
+      "bytes": 1383,
+      "http_status": 200,
+      "retrieved_at": "2026-11-10T02:55:44.702659+00:00",
+      "sha256": "ebf13ae5b1b9e213144ee68f08a0dec7408e903972dbfb42148bac146130bd04",
+      "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/MAPPLUTO/FeatureServer/0/query?f=json&where=BBL+%3D+2028750045&outFields=BBL%2CAddress%2CLotArea%2CVersion&returnGeometry=true&outSR=2263"
+    }
+  },
+  "limits": "Mapped tax lot, not survey/legal boundary; retrieval date is not observation date.",
+  "publisher": "NYC Department of City Planning / DCP_GIS",
+  "terms_url": "https://www.nyc.gov/home/terms-of-use.page",
+  "version": "0.1.0"
+}

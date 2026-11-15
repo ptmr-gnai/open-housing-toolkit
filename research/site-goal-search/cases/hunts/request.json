@@ -1,0 +1,81 @@
+{
+  "basis": {
+    "kind": "analyst_assumption",
+    "rationale": "Analyst test of a transit-near rental search, not Jeremy-approved priorities, market underwriting, a zoning proposal or a recommendation. Every price/program/efficiency target is an explicit exploration choice.",
+    "reference_ids": []
+  },
+  "detail_limit": 3,
+  "id": "transit-rental-targets",
+  "land_price_per_lot_sf_values": [
+    "100",
+    "200"
+  ],
+  "program_grid": {
+    "gross_per_zoning_sf": "1",
+    "homes": [
+      40,
+      60,
+      100
+    ],
+    "net_efficiency": "0.85",
+    "net_sf_per_home": "700",
+    "residential_share_of_gross": "0.9"
+  },
+  "question": "Which recorded nonhousing lots can accommodate an assumed 40/60/100-home area program under declared density, transit, operating and capital-gap targets?",
+  "scaling": {
+    "below_line": {
+      "asset-and-monitoring-fees": "per_home"
+    },
+    "expenses": {
+      "administration": "per_home",
+      "insurance": "per_home",
+      "management": "per_home",
+      "staff-and-maintenance": "per_home",
+      "taxes": "per_home",
+      "utilities": "per_home"
+    },
+    "fixed_capital": {
+      "acquisition_closing": "per_home",
+      "business_relocation": "per_lot_sf",
+      "construction_interest": "per_home",
+      "demolition": "per_lot_sf",
+      "developer_fee": "per_home",
+      "financing_fees": "per_home",
+      "offsite_infrastructure": "per_lot_sf",
+      "other": "per_home",
+      "remediation": "per_lot_sf",
+      "taxes_and_carry": "per_home"
+    },
+    "income": {
+      "tenant-rent": "per_home"
+    },
+    "reference_lot_area_sf": "10000",
+    "replacement_reserve": "per_home",
+    "sources": {
+      "sponsor-equity": "per_home"
+    }
+  },
+  "targets": {
+    "allowed_review_lanes": [
+      "other_nonhousing_review"
+    ],
+    "allowed_zoning_paths": [
+      "housing_permitted_by_general_use_rule",
+      "rezoning_path",
+      "special_or_unresolved_review"
+    ],
+    "max_monthly_scheduled_tenant_rent_usd": "2000",
+    "max_required_zoning_far": "6",
+    "max_station_straight_line_m": "800",
+    "max_unallocated_capital_per_home_usd": "500000",
+    "minimum_cashflow_usd": "0",
+    "require_lot_point_outside_ibz": true,
+    "require_no_active_linked_zap": true,
+    "require_no_positive_returned_housing_signal": true,
+    "tenant_rent_cap_scope": "year_one",
+    "tenant_rent_stream_ids": [
+      "tenant-rent"
+    ]
+  },
+  "version": "1.0"
+}
