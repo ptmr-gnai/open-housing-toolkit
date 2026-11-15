@@ -5,6 +5,33 @@ Use [Investigate a lot](../guides/investigate-a-lot.md) for the main live workfl
 examples, earlier experiments and research notes available on demand. Commands
 below run from the repository root, not this docs directory.
 
+## Discover sites across an area
+
+The [broad nonhousing module](../../src/housing_site_discovery/README.md) retains
+all lots and groups nonhousing uses by general residential-use, rezoning and
+special/unresolved paths. It requires no auto-use, size, extra-FAR or financing
+admission gate. Public context includes station points, industrial policy zones
+and DCP Fast Tracker records with source vintages.
+
+[Practitioner guide](../guides/discover-sites.md) ·
+[Discovery skill](../../skills/discover-nonhousing-sites/SKILL.md) ·
+[Corrected case studies](../../research/nonhousing-discovery/README.md).
+Separate [dwelling-signal review](../../src/housing_site_review/README.md) and
+[monthly zoning-record reconciliation](../../src/housing_zoning_review/README.md)
+carry conflicts and failed coverage into subsequent work.
+
+The [goal-search module](../../src/housing_site_search/README.md) combines verified
+site evidence with desired housing programs, explicit land/cost/rent assumptions
+and public-context/financial targets. The [rental model](../../src/housing_underwriting/README.md)
+projects operations, sizes constrained permanent debt and distinguishes modeled
+funding gaps from actual commitments. Failed/unknown scenarios stay visible;
+non-dominated alternatives are not site recommendations.
+
+The earlier [explicit FAR-screen experiment](../../research/discovery-v1/README.md)
+and its [skill](../../skills/discover-housing-sites/SKILL.md) remain unchanged for
+replay and comparison. The [BetaNYC registry study](../../research/public-data-registry/README.md)
+adds tested source-discovery resources, including non-NYC portals.
+
 ## Edit the analysis recipe
 
 For a practitioner investigating a known lot, the numerical modeling stage can
@@ -92,6 +119,15 @@ to reproduce a source-byte-bound run. Collection and modeling are not required.
 
 ## Project resources
 
+- [730 Stanyan methodology case study](../../research/stanyan-methodology/README.md):
+  four dated agency reviews, capital and operating-budget reconciliation, source
+  conflicts, and a comparison with the 1337 Jerome homeownership brief. This is a
+  known-case reconstruction; its proposed financial extensions are not implemented
+  production methods.
+  The [executable research benchmark](../../research/stanyan-methodology/benchmark.md)
+  reconstructs selected capital/operating budgets and traces one-assumption
+  diagnostics. It is the current professional reference case; long-run underwriting
+  and cross-program transfer remain unvalidated.
 - [Project tenets](tenets.md): trust domain expertise, reuse established resources,
   empower practitioners and their agents, and keep the work inspectable.
 - [Community-benefit proposal](specs/community-benefit.md): a bounded plan for

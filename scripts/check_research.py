@@ -21,8 +21,20 @@ VALIDATORS = [
     'scripts/validate_conclusion_portable.py',
     'scripts/validate_backtest_portable.py',
     'research/grand-concourse-calibration/validate.py',
+    'research/stanyan-methodology/validate.py',
+    'research/discovery-v1/validate.py',
+    'research/nonhousing-discovery/validate.py',
+    'research/modeling-v1/validate.py',
+    'research/site-goal-search/validate.py',
+    'research/public-data-registry/validate.py',
 ]
 TEST_DIRS = [
+    'tests/housing_site_discovery',
+    'tests/housing_site_review',
+    'tests/housing_underwriting',
+    'tests/housing_site_search',
+    'tests/housing_zoning_review',
+    'tests/housing_discovery',
     'tests/housing_rer',
     'tests/housing_benefit',
     'tests/housing_geometry',
@@ -36,6 +48,7 @@ TEST_DIRS = [
     'research/eligibility-gates/tests',
     'research/requirement-coverage/tests',
     'research/grand-concourse-calibration/tests',
+    'research/stanyan-methodology/tests',
 ]
 
 if __name__ == '__main__':

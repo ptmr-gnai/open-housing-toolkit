@@ -6,11 +6,12 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-LEAVES = {
+HISTORICAL_LEAVES = {
     'housing-investigation', 'collect-parcel-evidence', 'model-parcel-scenario',
     'publish-evidence-packet', 'run-analysis-recipe', 'compare-housing-programs',
     'prepare-rer-draft', 'build-grounded-massing', 'prepare-render-brief', 'render-site-concept',
 }
+LEAVES = HISTORICAL_LEAVES | {'discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites'}
 
 
 def check(root=ROOT):
@@ -25,7 +26,7 @@ def check(root=ROOT):
     if discovered != expected or (root/'skills/current').exists():
         raise ValueError('Active skills must be directly under skills/<skill-name>/')
     historical = catalog['historical_bound']
-    if {h['path'] for h in historical} != {f'archive/skill-layout-v0/skills/{n}/SKILL.md' for n in LEAVES} or len(historical) != len(LEAVES):
+    if {h['path'] for h in historical} != {f'archive/skill-layout-v0/skills/{n}/SKILL.md' for n in HISTORICAL_LEAVES} or len(historical) != len(HISTORICAL_LEAVES):
         raise ValueError('Historical skill inventory differs')
     for item in historical:
         path = root / item['path']
@@ -73,7 +74,7 @@ def check(root=ROOT):
     # The coordinator routes lazily through the module map, not by preloading leaves.
     mapping = root / 'skills/start-here/references/modules.md'
     text = mapping.read_text()
-    for name in ['housing-investigation', 'run-analysis-recipe', 'compare-housing-programs',
+    for name in ['discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites', 'housing-investigation', 'run-analysis-recipe', 'compare-housing-programs',
                  'prepare-rer-draft', 'build-grounded-massing', 'prepare-render-brief', 'render-site-concept']:
         if f'../../{name}/SKILL.md' not in text:
             problems.append(f'Coordinator missing current route: {name}')

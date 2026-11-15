@@ -6,6 +6,10 @@ linked skill for input collection, execution and verification.
 | Need | Skill | Contracts / implementation / references |
 | --- | --- | --- |
 | Guide a first-time, uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
+| Discover all recorded nonhousing sites and zoning paths | [discover-nonhousing-sites](../../discover-nonhousing-sites/SKILL.md) | [discovery guide](../../../docs/guides/discover-sites.md), [module](../../../src/housing_site_discovery/README.md) |
+| Test housing/capital/rent/public-context targets | [goal-seek-housing-sites](../../goal-seek-housing-sites/SKILL.md) | [goal search](../../../src/housing_site_search/README.md), verified discovery and explicit financial template |
+| Model rental capital, operations and debt | [model-rental-underwriting](../../model-rental-underwriting/SKILL.md) | [underwriting guide](../../../src/housing_underwriting/README.md), [request schema](../../../src/housing_underwriting/request.schema.json) |
+| Compare an explicit FAR screen (earlier experiment) | [discover-housing-sites](../../discover-housing-sites/SKILL.md) | [inventory, screening and handoff guide](../../../src/housing_discovery/README.md) |
 | Investigate a Bronx lot | [housing-investigation](../../housing-investigation/SKILL.md) | [workflow guide](../../../src/housing_workflow/README.md), [request schema](../../../src/housing_workflow/request.schema.json), [workflow](../../../config/workflows/parcel-investigation.json) |
 | Edit area arithmetic | [run-analysis-recipe](../../run-analysis-recipe/SKILL.md) | [recipe guide](../../../src/housing_recipe/README.md), [base recipe](../../../config/recipes/area-budget.json) |
 | Compare explicit housing offers | [compare-housing-programs](../../compare-housing-programs/SKILL.md) | [guide](../../../src/housing_benefit/README.md), [request schema](../../../src/housing_benefit/request.schema.json), [example inputs and reference pack](../../../examples/affordability-inputs/README.md) |

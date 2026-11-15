@@ -2,6 +2,10 @@
 
 | Location | Purpose |
 | --- | --- |
+| src/housing_site_discovery/ | Broad nonhousing inventory, zoning paths and public context |
+| src/housing_site_review/ and src/housing_zoning_review/ | Historical dwelling signals and monthly zoning reconciliation |
+| src/housing_site_search/ | Explicit housing-program and financial/public-context goal search |
+| src/housing_underwriting/ | Rental development budgets, annual operations and debt sizing |
 | src/housing_workflow/ | Known-lot evidence collection and packets |
 | src/housing_recipe/ | Editable typed area arithmetic |
 | src/housing_benefit/ | Explicit housing-offer comparisons |
@@ -11,6 +15,7 @@
 | src/housing_common/ | Local-output safeguards, historical verification and path mapping |
 | skills/<name>/ | Skill entry, on-demand references and canonical script links |
 | config/workflows/ and config/recipes/ | Versioned composition and model configuration |
+| docs/status.md | Plain summary of what works, what is experimental and open practitioner questions |
 | docs/guides/, docs/reference/, docs/templates/ | Setup/use, supporting detail and handoff templates |
 | examples/ | Curated read-only worked packages |
 | research/ | Bounded research experiments and their evidence |
