@@ -17,6 +17,7 @@ runs/
 /outputs/
 /cache/
 .venv/
+.venv-old-*/
 .pytest_cache/
 node_modules/
 

@@ -1,12 +1,25 @@
 # Set up the checkout once
 
-Use Codex or Claude Code on your Mac with Python 3.11+. The checkout is about
-1.3 GB on disk, mostly retained research cases (the download is about 80 MB).
-The toolkit uses a standard src/
-layout, so install the checkout in editable mode before running its Python modules.
-The existing `python -m housing_…` commands stay the same.
+The easiest way: ask Claude Code or Codex to "install
+https://github.com/ptmr-gnai/open-housing-toolkit and let's start". The agent does
+everything below.
 
-From the repository root:
+To do it yourself on a Mac, from the repository root (any Python 3 can start it):
+
+```sh
+python3 scripts/preflight.py
+```
+
+It finds or installs Python 3.11+, creates `.venv`, installs the toolkit with
+optional geometry support, fixes HTTPS certificate problems inside `.venv`, checks
+live NYC data access and reports image options. Then use `.venv/bin/python` for
+toolkit commands. The checkout is about 1.3 GB on disk, mostly retained research
+cases (the download is about 80 MB).
+
+## Manual setup
+
+The toolkit uses a standard src/ layout, so install the checkout in editable mode
+before running its Python modules. From the repository root, with Python 3.11+:
 
 ```sh
 python3 -m venv .venv

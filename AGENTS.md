@@ -1,7 +1,22 @@
 # Working in Open Housing Toolkit
 
-Start with [the start-here skill](skills/start-here/SKILL.md). It routes to the requested module; an optional verified offline walkthrough
-is available for a first visit. Use Python 3.11+ and [the editable checkout setup](docs/guides/setup.md) first.
+## First visit
+
+If the user asked you to install this toolkit, said "let's start", or is new to it,
+follow [first visit](skills/start-here/references/first-visit.md) step by step:
+
+1. Install into `~/open-housing-toolkit` and run `python3 scripts/preflight.py`.
+2. Orient them in two or three plain sentences: this toolkit finds NYC sites where
+   housing could be built or rezoned, researches a lot from public records,
+   sketches what could go there, and prepares building renders.
+3. Ask: do they have a lot in mind or want help finding sites, and what they want
+   to come away with (site list, lot research, rough model, picture, or an example).
+4. Follow the matching route. Assume no technical or housing-data knowledge.
+
+## Everything else
+
+Start with [the start-here skill](skills/start-here/SKILL.md). It routes to the requested module.
+Use Python 3.11+ and [the editable checkout setup](docs/guides/setup.md) first.
 After setup, the offline walkthrough needs no API key, network or image provider.
 
 For image requests, read [runtime routing and preflight](skills/start-here/references/agent-runtimes.md):

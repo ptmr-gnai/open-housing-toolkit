@@ -5,6 +5,10 @@ description: Route a housing practitioner or coding agent to the right toolkit m
 
 # Start here
 
+**First visit, "install this", "let's start" or a newcomer:** follow
+[first visit](references/first-visit.md): install and preflight, a short orientation,
+two questions, then the matching route. Assume no prior knowledge.
+
 Read [AGENTS.md](../../AGENTS.md). Work from an editable checkout with Python 3.11+; read [setup](../../docs/guides/setup.md) if not installed.
 Choose the user's task first; an independent module does not require the full tour.
 Default to a local user run: no shipped-data regeneration and no commits, pushes

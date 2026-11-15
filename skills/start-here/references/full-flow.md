@@ -13,15 +13,15 @@ fields or say the decision remains unclear. Offer plain-language choices or help
 
 ## Welcome and choose
 
-For a newcomer, briefly welcome them: the toolkit can gather public site records,
-explore conditional area scenarios, prepare diagrams and review/report packets, and
-help prepare optional visual concepts. Ask whether this is a new project or a
-continuation. If they already gave a site or asked for a specific output, acknowledge
+For a newcomer or an install request, follow [first visit](first-visit.md) for the
+welcome and the two opening questions. Otherwise ask whether this is a new project
+or a continuation. If they already gave a site or asked for a specific output, acknowledge
 it and skip questions already answered. Do not make a user learn module names or
 lead with unexplained acronyms; offer details as the user chooses an outcome.
 
-For a new project, accept a Bronx address or ten-digit BBL. Live parcel collection
-currently supports one Bronx lot; do not promise automatic citywide site discovery.
+For a new project, accept a Bronx address or ten-digit BBL for single-lot research;
+`scripts/locate.py lookup` resolves an address to its BBL. Single-lot collection
+supports Bronx lots today. Site discovery across an area works in all five boroughs.
 Resolve the supplied site, confirm an ambiguous match before using it, and show the
 resolved address and BBL when resolved. If the user supplies only a site, offer
 the following short menu early in the first user-facing response and ask what they

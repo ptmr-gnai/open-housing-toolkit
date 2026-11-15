@@ -16,8 +16,21 @@ review. Those are investigation categories, not feasibility findings.
 grouped by zoning path with their size, station distance and review flags, and
 a CSV of all lots. See the [Jerome Avenue example](../../research/nonhousing-discovery/cases/jerome/packet.md)
 (1,921 lots, 457 recorded nonhousing). A few-block area collects live in about a
-minute; a neighborhood takes longer. If collection returns 0 lots with certificate errors,
-see [setup](setup.md#if-live-collection-reports-certificate-errors).
+minute; a neighborhood takes longer. Works in all five boroughs. If collection
+returns 0 lots with certificate errors, run `python3 scripts/preflight.py` or see
+[setup](setup.md#if-live-collection-reports-certificate-errors).
+
+## Describe your area
+
+Name a place and a distance instead of writing coordinates. The helper accepts a
+street address or landmark, a subway station, or coordinates, and writes a request:
+
+```sh
+python scripts/locate.py area --station "170 St" --routes 4 --radius-m 400 --out runs/my-area/request.json
+python scripts/locate.py area "1337 Jerome Ave, Bronx" --out runs/my-area/request.json
+```
+
+Use that request file in place of the example's `--input` below.
 
 ## Collect public evidence
 

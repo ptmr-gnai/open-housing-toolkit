@@ -5,7 +5,8 @@ linked skill for input collection, execution and verification.
 
 | Need | Skill | Contracts / implementation / references |
 | --- | --- | --- |
-| Guide a first-time, uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
+| Install and guide a first-time user | [first visit](first-visit.md) | `scripts/preflight.py`, `scripts/locate.py` |
+| Guide an uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
 | Discover all recorded nonhousing sites and zoning paths | [discover-nonhousing-sites](../../discover-nonhousing-sites/SKILL.md) | [discovery guide](../../../docs/guides/discover-sites.md), [module](../../../src/housing_site_discovery/README.md) |
 | Test housing/capital/rent/public-context targets | [goal-seek-housing-sites](../../goal-seek-housing-sites/SKILL.md) | [goal search](../../../src/housing_site_search/README.md), verified discovery and explicit financial template |
 | Model rental capital, operations and debt | [model-rental-underwriting](../../model-rental-underwriting/SKILL.md) | [underwriting guide](../../../src/housing_underwriting/README.md), [request schema](../../../src/housing_underwriting/request.schema.json) |

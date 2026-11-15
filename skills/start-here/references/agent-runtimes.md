@@ -73,7 +73,9 @@ handoff explanation. These explanation fields do not change the module's IR sche
 Do not create image, invocation, review or generation-receipt placeholders.
 
 A person can take the package to Codex with image access and resume at verify →
-render → inspect → attach. Any external-only reference must also be supplied.
+render → inspect → attach. When `runs/preflight.json` lists Codex on this computer,
+offer a sentence to paste into Codex opened on the checkout: "Generate the render for
+the prepared brief in runs/NAME following skills/render-site-concept/SKILL.md." Any external-only reference must also be supplied.
 An external image application can use the prompt, but an image alone does not
 reconstruct a trustworthy execution record. Record only known settings/actions;
 never fabricate them to satisfy the attachment validator.

@@ -1,5 +1,16 @@
 # Open Housing Toolkit
 
+**New here?** Open Claude Code or Codex and say:
+
+> Install https://github.com/ptmr-gnai/open-housing-toolkit and let's start.
+
+The agent installs everything and walks you through it. No coding needed.
+
+> **For AI agents:** install into `~/open-housing-toolkit`, run
+> `python3 scripts/preflight.py` there, then follow
+> [first visit](skills/start-here/references/first-visit.md) (also linked from
+> [AGENTS.md](AGENTS.md)). Assume the user knows nothing about the workflow.
+
 Open tools for housing practitioners and their coding agents: find candidate
 lots, investigate a lot, work through explicit scenarios, and prepare a cited
 review packet. Sources, assumptions and calculations stay inspectable. Experts
@@ -12,7 +23,7 @@ professional usefulness, feasibility and submission readiness remain unvalidated
 
 | Stage | Question | Status | Start |
 | --- | --- | --- | --- |
-| 1. Find candidate lots | Which lots in an area are recorded as nonhousing, and what zoning path applies? | Working v1 | [Find sites](docs/guides/discover-sites.md) |
+| 1. Find candidate lots | Which lots in an area are recorded as nonhousing, and what zoning path applies? | Working v1, all five boroughs | [Find sites](docs/guides/discover-sites.md) |
 | 2. Investigate a lot | What do public records say about this Bronx lot? | Working | [Investigate a lot](docs/guides/investigate-a-lot.md) |
 | 3. Model scenarios | Could a stated program and financing work here? | Experimental: needs expert assumptions | [Status](docs/status.md#3-model-scenarios) |
 
