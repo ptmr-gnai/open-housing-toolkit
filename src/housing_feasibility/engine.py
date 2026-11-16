@@ -378,6 +378,15 @@ def continue_from(bundle_run, out):
                 if (target / 'massing').exists() else None}
     return {'status': 'ready', 'folder': str(out), 'brief': str(out / 'brief.json'), 'reusable_inputs': reusable,
             'base_case': report['request']['base_case'],
-            'next': ['Record what the user wants changed: housing_feasibility brief decide --brief %s/brief.json ...' % out,
-                     'Build only the new pieces (plan_lot.py massing/scenarios, housing_underwriting build) into %s' % out,
-                     'housing_feasibility build --brief %s/brief.json with the reusable inputs plus the new packages' % out]}
+            'next': ['Ask whether the change replaces or adds to the original options, then record it: '
+                     'housing_feasibility brief decide --brief {o}/brief.json --step massing --proposed ... --answer ...'.format(o=out),
+                     'New height: scripts/plan_lot.py massing --evidence {o}/from-report/evidence --parcel-source {o}/{p} '
+                     '--stories N ... --out {o}/plan-N; housing_workflow replay --from-run {o}/from-report/evidence '
+                     '--input {o}/plan-N/area-request.json --out {o}/area-N; housing_geometry build --analysis {o}/area-N '
+                     '--parcel-source {o}/{p} --scenario {o}/plan-N/geometry-scenario.json --out {o}/massing-N'.format(o=out, p=reusable['parcel_source'] or 'PARCEL'),
+                     'New money: scripts/plan_lot.py scenarios --program {o}/plan-N/program.json ... --out {o}/scenarios-N; '
+                     'housing_underwriting build for each into {o}/underwriting/ID'.format(o=out),
+                     'Report: housing_feasibility build --brief {o}/brief.json --evidence {o}/from-report/evidence '
+                     '--ownership {o}/from-report/ownership --discovery {o}/from-report/discovery-extract.json '
+                     '--underwriting {o}/underwriting [--underwriting {o}/from-report/underwriting] '
+                     '--massing {o}/massing-N [--massing {o}/from-report/massing] ...'.format(o=out)]}

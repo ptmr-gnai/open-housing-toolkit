@@ -172,12 +172,21 @@ def plan_massing(args):
                          'residential_net_efficiency': {'value': args.net_efficiency, 'rationale': 'Share of residential gross area inside apartments (%s).' % args.approval_note},
                          'average_net_home_sf': {'value': args.average_home_sf, 'rationale': 'Average apartment size; no unit mix established (%s).' % args.approval_note}}}
     lot_area = float(attrs.get('LotArea') or 0)
+    ir = load(Path(args.evidence) / 'ir.json') if (Path(args.evidence) / 'ir.json').exists() else {'claims': []}
+    residfar = next((float(c['value']) for c in ir['claims'] if c['id'] == 'pluto.0.residfar' and c.get('value') not in (None, '')), None)
+    ratio_res = residential / lot_area if lot_area else None
+    far_check = None
+    if residfar is not None and ratio_res is not None:
+        far_check = ('within the recorded residential FAR of %s' % residfar if ratio_res <= residfar else
+                     'ABOVE the recorded residential FAR of %s; it would need affordable-housing or other bonus provisions, '
+                     'or may not be allowed. Tell the user before modelling it.' % residfar)
     program = {'version': '1.0', 'bbl': evidence['bbl'], 'scenario_id': scenario_id, 'stories': args.stories,
                'gross_sf': money(gross_r, '0.01'), 'nonresidential_sf': money(nonres_r, '0.01'),
                'residential_sf': money(residential, '0.01'), 'homes': homes,
                'ground_plate_sf': round(ground.area, 1), 'upper_plate_sf': round(upper.area, 1),
                'total_height_ft': args.ground_height_ft + args.upper_height_ft * (args.stories - 1),
                'gross_to_lot_area': round(gross_r / lot_area, 2) if lot_area else None,
+               'recorded_residential_far': residfar, 'far_check': far_check,
                'residential_to_lot_area': round(residential / lot_area, 2) if lot_area else None,
                'net_efficiency': args.net_efficiency, 'average_home_sf': args.average_home_sf,
                'assumptions': {'ground_height_ft': args.ground_height_ft, 'upper_height_ft': args.upper_height_ft,
@@ -203,7 +212,7 @@ def plan_massing(args):
     save(out / 'area-request.json', area)
     save(out / 'program.json', program)
     return {'status': 'planned', **{k: program[k] for k in ('stories', 'gross_sf', 'nonresidential_sf', 'residential_sf', 'homes',
-                                                           'gross_to_lot_area', 'residential_to_lot_area', 'total_height_ft')},
+                                                           'gross_to_lot_area', 'residential_to_lot_area', 'far_check', 'total_height_ft')},
             'next': ['housing_workflow replay --from-run EVIDENCE --input %s/area-request.json --out AREA' % out,
                      'housing_geometry build --analysis AREA --parcel-source PARCEL --scenario %s/geometry-scenario.json --out MASSING' % out]}
 

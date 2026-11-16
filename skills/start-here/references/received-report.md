@@ -7,28 +7,32 @@ take it further. Speak plainly; the user may not know what the toolkit is.
 ## 1. Explain it, from the report alone
 
 The HTML carries the whole typed report as JSON in the script element whose id is
-`report-data` (a PDF does not; ask for the HTML or the bundle). Read it and tell the
-user, in a few lines:
+`report-data` (a PDF does not; ask for the HTML or the bundle). Print it with
+`.venv/bin/python -m housing_feasibility show --html REPORT.html [--section headline]`
+and tell the user, in a few lines:
 
 - the goal (`brief.goal`, the requester's own words) and who it was prepared for;
 - the selected site and why (`search.selected`), and what was tested (`process`);
 - the findings: yield on cost, remaining gap, zoning check, latest deed (`headline`);
 - the top open items, and that professional review is pending.
 
-Say that every figure is either a public record (with a retrieval date and SHA-256
+Check `request.prepared_by` and the decision answers: a "dry run" or "test values"
+there means the assumptions were placeholders, which matters for trust. Say that
+every figure is either a public record (with a retrieval date and SHA-256
 fingerprint) or an assumption the requester approved (`brief.decisions`), and that
 you can check this if they have the evidence bundle.
 
 ## 2. Verify it (needs the bundle)
 
-Unzip the bundle. Its `README.md` names the toolkit commit and the evidence
+Unzip the bundle into the toolkit's `runs/` folder (e.g. `runs/NAME-review/`). Its
+`README.md` names the toolkit commit and the evidence
 fingerprint; it should match the fingerprint printed in the report's "About this
 report" section.
 
 ```sh
 git clone https://github.com/ptmr-gnai/open-housing-toolkit.git ~/open-housing-toolkit   # if not installed
 cd ~/open-housing-toolkit && git checkout COMMIT_FROM_README   # use a separate clone if this one has local work
-python3 scripts/preflight.py
+python3 scripts/preflight.py   # skip if .venv exists and works
 .venv/bin/python -m housing_feasibility verify --run PATH/BUNDLE/report --html PATH/report.html
 ```
 
@@ -49,7 +53,10 @@ render, a different persona's view):
 .venv/bin/python -m housing_feasibility continue --bundle PATH/BUNDLE/report --out runs/NAME
 ```
 
-This copies the verified inputs to `runs/NAME/from-report/` and starts
+Ask first whether the change replaces the original options or adds to them, and
+record their answer in their words; don't write "approved by the user" for anything
+they didn't say. `continue` copies the verified inputs to `runs/NAME/from-report/`,
+prints the exact commands for the next steps, and starts
 `runs/NAME/brief.json` from the original brief, marked as extending it. Record what
 the user wants changed with `brief decide`, build only the new pieces with
 [full lot analysis](lot-analysis.md) steps 3–5 (the parcel geometry is in

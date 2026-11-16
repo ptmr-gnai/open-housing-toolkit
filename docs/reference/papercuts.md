@@ -1,5 +1,14 @@
 # Papercut log
 
+November 16, 2026, shareable reports: a cold Haiku agent given only a report's HTML
+and its evidence zip found the toolkit from the HTML's agent note and the zip README,
+verified all 22 inputs and the HTML-to-bundle match, explained what to trust (and
+spotted the "dry run / test values" labels), and built a verified 10-story
+continuation. Fixes: `housing_feasibility show` prints the embedded data,
+`continue` prints exact next commands, `plan_lot.py massing` states whether a height
+exceeds the recorded residential FAR, and the received-report guide covers where to
+unzip, replace-versus-add, and never writing approvals the user didn't give.
+
 November 16, 2026, full-chain dry runs (area search → lot → ownership → massing →
 18 financing scenarios → feasibility report) by Claude Code, two cold Haiku agents
 (Fordham Rd, 149 St) and Codex (Tremont Av). All four reached a verified report.

@@ -121,6 +121,12 @@ class Report(unittest.TestCase):
         html = self.tmp / 'withphoto/report.html'
         self.assertTrue(engine.verify_html(html, self.tmp / 'unzipped/report')['html_matches_bundle'])
         self.assertIn('github.com/ptmr-gnai/open-housing-toolkit', html.read_text())
+        from housing_feasibility.__main__ import main
+        import contextlib, io
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            main(['show', '--html', str(html), '--section', 'headline'])
+        self.assertEqual(json.loads(buffer.getvalue())['bbl'], '2028710002')
         ready = engine.continue_from(self.tmp / 'unzipped/report', self.tmp / 'continued')
         self.assertIsNone(ready['reusable_inputs']['render'])
         brief = json.loads((self.tmp / 'continued/brief.json').read_text())

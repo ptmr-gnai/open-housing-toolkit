@@ -42,6 +42,9 @@ def main(argv=None):
     z.add_argument('--out', required=True, help='Path of the .zip to write')
     z.add_argument('--include-source-photo', action='store_true',
                    help='Include the render source photo (only if the user owns its rights)')
+    w = sub.add_parser('show', help='Print the typed report embedded in a report.html (no bundle needed)')
+    w.add_argument('--html', required=True)
+    w.add_argument('--section', help='One section, e.g. headline, brief, process, search, zoning')
     c = sub.add_parser('continue', help='Start a new run from a verified report or unzipped bundle')
     c.add_argument('--bundle', required=True, help='The report folder (unzipped bundle: BUNDLE/report)')
     c.add_argument('--out', required=True)
@@ -77,6 +80,10 @@ def main(argv=None):
         result = verify_html(args.html, args.run) if args.html else verify(args.run)
     elif args.command == 'bundle':
         result = bundle(args.run, args.out, args.include_source_photo)
+    elif args.command == 'show':
+        from .present import embedded_report
+        data = embedded_report(Path(args.html).read_text())
+        result = data[args.section] if args.section else {k: data[k] for k in ('request', 'brief', 'headline', 'provenance')}
     elif args.command == 'continue':
         result = continue_from(args.bundle, args.out)
     else:
