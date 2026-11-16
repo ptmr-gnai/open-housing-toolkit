@@ -19,8 +19,12 @@ def _text(value, name, limit=4000):
 
 
 def validate(brief):
-    if not isinstance(brief, dict) or set(brief) != {'version', 'goal', 'persona', 'provided', 'decisions'}:
-        raise ValueError('Brief fields: version, goal, persona, provided, decisions')
+    required = {'version', 'goal', 'persona', 'provided', 'decisions'}
+    if not isinstance(brief, dict) or not required <= set(brief) or set(brief) - required - {'extends'}:
+        raise ValueError('Brief fields: version, goal, persona, provided, decisions (and optional extends)')
+    for item in brief.get('extends', []):
+        if not isinstance(item, dict) or set(item) != {'title', 'evidence_fingerprint', 'prepared_on'}:
+            raise ValueError('Each extends item needs title, evidence_fingerprint, prepared_on')
     if brief['version'] != '1.0':
         raise ValueError('Brief version must be "1.0"')
     _text(brief['goal'], 'goal')

@@ -17,7 +17,20 @@ python -m housing_feasibility build --request runs/NAME/report-request.json --br
   [--underwriting ...] [--massing ...] [--ownership ...] [--render ...] [--discovery ...] \
   --out runs/NAME/report
 python -m housing_feasibility verify --run runs/NAME/report
+python -m housing_feasibility bundle --run runs/NAME/report --out runs/NAME/NAME-evidence.zip
+python -m housing_feasibility verify --run UNZIPPED/report --html RECEIVED/report.html
+python -m housing_feasibility continue --bundle UNZIPPED/report --out runs/NEW
 ```
+
+## Sharing
+
+The HTML is self-contained: figures embedded, the typed report embedded as JSON
+(script id `report-data`), a header link to this repository, and an "About this
+report" section with the evidence fingerprint and the toolkit commit. The bundle is
+a zip of the report folder plus a README for people and agents; its fingerprint
+matches the report's. A render's source photo is withheld by default (listed in
+`WITHHELD.json`, checked by hash). `continue` starts a new run from a bundle, and
+the new report names the one it extends.
 
 ## Blocks
 

@@ -92,6 +92,40 @@ class Report(unittest.TestCase):
         self.assertIn('All candidates from the area search', html)
         self.assertIn('Area search', html)
 
+    def test_bundle_withholds_source_photo_and_verifies_elsewhere(self):
+        import struct
+        import zipfile
+        import zlib
+        from housing_render.engine import prepare
+        from housing_render.contracts import load as rload
+        def png():
+            raw = b'\x00\xff\x00\x00'
+            chunk = lambda t, d: struct.pack('>I', len(d)) + t + d + struct.pack('>I', zlib.crc32(t + d) & 0xffffffff)
+            return b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', 1, 1, 8, 2, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(raw)) + chunk(b'IEND', b'')
+        photo = self.tmp / 'street.png'
+        photo.write_bytes(png())
+        scene = rload(ROOT / 'examples/site-concept/scene.json')
+        scene['reference']['availability'] = 'local_file'
+        prepare(scene, rload(ROOT / 'examples/site-concept/scenario.json'), self.tmp / 'render-local', None, photo)
+        engine.build(REQUEST, self.tmp / 'withphoto', EVIDENCE, self.uw, render=self.tmp / 'render-local', brief=self.brief)
+        result = engine.bundle(self.tmp / 'withphoto', self.tmp / 'b.zip')
+        self.assertEqual(result['withheld'], ['inputs/render/inputs/reference.png'])
+        with zipfile.ZipFile(self.tmp / 'b.zip') as z:
+            names = z.namelist()
+            self.assertIn('README.md', names)
+            self.assertNotIn('report/inputs/render/inputs/reference.png', names)
+            z.extractall(self.tmp / 'unzipped')
+        verified = engine.verify(self.tmp / 'unzipped/report')
+        self.assertEqual(verified['inputs_checked_by_hash_only'], ['inputs/render'])
+        self.assertEqual(verified['evidence_fingerprint'], result['evidence_fingerprint'])
+        html = self.tmp / 'withphoto/report.html'
+        self.assertTrue(engine.verify_html(html, self.tmp / 'unzipped/report')['html_matches_bundle'])
+        self.assertIn('github.com/ptmr-gnai/open-housing-toolkit', html.read_text())
+        ready = engine.continue_from(self.tmp / 'unzipped/report', self.tmp / 'continued')
+        self.assertIsNone(ready['reusable_inputs']['render'])
+        brief = json.loads((self.tmp / 'continued/brief.json').read_text())
+        self.assertEqual(brief['extends'][0]['evidence_fingerprint'], result['evidence_fingerprint'])
+
     def test_tampered_report_fails(self):
         self.build('tamper')
         path = self.tmp / 'tamper/report.json'

@@ -13,8 +13,30 @@ import shutil
 
 from housing_common.local_outputs import ROOT, destination
 
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 ROLES = ('evidence', 'ownership', 'massing', 'underwriting', 'render')
+REPOSITORY = 'https://github.com/ptmr-gnai/open-housing-toolkit'
+WITHHELD = 'WITHHELD.json'
+
+
+def toolkit_identity():
+    """Which toolkit built this report, recorded at build (verify does not recompute it)."""
+    import subprocess
+    def git(*args):
+        try:
+            return subprocess.run(['git', *args], cwd=ROOT, capture_output=True, text=True, timeout=10).stdout.strip() or None
+        except (OSError, subprocess.SubprocessError):
+            return None
+    version = None
+    pyproject = ROOT / 'pyproject.toml'
+    if pyproject.exists():
+        m = re.search(r'^version\s*=\s*"([^"]+)"', pyproject.read_text(), re.M)
+        version = m.group(1) if m else None
+    commit = git('rev-parse', 'HEAD')
+    dirty = git('status', '--porcelain', '--', 'src', 'scripts', 'skills', 'config', 'pyproject.toml')
+    return {'name': 'Open Housing Toolkit', 'repository': REPOSITORY, 'package_version': version,
+            'git_commit': commit, 'uncommitted_toolkit_changes': bool(dirty) if commit else None,
+            'report_module_version': VERSION}
 
 
 def digest(data):
@@ -125,6 +147,7 @@ def _slug(text):
 
 
 def build(request, out, evidence, underwriting, massing=(), ownership=None, render=None, discovery=None, brief=None):
+    """discovery: a verified discovery package folder, or a discovery-extract.json carried from an earlier report."""
     from .contracts import validate_request
     from .brief import validate as validate_brief
     validate_request(request)
@@ -160,9 +183,16 @@ def build(request, out, evidence, underwriting, massing=(), ownership=None, rend
             names.setdefault(role, []).append(str(target.relative_to(out)))
     if discovery:
         bbl = load(out / 'inputs/evidence/ir.json')['resolved_bbl']
-        save(out / 'inputs/discovery-extract.json', discovery_extract(Path(discovery), bbl))
+        if Path(discovery).is_file():
+            extract = load(discovery)
+            if extract.get('lot', {}).get('bbl') != bbl:
+                raise ValueError('Discovery extract is for a different tax lot')
+            save(out / 'inputs/discovery-extract.json', extract)
+        else:
+            save(out / 'inputs/discovery-extract.json', discovery_extract(Path(discovery), bbl))
     save(out / 'request.json', request)
     save(out / 'inputs/brief.json', brief_data)
+    save(out / 'inputs/toolkit.json', toolkit_identity())
     write_outputs(out)
     save(out / 'manifest.json', {'version': VERSION, 'module': 'feasibility-report',
                                  'implementation': implementation(), 'files': inventory(out),
@@ -181,6 +211,15 @@ def write_outputs(out):
     return report
 
 
+def withheld_files(run):
+    """Files a bundle deliberately left out (e.g. a third-party source photo), with their declared hashes."""
+    path = Path(run).parent / WITHHELD
+    if not path.exists():
+        return {}
+    data = load(path)
+    return {item['path']: item['sha256'] for item in data.get('files', [])}
+
+
 def verify(run):
     from .report import assemble
     from .present import markdown, html
@@ -188,10 +227,18 @@ def verify(run):
     run = Path(run)
     manifest = load(run / 'manifest.json')
     if manifest.get('module') != 'feasibility-report' or manifest.get('version') != VERSION:
-        raise ValueError('Not a feasibility report package')
+        raise ValueError('Not a feasibility report package (or one built by another report-module version)')
     if manifest['implementation'] != implementation():
-        raise ValueError('Report was built by a different version of the report module; rebuild it into a new folder')
-    if manifest['files'] != inventory(run):
+        toolkit = load(run / 'inputs/toolkit.json') if (run / 'inputs/toolkit.json').exists() else {}
+        raise ValueError('This report was built by a different version of the toolkit. Check out commit %s of %s and verify again.'
+                         % (toolkit.get('git_commit') or 'unknown', toolkit.get('repository') or REPOSITORY))
+    withheld = withheld_files(run)
+    actual = inventory(run)
+    for name, sha in withheld.items():
+        if name in actual or manifest['files'].get(name) != sha:
+            raise ValueError('Withheld-file list does not match the manifest: ' + name)
+        actual[name] = sha
+    if manifest['files'] != actual:
         raise ValueError('Report package files were added, removed or changed')
     checks = []
     for role in ROLES:
@@ -200,9 +247,14 @@ def verify(run):
             continue
         folders = [base] if role in ('evidence', 'ownership', 'render') else sorted(p for p in base.iterdir() if p.is_dir())
         for folder in folders:
+            rel = str(folder.relative_to(run))
+            held = [n for n in withheld if n.startswith(rel + '/')]
+            if held:
+                checks.append({'package': rel, 'status': 'hashes_only', 'withheld': held})
+                continue
             result = verify_input(role, folder)
-            checks.append({'package': str(folder.relative_to(run)), 'status': result.get('status')})
-    report = assemble(run)
+            checks.append({'package': rel, 'status': result.get('status')})
+    report = assemble(run, fallback_hashes=withheld)
     validate_report(report)
     if load(run / 'report.json') != report:
         raise ValueError('report.json differs from recomputation')
@@ -210,7 +262,122 @@ def verify(run):
         raise ValueError('Report projection changed')
     h = report['headline']
     return {'status': 'passed', 'bbl': report['site']['bbl'], 'address': report['site']['address'],
-            'inputs_verified': len(checks), 'base_case': h['base_case_id'],
+            'inputs_verified': sum(1 for c in checks if c['status'] == 'passed'),
+            'inputs_checked_by_hash_only': [c['package'] for c in checks if c['status'] == 'hashes_only'],
+            'evidence_fingerprint': report['provenance']['evidence_fingerprint'], 'base_case': h['base_case_id'],
             'base_gap_usd': h['base_gap_usd'], 'gap_range_usd': h['gap_range_usd'],
             'open_items': len(report['open_items']), 'professional_review': 'pending',
             'report': str((run / 'report.html').resolve())}
+
+
+def verify_html(html_path, run):
+    """Confirm a report.html (e.g. the one that was emailed) matches a bundle exactly."""
+    from .present import embedded_report
+    embedded = embedded_report(Path(html_path).read_text())
+    result = verify(run)
+    if embedded != load(Path(run) / 'report.json'):
+        raise ValueError('The HTML report does not match this bundle (different data or fingerprint)')
+    return {**result, 'html_matches_bundle': True, 'html': str(html_path)}
+
+
+BUNDLE_README = """# Evidence bundle: {title}
+
+Produced by the Open Housing Toolkit ({repository}), toolkit commit {commit}.
+Evidence fingerprint: {fingerprint}
+
+For a person: open `report/report.html`. It is the whole report; this folder holds
+the receipts behind it.
+
+For an AI agent asked to review or continue this work:
+
+1. What this is: a site feasibility report assembled from verified packages. Every
+   figure comes from a public record (retained bytes with SHA-256 hashes) or an
+   assumption the user approved (recorded in `report/inputs/brief.json`).
+   `report/report.json` is the typed report; the same JSON is embedded in
+   `report.html` (script id "report-data").
+2. Verify it:
+   git clone {repository} ~/open-housing-toolkit && cd ~/open-housing-toolkit
+   git checkout {commit}
+   python3 scripts/preflight.py
+   .venv/bin/python -m housing_feasibility verify --run PATH/TO/THIS/BUNDLE/report
+   .venv/bin/python -m housing_feasibility verify --run PATH/TO/THIS/BUNDLE/report --html PATH/TO/THE/report.html
+   The second command confirms an emailed report matches this bundle.
+3. Continue it (new heights, rents, a render):
+   .venv/bin/python -m housing_feasibility continue --bundle PATH/TO/THIS/BUNDLE/report --out runs/NAME
+   then follow skills/start-here/references/received-report.md in the toolkit.
+
+{withheld_note}Contents: report/ (report.html, report.md, report.json, manifest.json, inputs/ with every
+verified input package, the run brief and the toolkit identity).
+"""
+
+
+def bundle(run, out, include_source_photo=False):
+    """Zip a verified report folder with a README for people and agents."""
+    import zipfile
+    run = Path(run)
+    result = verify(run)
+    report = load(run / 'report.json')
+    out = Path(out)
+    if out.exists():
+        raise ValueError('Refusing to overwrite ' + str(out))
+    withheld = []
+    for photo in sorted((run / 'inputs/render/inputs').glob('reference.*')) if (run / 'inputs/render/inputs').exists() else []:
+        if not include_source_photo:
+            withheld.append({'path': str(photo.relative_to(run)), 'sha256': digest(photo.read_bytes()),
+                             'reason': 'Source photo for the render (for example a Street View screenshot) may carry third-party rights; '
+                                       'the generated concept image is included. Re-bundle with --include-source-photo if the user owns it.'})
+    held = {w['path'] for w in withheld}
+    toolkit = report['provenance']['toolkit']
+    note = ''
+    if withheld:
+        note = ('Withheld: %s. The render package is therefore checked by file hashes only (WITHHELD.json); '
+                'everything else is fully re-verified.\n\n' % ', '.join(sorted(held)))
+    readme = BUNDLE_README.format(title=report['request']['title'], repository=toolkit['repository'],
+                                  commit=toolkit.get('git_commit') or 'unknown',
+                                  fingerprint=report['provenance']['evidence_fingerprint'], withheld_note=note)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
+        z.writestr('README.md', readme)
+        if withheld:
+            z.writestr(WITHHELD, dumps({'version': '1.0', 'files': withheld}))
+        for path in sorted(run.rglob('*')):
+            if path.is_file() and '__pycache__' not in path.parts:
+                rel = str(path.relative_to(run))
+                if rel not in held:
+                    z.write(path, 'report/' + rel)
+    return {'status': 'bundled', 'bundle': str(out), 'bytes': out.stat().st_size,
+            'evidence_fingerprint': report['provenance']['evidence_fingerprint'], 'withheld': sorted(held),
+            'report_verified': result['status']}
+
+
+def continue_from(bundle_run, out):
+    """Start a new run from a verified report: reusable inputs plus the brief, marked as extending it."""
+    from .brief import validate as validate_brief
+    bundle_run = Path(bundle_run)
+    verify(bundle_run)
+    report = load(bundle_run / 'report.json')
+    out = destination(out) if Path(out).resolve().is_relative_to(ROOT) else Path(out)
+    if out.exists() and any(out.iterdir()):
+        raise ValueError('Output folder must be new or empty')
+    held = withheld_files(bundle_run)
+    target = out / 'from-report'
+    out.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(bundle_run / 'inputs', target, ignore=shutil.ignore_patterns('__pycache__', 'brief.json', 'toolkit.json'))
+    brief = validate_brief(load(bundle_run / 'inputs/brief.json'))
+    brief = dict(brief)
+    brief['extends'] = list(brief.get('extends', [])) + [{'title': report['request']['title'],
+                                                          'evidence_fingerprint': report['provenance']['evidence_fingerprint'],
+                                                          'prepared_on': report['request']['prepared_on']}]
+    save(out / 'brief.json', validate_brief(brief))
+    reusable = {'evidence': 'from-report/evidence', 'ownership': 'from-report/ownership' if (target / 'ownership').exists() else None,
+                'massing': [str(p.relative_to(out)) for p in sorted((target / 'massing').iterdir())] if (target / 'massing').exists() else [],
+                'underwriting': 'from-report/underwriting',
+                'render': 'from-report/render' if (target / 'render').exists() and not held else None,
+                'discovery': 'from-report/discovery-extract.json' if (target / 'discovery-extract.json').exists() else None,
+                'parcel_source': next((str(p.relative_to(out)) for p in sorted((target / 'massing').glob('*/parcel-source'))), None)
+                if (target / 'massing').exists() else None}
+    return {'status': 'ready', 'folder': str(out), 'brief': str(out / 'brief.json'), 'reusable_inputs': reusable,
+            'base_case': report['request']['base_case'],
+            'next': ['Record what the user wants changed: housing_feasibility brief decide --brief %s/brief.json ...' % out,
+                     'Build only the new pieces (plan_lot.py massing/scenarios, housing_underwriting build) into %s' % out,
+                     'housing_feasibility build --brief %s/brief.json with the reusable inputs plus the new packages' % out]}

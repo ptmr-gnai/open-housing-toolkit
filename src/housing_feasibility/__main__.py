@@ -5,7 +5,9 @@ python -m housing_feasibility brief provide --brief runs/NAME/brief.json --item 
 python -m housing_feasibility brief decide --brief runs/NAME/brief.json --step select --proposed "..." --answer "..."
 python -m housing_feasibility build --request REQ.json --brief runs/NAME/brief.json --evidence DIR --underwriting DIR [--underwriting DIR ...]
     [--massing DIR ...] [--ownership DIR] [--render DIR] [--discovery DIR] --out runs/NAME/report
-python -m housing_feasibility verify --run runs/NAME/report
+python -m housing_feasibility verify --run runs/NAME/report [--html EMAILED/report.html]
+python -m housing_feasibility bundle --run runs/NAME/report --out runs/NAME/NAME-evidence.zip
+python -m housing_feasibility continue --bundle UNZIPPED/report --out runs/NEW
 python -m housing_feasibility template --out runs/NAME/report-request.json
 """
 import argparse
@@ -13,7 +15,7 @@ import json
 import sys
 from pathlib import Path
 
-from .engine import build, load, save, verify
+from .engine import build, bundle, continue_from, load, save, verify, verify_html
 from . import brief as briefs
 from .brief import PERSONAS, STEPS
 
@@ -34,6 +36,15 @@ def main(argv=None):
     b.add_argument('--out', required=True)
     v = sub.add_parser('verify', help='Re-verify every input and recompute the report')
     v.add_argument('--run', required=True)
+    v.add_argument('--html', help='Also confirm this report.html (e.g. one received by email) matches the bundle')
+    z = sub.add_parser('bundle', help='Zip a verified report with its evidence and a README for people and agents')
+    z.add_argument('--run', required=True)
+    z.add_argument('--out', required=True, help='Path of the .zip to write')
+    z.add_argument('--include-source-photo', action='store_true',
+                   help='Include the render source photo (only if the user owns its rights)')
+    c = sub.add_parser('continue', help='Start a new run from a verified report or unzipped bundle')
+    c.add_argument('--bundle', required=True, help='The report folder (unzipped bundle: BUNDLE/report)')
+    c.add_argument('--out', required=True)
     t = sub.add_parser('template', help='Write a report request to fill in')
     t.add_argument('--out', required=True)
     br = sub.add_parser('brief', help='Start or add to the run brief').add_subparsers(dest='action', required=True)
@@ -63,7 +74,11 @@ def main(argv=None):
         else:
             result = briefs.decide(args.brief, args.step, args.proposed, args.answer, args.on)
     elif args.command == 'verify':
-        result = verify(args.run)
+        result = verify_html(args.html, args.run) if args.html else verify(args.run)
+    elif args.command == 'bundle':
+        result = bundle(args.run, args.out, args.include_source_photo)
+    elif args.command == 'continue':
+        result = continue_from(args.bundle, args.out)
     else:
         out = Path(args.out)
         if out.exists():

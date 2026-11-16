@@ -103,7 +103,7 @@ td.i1{padding-left:22px}.path{font-size:14px}.note{color:var(--muted);font-size:
 .scroll{overflow-x:auto}figure{margin:12px 0}figure img{max-width:100%;border:1px solid var(--rule);background:#fff}
 .figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
 figcaption{color:var(--muted);font-size:12.5px}code{font-size:12px;word-break:break-all}
-@media print{body{font-size:11.5px}main{max-width:none;padding:0}h2{break-after:avoid}table,figure{break-inside:avoid}.kpi b{font-size:16px}}
+@media print{@page{@bottom-center{content:"Open Housing Toolkit · github.com/ptmr-gnai/open-housing-toolkit";font-size:9px;color:#5b6670}}body{font-size:11.5px}main{max-width:none;padding:0}h2{break-after:avoid}table,figure{break-inside:avoid}.kpi b{font-size:16px}}
 """
 
 
@@ -167,8 +167,37 @@ def _packages_text(paths):
     return '%s/ (%s packages)' % (parent, len(paths)) if all(p.startswith(parent + '/') for p in paths) else '%s +%d' % (paths[0], len(paths) - 1)
 
 
+AGENT_NOTE = '''<!--
+For AI agents: this file is a site feasibility report produced by the Open Housing Toolkit
+({repository}, commit {commit}). The complete typed report is embedded at the end of this
+file as JSON, in the script element whose id is report-data. Every figure traces to a public record or a
+user-approved assumption; the user's goal and decisions are in report-data.brief.
+Evidence fingerprint: {fingerprint}. To verify or continue the work, get the evidence bundle
+(a zip whose README.md shows the same fingerprint), clone the toolkit at that commit, run
+scripts/preflight.py, then python -m housing_feasibility verify --run BUNDLE/report --html THIS_FILE.
+If you only have this file, read report-data and the "About this report" section.
+-->'''
+
+
+def embedded_report(page):
+    """Read the typed report back out of a report.html."""
+    import json
+    import re as _re
+    found = _re.findall(r'^<script type="application/json" id="report-data">(.*?)</script>$', page, _re.S | _re.M)
+    if len(found) != 1:
+        raise ValueError('No single embedded report-data block found in this HTML')
+    return json.loads(found[0])
+
+
+def _json_block(r):
+    import json
+    return json.dumps(r, sort_keys=True, ensure_ascii=False, allow_nan=False).replace('</', '<\\/')
+
+
 def html(r, run=None):
     req, h, s, br = r['request'], r['headline'], r['site'], r['brief']
+    tk = r['provenance']['toolkit']
+    repo = tk.get('repository') or 'https://github.com/ptmr-gnai/open-housing-toolkit'
     n = [0]
 
     def section(title, anchor=None):
@@ -176,11 +205,14 @@ def html(r, run=None):
         return '<h2%s>%s. %s</h2>' % (' id="%s"' % anchor if anchor else '', n[0], escape(title))
 
     out = ['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">',
-           '<title>%s</title><style>%s</style></head><body><main>' % (escape(req['title']), CSS)]
+           '<meta name="generator" content="Open Housing Toolkit %s (%s)">' % (escape(tk.get('package_version') or ''), escape(repo)),
+           '<title>%s</title><style>%s</style></head><body>' % (escape(req['title']), CSS),
+           AGENT_NOTE.format(repository=repo, commit=tk.get('git_commit') or 'unknown', fingerprint=r['provenance']['evidence_fingerprint']),
+           '<main>']
     out.append('<header><h1>%s</h1>'
-               '<div class="meta">%s · %s, Block %s, Lot %s · BBL %s<br>Prepared %s by %s</div></header>'
+               '<div class="meta">%s · %s, Block %s, Lot %s · BBL %s<br>Prepared %s by %s using the <a href="%s">Open Housing Toolkit</a></div></header>'
                % (escape(req['title']), esc(s['address']), esc(s['borough']), esc(s['block']),
-                  esc(s['lot']), esc(s['bbl']), esc(req['prepared_on']), esc(req['prepared_by'])))
+                  esc(s['lot']), esc(s['bbl']), esc(req['prepared_on']), esc(req['prepared_by']), escape(repo)))
     out.append('<section class="summary"><b>Goal.</b> “%s”<ul>%s</ul></section>'
                % (escape(br['goal']), ''.join('<li>%s</li>' % escape(x) for x in summary_lines(r))))
     lo, hi = h['gap_range_usd']
@@ -212,6 +244,9 @@ def html(r, run=None):
                      [[escape(st['label']), STEP_STATUS[st['status']], esc(st['result']), str(st['decisions']) if st['decisions'] else '',
                        '<code>%s</code>' % escape(_packages_text(st['packages'])) if st['packages'] else '']
                       for st in r['process']['steps']], numeric=(3,)))
+    for e in r['provenance']['extends']:
+        out.append('<p>Continues the report “%s” (%s, evidence fingerprint <code>%s</code>).</p>'
+                   % (escape(e['title']), esc(e['prepared_on']), esc(e['evidence_fingerprint'][:16])))
     if br['decisions']:
         out.append('<p class="note">%s decisions recorded; the full log is in <a href="#appendix-decisions">Appendix: decisions</a>.</p>' % len(br['decisions']))
 
@@ -355,6 +390,23 @@ def html(r, run=None):
 
     out.append(section('Open items before a decision'))
     out.append(table(['Area', 'Item', 'Covered here'], [[esc(i['area']), esc(i['item']), esc(i['partly_addressed_by'] or '')] for i in r['open_items']]))
+    out.append('<h2 id="about">About this report</h2>')
+    out.append('<p>This report was produced with the <a href="%s">Open Housing Toolkit</a>, open-source tools an AI agent '
+               '(Claude Code or Codex) uses to find New York City sites, research them from public records, sketch what could be built, '
+               'test the finances and prepare renders. The agent runs the tools; the person makes every decision, and each one is '
+               'recorded above in the user’s words.</p>' % escape(repo))
+    out.append('<ul><li><b>Where the numbers come from.</b> Every figure is either copied from a public record (retrieved data is kept '
+               'with a SHA-256 fingerprint, Appendix: sources) or an assumption the user approved (Appendix: decisions). Nothing is estimated '
+               'by the report itself.</li>'
+               '<li><b>Check it.</b> The evidence bundle (a zip sent with this report) holds every input. Its README shows the evidence '
+               'fingerprint <code>%s</code>; if it matches, the bundle belongs to this report. Anyone can re-run the toolkit’s checks on it.</li>'
+               '<li><b>Continue it.</b> Give the report and bundle to your own AI agent and ask it to verify the work or try a variation '
+               '(other heights, rents, a render). It starts from <a href="%s">%s</a>.</li>'
+               '<li><b>Machine-readable.</b> The full typed report is embedded in this file (<code>report-data</code>).</li></ul>'
+               % (esc(r['provenance']['evidence_fingerprint']), escape(repo), escape(repo)))
+    out.append('<p class="note">Toolkit %s, commit <code>%s</code>%s · report module %s.</p>'
+               % (esc(tk.get('package_version')), esc((tk.get('git_commit') or 'unknown')[:12]),
+                  ' (with uncommitted changes)' if tk.get('uncommitted_toolkit_changes') else '', esc(tk.get('report_module_version'))))
     out.append('<h2>Limits</h2><ul>%s</ul>' % ''.join('<li>%s</li>' % escape(x) for x in r['non_claims']))
 
     # Appendices
@@ -385,8 +437,12 @@ def html(r, run=None):
                      [['<a href="%s">%s</a>' % (escape(x['url'] or '#'), esc(x['id'])), esc(x['publisher']), esc((x['retrieved_at'] or '')[:19]),
                        '<code>%s</code>' % esc((x['sha256'] or '')[:16])] for x in r['sources']]))
     out.append(table(['Input package', 'Role', 'Manifest SHA-256'], [['<code>%s</code>' % esc(i['package']), esc(i['role']), '<code>%s</code>' % esc(i['manifest_sha256'][:16])] for i in r['inputs']]))
-    out.append('<p class="note">Each input was re-verified by its own module when this report was built and again by <code>python -m housing_feasibility verify</code>. The run brief is retained as <code>inputs/brief.json</code>.</p>')
-    out.append('</main></body></html>\n')
+    out.append('<p class="note">Evidence fingerprint <code>%s</code> (%s). Each input was re-verified by its own module when this report was built '
+               'and again by <code>python -m housing_feasibility verify</code>. The run brief is retained as <code>inputs/brief.json</code>.</p>'
+               % (esc(r['provenance']['evidence_fingerprint']), escape(r['provenance']['fingerprint_method'])))
+    out.append('</main>')
+    out.append('<script type="application/json" id="report-data">%s</script>' % _json_block(r))
+    out.append('</body></html>\n')
     return '\n'.join(out)
 
 
@@ -412,7 +468,8 @@ def markdown(r):
 
     lines = ['# ' + req['title'], '',
              '%s · %s, Block %s, Lot %s · BBL %s  ' % (s['address'], s['borough'], s['block'], s['lot'], s['bbl']),
-             'Prepared %s by %s' % (req['prepared_on'], req['prepared_by']), '',
+             'Prepared %s by %s using the [Open Housing Toolkit](%s)' % (req['prepared_on'], req['prepared_by'],
+                                                                         r['provenance']['toolkit'].get('repository') or 'https://github.com/ptmr-gnai/open-housing-toolkit'), '',
              '**Goal.** “%s”' % br['goal'], '']
     lines += ['- ' + x for x in summary_lines(r)]
     lines += section('Brief') + ['- Prepared for: %s' % PERSONA[br['persona']]]
@@ -498,6 +555,11 @@ def markdown(r):
         else:
             lines += ['Render brief prepared (`%s`); image not yet generated.' % rd['prompt']]
     lines += section('Open items') + ['- **%s**: %s' % (i['area'], i['item']) for i in r['open_items']]
+    lines += ['', '## About this report', '',
+              'Produced with the [Open Housing Toolkit](%s), toolkit commit %s. Every figure is copied from a public record or an '
+              'approved assumption. Evidence fingerprint: `%s` (matches the evidence bundle README). The typed report is report.json.'
+              % (r['provenance']['toolkit'].get('repository'), r['provenance']['toolkit'].get('git_commit') or 'unknown',
+                 r['provenance']['evidence_fingerprint'])]
     lines += ['', '## Limits', ''] + ['- ' + x for x in r['non_claims']]
     letter = iter('ABCDEFG')
     if se:

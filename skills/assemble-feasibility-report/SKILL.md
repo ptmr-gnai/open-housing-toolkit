@@ -32,7 +32,9 @@ appendices. The build verifies on completion; `verify` re-checks every input and
 recomputes the report. Open `report.html` for the user and say in plain words: the base-case gap,
 the gap range across scenarios, the zoning check, the latest deed and the top open
 items. The report is the deliverable to share; `report.json` is the typed version
-for other tools (slides, renders, comparisons).
+for other tools (slides, renders, comparisons), also embedded in the HTML. To share,
+`bundle` writes a zip of the evidence with a README for the recipient's agent; see
+[received report](../start-here/references/received-report.md) for the other side.
 
 ## Limits
 

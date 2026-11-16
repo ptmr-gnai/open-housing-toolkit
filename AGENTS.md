@@ -13,6 +13,13 @@ follow [first visit](skills/start-here/references/first-visit.md) step by step:
    to come away with (site list, lot research, rough model, picture, or an example).
 4. Follow the matching route. Assume no technical or housing-data knowledge.
 
+## Received a report?
+
+If the user hands you a feasibility report (HTML or PDF, often with an
+`...-evidence.zip`) from this toolkit, follow
+[received report](skills/start-here/references/received-report.md): explain it,
+verify it against its bundle, and offer to continue it.
+
 ## Everything else
 
 Start with [the start-here skill](skills/start-here/SKILL.md). It routes to the requested module.

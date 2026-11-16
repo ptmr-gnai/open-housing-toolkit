@@ -145,3 +145,15 @@ approved the inputs, e.g. "Codex, assumptions approved by the user".
 Open `report/report.html` and summarise the yield on cost (year-1 net operating
 income ÷ total cost), the remaining gap, the zoning check, the latest deed and the
 top open items.
+
+## 7. Share it
+
+```sh
+.venv/bin/python -m housing_feasibility bundle --run runs/NAME/report --out runs/NAME/NAME-evidence.zip
+```
+
+Send `report.html` (or a PDF of it) with the zip. The HTML is complete on its own and
+embeds its typed data; the zip holds the receipts and a README telling the
+recipient's agent how to verify and continue it. A render's source photo is left out
+unless the user owns it (`--include-source-photo`). Nothing is uploaded or sent by
+the toolkit; the user decides where it goes.

@@ -7,6 +7,7 @@ linked skill for input collection, execution and verification.
 | --- | --- | --- |
 | Install and guide a first-time user | [first visit](first-visit.md) | `scripts/preflight.py`, `scripts/locate.py` |
 | Take one lot from area search to report | [full lot analysis](lot-analysis.md) | `scripts/plan_lot.py`, existing modules |
+| Explain, verify or continue a report someone sent | [received report](received-report.md) | `housing_feasibility verify`, `continue`, `bundle` |
 | Guide an uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
 | Discover all recorded nonhousing sites and zoning paths | [discover-nonhousing-sites](../../discover-nonhousing-sites/SKILL.md) | [discovery guide](../../../docs/guides/discover-sites.md), [module](../../../src/housing_site_discovery/README.md) |
 | Test housing/capital/rent/public-context targets | [goal-seek-housing-sites](../../goal-seek-housing-sites/SKILL.md) | [goal search](../../../src/housing_site_search/README.md), verified discovery and explicit financial template |

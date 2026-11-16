@@ -8,7 +8,7 @@ from pathlib import Path
 import csv
 import json
 
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 
 BOROUGHS = {'1': 'Manhattan', '2': 'Bronx', '3': 'Brooklyn', '4': 'Queens', '5': 'Staten Island'}
 
@@ -153,7 +153,7 @@ def brief_section(run):
     from .brief import validate
     brief = validate(load(Path(run) / 'inputs/brief.json'))
     return {'goal': brief['goal'], 'persona': brief['persona'], 'provided': brief['provided'],
-            'decisions': brief['decisions'], 'source': 'inputs/brief.json'}
+            'decisions': brief['decisions'], 'extends': brief.get('extends', []), 'source': 'inputs/brief.json'}
 
 
 STEP_LABELS = [('search', 'Search the area'), ('select', 'Choose a site'), ('research', 'Research the lot'),
@@ -520,7 +520,31 @@ def _manifest_sha(folder):
         hashlib.sha256((folder / 'package.json').read_bytes()).hexdigest()
 
 
-def assemble(run):
+def evidence_fingerprint(run, fallback_hashes=None):
+    """One hash over the request and every retained input file (the report's receipts)."""
+    import hashlib
+    run = Path(run)
+    lines = {}
+    for path in sorted([run / 'request.json'] + [p for p in (run / 'inputs').rglob('*') if p.is_file()]):
+        if '__pycache__' in path.parts:
+            continue
+        lines[str(path.relative_to(run))] = hashlib.sha256(path.read_bytes()).hexdigest()
+    for name, sha in (fallback_hashes or {}).items():
+        lines.setdefault(name, sha)
+    text = ''.join('%s  %s\n' % (sha, name) for name, sha in sorted(lines.items()))
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+def provenance_section(run, brief, fallback_hashes=None):
+    path = Path(run) / 'inputs/toolkit.json'
+    toolkit = load(path) if path.exists() else {'name': 'Open Housing Toolkit', 'repository': None}
+    return {'toolkit': toolkit, 'evidence_fingerprint': evidence_fingerprint(run, fallback_hashes),
+            'fingerprint_method': 'sha256 of the sorted list of "sha256  path" lines for request.json and every file under inputs/',
+            'extends': brief.get('extends', []),
+            'machine_readable': 'report.json; the same JSON is embedded in report.html in the script element with id report-data'}
+
+
+def assemble(run, fallback_hashes=None):
     run = Path(run)
     request = load(run / 'request.json')
     ir = load(run / 'inputs/evidence/ir.json')
@@ -551,6 +575,7 @@ def assemble(run):
     inputs = [{'role': role, 'package': _rel(run, f), 'manifest_sha256': _manifest_sha(f)}
               for role in ('evidence', 'ownership', 'massing', 'underwriting', 'render') for f in _packages(run, role)]
     return {'version': VERSION, 'module': 'feasibility-report', 'request': request, 'brief': brief,
+            'provenance': provenance_section(run, brief, fallback_hashes),
             'process': process_section(run, brief, search, ownership, massing, sensitivity, render),
             'headline': headline, 'site': site, 'search': search, 'ownership': ownership, 'zoning': zoning,
             'massing': massing, 'development_budget': budget, 'operating_pro_forma': pro_forma, 'debt_sizing': sizing,

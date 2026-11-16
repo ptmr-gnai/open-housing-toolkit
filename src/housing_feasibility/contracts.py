@@ -2,7 +2,7 @@
 import re
 
 REQUEST_KEYS = {'version', 'title', 'base_case', 'prepared_on', 'prepared_by'}
-REPORT_KEYS = {'version', 'module', 'request', 'brief', 'process', 'headline', 'site', 'search', 'ownership', 'zoning',
+REPORT_KEYS = {'version', 'module', 'request', 'brief', 'process', 'provenance', 'headline', 'site', 'search', 'ownership', 'zoning',
                'massing', 'development_budget', 'operating_pro_forma', 'debt_sizing', 'sensitivity',
                'program_reconciliation', 'render', 'open_items', 'sources', 'inputs', 'non_claims'}
 
@@ -26,7 +26,7 @@ def validate_request(req):
 def validate_report(report):
     if set(report) != REPORT_KEYS:
         raise ValueError('Report sections changed: ' + ', '.join(sorted(set(report) ^ REPORT_KEYS)))
-    for key in ('brief', 'process', 'site', 'zoning', 'development_budget', 'operating_pro_forma', 'debt_sizing', 'sensitivity', 'headline'):
+    for key in ('brief', 'process', 'provenance', 'site', 'zoning', 'development_budget', 'operating_pro_forma', 'debt_sizing', 'sensitivity', 'headline'):
         if not isinstance(report[key], dict):
             raise ValueError('Missing required section: ' + key)
     for key in ('massing', 'open_items', 'sources', 'inputs', 'program_reconciliation'):
