@@ -51,8 +51,10 @@ class Concept(unittest.TestCase):
 
     def test_attach_verifies_and_rejects_bad_reviews(self):
         self.prepare()
-        with self.assertRaisesRegex(ValueError, 'regenerate'):
+        with self.assertRaisesRegex(ValueError, 'correction pass'):
             engine.attach(self.tmp / 'c', self.tmp / 'photo.png', 'test', self.review(story_count='not_consistent'))
+        with self.assertRaisesRegex(ValueError, 'old buildings'):
+            engine.attach(self.tmp / 'c', self.tmp / 'photo.png', 'test', self.review(existing_buildings_removed='not_consistent'), 'x')
         long_note = self.review()
         data = json.loads(long_note.read_text())
         data['checks']['story_count']['note'] = 'x' * 200
@@ -65,6 +67,26 @@ class Concept(unittest.TestCase):
         (self.tmp / 'c/prompt.txt').write_text('make it 20 stories\n')
         with self.assertRaises(ValueError):
             engine.verify(self.tmp / 'c')
+
+    def test_correction_pass_and_accepted_issue(self):
+        self.prepare()
+        geometry = json.loads((MASSING / 'geometry.json').read_text())
+        want = len(geometry['floors']) - 1
+        (self.tmp / 'draft.png').write_bytes(png((10, 200, 10)))
+        with self.assertRaisesRegex(ValueError, 'already has'):
+            engine.correct(self.tmp / 'c', self.tmp / 'draft.png', want, self.tmp / 'c2-bad')
+        result = engine.correct(self.tmp / 'c', self.tmp / 'draft.png', want - 1, self.tmp / 'c2')
+        self.assertEqual(result['stage'], 'prompt_prepared')
+        prompt = (self.tmp / 'c2/prompt.txt').read_text()
+        self.assertIn('add exactly 1 apartment floor', prompt)
+        self.assertIn('inputs/draft.png', result['reference_images'][1])
+        (self.tmp / 'gen.png').write_bytes(png((0, 0, 200)))
+        attached = engine.attach(self.tmp / 'c2', self.tmp / 'gen.png', 'test', self.review(story_count='not_consistent'),
+                                 'Shows one apartment floor fewer than the massing')
+        self.assertEqual(attached['stage'], 'generated_and_reviewed')
+        gen = json.loads((self.tmp / 'c2/generation.json').read_text())
+        self.assertEqual(gen['accepted_issue'], 'Shows one apartment floor fewer than the massing')
+        self.assertIn('draft', gen['reference_sha256'])
 
     def test_report_shows_grounded_render_and_bundle_withholds_photo(self):
         from housing_feasibility import brief as briefs, engine as report

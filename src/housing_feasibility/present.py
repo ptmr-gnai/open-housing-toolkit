@@ -101,7 +101,7 @@ th,td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:left;vertic
 th{background:var(--band);font-weight:600}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 table.kv th{width:28%;background:none}tr.total td{font-weight:700;border-top:2px solid var(--ink)}tr.base td{background:var(--band);font-weight:600}
 td.i1{padding-left:22px}.path{font-size:14px}.note{color:var(--muted);font-size:12.5px}.warn{color:var(--warn)}
-.scroll{overflow-x:auto}figure{margin:12px 0}figure img{max-width:100%;border:1px solid var(--rule);background:#fff}
+.scroll{overflow-x:auto}figure{margin:12px 0}figure.hero{margin:16px 0 8px}figure.hero img{width:100%}figure img{max-width:100%;border:1px solid var(--rule);background:#fff}
 .figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
 figcaption{color:var(--muted);font-size:12.5px}code{font-size:12px;word-break:break-all}
 @media print{@page{@bottom-center{content:"Open Housing Toolkit · github.com/ptmr-gnai/open-housing-toolkit";font-size:9px;color:#5b6670}}body{font-size:11.5px}main{max-width:none;padding:0}h2{break-after:avoid}table,figure{break-inside:avoid}.kpi b{font-size:16px}}
@@ -219,12 +219,12 @@ def html(r, run=None):
                   esc(s['lot']), esc(s['bbl']), esc(req['prepared_on']), esc(req['prepared_by']), escape(repo)))
     out.append('<section class="summary"><b>Goal.</b> “%s”<ul>%s</ul></section>'
                % (escape(br['goal']), ''.join('<li>%s</li>' % escape(x) for x in summary_lines(r))))
-    lo, hi = h['gap_range_usd']
-    kpis = [(num(h['homes']), 'homes (base case)'), (num(h['gross_sf']) + ' sf', 'gross area'),
-            (musd(h['total_development_cost_usd']), 'total development cost'), (musd(h['modeled_loan_usd']), 'modeled mortgage'),
-            (pct(h['base_yield_on_cost']), 'year-1 yield on cost'), (pct(h['base_loan_to_cost']), 'mortgage as share of cost'),
-            (musd(h['base_gap_usd']), 'remaining gap (base case)'), ('%s – %s' % (musd(lo), musd(hi)), 'gap across %s scenarios' % h['scenarios'])]
-    out.append('<div class="kpis">%s</div>' % ''.join('<div class="kpi"><b>%s</b><span>%s</span></div>' % (escape(a), escape(b)) for a, b in kpis))
+    rd = r['render']
+    if rd and rd['image']:
+        out.append('<figure class="hero"><img src="%s" alt="Illustrative concept of the planned building on the site photo">'
+                   '<figcaption>%s%s <a href="#visual-concept">How this picture was made</a>.</figcaption></figure>'
+                   % (embed(run, rd['image']), esc(rd['required_caption']),
+                      (' <span class="warn">Known issue: %s.</span>' % escape(rd['accepted_issue'].rstrip('.'))) if rd.get('accepted_issue') else ''))
 
     # Brief: what was asked
     out.append(section('Brief'))
@@ -408,9 +408,13 @@ def html(r, run=None):
                      numeric=(1, 2, 3, 4), classes=['base' if x['includes_base_case'] else None for x in v['by_program']]))
     out.append('<p class="note">Ranges cover the tested hard costs, rents and interest rates. <a href="#appendix-scenarios">Every scenario</a>.</p>')
 
-    rd = r['render']
     if rd:
-        out.append(section('Visual concept'))
+        out.append(section('Visual concept', 'visual-concept'))
+        if rd.get('accepted_issue'):
+            out.append('<p class="warn">⚠ Kept with a known issue: %s. Image prompting is still being improved; the massing above is the reference.</p>'
+                       % escape(rd['accepted_issue'].rstrip('.')))
+        if rd.get('correction_of'):
+            out.append('<p class="note">This picture is a correction pass on an earlier draft (attempt <code>%s</code>).</p>' % esc(rd['correction_of']))
         if rd['image']:
             out.append('<figure><img src="%s" alt="Illustrative concept render"><figcaption>%s · %s · %s</figcaption></figure>'
                        % (embed(run, rd['image']), esc(rd['required_caption']), esc(rd['reference']['attribution']),
@@ -527,6 +531,9 @@ def markdown(r):
                                                                          r['provenance']['toolkit'].get('repository') or 'https://github.com/ptmr-gnai/open-housing-toolkit'), '',
              '**Goal.** “%s”' % br['goal'], '']
     lines += ['- ' + x for x in summary_lines(r)]
+    if r['render'] and r['render']['image']:
+        issue = r['render'].get('accepted_issue')
+        lines += ['', '![%s](%s)' % (r['render']['required_caption'], r['render']['image'])] + (['', '*Known issue: %s.*' % issue.rstrip('.')] if issue else [])
     lines += section('Brief') + ['- Prepared for: %s' % PERSONA[br['persona']]]
     lines += ['- %s: %s' % (p['label'], p['value']) for p in br['provided']]
     se = r['search']

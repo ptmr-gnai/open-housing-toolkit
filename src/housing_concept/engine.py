@@ -15,7 +15,7 @@ import shutil
 from housing_common.local_outputs import ROOT, destination
 from . import elevation
 
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 HERE = Path(__file__).resolve().parent
 STYLES = {
     'brick': 'warm red-brown brick with regular punched windows and simple trim',
@@ -132,6 +132,28 @@ def compile_concept(folder):
         'Do not add brand names, street numbers or any other text, except a caption bar along the bottom reading "%s" '
         'and the credit "%s".' % (caption, credit),
     ]
+    references = ['inputs/reference%s' % request['photo']['suffix'], 'massing-3d.png', 'elevation.png', 'site-plan.png']
+    roles = ['site photo', '3D massing from across the street', 'front elevation to scale', 'site plan']
+    correction = request.get('correction')
+    if correction:
+        seen, want = correction['rows_seen'], n - 1
+        change = ('add exactly %d apartment floor%s' if want > seen else 'remove exactly %d apartment floor%s') % \
+            (abs(want - seen), '' if abs(want - seen) == 1 else 's')
+        lines = [
+            'Correct Image 2, a draft concept of a planned building, so that it matches the planned floor count.',
+            '',
+            'The draft shows %d rows of apartment windows above the ground floor; the planned building has %d. Edit Image 2: %s so '
+            'there are exactly %d clearly countable rows of windows above the ground floor%s. Count the rows before finishing.'
+            % (seen, want, change, want, ', extending the building and the image upward as needed' if want > seen else ''),
+            '',
+            'Keep everything else in Image 2 the same: the ground floor, the facade style, the street, vehicles, trees, neighbouring '
+            'buildings, the light, the caption bar and the credit.',
+            '',
+            'The other references, in order: Image 1 is the original street photograph (context only); Image 3 is the 3D massing '
+            '(count its floors: %d orange floors above 1 blue floor); Image 4 is the front elevation drawn to scale.' % want,
+        ]
+        references = [references[0], 'inputs/draft%s' % correction['draft_suffix'], 'massing-3d.png', 'elevation.png']
+        roles = ['site photo', 'draft to correct', '3D massing from across the street', 'front elevation to scale']
     prompt = '\n'.join(lines) + '\n'
     return {'version': VERSION, 'site_bbl': geometry['site_bbl'], 'massing_id': geometry['scenario_id'],
             'stories': n, 'height_ft': elev['height_ft'], 'ground_floor_height_ft': round(ground['top_ft'] - ground['base_ft'], 1),
@@ -139,8 +161,7 @@ def compile_concept(folder):
             'upper_setback_ft': setback, 'lot_width_ft': elev['lot_width_ft'], 'frontage_edge': elev['frontage_edge'],
             'available_edges': elev['available_edges'], 'style': request['style'], 'ground_use': request['ground_use'],
             'caption': caption, 'credit': credit, 'photo': request['photo'],
-            'references': ['inputs/reference%s' % request['photo']['suffix'], 'massing-3d.png', 'elevation.png', 'site-plan.png'],
-            'reference_roles': ['site photo', '3D massing from across the street', 'front elevation to scale', 'site plan'],
+            'references': references, 'reference_roles': roles, 'correction': correction,
             'prompt_sha256': digest(prompt.encode()), 'elevation': elev}, prompt, elev
 
 
@@ -173,6 +194,43 @@ def prepare(massing, photo, out, style, ground_use, provider, capture_date, fron
                            % (', '.join(str(r) for r in refs), out / 'prompt.txt', out),
                    'reference_images': [str(r) for r in refs],
                    'frontage_edge': concept['frontage_edge'], 'available_edges': concept['available_edges']})
+    return result
+
+
+def correct(previous, draft, rows_seen, out):
+    """A structured correction pass: same massing, photo and choices; the draft becomes a reference and the prompt is a
+    fixed edit instruction for the floor count. Each attempt is its own folder."""
+    from housing_geometry.engine import verify as verify_massing
+    previous = Path(previous)
+    req = load(previous / 'request.json')
+    verify_massing(previous / 'inputs/massing')
+    photo = previous / ('inputs/reference' + req['photo']['suffix'])
+    if digest(photo.read_bytes()) != req['photo']['sha256']:
+        raise ValueError('The previous attempt\'s site photo changed')
+    if not isinstance(rows_seen, int) or rows_seen < 0 or rows_seen > 40:
+        raise ValueError('rows_seen is the number of apartment window rows you counted in the draft')
+    stories = len(load(previous / 'inputs/massing/geometry.json')['floors'])
+    if rows_seen == stories - 1:
+        raise ValueError('The draft already has the planned %d rows; attach it instead of correcting' % (stories - 1))
+    data, suffix = _image(draft)
+    out = destination(out) if Path(out).resolve().is_relative_to(ROOT) else Path(out)
+    if out.exists() and any(out.iterdir()):
+        raise ValueError('Output folder must be new or empty')
+    out.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(previous / 'inputs/massing', out / 'inputs/massing', ignore=shutil.ignore_patterns('__pycache__'))
+    shutil.copyfile(photo, out / ('inputs/reference' + req['photo']['suffix']))
+    (out / ('inputs/draft' + suffix)).write_bytes(data)
+    req = dict(req, correction={'rows_seen': rows_seen, 'draft_suffix': suffix, 'draft_sha256': digest(data),
+                                'previous_attempt': previous.name})
+    save(out / 'request.json', req)
+    write_outputs(out)
+    seal(out)
+    result = verify(out)
+    concept = load(out / 'concept.json')
+    refs = [str(out / r) for r in concept['references']]
+    result.update({'reference_images': refs,
+                   'next': 'Generate one image with these reference images in this order: %s; prompt = the exact contents of %s; '
+                           'then review and attach as usual' % (', '.join(refs), out / 'prompt.txt')})
     return result
 
 
@@ -238,7 +296,7 @@ def review_template(out):
     return {'status': 'written', 'review': str(out), 'checks': CHECKS}
 
 
-def _validate_review(review):
+def _validate_review(review, accept_issue=None):
     if set(review) != {'reviewer', 'checks'} or set(review['checks']) != set(CHECKS):
         raise ValueError('Review needs reviewer and exactly these checks: ' + ', '.join(CHECKS))
     _short(review['reviewer'], 'reviewer', 60)
@@ -247,18 +305,22 @@ def _validate_review(review):
             raise ValueError('Check %s needs status (consistent, not_consistent, not_verified) and note' % key)
         if not isinstance(c['note'], str) or len(c['note']) > 160 or '\n' in c['note']:
             raise ValueError('Check %s note is limited to one line of 160 characters' % key)
-    for key in ('story_count', 'existing_buildings_removed'):
-        if review['checks'][key]['status'] == 'not_consistent':
-            raise ValueError('%s is not consistent: regenerate the image instead of attaching it' % key)
+    if review['checks']['existing_buildings_removed']['status'] == 'not_consistent':
+        raise ValueError('existing_buildings_removed is not consistent: generate again; an image that keeps the old buildings is not attached')
+    if review['checks']['story_count']['status'] == 'not_consistent' and not accept_issue:
+        raise ValueError('story_count is not consistent. Try a correction pass (python -m housing_concept correct). If it is still '
+                         'off and the user wants the picture anyway, attach with --accept-issue "what is wrong"; the report shows it.')
     return review
 
 
-def attach(run, image, provider, review):
+def attach(run, image, provider, review, accept_issue=None):
     run = Path(run)
     verify(run)
     if (run / 'render.png').exists() or (run / 'render.jpg').exists():
         raise ValueError('An image is already attached; prepare a new folder for another attempt')
-    review = _validate_review(load(review))
+    if accept_issue is not None:
+        accept_issue = _short(accept_issue, 'accept-issue', 160)
+    review = _validate_review(load(review), accept_issue)
     data, suffix = _image(image)
     (run / ('render' + suffix)).write_bytes(data)
     concept = load(run / 'concept.json')
@@ -268,7 +330,10 @@ def attach(run, image, provider, review):
                                    'reference_sha256': {'photo': concept['photo']['sha256'],
                                                         'massing_3d': digest((run / 'massing-3d.png').read_bytes()),
                                                         'elevation': digest((run / 'elevation.png').read_bytes()),
-                                                        'site_plan': digest((run / 'site-plan.png').read_bytes())},
+                                                        'site_plan': digest((run / 'site-plan.png').read_bytes()),
+                                                        **({'draft': digest((run / ('inputs/draft' + concept['correction']['draft_suffix'])).read_bytes())}
+                                                           if concept.get('correction') else {})},
+                                   'accepted_issue': accept_issue,
                                    'attached_at': datetime.now(timezone.utc).isoformat()})
     seal(run)
     return verify(run)
@@ -300,10 +365,12 @@ def verify(run):
     stage = 'prompt_prepared'
     if (run / 'generation.json').exists():
         gen = load(run / 'generation.json')
-        _validate_review(load(run / 'review.json'))
+        _validate_review(load(run / 'review.json'), gen.get('accepted_issue'))
         if gen['prompt_sha256'] != concept['prompt_sha256'] or digest((run / gen['image']).read_bytes()) != gen['image_sha256']:
             raise ValueError('Generated image or its prompt binding changed')
         refs = {'massing_3d': 'massing-3d.png', 'elevation': 'elevation.png', 'site_plan': 'site-plan.png'}
+        if concept.get('correction'):
+            refs['draft'] = 'inputs/draft' + concept['correction']['draft_suffix']
         if any(gen['reference_sha256'][k] != digest((run / f).read_bytes()) for k, f in refs.items()) or \
                 gen['reference_sha256']['photo'] != request['photo']['sha256']:
             raise ValueError('Generation references differ from this package')

@@ -33,3 +33,8 @@ Tested November 16, 2026 on 68 East Burnside with Codex (`gpt-6.1-terra`): with 
 three views the 7-story concept replaced the stores, kept the street, and showed the
 correct six window rows; a 9-story test came out one floor short, which the
 story-count review catches before attaching.
+
+When a draft has the wrong floor count, `correct` makes a new attempt folder with a
+fixed edit prompt (add or remove exactly N floors, change nothing else) and the draft
+as a reference. If the count is still off, `attach --accept-issue` keeps the picture
+with the issue recorded; the report states it under the picture and in open items.

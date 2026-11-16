@@ -4,12 +4,13 @@ python -m housing_concept prepare --massing runs/NAME/massing-7 --photo PHOTO.pn
     --capture-date "April 2026" --style brick --ground-use shops_and_supermarket --out runs/NAME/concept-7
 python -m housing_concept review-template --out runs/NAME/concept-7-review.json
 python -m housing_concept attach --run runs/NAME/concept-7 --image IMAGE.png --provider "Codex image_gen" --review REVIEW.json
+python -m housing_concept correct --from runs/NAME/concept-7 --draft DRAFT.png --rows-seen 5 --out runs/NAME/concept-7b
 python -m housing_concept verify --run runs/NAME/concept-7
 """
 import argparse
 import json
 
-from .engine import CHECKS, GROUND_USES, STYLES, attach, prepare, review_template, verify
+from .engine import CHECKS, GROUND_USES, STYLES, attach, correct, prepare, review_template, verify
 
 
 def main(argv=None):
@@ -32,6 +33,12 @@ def main(argv=None):
     a.add_argument('--image', required=True)
     a.add_argument('--provider', required=True, help='Image tool used, e.g. "Codex image_gen"')
     a.add_argument('--review', required=True)
+    a.add_argument('--accept-issue', help='Attach although story_count is off, saying what is wrong (max 160 characters); the report shows it')
+    c = sub.add_parser('correct', help='Structured correction pass for a draft with the wrong floor count')
+    c.add_argument('--from', dest='previous', required=True, help='The attempt folder the draft came from')
+    c.add_argument('--draft', required=True, help='The generated draft image')
+    c.add_argument('--rows-seen', type=int, required=True, help='Apartment window rows counted in the draft (above the ground floor)')
+    c.add_argument('--out', required=True, help='A new folder for this attempt')
     v = sub.add_parser('verify')
     v.add_argument('--run', required=True)
     args = parser.parse_args(argv)
@@ -40,7 +47,9 @@ def main(argv=None):
     elif args.command == 'review-template':
         result = review_template(args.out)
     elif args.command == 'attach':
-        result = attach(args.run, args.image, args.provider, args.review)
+        result = attach(args.run, args.image, args.provider, args.review, args.accept_issue)
+    elif args.command == 'correct':
+        result = correct(args.previous, args.draft, args.rows_seen, args.out)
     else:
         result = verify(args.run)
     print(json.dumps(result, indent=2))

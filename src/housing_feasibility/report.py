@@ -481,7 +481,9 @@ def concept_section(run, folder, massing):
                           'capture_date': concept['photo']['capture_date'], 'source_image_byte_bound': True},
             'provider': gen['provider'] if gen else None,
             'review_checks': [{'id': k, 'status': v['status'], 'note': v['note']} for k, v in (review or {}).get('checks', {}).items()],
-            'unverified': ['surveyed footprint', 'camera alignment', 'zoning envelope', 'design'], 'site_bbl': concept['site_bbl']}
+            'unverified': ['surveyed footprint', 'camera alignment', 'zoning envelope', 'design'], 'site_bbl': concept['site_bbl'],
+            'accepted_issue': gen.get('accepted_issue') if gen else None,
+            'correction_of': (concept.get('correction') or {}).get('previous_attempt')}
 
 
 def render_section(run, massing):
@@ -538,7 +540,10 @@ def open_items(ir, ownership, massing, unresolved, render, present, activity=Non
                       'partly_addressed_by': None, 'source': 'massing'})
     for text in unresolved:
         items.append({'area': 'finance', 'item': text, 'partly_addressed_by': None, 'source': 'underwriting'})
-    if render:
+    if render and render.get('accepted_issue'):
+        items.insert(0, {'area': 'picture', 'item': 'The concept picture was kept although it does not match the massing exactly: %s'
+                         % render['accepted_issue'], 'partly_addressed_by': None, 'source': 'render'})
+    if render and render.get('kind') != 'massing_grounded':
         bad = [c['id'].replace('_', ' ') for c in render['review_checks'] if c['status'] != 'consistent_by_inspection']
         if bad:
             items.append({'area': 'render', 'item': 'Render review checks not confirmed: ' + ', '.join(bad) + '.',

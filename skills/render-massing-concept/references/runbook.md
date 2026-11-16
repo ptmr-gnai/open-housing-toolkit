@@ -23,3 +23,12 @@ shops_and_supermarket | community. `prepare` lists the parcel edges; if the long
 edge is not the street side, pass `--frontage-edge N`. A second attempt goes in a new
 folder (`concept-7b`); attach refuses a review whose story count or building removal
 is not consistent.
+
+Floor count off? Count the apartment window rows in the draft, then:
+
+```sh
+.venv/bin/python -m housing_concept correct --from runs/NAME/concept-7 --draft DRAFT.png --rows-seen 5 --out runs/NAME/concept-7b
+```
+
+Generate once more with the references it prints (photo, draft, 3D massing, elevation)
+and `prompt.txt`. Still off: `attach ... --accept-issue "Shows 6 stories; the massing has 7"`.

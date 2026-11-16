@@ -22,8 +22,11 @@ JPEG) with its provider and date, an image tool (Codex `image_gen`), and
 Read [the execution reference](references/runbook.md). Prepare, then generate ONE
 image with the four reference images in the order `prepare` prints (photo, 3D
 massing, elevation, site plan), passing `prompt.txt` exactly as written. Do not add to or rewrite the prompt. Fill in the review honestly
-and attach. If the story count or the removal of the existing buildings is wrong,
-generate again from the same prompt instead of editing the image or the prompt.
+and attach. If the old buildings are still there, generate again. If the floor count
+is off, count the apartment window rows and run a correction pass (`housing_concept
+correct`), which writes a fixed edit prompt with the draft as a reference. If it is
+still off after one correction, attach with `--accept-issue "what is wrong"`: the
+report shows the picture with that issue stated. Never edit the prompt yourself.
 
 ## Validate and hand off
 

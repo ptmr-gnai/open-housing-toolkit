@@ -268,13 +268,38 @@ def verify(run):
     if (run / 'report.md').read_text() != markdown(report) or (run / 'report.html').read_text() != html(report, run):
         raise ValueError('Report projection changed')
     h = report['headline']
-    return {'status': 'passed', 'bbl': report['site']['bbl'], 'address': report['site']['address'],
+    result_postflight = postflight(run, report)
+    return {'postflight': result_postflight, 'status': 'passed', 'bbl': report['site']['bbl'], 'address': report['site']['address'],
             'inputs_verified': sum(1 for c in checks if c['status'] == 'passed'),
             'inputs_checked_by_hash_only': [c['package'] for c in checks if c['status'] == 'hashes_only'],
             'evidence_fingerprint': report['provenance']['evidence_fingerprint'], 'base_case': h['base_case_id'],
             'base_gap_usd': h['base_gap_usd'], 'gap_range_usd': h['gap_range_usd'],
             'open_items': len(report['open_items']), 'professional_review': 'pending',
             'report': str((run / 'report.html').resolve())}
+
+
+def postflight(run, report):
+    """Things a reviewer should know before sending the report. Warnings, not failures."""
+    from .brief import decision_steps
+    warnings = []
+    render = report['render']
+    if not render or not render.get('image'):
+        warnings.append('No concept picture is attached.')
+    elif render.get('accepted_issue'):
+        warnings.append('The picture was kept with a known issue: %s' % render['accepted_issue'])
+    elif render.get('story_status') == 'differs_from_massing':
+        warnings.append('The picture\'s story count differs from every massing.')
+    decided = {s for d in report['brief']['decisions'] for s in decision_steps(d)}
+    for step in ('select', 'massing', 'financing'):
+        ran = any(st['step'] == step and st['status'] == 'ran' for st in report['process']['steps'])
+        if ran and step not in decided:
+            warnings.append('No user decision is recorded for the %s step.' % step)
+    if report['search'] and report['search'].get('activity') is None:
+        warnings.append('The area search has no development-activity check.')
+    size = (Path(run) / 'report.html').stat().st_size
+    if size > 10 * 1024 * 1024:
+        warnings.append('report.html is %.1f MB; large for email.' % (size / 1024 / 1024))
+    return warnings
 
 
 def verify_html(html_path, run):
