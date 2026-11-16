@@ -1,5 +1,15 @@
 # Papercut log
 
+November 15, 2026, cold-start tests of "install this and let's start": a fresh
+Claude Code (Sonnet) agent and Codex CLI each installed or reused the checkout, ran
+preflight, gave the orientation and asked both questions. Claude ran a live site
+search, a lot packet and a verified massing sketch; Codex generated a six-story
+concept image without a photo and corrected a five-story first attempt itself.
+Fixes: plainer wording (no SVG/mesh/module names or guide paths), confirm the search
+area in one line, open packet.html for the user, and a documented no-photo route
+that saves the prompt beside the image. Gap: the render module requires a photo;
+a photo-less concept has no verifiable brief/receipt yet.
+
 November 15, 2026, pre-advisor-meeting live check: a fresh lot-discovery run on a
 uv-managed macOS Python failed every HTTPS request with `CERTIFICATE_VERIFY_FAILED`,
 yet `collect` reported `"status": "passed"` with 0 lots and `context` then blocked

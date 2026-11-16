@@ -96,6 +96,13 @@ sentence to paste into Codex opened on `~/open-housing-toolkit`:
 "Generate the render for the prepared brief in runs/NAME following
 skills/render-site-concept/SKILL.md."
 
+No photo and the user doesn't want to get one? Offer a standalone illustration of
+the described building, made with the host image tool (Codex) outside the
+photo-based module. Caption it "Illustrative concept • Site fit unverified", check
+the story count and other stated details against the image and regenerate if wrong,
+and save the image with the exact prompt (`prompt.txt`) and a short note in
+`runs/NAME/`. Say plainly that it shows the idea, not the real street or lot.
+
 **Not sure (e).** Run `.venv/bin/python scripts/first_run.py --out runs/example-tour`,
 then explain in four short bullets what each of its packets shows, and ask question 2 again.
 
@@ -107,8 +114,8 @@ then explain in four short bullets what each of its packets shows, and ask quest
 - Show results, not logs. For each result: what it is, the one limit that matters
   most, and the next choice. Open the main `packet.html` for them (`open PATH` on a
   Mac) instead of listing every file.
-- Don't mention commands, module names, file formats or internal terms (SVG, mesh,
-  IR, manifest, `housing_workflow`) unless asked. Say "the 3D sketch", "the research
+- Don't mention commands, module names, guide file paths, file formats or internal
+  terms (SVG, mesh, IR, manifest, `housing_workflow`) unless asked. Say "the 3D sketch", "the research
   packet", "the site list".
 - Keep each project in a new `runs/NAME/` folder. Never commit, push or upload.
 - Do not invent sites, numbers, photos or images. Say what is unknown.
