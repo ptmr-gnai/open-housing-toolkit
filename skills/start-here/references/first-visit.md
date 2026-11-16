@@ -86,7 +86,10 @@ inputs (costs, rents, financing) are judgement calls the user or an advisor shou
 make. Follow the branches in the [practitioner guide](full-flow.md): propose clearly
 labelled assumptions with reasons and get approval before calculating.
 
-**A picture (d).** Massing needs a researched Bronx lot and assumed dimensions:
+**A picture (d).** When the picture is for a specific lot, offer to research the lot
+first (records, zoning, a schematic massing) so the building's height and size come
+from what the lot allows rather than a guess; a quick standalone illustration is the
+fallback if they just want a feel. Massing needs a researched Bronx lot and assumed dimensions:
 [build-grounded-massing](../../build-grounded-massing/SKILL.md) (needs geometry from
 preflight). A render needs a real site photo or Street View screenshot and a
 description of the building: [prepare-render-brief](../../prepare-render-brief/SKILL.md),

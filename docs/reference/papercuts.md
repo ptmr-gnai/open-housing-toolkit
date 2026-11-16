@@ -9,6 +9,12 @@ Fixes: plainer wording (no SVG/mesh/module names or guide paths), confirm the se
 area in one line, open packet.html for the user, and a documented no-photo route
 that saves the prompt beside the image. Gap: the render module requires a photo;
 a photo-less concept has no verifiable brief/receipt yet.
+A follow-up Codex request to research and model the same lot used the toolkit
+end to end (lot packet, area budgets, two verified massings, 48 underwriting runs, all
+passing independent verify) and added official sources on its own: Zoning Resolution
+sections and ACRIS deed records with receipts. It re-created the unmerged ownership
+lookup, a sign that branch should be merged. Its review summary is agent-written and
+has no verifier.
 
 November 15, 2026, pre-advisor-meeting live check: a fresh lot-discovery run on a
 uv-managed macOS Python failed every HTTPS request with `CERTIFICATE_VERIFY_FAILED`,
