@@ -42,6 +42,13 @@ tax-roll owner that lags the latest deed as a conflict. Not a title opinion.
 [retained runs](../../research/ownership-evidence/README.md) ·
 [source catalog](source-catalog.md).
 
+## Development activity
+
+The [activity module](../../src/housing_activity/README.md) checks candidates for
+recent demolition, foundation, excavation, new-building and construction-fence
+records (DOB NOW, legacy DOB, HPD), so lots already being developed are flagged
+before anyone studies them. [Skill](../../skills/check-development-activity/SKILL.md).
+
 ## Site feasibility report
 
 The [feasibility report module](../../src/housing_feasibility/README.md) assembles a

@@ -1,5 +1,17 @@
 # Papercut log
 
+November 16, 2026, development activity: the dry-run lot 57 East Burnside Avenue
+(PLUTO: one-story store) turned out, from a Street View screenshot and DOB NOW
+Approved Permits (`rbx6-tga4`), to be demolished (signed off May 2026) with
+excavation permitted (September 2026). The candidate ranking had no permit check,
+and the lot evidence module's DOB NOW source (`w9ak-ipjd`, Job Application Filings)
+currently publishes Brooklyn rows only, so Bronx lots return nothing. New
+`housing_activity` checks four sources per candidate, reports per-borough coverage
+gaps, and the shortlist and report hold back active lots. Of 67 Burnside-area
+candidates, 6 were already in development, including the former #1 (1959 Jerome).
+The pinned lot evidence module still has the Brooklyn-only source; a versioned
+update should add `rbx6-tga4` there too.
+
 November 16, 2026, shareable reports: a cold Haiku agent given only a report's HTML
 and its evidence zip found the toolkit from the HTML's agent note and the zip README,
 verified all 22 inputs and the HTML-to-bundle match, explained what to trust (and

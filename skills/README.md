@@ -5,7 +5,7 @@ Start with [start-here](start-here/SKILL.md). Each active skill lives directly u
 remain canonical in their Python modules or shared scripts directory and are linked
 by those references. No extra current/ layer or duplicate script wrappers are used.
 
-The [catalogue](catalog.json) lists one coordinator and sixteen leaf skills. This is
+The [catalogue](catalog.json) lists one coordinator and seventeen leaf skills. This is
 checkout-based use through AGENTS.md/CLAUDE.md; native host-menu discovery and a
 portable installer remain separate work.
 

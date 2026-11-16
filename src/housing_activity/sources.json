@@ -1,0 +1,130 @@
+{
+  "dob_now_permits": {
+    "dataset": "rbx6-tga4",
+    "title": "DOB NOW: Build – Approved Permits",
+    "publisher": "NYC Department of Buildings",
+    "catalog": "https://data.cityofnewyork.us/d/rbx6-tga4",
+    "key": "bbl_text",
+    "date_field": "issued_date",
+    "fields": [
+      "bbl",
+      "bin",
+      "house_no",
+      "street_name",
+      "job_filing_number",
+      "work_type",
+      "permit_status",
+      "issued_date",
+      "expired_date",
+      "job_description",
+      "filing_reason"
+    ],
+    "strong": {
+      "work_type": [
+        "Full Demolition",
+        "Foundation",
+        "Earth Work",
+        "Support of Excavation"
+      ]
+    },
+    "preparation": {
+      "work_type": [
+        "Construction Fence"
+      ]
+    },
+    "limits": "Approved DOB NOW permits only; legacy (BIS) permits are a separate source. A permit is not proof that work happened or of what will be built.",
+    "strong_description": "\\bNEW BUILDING\\b|^NB\\b|\\bNB FILED\\b",
+    "ignore_description_for": [
+      "Sign",
+      "Antenna",
+      "Solar",
+      "Curb Cut"
+    ]
+  },
+  "dob_now_filings": {
+    "dataset": "w9ak-ipjd",
+    "title": "DOB NOW: Build – Job Application Filings",
+    "publisher": "NYC Department of Buildings",
+    "catalog": "https://data.cityofnewyork.us/d/w9ak-ipjd",
+    "key": "bbl_text",
+    "date_field": "filing_date",
+    "fields": [
+      "bbl",
+      "bin",
+      "house_no",
+      "street_name",
+      "job_filing_number",
+      "job_type",
+      "filing_status",
+      "filing_date",
+      "current_status_date",
+      "existing_dwelling_units",
+      "proposed_dwelling_units",
+      "job_description"
+    ],
+    "strong": {
+      "job_type": [
+        "New Building",
+        "ALT-CO - New Building with Existing Elements to Remain"
+      ]
+    },
+    "preparation": {},
+    "limits": "Filed applications, not approvals or completed buildings. Proposed dwelling units are as filed and can change."
+  },
+  "dob_bis_permits": {
+    "dataset": "ipu4-2q9a",
+    "title": "DOB Permit Issuance (legacy BIS)",
+    "publisher": "NYC Department of Buildings",
+    "catalog": "https://data.cityofnewyork.us/d/ipu4-2q9a",
+    "key": "borough_block",
+    "date_field": "issuance_date",
+    "fields": [
+      "borough",
+      "block",
+      "lot",
+      "bin__",
+      "house__",
+      "street_name",
+      "job__",
+      "job_type",
+      "permit_type",
+      "permit_status",
+      "issuance_date",
+      "expiration_date"
+    ],
+    "strong": {
+      "job_type": [
+        "NB",
+        "DM"
+      ]
+    },
+    "preparation": {},
+    "limits": "Legacy BIS permits; most new work moved to DOB NOW. Block/lot identity can change after mergers or subdivisions."
+  },
+  "hpd_production": {
+    "dataset": "hg8x-zxpr",
+    "title": "Affordable Housing Production by Building",
+    "publisher": "NYC Department of Housing Preservation and Development",
+    "catalog": "https://data.cityofnewyork.us/d/hg8x-zxpr",
+    "key": "bbl_number",
+    "date_field": "project_start_date",
+    "fields": [
+      "bbl",
+      "project_id",
+      "project_name",
+      "project_start_date",
+      "project_completion_date",
+      "building_completion_date",
+      "reporting_construction_type",
+      "total_units",
+      "all_counted_units"
+    ],
+    "strong": {
+      "reporting_construction_type": [
+        "New Construction"
+      ]
+    },
+    "preparation": {},
+    "limits": "HPD-financed or counted affordable projects only, not all housing development."
+  }
+}

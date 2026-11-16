@@ -33,6 +33,7 @@ def main(argv=None):
     b.add_argument('--ownership', help='Ownership run folder (housing_ownership)')
     b.add_argument('--render', help='Render package (housing_render), brief only or generated')
     b.add_argument('--discovery', help='Verified area discovery package the site came from')
+    b.add_argument('--activity', help='Development-activity package (housing_activity) covering the site, and the candidates if a discovery is given')
     b.add_argument('--out', required=True)
     v = sub.add_parser('verify', help='Re-verify every input and recompute the report')
     v.add_argument('--run', required=True)
@@ -68,7 +69,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     if args.command == 'build':
         result = build(load(args.request), args.out, args.evidence, args.underwriting, args.massing,
-                       args.ownership, args.render, args.discovery, args.brief)
+                       args.ownership, args.render, args.discovery, args.brief, args.activity)
     elif args.command == 'brief':
         if args.action == 'start':
             result = briefs.start(args.out, args.goal, args.persona, args.item)

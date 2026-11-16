@@ -56,3 +56,32 @@ def rank(folder, min_lot_sf=5000, include_public=False):
     for i, row in enumerate(out, 1):
         row['rank'] = i
     return METHOD.format(min_lot=int(min_lot_sf)), out
+
+
+ACTIVITY_NOTE = (' Lots with recorded development activity (housing_activity) are flagged; lots with active development '
+                 '(demolition, foundation, excavation or new-building work) are listed separately instead of ranked.')
+
+
+def rank_with_activity(folder, activity=None, min_lot_sf=5000, include_public=False):
+    """Rank candidates, then hold back lots a verified activity check found already in development."""
+    method, rows = rank(folder, min_lot_sf, include_public)
+    if activity is None:
+        return method, rows, [], None
+    from housing_activity.engine import verify as verify_activity
+    activity = Path(activity)
+    verify_activity(activity)
+    result = json.loads((activity / 'activity.json').read_text())
+    by_bbl = {l['bbl']: l for l in result['lots']}
+    ranked, held = [], []
+    for row in rows:
+        lot = by_bbl.get(row['bbl'])
+        row = dict(row, development_activity=lot['status'] if lot else 'not_checked',
+                   development_latest=lot['latest'] if lot else None)
+        (held if row['development_activity'] == 'active_development' else ranked).append(row)
+    for i, row in enumerate(ranked, 1):
+        row['rank'] = i
+    for row in held:
+        row['rank'] = None
+    summary = {'as_of': result['as_of'], 'since': result['since'], 'counts': result['counts'],
+               'coverage_gaps': result['coverage_gaps'], 'run_status': result['run_status'], 'method': result['method']}
+    return method + ACTIVITY_NOTE, ranked, held, summary

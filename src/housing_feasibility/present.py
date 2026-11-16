@@ -138,6 +138,8 @@ def embed(run, path):
 
 
 STEP_STATUS = {'ran': '✓', 'not_run': '—'}
+ACTIVITY_TEXT = {'active_development': 'Active development recorded', 'site_preparation': 'Site preparation (fence)',
+                 'none_found': 'None found', 'not_checked': 'Not checked'}
 PATH_TEXT = {'housing_permitted_by_general_use_rule': 'housing allowed in principle', 'rezoning_path': 'rezoning path',
              'special_or_unresolved_review': 'special review'}
 
@@ -231,7 +233,8 @@ def html(r, run=None):
         sel = se['selected']
         why = ' '.join(sel['why_user_words'])
         rows.append(['Selected site', '%s (BBL %s)%s%s' % (esc(s['address']), esc(s['bbl']),
-                     ', candidate #%s of %s' % (sel['rank'], se['candidates_count']) if sel['rank'] else '',
+                     ', candidate #%s of %s' % (sel['rank'], se['candidates_count']) if sel['rank'] else
+                     (', recorded as already in development' if sel['held_back_as_in_development'] else ''),
                      ' — “%s”' % escape(why) if why else '')])
     rows.append(['What was tested', escape(_tested(r))])
     out.append(table(None, rows))
@@ -258,13 +261,31 @@ def html(r, run=None):
                    % (escape(se['question'] or ''), esc(se['lots_in_area']), esc(se['recorded_nonhousing_in_area']),
                       escape(', '.join('%s %s' % (v, PATH_TEXT.get(k, k.replace('_', ' '))) for k, v in paths.items())),
                       esc(se['candidates_count'])))
-        out.append(table(['#', 'Address', 'Class', 'Lot sf', 'Built FAR', 'Recorded res. FAR', 'Unused res. floor area', 'Station'],
+        act = se.get('activity')
+        if act:
+            out.append('<p><b>Development activity check</b> (permits since %s): %s of the ranked lots show active development and are '
+                       'listed separately below%s.</p>' % (esc(act['since']), len(se['in_development']),
+                       '; site preparation (a construction fence) is flagged' if act['counts'].get('site_preparation') else ''))
+            if act['coverage_gaps']:
+                out.append('<p class="warn">⚠ Coverage gap: %s published no rows for this borough, so it could not contribute.</p>'
+                           % escape('; '.join(act['coverage_gaps'])))
+        head = ['#', 'Address', 'Class', 'Lot sf', 'Built FAR', 'Recorded res. FAR', 'Unused res. floor area', 'Station'] + (['Activity'] if act else [])
+        out.append(table(head,
                          [['<b>%s</b>' % c['rank'] if c['bbl'] == s['bbl'] else str(c['rank']), ('<b>%s</b>' if c['bbl'] == s['bbl'] else '%s') % escape(c['address']),
                            esc(c['building_class']), num(c['lot_area_sf']), num(c['built_far']), num(c['recorded_residential_far']),
                            num(c['unused_residential_floor_area_sf']) + ' sf', '%s m, %s' % (c['station_m'], escape(c['nearest_station'] or ''))]
+                          + ([escape(ACTIVITY_TEXT.get(c.get('development_activity'), ''))] if act else [])
                           for c in se['top_candidates']], numeric=(3, 4, 5, 6),
                          classes=['base' if c['bbl'] == s['bbl'] else None for c in se['top_candidates']]))
+        if se['in_development']:
+            out.append('<h3>Already in development (not ranked)</h3>')
+            out.append(table(['Address', 'Lot sf', 'Recorded activity'],
+                             [[('<b>%s</b>' if c['bbl'] == s['bbl'] else '%s') % escape(c['address']), num(c['lot_area_sf']), escape(c['development_latest'] or '')]
+                              for c in se['in_development']], numeric=(1,),
+                             classes=['base' if c['bbl'] == s['bbl'] else None for c in se['in_development']]))
         sel = se['selected']
+        if sel['held_back_as_in_development']:
+            out.append('<p class="warn">⚠ The selected site is recorded as already in development; it was chosen knowingly (see decisions).</p>')
         if sel['rank'] and sel['rank'] > len(se['top_candidates']):
             out.append('<p>Selected site is candidate #%s.</p>' % sel['rank'])
         if sel['why_user_words']:
@@ -274,6 +295,14 @@ def html(r, run=None):
             out.append('<p class="note">Selected site review flags: %s</p>' % escape(', '.join(f.replace('_', ' ') for f in sel['flags'])))
 
     out.append(section('Site'))
+    da = s.get('development_activity')
+    if da:
+        cls = 'warn' if da['status'] in ('active_development', 'site_preparation') else 'note'
+        out.append('<p class="%s"><b>Development activity:</b> %s%s (permits and filings since %s).</p>'
+                   % (cls, escape(ACTIVITY_TEXT[da['status']]), ' — ' + escape(da['latest']) if da['latest'] else '', esc(da['since'])))
+        if da['signals']:
+            out.append(table(['Date', 'Record', 'Description', 'Reference'],
+                             [[esc(x['date']), escape(x['what']), escape(x['description'] or ''), '<code>%s</code>' % esc(x['reference'])] for x in da['signals'][:8]]))
     out.append(table(['Fact', 'Value', 'Source'], [[escape(f['label']), escape(num(f['value']) + (' ' + f['unit'] if f['unit'] and f['unit'] not in ('FAR',) else '')
                                                     if f['unit'] else str(f['value'])), '<code>%s</code>' % escape(f['claim_id'])] for f in s['facts']]))
 
@@ -419,6 +448,10 @@ def html(r, run=None):
                            num(c['recorded_residential_far']), num(c['unused_residential_floor_area_sf']), escape(PATH_TEXT.get(c['zoning_path'], c['zoning_path'])),
                            '%s m' % c['station_m'], escape(c['owner_label'] or '')] for c in se['all_candidates']],
                          numeric=(4, 5, 6, 7), classes=['base' if c['bbl'] == s['bbl'] else None for c in se['all_candidates']]))
+        if se['in_development']:
+            out.append('<h3>Held back as already in development</h3>')
+            out.append(table(['BBL', 'Address', 'Lot sf', 'Recorded activity'],
+                             [[esc(c['bbl']), escape(c['address']), num(c['lot_area_sf']), escape(c['development_latest'] or '')] for c in se['in_development']], numeric=(2,)))
     out.append('<h2 id="appendix-scenarios">Appendix %s. Every financing scenario</h2>' % next(letter))
     out.append(table(['Scenario', 'Homes', 'Hard cost / gsf', 'Income / home / mo', 'Rate', 'Total cost', 'Yield on cost', 'Loan', 'Gap'],
                      [[esc(x['id']), esc(x['homes']), usd(x['hard_cost_per_gross_sf_usd']), usd(x['scheduled_income_per_home_month_usd']),
@@ -494,10 +527,16 @@ def markdown(r):
         lines += ['| %s | %s%s | %s | %s | %s | %s m |' % (c['rank'], c['address'], ' (selected)' if c['bbl'] == s['bbl'] else '',
                                                         c['building_class'], num(c['lot_area_sf']), num(c['unused_residential_floor_area_sf']), c['station_m'])
                   for c in se['top_candidates']]
+        if se['in_development']:
+            lines += ['', 'Already in development (not ranked): ' + '; '.join('%s (%s)' % (c['address'], c['development_latest']) for c in se['in_development'])]
         if se['selected']['why_user_words']:
             lines += ['', 'Why this site: “%s”' % ' '.join(se['selected']['why_user_words'])]
         lines += ['', se['candidate_method'] or '']
-    lines += section('Site') + ['| Fact | Value | Source |', '|---|---|---|']
+    lines += section('Site')
+    if s.get('development_activity'):
+        da = s['development_activity']
+        lines += ['**Development activity:** %s%s (since %s).' % (ACTIVITY_TEXT[da['status']], ' — ' + da['latest'] if da['latest'] else '', da['since']), '']
+    lines += ['| Fact | Value | Source |', '|---|---|---|']
     lines += ['| %s | %s | `%s` |' % (f['label'], f['value'], f['claim_id']) for f in s['facts']]
     o = r['ownership']
     if o:

@@ -14,7 +14,7 @@ import shutil
 from housing_common.local_outputs import ROOT, destination
 
 VERSION = '1.2.0'
-ROLES = ('evidence', 'ownership', 'massing', 'underwriting', 'render')
+ROLES = ('evidence', 'ownership', 'activity', 'massing', 'underwriting', 'render')
 REPOSITORY = 'https://github.com/ptmr-gnai/open-housing-toolkit'
 WITHHELD = 'WITHHELD.json'
 
@@ -85,6 +85,9 @@ def verify_input(role, folder):
     if role == 'render':
         from housing_render.engine import verify
         return verify(folder)
+    if role == 'activity':
+        from housing_activity.engine import verify
+        return verify(folder)
     if role == 'ownership':
         from housing_ownership.engine import build_package
         if build_package(folder) != load(folder / 'package.json'):
@@ -94,10 +97,10 @@ def verify_input(role, folder):
     raise ValueError('Unknown input role: ' + role)
 
 
-def discovery_extract(folder, bbl):
+def discovery_extract(folder, bbl, activity=None):
     """Keep the area search's summary and ranked candidates without copying the whole inventory."""
     from housing_site_discovery.engine import verify
-    from .candidates import rank
+    from .candidates import rank_with_activity
     folder = Path(folder)
     verify(folder)
     ir = load(folder / 'ir.json')
@@ -106,13 +109,14 @@ def discovery_extract(folder, bbl):
         raise ValueError('Site %s is not in the discovery package' % bbl)
     lot = dict(lots[0])
     lot.pop('public_context', None)
-    method, candidates = rank(folder)
+    method, candidates, held, activity_summary = rank_with_activity(folder, activity)
     keep = ('question', 'scope', 'counts', 'order_method', 'admission_method', 'limits', 'request_id')
     return {'version': '1.1', 'retention': 'extract; full package referenced by manifest sha256',
             'package_manifest_sha256': digest((folder / 'manifest.json').read_bytes()),
             'package_name': folder.name, 'summary': {k: ir.get(k) for k in keep},
             'lot': lot, 'lot_csv_row': _csv_row(folder / 'all-lots.csv', bbl),
-            'candidate_method': method, 'candidates': candidates}
+            'candidate_method': method, 'candidates': candidates, 'in_development': held,
+            'activity': activity_summary}
 
 
 def _csv_row(path, bbl):
@@ -146,7 +150,7 @@ def _slug(text):
     return re.sub(r'[^a-z0-9-]+', '-', text.lower()).strip('-')[:60] or 'item'
 
 
-def build(request, out, evidence, underwriting, massing=(), ownership=None, render=None, discovery=None, brief=None):
+def build(request, out, evidence, underwriting, massing=(), ownership=None, render=None, discovery=None, brief=None, activity=None):
     """discovery: a verified discovery package folder, or a discovery-extract.json carried from an earlier report."""
     from .contracts import validate_request
     from .brief import validate as validate_brief
@@ -159,7 +163,7 @@ def build(request, out, evidence, underwriting, massing=(), ownership=None, rend
         raise ValueError('Output folder must be new or empty; reports are never overwritten')
     sources = {'evidence': [Path(evidence)], 'underwriting': expand(underwriting),
                'massing': expand(massing), 'ownership': [Path(ownership)] if ownership else [],
-               'render': [Path(render)] if render else []}
+               'render': [Path(render)] if render else [], 'activity': [Path(activity)] if activity else []}
     for role, paths in sources.items():
         for path in paths:
             if not path.is_dir():
@@ -173,7 +177,7 @@ def build(request, out, evidence, underwriting, massing=(), ownership=None, rend
     names = {}
     for role, paths in sources.items():
         for path in paths:
-            if role in ('evidence', 'ownership', 'render'):
+            if role in ('evidence', 'ownership', 'render', 'activity'):
                 target = out / 'inputs' / role
             else:
                 target = out / 'inputs' / role / _slug(path.name)
@@ -189,7 +193,7 @@ def build(request, out, evidence, underwriting, massing=(), ownership=None, rend
                 raise ValueError('Discovery extract is for a different tax lot')
             save(out / 'inputs/discovery-extract.json', extract)
         else:
-            save(out / 'inputs/discovery-extract.json', discovery_extract(Path(discovery), bbl))
+            save(out / 'inputs/discovery-extract.json', discovery_extract(Path(discovery), bbl, activity))
     save(out / 'request.json', request)
     save(out / 'inputs/brief.json', brief_data)
     save(out / 'inputs/toolkit.json', toolkit_identity())
@@ -245,7 +249,7 @@ def verify(run):
         base = run / 'inputs' / role
         if not base.exists():
             continue
-        folders = [base] if role in ('evidence', 'ownership', 'render') else sorted(p for p in base.iterdir() if p.is_dir())
+        folders = [base] if role in ('evidence', 'ownership', 'render', 'activity') else sorted(p for p in base.iterdir() if p.is_dir())
         for folder in folders:
             rel = str(folder.relative_to(run))
             held = [n for n in withheld if n.startswith(rel + '/')]

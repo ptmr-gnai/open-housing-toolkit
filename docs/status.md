@@ -10,6 +10,7 @@ what is good enough for now, and where practitioner judgement is needed next.
 | **1. Find candidate lots** | In a bounded NYC area, which lots are recorded as nonhousing, and what general zoning path applies to each? | **Working v1.** Works in all five boroughs; studied in depth on Jerome Avenue and Hunts Point (3,164 lots) and live-checked in Brooklyn. Good enough for a first pass. |
 | **2. Investigate a lot** | What do public records say about one Bronx lot? | **Working.** Tested end to end on several live Bronx lots. Produces a cited evidence packet. |
 | **3. Model scenarios** | Could a stated program and financing structure work on that lot? | **Experimental.** The arithmetic is checked; the assumptions are not. This is where expert judgement is needed. |
+| **1b. Development activity** | Is a candidate already being demolished or built? | **New (Nov 16).** Recent DOB and HPD permits and filings per candidate; active lots are held back from the ranking. |
 | **4. Feasibility report** | What does the whole analysis say, in a standard format? | **New (Nov 16).** Assembles verified packages into site, zoning, sources and uses, pro forma, debt, sensitivity, render and open items. Section layout open for practitioner review. |
 
 Each stage runs on its own. An agent (Codex or Claude Code) can guide you through

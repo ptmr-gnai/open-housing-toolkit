@@ -72,7 +72,8 @@ with `--input runs/NAME/request.json` and outputs under `runs/NAME/`. A small ar
 takes one to four minutes. If collect reports 0 lots, read `inventory/receipts.json`
 before saying anything. Report: how many lots, how many are recorded as nonhousing,
 how they split by zoning path, and three or four example sites from
-`.venv/bin/python scripts/plan_lot.py shortlist --discovery runs/NAME/discovery` in plain words,
+`.venv/bin/python scripts/plan_lot.py shortlist --discovery runs/NAME/discovery --activity runs/NAME/activity`
+(after `housing_activity collect`, step 1 of [full lot analysis](lot-analysis.md)) in plain words,
 copying each address and tax lot exactly from the packet. On a Mac, open the result
 for them with `open runs/NAME/discovery/packet.html`; mention `all-lots.csv` as the
 spreadsheet of every lot. Then offer: research one of these lots,

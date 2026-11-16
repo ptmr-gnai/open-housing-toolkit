@@ -132,6 +132,24 @@ class Report(unittest.TestCase):
         brief = json.loads((self.tmp / 'continued/brief.json').read_text())
         self.assertEqual(brief['extends'][0]['evidence_fingerprint'], result['evidence_fingerprint'])
 
+    def test_activity_flags_site_and_leads_open_items(self):
+        import sys
+        sys.path.insert(0, str(ROOT / 'tests/housing_activity'))
+        import test_activity
+        from housing_activity import engine as activity
+        test_activity.LOT_A = '2028710002'
+        fetch = test_activity.fake_fetcher()
+        def patched(url):
+            status, body, err = fetch(url)
+            return status, body.replace(b'2031780001', b'2028710002'), err
+        activity.collect(self.tmp / 'act', bbls=['2028710002'], as_of='2026-11-16', fetcher=patched)
+        engine.build(REQUEST, self.tmp / 'withact', EVIDENCE, self.uw, brief=self.brief, activity=self.tmp / 'act')
+        report = json.loads((self.tmp / 'withact/report.json').read_text())
+        self.assertEqual(report['site']['development_activity']['status'], 'active_development')
+        self.assertEqual(report['open_items'][0]['area'], 'current activity')
+        steps = {st['step']: st['status'] for st in report['process']['steps']}
+        self.assertEqual(steps['activity'], 'ran')
+
     def test_tampered_report_fails(self):
         self.build('tamper')
         path = self.tmp / 'tamper/report.json'

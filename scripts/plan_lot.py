@@ -334,10 +334,17 @@ def plan_scenarios(args):
 
 def shortlist(args):
     """Rank likely conversion candidates (same ranking the feasibility report shows)."""
-    from housing_feasibility.candidates import rank
-    method, rows = rank(args.discovery, args.min_lot_sf, args.include_public)
-    return {'status': 'ok', 'discovery': str(args.discovery), 'candidates_considered': len(rows),
-            'method': method, 'top': rows[:args.top]}
+    from housing_feasibility.candidates import rank_with_activity
+    method, rows, held, activity = rank_with_activity(args.discovery, args.activity, args.min_lot_sf, args.include_public)
+    result = {'status': 'ok', 'discovery': str(args.discovery), 'candidates_considered': len(rows) + len(held),
+              'method': method, 'top': rows[:args.top]}
+    if activity is None:
+        result['next'] = ('Check which candidates are already being developed: housing_activity collect --discovery %s '
+                          '--out FOLDER, then rerun with --activity FOLDER' % args.discovery)
+    else:
+        result['already_in_development'] = [{k: r[k] for k in ('bbl', 'address', 'development_latest')} for r in held]
+        result['activity'] = activity
+    return result
 
 
 def lot_request(args):
@@ -420,6 +427,7 @@ def main(argv=None):
     k.add_argument('--top', type=int, default=8)
     k.add_argument('--min-lot-sf', type=float, default=5000)
     k.add_argument('--include-public', action='store_true', help='Also list parks, public and institutional lots')
+    k.add_argument('--activity', help='Development-activity package (housing_activity collect) to flag lots already being built')
     q = sub.add_parser('lot-request', help='Write the evidence request for one confirmed lot')
     q.add_argument('--bbl', required=True)
     q.add_argument('--question', required=True, help="Why this lot is being researched, in the user's terms")

@@ -69,7 +69,7 @@ def _packages(run, role):
     base = Path(run) / 'inputs' / role
     if not base.exists():
         return []
-    if role in ('evidence', 'ownership', 'render'):
+    if role in ('evidence', 'ownership', 'render', 'activity'):
         return [base]
     return sorted(p for p in base.iterdir() if p.is_dir())
 
@@ -127,7 +127,9 @@ def search_section(run, bbl, decisions):
     lot, row, summary = extract['lot'], extract.get('lot_csv_row') or {}, extract['summary']
     counts = summary.get('counts') or {}
     candidates = extract.get('candidates', [])
+    held = extract.get('in_development', [])
     chosen = next((c for c in candidates if c['bbl'] == bbl), None)
+    held_chosen = next((c for c in held if c['bbl'] == bbl), None)
     why = [d['answer'] for d in decisions if d['step'] == 'select']
     return {'question': summary.get('question'), 'scope': summary.get('scope'),
             'lots_in_area': counts.get('inventory'), 'recorded_nonhousing_in_area': counts.get('recorded_nonhousing'),
@@ -135,8 +137,11 @@ def search_section(run, bbl, decisions):
             'nonhousing_by_zoning_path': counts.get('nonhousing_by_zoning_path'),
             'candidate_method': extract.get('candidate_method'), 'candidates_count': len(candidates),
             'top_candidates': candidates[:5], 'all_candidates': candidates,
+            'in_development': held, 'activity': extract.get('activity'),
             'selected': {'bbl': bbl, 'rank': chosen['rank'] if chosen else None,
                          'in_ranked_candidates': chosen is not None,
+                         'held_back_as_in_development': held_chosen is not None,
+                         'development_activity': (chosen or held_chosen or {}).get('development_activity'),
                          'why_user_words': why,
                          'current_use_category': lot.get('current_use_category'),
                          'zoning_path': row.get('zoning_path') or None, 'review_lane': row.get('review_lane') or None,
@@ -149,6 +154,19 @@ def search_section(run, bbl, decisions):
                         'retention': extract['retention']}}
 
 
+def activity_for_site(run, bbl):
+    path = Path(run) / 'inputs/activity/activity.json'
+    if not path.exists():
+        return None
+    result = load(path)
+    lot = next((l for l in result['lots'] if l['bbl'] == bbl), None)
+    if lot is None:
+        raise ValueError('The activity package does not cover the selected lot %s' % bbl)
+    return {'status': lot['status'], 'latest': lot['latest'], 'signals': lot['signals'], 'as_of': result['as_of'],
+            'since': result['since'], 'coverage_gaps': result['coverage_gaps'], 'run_status': result['run_status'],
+            'limits': result['limits'], 'package': 'inputs/activity'}
+
+
 def brief_section(run):
     from .brief import validate
     brief = validate(load(Path(run) / 'inputs/brief.json'))
@@ -156,7 +174,7 @@ def brief_section(run):
             'decisions': brief['decisions'], 'extends': brief.get('extends', []), 'source': 'inputs/brief.json'}
 
 
-STEP_LABELS = [('search', 'Search the area'), ('select', 'Choose a site'), ('research', 'Research the lot'),
+STEP_LABELS = [('search', 'Search the area'), ('activity', 'Check development activity'), ('select', 'Choose a site'), ('research', 'Research the lot'),
                ('ownership', 'Ownership and sales'), ('massing', 'Sketch what could be built'),
                ('financing', 'Test the money'), ('render', 'Picture'), ('report', 'Report')]
 
@@ -165,13 +183,17 @@ def process_section(run, brief, search, ownership, massing, sensitivity, render)
     decided = {}
     for d in brief['decisions']:
         decided.setdefault(d['step'], []).append(d)
-    ran = {'search': search is not None, 'select': search is not None or bool(decided.get('select')),
+    act = (Path(run) / 'inputs/activity/activity.json')
+    act = load(act) if act.exists() else None
+    ran = {'activity': act is not None, 'search': search is not None, 'select': search is not None or bool(decided.get('select')),
            'research': True, 'ownership': ownership is not None, 'massing': bool(massing),
            'financing': True, 'render': render is not None, 'report': True}
     results = {
         'search': search and '%s lots, %s recorded nonhousing, %s ranked candidates' % (
             search['lots_in_area'], search['recorded_nonhousing_in_area'], search['candidates_count']),
-        'select': search and search['selected']['rank'] and 'Candidate #%s of %s' % (search['selected']['rank'], search['candidates_count']),
+        'activity': act and '%s of %s lots show active development' % (act['counts']['active_development'], act['lots_checked']),
+        'select': search and (('Chosen although recorded as already in development' if search['selected']['held_back_as_in_development'] else None)
+                              or (search['selected']['rank'] and 'Candidate #%s of %s' % (search['selected']['rank'], search['candidates_count']))),
         'research': 'Public records collected and verified',
         'ownership': ownership and ('Latest deed %s' % ownership['latest_recorded_deed']['recorded_date']
                                     if ownership['latest_recorded_deed'] else 'No deed found'),
@@ -182,7 +204,8 @@ def process_section(run, brief, search, ownership, massing, sensitivity, render)
     packages = {'search': ['inputs/discovery-extract.json'] if search else [], 'research': ['inputs/evidence'],
                 'ownership': ['inputs/ownership'] if ownership else [], 'massing': [m['package'] for m in massing],
                 'financing': [x['package'] for x in sensitivity['scenarios']],
-                'render': [render['package']] if render else [], 'select': [], 'report': []}
+                'render': [render['package']] if render else [], 'select': [], 'report': [],
+                'activity': ['inputs/activity'] if act else []}
     steps = []
     for key, label in STEP_LABELS:
         steps.append({'step': key, 'label': label, 'status': 'ran' if ran[key] else 'not_run',
@@ -461,8 +484,13 @@ def render_section(run, massing):
             'unverified': brief.get('unverified', [])}
 
 
-def open_items(ir, ownership, massing, unresolved, render, present):
+def open_items(ir, ownership, massing, unresolved, render, present, activity=None):
     items = []
+    if activity and activity['status'] in ('active_development', 'site_preparation'):
+        items.append({'area': 'current activity', 'item': 'Recorded permits show this lot is %s: %s. Any scenario here competes with, '
+                      'or describes, a project already underway; confirm with the owner and DOB before relying on it.'
+                      % ('already being developed' if activity['status'] == 'active_development' else 'being prepared for work',
+                         activity['latest']), 'partly_addressed_by': None, 'source': 'activity'})
     for c in ir['claims']:
         if c['kind'] == 'unknown' and c['id'].startswith('unknown.'):
             key = c['id'].split('.', 1)[1]
@@ -550,6 +578,7 @@ def assemble(run, fallback_hashes=None):
     ir = load(run / 'inputs/evidence/ir.json')
     brief = brief_section(run)
     site = site_section(run, ir)
+    site['development_activity'] = activity_for_site(run, site['bbl'])
     search = search_section(run, site['bbl'], brief['decisions'])
     ownership = ownership_section(run)
     massing = massing_section(run)
@@ -573,12 +602,12 @@ def assemble(run, fallback_hashes=None):
                 'yield_on_cost_range': [min(x['yield_on_cost'] for x in gaps['scenarios']), max(x['yield_on_cost'] for x in gaps['scenarios'])],
                 'scenarios': len(gaps['scenarios']), 'scenarios_with_gap': gaps['scenarios_with_gap']}
     inputs = [{'role': role, 'package': _rel(run, f), 'manifest_sha256': _manifest_sha(f)}
-              for role in ('evidence', 'ownership', 'massing', 'underwriting', 'render') for f in _packages(run, role)]
+              for role in ('evidence', 'ownership', 'activity', 'massing', 'underwriting', 'render') for f in _packages(run, role)]
     return {'version': VERSION, 'module': 'feasibility-report', 'request': request, 'brief': brief,
             'provenance': provenance_section(run, brief, fallback_hashes),
             'process': process_section(run, brief, search, ownership, massing, sensitivity, render),
             'headline': headline, 'site': site, 'search': search, 'ownership': ownership, 'zoning': zoning,
             'massing': massing, 'development_budget': budget, 'operating_pro_forma': pro_forma, 'debt_sizing': sizing,
             'sensitivity': sensitivity, 'program_reconciliation': reconciliation(sensitivity['scenarios'], massing),
-            'render': render, 'open_items': open_items(ir, ownership, massing, unresolved, render, present),
+            'render': render, 'open_items': open_items(ir, ownership, massing, unresolved, render, present, site['development_activity']),
             'sources': sources_section(run, bool(ownership)), 'inputs': inputs, 'non_claims': NON_CLAIMS}

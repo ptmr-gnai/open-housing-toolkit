@@ -5,6 +5,7 @@
 | src/housing_site_discovery/ | Broad nonhousing inventory, zoning paths and public context |
 | src/housing_site_review/ and src/housing_zoning_review/ | Historical dwelling signals and monthly zoning reconciliation |
 | src/housing_site_search/ | Explicit housing-program and financial/public-context goal search |
+| src/housing_activity/ | Recent permits and filings showing a lot is already being developed |
 | src/housing_feasibility/ | Standard feasibility report assembled from verified packages |
 | src/housing_ownership/ | Recorded deeds, mortgages, sales and tax-roll owner for one lot |
 | src/housing_underwriting/ | Rental development budgets, annual operations and debt sizing |

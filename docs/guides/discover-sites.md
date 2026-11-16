@@ -15,7 +15,8 @@ review. Those are investigation categories, not feasibility findings.
 **What you get:** a packet listing every lot in the area, the nonhousing lots
 grouped by zoning path with their size, station distance and review flags, and
 a CSV of all lots. See the [Jerome Avenue example](../../research/nonhousing-discovery/cases/jerome/packet.md)
-(1,921 lots, 457 recorded nonhousing). A few-block area collects live in one to four minutes; a neighborhood takes longer. Works in all five boroughs. If collection
+(1,921 lots, 457 recorded nonhousing). A few-block area collects live in one to four minutes; a neighborhood takes longer. Afterwards, the
+[development-activity check](../../src/housing_activity/README.md) flags candidates already being built. Works in all five boroughs. If collection
 returns 0 lots with certificate errors, run `python3 scripts/preflight.py` or see
 [setup](setup.md#if-live-collection-reports-certificate-errors).
 

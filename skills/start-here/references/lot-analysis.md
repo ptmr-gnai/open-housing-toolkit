@@ -52,11 +52,17 @@ If `locate.py` says ambiguous, ask the user which option they mean.
   --input runs/NAME/request.json --out runs/NAME/discovery
 ```
 
-Open `discovery/packet.html`, then rank the lots worth discussing first:
+Open `discovery/packet.html`, check which candidates are already being developed,
+then rank the rest:
 
 ```sh
-.venv/bin/python scripts/plan_lot.py shortlist --discovery runs/NAME/discovery --top 8
+.venv/bin/python -m housing_activity collect --discovery runs/NAME/discovery --out runs/NAME/activity
+.venv/bin/python scripts/plan_lot.py shortlist --discovery runs/NAME/discovery --activity runs/NAME/activity --top 8
 ```
+
+Lots with recent demolition, foundation, excavation or new-building permits are
+listed under `already_in_development`; tell the user, with the permit and date. If
+they still want one (to study what a buyer is doing, say), record that choice.
 
 It lists privately used nonhousing lots (stores, garages, industrial, offices,
 vacant) by unused recorded residential floor area and station distance. It is a
@@ -139,7 +145,7 @@ approved the inputs, e.g. "Codex, assumptions approved by the user".
 .venv/bin/python -m housing_feasibility build --request runs/NAME/report-request.json --brief runs/NAME/brief.json \
   --evidence runs/NAME/evidence --underwriting runs/NAME/underwriting \
   --massing runs/NAME/massing-7 --massing runs/NAME/massing-9 --ownership runs/NAME/ownership \
-  --discovery runs/NAME/discovery [--render runs/NAME/render] --out runs/NAME/report
+  --discovery runs/NAME/discovery --activity runs/NAME/activity [--render runs/NAME/render] --out runs/NAME/report
 ```
 
 Open `report/report.html` and summarise the yield on cost (year-1 net operating
