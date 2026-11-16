@@ -214,7 +214,7 @@ def html(r, run=None):
            AGENT_NOTE.format(repository=repo, commit=tk.get('git_commit') or 'unknown', fingerprint=r['provenance']['evidence_fingerprint']),
            '<main>']
     out.append('<header><h1>%s</h1>'
-               '<div class="meta">%s · %s, Block %s, Lot %s · BBL %s<br>Prepared %s by %s using the <a href="%s">Open Housing Toolkit</a></div></header>'
+               '<div class="meta">%s · %s, Block %s, Lot %s · BBL %s<br>Prepared %s by %s · made with the <a href="%s">Open Housing Toolkit</a></div></header>'
                % (escape(req['title']), esc(s['address']), esc(s['borough']), esc(s['block']),
                   esc(s['lot']), esc(s['bbl']), esc(req['prepared_on']), esc(req['prepared_by']), escape(repo)))
     out.append('<section class="summary"><b>Goal.</b> “%s”<ul>%s</ul></section>'
@@ -417,9 +417,12 @@ def html(r, run=None):
                           'Story count: ' + esc(rd['story_status'])))
             if rd.get('kind') == 'massing_grounded':
                 g = rd['grounding']
-                out.append('<div class="figs"><figure><img src="%s" alt="Front elevation from the massing"><figcaption>What the picture was '
-                           'built from: front elevation drawn to scale from massing %s.</figcaption></figure></div>'
-                           % (embed(run, rd['elevation_svg']), esc(g['massing_id'])))
+                out.append('<p><b>What the picture was built from:</b> the site photo plus three views drawn from massing <code>%s</code>.</p>'
+                           % esc(g['massing_id']))
+                out.append('<div class="figs"><figure><img src="%s" alt="3D massing"><figcaption>3D massing from across the street</figcaption></figure>'
+                           '<figure><img src="%s" alt="Front elevation"><figcaption>Front elevation, to scale</figcaption></figure>'
+                           '<figure><img src="%s" alt="Site plan"><figcaption>Site plan: street at the bottom</figcaption></figure></div>'
+                           % (embed(run, rd['massing_view']), embed(run, rd['elevation_svg']), embed(run, rd['site_plan'])))
                 out.append(table(None, [['Stories / height', '%s stories, about %s ft' % (rd['stories'], int(round(g['height_ft'])))],
                                         ['Ground floor', '%s ft tall, about %s ft along the street' % (int(round(g['ground_floor_height_ft'])), int(round(g['ground_floor_width_ft'])))],
                                         ['Upper floors', '%s ft each, about %s ft wide, set back %s ft' % (int(round(g['upper_floor_height_ft'] or 0)), int(round(g['upper_floor_width_ft'] or 0)), int(round(g['upper_setback_ft'])))],
@@ -520,7 +523,7 @@ def markdown(r):
 
     lines = ['# ' + req['title'], '',
              '%s · %s, Block %s, Lot %s · BBL %s  ' % (s['address'], s['borough'], s['block'], s['lot'], s['bbl']),
-             'Prepared %s by %s using the [Open Housing Toolkit](%s)' % (req['prepared_on'], req['prepared_by'],
+             'Prepared %s by %s · made with the [Open Housing Toolkit](%s)' % (req['prepared_on'], req['prepared_by'],
                                                                          r['provenance']['toolkit'].get('repository') or 'https://github.com/ptmr-gnai/open-housing-toolkit'), '',
              '**Goal.** “%s”' % br['goal'], '']
     lines += ['- ' + x for x in summary_lines(r)]

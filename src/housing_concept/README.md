@@ -1,15 +1,18 @@
 # Massing-grounded concept renders
 
 Turn a verified massing and a real site photo into a concept picture that shows the
-modelled building, not a guess. `prepare` copies the massing, projects its floors
-onto the street frontage to draw a to-scale front elevation (`elevation.png` for the
-image tool, `elevation.svg` for people) and compiles `prompt.txt` from a fixed
-template filled with the massing's numbers: stories, height, ground-floor height and
-width, upper-floor width and setback. The only choices are a style and a ground-floor
+modelled building, not a guess. `prepare` copies the massing and renders three
+reference views of it for the image tool: `massing-3d.png` (the volume from across
+the street, ground floor blue, apartment floors orange with one line per floor),
+`elevation.png` (front elevation to scale; `elevation.svg` for people) and
+`site-plan.png` (lot, footprints and street edge). It compiles `prompt.txt` from a
+fixed template that tells the model what each reference is for and gives the
+massing's numbers: stories, height, ground-floor height and width, upper-floor width
+and setback. The only choices are a style and a ground-floor
 use from short lists; there is no free-text field.
 
-The image is generated outside the module (Codex `image_gen`) with the photo as
-Image 1 and the elevation as Image 2, then attached with a review of five fixed
+The image is generated outside the module (Codex `image_gen`) with the photo and the
+three views as references, in that order, then attached with a review of five fixed
 checks (story count, existing buildings removed, shape matches the elevation,
 context preserved, caption and credit). `verify` recomputes the prompt and drawing
 from the massing and binds the image, references and review by hash.
@@ -25,3 +28,8 @@ The feasibility report accepts the package as `--render` and shows the elevation
 to the picture. Why it exists: the photo-only renderer (`housing_render`) took only a
 story count from the massing, and an agent-written prompt produced new floors stacked
 on top of the existing one-story stores.
+
+Tested November 16, 2026 on 68 East Burnside with Codex (`gpt-6.1-terra`): with the
+three views the 7-story concept replaced the stores, kept the street, and showed the
+correct six window rows; a 9-story test came out one floor short, which the
+story-count review catches before attaching.

@@ -471,6 +471,7 @@ def concept_section(run, folder, massing):
     return {'stage': 'generated_and_reviewed' if gen else 'prompt_prepared', 'kind': 'massing_grounded',
             'package': _rel(run, folder), 'image': _rel(run, folder / gen['image']) if gen else None,
             'elevation': _rel(run, folder / 'elevation.png'), 'elevation_svg': _rel(run, folder / 'elevation.svg'),
+            'massing_view': _rel(run, folder / 'massing-3d.png'), 'site_plan': _rel(run, folder / 'site-plan.png'),
             'prompt': _rel(run, folder / 'prompt.txt'), 'required_caption': concept['caption'],
             'stories': concept['stories'], 'matching_massing': matches,
             'story_status': 'matches_massing' if matches else ('no_massing_supplied' if not massing else 'differs_from_massing'),

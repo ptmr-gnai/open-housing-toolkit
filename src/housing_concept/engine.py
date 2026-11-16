@@ -15,7 +15,7 @@ import shutil
 from housing_common.local_outputs import ROOT, destination
 from . import elevation
 
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 HERE = Path(__file__).resolve().parent
 STYLES = {
     'brick': 'warm red-brown brick with regular punched windows and simple trim',
@@ -30,7 +30,7 @@ GROUND_USES = {
 CHECKS = {
     'story_count': 'The new building shows exactly the stated number of stories (count the window rows).',
     'existing_buildings_removed': 'No part of the existing buildings, signs or awnings on the lot remains.',
-    'shape_matches_elevation': 'Width, ground-floor height and upper-floor setback follow the elevation drawing.',
+    'shape_matches_massing': 'Width, ground-floor height and how the upper floors sit follow the 3D massing and elevation.',
     'context_preserved': 'Street, neighbours, trees, vehicles, light and camera position match the photo.',
     'caption_and_credit': 'The caption bar and photo credit are present and legible.',
 }
@@ -95,25 +95,40 @@ def compile_concept(folder):
     upper_h = round(upper[0]['top_ft'] - upper[0]['base_ft'], 1) if upper else None
     upper_w = max(f['width_ft'] for f in upper) if upper else None
     setback = round(upper[0]['street_setback_ft'] - ground['street_setback_ft'], 1) if upper else 0
-    setback_phrase = (', set back about %s ft from the street wall of the ground floor' % _ft(setback)) if setback >= 2 else \
-        ', rising flush with the ground floor'
+    setback_phrase = (' and set back about %s ft behind the ground-floor street wall' % _ft(setback)) if setback >= 2 else \
+        ', rising flush with the ground-floor street wall'
     caption = 'Illustrative concept: %d stories from the schematic massing. Zoning and site fit unverified.' % n
     credit = 'Base image: %s, %s (user-supplied)' % (request['photo']['provider'], request['photo']['capture_date'])
+    ground_h = ground['top_ft'] - ground['base_ft']
+    ratio = (ground_h / upper_h) if upper else None
     lines = [
-        'Edit Image 1, a street photograph of the site, into a photorealistic architectural concept.',
-        'Replace the existing buildings on the lot with ONE new building. Image 2 is a front elevation of the new building, '
-        'drawn to scale from the schematic massing: follow its outline, floor count and proportions.',
-        'The new building has %d stories and is about %s ft tall.' % (n, _ft(elev['height_ft'])),
-        'Ground floor: about %s ft tall and %s ft wide along the street. It has %s. Add a separate residential entrance.'
-        % (_ft(ground['top_ft'] - ground['base_ft']), _ft(ground['width_ft']), GROUND_USES[request['ground_use']]),
-    ]
-    if upper:
-        lines.append('Floors 2 to %d: apartments, about %s ft wide%s, in %s. Each upper floor is about %s ft tall; '
-                     'show %d clearly countable rows of windows above the ground floor.'
-                     % (n, _ft(upper_w), setback_phrase, STYLES[request['style']], _ft(upper_h), n - 1))
-    lines += [
-        'The existing buildings on the lot, with their signs, awnings and rooflines, are removed; no part of them remains.',
-        'Keep everything outside the lot as in Image 1: the street, sidewalks, neighbouring buildings, trees, vehicles, light and camera position.',
+        'Edit Image 1, a street photograph of the site, into a photorealistic architectural concept of a planned building.',
+        '',
+        'The reference images, in order:',
+        '- Image 1: the real street today. Keep everything outside the lot as it is: the street, sidewalk, vehicles, trees, '
+        'neighbouring buildings, the light and the camera position.',
+        '- Image 2: the planned building as a simple 3D model seen from across the street. Blue is the ground floor; orange is '
+        'the apartment floors above, with one line per floor: count them, there are %d orange floors above 1 blue floor. '
+        'Match this volume: its proportions, its floor count and how the upper floors sit on the ground floor.' % (n - 1),
+        '- Image 3: the front elevation of the planned building, drawn to scale. Use it for proportions%s.'
+        % (': the ground floor is %s times as tall as each apartment floor' % format(round(ratio, 1), 'g') if ratio else ''),
+        '- Image 4: the site plan. The grey band at the bottom is the street; the thick dark line is the street frontage; blue is '
+        'the ground-floor footprint; orange is the upper-floor footprint.',
+        '',
+        'The planned building replaces the existing buildings on the lot completely; no part of them, their signs, awnings or '
+        'rooflines remains. It has %d stories and is about %s ft tall: a %s ft ground floor running about %s ft along the street'
+        % (n, _ft(elev['height_ft']), _ft(ground_h), _ft(ground['width_ft'])) +
+        (', and %d apartment floors of %s ft each, about %s ft wide%s. Show %d clearly countable rows of windows above the '
+         'ground floor, one row per apartment floor; do not merge or drop floors to make the building fit.'
+         % (n - 1, _ft(upper_h), _ft(upper_w), setback_phrase, n - 1) if upper else '.'),
+        '',
+        'Framing: show the whole building, its roof and some sky above it. If the building does not fit in the frame of '
+        'Image 1, extend the scene upward (a taller image, or the camera tilted slightly up) rather than shortening the '
+        'building. Keep the street and sidewalk at the bottom as in Image 1.',
+        '',
+        'Ground floor: %s, plus a separate residential entrance.' % GROUND_USES[request['ground_use']] +
+        (' Apartment floors: %s.' % STYLES[request['style']] if upper else ''),
+        '',
         'Do not add brand names, street numbers or any other text, except a caption bar along the bottom reading "%s" '
         'and the credit "%s".' % (caption, credit),
     ]
@@ -124,8 +139,8 @@ def compile_concept(folder):
             'upper_setback_ft': setback, 'lot_width_ft': elev['lot_width_ft'], 'frontage_edge': elev['frontage_edge'],
             'available_edges': elev['available_edges'], 'style': request['style'], 'ground_use': request['ground_use'],
             'caption': caption, 'credit': credit, 'photo': request['photo'],
-            'references': ['Image 1: inputs/reference%s (site photo)' % request['photo']['suffix'],
-                           'Image 2: elevation.png (front elevation from the massing)'],
+            'references': ['inputs/reference%s' % request['photo']['suffix'], 'massing-3d.png', 'elevation.png', 'site-plan.png'],
+            'reference_roles': ['site photo', '3D massing from across the street', 'front elevation to scale', 'site plan'],
             'prompt_sha256': digest(prompt.encode()), 'elevation': elev}, prompt, elev
 
 
@@ -151,10 +166,12 @@ def prepare(massing, photo, out, style, ground_use, provider, capture_date, fron
     seal(out)
     result = verify(out)
     concept = load(out / 'concept.json')
-    result.update({'next': 'Generate one image with Image 1 = %s and Image 2 = %s, using prompt.txt exactly; then '
-                           'python -m housing_concept attach --run %s --image IMAGE --provider "..." --review REVIEW.json '
+    refs = [out / r for r in concept['references']]
+    result.update({'next': 'Generate one image with these reference images in this order: %s; prompt = the exact contents of %s. '
+                           'Then python -m housing_concept attach --run %s --image IMAGE --provider "..." --review REVIEW.json '
                            '(python -m housing_concept review-template writes REVIEW.json)'
-                           % (out / ('inputs/reference' + suffix), out / 'elevation.png', out),
+                           % (', '.join(str(r) for r in refs), out / 'prompt.txt', out),
+                   'reference_images': [str(r) for r in refs],
                    'frontage_edge': concept['frontage_edge'], 'available_edges': concept['available_edges']})
     return result
 
@@ -165,6 +182,42 @@ def write_outputs(folder):
     (Path(folder) / 'prompt.txt').write_text(prompt)
     (Path(folder) / 'elevation.png').write_bytes(elevation.png(elev))
     (Path(folder) / 'elevation.svg').write_text(elevation.svg(elev))
+    view, plan = render_views(folder, concept)
+    (Path(folder) / 'massing-3d.png').write_bytes(view)
+    (Path(folder) / 'site-plan.png').write_bytes(plan)
+
+
+def render_views(folder, concept):
+    from . import views
+    geometry = load(Path(folder) / 'inputs/massing/geometry.json')
+    frame = elevation.frontage_frame(geometry['source_geometry']['polygon_ft'], concept['frontage_edge']['index']
+                                     if concept['frontage_edge']['rule'] == 'chosen edge' else None)
+    return views.street_view(geometry, frame)[0], views.site_plan(geometry, frame)[0]
+
+
+def _png_pixels(data):
+    """Decode the filter-0 RGB PNGs written by this module."""
+    import struct as _s
+    import zlib as _z
+    import numpy as np
+    width, height = _s.unpack('>II', data[16:24])
+    pos, idat = 8, b''
+    while pos < len(data):
+        length = _s.unpack('>I', data[pos:pos + 4])[0]
+        tag = data[pos + 4:pos + 8]
+        if tag == b'IDAT':
+            idat += data[pos + 8:pos + 8 + length]
+        pos += 12 + length
+    raw = np.frombuffer(_z.decompress(idat), dtype=np.uint8).reshape(height, 1 + width * 3)
+    return raw[:, 1:].reshape(height, width, 3)
+
+
+def _same_view(stored, fresh, tolerance=0.002):
+    """Raster views can differ by a few edge pixels across CPUs; accept at most 0.2% differing pixels."""
+    if stored == fresh:
+        return True
+    a, b = _png_pixels(stored), _png_pixels(fresh)
+    return a.shape == b.shape and float((a != b).any(axis=2).mean()) <= tolerance
 
 
 def seal(folder):
@@ -213,7 +266,9 @@ def attach(run, image, provider, review):
     save(run / 'generation.json', {'provider': _short(provider, 'provider', 60), 'image': 'render' + suffix,
                                    'image_sha256': digest(data), 'prompt_sha256': concept['prompt_sha256'],
                                    'reference_sha256': {'photo': concept['photo']['sha256'],
-                                                        'elevation': digest((run / 'elevation.png').read_bytes())},
+                                                        'massing_3d': digest((run / 'massing-3d.png').read_bytes()),
+                                                        'elevation': digest((run / 'elevation.png').read_bytes()),
+                                                        'site_plan': digest((run / 'site-plan.png').read_bytes())},
                                    'attached_at': datetime.now(timezone.utc).isoformat()})
     seal(run)
     return verify(run)
@@ -235,6 +290,9 @@ def verify(run):
         raise ValueError('Prompt or concept differs from the massing it was compiled from')
     if (run / 'elevation.png').read_bytes() != elevation.png(elev) or (run / 'elevation.svg').read_text() != elevation.svg(elev):
         raise ValueError('Elevation drawing differs from the massing')
+    view, plan = render_views(run, concept)
+    if not _same_view((run / 'massing-3d.png').read_bytes(), view) or not _same_view((run / 'site-plan.png').read_bytes(), plan):
+        raise ValueError('Massing views differ from the massing')
     request = load(run / 'request.json')
     photo = run / ('inputs/reference' + request['photo']['suffix'])
     if photo.exists() and digest(photo.read_bytes()) != request['photo']['sha256']:
@@ -245,7 +303,8 @@ def verify(run):
         _validate_review(load(run / 'review.json'))
         if gen['prompt_sha256'] != concept['prompt_sha256'] or digest((run / gen['image']).read_bytes()) != gen['image_sha256']:
             raise ValueError('Generated image or its prompt binding changed')
-        if gen['reference_sha256']['elevation'] != digest((run / 'elevation.png').read_bytes()) or \
+        refs = {'massing_3d': 'massing-3d.png', 'elevation': 'elevation.png', 'site_plan': 'site-plan.png'}
+        if any(gen['reference_sha256'][k] != digest((run / f).read_bytes()) for k, f in refs.items()) or \
                 gen['reference_sha256']['photo'] != request['photo']['sha256']:
             raise ValueError('Generation references differ from this package')
         stage = 'generated_and_reviewed'

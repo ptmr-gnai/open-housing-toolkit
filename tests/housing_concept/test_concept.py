@@ -42,7 +42,10 @@ class Concept(unittest.TestCase):
         prompt = (self.tmp / 'c/prompt.txt').read_text()
         geometry = json.loads((MASSING / 'geometry.json').read_text())
         self.assertIn('%d stories' % len(geometry['floors']), prompt)
-        self.assertIn('no part of them remains', prompt)
+        self.assertIn('replaces the existing buildings on the lot completely', prompt)
+        self.assertIn('there are %d orange floors' % (len(geometry['floors']) - 1), prompt)
+        for name in ('massing-3d.png', 'site-plan.png', 'elevation.png'):
+            self.assertTrue((self.tmp / 'c' / name).read_bytes().startswith(b'\x89PNG'))
         self.assertNotIn('white-and-blue', prompt)
         self.assertTrue((self.tmp / 'c/elevation.png').read_bytes().startswith(b'\x89PNG'))
 
