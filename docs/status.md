@@ -77,8 +77,8 @@ and no expert has reviewed it yet.
 
 ## Also in progress
 
-- **Ownership evidence.** Owner of record (DOF tax roll), deeds and sales (ACRIS)
-  for a lot. Built as a standalone module on the
-  [`experiment/parcel-ownership-evidence`](https://github.com/ptmr-gnai/open-housing-toolkit/tree/experiment/parcel-ownership-evidence)
-  branch; not yet merged into the current layout.
+- **Ownership evidence** is now merged: recorded deeds, mortgages and sales with
+  parties and amounts for any lot outside Staten Island
+  ([module](../src/housing_ownership/README.md)). It flags when the tax-roll owner
+  lags the latest deed. Not a title opinion.
 - Detailed history of fixes and remaining gaps: [papercut log](reference/papercuts.md).

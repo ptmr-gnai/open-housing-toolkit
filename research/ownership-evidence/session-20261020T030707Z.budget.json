@@ -1,0 +1,42 @@
+{
+  "bytes": 0,
+  "elapsed_seconds": 1.133,
+  "entries": [
+    {
+      "at": "2026-10-20T03:07:07.630348+00:00",
+      "bytes": 0,
+      "label": "acris_doc_codes attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:07:07.996179+00:00",
+      "bytes": 0,
+      "label": "acris_doc_codes_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:07:08.217488+00:00",
+      "bytes": 0,
+      "label": "acris_master_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:07:08.426158+00:00",
+      "bytes": 0,
+      "label": "acris_parties_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:07:08.763193+00:00",
+      "bytes": 0,
+      "label": "acris_legals_metadata attempt 1",
+      "requests": 1
+    }
+  ],
+  "max_bytes": 52428800,
+  "max_requests": 150,
+  "max_seconds": 5400,
+  "requests": 5,
+  "started_at": "2026-10-20T03:07:07.629781+00:00",
+  "started_at_epoch": 1792465627.629781
+}

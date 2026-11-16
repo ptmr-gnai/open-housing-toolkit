@@ -1,0 +1,17 @@
+{
+  "id": "acris_doc_codes_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/7isb-wh4c.json",
+  "publisher": "NYC Open Data (Socrata dataset metadata)",
+  "retrieved_at": "2026-10-20T03:08:16.852648+00:00",
+  "coverage_limits": "Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1785937797,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/acris_doc_codes_metadata.body",
+  "bytes": 13406,
+  "sha256": "ed212ca41106cab08f4f63abde8146fc8c0c30b2e580ea903d7b26e4b4e4e729",
+  "dataset_name": "ACRIS - Document Control Codes"
+}

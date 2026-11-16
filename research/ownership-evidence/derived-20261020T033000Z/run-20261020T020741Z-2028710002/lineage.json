@@ -1,0 +1,13 @@
+{
+  "derived_from": "run-20261020T020741Z-2028710002",
+  "original_run_id": "run-20261020T020741Z-2028710002",
+  "original_commit": "365e5b3",
+  "regenerated_at": "2026-10-20T03:35:59.030220+00:00",
+  "code_version": "0.3",
+  "notes": "Regenerated with corrected parcel_evidence.py (package v0.3): PLUTO ownername/zonedist1 tax-roll fields with precise locators, unit-level DOF sale scope, fail-closed cached receipt verification. Raw receipts are byte-identical copies of the original run cache; original retrieval dates preserved. No new network requests.",
+  "augmented_with": [
+    "acris_doc_codes receipt copied from runs/docs/cache (retrieved 2026-10-20T03:08:12.856055+00:00, sha256 518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625)"
+  ],
+  "original_package_sha256": "818aaa7b4700ee075b46c6312f23ada2fdfee56ca9536dec3be6c6b62528d038",
+  "derived_package_sha256": "166ac57ee0ab9feb3ee24a7c0b9b13da67a374520a441a5654f758bd03955b0a"
+}

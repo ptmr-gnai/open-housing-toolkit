@@ -1,0 +1,900 @@
+{
+  "id" : "636b-3b5g",
+  "name" : "ACRIS - Real Property Parties",
+  "assetType" : "filter",
+  "attribution" : "Department of Finance (DOF)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1379941074,
+  "description" : "Party Names for Real Property Related Documents Recorded in ACRIS",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 50214,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1549654935,
+  "locked" : false,
+  "modifyingViewUid" : "n3e6-cvun",
+  "newBackend" : true,
+  "numberOfComments" : 13,
+  "oid" : 25398278,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1486428206,
+  "publicationGroup" : 14025287,
+  "publicationStage" : "published",
+  "queryString" : "SELECT `document_id`, `record_type`, `party_type`, `name`, `address_1`, `address_2`, `country`, `city`, `state`, `zip`, `good_through_date` ORDER BY `good_through_date` DESC NULL LAST",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791490087,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 14025287,
+  "totalTimesRated" : 0,
+  "viewCount" : 88873,
+  "viewLastModified" : 1740778149,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1486752349,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1067346,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1486752349,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 289116002,
+    "name" : "DOCUMENT ID",
+    "dataTypeName" : "text",
+    "description" : "Document Identifier",
+    "fieldName" : "document_id",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392549,
+    "width" : 117,
+    "cachedContents" : {
+      "non_null" : "46614049",
+      "largest" : "FT_4990009008899",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BK_6740035700107",
+        "count" : "195"
+      }, {
+        "item" : "BK_6740031900078",
+        "count" : "178"
+      }, {
+        "item" : "2023030100701001",
+        "count" : "153"
+      }, {
+        "item" : "FT_3570007230557",
+        "count" : "143"
+      }, {
+        "item" : "FT_2340006620434",
+        "count" : "143"
+      }, {
+        "item" : "FT_1890006666189",
+        "count" : "143"
+      }, {
+        "item" : "FT_1680006644768",
+        "count" : "143"
+      }, {
+        "item" : "FT_1700006549470",
+        "count" : "142"
+      }, {
+        "item" : "FT_1030006522403",
+        "count" : "142"
+      }, {
+        "item" : "BK_6620016600003",
+        "count" : "141"
+      }, {
+        "item" : "FT_4980006714998",
+        "count" : "139"
+      }, {
+        "item" : "FT_3190007038819",
+        "count" : "138"
+      }, {
+        "item" : "FT_3540007586154",
+        "count" : "137"
+      }, {
+        "item" : "BK_7640092400039",
+        "count" : "123"
+      }, {
+        "item" : "FT_4990007541899",
+        "count" : "122"
+      }, {
+        "item" : "FT_2410007510741",
+        "count" : "120"
+      }, {
+        "item" : "FT_2110006471311",
+        "count" : "118"
+      }, {
+        "item" : "FT_3400006285240",
+        "count" : "118"
+      }, {
+        "item" : "FT_1070006280907",
+        "count" : "118"
+      }, {
+        "item" : "FT_2860008410286",
+        "count" : "111"
+      } ],
+      "smallest" : "2002122000001001",
+      "count" : "46614049",
+      "cardinality" : "46614049"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116003,
+    "name" : "RECORD TYPE",
+    "dataTypeName" : "text",
+    "description" : "P for Parties Record",
+    "fieldName" : "record_type",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392550,
+    "width" : 80,
+    "cachedContents" : {
+      "non_null" : "46695140",
+      "largest" : "P",
+      "null" : "0",
+      "top" : [ {
+        "item" : "P",
+        "count" : "46695140"
+      } ],
+      "smallest" : "P",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116004,
+    "name" : "PARTY TYPE",
+    "dataTypeName" : "text",
+    "description" : "Party type code",
+    "fieldName" : "party_type",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392551,
+    "width" : 63,
+    "cachedContents" : {
+      "non_null" : "46695140",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "25455305"
+      }, {
+        "item" : "2",
+        "count" : "21192805"
+      }, {
+        "item" : "3",
+        "count" : "47030"
+      } ],
+      "smallest" : "1",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116005,
+    "name" : "NAME",
+    "dataTypeName" : "text",
+    "description" : "Name of party (last name, first name  MI)",
+    "fieldName" : "name",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392552,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : "46692123",
+      "largest" : "ZZZ THIRD AVENUE LLC",
+      "null" : "3017",
+      "top" : [ {
+        "item" : "MERS",
+        "count" : "594788"
+      }, {
+        "item" : "MORTGAGE ELECTRONIC REGISTRATION SYSTEMS, INC.",
+        "count" : "359504"
+      }, {
+        "item" : "JPMORGAN CHASE BANK, N.A.",
+        "count" : "274187"
+      }, {
+        "item" : "WELLS FARGO BANK, N.A.",
+        "count" : "224973"
+      }, {
+        "item" : "CITIBANK, N.A.",
+        "count" : "211392"
+      }, {
+        "item" : "HILTON RESORTS CORPORATION",
+        "count" : "169664"
+      }, {
+        "item" : "MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC",
+        "count" : "164229"
+      }, {
+        "item" : "CITIBANK NA",
+        "count" : "126504"
+      }, {
+        "item" : "BANK OF AMERICA, N.A.",
+        "count" : "115830"
+      }, {
+        "item" : "MORTGAGE ELECTRONIC REGISTRATION SYSTEMS, INC",
+        "count" : "107672"
+      }, {
+        "item" : "JPMORGAN CHASE BANK",
+        "count" : "106137"
+      }, {
+        "item" : "GREEN POINT SAVINGSBANK",
+        "count" : "105378"
+      }, {
+        "item" : "WASHINGTON MUTUAL BANK, FA",
+        "count" : "97350"
+      }, {
+        "item" : "CITIBANK, NA",
+        "count" : "89370"
+      }, {
+        "item" : "CHEMICAL BANK",
+        "count" : "88818"
+      }, {
+        "item" : "CHASE MANHATTAN BANK",
+        "count" : "88369"
+      }, {
+        "item" : "CITIMORTGAGE, INC.",
+        "count" : "82373"
+      }, {
+        "item" : "HSBC MORTGAGE CORPORATION (USA)",
+        "count" : "80445"
+      }, {
+        "item" : "NEW YORK COMMUNITY BANK",
+        "count" : "71702"
+      }, {
+        "item" : "FLEET NATIONAL BANK",
+        "count" : "62296"
+      } ],
+      "smallest" : "`",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116006,
+    "name" : "ADDRESS 1",
+    "dataTypeName" : "text",
+    "description" : "Name attention/address of party",
+    "fieldName" : "address_1",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392553,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "30591810",
+      "largest" : "ZYPRESSEN,STRASSE 41",
+      "null" : "16103330",
+      "top" : [ {
+        "item" : "P.O. BOX 2026",
+        "count" : "314401"
+      }, {
+        "item" : "1111 POLARIS PARKWAY",
+        "count" : "175048"
+      }, {
+        "item" : "PO BOX 2026",
+        "count" : "153003"
+      }, {
+        "item" : "1000 TECHNOLOGY DRIVE",
+        "count" : "149615"
+      }, {
+        "item" : "1901 E VOORHEES STREET",
+        "count" : "107883"
+      }, {
+        "item" : "1901 E. VOORHEES STREET",
+        "count" : "97107"
+      }, {
+        "item" : "200 WEST 56TH STREET",
+        "count" : "93251"
+      }, {
+        "item" : "C/O THE MANHATTAN CLUB",
+        "count" : "74280"
+      }, {
+        "item" : "101 NORTH PHILLIPS AVENUE",
+        "count" : "72863"
+      }, {
+        "item" : "2929 WALDEN AVENUE",
+        "count" : "64611"
+      }, {
+        "item" : "399  PARK AVE",
+        "count" : "64512"
+      }, {
+        "item" : "6355 METROWEST BOULEVARD, SUITE 180",
+        "count" : "58270"
+      }, {
+        "item" : "807  MANHATTAN AVE",
+        "count" : "57106"
+      }, {
+        "item" : "1901 E. VOORHEES STREET, SUITE C",
+        "count" : "52796"
+      }, {
+        "item" : "1901 E VOORHEES STREET, SUITE C",
+        "count" : "49170"
+      }, {
+        "item" : "6355 METROWEST BOULEVARD",
+        "count" : "45930"
+      }, {
+        "item" : "6355 METROWEST BLVD SUITE 180",
+        "count" : "45720"
+      }, {
+        "item" : "ONE JERICHO PLAZA",
+        "count" : "42951"
+      }, {
+        "item" : "1901 E VOORHEES STREET SUITE C",
+        "count" : "41211"
+      }, {
+        "item" : "1601 BRYAN STREET",
+        "count" : "40974"
+      } ],
+      "smallest" : "`",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116007,
+    "name" : "ADDRESS 2",
+    "dataTypeName" : "text",
+    "description" : "Street address of party",
+    "fieldName" : "address_2",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392554,
+    "width" : 135,
+    "cachedContents" : {
+      "non_null" : "4052560",
+      "largest" : "ZZ 99999",
+      "null" : "42642580",
+      "top" : [ {
+        "item" : "SUITE C",
+        "count" : "218708"
+      }, {
+        "item" : "200 WEST 56TH STREET",
+        "count" : "84566"
+      }, {
+        "item" : "SUITE 101",
+        "count" : "62045"
+      }, {
+        "item" : "SUITE 180",
+        "count" : "50547"
+      }, {
+        "item" : ".",
+        "count" : "49704"
+      }, {
+        "item" : "SUITE 100",
+        "count" : "44762"
+      }, {
+        "item" : "1335 AVENUE OF THE AMERICAS",
+        "count" : "28692"
+      }, {
+        "item" : "SUITE 200",
+        "count" : "28564"
+      }, {
+        "item" : "200  WEST 56TH STREET",
+        "count" : "27548"
+      }, {
+        "item" : "2ND FLOOR",
+        "count" : "26350"
+      }, {
+        "item" : "3RD FLOOR",
+        "count" : "26294"
+      }, {
+        "item" : "SUITE 300",
+        "count" : "24258"
+      }, {
+        "item" : "102 WEST 57TH STREET",
+        "count" : "17590"
+      }, {
+        "item" : "SUITE 800",
+        "count" : "16759"
+      }, {
+        "item" : "STE C",
+        "count" : "15573"
+      }, {
+        "item" : "MC 8000",
+        "count" : "15383"
+      }, {
+        "item" : "5TH FLOOR",
+        "count" : "14126"
+      }, {
+        "item" : "4TH FLOOR",
+        "count" : "13234"
+      }, {
+        "item" : "1901 E VOORHEES STREET, STE C",
+        "count" : "12494"
+      }, {
+        "item" : "10TH FLOOR",
+        "count" : "12417"
+      } ],
+      "smallest" : "`",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116008,
+    "name" : "COUNTRY",
+    "dataTypeName" : "text",
+    "description" : "Country location of party",
+    "fieldName" : "country",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392555,
+    "width" : 57,
+    "cachedContents" : {
+      "non_null" : "34230939",
+      "largest" : "ZZ",
+      "null" : "12464201",
+      "top" : [ {
+        "item" : "US",
+        "count" : "34156377"
+      }, {
+        "item" : "UK",
+        "count" : "7475"
+      }, {
+        "item" : "CA",
+        "count" : "7108"
+      }, {
+        "item" : "IL",
+        "count" : "5524"
+      }, {
+        "item" : "CN",
+        "count" : "4567"
+      }, {
+        "item" : "IE",
+        "count" : "4176"
+      }, {
+        "item" : "HK",
+        "count" : "3863"
+      }, {
+        "item" : "IT",
+        "count" : "3426"
+      }, {
+        "item" : "JP",
+        "count" : "3331"
+      }, {
+        "item" : "DE",
+        "count" : "2755"
+      }, {
+        "item" : "FR",
+        "count" : "2361"
+      }, {
+        "item" : "SG",
+        "count" : "2217"
+      }, {
+        "item" : "PR",
+        "count" : "1938"
+      }, {
+        "item" : "CH",
+        "count" : "1534"
+      }, {
+        "item" : "KR",
+        "count" : "1249"
+      }, {
+        "item" : "AU",
+        "count" : "1245"
+      }, {
+        "item" : "MX",
+        "count" : "1233"
+      }, {
+        "item" : "KY",
+        "count" : "1181"
+      }, {
+        "item" : "VI",
+        "count" : "1106"
+      }, {
+        "item" : "TW",
+        "count" : "982"
+      } ],
+      "smallest" : "00",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116009,
+    "name" : "CITY",
+    "dataTypeName" : "text",
+    "description" : "City location of party",
+    "fieldName" : "city",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392556,
+    "width" : 94,
+    "cachedContents" : {
+      "non_null" : "30586593",
+      "largest" : "ZZ",
+      "null" : "16108547",
+      "top" : [ {
+        "item" : "NEW YORK",
+        "count" : "4478352"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "4011334"
+      }, {
+        "item" : "BKLYN",
+        "count" : "1876133"
+      }, {
+        "item" : "BRONX",
+        "count" : "1201832"
+      }, {
+        "item" : "NY",
+        "count" : "883612"
+      }, {
+        "item" : "FLUSHING",
+        "count" : "789724"
+      }, {
+        "item" : "FLINT",
+        "count" : "612943"
+      }, {
+        "item" : "DANVILLE",
+        "count" : "605493"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "604336"
+      }, {
+        "item" : "JAMAICA",
+        "count" : "537038"
+      }, {
+        "item" : "ORLANDO",
+        "count" : "332731"
+      }, {
+        "item" : "BAYSIDE",
+        "count" : "304478"
+      }, {
+        "item" : "BX",
+        "count" : "245397"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "243270"
+      }, {
+        "item" : "RICHMOND HILL",
+        "count" : "222620"
+      }, {
+        "item" : "COLUMBUS",
+        "count" : "219996"
+      }, {
+        "item" : "MELVILLE",
+        "count" : "216942"
+      }, {
+        "item" : "FOREST HILLS",
+        "count" : "212644"
+      }, {
+        "item" : "GREAT NECK",
+        "count" : "211265"
+      }, {
+        "item" : "QUEENS VILLAGE",
+        "count" : "207458"
+      } ],
+      "smallest" : "`",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116010,
+    "name" : "STATE",
+    "dataTypeName" : "text",
+    "description" : "State location of party",
+    "fieldName" : "state",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392557,
+    "width" : 50,
+    "cachedContents" : {
+      "non_null" : "30566801",
+      "largest" : "ZZ",
+      "null" : "16128339",
+      "top" : [ {
+        "item" : "NY",
+        "count" : "23216353"
+      }, {
+        "item" : "FL",
+        "count" : "894899"
+      }, {
+        "item" : "CA",
+        "count" : "861438"
+      }, {
+        "item" : "NJ",
+        "count" : "735820"
+      }, {
+        "item" : "IL",
+        "count" : "731681"
+      }, {
+        "item" : "MI",
+        "count" : "722079"
+      }, {
+        "item" : "TX",
+        "count" : "399423"
+      }, {
+        "item" : "OH",
+        "count" : "314433"
+      }, {
+        "item" : "MO",
+        "count" : "243450"
+      }, {
+        "item" : "VA",
+        "count" : "210500"
+      }, {
+        "item" : "PA",
+        "count" : "179691"
+      }, {
+        "item" : "LA",
+        "count" : "169146"
+      }, {
+        "item" : "NC",
+        "count" : "159853"
+      }, {
+        "item" : "DC",
+        "count" : "145998"
+      }, {
+        "item" : "CT",
+        "count" : "145928"
+      }, {
+        "item" : "MN",
+        "count" : "139355"
+      }, {
+        "item" : "IA",
+        "count" : "135773"
+      }, {
+        "item" : "SC",
+        "count" : "110650"
+      }, {
+        "item" : "MD",
+        "count" : "98458"
+      }, {
+        "item" : "SD",
+        "count" : "93872"
+      } ],
+      "smallest" : "`",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116011,
+    "name" : "ZIP",
+    "dataTypeName" : "text",
+    "description" : "Zip code of party",
+    "fieldName" : "zip",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 43392558,
+    "width" : 50,
+    "cachedContents" : {
+      "non_null" : "30048683",
+      "largest" : "ZZ 99999",
+      "null" : "16646457",
+      "top" : [ {
+        "item" : "00000",
+        "count" : "7008190"
+      }, {
+        "item" : "10019",
+        "count" : "657568"
+      }, {
+        "item" : "61834",
+        "count" : "599597"
+      }, {
+        "item" : "10022",
+        "count" : "343297"
+      }, {
+        "item" : "48501",
+        "count" : "327086"
+      }, {
+        "item" : "32835",
+        "count" : "321738"
+      }, {
+        "item" : "10017",
+        "count" : "313798"
+      }, {
+        "item" : "11201",
+        "count" : "252036"
+      }, {
+        "item" : "10016",
+        "count" : "243807"
+      }, {
+        "item" : "485012026",
+        "count" : "239820"
+      }, {
+        "item" : "11234",
+        "count" : "228761"
+      }, {
+        "item" : "11211",
+        "count" : "205449"
+      }, {
+        "item" : "11354",
+        "count" : "181415"
+      }, {
+        "item" : "43240",
+        "count" : "171650"
+      }, {
+        "item" : "10023",
+        "count" : "170000"
+      }, {
+        "item" : "11219",
+        "count" : "167491"
+      }, {
+        "item" : "11215",
+        "count" : "162793"
+      }, {
+        "item" : "11375",
+        "count" : "159470"
+      }, {
+        "item" : "10013",
+        "count" : "159434"
+      }, {
+        "item" : "11747",
+        "count" : "152214"
+      } ],
+      "smallest" : ".",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  }, {
+    "id" : 289116013,
+    "name" : "GOOD THROUGH DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date of latest recording or correction included with this extract",
+    "fieldName" : "good_through_date",
+    "position" : 11,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 43392560,
+    "width" : 134,
+    "cachedContents" : {
+      "non_null" : "46695140",
+      "largest" : "2026-09-30T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2015-07-31T00:00:00.000",
+        "count" : "35849630"
+      }, {
+        "item" : "2016-07-31T00:00:00.000",
+        "count" : "127858"
+      }, {
+        "item" : "2021-06-30T00:00:00.000",
+        "count" : "121557"
+      }, {
+        "item" : "2021-08-31T00:00:00.000",
+        "count" : "120341"
+      }, {
+        "item" : "2022-03-31T00:00:00.000",
+        "count" : "119722"
+      }, {
+        "item" : "2022-01-31T00:00:00.000",
+        "count" : "115634"
+      }, {
+        "item" : "2021-03-31T00:00:00.000",
+        "count" : "110828"
+      }, {
+        "item" : "2021-07-31T00:00:00.000",
+        "count" : "110813"
+      }, {
+        "item" : "2021-10-31T00:00:00.000",
+        "count" : "106473"
+      }, {
+        "item" : "2015-09-30T00:00:00.000",
+        "count" : "105741"
+      }, {
+        "item" : "2017-03-31T00:00:00.000",
+        "count" : "104777"
+      }, {
+        "item" : "2022-06-30T00:00:00.000",
+        "count" : "103626"
+      }, {
+        "item" : "2022-02-28T00:00:00.000",
+        "count" : "102935"
+      }, {
+        "item" : "2021-12-31T00:00:00.000",
+        "count" : "102677"
+      }, {
+        "item" : "2022-07-31T00:00:00.000",
+        "count" : "102549"
+      }, {
+        "item" : "2016-03-31T00:00:00.000",
+        "count" : "99693"
+      }, {
+        "item" : "2021-05-31T00:00:00.000",
+        "count" : "99392"
+      }, {
+        "item" : "2017-01-31T00:00:00.000",
+        "count" : "99292"
+      }, {
+        "item" : "2017-08-31T00:00:00.000",
+        "count" : "98939"
+      }, {
+        "item" : "2022-04-30T00:00:00.000",
+        "count" : "97568"
+      } ],
+      "smallest" : "2015-07-31T00:00:00.000",
+      "count" : "46695140",
+      "cardinality" : "46695140"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "NYC_OpenData_ACRIS_Datasets.doc",
+      "assetId" : "b32e6f13-d798-4a2b-8bc8-1d3ea7e89fe7",
+      "blobId" : "",
+      "name" : "NYC_OpenData_ACRIS_Datasets.doc"
+    }, {
+      "filename" : "ACRIS_-_Real_Property_Parties_Data_Dictionary.xlsx",
+      "assetId" : "24e71954-238e-4a9d-9c8b-961f192484c0",
+      "blobId" : "",
+      "name" : "ACRIS_-_Real_Property_Parties_Data_Dictionary.xlsx"
+    }, {
+      "filename" : "ACRIS_Public_OpenData_Guide.doc.doc",
+      "assetId" : "b138127d-6d08-4a26-abe1-94e62e551878",
+      "blobId" : "",
+      "name" : "ACRIS_Public_OpenData_Guide.doc"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "9/23/2013",
+        "Update Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Finance (DOF)"
+      }
+    },
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dof", "acris land records" ],
+  "flags" : [ "calculatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType", "soqlBasedView" ]
+}

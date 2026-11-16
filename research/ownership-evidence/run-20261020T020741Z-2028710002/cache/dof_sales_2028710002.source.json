@@ -1,0 +1,16 @@
+{
+  "id": "dof_sales_2028710002",
+  "url": "https://data.cityofnewyork.us/resource/w2pb-icbu.json?%24where=bbl%3D%272028710002%27&%24limit=10000&%24order=sale_date",
+  "publisher": "NYC Department of Finance",
+  "retrieved_at": "2026-10-20T02:07:43.387759+00:00",
+  "coverage_limits": "DOF sales rows for exact BBL from the NYC Citywide Annualized Calendar Sales Update. Annualized update feed; absence of a row is not proof of no sale.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Tue, 09 Jun 2026 18:31:52 GMT",
+  "cache_path": "cache/dof_sales_2028710002.body",
+  "bytes": 694,
+  "sha256": "878b55f0f35588f12525d58c76193da19efbfeda7da6ea1b6e4db0b1df1571be"
+}

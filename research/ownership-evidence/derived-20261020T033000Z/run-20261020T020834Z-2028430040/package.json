@@ -1,0 +1,216 @@
+{
+  "budget": {
+    "bytes": 1519,
+    "elapsed_seconds": 1.122,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 3
+  },
+  "conflicts": [],
+  "date_bounds": {
+    "dataset_last_modified": {
+      "acris_doc_codes": "Wed, 05 Aug 2026 13:49:57 GMT",
+      "acris_legal_2028430040": "Thu, 08 Oct 2026 20:07:34 GMT",
+      "dof_sales_2028430040": "Tue, 09 Jun 2026 18:31:52 GMT",
+      "pluto_2028430040": "Mon, 24 Aug 2026 20:20:51 GMT"
+    },
+    "earliest_document_date": null,
+    "latest_document_date": null,
+    "retrieved_at_range": [
+      "2026-10-20T02:08:34.932353+00:00",
+      "2026-10-20T03:08:12.856055+00:00"
+    ]
+  },
+  "limitations": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.",
+    "Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.",
+    "doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record.",
+    "ACRIS legals are queried by exact BBL; documents in which this parcel appears only as a secondary legal are not collected. other_parcels reflects only documents collected in this run.",
+    "DOF sales rows for condo buildings are unit-level sales associated with the condo billing/map BBL; their block/lot identify the unit lot, not the mapped parcel lot, and they are not whole-property sales."
+  ],
+  "mapping_provenance": {
+    "class_family_derivation": {
+      "DEEDS AND OTHER CONVEYANCES": "deed",
+      "MORTGAGES & INSTRUMENTS": "mortgage",
+      "OTHER DOCUMENTS": "other",
+      "UCC AND FEDERAL LIENS": "lien"
+    },
+    "fields": {
+      "doc_type": "doc__type -> doc__type_description, class_code_description",
+      "party_role": "parties.party_type N -> partyN_type of the doc__type row"
+    },
+    "mapping_source": "NYC Open Data: ACRIS - Document Control Codes (7isb-wh4c), published by NYC DOF",
+    "receipt": "cache/acris_doc_codes.body",
+    "retrieved_at": "2026-10-20T03:08:12.856055+00:00",
+    "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625",
+    "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000"
+  },
+  "non_claims": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "Recorded grantee evidence identifies parties of recorded instruments; it is not a current-owner conclusion.",
+    "Instrument amounts (document_amt) are recorded instrument amounts, never sale prices; DOF sale_price is the only sale-price field.",
+    "doc_type classification uses the NYC DOF ACRIS Document Control Codes dataset (7isb-wh4c) where available; the keyword fallback is flagged per record.",
+    "ACRIS legals are queried by exact BBL; documents in which this parcel appears only as a secondary legal are not collected. other_parcels reflects only documents collected in this run.",
+    "DOF sales rows for condo buildings are unit-level sales associated with the condo billing/map BBL; their block/lot identify the unit lot, not the mapped parcel lot, and they are not whole-property sales."
+  ],
+  "other_parcels": [],
+  "ownership_evidence": {
+    "current_owner": {
+      "reason": "A defensible current-owner conclusion requires a complete chain of title from the latest recorded conveyance to the present, including unrecorded interests, liens, corrections and any post-recording transfers. This package contains index rows only and does not perform that research; the recorded grantee evidence above is not a current-owner conclusion.",
+      "status": "unknown"
+    },
+    "recorded_grantees": []
+  },
+  "package_version": "0.3",
+  "parcel": {
+    "bbl": "2028430040",
+    "block": "02843",
+    "borough": "2",
+    "lot": "0040"
+  },
+  "records": [
+    {
+      "fields": {
+        "address": "1426 TOWNSEND AVENUE",
+        "appbbl": null,
+        "bbl": "2028430040.00000000",
+        "bin": null,
+        "bldgclass": "W1",
+        "condono": null,
+        "lotarea": "55000",
+        "numfloors": "5.0000000",
+        "ownername": "NYC DEPARTMENT OF EDUCATION",
+        "unitsres": "0",
+        "zonedist1": "R8"
+      },
+      "kind": "parcel_identity",
+      "locators": [
+        {
+          "fields": [
+            "address",
+            "appbbl",
+            "bbl",
+            "bin",
+            "bldgclass",
+            "condono",
+            "lotarea",
+            "numfloors",
+            "ownername",
+            "unitsres",
+            "zonedist1"
+          ],
+          "row": 0,
+          "source_id": "pluto_2028430040"
+        }
+      ],
+      "owner_label_note": "ownername is a tax-roll label from the current PLUTO extract; it is not legal ownership and not a current-owner conclusion.",
+      "record_id": "pluto:2028430040"
+    }
+  ],
+  "run_id": "run-20261020T020834Z-2028430040",
+  "run_status": "complete",
+  "sources": [
+    {
+      "bytes": 1513,
+      "cache_path": "cache/pluto_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "PLUTO row for exact BBL. Tax-roll attributes; owner label is not legal ownership. Parcel fields may lag underlying changes.",
+      "error": null,
+      "http_status": 200,
+      "id": "pluto_2028430040",
+      "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+      "limit": 10,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of City Planning",
+      "retrieved_at": "2026-10-20T02:08:34.932353+00:00",
+      "row_count": 1,
+      "sha256": "79a232a7d6bcfefc4e5dd369b68383a4ff9744dc28c350924963bcdd85e3f995",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D%272028430040%27&%24limit=10"
+    },
+    {
+      "bytes": 3,
+      "cache_path": "cache/acris_legal_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "ACRIS real property records for exact borough/block/lot or document_id. NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary. Index rows are not native document images and not a current title opinion.",
+      "error": null,
+      "http_status": 200,
+      "id": "acris_legal_2028430040",
+      "last_modified": "Thu, 08 Oct 2026 20:07:34 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance (ACRIS)",
+      "retrieved_at": "2026-10-20T02:08:35.134857+00:00",
+      "row_count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D%272%27+AND+block+in+%28%2702843%27%2C%272843%27%29+AND+lot+in+%28%270040%27%2C%2740%27%29&%24limit=10000&%24order=document_id"
+    },
+    {
+      "bytes": 3,
+      "cache_path": "cache/dof_sales_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "DOF sales rows for exact BBL from the NYC Citywide Annualized Calendar Sales Update. Annualized update feed; absence of a row is not proof of no sale.",
+      "error": null,
+      "http_status": 200,
+      "id": "dof_sales_2028430040",
+      "last_modified": "Tue, 09 Jun 2026 18:31:52 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance",
+      "retrieved_at": "2026-10-20T02:08:35.708799+00:00",
+      "row_count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/w2pb-icbu.json?%24where=bbl%3D%272028430040%27&%24limit=10000&%24order=sale_date"
+    },
+    {
+      "bytes": 24004,
+      "cache_path": "cache/acris_doc_codes.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "ACRIS Document Type and Class Code mappings for codes in the ACRIS Real and Personal Property Master Datasets (NYC Open Data 7isb-wh4c, published by NYC DOF). Mapping reference data; vintage per dataset update, not per recording.",
+      "error": null,
+      "http_status": 200,
+      "id": "acris_doc_codes",
+      "last_modified": "Wed, 05 Aug 2026 13:49:57 GMT",
+      "limit": 10000,
+      "possibly_truncated": false,
+      "publisher": "NYC Department of Finance (ACRIS Document Control Codes)",
+      "retrieved_at": "2026-10-20T03:08:12.856055+00:00",
+      "row_count": 126,
+      "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000"
+    }
+  ],
+  "unknowns": [
+    {
+      "description": "No source record for acris_master_2028430040; it was not fetched in this run.",
+      "id": "unknown.source_missing.0",
+      "kind": "source_missing"
+    },
+    {
+      "description": "ACRIS legals returned an empty successful result for BBL 2028430040 in the dataset window (1966 onward, Staten Island excluded); absence is not proof of no records.",
+      "id": "unknown.acris_empty.0",
+      "kind": "acris_empty"
+    },
+    {
+      "description": "DOF sales returned an empty successful result for BBL 2028430040 in the dataset window; absence is not proof of no sale.",
+      "id": "unknown.sales_empty.0",
+      "kind": "sales_empty"
+    }
+  ]
+}

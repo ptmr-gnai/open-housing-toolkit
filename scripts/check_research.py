@@ -27,8 +27,10 @@ VALIDATORS = [
     'research/modeling-v1/validate.py',
     'research/site-goal-search/validate.py',
     'research/public-data-registry/validate.py',
+    'research/ownership-evidence/validate.py',
 ]
 TEST_DIRS = [
+    'tests/housing_ownership',
     'tests/housing_site_discovery',
     'tests/housing_site_review',
     'tests/housing_underwriting',

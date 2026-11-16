@@ -1,0 +1,17 @@
+{
+  "id": "acris_master_metadata",
+  "url": "https://data.cityofnewyork.us/api/views/bnx9-e6tj.json",
+  "publisher": "NYC Open Data (Socrata dataset metadata)",
+  "retrieved_at": "2026-10-20T03:08:17.060770+00:00",
+  "coverage_limits": "Socrata dataset metadata: name, description, column descriptions, rowsUpdatedAt.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": 1791490155,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "last_modified": null,
+  "cache_path": "cache/acris_master_metadata.body",
+  "bytes": 29293,
+  "sha256": "ad04bbb01695639474d7c6dcb9d32cd225480d4e9c120035b72cf3acb84534a3",
+  "dataset_name": "ACRIS - Real Property Master"
+}

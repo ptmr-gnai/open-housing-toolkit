@@ -32,6 +32,16 @@ and its [skill](../../skills/discover-housing-sites/SKILL.md) remain unchanged f
 replay and comparison. The [BetaNYC registry study](../../research/public-data-registry/README.md)
 adds tested source-discovery resources, including non-NYC portals.
 
+## Ownership and sale history
+
+The [ownership module](../../src/housing_ownership/README.md) collects ACRIS recorded
+instruments (deeds, mortgages, agreements) with parties and amounts, DOF sales rows
+and the PLUTO tax-roll owner label for one lot outside Staten Island. It reports a
+tax-roll owner that lags the latest deed as a conflict. Not a title opinion.
+[Skill](../../skills/collect-ownership-evidence/SKILL.md) ·
+[retained runs](../../research/ownership-evidence/README.md) ·
+[source catalog](source-catalog.md).
+
 ## Edit the analysis recipe
 
 For a practitioner investigating a known lot, the numerical modeling stage can

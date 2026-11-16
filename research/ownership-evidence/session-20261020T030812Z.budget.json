@@ -1,0 +1,270 @@
+{
+  "bytes": 164368,
+  "elapsed_seconds": 218.643,
+  "entries": [
+    {
+      "at": "2026-10-20T03:08:12.416152+00:00",
+      "bytes": 0,
+      "label": "acris_doc_codes attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:12.855373+00:00",
+      "bytes": 24004,
+      "label": "acris_doc_codes attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:12.857595+00:00",
+      "bytes": 0,
+      "label": "acris_doc_codes_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:16.851801+00:00",
+      "bytes": 13406,
+      "label": "acris_doc_codes_metadata attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:16.853647+00:00",
+      "bytes": 0,
+      "label": "acris_master_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:17.060113+00:00",
+      "bytes": 29293,
+      "label": "acris_master_metadata attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:17.062139+00:00",
+      "bytes": 0,
+      "label": "acris_parties_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:17.287325+00:00",
+      "bytes": 22808,
+      "label": "acris_parties_metadata attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:17.288510+00:00",
+      "bytes": 0,
+      "label": "acris_legals_metadata attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:17.514827+00:00",
+      "bytes": 23220,
+      "label": "acris_legals_metadata attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:34.132434+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:35.077158+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:08:52.739025+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_210_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:08:53.303993+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_210_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:09:24.770211+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto street_name (HTTP 400, not via module)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:09:43.639269+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:09:44.909923+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:09:44.953458+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_210_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:09:45.504589+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_210_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto address like %W 82ND ST (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto address like %82ND% (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto block 1103 (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto block 01103 (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto block 780 (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto block 00780 (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto borough=1 quoted (0 rows; field is text code)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:10:57.517647+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto borough=1 unquoted (HTTP 400)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:08.102183+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:08.347762+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:11:23.987200+00:00",
+      "bytes": 0,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:24.314695+00:00",
+      "bytes": 3,
+      "label": "pluto_discover_1_212_82 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:11:48.032907+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto %W 82ND ST% borocode (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:48.032907+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto %82ND% borocode (5 rows; full street names)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:48.032907+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto 21% WEST 82ND STREET (0 rows)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:48.032907+00:00",
+      "bytes": 0,
+      "label": "manual-probe pluto %WEST 82ND STREET (1 row: 150 WEST 82ND STREET)",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:48.062424+00:00",
+      "bytes": 0,
+      "label": "pluto_1012127503 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:48.680558+00:00",
+      "bytes": 1542,
+      "label": "pluto_1012127503 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:11:48.681889+00:00",
+      "bytes": 0,
+      "label": "acris_legal_1012127503 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:50.190498+00:00",
+      "bytes": 3,
+      "label": "acris_legal_1012127503 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:11:50.192351+00:00",
+      "bytes": 0,
+      "label": "dof_sales_1012127503 attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:50.644282+00:00",
+      "bytes": 26070,
+      "label": "dof_sales_1012127503 attempt 1",
+      "requests": 0
+    },
+    {
+      "at": "2026-10-20T03:11:50.646187+00:00",
+      "bytes": 0,
+      "label": "acris_doc_codes attempt 1",
+      "requests": 1
+    },
+    {
+      "at": "2026-10-20T03:11:51.058939+00:00",
+      "bytes": 24004,
+      "label": "acris_doc_codes attempt 1",
+      "requests": 0
+    }
+  ],
+  "max_bytes": 52428800,
+  "max_requests": 150,
+  "max_seconds": 5400,
+  "requests": 28,
+  "started_at": "2026-10-20T03:08:12.415779+00:00",
+  "started_at_epoch": 1792465692.415779
+}

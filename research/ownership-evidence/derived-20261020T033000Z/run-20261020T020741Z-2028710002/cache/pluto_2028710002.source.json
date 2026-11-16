@@ -1,0 +1,16 @@
+{
+  "id": "pluto_2028710002",
+  "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D%272028710002%27&%24limit=10",
+  "publisher": "NYC Department of City Planning",
+  "retrieved_at": "2026-10-20T02:07:41.993320+00:00",
+  "coverage_limits": "PLUTO row for exact BBL. Tax-roll attributes; owner label is not legal ownership. Parcel fields may lag underlying changes.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+  "cache_path": "cache/pluto_2028710002.body",
+  "bytes": 1555,
+  "sha256": "e10877333eb5d093868d64d5fe26693c9af3e03660de0f38f8e0beb5ddb02734"
+}

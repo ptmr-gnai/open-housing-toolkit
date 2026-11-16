@@ -1,0 +1,134 @@
+{
+  "budget": {
+    "bytes": 1519,
+    "elapsed_seconds": 1.122,
+    "exhausted": null,
+    "max_bytes": 52428800,
+    "max_requests": 150,
+    "max_seconds": 5400,
+    "requests": 3
+  },
+  "conflicts": [],
+  "limitations": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "doc_type classification is a keyword-based triage aid, not legal interpretation of the instrument."
+  ],
+  "non_claims": [
+    "This package is not a title opinion. It does not establish beneficial ownership, current site control, or complete title research.",
+    "ACRIS coverage: NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary; native document images not retrieved.",
+    "DOF sales dataset is an annualized update feed; absence of a row is not proof of no sale.",
+    "PLUTO owner label is a tax-roll label, not legal ownership.",
+    "doc_type classification is a keyword-based triage aid, not legal interpretation of the instrument."
+  ],
+  "other_parcels": [],
+  "package_version": "0.1",
+  "parcel": {
+    "bbl": "2028430040",
+    "block": "02843",
+    "borough": "2",
+    "lot": "0040"
+  },
+  "records": [
+    {
+      "fields": {
+        "address": "1426 TOWNSEND AVENUE",
+        "bbl": "2028430040.00000000",
+        "bin": null,
+        "lotarea": "55000",
+        "owner1": null,
+        "owner2": null,
+        "zoningdist": null
+      },
+      "kind": "parcel_identity",
+      "locators": [
+        {
+          "fields": [
+            "bbl",
+            "lotarea",
+            "owner1"
+          ],
+          "row": 0,
+          "source_id": "pluto_2028430040"
+        }
+      ],
+      "record_id": "pluto:2028430040"
+    }
+  ],
+  "run_id": "run-20261020T020834Z-2028430040",
+  "run_status": "complete",
+  "sources": [
+    {
+      "bytes": 1513,
+      "cache_path": "cache/pluto_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "PLUTO row for exact BBL. Tax-roll attributes; owner label is not legal ownership. Parcel fields may lag underlying changes.",
+      "error": null,
+      "http_status": 200,
+      "id": "pluto_2028430040",
+      "last_modified": "Mon, 24 Aug 2026 20:20:51 GMT",
+      "publisher": "NYC Department of City Planning",
+      "retrieved_at": "2026-10-20T02:08:34.932353+00:00",
+      "sha256": "79a232a7d6bcfefc4e5dd369b68383a4ff9744dc28c350924963bcdd85e3f995",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/64uk-42ks.json?%24where=bbl%3D%272028430040%27&%24limit=10"
+    },
+    {
+      "bytes": 3,
+      "cache_path": "cache/acris_legal_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "ACRIS real property records for exact borough/block/lot or document_id. NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary. Index rows are not native document images and not a current title opinion.",
+      "error": null,
+      "http_status": 200,
+      "id": "acris_legal_2028430040",
+      "last_modified": "Thu, 08 Oct 2026 20:07:34 GMT",
+      "publisher": "NYC Department of Finance (ACRIS)",
+      "retrieved_at": "2026-10-20T02:08:35.134857+00:00",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D%272%27+AND+block+in+%28%2702843%27%2C%272843%27%29+AND+lot+in+%28%270040%27%2C%2740%27%29&%24limit=10000&%24order=document_id"
+    },
+    {
+      "bytes": 3,
+      "cache_path": "cache/dof_sales_2028430040.body",
+      "content_type": "application/json;charset=utf-8",
+      "coverage_limits": "DOF sales rows for exact BBL from the NYC Citywide Annualized Calendar Sales Update. Annualized update feed; absence of a row is not proof of no sale.",
+      "error": null,
+      "http_status": 200,
+      "id": "dof_sales_2028430040",
+      "last_modified": "Tue, 09 Jun 2026 18:31:52 GMT",
+      "publisher": "NYC Department of Finance",
+      "retrieved_at": "2026-10-20T02:08:35.708799+00:00",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "status": "ok",
+      "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+      "url": "https://data.cityofnewyork.us/resource/w2pb-icbu.json?%24where=bbl%3D%272028430040%27&%24limit=10000&%24order=sale_date"
+    }
+  ],
+  "unknowns": [
+    {
+      "description": "No source record for acris_master_2028430040; it was not fetched in this run.",
+      "id": "unknown.source_missing.0",
+      "kind": "source_missing"
+    },
+    {
+      "description": "No source record for acris_parties_2028430040; it was not fetched in this run.",
+      "id": "unknown.source_missing.1",
+      "kind": "source_missing"
+    },
+    {
+      "description": "No ACRIS legal rows for BBL 2028430040 in the dataset window (1966 onward, Staten Island excluded); absence is not proof of no records.",
+      "id": "unknown.acris_empty.0",
+      "kind": "acris_empty"
+    },
+    {
+      "description": "No DOF sales rows for BBL 2028430040 in the dataset window; absence is not proof of no sale.",
+      "id": "unknown.sales_empty.0",
+      "kind": "sales_empty"
+    }
+  ]
+}

@@ -78,8 +78,11 @@ try another area, or test a housing goal ([goal search](../../goal-seek-housing-
 `.venv/bin/python scripts/locate.py lookup "ADDRESS"` and confirm the address and
 tax lot number (BBL). Bronx lots (BBL starting with 2) go to
 [housing-investigation](../../housing-investigation/SKILL.md). For other boroughs,
-explain that single-lot packets are Bronx-only today and offer a site search around
-the lot instead, which covers it citywide.
+explain that full single-lot packets are Bronx-only today and offer a site search
+around the lot instead, which covers it citywide. For any borough except Staten
+Island, also offer ownership and sale history:
+[collect-ownership-evidence](../../collect-ownership-evidence/SKILL.md) (who bought
+it, when, and the recorded amount).
 
 **Model what could be built (c).** Explain that the arithmetic is checked but the
 inputs (costs, rents, financing) are judgement calls the user or an advisor should

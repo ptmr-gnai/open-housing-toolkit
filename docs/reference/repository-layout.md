@@ -5,6 +5,7 @@
 | src/housing_site_discovery/ | Broad nonhousing inventory, zoning paths and public context |
 | src/housing_site_review/ and src/housing_zoning_review/ | Historical dwelling signals and monthly zoning reconciliation |
 | src/housing_site_search/ | Explicit housing-program and financial/public-context goal search |
+| src/housing_ownership/ | Recorded deeds, mortgages, sales and tax-roll owner for one lot |
 | src/housing_underwriting/ | Rental development budgets, annual operations and debt sizing |
 | src/housing_workflow/ | Known-lot evidence collection and packets |
 | src/housing_recipe/ | Editable typed area arithmetic |

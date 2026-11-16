@@ -1,0 +1,16 @@
+{
+  "id": "acris_doc_codes",
+  "url": "https://data.cityofnewyork.us/resource/7isb-wh4c.json?%24where=record_type%3D%27D%27&%24limit=10000",
+  "publisher": "NYC Department of Finance (ACRIS Document Control Codes)",
+  "retrieved_at": "2026-10-20T03:08:12.856055+00:00",
+  "coverage_limits": "ACRIS Document Type and Class Code mappings for codes in the ACRIS Real and Personal Property Master Datasets (NYC Open Data 7isb-wh4c, published by NYC DOF). Mapping reference data; vintage per dataset update, not per recording.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Wed, 05 Aug 2026 13:49:57 GMT",
+  "cache_path": "cache/acris_doc_codes.body",
+  "bytes": 24004,
+  "sha256": "518363532df753ac364ce47c5d62dfbdbaf609b598845bfcfe2ec83b9739c625"
+}

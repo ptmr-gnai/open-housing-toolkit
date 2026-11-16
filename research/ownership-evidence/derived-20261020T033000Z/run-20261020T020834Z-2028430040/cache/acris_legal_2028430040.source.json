@@ -1,0 +1,16 @@
+{
+  "id": "acris_legal_2028430040",
+  "url": "https://data.cityofnewyork.us/resource/8h5j-fqxa.json?%24where=borough%3D%272%27+AND+block+in+%28%2702843%27%2C%272843%27%29+AND+lot+in+%28%270040%27%2C%2740%27%29&%24limit=10000&%24order=document_id",
+  "publisher": "NYC Department of Finance (ACRIS)",
+  "retrieved_at": "2026-10-20T02:08:35.134857+00:00",
+  "coverage_limits": "ACRIS real property records for exact borough/block/lot or document_id. NYC boroughs excluding Staten Island; records from 1966 onward; good_through dates vary. Index rows are not native document images and not a current title opinion.",
+  "terms_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+  "source_updated_at": null,
+  "status": "ok",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "last_modified": "Thu, 08 Oct 2026 20:07:34 GMT",
+  "cache_path": "cache/acris_legal_2028430040.body",
+  "bytes": 3,
+  "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+}
