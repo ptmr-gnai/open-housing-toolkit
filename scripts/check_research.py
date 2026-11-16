@@ -32,6 +32,7 @@ VALIDATORS = [
 TEST_DIRS = [
     'tests/housing_feasibility',
     'tests/housing_activity',
+    'tests/housing_concept',
     'tests/housing_ownership',
     'tests/housing_site_discovery',
     'tests/housing_site_review',

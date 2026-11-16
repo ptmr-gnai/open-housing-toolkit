@@ -130,7 +130,8 @@ def search_section(run, bbl, decisions):
     held = extract.get('in_development', [])
     chosen = next((c for c in candidates if c['bbl'] == bbl), None)
     held_chosen = next((c for c in held if c['bbl'] == bbl), None)
-    why = [d['answer'] for d in decisions if d['step'] == 'select']
+    from .brief import decision_steps
+    why = [d['answer'] for d in decisions if 'select' in decision_steps(d)]
     return {'question': summary.get('question'), 'scope': summary.get('scope'),
             'lots_in_area': counts.get('inventory'), 'recorded_nonhousing_in_area': counts.get('recorded_nonhousing'),
             'by_current_use': counts.get('by_current_use'),
@@ -171,7 +172,8 @@ def brief_section(run):
     from .brief import validate
     brief = validate(load(Path(run) / 'inputs/brief.json'))
     return {'goal': brief['goal'], 'persona': brief['persona'], 'provided': brief['provided'],
-            'decisions': brief['decisions'], 'extends': brief.get('extends', []), 'source': 'inputs/brief.json'}
+            'decisions': brief['decisions'], 'extends': brief.get('extends', []), 'notes': brief.get('notes', []),
+            'source': 'inputs/brief.json'}
 
 
 STEP_LABELS = [('search', 'Search the area'), ('activity', 'Check development activity'), ('select', 'Choose a site'), ('research', 'Research the lot'),
@@ -182,7 +184,9 @@ STEP_LABELS = [('search', 'Search the area'), ('activity', 'Check development ac
 def process_section(run, brief, search, ownership, massing, sensitivity, render):
     decided = {}
     for d in brief['decisions']:
-        decided.setdefault(d['step'], []).append(d)
+        from .brief import decision_steps
+        for step in decision_steps(d):
+            decided.setdefault(step, []).append(d)
     act = (Path(run) / 'inputs/activity/activity.json')
     act = load(act) if act.exists() else None
     ran = {'activity': act is not None, 'search': search is not None, 'select': search is not None or bool(decided.get('select')),
@@ -458,11 +462,34 @@ def reconciliation(budget_rows, massing):
     return out
 
 
+def concept_section(run, folder, massing):
+    """A massing-grounded concept (housing_concept): prompt compiled from the massing, elevation drawn from it."""
+    concept = load(folder / 'concept.json')
+    gen = load(folder / 'generation.json') if (folder / 'generation.json').exists() else None
+    review = load(folder / 'review.json') if gen else None
+    matches = [m['id'] for m in massing if m['id'] == concept['massing_id']]
+    return {'stage': 'generated_and_reviewed' if gen else 'prompt_prepared', 'kind': 'massing_grounded',
+            'package': _rel(run, folder), 'image': _rel(run, folder / gen['image']) if gen else None,
+            'elevation': _rel(run, folder / 'elevation.png'), 'elevation_svg': _rel(run, folder / 'elevation.svg'),
+            'prompt': _rel(run, folder / 'prompt.txt'), 'required_caption': concept['caption'],
+            'stories': concept['stories'], 'matching_massing': matches,
+            'story_status': 'matches_massing' if matches else ('no_massing_supplied' if not massing else 'differs_from_massing'),
+            'grounding': {k: concept[k] for k in ('massing_id', 'height_ft', 'ground_floor_height_ft', 'ground_floor_width_ft',
+                                                  'upper_floor_height_ft', 'upper_floor_width_ft', 'upper_setback_ft', 'style', 'ground_use')},
+            'reference': {'provider': concept['photo']['provider'], 'attribution': concept['credit'],
+                          'capture_date': concept['photo']['capture_date'], 'source_image_byte_bound': True},
+            'provider': gen['provider'] if gen else None,
+            'review_checks': [{'id': k, 'status': v['status'], 'note': v['note']} for k, v in (review or {}).get('checks', {}).items()],
+            'unverified': ['surveyed footprint', 'camera alignment', 'zoning envelope', 'design'], 'site_bbl': concept['site_bbl']}
+
+
 def render_section(run, massing):
     packages = _packages(run, 'render')
     if not packages:
         return None
     folder = packages[0]
+    if (folder / 'concept.json').exists():
+        return concept_section(run, folder, massing)
     brief = load(folder / 'render-brief.json')
     scenario_path = folder / 'inputs/scenario.json'
     stories = None
@@ -472,7 +499,7 @@ def render_section(run, massing):
     review = load(folder / 'review.json') if (folder / 'review.json').exists() else None
     matches = [m['id'] for m in massing if m['stories'] == stories]
     ref = brief['reference']
-    return {'stage': 'generated_and_reviewed' if receipt else 'brief_prepared', 'package': _rel(run, folder),
+    return {'stage': 'generated_and_reviewed' if receipt else 'brief_prepared', 'kind': 'photo_brief', 'package': _rel(run, folder),
             'image': _rel(run, folder / receipt['image_path']) if receipt else None,
             'prompt': _rel(run, folder / 'prompt.txt'), 'required_caption': brief.get('required_caption'),
             'stories': stories, 'matching_massing': matches,
@@ -591,7 +618,7 @@ def assemble(run, fallback_hashes=None):
     for m in massing:
         if load(run / m['package'] / 'geometry.json')['site_bbl'] != site['bbl']:
             raise ValueError('Massing package is for a different tax lot')
-    if render and load(run / render['package'] / 'render-brief.json')['site_bbl'] != site['bbl']:
+    if render and (render.get('site_bbl') or load(run / render['package'] / 'render-brief.json')['site_bbl']) != site['bbl']:
         raise ValueError('Render package is for a different tax lot')
     gaps = sensitivity
     headline = {'bbl': site['bbl'], 'address': site['address'], 'base_case_id': budget['base_case_id'],

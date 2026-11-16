@@ -15,9 +15,15 @@ def validate_request(req):
         raise ValueError('Report request fields: missing %s, unexpected %s' % (sorted(missing), sorted(extra)))
     if req['version'] != '1.1':
         raise ValueError('Report request version must be "1.1" (the goal and persona now live in brief.json)')
-    for key in ('title', 'base_case', 'prepared_by'):
-        if not isinstance(req[key], str) or not req[key].strip() or len(req[key]) > 2000:
+    limits = {'title': 90, 'base_case': 120, 'prepared_by': 60}
+    for key, limit in limits.items():
+        if not isinstance(req[key], str) or not req[key].strip():
             raise ValueError(key + ' must be a non-empty string')
+        if len(req[key]) > limit or '\n' in req[key]:
+            raise ValueError('%s is limited to one line of %d characters. Caveats and comments belong in agent notes '
+                             '(housing_feasibility brief note), not in report fields.' % (key, limit))
+    if ';' in req['prepared_by']:
+        raise ValueError('prepared_by is a name, e.g. "Codex, assumptions approved by the user"; put caveats in agent notes')
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(req['prepared_on'])):
         raise ValueError('prepared_on must be a date like 2026-11-16')
     return req

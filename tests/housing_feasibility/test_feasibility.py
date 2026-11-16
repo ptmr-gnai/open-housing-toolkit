@@ -189,6 +189,26 @@ class Report(unittest.TestCase):
         with self.assertRaises(ValueError):
             briefs.decide(self.brief, 'dreaming', 'x', 'y')
 
+    def test_brief_caps_multistep_and_agent_notes(self):
+        brief = self.tmp / 'brief-caps.json'
+        briefs.start(brief, 'A goal', 'housing_agency')
+        with self.assertRaisesRegex(ValueError, 'agent note'):
+            briefs.decide(brief, 'massing', 'x' * 400, 'ok')
+        briefs.decide(brief, 'massing,financing,render', 'Test these values', 'Go ahead', '2026-11-16')
+        with self.assertRaisesRegex(ValueError, 'already recorded'):
+            briefs.decide(brief, 'render', 'Test these values', 'Go ahead', '2026-11-16')
+        briefs.note(brief, 'assumption_concern', 'Business relocation allowance is a template value.', 'financing')
+        with self.assertRaises(ValueError):
+            briefs.note(brief, 'rant', 'x')
+        with self.assertRaisesRegex(ValueError, 'agent notes'):
+            validate_request(dict(REQUEST, prepared_by='Codex; caveats about title and zoning'))
+        engine.build(REQUEST, self.tmp / 'notes', EVIDENCE, self.uw[:1], brief=brief)
+        report = json.loads((self.tmp / 'notes/report.json').read_text())
+        steps = {st['step']: st['decisions'] for st in report['process']['steps']}
+        self.assertEqual((steps['massing'], steps['financing']), (1, 1))
+        self.assertIn('Agent notes', (self.tmp / 'notes/report.html').read_text())
+        self.assertIn('Business relocation allowance', (self.tmp / 'notes/report.html').read_text())
+
     def test_request_contract(self):
         with self.assertRaises(ValueError):
             validate_request(dict(REQUEST, version='1.0'))

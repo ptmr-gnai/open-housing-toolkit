@@ -83,7 +83,10 @@ def verify_input(role, folder):
         from housing_geometry.engine import verify
         return verify(folder)
     if role == 'render':
-        from housing_render.engine import verify
+        if (folder / 'manifest.json').exists() and load(folder / 'manifest.json').get('module') == 'massing-concept':
+            from housing_concept.engine import verify
+        else:
+            from housing_render.engine import verify
         return verify(folder)
     if role == 'activity':
         from housing_activity.engine import verify

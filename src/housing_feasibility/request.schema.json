@@ -8,9 +8,9 @@
   "required": ["version", "title", "base_case", "prepared_on", "prepared_by"],
   "properties": {
     "version": {"const": "1.1"},
-    "title": {"type": "string", "minLength": 1, "maxLength": 2000, "description": "Report title, e.g. 'Site feasibility: 57 East Burnside Avenue'"},
-    "base_case": {"type": "string", "minLength": 1, "maxLength": 2000, "description": "Underwriting request id shown as the base case"},
+    "title": {"type": "string", "minLength": 1, "maxLength": 90, "description": "Report title, e.g. 'Site feasibility: 57 East Burnside Avenue'"},
+    "base_case": {"type": "string", "minLength": 1, "maxLength": 120, "description": "Underwriting request id shown as the base case"},
     "prepared_on": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
-    "prepared_by": {"type": "string", "minLength": 1, "maxLength": 2000, "description": "Who assembled it, e.g. 'Codex agent with user approval'"}
+    "prepared_by": {"type": "string", "minLength": 1, "maxLength": 60, "pattern": "^[^;\\n]*$", "description": "Who assembled it, e.g. 'Codex agent with user approval'"}
   }
 }

@@ -100,7 +100,8 @@ massing and money inputs, each scenario becomes a verified underwriting package,
 the [feasibility report](../../assemble-feasibility-report/SKILL.md) is the deliverable
 (open its `report.html`). Never write your own report or comparison script.
 
-**A picture (d).** When the picture is for a specific lot, offer to research the lot
+**A picture (d).** When a massing exists, use [render-massing-concept](../../render-massing-concept/SKILL.md)
+so the picture shows the modelled building. When the picture is for a specific lot, offer to research the lot
 first (records, zoning, a schematic massing) so the building's height and size come
 from what the lot allows rather than a guess; a quick standalone illustration is the
 fallback if they just want a feel. Massing needs a researched Bronx lot and assumed dimensions:

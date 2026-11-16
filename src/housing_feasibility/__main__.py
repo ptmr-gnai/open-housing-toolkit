@@ -17,7 +17,7 @@ from pathlib import Path
 
 from .engine import build, bundle, continue_from, load, save, verify, verify_html
 from . import brief as briefs
-from .brief import PERSONAS, STEPS
+from .brief import NOTE_KINDS, PERSONAS, STEPS
 
 
 def main(argv=None):
@@ -62,10 +62,15 @@ def main(argv=None):
     x.add_argument('--item', action='append', required=True, help='"Label=value"; repeatable')
     x = br.add_parser('decide', help='Record a decision: what you proposed and what the user answered')
     x.add_argument('--brief', required=True)
-    x.add_argument('--step', required=True, choices=STEPS)
-    x.add_argument('--proposed', required=True)
+    x.add_argument('--step', required=True, help='One or more of %s, comma-separated' % ', '.join(STEPS))
+    x.add_argument('--proposed', required=True, help='What you proposed, in one or two sentences (max 280 characters)')
     x.add_argument('--answer', required=True, help="The user's answer, in their words")
     x.add_argument('--on', help='Date, default today')
+    x = br.add_parser('note', help='Record your own note (friction, data issue, assumption concern, idea) for the report appendix')
+    x.add_argument('--brief', required=True)
+    x.add_argument('--kind', required=True, choices=sorted(NOTE_KINDS))
+    x.add_argument('--text', required=True, help='One or two sentences (max 300 characters)')
+    x.add_argument('--step', default='other', help='Which step it concerns')
     args = parser.parse_args(argv)
     if args.command == 'build':
         result = build(load(args.request), args.out, args.evidence, args.underwriting, args.massing,
@@ -75,8 +80,10 @@ def main(argv=None):
             result = briefs.start(args.out, args.goal, args.persona, args.item)
         elif args.action == 'provide':
             result = briefs.provide(args.brief, args.item)
-        else:
+        elif args.action == 'decide':
             result = briefs.decide(args.brief, args.step, args.proposed, args.answer, args.on)
+        else:
+            result = briefs.note(args.brief, args.kind, args.text, args.step)
     elif args.command == 'verify':
         result = verify_html(args.html, args.run) if args.html else verify(args.run)
     elif args.command == 'bundle':

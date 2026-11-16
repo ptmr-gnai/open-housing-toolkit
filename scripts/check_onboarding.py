@@ -11,7 +11,7 @@ HISTORICAL_LEAVES = {
     'publish-evidence-packet', 'run-analysis-recipe', 'compare-housing-programs',
     'prepare-rer-draft', 'build-grounded-massing', 'prepare-render-brief', 'render-site-concept',
 }
-LEAVES = HISTORICAL_LEAVES | {'discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites','collect-ownership-evidence','assemble-feasibility-report','check-development-activity'}
+LEAVES = HISTORICAL_LEAVES | {'discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites','collect-ownership-evidence','assemble-feasibility-report','check-development-activity','render-massing-concept'}
 
 
 def check(root=ROOT):
@@ -74,7 +74,7 @@ def check(root=ROOT):
     # The coordinator routes lazily through the module map, not by preloading leaves.
     mapping = root / 'skills/start-here/references/modules.md'
     text = mapping.read_text()
-    for name in ['check-development-activity','assemble-feasibility-report','collect-ownership-evidence','discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites', 'housing-investigation', 'run-analysis-recipe', 'compare-housing-programs',
+    for name in ['render-massing-concept','check-development-activity','assemble-feasibility-report','collect-ownership-evidence','discover-housing-sites','discover-nonhousing-sites','model-rental-underwriting','goal-seek-housing-sites', 'housing-investigation', 'run-analysis-recipe', 'compare-housing-programs',
                  'prepare-rer-draft', 'build-grounded-massing', 'prepare-render-brief', 'render-site-concept']:
         if f'../../{name}/SKILL.md' not in text:
             problems.append(f'Coordinator missing current route: {name}')

@@ -73,11 +73,12 @@ def summary_lines(r):
                  % (h['scenarios_with_gap'], h['scenarios'], musd(lo), musd(hi)))
     z = r['zoning']
     if z['massing_comparison']:
-        parts = ['%s stories: %s' % (m['stories'], text(m['status']).lower()) for m in z['massing_comparison']]
+        parts = ['%s stories: %s' % (m['stories'], text(m['status'])[0].lower() + text(m['status'])[1:]) for m in z['massing_comparison']]
         lines.append('Zoning check against recorded FAR: ' + '; '.join(parts) + '.')
     if r['ownership'] and r['ownership']['latest_recorded_deed']:
         d = r['ownership']['latest_recorded_deed']
-        lines.append('Latest recorded deed: %s, recorded amount %s.' % (d['recorded_date'], usd(d['recorded_amount_usd'])))
+        amount = usd(d['recorded_amount_usd']) if d['recorded_amount_usd'] and Decimal(d['recorded_amount_usd']) > 0 else 'no price recorded'
+        lines.append('Latest recorded deed: %s, %s.' % (d['recorded_date'], amount if amount == 'no price recorded' else 'recorded amount ' + amount))
     return lines
 
 
@@ -138,6 +139,7 @@ def embed(run, path):
 
 
 STEP_STATUS = {'ran': '✓', 'not_run': '—'}
+NOTE_TEXT = {'friction': 'Friction', 'data_issue': 'Data issue', 'assumption_concern': 'Assumption to question', 'idea': 'Idea'}
 ACTIVITY_TEXT = {'active_development': 'Active development recorded', 'site_preparation': 'Site preparation (fence)',
                  'none_found': 'None found', 'not_checked': 'Not checked'}
 PATH_TEXT = {'housing_permitted_by_general_use_rule': 'housing allowed in principle', 'rezoning_path': 'rezoning path',
@@ -413,6 +415,15 @@ def html(r, run=None):
             out.append('<figure><img src="%s" alt="Illustrative concept render"><figcaption>%s · %s · %s</figcaption></figure>'
                        % (embed(run, rd['image']), esc(rd['required_caption']), esc(rd['reference']['attribution']),
                           'Story count: ' + esc(rd['story_status'])))
+            if rd.get('kind') == 'massing_grounded':
+                g = rd['grounding']
+                out.append('<div class="figs"><figure><img src="%s" alt="Front elevation from the massing"><figcaption>What the picture was '
+                           'built from: front elevation drawn to scale from massing %s.</figcaption></figure></div>'
+                           % (embed(run, rd['elevation_svg']), esc(g['massing_id'])))
+                out.append(table(None, [['Stories / height', '%s stories, about %s ft' % (rd['stories'], int(round(g['height_ft'])))],
+                                        ['Ground floor', '%s ft tall, about %s ft along the street' % (int(round(g['ground_floor_height_ft'])), int(round(g['ground_floor_width_ft'])))],
+                                        ['Upper floors', '%s ft each, about %s ft wide, set back %s ft' % (int(round(g['upper_floor_height_ft'] or 0)), int(round(g['upper_floor_width_ft'] or 0)), int(round(g['upper_setback_ft'])))],
+                                        ['Choices', '%s style; %s on the ground floor' % (esc(g['style'].replace('_', ' ')), esc(g['ground_use'].replace('_', ' ')))]]))
             out.append(table(['Review check', 'Status', 'Note'], [[esc(c['id'].replace('_', ' ')), esc(c['status']), esc(c['note'])] for c in rd['review_checks']]))
         else:
             out.append('<p>Render brief prepared (<code>%s</code>); image not yet generated.</p>' % esc(rd['prompt']))
@@ -462,7 +473,7 @@ def html(r, run=None):
     out.append('<h2 id="appendix-decisions">Appendix %s. Decisions</h2>' % next(letter))
     if br['decisions']:
         out.append(table(['Date', 'Step', 'Proposed', 'Answer (user’s words)'],
-                         [[esc(d['decided_on']), esc(d['step']), escape(d['proposed']), '“%s”' % escape(d['answer'])] for d in br['decisions']]))
+                         [[esc(d['decided_on']), esc(d['step'].replace(',', ', ')), escape(d['proposed']), '“%s”' % escape(d['answer'])] for d in br['decisions']]))
     else:
         out.append('<p class="note">No decisions were recorded in the brief.</p>')
     out.append('<h2 id="appendix-sources">Appendix %s. Sources and verification</h2>' % next(letter))
@@ -473,6 +484,14 @@ def html(r, run=None):
     out.append('<p class="note">Evidence fingerprint <code>%s</code> (%s). Each input was re-verified by its own module when this report was built '
                'and again by <code>python -m housing_feasibility verify</code>. The run brief is retained as <code>inputs/brief.json</code>.</p>'
                % (esc(r['provenance']['evidence_fingerprint']), escape(r['provenance']['fingerprint_method'])))
+    out.append('<h2 id="appendix-agent-notes">Appendix %s. Agent notes</h2>' % next(letter))
+    if br['notes']:
+        out.append('<p class="note">Written by the agent that ran the analysis: what was unclear, what looked wrong, what to question, '
+                   'what to improve. They are not findings and change no figure above.</p>')
+        out.append(table(['Kind', 'Step', 'Note'], [[escape(NOTE_TEXT.get(n['kind'], n['kind'])), esc(n['step'].replace(',', ', ')), escape(n['text'])]
+                                                    for n in br['notes']]))
+    else:
+        out.append('<p class="note">The agent recorded no notes.</p>')
     out.append('</main>')
     out.append('<script type="application/json" id="report-data">%s</script>' % _json_block(r))
     out.append('</body></html>\n')
@@ -616,5 +635,8 @@ def markdown(r):
                                                                            for d in br['decisions']] if br['decisions'] else ['No decisions were recorded.']
     lines += ['', '## Appendix %s. Sources and verification' % next(letter), '', '| Source | Publisher / title | Retrieved | SHA-256 |', '|---|---|---|---|']
     lines += ['| [%s](%s) | %s | %s | `%s` |' % (x['id'], x['url'] or '#', text(x['publisher']), (x['retrieved_at'] or '')[:19], (x['sha256'] or '')[:16]) for x in r['sources']]
-    lines += ['', 'Input packages: ' + ', '.join('`%s`' % i['package'] for i in r['inputs']) + '. Each was re-verified by its own module.', '']
+    lines += ['', 'Input packages: ' + ', '.join('`%s`' % i['package'] for i in r['inputs']) + '. Each was re-verified by its own module.']
+    lines += ['', '## Appendix %s. Agent notes' % next(letter), '']
+    lines += ['- **%s** (%s): %s' % (NOTE_TEXT.get(n['kind'], n['kind']), n['step'], n['text']) for n in br['notes']] or ['The agent recorded no notes.']
+    lines += ['']
     return '\n'.join(lines)

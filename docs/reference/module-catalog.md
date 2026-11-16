@@ -49,6 +49,13 @@ recent demolition, foundation, excavation, new-building and construction-fence
 records (DOB NOW, legacy DOB, HPD), so lots already being developed are flagged
 before anyone studies them. [Skill](../../skills/check-development-activity/SKILL.md).
 
+## Massing-grounded concept renders
+
+The [concept module](../../src/housing_concept/README.md) draws a to-scale front
+elevation from a verified massing and compiles a fixed, numbers-only image prompt, so
+a picture on a site photo shows the modelled building replacing what is there.
+[Skill](../../skills/render-massing-concept/SKILL.md).
+
 ## Site feasibility report
 
 The [feasibility report module](../../src/housing_feasibility/README.md) assembles a

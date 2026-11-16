@@ -13,13 +13,15 @@ Working directory: repository root. Use `.venv/bin/python` after preflight.
 
 ```sh
 .venv/bin/python -m housing_feasibility template --out runs/NAME/report-request.json
-# edit: title, base_case (an underwriting request id), prepared_on, prepared_by
+# edit: title (one line, max 90), base_case (an underwriting request id), prepared_on,
+# prepared_by (a name only, max 60, e.g. "Codex, assumptions approved by the user");
+# caveats and comments go in agent notes (housing_feasibility brief note), never in these fields
 .venv/bin/python -m housing_feasibility build --request runs/NAME/report-request.json --brief runs/NAME/brief.json \
   --evidence runs/NAME/evidence \
   --underwriting runs/NAME/underwriting \
   --massing runs/NAME/massing-6 \
   --ownership runs/NAME/ownership \
-  --render runs/NAME/render \
+  --render runs/NAME/concept-7 \
   --discovery runs/AREA/discovery \
   --out runs/NAME/report
 .venv/bin/python -m housing_feasibility verify --run runs/NAME/report

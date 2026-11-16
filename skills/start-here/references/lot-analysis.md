@@ -25,7 +25,14 @@ quote the user; don't paraphrase. Pick `--persona` from the user's own role
 
 Add a `brief provide --item "Label=value"` when the user hands over something new (a
 photo, a budget, a constraint). Record at least the search area, the chosen site
-(with the user's reason), the massing and the financing approvals.
+(with the user's reason), the massing and the financing approvals. One user answer
+is one decision: if it approves several things, list them (`--step massing,financing,render`).
+
+Report fields are short and fixed (a title, a name in `prepared_by`, short labels).
+Your own caveats, friction, data doubts and ideas go in agent notes, which the report
+prints in its last appendix:
+`.venv/bin/python -m housing_feasibility brief note --brief runs/NAME/brief.json --kind assumption_concern --step financing --text "..."`
+(kinds: friction, data_issue, assumption_concern, idea).
 
 Before step 3, show the user every assumption in one list and wait for a yes:
 heights; ground-floor shop area; floor heights (15 ft ground, 10 ft upper); upper
@@ -123,12 +130,13 @@ done
 
 ## 5. Picture (needs a site photo or Street View screenshot)
 
-`plan-7/render-scenario.json` already matches the massing's story count; confirm its
-architectural treatment with the user. Write the scene from the user's photo and
-follow [prepare-render-brief](../../prepare-render-brief/SKILL.md) with
-`--scenario runs/NAME/plan-7/render-scenario.json --photo PATH --analysis runs/NAME/evidence/ir.json`,
-then [render-site-concept](../../render-site-concept/SKILL.md) in Codex, or the
-[runtime route](agent-runtimes.md) handoff in Claude Code.
+Only after the massing exists. Ask the user for a style (brick, light masonry, metal
+and glass) and what goes on the ground floor (shops, shops and a supermarket,
+community space), then follow [render-massing-concept](../../render-massing-concept/SKILL.md):
+`housing_concept prepare` compiles the prompt and a to-scale elevation from the
+massing; generate with the photo and the elevation as the two references, using
+`prompt.txt` exactly; review; attach. In Claude Code, prepare and hand the user the
+Codex sentence from the [runtime route](agent-runtimes.md).
 
 ## 6. The report
 
@@ -145,7 +153,7 @@ approved the inputs, e.g. "Codex, assumptions approved by the user".
 .venv/bin/python -m housing_feasibility build --request runs/NAME/report-request.json --brief runs/NAME/brief.json \
   --evidence runs/NAME/evidence --underwriting runs/NAME/underwriting \
   --massing runs/NAME/massing-7 --massing runs/NAME/massing-9 --ownership runs/NAME/ownership \
-  --discovery runs/NAME/discovery --activity runs/NAME/activity [--render runs/NAME/render] --out runs/NAME/report
+  --discovery runs/NAME/discovery --activity runs/NAME/activity [--render runs/NAME/concept-7] --out runs/NAME/report
 ```
 
 Open `report/report.html` and summarise the yield on cost (year-1 net operating

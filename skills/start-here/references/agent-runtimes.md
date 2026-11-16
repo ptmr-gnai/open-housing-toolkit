@@ -51,6 +51,14 @@ and run `python -m housing_render verify --run YOUR_RUN`. Inspect `brief.md`,
 `prompt.txt` and `render-brief.json`. A valid brief can exist without an accessible
 conversation photo; verify that asset separately before promising generation.
 
+## Massing-grounded concepts (preferred when a massing exists)
+
+[render-massing-concept](../../render-massing-concept/SKILL.md) compiles the prompt
+and a to-scale elevation from the massing. In Codex, generate with the photo and
+`elevation.png` as the two references and `prompt.txt` exactly, then review and
+attach. In Claude Code, prepare, then offer: "Generate the concept for
+runs/NAME/concept-7 following skills/render-massing-concept/SKILL.md."
+
 ## Codex: generate when requested
 
 Read [render-site-concept](../../render-site-concept/SKILL.md) and the current host

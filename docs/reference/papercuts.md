@@ -1,5 +1,16 @@
 # Papercut log
 
+November 16, 2026, isolated Codex demo (68 East Burnside): the run followed every
+step, but the report filled with agent text (293-character "prepared by", long
+provided values, one approval logged three times) and the picture stacked brick floors
+on the existing one-story stores. The photo renderer took only a story count from the
+massing, and its built-in prompt still names "the ORIGINAL white-and-blue
+single-story commercial building photograph" from the first example
+(`src/housing_render/brief.py:26`, pinned; left as is). Fixes: field caps with
+messages pointing to typed agent notes (new report appendix), multi-step decisions,
+and `housing_concept`, which draws a to-scale elevation from the massing and compiles a
+numbers-only prompt.
+
 November 16, 2026, development activity: the dry-run lot 57 East Burnside Avenue
 (PLUTO: one-story store) turned out, from a Street View screenshot and DOB NOW
 Approved Permits (`rbx6-tga4`), to be demolished (signed off May 2026) with

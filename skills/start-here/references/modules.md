@@ -21,6 +21,7 @@ linked skill for input collection, execution and verification.
 | Build assumed geometry | [build-grounded-massing](../../build-grounded-massing/SKILL.md) | [guide](../../../src/housing_geometry/README.md), [spec](../../../docs/reference/specs/geometry-grounding.md) |
 | Is a lot already being built? (recent demolition, foundation, new-building permits) | [check-development-activity](../../check-development-activity/SKILL.md) | [module](../../../src/housing_activity/README.md) |
 | Put a lot analysis into one standard report (sources and uses, pro forma, sensitivity) | [assemble-feasibility-report](../../assemble-feasibility-report/SKILL.md) | [module](../../../src/housing_feasibility/README.md), [request schema](../../../src/housing_feasibility/request.schema.json) |
+| Picture of a modelled building on a site photo (preferred when a massing exists) | [render-massing-concept](../../render-massing-concept/SKILL.md) | [module](../../../src/housing_concept/README.md) |
 | Bring a photo and visual assumptions | [prepare-render-brief](../../prepare-render-brief/SKILL.md), then [render-site-concept](../../render-site-concept/SKILL.md) | [render guide](../../../src/housing_render/README.md), [examples](../../../examples/site-concept/README.md) |
 
 For the supported Codex image-tool and Claude Code export paths, follow
