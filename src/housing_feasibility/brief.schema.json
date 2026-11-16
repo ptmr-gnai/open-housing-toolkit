@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-housing-toolkit.local/housing-feasibility/brief-1.0.schema.json",
+  "title": "Run brief",
+  "description": "Started before any work; appended as the user decides. Write it with python -m housing_feasibility brief start|provide|decide.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "goal", "persona", "provided", "decisions"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "goal": {"type": "string", "minLength": 1, "maxLength": 4000, "description": "The user's goal, quoted in their words"},
+    "persona": {"enum": ["housing_agency", "developer", "community", "other"]},
+    "provided": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["label", "value"],
+      "properties": {"label": {"type": "string", "minLength": 1, "maxLength": 200}, "value": {"type": "string", "minLength": 1, "maxLength": 4000}}}},
+    "decisions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["step", "proposed", "answer", "decided_on"],
+      "properties": {"step": {"enum": ["search", "select", "research", "massing", "financing", "render", "report", "other"]},
+        "proposed": {"type": "string", "minLength": 1, "maxLength": 4000, "description": "What the agent proposed"},
+        "answer": {"type": "string", "minLength": 1, "maxLength": 4000, "description": "The user's answer, in their words"},
+        "decided_on": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}}}}
+  }
+}

@@ -47,20 +47,36 @@ def search(text, size=5):
 
 
 def stations(name, routes=None):
-    words = name.upper().replace("'", "''")
-    url = STATIONS + '?' + urllib.parse.urlencode({'$where': "upper(stop_name) like '%" + words + "%'", '$limit': 50})
-    req = urllib.request.Request(url, headers={'User-Agent': 'OpenHousingToolkit-Locate/1.0'})
-    with urllib.request.urlopen(req, timeout=30) as response:
-        rows = json.load(response)
-    found = []
+    tokens = [t for t in re.split(r'[\s\-/]+', name.upper().replace("'", "''")) if t and t not in ('STATION', 'STN')]
+    where = ' and '.join("upper(stop_name) like '%" + t + "%'" for t in tokens) or "stop_name is not null"
+    rows = _station_rows(where)
+    if not rows and len(tokens) > 1:
+        # Common names differ from MTA names (149 St-Grand Concourse is "149 St-Hostos"): offer near matches.
+        rows = _station_rows("upper(stop_name) like '%" + tokens[0] + "%'")
+    wanted = set(routes.upper().replace(',', ' ').replace('/', ' ').split()) if routes else set()
+    complexes = {}
     for r in rows:
         served = set((r.get('daytime_routes') or '').split())
-        if routes and not set(routes.upper().split()) & served:
+        if wanted and not wanted & served:
             continue
-        found.append({'label': '%s station (%s), %s' % (r['stop_name'], r.get('daytime_routes', ''), r.get('borough')),
-                      'borough': STATION_BOROUGHS.get(r.get('borough')), 'lat': float(r['gtfs_latitude']),
-                      'lon': float(r['gtfs_longitude']), 'bbl': None})
+        key = r.get('complex_id') or r['stop_name']
+        complexes.setdefault(key, []).append(r)
+    found = []
+    for group in complexes.values():
+        names = sorted({r['stop_name'] for r in group})
+        lines = ' '.join(sorted({x for r in group for x in (r.get('daytime_routes') or '').split()}))
+        found.append({'label': '%s station (%s), %s' % (' / '.join(names), lines, group[0].get('borough')),
+                      'borough': STATION_BOROUGHS.get(group[0].get('borough')),
+                      'lat': round(sum(float(r['gtfs_latitude']) for r in group) / len(group), 6),
+                      'lon': round(sum(float(r['gtfs_longitude']) for r in group) / len(group), 6), 'bbl': None})
     return found
+
+
+def _station_rows(where):
+    url = STATIONS + '?' + urllib.parse.urlencode({'$where': where, '$limit': 50})
+    req = urllib.request.Request(url, headers={'User-Agent': 'OpenHousingToolkit-Locate/1.0'})
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return json.load(response)
 
 
 def bbox(lat, lon, radius_m):
@@ -93,9 +109,12 @@ def main():
 
     if a.command == 'area' and a.station:
         matches = stations(a.station, a.routes)
+        exact = [m for m in matches if m['label'].upper().startswith(a.station.upper() + ' STATION')]
+        if len(matches) > 1 and len(exact) == 1:
+            matches = exact
         if len(matches) > 1:
             print(json.dumps({'status': 'ambiguous', 'options': [m['label'] for m in matches],
-                              'hint': 'Add --routes with the lines serving the intended station.'}, indent=2))
+                              'hint': 'Ask the user which one, then rerun with that exact name and --routes, or use --lat/--lon.'}, indent=2))
             return 1
     elif a.command == 'area' and a.lat is not None:
         if a.lon is None or not a.borough:

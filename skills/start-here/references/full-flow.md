@@ -72,7 +72,9 @@ camera alignment or fidelity. Never invent imagery, source assets or provider re
 Reserve a unique fresh local `runs/` project directory before writing anything:
 create it exclusively, and if it already exists choose another name. Never write
 into an existing run, including its inputs, to set up a new trial or project. Use a
-human-readable `stage-status.md` as the continuity record. Record the user's intent and selected outcomes, site identity,
+human-readable `stage-status.md` as the continuity record, and for a lot analysis
+also the typed run brief (`housing_feasibility brief`, see [full lot analysis](lot-analysis.md))
+for the user's goal and each decision. Record the user's intent and selected outcomes, site identity,
 approved assumptions and rationales, supplied assets and provenance, artifact paths
 and source dates, pending decisions, and the stage states below. Link actual requests,
 receipts and packets rather than duplicating or altering their verified contents.
@@ -109,6 +111,9 @@ becomes relevant. Continue independent ready branches if another is blocked.
 - **RER:** if relevant, follow [RER preparation](../../prepare-rer-draft/SKILL.md)
   with its verified comparison and preparation metadata. Incomplete drafts remain
   incomplete and applicability is not inferred.
+- **Financing:** for a rental program, follow [underwriting](../../model-rental-underwriting/SKILL.md):
+  one verified package per scenario (heights, rents, costs), each with approved inputs.
+  A gap is what the stated sources leave unfunded, not a feasibility finding.
 - **Geometry and visual:** assess each independently. Follow
   [geometry](../../build-grounded-massing/SKILL.md) with its required geometry and
   explicit assumptions. For a photo concept follow [render preparation](../../prepare-render-brief/SKILL.md)
@@ -125,7 +130,12 @@ relevance awaits input until clarified, or is declined when explicitly declined.
 Do not invent successful dependencies. A stage's failure does not stop independent
 ready branches.
 
-At handoff provide a short cited cover note and ledger, what exists, source vintage,
+For the command chain from area search to report see [full lot analysis](lot-analysis.md).
+When a lot has evidence and at least one verified underwriting package, finish with
+[the feasibility report](../../assemble-feasibility-report/SKILL.md), passing every
+verified package for that lot (ownership, massing, all scenarios, render, the area
+search). It is the standard deliverable; do not write your own report script or
+comparison table. At handoff provide a short cited cover note and ledger, what exists, source vintage,
 meaningful limitations, the next useful decisions and how to resume. If awaiting an
 answer, end the user-facing response with one or two direct questions, in plain
 language, rather than only naming prerequisites in the ledger. Ask for the

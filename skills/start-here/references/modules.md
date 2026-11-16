@@ -6,6 +6,7 @@ linked skill for input collection, execution and verification.
 | Need | Skill | Contracts / implementation / references |
 | --- | --- | --- |
 | Install and guide a first-time user | [first visit](first-visit.md) | `scripts/preflight.py`, `scripts/locate.py` |
+| Take one lot from area search to report | [full lot analysis](lot-analysis.md) | `scripts/plan_lot.py`, existing modules |
 | Guide an uncertain or whole-flow request | [practitioner guide](full-flow.md) | Existing independent modules, verified handoffs and resumable stage ledger |
 | Discover all recorded nonhousing sites and zoning paths | [discover-nonhousing-sites](../../discover-nonhousing-sites/SKILL.md) | [discovery guide](../../../docs/guides/discover-sites.md), [module](../../../src/housing_site_discovery/README.md) |
 | Test housing/capital/rent/public-context targets | [goal-seek-housing-sites](../../goal-seek-housing-sites/SKILL.md) | [goal search](../../../src/housing_site_search/README.md), verified discovery and explicit financial template |
@@ -17,6 +18,7 @@ linked skill for input collection, execution and verification.
 | Compare explicit housing offers | [compare-housing-programs](../../compare-housing-programs/SKILL.md) | [guide](../../../src/housing_benefit/README.md), [request schema](../../../src/housing_benefit/request.schema.json), [example inputs and reference pack](../../../examples/affordability-inputs/README.md) |
 | Prepare RER drafts | [prepare-rer-draft](../../prepare-rer-draft/SKILL.md) | [guide](../../../src/housing_rer/README.md), [request schema](../../../src/housing_rer/request.schema.json), [pinned sources](../../../src/housing_rer/guidance.json), [instruction map](../../../src/housing_rer/requirements.json), [source-preparation script](../../../scripts/prepare_rer_guidance.py) |
 | Build assumed geometry | [build-grounded-massing](../../build-grounded-massing/SKILL.md) | [guide](../../../src/housing_geometry/README.md), [spec](../../../docs/reference/specs/geometry-grounding.md) |
+| Put a lot analysis into one standard report (sources and uses, pro forma, sensitivity) | [assemble-feasibility-report](../../assemble-feasibility-report/SKILL.md) | [module](../../../src/housing_feasibility/README.md), [request schema](../../../src/housing_feasibility/request.schema.json) |
 | Bring a photo and visual assumptions | [prepare-render-brief](../../prepare-render-brief/SKILL.md), then [render-site-concept](../../render-site-concept/SKILL.md) | [render guide](../../../src/housing_render/README.md), [examples](../../../examples/site-concept/README.md) |
 
 For the supported Codex image-tool and Claude Code export paths, follow

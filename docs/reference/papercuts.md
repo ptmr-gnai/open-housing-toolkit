@@ -1,5 +1,21 @@
 # Papercut log
 
+November 16, 2026, full-chain dry runs (area search → lot → ownership → massing →
+18 financing scenarios → feasibility report) by Claude Code, two cold Haiku agents
+(Fordham Rd, 149 St) and Codex (Tremont Av). All four reached a verified report.
+Fixes from their friction logs: the new [feasibility report](../../src/housing_feasibility/README.md)
+replaces agent-written report scripts; `scripts/plan_lot.py` (shortlist, massing,
+scenarios, results, ownership) replaces hand-written polygons, underwriting JSON and
+CSV/JSON one-liners; irregular lots fit the largest rectangle at any edge angle;
+defaults are listed for approval before massing; station names match MTA complexes;
+the report adds yield on cost and loan to cost so a gap is not misread. Known and
+left: the geometry runbook links `docs/specs/geometry-grounding.md` (real path
+`docs/reference/specs/`) but its bytes are pinned by retained massing packages;
+discovery's `residential_type_limits` text mentions C3A for any commercial district;
+the lot evidence packet omits commercial/community-facility FAR and lot frontage;
+`runs/preflight.json` names whichever agent last ran preflight; financing templates
+are sized for a 60-home building (per-home and size-scaled lines are labelled).
+
 November 15, 2026, cold-start tests of "install this and let's start": a fresh
 Claude Code (Sonnet) agent and Codex CLI each installed or reused the checkout, ran
 preflight, gave the orientation and asked both questions. Claude ran a live site

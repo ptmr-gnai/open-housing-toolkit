@@ -26,6 +26,7 @@ professional usefulness, feasibility and submission readiness remain unvalidated
 | 1. Find candidate lots | Which lots in an area are recorded as nonhousing, and what zoning path applies? | Working v1, all five boroughs | [Find sites](docs/guides/discover-sites.md) |
 | 2. Investigate a lot | What do public records say about this Bronx lot? | Working | [Investigate a lot](docs/guides/investigate-a-lot.md) |
 | 3. Model scenarios | Could a stated program and financing work here? | Experimental: needs expert assumptions | [Status](docs/status.md#3-model-scenarios) |
+| 4. Feasibility report | What does the whole analysis say, in a standard format? | New: layout open for practitioner review | [Full lot analysis](skills/start-here/references/lot-analysis.md) |
 
 **[Where things stand, and open questions for practitioners →](docs/status.md)**
 

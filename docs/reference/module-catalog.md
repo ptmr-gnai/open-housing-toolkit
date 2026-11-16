@@ -42,6 +42,15 @@ tax-roll owner that lags the latest deed as a conflict. Not a title opinion.
 [retained runs](../../research/ownership-evidence/README.md) ·
 [source catalog](source-catalog.md).
 
+## Site feasibility report
+
+The [feasibility report module](../../src/housing_feasibility/README.md) assembles a
+lot's verified evidence, ownership, massing, underwriting scenarios and render into
+one standard memo: site, zoning, sources and uses, operating pro forma, debt sizing,
+sensitivity, open items and sources. It re-verifies every input and adds no new
+estimates; `report.json` is the typed version for other tools.
+[Skill](../../skills/assemble-feasibility-report/SKILL.md).
+
 ## Edit the analysis recipe
 
 For a practitioner investigating a known lot, the numerical modeling stage can

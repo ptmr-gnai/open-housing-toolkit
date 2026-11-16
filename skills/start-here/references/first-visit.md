@@ -48,7 +48,10 @@ renders here; to generate the picture itself you'd open the prepared brief in Co
 >    e. Not sure yet: show me a two-minute example first
 
 Skip anything the user already told you. Accept loose answers ("near the 4 train in
-the Bronx", "something like a render") and confirm your reading.
+the Bronx", "something like a render") and confirm your reading. Then create
+`runs/NAME/` and start the run brief with their goal quoted word for word
+(`housing_feasibility brief start`, step 0 of [full lot analysis](lot-analysis.md));
+record each later choice with `brief decide`.
 
 ## 4. Follow the matching route
 
@@ -66,13 +69,16 @@ to widen or narrow it afterwards. Create the request:
 
 Then run collect, context and discover from [Find sites](../../../docs/guides/discover-sites.md)
 with `--input runs/NAME/request.json` and outputs under `runs/NAME/`. A small area
-takes about a minute. If collect reports 0 lots, read `inventory/receipts.json`
+takes one to four minutes. If collect reports 0 lots, read `inventory/receipts.json`
 before saying anything. Report: how many lots, how many are recorded as nonhousing,
-how they split by zoning path, and three or four example sites in plain words,
+how they split by zoning path, and three or four example sites from
+`.venv/bin/python scripts/plan_lot.py shortlist --discovery runs/NAME/discovery` in plain words,
 copying each address and tax lot exactly from the packet. On a Mac, open the result
 for them with `open runs/NAME/discovery/packet.html`; mention `all-lots.csv` as the
 spreadsheet of every lot. Then offer: research one of these lots,
 try another area, or test a housing goal ([goal search](../../goal-seek-housing-sites/SKILL.md)).
+To take one lot all the way (records, 3D sketch, money, picture, report), follow
+[full lot analysis](lot-analysis.md).
 
 **Research one lot (b).** Resolve it with
 `.venv/bin/python scripts/locate.py lookup "ADDRESS"` and confirm the address and
@@ -87,7 +93,11 @@ it, when, and the recorded amount).
 **Model what could be built (c).** Explain that the arithmetic is checked but the
 inputs (costs, rents, financing) are judgement calls the user or an advisor should
 make. Follow the branches in the [practitioner guide](full-flow.md): propose clearly
-labelled assumptions with reasons and get approval before calculating.
+labelled assumptions with reasons and get approval before calculating. Use the
+steps in [full lot analysis](lot-analysis.md): `scripts/plan_lot.py` writes matching
+massing and money inputs, each scenario becomes a verified underwriting package, and
+the [feasibility report](../../assemble-feasibility-report/SKILL.md) is the deliverable
+(open its `report.html`). Never write your own report or comparison script.
 
 **A picture (d).** When the picture is for a specific lot, offer to research the lot
 first (records, zoning, a schematic massing) so the building's height and size come

@@ -17,7 +17,8 @@ outputs and follow [the local-only policy](../../docs/guides/local-only.md).
 A site-only address or BBL without an outcome needs the guided outcome menu, not
 the narrow evidence shortcut. For first-time, site-only, uncertain, broad and
 full-flow requests, follow [the practitioner guide](references/full-flow.md) and
-keep its stage ledger. For an explicitly narrower live known-lot workflow, read [Investigate a lot](../../docs/guides/investigate-a-lot.md).
+keep its stage ledger. To take one lot from area search to a finished report, use
+[full lot analysis](references/lot-analysis.md). For an explicitly narrower live known-lot workflow, read [Investigate a lot](../../docs/guides/investigate-a-lot.md).
 It collects the inputs and sequences existing modules. Return the linked cover-note
 template as a reviewer-authored handoff; do not claim it is automatically verified.
 

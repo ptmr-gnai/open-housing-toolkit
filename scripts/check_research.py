@@ -30,6 +30,7 @@ VALIDATORS = [
     'research/ownership-evidence/validate.py',
 ]
 TEST_DIRS = [
+    'tests/housing_feasibility',
     'tests/housing_ownership',
     'tests/housing_site_discovery',
     'tests/housing_site_review',
